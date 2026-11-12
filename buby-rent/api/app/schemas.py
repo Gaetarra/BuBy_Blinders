@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-from .models import STATI_VEICOLO
+from .models import FASE_ISPEZIONE, STATI_MANUTENZIONE, STATI_TRASFERIMENTO, STATI_VEICOLO
 
 EMAIL_PATTERN = r"^[^@\s]+@[^@\s]+\.[^@\s]+$"
 
@@ -51,6 +51,129 @@ class PrenotazioneOut(BaseModel):
     inizio: datetime
     fine: datetime
     stato: str
+
+
+class IspezioneIn(BaseModel):
+    fase: str = Field(default="ritiro")
+    km: int | None = Field(default=None, ge=0)
+    carburante: int | None = Field(default=None, ge=0, le=100)
+    batteria: int | None = Field(default=None, ge=0, le=100)
+    foto_url: str | None = Field(default=None, max_length=255)
+    note: str | None = Field(default=None, max_length=500)
+    danni_rilevati: bool = False
+
+    @field_validator("fase")
+    @classmethod
+    def fase_valida(cls, v: str) -> str:
+        if v not in FASE_ISPEZIONE:
+            raise ValueError(f"fase non valida, usa uno tra: {', '.join(FASE_ISPEZIONE)}")
+        return v
+
+
+class IspezioneOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    prenotazione_id: int
+    fase: str
+    km: int | None
+    carburante: int | None
+    batteria: int | None
+    foto_url: str | None
+    note: str | None
+    creato_il: datetime
+
+
+class SegnalazioneIn(BaseModel):
+    categoria: str = Field(default="guasto", min_length=1, max_length=30)
+    testo: str = Field(min_length=1, max_length=1000)
+
+
+class SegnalazioneOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    veicolo_id: int
+    cliente_id: int | None
+    categoria: str
+    testo: str
+    creato_il: datetime
+
+
+class ManutenzioneIn(BaseModel):
+    descrizione: str = Field(min_length=1, max_length=500)
+    stato: str = Field(default="programmata")
+    inizio: datetime | None = None
+    fine: datetime | None = None
+
+    @field_validator("stato")
+    @classmethod
+    def stato_valido(cls, v: str) -> str:
+        if v not in STATI_MANUTENZIONE:
+            raise ValueError(f"stato non valido, usa uno tra: {', '.join(STATI_MANUTENZIONE)}")
+        return v
+
+
+class ManutenzioneOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    veicolo_id: int
+    descrizione: str
+    stato: str
+    inizio: datetime | None
+    fine: datetime | None
+
+
+class TrasferimentoIn(BaseModel):
+    sede_destinazione_id: int
+    inizio: datetime | None = None
+    fine: datetime | None = None
+    stato: str = Field(default="programmato")
+    note: str | None = Field(default=None, max_length=500)
+
+    @field_validator("stato")
+    @classmethod
+    def stato_valido(cls, v: str) -> str:
+        if v not in STATI_TRASFERIMENTO:
+            raise ValueError(f"stato non valido, usa uno tra: {', '.join(STATI_TRASFERIMENTO)}")
+        return v
+
+
+class TrasferimentoOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    veicolo_id: int
+    sede_origine_id: int
+    sede_destinazione_id: int
+    inizio: datetime | None
+    fine: datetime | None
+    stato: str
+    note: str | None
+
+
+class DashboardFlottaOut(BaseModel):
+    sede_id: int
+    veicoli_totali: int
+    veicoli_per_stato: dict[str, int]
+    veicoli: list[VeicoloOut]
+    prenotazioni: list[PrenotazioneOut]
+
+
+class ClienteRiferimento(BaseModel):
+    id: int
+
+
+class CollegamentoSupabaseIn(BaseModel):
+    nome: str | None = Field(default=None, min_length=1, max_length=100)
+    tipo: str = Field(default="privato", pattern="^(privato|azienda)$")
+    accetta_privacy: bool = False
+
+
+class CheckInOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    stato: str
+    veicolo_id: int
+    foto_url: str | None = None
+    note: str | None = None
 
 
 class RegistrazioneIn(BaseModel):

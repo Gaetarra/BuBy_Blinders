@@ -107,7 +107,7 @@ flowchart LR
 
 | Servizio | Tecnologia | Porta | Note |
 | --- | --- | --- | --- |
-| `frontend` | React (oggi un segnaposto servito da nginx) | 3000 | Dashboard, ricerca, prenotazioni, area operatore |
+| `frontend` | React/TanStack (Nitro su Node.js) | 3000 | Login, dashboard e gestione flotta; area cliente da completare |
 | `api` | FastAPI | 8000 | Documentazione OpenAPI su `/docs` |
 | `db` | PostgreSQL 16 | 5432 (interna) | Dati su volume persistente `pgdata` |
 | Modulo DAI | Python, dentro `api` o servizio separato | – | Previsioni e classificazione; i file di output del team DAI vengono importati |
@@ -170,7 +170,7 @@ erDiagram
     }
 ```
 
-Implementate nel codice: `Sede`, `Veicolo`, `Cliente` (nome ed email cifrati, `email_idx`, `anonimizzato_il`), `Prenotazione`, `Utente` (email cifrata, `email_idx`, password_hash, ruolo, collegamento opzionale a `Cliente` e a `Sede`, `privacy_versione`, `privacy_accettata_il`). Utente e i campi di protezione dati non sono nel diagramma per semplicità; la cifratura è descritta nella sezione 8. Previste ma non ancora implementate: `Ispezione`, `Segnalazione`, `Manutenzione`, `Trasferimento`, `Tariffa`, `Contratto`. I campi delle tabelle di previsione e classificazione del team DAI si decidono nel contratto dati.
+Implementate nel codice: `Sede`, `Veicolo`, `Cliente` (nome ed email cifrati, `email_idx`, `anonimizzato_il`), `Prenotazione`, `Utente` (email cifrata, `email_idx`, password_hash, ruolo, collegamento opzionale a `Cliente` e a `Sede`, `privacy_versione`, `privacy_accettata_il`), `Ispezione`, `Segnalazione`, `Manutenzione` e `Trasferimento`. Utente e i campi di protezione dati non sono nel diagramma per semplicità; la cifratura è descritta nella sezione 8. `Tariffa`, `Contratto` e le tabelle DAI non sono ancora implementate; i relativi campi si decidono nel contratto dati.
 
 ## 6. Logica di disponibilità
 
@@ -183,7 +183,7 @@ Due periodi A e B si sovrappongono quando `inizio_A < fine_B` e `fine_A > inizio
 
 Per evitare doppie prenotazioni simultanee, `POST /prenotazioni` blocca la riga del veicolo (`SELECT ... FOR UPDATE`) all'interno della transazione: due richieste sullo stesso mezzo si accodano e la seconda trova la sovrapposizione e riceve `409`.
 
-Le manutenzioni e i trasferimenti pianificati dovranno entrare nello stesso controllo quando le rispettive tabelle saranno implementate.
+La creazione di una manutenzione attiva o di un trasferimento imposta lo stato bloccante del veicolo. La disponibilità temporale basata su intervalli di manutenzione e trasferimento resta da integrare nel controllo condiviso.
 
 ## 7. Autenticazione e autorizzazione
 
@@ -231,6 +231,8 @@ def cambia_stato(..., utente: Utente = Depends(richiedi_ruoli("operatore", "admi
     ...
 ```
 
+Se `SUPABASE_URL` è configurato, l'API accetta access token Supabase firmati ES256/RS256 e ne verifica la firma con il JWKS del progetto, oltre a issuer, audience e ruolo `authenticated`. Il claim `sub` viene collegato tramite la tabella `identita_supabase` a `Utente`; i ruoli e la sede restano sempre quelli del database. Il collegamento iniziale (`POST /auth/supabase/provision`) verifica l'identità e l'email confermata presso Supabase Auth. Per i nuovi clienti richiede nome e accettazione privacy. In questa modalità `/auth/login` e `/auth/register` locali sono disattivati. Le variabili necessarie sono `SUPABASE_URL` e `SUPABASE_PUBLISHABLE_KEY`; la chiave publishable non è una service-role key.
+
 **Configurazione** (file `.env`):
 
 | Variabile | Uso |
@@ -238,12 +240,17 @@ def cambia_stato(..., utente: Utente = Depends(richiedi_ruoli("operatore", "admi
 | `SECRET_KEY` | Chiave di firma dei token. Genera: `python -c "import secrets; print(secrets.token_hex(32))"` |
 | `ACCESS_TOKEN_MINUTES` | Durata del token (default 60) |
 | `ENVIRONMENT` | `development` o `production`. In `production` le chiavi di sviluppo bloccano l'avvio |
+| `CORS_ORIGINS` | Origini browser autorizzate, separate da virgola; inserire l'URL esatto del preview Lovable, senza wildcard |
+| `VITE_API_URL` | URL API inserito nel bundle frontend; Compose usa `http://localhost:8000` |
+| `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY` | Configurazione browser Supabase, pubblica; Compose la deriva dalle variabili Supabase backend |
 | `ENCRYPTION_KEYS` | Chiavi di cifratura dei dati personali (vedi sezione 8) |
 | `BLIND_INDEX_KEY` | Chiave dell'impronta per cercare l'email (vedi sezione 8) |
+| `SUPABASE_URL` | URL del progetto; se valorizzato abilita i JWT Supabase e disattiva login/registrazione locali |
+| `SUPABASE_PUBLISHABLE_KEY` | Chiave publishable, usata dall'API durante il collegamento iniziale account |
 | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | Admin di prova creato al primo avvio |
 | `OPERATORE_PASSWORD` | Password dell'operatore di prova (`operatore@buby.it`, sede 1) |
 
-**Limiti attuali**: non c'è refresh token (alla scadenza l'utente rifà il login), né logout lato server, né blocco dopo tentativi falliti. Per il frontend, conservare il token in memoria è più sicuro che in `localStorage`.
+**Limiti attuali**: l'autenticazione locale non ha refresh token (alla scadenza l'utente rifà il login), logout lato server o blocco dopo tentativi falliti. Con Supabase il client browser rinnova la sessione in memoria; il JWT non viene salvato in `localStorage`.
 
 ## 8. Protezione dei dati e GDPR
 
@@ -352,6 +359,7 @@ Regole:
 | GET | `/health` | pubblico | Stato del servizio |
 | POST | `/auth/register` | pubblico | Registra un cliente. Richiede `accetta_privacy: true`. `409` se l'email esiste, `422` se i dati non sono validi |
 | POST | `/auth/login` | pubblico | Form con `username` (email) e `password`. Restituisce `access_token`. `401` se errati |
+| POST | `/auth/supabase/provision` | JWT Supabase | Collega un'identità con email verificata all'utente locale; un nuovo cliente deve accettare l'informativa |
 | GET | `/auth/me` | autenticato | Profilo dell'utente corrente |
 | PATCH | `/auth/me` | cliente | Rettifica il proprio nome (art. 16 GDPR) |
 | GET | `/auth/me/dati` | autenticato | Esporta tutti i propri dati personali in JSON (artt. 15 e 20 GDPR) |
@@ -360,8 +368,19 @@ Regole:
 | PATCH | `/veicoli/{id}/stato` | operatore, admin | Cambia lo stato. L'operatore solo nella propria sede. `403`, `404`, `422` |
 | POST | `/prenotazioni` | autenticato | Crea una prenotazione. Errori: `404` veicolo o cliente, `409` non noleggiabile o già prenotato, `422` date non valide |
 | GET | `/prenotazioni?cliente_id=` | autenticato | Il cliente vede le proprie, operatore e admin tutte. Dalla più recente |
+| GET | `/dashboard/flotta?sede_id=&stato_veicolo=&stato_prenotazione=` | operatore, admin | Riepilogo e lista flotta con filtri; l'operatore è limitato alla propria sede, l'admin deve indicare la sede |
+| GET | `/clienti` | operatore, admin | Elenco degli ID cliente per creare prenotazioni per conto terzi; non restituisce nome o email |
+| POST | `/prenotazioni/{id}/checkin` | operatore, admin | Registra ispezione di ritiro (km, carburante/batteria, URL foto e note), avvia il noleggio |
+| POST | `/prenotazioni/{id}/checkout` | operatore, admin | Registra ispezione di riconsegna e chiude il noleggio; se `danni_rilevati` è true, crea una segnalazione e blocca il veicolo |
+| GET | `/prenotazioni/{id}/ispezioni` | operatore, admin | Elenca le ispezioni; l'operatore deve appartenere alla sede del veicolo |
+| GET, POST | `/veicoli/{id}/segnalazioni` | operatore, admin; creazione anche cliente autenticato | Consultazione per la sede o inserimento di una segnalazione |
+| GET, POST | `/veicoli/{id}/manutenzioni` | operatore, admin | Consulta o registra manutenzioni e aggiorna lo stato del veicolo |
+| GET, POST | `/veicoli/{id}/trasferimenti` | operatore, admin | Consulta o programma un trasferimento tra sedi |
+| PATCH | `/trasferimenti/{id}/stato?stato=` | operatore, admin | Aggiorna il trasferimento; al completamento sposta il veicolo alla sede di destinazione |
 
 Tutti gli endpoint protetti rispondono `401` senza token valido e `403` se il ruolo non basta.
+
+Le richieste HTTP dell'API vengono registrate in `buby-rent/logs/api.log` con ID richiesta, metodo, percorso senza query string, status HTTP, durata e tipo dell'eventuale eccezione non gestita. I log ruotano a 10 MB e mantengono cinque file precedenti. Body, query string, header di autenticazione e messaggi delle eccezioni non vengono registrati. L'header `X-Request-ID` permette di correlare una risposta con la riga di log; questo log tecnico non sostituisce il previsto audit nominativo degli accessi ai dati personali.
 
 Esempio di login e prenotazione:
 
@@ -378,10 +397,11 @@ curl -X POST http://localhost:8000/prenotazioni \
 
 Per un cliente, `cliente_id` si ricava dal token e non va inviato. Operatori e admin lo devono indicare.
 
-**Previsti**
+Con Supabase Auth abilitato, ottenere prima il token da Supabase e inviarlo come `Authorization: Bearer <access_token>` a `POST /auth/supabase/provision`. Admin/operatori devono avere un account Supabase con email verificata uguale a quella del rispettivo utente applicativo; i nuovi clienti inviano `{"nome":"...","tipo":"privato","accetta_privacy":true}`. Il frontend React supporta il login Supabase e il collegamento iniziale degli account esistenti; il flusso di registrazione dei nuovi clienti resta da implementare.
 
-- Cliente: `PATCH /prenotazioni/{id}` (annulla, proroga), `POST /segnalazioni`
-- Operatore: `GET /flotta?sede=`, `POST /prenotazioni/{id}/checkin`, `POST /prenotazioni/{id}/checkout`, `GET` e `POST /manutenzioni`, `POST /trasferimenti`
+**Non ancora implementati**
+
+- Cliente: `PATCH /prenotazioni/{id}` (annulla, proroga)
 - Integrazione con il team DAI: `GET /kpi/utilizzo-flotta`, `GET /previsioni/domanda?sede=&da=&a=`, `GET /segnalazioni/{id}/classificazione`, `POST /import/previsioni`, `POST /import/classificazioni`
 
 Schema esatto, risposte di esempio e codici di errore vanno nel contratto dati, che si congela il 20 novembre.
@@ -408,13 +428,15 @@ buby-rent/
 │       ├── encrypted_types.py colonna SQLAlchemy cifrata
 │       ├── rotate_keys.py     rotazione delle chiavi di cifratura
 │       ├── deps.py            utente corrente e controllo dei ruoli
-│       ├── seed.py            dati mock
+│       ├── seed.py
+│       ├── operazioni.py      dashboard flotta, ispezioni, segnalazioni e gestione operativa            dati mock
 │       └── routers/
 │           ├── auth.py
 │           ├── veicoli.py
 │           └── prenotazioni.py
 └── frontend/
-    └── public/index.html      segnaposto
+    ├── Dockerfile             build frontend React e runtime Node/Nitro
+    └── src/                   frontend React/TanStack
 ```
 
 ## 11. Installazione e avvio
@@ -422,12 +444,14 @@ buby-rent/
 Requisiti: Docker e Docker Compose.
 
 ```bash
-cp .env.example .env
-docker compose up --build
+cd buby-rent
+cp -n .env.example ../.env
+docker compose --env-file ../.env up --build
 ```
 
 - API: http://localhost:8000 (documentazione interattiva su `/docs`)
 - Frontend: http://localhost:3000
+- Health check API: http://localhost:8000/health
 
 All'avvio le tabelle vengono create e vengono caricati dati mock: 2 sedi, 10 veicoli, 1 cliente e 2 utenti di prova.
 
@@ -447,6 +471,8 @@ Per fermare i servizi: `docker compose down`. Per cancellare anche il database: 
 - Scheletro del repository con Docker Compose, FastAPI e PostgreSQL
 - Modelli `Sede`, `Veicolo`, `Cliente`, `Prenotazione`
 - Ricerca dei veicoli disponibili e creazione di prenotazioni con controllo delle sovrapposizioni
+- Ispezioni di ritiro/riconsegna, check-in/check-out, segnalazioni, manutenzioni e trasferimenti
+- Dashboard operativa React con conteggi, flotta e filtri per sede
 - Autenticazione JWT: registrazione, login, profilo, ruoli cliente, operatore e admin, permessi per endpoint
 - Cambio di stato dei veicoli riservato a operatori e admin
 - Cifratura di nome ed email, con impronta HMAC per login e duplicati, e rotazione delle chiavi
@@ -462,13 +488,15 @@ Per fermare i servizi: `docker compose down`. Per cancellare anche il database: 
 - [ ] Pseudonimizzazione dei dati consegnati al team DAI
 - [ ] Registro dei trattamenti, informativa e procedura per le violazioni (con il cliente)
 - [ ] Refresh token, blocco dopo tentativi di login falliti
-- [ ] Tabelle `Ispezione`, `Segnalazione`, `Manutenzione`, `Trasferimento` e loro endpoint
-- [ ] Manutenzioni nel calcolo della disponibilità
-- [ ] Check-in e check-out con foto
+- [x] Verifica backend dei JWT Supabase e collegamento dell'identità all'utente applicativo
+- [x] Login Supabase nel frontend React e collegamento iniziale al backend
+- [ ] Verifica temporale di manutenzioni e trasferimenti nella disponibilità
+- [ ] Upload e conservazione sicura delle foto delle ispezioni (ora si registra solo un URL)
 - [ ] Import dei dati del team DAI secondo il contratto dati
 - [ ] Migrazioni con Alembic (oggi le tabelle sono create all'avvio)
-- [ ] Test automatici, in particolare sulla disponibilità
-- [ ] Frontend React: area cliente, area operatore, dashboard
+- [x] Test automatici iniziali: auth, autorizzazioni, prenotazioni/sovrapposizioni, dashboard, check-in/check-out e privacy dei log
+- [ ] Ampliare la copertura automatica, in particolare sulla disponibilità
+- [ ] Completare area cliente e flussi operatore nel frontend React
 
 ## 13. Piano di lavoro
 

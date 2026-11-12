@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buby Rent — interfaccia precedente</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel-alt: #1f2937;
+      --line: #334155;
+      --text: #e5e7eb;
+      --muted: #cbd5e1;
+      --primary: #38bdf8;
+      --success: #34d399;
+      --warning: #fbbf24;
+      --danger: #f87171;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #020817 0%, #111827 100%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 0 24px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+    }
+
+    h1, h2, h3 { margin: 0 0 12px; }
+    p { margin: 8px 0; }
+
+    .status-pill {
+      display: inline-block;
+      padding: 8px 12px;
+      background: var(--panel-alt);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .panel {
+      background: rgba(17, 24, 39, 0.95);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    form { display: grid; gap: 10px; }
+    label {
+      display: grid;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    input, select, button, textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: #0b1220;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    textarea { min-height: 100px; resize: vertical; }
+
+    button {
+      cursor: pointer;
+      background: var(--primary);
+      color: #06233a;
+      border: none;
+      font-weight: 700;
+    }
+
+    button.secondary {
+      background: #1f2937;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .card-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .muted { color: var(--muted); }
+    .error { color: var(--danger); }
+    .success { color: var(--success); }
+    .warning { color: var(--warning); }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .small { font-size: 0.8rem; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 14px 0;
+    }
+
+    .metric {
+      background: #0b1220;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .metric strong { display: block; font-size: 1.4rem; margin-top: 6px; }
+
+    .dashboard-lists {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Buby Rent</h1>
+        <p class="muted">Dashboard operativa e ricerca veicoli</p>
+      </div>
+      <div id="api-status" class="status-pill">Controllo API...</div>
+    </header>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Accesso</h2>
+        <form id="login-form">
+          <label>
+            Email
+            <input name="username" type="email" value="admin@buby.it" required />
+          </label>
+          <label>
+            Password
+            <input name="password" type="password" value="admin12345" required />
+          </label>
+          <button type="submit">Accedi</button>
+        </form>
+        <div id="user-status" class="small muted" style="margin-top: 12px;">Nessun utente autenticato.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Ricerca veicoli disponibili</h2>
+        <form id="search-form">
+          <label>
+            Sede
+            <select name="sede_id">
+              <option value="1">Sede 1</option>
+              <option value="2">Sede 2</option>
+            </select>
+          </label>
+          <div class="row">
+            <label style="flex:1; min-width: 120px;">
+              Da
+              <input name="da" type="datetime-local" required />
+            </label>
+            <label style="flex:1; min-width: 120px;">
+              A
+              <input name="a" type="datetime-local" required />
+            </label>
+          </div>
+          <label>
+            Tipo
+            <select name="tipo">
+              <option value="">Tutti</option>
+              <option value="auto">Auto</option>
+              <option value="furgone">Furgone</option>
+              <option value="ebike">E-bike</option>
+            </select>
+          </label>
+          <button type="submit">Cerca</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Prenotazione rapida</h2>
+        <form id="booking-form">
+          <label>
+            ID veicolo
+            <input name="veicolo_id" type="number" min="1" required />
+          </label>
+          <label id="booking-customer-field" hidden>
+            Cliente (richiesto per operatori/admin)
+            <select name="cliente_id" disabled>
+              <option value="">Accedi per caricare i clienti</option>
+            </select>
+          </label>
+          <div class="row">
+            <label style="flex:1; min-width: 120px;">
+              Inizio
+              <input name="inizio" type="datetime-local" required />
+            </label>
+            <label style="flex:1; min-width: 120px;">
+              Fine
+              <input name="fine" type="datetime-local" required />
+            </label>
+          </div>
+          <button type="submit">Crea prenotazione</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>Operazioni di sede</h2>
+        <form id="maintenance-form">
+          <label>
+            Veicolo ID
+            <input name="veicolo_id" type="number" min="1" required />
+          </label>
+          <label>
+            Descrizione
+            <textarea name="descrizione" required>Controllo ordinario</textarea>
+          </label>
+          <label>
+            Stato manutenzione
+            <select name="stato">
+              <option value="programmata">Programmata</option>
+              <option value="in_corso">In corso</option>
+              <option value="completata">Completata</option>
+            </select>
+          </label>
+          <button type="submit" class="secondary">Registra manutenzione</button>
+        </form>
+
+        <form id="transfer-form" style="margin-top: 18px;">
+          <label>
+            Veicolo ID
+            <input name="veicolo_id" type="number" min="1" required />
+          </label>
+          <label>
+            Sede destinazione
+            <select name="sede_destinazione_id">
+              <option value="1">Sede 1</option>
+              <option value="2">Sede 2</option>
+            </select>
+          </label>
+          <label>
+            Note
+            <textarea name="note">Trasferimento programmato</textarea>
+          </label>
+          <button type="submit" class="secondary">Registra trasferimento</button>
+        </form>
+      </section>
+    </div>
+
+    <section id="dashboard-panel" class="panel" hidden>
+      <h2>Dashboard flotta</h2>
+      <form id="dashboard-form">
+        <div class="row">
+          <label id="dashboard-branch-field" style="flex:1; min-width: 180px;">
+            Sede
+            <select name="sede_id">
+              <option value="1">Sede 1</option>
+              <option value="2">Sede 2</option>
+            </select>
+          </label>
+          <label style="flex:1; min-width: 180px;">
+            Stato veicolo
+            <select name="stato_veicolo">
+              <option value="">Tutti</option>
+              <option value="disponibile">Disponibile</option>
+              <option value="prenotato">Prenotato</option>
+              <option value="noleggiato">Noleggiato</option>
+              <option value="in_manutenzione">In manutenzione</option>
+              <option value="danneggiato">Danneggiato</option>
+              <option value="in_trasferimento">In trasferimento</option>
+            </select>
+          </label>
+          <label style="flex:1; min-width: 180px;">
+            Stato prenotazione
+            <select name="stato_prenotazione">
+              <option value="">Tutte le attive</option>
+              <option value="richiesta">Richiesta</option>
+              <option value="confermata">Confermata</option>
+              <option value="in_corso">In corso</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit">Aggiorna dashboard</button>
+      </form>
+      <div id="fleet-metrics" class="metrics"></div>
+      <div class="dashboard-lists">
+        <div>
+          <h3>Flotta</h3>
+          <div id="fleet-vehicles" class="card-list"><p class="muted">Carica la dashboard.</p></div>
+        </div>
+        <div>
+          <h3>Prenotazioni operative</h3>
+          <div id="fleet-reservations" class="card-list"><p class="muted">Carica la dashboard.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Veicoli disponibili</h2>
+        <div id="results" class="card-list">
+          <p class="muted">Esegui una ricerca per vedere i mezzi disponibili.</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Prenotazioni</h2>
+        <div id="reservations" class="card-list">
+          <p class="muted">Nessuna prenotazione ancora caricata.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "http://localhost:8000";
+    const state = { token: null, user: null };
+    const statiVeicolo = {
+      disponibile: "Disponibile",
+      prenotato: "Prenotato",
+      noleggiato: "Noleggiato",
+      in_manutenzione: "In manutenzione",
+      danneggiato: "Danneggiato",
+      in_trasferimento: "In trasferimento",
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[char]);
+    }
+
+    function setStatus(message, kind = "muted") {
+      const el = document.getElementById("api-status");
+      el.textContent = message;
+      el.className = "status-pill";
+      if (kind === "success") el.style.color = "#34d399";
+      else if (kind === "error") el.style.color = "#f87171";
+      else el.style.color = "#cbd5e1";
+    }
+
+    function setUserStatus(message) {
+      const el = document.getElementById("user-status");
+      el.textContent = message;
+      el.className = "small";
+      if (message.toLowerCase().includes("errore") || message.toLowerCase().includes("nessun")) {
+        el.classList.add("muted");
+      } else {
+        el.classList.add("success");
+      }
+    }
+
+    function normalizeDateTimeLocal(value) {
+      if (!value) return "";
+      const d = new Date(value);
+      if (Number.isNaN(d.getTime())) return value;
+      return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+    }
+
+    function api(path, options = {}) {
+      const headers = { ...(options.headers || {}) };
+      if (!options.formData && !headers["Content-Type"] && options.body && typeof options.body === "string") {
+        headers["Content-Type"] = "application/json";
+      }
+      if (state.token) {
+        headers.Authorization = `Bearer ${state.token}`;
+      }
+
+      return fetch(`${API_BASE}${path}`, {
+        ...options,
+        headers,
+      }).then(async (response) => {
+        const text = await response.text();
+        const payload = text ? JSON.parse(text) : null;
+        if (!response.ok) {
+          const message = payload?.detail || payload?.message || "Richiesta fallita";
+          throw new Error(Array.isArray(message) ? message.map((m) => m.msg || m).join(", ") : message);
+        }
+        return payload;
+      });
+    }
+
+    function setDefaultDates() {
+      const now = new Date();
+      const start = new Date(now.getTime() + 60 * 60 * 1000);
+      const end = new Date(start.getTime() + 24 * 60 * 60 * 1000);
+      const startInput = document.querySelector('#search-form input[name="da"]');
+      const endInput = document.querySelector('#search-form input[name="a"]');
+      const bookingStart = document.querySelector('#booking-form input[name="inizio"]');
+      const bookingEnd = document.querySelector('#booking-form input[name="fine"]');
+      startInput.value = normalizeDateTimeLocal(start);
+      endInput.value = normalizeDateTimeLocal(end);
+      bookingStart.value = normalizeDateTimeLocal(start);
+      bookingEnd.value = normalizeDateTimeLocal(end);
+    }
+
+    function renderVehicles(items) {
+      const el = document.getElementById("results");
+      if (!items || !items.length) {
+        el.innerHTML = '<p class="muted">Nessun veicolo disponibile per il periodo.</p>';
+        return;
+      }
+
+      el.innerHTML = items.map((veicolo) => `
+        <div class="card">
+          <h3>Veicolo #${escapeHtml(veicolo.id)}</h3>
+          <p><strong>Tipo:</strong> ${escapeHtml(veicolo.tipo)}</p>
+          <p><strong>Targa:</strong> ${escapeHtml(veicolo.targa)}</p>
+          <p><strong>Sede:</strong> ${escapeHtml(veicolo.sede_id)}</p>
+          <p><strong>Stato:</strong> ${escapeHtml(statiVeicolo[veicolo.stato] || veicolo.stato)}</p>
+          <p><strong>Km:</strong> ${escapeHtml(veicolo.km)}</p>
+          <div class="actions">
+            <button type="button" data-book="${escapeHtml(veicolo.id)}">Prenota</button>
+          </div>
+        </div>
+      `).join("");
+
+      document.querySelectorAll('[data-book]').forEach((button) => {
+        button.addEventListener("click", () => {
+          document.querySelector('#booking-form input[name="veicolo_id"]').value = button.dataset.book;
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+    }
+
+    function renderReservations(items) {
+      const el = document.getElementById("reservations");
+      if (!items || !items.length) {
+        el.innerHTML = '<p class="muted">Nessuna prenotazione ancora caricata.</p>';
+        return;
+      }
+
+      el.innerHTML = items.map((p) => `
+        <div class="card">
+          <h3>Prenotazione #${escapeHtml(p.id)}</h3>
+          <p><strong>Veicolo:</strong> ${escapeHtml(p.veicolo_id)}</p>
+          <p><strong>Cliente:</strong> ${escapeHtml(p.cliente_id)}</p>
+          <p><strong>Inizio:</strong> ${escapeHtml(new Date(p.inizio).toLocaleString())}</p>
+          <p><strong>Fine:</strong> ${escapeHtml(new Date(p.fine).toLocaleString())}</p>
+          <p><strong>Stato:</strong> ${escapeHtml(p.stato)}</p>
+        </div>
+      `).join("");
+    }
+
+    function renderInspectionForm(prenotazione, phase) {
+      const checkout = phase === "checkout";
+      return `
+        <form class="inspection-form" data-phase="${phase}" data-prenotazione="${escapeHtml(prenotazione.id)}">
+          <label>Km ${checkout ? "riconsegna" : "ritiro"}
+            <input name="km" type="number" min="0" required />
+          </label>
+          <div class="row">
+            <label style="flex:1; min-width: 100px;">Carburante %
+              <input name="carburante" type="number" min="0" max="100" />
+            </label>
+            <label style="flex:1; min-width: 100px;">Batteria %
+              <input name="batteria" type="number" min="0" max="100" />
+            </label>
+          </div>
+          <label>URL foto
+            <input name="foto_url" type="url" maxlength="255" />
+          </label>
+          <label>Note
+            <textarea name="note" maxlength="500"></textarea>
+          </label>
+          ${checkout ? '<label><span><input name="danni_rilevati" type="checkbox" style="width:auto" /> Danni rilevati</span></label>' : ""}
+          <button type="submit" class="secondary">Registra ${checkout ? "check-out" : "check-in"}</button>
+        </form>
+      `;
+    }
+
+    function renderDashboard(data) {
+      const metrics = document.getElementById("fleet-metrics");
+      const vehicles = document.getElementById("fleet-vehicles");
+      const reservations = document.getElementById("fleet-reservations");
+      const counts = data.veicoli_per_stato || {};
+      metrics.innerHTML = `
+        <div class="metric">Veicoli totali<strong>${escapeHtml(data.veicoli_totali)}</strong></div>
+        ${Object.entries(statiVeicolo).map(([key, title]) => `
+          <div class="metric">${escapeHtml(title)}<strong>${escapeHtml(counts[key] || 0)}</strong></div>
+        `).join("")}
+      `;
+
+      if (!data.veicoli.length) {
+        vehicles.innerHTML = '<p class="muted">Nessun veicolo corrisponde al filtro.</p>';
+      } else {
+        vehicles.innerHTML = data.veicoli.map((veicolo) => `
+          <div class="card">
+            <h3>#${escapeHtml(veicolo.id)} · ${escapeHtml(veicolo.tipo)}</h3>
+            <p><strong>Targa:</strong> ${escapeHtml(veicolo.targa)}</p>
+            <p><strong>Stato:</strong> ${escapeHtml(statiVeicolo[veicolo.stato] || veicolo.stato)}</p>
+            <p><strong>Km:</strong> ${escapeHtml(veicolo.km)}</p>
+          </div>
+        `).join("");
+      }
+
+      if (!data.prenotazioni.length) {
+        reservations.innerHTML = '<p class="muted">Nessuna prenotazione attiva per questa sede e filtro.</p>';
+      } else {
+        reservations.innerHTML = data.prenotazioni.map((prenotazione) => `
+          <div class="card">
+            <h3>Prenotazione #${escapeHtml(prenotazione.id)} · ${escapeHtml(prenotazione.stato)}</h3>
+            <p><strong>Veicolo:</strong> #${escapeHtml(prenotazione.veicolo_id)}</p>
+            <p><strong>Cliente:</strong> #${escapeHtml(prenotazione.cliente_id)}</p>
+            <p><strong>Periodo:</strong> ${escapeHtml(new Date(prenotazione.inizio).toLocaleString())} – ${escapeHtml(new Date(prenotazione.fine).toLocaleString())}</p>
+            ${prenotazione.stato === "in_corso"
+              ? renderInspectionForm(prenotazione, "checkout")
+              : renderInspectionForm(prenotazione, "checkin")}
+          </div>
+        `).join("");
+      }
+    }
+
+    async function loadDashboard() {
+      if (!state.user || !["operatore", "admin"].includes(state.user.ruolo)) return;
+      const form = document.getElementById("dashboard-form");
+      const params = new URLSearchParams();
+      if (state.user.ruolo === "admin") {
+        params.set("sede_id", form.elements.sede_id.value);
+      }
+      if (form.elements.stato_veicolo.value) {
+        params.set("stato_veicolo", form.elements.stato_veicolo.value);
+      }
+      if (form.elements.stato_prenotazione.value) {
+        params.set("stato_prenotazione", form.elements.stato_prenotazione.value);
+      }
+      try {
+        const dashboard = await api(`/dashboard/flotta?${params.toString()}`);
+        renderDashboard(dashboard);
+      } catch (error) {
+        document.getElementById("fleet-vehicles").innerHTML =
+          `<p class="error">Errore dashboard: ${escapeHtml(error.message)}</p>`;
+        document.getElementById("fleet-reservations").innerHTML = "";
+      }
+    }
+
+    async function loadReservations() {
+      if (!state.token) {
+        renderReservations([]);
+        return;
+      }
+      try {
+        const reservations = await api("/prenotazioni");
+        renderReservations(reservations);
+      } catch (error) {
+        document.getElementById("reservations").innerHTML =
+          `<p class="error">Errore caricamento prenotazioni: ${escapeHtml(error.message)}</p>`;
+      }
+    }
+
+    async function loadProfile() {
+      if (!state.token) {
+        state.user = null;
+        setUserStatus("Nessun utente autenticato.");
+        return;
+      }
+      try {
+        const user = await api("/auth/me");
+        state.user = user;
+        setUserStatus(`Autenticato: ${user.email} (${user.ruolo})`);
+        const customerField = document.getElementById("booking-customer-field");
+        const customerSelect = document.querySelector('#booking-form select[name="cliente_id"]');
+        const canBookForCustomers = ["operatore", "admin"].includes(user.ruolo);
+        customerField.hidden = !canBookForCustomers;
+        customerSelect.required = canBookForCustomers;
+        if (canBookForCustomers) {
+          await loadCustomerChoices();
+        } else {
+          customerSelect.replaceChildren(new Option("Cliente ricavato dall'account", ""));
+          customerSelect.disabled = true;
+        }
+        const dashboard = document.getElementById("dashboard-panel");
+        dashboard.hidden = !["operatore", "admin"].includes(user.ruolo);
+        document.getElementById("dashboard-branch-field").hidden = user.ruolo !== "admin";
+        if (user.ruolo === "operatore" && user.sede_id) {
+          document.querySelector('#dashboard-form select[name="sede_id"]').value = String(user.sede_id);
+        }
+        await loadDashboard();
+      } catch (error) {
+        state.token = null;
+        state.user = null;
+        document.getElementById("dashboard-panel").hidden = true;
+        setUserStatus("Errore di autenticazione: rieffettua il login.");
+      }
+    }
+
+    async function loadCustomerChoices() {
+      const select = document.querySelector('#booking-form select[name="cliente_id"]');
+      select.disabled = true;
+      select.replaceChildren(new Option("Caricamento clienti...", ""));
+      try {
+        const clients = await api("/clienti");
+        select.replaceChildren(new Option("Seleziona un cliente", ""));
+        for (const client of clients) {
+          select.add(new Option(`Cliente #${client.id}`, String(client.id)));
+        }
+        if (!clients.length) {
+          select.replaceChildren(new Option("Nessun cliente registrato", ""));
+        }
+      } catch (error) {
+        select.replaceChildren(new Option(`Errore: ${error.message}`, ""));
+      } finally {
+        select.disabled = select.options.length <= 1;
+      }
+    }
+
+    document.getElementById("login-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const body = new URLSearchParams(new FormData(form));
+
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: body.toString(),
+        });
+
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload?.detail || "Login fallito");
+        }
+
+        state.token = payload.access_token;
+        setStatus("API: online", "success");
+        await loadProfile();
+        await loadReservations();
+      } catch (error) {
+        setStatus(`API: ${error.message}`, "error");
+        setUserStatus(`Errore: ${error.message}`);
+      }
+    });
+
+    document.getElementById("search-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const formData = new FormData(event.currentTarget);
+      const sedeId = formData.get("sede_id");
+      const da = formData.get("da");
+      const a = formData.get("a");
+      const tipo = formData.get("tipo");
+
+      const params = new URLSearchParams({
+        sede_id: String(sedeId),
+        da,
+        a,
+      });
+      if (tipo) params.set("tipo", String(tipo));
+
+      try {
+        const veicoli = await api(`/veicoli/disponibili?${params.toString()}`);
+        renderVehicles(veicoli);
+      } catch (error) {
+        renderVehicles([]);
+        setStatus(`Errore ricerca: ${error.message}`, "error");
+      }
+    });
+
+    document.getElementById("booking-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!state.token) {
+        setStatus("Per prenotare devi prima autenticarti.", "error");
+        return;
+      }
+
+      const formData = Object.fromEntries(new FormData(form).entries());
+      const payload = {
+        veicolo_id: Number(formData.veicolo_id),
+        inizio: new Date(formData.inizio).toISOString(),
+        fine: new Date(formData.fine).toISOString(),
+      };
+      if (["operatore", "admin"].includes(state.user?.ruolo) && !formData.cliente_id) {
+        setStatus("Seleziona il cliente per la prenotazione.", "error");
+        return;
+      }
+      if (["operatore", "admin"].includes(state.user?.ruolo)) {
+        payload.cliente_id = Number(formData.cliente_id);
+      }
+
+      try {
+        const result = await api("/prenotazioni", {
+          method: "POST",
+          body: JSON.stringify(payload),
+        });
+        setStatus(`Prenotazione creata: #${result.id}`, "success");
+        await loadReservations();
+        form.reset();
+        setDefaultDates();
+      } catch (error) {
+        setStatus(`Errore prenotazione: ${error.message}`, "error");
+      }
+    });
+
+    document.getElementById("dashboard-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      await loadDashboard();
+    });
+
+    document.getElementById("fleet-reservations").addEventListener("submit", async (event) => {
+      const form = event.target.closest(".inspection-form");
+      if (!form) return;
+      event.preventDefault();
+      const values = new FormData(form);
+      const payload = {
+        km: Number(values.get("km")),
+        carburante: values.get("carburante") ? Number(values.get("carburante")) : null,
+        batteria: values.get("batteria") ? Number(values.get("batteria")) : null,
+        foto_url: values.get("foto_url") || null,
+        note: values.get("note") || null,
+      };
+      if (form.dataset.phase === "checkout") {
+        payload.danni_rilevati = values.get("danni_rilevati") === "on";
+      }
+
+      try {
+        const phase = form.dataset.phase;
+        const bookingId = encodeURIComponent(form.dataset.prenotazione);
+        await api(`/prenotazioni/${bookingId}/${phase}`, {
+          method: "POST",
+          body: JSON.stringify(payload),
+        });
+        setStatus(`${phase === "checkin" ? "Check-in" : "Check-out"} registrato`, "success");
+        await loadDashboard();
+        await loadReservations();
+      } catch (error) {
+        setStatus(`Errore ${form.dataset.phase}: ${error.message}`, "error");
+      }
+    });
+
+    document.getElementById("maintenance-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!state.token) {
+        setStatus("Autenticati per registrare una manutenzione.", "error");
+        return;
+      }
+
+      const formData = new FormData(event.currentTarget);
+      const payload = {
+        descrizione: formData.get("descrizione"),
+        stato: formData.get("stato"),
+        inizio: new Date().toISOString(),
+      };
+
+      try {
+        await api(`/veicoli/${formData.get("veicolo_id")}/manutenzioni`, {
+          method: "POST",
+          body: JSON.stringify(payload),
+        });
+        setStatus("Manutenzione registrata", "success");
+      } catch (error) {
+        setStatus(`Errore manutenzione: ${error.message}`, "error");
+      }
+    });
+
+    document.getElementById("transfer-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!state.token) {
+        setStatus("Autenticati per registrare un trasferimento.", "error");
+        return;
+      }
+
+      const formData = new FormData(event.currentTarget);
+      const payload = {
+        sede_destinazione_id: Number(formData.get("sede_destinazione_id")),
+        note: formData.get("note"),
+        stato: "programmato",
+        inizio: new Date().toISOString(),
+      };
+
+      try {
+        await api(`/veicoli/${formData.get("veicolo_id")}/trasferimenti`, {
+          method: "POST",
+          body: JSON.stringify(payload),
+        });
+        setStatus("Trasferimento registrato", "success");
+      } catch (error) {
+        setStatus(`Errore trasferimento: ${error.message}`, "error");
+      }
+    });
+
+    async function bootstrap() {
+      setDefaultDates();
+      try {
+        const health = await fetch(`${API_BASE}/health`);
+        const data = await health.json();
+        setStatus(`API: ${data.status}`, health.ok ? "success" : "error");
+      } catch (error) {
+        setStatus("API non raggiungibile", "error");
+      }
+      await loadReservations();
+    }
+
+    bootstrap();
+  </script>
+</body>
+</html>
