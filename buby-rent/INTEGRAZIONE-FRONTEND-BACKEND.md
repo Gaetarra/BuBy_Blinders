@@ -76,3 +76,22 @@ Non serve cancellare il volume database per ricostruire le immagini. Evitare `do
 - Il frontend non include ancora il flusso per registrare un nuovo cliente con nome e consenso privacy.
 - La sessione in memoria non sopravvive al ricaricamento della pagina.
 - Per rendere accessibile l'app Lovable da un browser remoto occorre pubblicare l'API dietro HTTPS e configurare le origini CORS corrette.
+
+## Aggiornamenti successivi
+
+Nel branch sono state aggiunte anche le skill operative per lavorare in modo coerente
+con Supabase e PostgreSQL:
+
+- le istruzioni Supabase definiscono il flusso di autenticazione, provisioning,
+  gestione delle sessioni e separazione tra chiavi pubbliche e segreti;
+- le best practice PostgreSQL raccolgono linee guida per schema, vincoli,
+  chiavi esterne, indici, transazioni, locking, pooling, RLS e analisi delle
+  prestazioni;
+- le linee guida sono disponibili nelle skill locali sotto `.agents/skills/` e
+  devono essere consultate prima di modificare schema, query o configurazione
+  Supabase/PostgreSQL.
+
+Queste aggiunte riguardano il processo di sviluppo e non introducono una
+migrazione automatica del database: lo schema applicativo continua a essere
+creato all'avvio da SQLAlchemy tramite `Base.metadata.create_all()`, come
+descritto in [DOCUMENTAZIONE.md](../DOCUMENTAZIONE.md).
