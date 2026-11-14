@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buby Rent</title>
+</head>
+<body>
+  <h1>Buby Rent</h1>
+  <p id="stato">Controllo API...</p>
+  <script>
+    fetch("http://localhost:8000/health")
+      .then((r) => r.json())
+      .then((d) => (document.getElementById("stato").textContent = "API: " + d.status))
+      .catch(() => (document.getElementById("stato").textContent = "API non raggiungibile"));
+  </script>
+</body>
+</html>

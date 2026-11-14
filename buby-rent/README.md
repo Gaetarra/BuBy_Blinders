@@ -17,6 +17,32 @@ docker compose --env-file ../.env up --build
 - Frontend React: http://localhost:3000
 - API: http://localhost:8000 (documentazione interattiva su /docs)
 - Health check: http://localhost:8000/health
+- Mailpit: http://localhost:8025
+
+Le conferme delle prenotazioni vengono accodate dal backend e spedite dal
+worker tramite Mailpit. Il worker è un servizio separato del compose e non
+blocca le richieste API se il server SMTP non è disponibile.
+
+Le date mostrate al cliente, all'operatore e nelle email usano il formato
+italiano leggibile `GG/MM/AAAA alle HH:MM`; le API continuano a usare ISO 8601.
+
+La dashboard include anche le comunicazioni interne: le note sono cifrate,
+non vengono esposte nell'area cliente e possono essere collegate a un veicolo,
+assegnate a un operatore e smistate per sede. Un operatore vede le note della
+propria sede e quelle ancora non smistate; admin e CEO possono consultare la
+vista globale, mentre solo admin e operatori possono creare o prendere in
+carico una comunicazione.
+
+La documentazione separata delle feature è disponibile in
+[`../docs/features/`](../docs/features/README.md).
+
+Per importare i CSV di esempio, eseguire nell'ordine:
+
+```bash
+docker compose exec api python -m app.import_csv veicoli /data/esempio_veicoli.csv
+docker compose exec api python -m app.import_csv prenotazioni /data/esempio_prenotazioni.csv
+docker compose exec api python -m app.import_csv segnalazioni /data/esempio_segnalazioni.csv
+```
 - Log API: `buby-rent/logs/api.log` (rotazione automatica a 10 MB, conserva 5 file)
 
 All'avvio le tabelle vengono create e caricati dati mock (2 sedi, 10 veicoli, 1 cliente, 2 utenti).
@@ -37,6 +63,12 @@ Utenti di prova (cambia le password in `.env`):
 | --- | --- | --- |
 | admin | admin@buby.it | admin12345 |
 | operatore (sede 1) | operatore@buby.it | operatore12345 |
+| operatore Porta Susa | operatore.porta-susa@buby.it | operatore12345 |
+| operatore Lingotto | operatore.lingotto@buby.it | operatore12345 |
+| operatore Moncalieri | operatore.moncalieri@buby.it | operatore12345 |
+| operatore Rivoli | operatore.rivoli@buby.it | operatore12345 |
+| operatore Venaria Reale | operatore.venaria-reale@buby.it | operatore12345 |
+| CEO (tutte le sedi, sola lettura) | buby@buby.it | buby12345 |
 
 I clienti si registrano con `POST /auth/register` (serve `accetta_privacy: true`).
 

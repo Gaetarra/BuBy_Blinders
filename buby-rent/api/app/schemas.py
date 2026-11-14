@@ -98,6 +98,32 @@ class SegnalazioneOut(BaseModel):
     creato_il: datetime
 
 
+class ComunicazioneInternaIn(BaseModel):
+    testo: str = Field(min_length=1, max_length=2000)
+    sede_id: int | None = None
+    veicolo_id: int | None = None
+    assegnato_a_id: int | None = None
+
+
+class ComunicazioneInternaOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    sede_id: int | None
+    veicolo_id: int | None
+    testo: str
+    stato: str
+    creato_da_id: int
+    assegnato_a_id: int | None
+    creato_il: datetime
+
+
+class OperatoreOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    email: str
+    sede_id: int | None
+
+
 class ManutenzioneIn(BaseModel):
     descrizione: str = Field(min_length=1, max_length=500)
     stato: str = Field(default="programmata")
@@ -150,11 +176,18 @@ class TrasferimentoOut(BaseModel):
 
 
 class DashboardFlottaOut(BaseModel):
-    sede_id: int
+    sede_id: int | None
     veicoli_totali: int
     veicoli_per_stato: dict[str, int]
     veicoli: list[VeicoloOut]
     prenotazioni: list[PrenotazioneOut]
+
+
+class FermoOut(BaseModel):
+    veicolo: VeicoloOut
+    priorita: int
+    giorni_fermo: int
+    motivo: str
 
 
 class ClienteRiferimento(BaseModel):

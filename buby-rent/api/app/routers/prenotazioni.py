@@ -5,10 +5,15 @@ from sqlalchemy.orm import Session
 from ..availability import ha_sovrapposizioni
 from ..database import get_db
 from ..deps import utente_corrente
+from ..email_uscita import accoda_email
 from ..models import STATI_NON_NOLEGGIABILI, Cliente, Prenotazione, Utente, Veicolo
 from ..schemas import PrenotazioneIn, PrenotazioneOut
 
 router = APIRouter(prefix="/prenotazioni", tags=["prenotazioni"])
+
+
+def _data_leggibile(data) -> str:
+    return data.strftime("%d/%m/%Y alle %H:%M")
 
 
 @router.post("", response_model=PrenotazioneOut, status_code=201)
@@ -17,6 +22,8 @@ def crea(
     db: Session = Depends(get_db),
     utente: Utente = Depends(utente_corrente),
 ):
+    if utente.ruolo == "ceo":
+        raise HTTPException(403, "Il CEO ha accesso in sola lettura")
     if utente.ruolo == "cliente":
         cliente_id = utente.cliente_id  # un cliente prenota solo per se stesso
     elif dati.cliente_id is not None:
@@ -45,6 +52,18 @@ def crea(
         stato="confermata",
     )
     db.add(prenotazione)
+    db.flush()
+    cliente = db.get(Cliente, cliente_id)
+    if not cliente.email.endswith("@anonimo.invalid"):
+        accoda_email(
+            db,
+            destinatario=cliente.email,
+            oggetto=f"Prenotazione BR-{prenotazione.id:06d} confermata",
+            corpo=(
+                f"La prenotazione per il veicolo {veicolo.targa} è stata confermata. "
+                f"Periodo: {_data_leggibile(dati.inizio)} - {_data_leggibile(dati.fine)}."
+            ),
+        )
     db.commit()
     db.refresh(prenotazione)
     return prenotazione

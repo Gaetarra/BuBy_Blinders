@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import func, select
+from sqlalchemy import func, or_, select, true
 from sqlalchemy.orm import Session
 
 from .database import get_db
@@ -11,6 +11,7 @@ from .models import (
     STATI_PRENOTAZIONE,
     STATI_VEICOLO,
     Cliente,
+    ComunicazioneInterna,
     Ispezione,
     Manutenzione,
     Prenotazione,
@@ -21,7 +22,10 @@ from .models import (
 )
 from .schemas import (
     ClienteRiferimento,
+    ComunicazioneInternaIn,
+    ComunicazioneInternaOut,
     DashboardFlottaOut,
+    FermoOut,
     IspezioneIn,
     IspezioneOut,
     ManutenzioneIn,
@@ -31,6 +35,7 @@ from .schemas import (
     SegnalazioneOut,
     TrasferimentoIn,
     TrasferimentoOut,
+    OperatoreOut,
 )
 
 router = APIRouter(tags=["operazioni"])
@@ -45,10 +50,180 @@ def _controlla_sede(utente: Utente, veicolo: Veicolo):
         raise HTTPException(403, "Puoi gestire solo i veicoli della tua sede")
 
 
+@router.get("/dashboard/operatori", response_model=list[OperatoreOut])
+def elenco_operatori(
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("admin", "ceo")),
+):
+    return list(
+        db.scalars(select(Utente).where(Utente.ruolo == "operatore").order_by(Utente.id))
+    )
+
+
+@router.get("/dashboard/comunicazioni", response_model=list[ComunicazioneInternaOut])
+def dashboard_comunicazioni(
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
+):
+    query = select(ComunicazioneInterna).order_by(ComunicazioneInterna.creato_il.desc())
+    if utente.ruolo == "operatore":
+        if utente.sede_id is None:
+            raise HTTPException(403, "Operatore senza sede assegnata")
+        query = query.where(
+            or_(
+                ComunicazioneInterna.sede_id == utente.sede_id,
+                ComunicazioneInterna.sede_id.is_(None),
+            )
+        )
+    return list(db.scalars(query))
+
+
+@router.post(
+    "/dashboard/comunicazioni",
+    response_model=ComunicazioneInternaOut,
+    status_code=201,
+)
+def crea_comunicazione(
+    dati: ComunicazioneInternaIn,
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+):
+    sede_id = dati.sede_id
+    if dati.veicolo_id is not None:
+        veicolo = db.get(Veicolo, dati.veicolo_id)
+        if veicolo is None:
+            raise HTTPException(404, "Veicolo non trovato")
+        if utente.ruolo == "operatore" and veicolo.sede_id != utente.sede_id:
+            raise HTTPException(403, "Puoi usare solo veicoli della tua sede")
+        if sede_id is not None and sede_id != veicolo.sede_id:
+            raise HTTPException(422, "La sede non corrisponde al veicolo")
+        sede_id = veicolo.sede_id
+    if utente.ruolo == "operatore":
+        if utente.sede_id is None:
+            raise HTTPException(403, "Operatore senza sede assegnata")
+        if sede_id is not None and sede_id != utente.sede_id:
+            raise HTTPException(403, "Puoi creare comunicazioni solo per la tua sede")
+        sede_id = utente.sede_id
+        if dati.assegnato_a_id not in (None, utente.id):
+            raise HTTPException(403, "Puoi assegnare la comunicazione solo a te stesso")
+    assegnato = None
+    if dati.assegnato_a_id is not None:
+        assegnato = db.get(Utente, dati.assegnato_a_id)
+        if assegnato is None or assegnato.ruolo != "operatore":
+            raise HTTPException(422, "L'assegnatario deve essere un operatore")
+        if sede_id is not None and assegnato.sede_id != sede_id:
+            raise HTTPException(422, "L'assegnatario non appartiene alla sede")
+    comunicazione = ComunicazioneInterna(
+        sede_id=sede_id,
+        veicolo_id=dati.veicolo_id,
+        testo=dati.testo.strip(),
+        creato_da_id=utente.id,
+        assegnato_a_id=dati.assegnato_a_id,
+    )
+    db.add(comunicazione)
+    db.commit()
+    db.refresh(comunicazione)
+    return comunicazione
+
+
+@router.patch(
+    "/dashboard/comunicazioni/{comunicazione_id}/assegnazione",
+    response_model=ComunicazioneInternaOut,
+)
+def assegna_comunicazione(
+    comunicazione_id: int,
+    assegnato_a_id: int | None = None,
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+):
+    comunicazione = db.get(ComunicazioneInterna, comunicazione_id)
+    if comunicazione is None:
+        raise HTTPException(404, "Comunicazione non trovata")
+    if utente.ruolo == "operatore" and comunicazione.sede_id not in (None, utente.sede_id):
+        raise HTTPException(403, "Puoi gestire solo le comunicazioni della tua sede")
+    if assegnato_a_id is not None:
+        assegnato = db.get(Utente, assegnato_a_id)
+        if assegnato is None or assegnato.ruolo != "operatore":
+            raise HTTPException(422, "L'assegnatario deve essere un operatore")
+        if comunicazione.sede_id is not None and assegnato.sede_id != comunicazione.sede_id:
+            raise HTTPException(422, "L'assegnatario non appartiene alla sede")
+    comunicazione.assegnato_a_id = assegnato_a_id
+    comunicazione.stato = "presa_in_carico" if assegnato_a_id is not None else "aperta"
+    db.commit()
+    db.refresh(comunicazione)
+    return comunicazione
+
+
+@router.get("/dashboard/fermi", response_model=list[FermoOut])
+def dashboard_fermi(
+    sede_id: int | None = None,
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
+):
+    if utente.ruolo == "operatore":
+        if utente.sede_id is None:
+            raise HTTPException(403, "Operatore senza sede assegnata")
+        if sede_id is not None and sede_id != utente.sede_id:
+            raise HTTPException(403, "Puoi consultare solo i mezzi della tua sede")
+        sede_id = utente.sede_id
+    elif utente.ruolo == "admin" and sede_id is None:
+        raise HTTPException(422, "sede_id obbligatorio per admin")
+
+    veicoli = list(
+        db.scalars(
+            select(Veicolo)
+            .where(
+                true() if sede_id is None else Veicolo.sede_id == sede_id,
+                Veicolo.stato.in_(("in_manutenzione", "danneggiato")),
+            )
+            .order_by(Veicolo.id)
+        )
+    )
+    fermi = []
+    adesso = _adesso()
+    for veicolo in veicoli:
+        manutenzione = db.scalar(
+            select(Manutenzione)
+            .where(Manutenzione.veicolo_id == veicolo.id)
+            .order_by(Manutenzione.inizio.desc().nullslast())
+        )
+        segnalazione = db.scalar(
+            select(Segnalazione)
+            .where(Segnalazione.veicolo_id == veicolo.id)
+            .order_by(Segnalazione.creato_il.desc())
+        )
+        date_fermo = [
+            data
+            for data in (
+                manutenzione.inizio if manutenzione else None,
+                segnalazione.creato_il if segnalazione else None,
+            )
+            if data is not None
+        ]
+        ultimo_aggiornamento = max(date_fermo, default=adesso)
+        giorni_fermo = max(0, (adesso - ultimo_aggiornamento).days)
+        priorita = (100 if veicolo.stato == "danneggiato" else 50) + min(
+            giorni_fermo, 30
+        )
+        fermi.append(
+            FermoOut(
+                veicolo=veicolo,
+                priorita=priorita,
+                giorni_fermo=giorni_fermo,
+                motivo=(
+                    "Danno segnalato"
+                    if veicolo.stato == "danneggiato"
+                    else "Manutenzione necessaria"
+                ),
+            )
+        )
+    return sorted(fermi, key=lambda fermo: (-fermo.priorita, -fermo.giorni_fermo))
+
+
 @router.get("/clienti", response_model=list[ClienteRiferimento])
 def elenco_clienti(
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     return [
         ClienteRiferimento(id=cliente_id)
@@ -64,7 +239,7 @@ def dashboard_flotta(
     stato_veicolo: str | None = None,
     stato_prenotazione: str | None = None,
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     if utente.ruolo == "operatore":
         if utente.sede_id is None:
@@ -72,7 +247,7 @@ def dashboard_flotta(
         if sede_id is not None and sede_id != utente.sede_id:
             raise HTTPException(403, "Puoi consultare solo la flotta della tua sede")
         sede_id = utente.sede_id
-    elif sede_id is None:
+    elif utente.ruolo == "admin" and sede_id is None:
         raise HTTPException(422, "sede_id obbligatorio per admin")
 
     if stato_veicolo is not None and stato_veicolo not in STATI_VEICOLO:
@@ -83,18 +258,23 @@ def dashboard_flotta(
     conteggi = dict(
         db.execute(
             select(Veicolo.stato, func.count(Veicolo.id))
-            .where(Veicolo.sede_id == sede_id)
+            .where(true() if sede_id is None else Veicolo.sede_id == sede_id)
             .group_by(Veicolo.stato)
         ).all()
     )
-    veicoli_query = select(Veicolo).where(Veicolo.sede_id == sede_id)
+    veicoli_query = select(Veicolo).where(
+        true() if sede_id is None else Veicolo.sede_id == sede_id
+    )
     if stato_veicolo:
         veicoli_query = veicoli_query.where(Veicolo.stato == stato_veicolo)
 
     prenotazioni_query = (
         select(Prenotazione)
         .join(Veicolo, Veicolo.id == Prenotazione.veicolo_id)
-        .where(Veicolo.sede_id == sede_id, Prenotazione.stato.in_(STATI_ATTIVI))
+        .where(
+            true() if sede_id is None else Veicolo.sede_id == sede_id,
+            Prenotazione.stato.in_(STATI_ATTIVI),
+        )
     )
     if stato_prenotazione:
         prenotazioni_query = prenotazioni_query.where(
@@ -116,7 +296,7 @@ def dashboard_flotta(
 def lista_segnalazioni(
     veicolo_id: int,
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     veicolo = db.get(Veicolo, veicolo_id)
     if veicolo is None:
@@ -160,7 +340,7 @@ def crea_segnalazione(
 def lista_manutenzioni(
     veicolo_id: int,
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     veicolo = db.get(Veicolo, veicolo_id)
     if veicolo is None:
@@ -204,7 +384,7 @@ def crea_manutenzione(
 def lista_trasferimenti(
     veicolo_id: int,
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     veicolo = db.get(Veicolo, veicolo_id)
     if veicolo is None:
@@ -279,7 +459,7 @@ def aggiorna_trasferimento(
 def lista_ispezioni(
     prenotazione_id: int,
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("operatore", "admin")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
     prenotazione = db.get(Prenotazione, prenotazione_id)
     if prenotazione is None:

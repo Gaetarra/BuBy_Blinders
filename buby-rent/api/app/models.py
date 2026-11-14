@@ -27,7 +27,8 @@ STATI_NON_NOLEGGIABILI = ("in_manutenzione", "danneggiato", "in_trasferimento")
 STATI_MANUTENZIONE = ("programmata", "in_corso", "completata", "annullata")
 STATI_TRASFERIMENTO = ("programmato", "in_corso", "completato", "annullato")
 FASE_ISPEZIONE = ("ritiro", "riconsegna")
-RUOLI = ("cliente", "operatore", "admin")
+RUOLI = ("cliente", "operatore", "ceo", "admin")
+STATI_EMAIL = ("da_inviare", "inviata", "errore")
 
 
 class Sede(Base):
@@ -108,6 +109,20 @@ class Segnalazione(Base):
     cliente: Mapped[Cliente | None] = relationship(back_populates="segnalazioni")
 
 
+class ComunicazioneInterna(Base):
+    __tablename__ = "comunicazioni_interne"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    sede_id: Mapped[int | None] = mapped_column(ForeignKey("sedi.id"), nullable=True, index=True)
+    veicolo_id: Mapped[int | None] = mapped_column(ForeignKey("veicoli.id"), nullable=True, index=True)
+    testo: Mapped[str] = mapped_column(StringaCifrata)
+    stato: Mapped[str] = mapped_column(String(20), default="aperta", index=True)
+    creato_da_id: Mapped[int] = mapped_column(ForeignKey("utenti.id"))
+    assegnato_a_id: Mapped[int | None] = mapped_column(
+        ForeignKey("utenti.id"), nullable=True, index=True
+    )
+    creato_il: Mapped[datetime] = mapped_column(DateTime, default=_adesso_utc_senza_fuso)
+
+
 class Manutenzione(Base):
     __tablename__ = "manutenzioni"
     id: Mapped[int] = mapped_column(primary_key=True)
@@ -158,3 +173,18 @@ class IdentitaSupabase(Base):
         ForeignKey("utenti.id"), unique=True, index=True
     )
     collegato_il: Mapped[datetime] = mapped_column(DateTime, default=_adesso_utc_senza_fuso)
+
+
+class EmailDaInviare(Base):
+    """Coda applicativa: il worker invia l'email dopo il commit dell'azione."""
+
+    __tablename__ = "email_da_inviare"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    destinatario: Mapped[str] = mapped_column(StringaCifrata)
+    oggetto: Mapped[str] = mapped_column(StringaCifrata)
+    corpo: Mapped[str | None] = mapped_column(StringaCifrata, nullable=True)
+    stato: Mapped[str] = mapped_column(String(20), default="da_inviare", index=True)
+    tentativi: Mapped[int] = mapped_column(Integer, default=0)
+    errore: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    creata_il: Mapped[datetime] = mapped_column(DateTime, default=_adesso_utc_senza_fuso)
+    inviata_il: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)

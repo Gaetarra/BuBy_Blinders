@@ -249,6 +249,10 @@ Se `SUPABASE_URL` è configurato, l'API accetta access token Supabase firmati ES
 | `SUPABASE_PUBLISHABLE_KEY` | Chiave publishable, usata dall'API durante il collegamento iniziale account |
 | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | Admin di prova creato al primo avvio |
 | `OPERATORE_PASSWORD` | Password dell'operatore di prova (`operatore@buby.it`, sede 1) |
+| `CEO_EMAIL`, `CEO_PASSWORD` | Account CEO di prova globale in sola lettura |
+| `SMTP_HOST`, `SMTP_PORT` | Server SMTP usato dal worker email |
+| `MAIL_FROM` | Mittente delle email applicative |
+| `POLL_SECONDS` | Intervallo di polling del worker |
 
 **Limiti attuali**: l'autenticazione locale non ha refresh token (alla scadenza l'utente rifà il login), logout lato server o blocco dopo tentativi falliti. Con Supabase il client browser rinnova la sessione in memoria; il JWT non viene salvato in `localStorage`.
 
@@ -453,12 +457,19 @@ docker compose --env-file ../.env up --build
 - Frontend: http://localhost:3000
 - Health check API: http://localhost:8000/health
 
-All'avvio le tabelle vengono create e vengono caricati dati mock: 2 sedi, 10 veicoli, 1 cliente e 2 utenti di prova.
+All'avvio le tabelle vengono create e vengono caricati dati mock; il seed crea un
+operatore per ogni sede oltre agli account admin e CEO.
 
 | Ruolo | Email | Password |
 | --- | --- | --- |
 | admin | `admin@buby.it` | `admin12345` |
 | operatore (sede 1) | `operatore@buby.it` | `operatore12345` |
+| operatore Porta Susa | `operatore.porta-susa@buby.it` | `operatore12345` |
+| operatore Lingotto | `operatore.lingotto@buby.it` | `operatore12345` |
+| operatore Moncalieri | `operatore.moncalieri@buby.it` | `operatore12345` |
+| operatore Rivoli | `operatore.rivoli@buby.it` | `operatore12345` |
+| operatore Venaria Reale | `operatore.venaria-reale@buby.it` | `operatore12345` |
+| CEO (tutte le sedi, sola lettura) | `buby@buby.it` | `buby12345` |
 
 Nel file `.env` imposta `POSTGRES_PASSWORD`, `SECRET_KEY`, `ENCRYPTION_KEYS`, `BLIND_INDEX_KEY` (comandi per generarle in `.env.example`) e cambia le password di prova. Non committare mai `.env`. Se `ENCRYPTION_KEYS` e `BLIND_INDEX_KEY` restano vuote l'API usa chiavi di sviluppo e lo segnala nei log. Se aggiorni da una versione precedente, ricrea il database con `docker compose down -v`. Su `/docs` il pulsante Authorize permette di provare gli endpoint protetti dopo il login.
 

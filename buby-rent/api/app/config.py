@@ -37,6 +37,15 @@ class Settings:
     admin_email: str = os.getenv("ADMIN_EMAIL") or "admin@buby.it"
     admin_password: str = os.getenv("ADMIN_PASSWORD") or "admin12345"
     operatore_password: str = os.getenv("OPERATORE_PASSWORD") or "operatore12345"
+    ceo_email: str = os.getenv("CEO_EMAIL") or "buby@buby.it"
+    ceo_password: str = os.getenv("CEO_PASSWORD") or "buby12345"
+    smtp_host: str = os.getenv("SMTP_HOST") or "localhost"
+    smtp_port: int = int(os.getenv("SMTP_PORT") or "1025")
+    smtp_user: str = os.getenv("SMTP_USER") or ""
+    smtp_password: str = os.getenv("SMTP_PASSWORD") or ""
+    smtp_starttls: bool = (os.getenv("SMTP_STARTTLS") or "false").lower() == "true"
+    mail_from: str = os.getenv("MAIL_FROM") or "noreply@buby.it"
+    poll_seconds: int = int(os.getenv("POLL_SECONDS") or "15")
 
 
 settings = Settings()

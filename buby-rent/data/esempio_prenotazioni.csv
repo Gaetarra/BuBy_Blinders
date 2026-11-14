@@ -1,0 +1,7 @@
+email_cliente,nome_cliente,targa,inizio,fine,stato
+giulia.neri@example.com,Giulia Neri,AB123CD,2026-09-01 09:00,2026-09-03 18:00,conclusa
+giulia.neri@example.com,Giulia Neri,EB001XX,2026-09-10 08:00,2026-09-10 20:00,conclusa
+paolo.gialli@example.com,Paolo Gialli,AB123CD,15/09/2026 10:00,15/09/2026 12:00,conclusa
+non-una-email,Mario,AB123CD,2026-09-20 09:00,2026-09-21 09:00,conclusa
+anna.blu@example.com,Anna Blu,ZZ999ZZ,2026-09-20 09:00,2026-09-21 09:00,conclusa
+anna.blu@example.com,Anna Blu,AB123CD,2026-09-22 18:00,2026-09-22 09:00,conclusa
