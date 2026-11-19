@@ -1,0 +1,116 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-BAR-0001,BAR-02,2025-11-04,2025-11-16,12.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,66620,3110.0,no,NOL-BAR-00013,chiuso
+INT-BAR-0002,BAR-06,2025-11-07,2025-11-08,1.0,cambio gomme invernali,cambio stagionale,Officina Alta Valle,84949,91.0,,,chiuso
+INT-BAR-0003,BAR-04,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,35174,77.0,,,chiuso
+INT-BAR-0004,BAR-07,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,79659,72.0,,,chiuso
+INT-BAR-0005,BAR-01,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,82583,74.0,,,chiuso
+INT-BAR-0006,BAR-05,2025-11-11,2025-11-12,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,76122,70.0,no,,chiuso
+INT-BAR-0007,BAR-05,2025-11-15,2025-11-19,4.0,carrozzeria,danno da urto 20-30 cm,Officina Alta Valle,76261,666.0,no,NOL-BAR-00008,chiuso
+INT-BAR-0008,BAR-02,2025-11-15,2025-11-17,2.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,66620,62.0,no,,chiuso
+INT-BAR-0009,BAR-03,2025-11-18,2025-11-19,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,38766,95.0,,,chiuso
+INT-BAR-0010,BAR-01,2025-11-20,2025-11-21,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Frejus,82915,66.0,si,NOL-BAR-00018,chiuso
+INT-BAR-0011,BAR-06,2025-11-23,2025-11-24,1.0,tagliando,tagliando programtato,Carrozzeria Frejus,86681,360.0,,,chiuso
+INT-BAR-0012,EB-BAR-002,2025-11-26,2025-11-28,2.0,bici,,Bike Workshop Bardonecchia,2052,64.0,no,,chiuso
+INT-BAR-0013,BAR-06,2025-12-01,2025-12-09,8.0,meccanica,guasto meccanico in noleggio,,87327,444.0,no,NOL-BAR-00041,chiuso
+INT-BAR-0014,BAR-07,2025-12-02,2026-01-09,38.0,vetri,"elemento distrutto, da sostituire",Carrozzeria,81110,581.3,no,NOL-BAR-00025,chiuso
+INT-BAR-0015,BAR-02,2025-12-17,2025-12-18,1.0,tagliando,tagliando programmato,Officina Alta Valle,68610,257.0,no,,chiuso
+INT-BAR-0016,BAR-05,2026-01-12,2026-01-16,4.0,gomme,cerchio scheggiato e ovalizzato,Officina Alta Valle,79254,,no,NOL-BAR-00107,chiuso
+INT-BAR-0017,BAR-01,2026-01-26,2026-01-27,1.0,gomme,piccola scheggiatura,Carrozzeria Frejus,87413,105.0,no,NOL-BAR-00112,chiuso
+INT-BAR-0018,BAR-03,2026-01-30,2026-02-01,2.0,tagliando,tagliando programmato,Officina Alta Valle,44167,405.0,no,,chiuso
+INT-BAR-0019,BAR-06,2026-02-01,2026-02-22,21.0,carrozzeria,danni da sinnistro stradale,Carrozzeria Frejus,90666,2453.0,,NOL-BAR-00142,chiuso
+INT-BAR-0020,BAR-01,2026-02-04,2026-02-05,1.0,carrozzeria,striscio di vernice,Carrozzeria Frejus,88169,238.0,si,,chiuso
+INT-BAR-0021,EB-BAR-002,2026-02-08,2026-02-12,4.0,bici,forcella piegata,Bike Workshop Bardonecchia,2119,234.0,no,,chiuso
+INT-BAR-0022,BAR-04,2026-02-12,2026-02-13,1.0,gomme,graffio superficiale,,44383,157.0,,NOL-BAR-00097,chiuso
+INT-BAR-0023,BAR-03,2026-02-13,2026-02-21,8.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,45078,663.0,,NOL-BAR-00095,chiuso
+INT-BAR-0024,EB-BAR-002,2026-02-19,2026-02-20,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2119,63.0,no,,chiuso
+INT-BAR-0025,BAR-02,2026-03-04,2026-03-08,4.0,meccanica,guasto meccanico in noleggio,Officina Alta Valle,73134,672.0,no,NOL-BAR-00172,chiuso
+INT-BAR-0026,BAR-07,2026-03-10,2026-03-17,7.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,86623,230.0,no,NOL-BAR-00153,chiuso
+INT-BAR-0027,BAR-05,2026-03-13,2026-03-16,3.0,tagliando,taliando programmato,Carrozzeria Frejus,83502,215.0,no,,chiuso
+INT-BAR-0028,BAR-04,2026-03-20,2026-03-29,9.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,49231,709.3,no,NOL-BAR-00179,chiuso
+INT-BAR-0029,BAR-04,2026-03-28,2026-03-31,3.0,tagliando,tagliando programmato,Carrozzeria Frejus,49231,368.0,no,,chiuso
+INT-BAR-0030,BAR-03,2026-04-01,2026-04-04,3.0,carrozzeria,ammaccatura con vernice saltata,Carrozzeria Frejus,48685,610.0,si,NOL-BAR-00213,chiuso
+INT-BAR-0031,BAR-07,2026-04-05,2026-04-28,23.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,89224,781.2,,,chiuso
+INT-BAR-0032,BAR-06,2026-04-11,2026-04-18,7.0,assistenza,intervento dopo assistenza stradale,Officina Alta Valle,94442,250.0,no,NOL-BAR-00201,chiuso
+INT-BAR-0033,BAR-05,2026-04-17,2026-04-22,5.0,carrozzeria,crepa estesa,Officina Alta Valle,85538,1100.0,no,NOL-BAR-00229,chiuso
+INT-BAR-0034,BAR-06,2026-04-19,2026-04-20,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Frejus,94442,91.0,no,,chiuso
+INT-BAR-0035,BAR-01,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,95210,56.0,no,,chiuso
+INT-BAR-0036,BAR-03,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagioonale,Officina Alta Valle,50063,62.0,no,,chiuso
+INT-BAR-0037,BAR-05,2026-04-21,2026-04-22,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,85538,74.0,no,,chiuso
+INT-BAR-0038,EB-BAR-003,2026-04-22,2026-04-23,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1228,47.0,no,,chiuso
+INT-BAR-0039,EB-BAR-002,2026-04-23,2026-04-24,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Valsusa,2170,20.0,si,NOL-BAR-00249,chiuso
+INT-BAR-0040,BAR-03,2026-04-26,2026-04-27,1.0,carrozzeria,graffio ssuperficiale,Officina Alta Valle,50242,140.0,no,NOL-BAR-00240,chiuso
+INT-BAR-0041,BAR-07,2026-04-27,2026-04-28,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,89224,78.0,no,,chiuso
+INT-BAR-0042,BAR-06,2026-04-27,2026-05-24,27.0,carrozzeria,"danno strutturale sospetto, non guidabile",Carrozzeria Frejus,94884,2997.0,si,NOL-BAR-00235,chiuso
+INT-BAR-0043,BAR-04,2026-04-28,2026-04-29,1.0,cambio gomme estive,cambio stgionale,Officina Alta Valle,51033,78.0,no,,chiuso
+INT-BAR-0044,BAR-03,2026-04-29,2026-05-13,14.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,50371,,,,chiuso
+INT-BAR-0045,BAR-02,2026-05-04,2026-05-06,2.0,carrozzeria,piccola scheggiatura,Carrozzeria Frejus,78081,188.0,si,NOL-BAR-00205,chiuso
+INT-BAR-0046,EB-BAR-001,2026-05-05,2026-05-06,1.0,bici,graffi sul telaio,Ciclofficina Valsusa,1159,44.0,no,NOL-BAR-00267,chiuso
+INT-BAR-0047,BAR-02,2026-05-06,2026-05-07,1.0,cambio gomme estive,cambio stagionale [incomprensibile],Carrozzeria Frejus,78081,56.0,no,,chiuso
+INT-BAR-0048,EB-BAR-002,2026-05-11,2026-05-13,2.0,assistenza,intervento dopo assistenza stradale,Bike Workshop Bardonecchia,2396,684.0,no,NOL-BAR-00258,chiuso
+INT-BAR-0049,BAR-07,2026-05-11,2026-05-16,5.0,elettrico/batteria,guasto elettrico/batteria,Officina Alta Valle,89838,227.0,no,NOL-BAR-00244,chiuso
+INT-BAR-0050,BAR-02,2026-05-12,2026-05-19,7.0,carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Frejus,78318,775.0,no,NOL-BAR-00262,chiuso
+INT-BAR-0051,EB-BAR-001,2026-05-13,2026-05-14,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,1385,84.0,no,,chiuso
+INT-BAR-0052,BAR-01,2026-05-14,2026-05-16,2.0,tagliando,tagliando programmato,Carrozzeria Frejus,96367,350.0,no,,chiuso
+INT-BAR-0053,BAR-07,2026-05-24,2026-05-25,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Frejus,,70.0,si,,chiuso
+INT-BAR-0054,EB-BAR-001,2026-05-27,2026-05-31,4.0,meccanica,gusto meccanico in noleggio,Bike Workshop Bardonecchia,1478,146.0,no,NOL-BAR-00312,chiuso
+INT-BAR-0055,EB-BAR-002,2026-05-29,2026-06-05,7.0,bici,display rotto,,2603,246.0,no,NOL-BAR-00285,chiuso
+INT-BAR-0056,BAR-01,2026-06-01,2026-06-04,3.0,vetri,piccola scheggiatura,Carrozzeria Frejus,97018,100.0,no,NOL-BAR-00313,chiuso
+INT-BAR-0057,BAR-04,2026-06-04,2026-06-06,2.0,carrozzeria,segni de sfregamento,Carrozzeria Frejus,53325,,no,NOL-BAR-00248,chiuso
+INT-BAR-0058,BAR-03,2026-06-05,2026-06-09,4.0,elettrico/batteria,guasto elettrico/batteria,Officina,52857,303.0,no,NOL-BAR-00307,chiuso
+INT-BAR-0059,EB-BAR-002,2026-06-06,2026-06-07,1.0,tagliando,tagliando progrnmmato,Ciclofficina Valsusa,2650,69.0,,,chiuso
+INT-BAR-0060,BAR-07,2026-06-06,2026-06-08,2.0,tagliando,tagliando programmato,Officina Alta Valle,91248,410.0,,,chiuso
+INT-BAR-0061,EB-BAR-003,2026-06-07,2026-06-14,7.0,bici,cerchio storto,Bike Workshop Bardonecchia,1633,,si,NOL-BAR-00339,chiuso
+INT-BAR-0062,BAR-04,2026-06-19,2026-06-23,4.0,carrozzeria,crepa estesa,Carrozzeria Frejus,54694,758.0,si,NOL-BAR-00355,chiuso
+INT-BAR-0063,EB-BAR-003,2026-06-21,2026-06-23,2.0,bici,manubrio leggermente fuori asse,,1725,,no,NOL-BAR-00317,chiuso
+INT-BAR-0064,EB-BAR-002,2026-06-23,2026-06-24,1.0,pulizia profonda,pulizia straordinaria,Bike Workshop Bardonecchia,2937,34.0,si,NOL-BAR-00386,chiuso
+INT-BAR-0065,EB-BAR-003,2026-06-24,2026-06-25,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1776,78.0,,,chiuso
+INT-BAR-0066,BAR-02,2026-06-26,2026-07-03,7.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,81511,145.0,no,NOL-BAR-00364,chiuso
+INT-BAR-0067,EB-BAR-001,2026-06-27,2026-06-28,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1894,55.0,no,,chiuso
+INT-BAR-0068,BAR-03,2026-06-28,2026-07-01,3.0,assistenza,intervento dopo assistenza stradale,Officina Alta Valle,54456,173.0,no,NOL-BAR-00341,chiuso
+INT-BAR-0069,EB-BAR-002,2026-07-06,2026-07-11,5.0,bici,cambio posteriore rotto,Ciclofficina Valsusa,3155,240.0,no,NOL-BAR-00402,chiuso
+INT-BAR-0070,BAR-03,2026-07-07,2026-07-15,8.0,gomme,sostituzione pneumatico,Officina Alta Valle,54922,,,NOL-BAR-00430,chiuso
+INT-BAR-0071,BAR-01,2026-07-07,2026-07-09,2.0,carrozzeria,segni di sfregamento,Carrozzeria Frejus,99137,90.0,no,,chiuso
+INT-BAR-0072,EB-BAR-002,2026-07-10,2026-07-11,1.0,tagliando,,Bike Workshop Bardonecchia,3155,88.0,no,,chiuso
+INT-BAR-0073,EB-BAR-002,2026-07-14,2026-07-17,3.0,bici,manubrio leggermente fuori asse,Bike Workshop Bardonecchia,3284,70.0,si,NOL-BAR-00448,chiuso
+INT-BAR-0074,BAR-01,2026-07-15,2026-07-19,4.0,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Frejus,99710,467.0,no,NOL-BAR-00318,chiuso
+INT-BAR-0075,EB-BAR-003,2026-07-17,2026-08-02,16.0,bici,tlaio incrinato,Ciclofficina Valsusa,2074,132.9,si,NOL-BAR-00428,chiuso
+INT-BAR-0076,EB-BAR-001,2026-07-20,2026-07-26,6.0,bici,cambio posteriore rotto,Bike Workshop Bardonecchia,2321,225.0,,NOL-BAR-00466,chiuso
+INT-BAR-0077,BAR-05,2026-07-20,2026-07-23,3.0,carrozzeria,piccola scheegniatura,Carrozzeria Frejus,93073,168.0,no,NOL-BAR-00437,chiuso
+INT-BAR-0078,EB-BAR-002,2026-07-22,2026-07-24,2.0,bici,manubrio leggermente fuori asse,Bike Workshop Bardonecchia,3370,39.0,no,NOL-BAR-00472,chiuso
+INT-BAR-0079,BAR-06,2026-07-26,2026-07-29,3.0,gomme,striscio di vernice,Officina Alta Valle,99346,203.0,si,NOL-BAR-00439,chiuso
+INT-BAR-0080,EB-BAR-002,2026-07-27,2026-07-29,2.0,meccanica,guasto meccanico in noleggio,Ciclofficina Valsusa,3409,678.0,no,NOL-BAR-00475,chiuso
+INT-BAR-0081,BAR-03,2026-07-28,2026-07-30,2.0,carrozzeria,striscio di vernice,Officina Alta Valle,56169,112.0,si,,chiuso
+INT-BAR-0082,EB-BAR-001,2026-07-28,2026-07-29,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,2435,65.0,no,,chiuso
+INT-BAR-0083,BAR-03,2026-08-02,2026-08-05,3.0,gomme,sostituzione pneumatico,Officina Alta Valle,56521,293.0,no,NOL-BAR-00456,chiuso
+INT-BAR-0084,EB-BAR-003,2026-08-04,2026-08-05,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Valsusa,2172,38.0,si,,chiuso
+INT-BAR-0085,EB-BAR-001,2026-08-07,2026-08-10,3.0,gomme,sostituzione pneumatico,Ciclofficina Valsusa,2697,645.0,no,NOL-BAR-00493,chiuso
+INT-BAR-0086,BAR-02,2026-08-07,2026-08-10,3.0,tagliando,tagliando programmato,,85902,273.0,no,,chiuso
+INT-BAR-0087,EB-BAR-003,2026-08-08,2026-08-11,3.0,bici,cerchio storto,Ciclofficina Valsusa,2226,165.0,si,NOL-BAR-00400,chiuso
+INT-BAR-0088,EB-BAR-002,2026-08-08,2026-08-10,2.0,tagliando,tagliando programmato [incomprensibile],Bike Workshop Bardonecchia,,53.0,,,chiuso
+INT-BAR-0089,EB-BAR-002,2026-08-10,2026-08-16,6.0,bici,cambio posteriore rotto,,3680,382.0,no,NOL-BAR-00526,chiuso
+INT-BAR-0090,EB-BAR-003,2026-08-12,2026-08-13,1.0,bici,leva piegata ma funzionante,Ciclofficina Valsusa,2265,58.0,no,NOL-BAR-00529,chiuso
+INT-BAR-0091,EB-BAR-003,2026-08-14,2026-08-15,1.0,gomme,sostituzione pneumatico,Bike Workshop Bardonecchia,2286,222.0,no,NOL-BAR-00506,chiuso
+INT-BAR-0092,EB-BAR-003,2026-08-15,2026-08-16,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,2286,72.0,no,,chiuso
+INT-BAR-0093,BAR-04,2026-08-19,2026-08-23,4.0,gomme,sostituzione pneumatico,Officina Alta Valle,59345,155.0,no,NOL-BAR-00454,chiuso
+INT-BAR-0094,EB-BAR-001,2026-08-20,2026-08-21,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2962,66.0,no,,chiuso
+INT-BAR-0095,EB-BAR-002,2026-08-22,2026-08-23,1.0,bici,leva piegata ma funzionante,Bike Workshop Bardonecchia,3831,46.0,no,NOL-BAR-00492,chiuso
+INT-BAR-0096,EB-BAR-002,2026-09-03,2026-09-10,7.0,bici,cerchio storto,Ciclofficina Valsusa,4147,258.0,si,NOL-BAR-00561,chiuso
+INT-BAR-0097,BAR-07,2026-09-09,2026-09-18,9.0,carrozzeria,crea estesa,,98318,486.0,,NOL-BAR-00463,chiuso
+INT-BAR-0098,EB-BAR-003,2026-09-10,2026-09-14,4.0,bici,cambio posteriore rotto,Ciclofficina Valsusa,2788,193.0,no,NOL-BAR-00572,chiuso
+INT-BAR-0099,EB-BAR-002,2026-09-11,2026-09-12,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,4181,90.0,no,,chiuso
+INT-BAR-0100,EB-BAR-003,2026-09-13,2026-09-14,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2788,103.0,,,chiuso
+INT-BAR-0101,BAR-06,2026-09-15,2026-09-17,2.0,tagliando,taagliando proogramrato,Officina Alta Valle,102222,169.0,,,chiuso
+INT-BAR-0102,EB-BAR-001,2026-09-21,2026-09-23,2.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,3721,72.0,no,,chiuso
+INT-BAR-0103,EB-BAR-002,2026-09-22,2026-09-30,8.0,bici,forcella piegata,Ciclofficina Valsusa,4274,387.0,no,NOL-BAR-00593,chiuso
+INT-BAR-0104,BAR-05,2026-09-24,2026-09-26,2.0,vetri,leggera ammaccatura,Carrozzeria Frejus,97698,170.0,no,NOL-BAR-00577,chiuso
+INT-BAR-0105,BAR-03,2026-09-24,2026-09-26,2.0,carrozzeria,,Officina Alta Valle,58475,188.0,,NOL-BAR-00574,chiuso
+INT-BAR-0106,EB-BAR-003,2026-09-24,2026-09-26,2.0,bici,leva piegaata ma funzionante,Ciclofficina Valsusa,2824,81.0,,NOL-BAR-00523,chiuso
+INT-BAR-0107,BAR-02,2026-09-24,2026-10-19,25.0,carrozzeria,danni da sinistro stradale,Officina Alta Valle,88749,618.5,no,,chiuso
+INT-BAR-0108,BAR-04,2026-09-29,2026-10-02,3.0,meccanica,guasto meccanico in noleggio,Carrozzeria Frejus,61710,396.0,no,NOL-BAR-00586,chiuso
+INT-BAR-0109,BAR-04,2026-10-15,2026-10-16,1.0,pulizia profonda,pulizia straordinaria,Officina Alta Valle,62486,31.0,si,NOL-BAR-00643,chiuso
+INT-BAR-0110,BAR-03,2026-10-15,2026-10-17,2.0,carrozzeria,,Carrozzeria Frejus,59937,99.0,si,NOL-BAR-00608,chiuso
+INT-BAR-0111,BAR-03,2026-10-16,2026-10-20,4.0,tagliando,tagliando programmato,Carrozzeria Frejus,59937,374.0,no,,chiuso
+INT-BAR-0112,BAR-05,2026-10-18,2026-10-21,3.0,tagliando,tagliando programmato,Officina Alta Valle,98680,259.0,,,chiuso
+INT-BAR-0113,EB-BAR-002,2026-10-23,2026-10-24,1.0,bici,graffi sul telaio,Ciclofficina,4451,79.0,,,chiuso
+INT-BAR-0114,EB-BAR-002,2026-10-31,2026-11-01,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,4869,44.0,no,,chiuso
+INT-BAR-0115,EB-BAR-003,2026-10-31,2026-11-03,3.0,bici,graffi sul telaio,Ciclofficina Valsusa,3215,45.0,no,NOL-BAR-00648,chiuso

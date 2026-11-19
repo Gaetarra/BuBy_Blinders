@@ -1,0 +1,156 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-ALB-0001,ALB-05,2025-11-03,2025-12-07,34.0,carrozzeria,deformazione importante,Carrozzeria Gallo,32370,661.5,si,NOL-ALB-00001,chiuso
+INT-ALB-0002,ALB-07,2025-11-06,2025-11-07,1.0,cambio gomme invernali,cambio stagionale,Autofficina Langhe,33461,78.0,no,,chiuso
+INT-ALB-0003,ALB-04,2025-11-07,2025-11-13,6.0,gomme,sostituzione pneumatico,Carrozzeria Gallo,110281,146.0,,NOL-ALB-00007,chiuso
+INT-ALB-0004,EB-ALB-003,2025-11-08,2025-11-15,7.0,bici,cambio posteriore rotto,,787,200.0,si,NOL-ALB-00039,chiuso
+INT-ALB-0005,ALB-08,2025-11-09,2025-11-10,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,51628,81.0,no,,chiuso
+INT-ALB-0006,ALB-07,2025-11-10,2025-11-13,3.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,33718,611.0,,NOL-ALB-00004,chiuso
+INT-ALB-0007,ALB-02,2025-11-10,2025-11-11,1.0,gomme,,Carrozzeria Gallo,85389,69.0,no,,chiuso
+INT-ALB-0008,ALB-06,2025-11-10,2025-11-16,6.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Gallo,44782,606.0,no,NOL-ALB-00045,chiuso
+INT-ALB-0009,ALB-01,2025-11-11,2025-11-13,2.0,cambio gomme invernali,cambio stagionale,Autofficina Langhe,,83.0,no,,chiuso
+INT-ALB-0010,EB-ALB-001,2025-11-12,2025-11-13,1.0,assistenza,intervento dopo assistenza stradale,Bici Service Langhe,1900,291.0,,NOL-ALB-00049,chiuso
+INT-ALB-0011,ALB-04,2025-11-12,2025-11-13,1.0,cambio gomme invernali,cambio stagioale,Carrozzeria Gallo,110281,95.0,,,chiuso
+INT-ALB-0012,ALB-03,2025-11-15,2025-11-16,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,34293,60.0,no,,chiuso
+INT-ALB-0013,ALB-06,2025-11-16,2025-11-17,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,44782,95.0,no,,chiuso
+INT-ALB-0014,ALB-03,2025-11-19,2025-11-23,4.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Gallo,34536,643.0,no,NOL-ALB-00023,chiuso
+INT-ALB-0015,EB-ALB-003,2025-11-20,2025-11-22,2.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Alba,804,384.0,no,NOL-ALB-00041,chiuso
+INT-ALB-0016,ALB-05,2025-12-07,2025-12-08,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,32370,75.0,no,,chiuso
+INT-ALB-0017,ALB-07,2025-12-07,2025-12-09,2.0,carrozzeria,graffio superficiale,Carrozzeria Gallo,36502,,si,NOL-ALB-00073,chiuso
+INT-ALB-0018,ALB-04,2025-12-15,2025-12-17,2.0,tagliando,tagliando programmato,Autofficina Langhe,114515,268.0,no,,chiuso
+INT-ALB-0019,EB-ALB-002,2025-12-26,2025-12-27,1.0,tagliando,tagliando programmato,Ciclofficina Alba,2005,41.0,no,,chiuso
+INT-ALB-0020,ALB-06,2025-12-26,2025-12-30,4.0,vetri,crepa estesa,Carrozzeria Gallo,47710,,no,NOL-ALB-00116,chiuso
+INT-ALB-0021,ALB-04,2025-12-27,2026-01-01,5.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,114857,91.0,no,NOL-ALB-00109,chiuso
+INT-ALB-0022,ALB-02,2025-12-29,2026-01-01,3.0,tagliando,tagliando programmato,Carrozzeria Gallo,90574,233.0,no,,chiuso
+INT-ALB-0023,ALB-05,2025-12-30,2026-01-01,2.0,carrozzeria,leggera ammaccatura,Autofficina Langhe,33779,147.0,,NOL-ALB-00128,chiuso
+INT-ALB-0024,ALB-03,2026-01-01,2026-01-04,3.0,tagliando,tagliando programato,Carrozzeria Gallo,40474,251.0,no,,chiuso
+INT-ALB-0025,ALB-07,2026-01-09,2026-01-11,2.0,tagliando,tagliando programmato,Autofficina Langhe,39326,407.0,no,,chiuso
+INT-ALB-0026,ALB-01,2026-01-12,2026-01-13,1.0,tagliando,tagliando programmato,Autofficina Langhe,82450,192.0,no,,chiuso
+INT-ALB-0027,ALB-06,2026-01-15,2026-01-16,1.0,assistenza,,Carrozzeria Gallo,48759,596.0,no,,chiuso
+INT-ALB-0028,ALB-01,2026-01-19,2026-01-20,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Gallo,82719,48.0,si,NOL-ALB-00165,chiuso
+INT-ALB-0029,ALB-01,2026-01-19,2026-01-27,8.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,82719,490.3,no,NOL-ALB-00165,chiuso
+INT-ALB-0030,ALB-04,2026-01-21,2026-02-01,11.0,carrozzeria,danni da sinistro stratale,Carrozzeria Gallo,115832,617.9,no,NOL-ALB-00169,chiuso
+INT-ALB-0031,ALB-05,2026-01-27,2026-02-03,7.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Langhe,35945,421.0,no,NOL-ALB-00154,chiuso
+INT-ALB-0032,ALB-02,2026-02-06,2026-02-09,3.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,93359,467.0,no,NOL-ALB-00147,chiuso
+INT-ALB-0033,ALB-05,2026-02-08,2026-02-09,1.0,tagliando,tagliando programmato,Carrozzeria Gallo,36287,159.0,no,,chiuso
+INT-ALB-0034,ALB-02,2026-02-12,2026-02-18,6.0,elettrico/batteria,guasto elettrico/batteria,,93510,307.0,no,NOL-ALB-00156,chiuso
+INT-ALB-0035,ALB-04,2026-02-15,2026-02-18,3.0,meccanica,,Carrozzeria Gallo,116728,548.0,no,NOL-ALB-00177,chiuso
+INT-ALB-0036,ALB-03,2026-02-16,2026-02-17,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,44051,30.0,si,NOL-ALB-00210,chiuso
+INT-ALB-0037,ALB-01,2026-02-23,2026-02-24,1.0,vetri,striscio di ernice,Autofficina Langhe,86631,166.0,si,NOL-ALB-00219,chiuso
+INT-ALB-0038,EB-ALB-003,2026-02-23,2026-03-12,17.0,bici,,Ciclofficina Alba,895,109.4,no,NOL-ALB-00151,chiuso
+INT-ALB-0039,ALB-08,2026-02-27,2026-03-01,2.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,63735,462.0,,NOL-ALB-00228,chiuso
+INT-ALB-0040,EB-ALB-001,2026-03-06,2026-03-07,1.0,tagliando,tagliando programmato,Bici Service Langhe,2310,98.0,no,,chiuso
+INT-ALB-0041,ALB-06,2026-03-10,2026-03-12,2.0,tagliando,tagliando programmato,Carrozzeria Gallo,52469,305.0,no,,chiuso
+INT-ALB-0042,EB-ALB-003,2026-03-14,2026-03-15,1.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,921,233.0,no,NOL-ALB-00254,chiuso
+INT-ALB-0043,ALB-03,2026-03-27,2026-03-29,2.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Gallo,48266,202.0,no,NOL-ALB-00261,chiuso
+INT-ALB-0044,ALB-03,2026-03-27,2026-03-28,1.0,pulizia profonda,pulizia staordinaria,Carrozzeria Gallo,48266,58.0,si,NOL-ALB-00261,chiuso
+INT-ALB-0045,ALB-06,2026-03-31,2026-04-08,8.0,elettrico/batteria,guasto elettrico/batteria,Autofficina,53540,616.0,,NOL-ALB-00250,chiuso
+INT-ALB-0046,EB-ALB-003,2026-04-01,2026-04-03,2.0,bici,leva piegata ma funzionante,Bici Service Langhe,1032,54.0,si,NOL-ALB-00295,chiuso
+INT-ALB-0047,ALB-04,2026-04-05,2026-04-14,9.0,carrozzeria,crepa estesa,Carrozzeria Gallo,122087,977.0,no,NOL-ALB-00293,chiuso
+INT-ALB-0048,ALB-04,2026-04-05,2026-04-14,9.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,,1289.0,no,NOL-ALB-00293,chiuso
+INT-ALB-0049,ALB-01,2026-04-05,2026-04-07,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,91586,126.0,,,chiuso
+INT-ALB-0050,EB-ALB-002,2026-04-07,2026-04-09,2.0,bici,cerchio storto,Ciclofficina Alba,2354,226.0,si,NOL-ALB-00323,chiuso
+INT-ALB-0051,EB-ALB-003,2026-04-07,2026-04-09,2.0,bici,manubrio leggermente fuori asse,Ciclofficina Alba,1090,47.0,,,chiuso
+INT-ALB-0052,ALB-08,2026-04-11,2026-04-20,9.0,carrozzeria,danno da urto 20-30 cm,Autofficina Langhe,68377,833.0,si,NOL-ALB-00325,chiuso
+INT-ALB-0053,ALB-05,2026-04-13,2026-04-14,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,42533,48.0,si,NOL-ALB-00233,chiuso
+INT-ALB-0054,EB-ALB-001,2026-04-15,2026-04-18,3.0,meccanica,guasto meccanico in noleggio,Bici Service Langhe,2628,479.0,,NOL-ALB-00274,chiuso
+INT-ALB-0055,EB-ALB-003,2026-04-16,2026-04-18,2.0,tagliando,tagliando programmato,Bici Service Langhe,,88.0,no,,chiuso
+INT-ALB-0056,ALB-07,2026-04-17,2026-04-24,7.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,46610,358.0,no,NOL-ALB-00320,chiuso
+INT-ALB-0057,EB-ALB-003,2026-04-19,2026-04-20,1.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Langhe,1244,437.0,no,NOL-ALB-00349,chiuso
+INT-ALB-0058,ALB-08,2026-04-19,2026-04-20,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Gallo,,60.0,no,,chiuso
+INT-ALB-0059,ALB-03,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Gallo,50773,55.0,no,,chiuso
+INT-ALB-0060,ALB-08,2026-04-20,2026-04-22,2.0,tagliando,,,68377,232.0,no,,chiuso
+INT-ALB-0061,ALB-01,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Autofficina,92860,94.0,,,chiuso
+INT-ALB-0062,ALB-05,2026-04-22,2026-04-23,1.0,gomme,,Carrozzeria Gallo,43364,63.0,,,chiuso
+INT-ALB-0063,EB-ALB-002,2026-04-22,2026-04-23,1.0,tagliando,tagliando programmato,Bici Service Langhe,2879,94.0,no,,chiuso
+INT-ALB-0064,ALB-07,2026-04-23,2026-04-24,1.0,cambio gomme estive,cambio stagionale,Autofficina Langhe,46610,93.0,no,,chiuso
+INT-ALB-0065,ALB-08,2026-04-24,2026-04-25,1.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,68674,608.0,no,NOL-ALB-00352,chiuso
+INT-ALB-0066,EB-ALB-003,2026-04-24,2026-04-25,1.0,bici,,Bici Service Langhe,1318,47.0,no,NOL-ALB-00337,chiuso
+INT-ALB-0067,ALB-06,2026-04-25,2026-04-26,1.0,cambio gomme estive,,Autofficina Langhe,57062,80.0,,,chiuso
+INT-ALB-0068,ALB-02,2026-04-25,2026-04-27,2.0,gomme,cambio stagionale,Autofficina Langhe,98450,59.0,no,,chiuso
+INT-ALB-0069,EB-ALB-002,2026-04-27,2026-04-28,1.0,bici,graffi sul telaio,Bici Service Langhe,2943,85.0,si,,chiuso
+INT-ALB-0070,ALB-07,2026-04-30,2026-05-01,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,47310,52.0,si,NOL-ALB-00365,chiuso
+INT-ALB-0071,ALB-02,2026-05-02,2026-05-10,8.0,carrozzeria,crepa estesa,,98767,1194.0,no,NOL-ALB-00376,chiuso
+INT-ALB-0072,EB-ALB-001,2026-05-04,2026-05-05,1.0,tagliando,tagliando programmato,Ciclofficina Alba,,58.0,no,,chiuso
+INT-ALB-0073,ALB-04,2026-05-06,2026-05-07,1.0,cambio gomme estive,cambio stagionale,Autofficina Langhe,124476,61.0,no,,chiuso
+INT-ALB-0074,EB-ALB-002,2026-05-09,2026-05-11,2.0,bici,graffi sul telaio,Bici Service Langhe,3215,58.0,si,NOL-ALB-00386,chiuso
+INT-ALB-0075,EB-ALB-003,2026-05-09,2026-05-10,1.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Alba,1561,162.0,no,NOL-ALB-00392,chiuso
+INT-ALB-0076,EB-ALB-003,2026-05-12,2026-05-15,3.0,bici,display rotio,Bici Service Langhe,1584,157.0,no,NOL-ALB-00335,chiuso
+INT-ALB-0077,ALB-07,2026-05-16,2026-06-23,38.0,carrozzeria,deformazione importante,Carrozzeria Gallo,49138,3530.0,si,NOL-ALB-00351,chiuso
+INT-ALB-0078,ALB-08,2026-05-16,2026-05-19,3.0,carrozzeria,,Autofficina Langhe,71171,167.0,si,NOL-ALB-00425,chiuso
+INT-ALB-0079,ALB-05,2026-05-17,2026-05-25,8.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,45573,255.0,no,NOL-ALB-00426,chiuso
+INT-ALB-0080,ALB-01,2026-05-19,2026-05-28,9.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,96200,75.0,no,,chiuso
+INT-ALB-0081,ALB-03,2026-05-21,2026-05-22,1.0,tagliando,tagliando programmato,Autofficina Langhe,55516,328.0,no,,chiuso
+INT-ALB-0082,ALB-02,2026-05-21,2026-05-23,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Gallo,99404,20.0,si,NOL-ALB-00436,chiuso
+INT-ALB-0083,EB-ALB-003,2026-05-22,2026-06-01,10.0,bici,forcella e ruoti da sostituire,Bici Service Langhe,1754,111.9,si,NOL-ALB-00454,chiuso
+INT-ALB-0084,EB-ALB-002,2026-05-23,2026-05-24,1.0,tagliando,tagliando programmato,Ciclofficina Alba,3394,44.0,no,,chiuso
+INT-ALB-0085,ALB-02,2026-05-23,2026-05-29,6.0,elettrico/batteria,suasto elettrico/batteri,Autofficina Langhe,99465,614.0,no,NOL-ALB-00362,chiuso
+INT-ALB-0086,EB-ALB-003,2026-05-31,2026-06-01,1.0,tagliando,tagliando programmato,Ciclofficina Alba,1754,75.0,no,,chiuso
+INT-ALB-0087,EB-ALB-001,2026-06-02,2026-06-03,1.0,tagliando,tagliando programmato,Bici Service Langhe,3455,87.0,no,,chiuso
+INT-ALB-0088,EB-ALB-002,2026-06-04,2026-06-06,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Alba,3517,160.0,,NOL-ALB-00394,chiuso
+INT-ALB-0089,ALB-04,2026-06-07,2026-06-12,5.0,carrozzeria,amaccatura con vernice saltata,Autofficina Langhe,126860,945.0,no,NOL-ALB-00487,chiuso
+INT-ALB-0090,ALB-05,2026-06-11,2026-06-13,2.0,carrozzeria,striscio di vernice,Autofficina Langhe,47457,83.0,si,NOL-ALB-00493,chiuso
+INT-ALB-0091,EB-ALB-003,2026-06-14,2026-06-17,3.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,1992,403.0,no,NOL-ALB-00423,chiuso
+INT-ALB-0092,ALB-06,2026-06-15,2026-06-17,2.0,vetri,striscio di vernice,Carrozzeria Gallo,62181,153.0,no,NOL-ALB-00471,chiuso
+INT-ALB-0093,ALB-01,2026-06-15,2026-06-16,1.0,tagliando,tagliando programmato,,99475,151.0,,,chiuso
+INT-ALB-0094,ALB-05,2026-06-17,2026-06-26,9.0,carrozzeria,danno da urto 20-30 cm,Autofficina Langhe,47641,,si,NOL-ALB-00508,chiuso
+INT-ALB-0095,ALB-08,2026-06-22,2026-06-23,1.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,74366,,no,NOL-ALB-00449,chiuso
+INT-ALB-0096,EB-ALB-003,2026-06-24,2026-06-25,1.0,pulizia profonda,pulizia straordinaria,Bici Service Langhe,2191,54.0,si,NOL-ALB-00536,chiuso
+INT-ALB-0097,EB-ALB-001,2026-06-24,2026-06-29,5.0,bici,forcella piegata,Bici Service Langhe,3756,229.0,no,NOL-ALB-00537,chiuso
+INT-ALB-0098,ALB-05,2026-06-27,2026-07-06,9.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Gallo,47962,302.0,no,NOL-ALB-00526,chiuso
+INT-ALB-0099,ALB-05,2026-06-27,2026-07-02,5.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,47962,,no,NOL-ALB-00526,chiuso
+INT-ALB-0100,EB-ALB-002,2026-06-28,2026-06-29,1.0,tagliando,tagliandoo prograammato,Ciclofficina Alba,3898,62.0,,,chiuso
+INT-ALB-0101,EB-ALB-003,2026-06-28,2026-06-30,2.0,tagliando,tagliando programmato,Bici Service Langhe,2281,75.0,no,,chiuso
+INT-ALB-0102,EB-ALB-001,2026-06-30,2026-07-03,3.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,3809,671.0,no,NOL-ALB-00539,chiuso
+INT-ALB-0103,ALB-03,2026-07-03,2026-08-09,37.0,carrozzeria,deformazione importante,,60477,1978.0,si,NOL-ALB-00550,chiuso
+INT-ALB-0104,EB-ALB-002,2026-07-13,2026-07-15,2.0,tagliando,tagliando programmato,Ciclofficina Alba,4487,,no,,chiuso
+INT-ALB-0105,ALB-07,2026-07-15,2026-08-05,21.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,50525,788.3,no,NOL-ALB-00581,chiuso
+INT-ALB-0106,EB-ALB-001,2026-07-16,2026-07-17,1.0,tagliando,tagliando programmato,Ciclofficina Alba,4030,75.0,no,,chiuso
+INT-ALB-0107,ALB-08,2026-07-18,2026-07-20,2.0,carrozzeria,graffio superficiale,Autofficina Langhe,76856,96.0,si,,chiuso
+INT-ALB-0108,ALB-08,2026-07-18,2026-07-19,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,76856,46.0,si,NOL-ALB-00583,chiuso
+INT-ALB-0109,ALB-04,2026-07-20,2026-07-21,1.0,tagliando,tagliando programmato,Autofficina Langhe,131722,392.0,no,,chiuso
+INT-ALB-0110,ALB-08,2026-07-23,2026-08-13,21.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,76965,2540.0,no,NOL-ALB-00593,chiuso
+INT-ALB-0111,EB-ALB-002,2026-07-25,2026-07-29,4.0,bici,cambio posteriore rotto,Ciclofficina Alba,4606,305.0,no,NOL-ALB-00605,chiuso
+INT-ALB-0112,EB-ALB-003,2026-07-26,2026-07-27,1.0,tagliando,tagliando programmato,Ciclofficina Alba,2808,93.0,no,,chiuso
+INT-ALB-0113,ALB-06,2026-07-29,2026-09-04,37.0,carrozzeria,rottura con perdita di liquidi,Autofficina Langhe,64910,3742.0,no,NOL-ALB-00610,chiuso
+INT-ALB-0114,ALB-06,2026-07-29,2026-08-04,6.0,gomme,sostituzione pneumatico [incomprensibile],Carrozzeria Gallo,64910,432.0,,NOL-ALB-00610,chiuso
+INT-ALB-0115,ALB-01,2026-08-02,2026-08-04,2.0,carrozzeria,segni di sfregamento,Carrozzeria Gallo,104444,201.0,si,NOL-ALB-00510,chiuso
+INT-ALB-0116,ALB-05,2026-08-08,2026-08-10,2.0,tagliando,tagliando programmato,Autofficina,52220,170.0,no,,chiuso
+INT-ALB-0117,ALB-04,2026-08-11,2026-09-09,29.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,133907,762.5,no,NOL-ALB-00614,chiuso
+INT-ALB-0118,ALB-03,2026-08-11,2026-08-13,2.0,carrozzeria,segni di sfregamento,Carrozzeria Gallo,60582,225.0,,NOL-ALB-00608,chiuso
+INT-ALB-0119,ALB-02,2026-08-12,2026-08-13,1.0,tagliando,tagliando programmato,Autofficina Langhe,106220,167.0,no,,chiuso
+INT-ALB-0120,EB-ALB-001,2026-08-14,2026-08-16,2.0,tagliando,tagliando programmato,Bici Service Langhe,4755,75.0,no,,chiuso
+INT-ALB-0121,ALB-07,2026-08-19,2026-08-21,2.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,51539,45.0,si,NOL-ALB-00629,chiuso
+INT-ALB-0122,ALB-08,2026-08-21,2026-09-21,31.0,carrozzeria,deformazione importante,Carrozzeria Gallo,77266,3617.0,si,NOL-ALB-00657,chiuso
+INT-ALB-0123,EB-ALB-003,2026-08-27,2026-08-30,3.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Langhe,3089,249.0,no,NOL-ALB-00659,chiuso
+INT-ALB-0124,EB-ALB-002,2026-08-29,2026-08-30,1.0,tagliando,tagliando programmato,Ciclofficina Alba,4988,70.0,no,,chiuso
+INT-ALB-0125,ALB-02,2026-08-29,2026-08-31,2.0,gomme,sostituziine pneumatico [incomprensibile],Autofficina Langhe,107848,206.0,no,NOL-ALB-00619,chiuso
+INT-ALB-0126,ALB-02,2026-09-04,2026-09-05,1.0,gomme,sostituzione pneumatico,Carrozzeria Gallo,108250,537.0,no,NOL-ALB-00670,chiuso
+INT-ALB-0127,ALB-07,2026-09-09,2026-09-18,9.0,carrozzeria,calotta ootta,Carrozzeria Gallo,53072,859.0,,NOL-ALB-00687,chiuso
+INT-ALB-0128,EB-ALB-003,2026-09-12,2026-09-19,7.0,bici,display rotto,,3298,375.0,,NOL-ALB-00671,chiuso
+INT-ALB-0129,EB-ALB-002,2026-09-18,2026-09-19,1.0,pulizia profonda,,Bici Service Langhe,5101,50.0,si,,chiuso
+INT-ALB-0130,EB-ALB-003,2026-09-19,2026-09-27,8.0,bici,cerchio storto,Ciclofficina Alba,3323,133.0,si,NOL-ALB-00690,chiuso
+INT-ALB-0131,ALB-02,2026-09-21,2026-09-25,4.0,meccanica,guasto meccanico in noleggio,Carrozzeria,108979,436.0,,NOL-ALB-00668,chiuso
+INT-ALB-0132,EB-ALB-001,2026-09-23,2026-09-24,1.0,tagliando,tagliando programmato,Ciclofficina Alba,5267,58.0,no,,chiuso
+INT-ALB-0133,ALB-05,2026-09-26,2026-10-01,5.0,carrozzeria,crepa estesa,Carrozzeria Gallo,56289,476.0,no,NOL-ALB-00704,chiuso
+INT-ALB-0134,EB-ALB-003,2026-09-26,2026-09-28,2.0,tagliando,,Ciclofficina Alba,3323,96.0,no,,chiuso
+INT-ALB-0135,ALB-02,2026-09-29,2026-10-03,4.0,carrozzeria,crepa astesa,Carrozzeria Gallo,109256,372.0,no,NOL-ALB-00756,chiuso
+INT-ALB-0136,ALB-01,2026-10-02,2026-10-05,3.0,carrozzeria,leggera ammaccatura,Carrozzeria Gallo,110855,139.0,si,NOL-ALB-00779,chiuso
+INT-ALB-0137,EB-ALB-001,2026-10-04,2026-10-05,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Alba,5418,69.0,si,NOL-ALB-00760,chiuso
+INT-ALB-0138,ALB-06,2026-10-06,2026-10-07,1.0,tagliando,tagliando programmato,Carrozzeria Gallo,70153,242.0,no,,chiuso
+INT-ALB-0139,ALB-03,2026-10-08,2026-10-09,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,67592,33.0,si,,chiuso
+INT-ALB-0140,ALB-06,2026-10-11,2026-10-18,7.0,gomme,ammaccatura con vernice salttata,Carrozzeria Gallo,70366,730.0,si,NOL-ALB-00787,chiuso
+INT-ALB-0141,EB-ALB-002,2026-10-13,2026-10-15,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Alba,5501,442.0,no,NOL-ALB-00749,chiuso
+INT-ALB-0142,ALB-07,2026-10-14,2026-10-15,1.0,carrozzeria,leggera ammaccatura,Carrozzeria Gallo,57553,115.0,no,NOL-ALB-00751,chiuso
+INT-ALB-0143,EB-ALB-001,2026-10-14,2026-10-21,7.0,bici,cerchio storto,Bici Service Langhe,5556,301.0,si,NOL-ALB-00776,chiuso
+INT-ALB-0144,EB-ALB-002,2026-10-14,2026-10-16,2.0,tagliando,tagliando programmato,Ciclofficina Alba,5501,92.0,no,,chiuso
+INT-ALB-0145,ALB-07,2026-10-16,2026-10-18,2.0,carrozzeria,graffio superficiale,Autofficina Langhe,57739,167.0,si,NOL-ALB-00814,chiuso
+INT-ALB-0146,EB-ALB-003,2026-10-18,2026-10-20,2.0,gomme,sostituzione pneumatico,Bici Service Langhe,3672,229.0,no,NOL-ALB-00819,chiuso
+INT-ALB-0147,ALB-07,2026-10-19,2026-10-29,10.0,carrozzeria,calotta rotta,Carrozzeria Gallo,57853,1196.0,si,NOL-ALB-00703,chiuso
+INT-ALB-0148,ALB-06,2026-10-23,2026-10-29,6.0,gomme,,Autofficina Langhe,70778,,,NOL-ALB-00804,chiuso
+INT-ALB-0149,EB-ALB-002,2026-10-23,2026-10-26,3.0,gomme,sostituzione pneumatico,Bici Service Langhe,5600,57.0,,,chiuso
+INT-ALB-0150,ALB-01,2026-10-24,2026-11-11,18.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,113056,2580.0,no,NOL-ALB-00783,chiuso
+INT-ALB-0151,ALB-04,2026-10-30,2026-11-04,5.0,elettrico/batteria,guasto elettrco/batteraa,Carrozzeria Gallo,141849,646.0,,NOL-ALB-00844,chiuso
+INT-ALB-0152,EB-ALB-002,2026-10-31,2026-11-01,1.0,pulizia profonda,pulizia straordinaria,Bici Service Langhe,5741,22.0,si,NOL-ALB-00845,chiuso
+INT-ALB-0153,ALB-03,2026-10-31,2026-11-03,3.0,tagliando,tagliando programmato,Carrozzeria Gallo,71263,391.0,no,,chiuso
+INT-ALB-0154,EB-ALB-003,2026-10-31,2026-11-02,2.0,tagliando,tagliando programmato,Bici Service Langhe,4095,62.0,no,,chiuso
+INT-ALB-0155,EB-ALB-001,2026-11-10,2026-11-11,1.0,tagliando,tagliando programmato,Bici Service Langhe,5778,79.0,no,,chiuso

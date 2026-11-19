@@ -1,0 +1,65 @@
+id_veicolo,tipo_mezzo,tipologia,marca,modello,alimentazione,targa,codice_asset,anno_immatricolazione,km_iniziali,posti,id_sede,codice_tariffa,tariffa_giorno_eur,tariffa_weekend_2gg_eur,tariffa_settimana_eur,tariffa_mezza_giornata_eur,km_inclusi_giorno,costo_extra_km_eur,cauzione_eur,stato
+TOR-01,auto,Utilitaria,Fiat,Panda 1.0 Hybrid,Ibrido,GL305PT,,2023,76900,5,TOR,UTI,35,60,210,,150,0.15,300,disponibile
+TOR-02,auto,Utilitaria,Fiat,Panda 1.0 Hybrid,Ibrido,GL311RS,,2023,48100,5,TOR,UTI,35,60,210,,150,0.15,300,disponibile
+TOR-03,auto,Utilitaria,Toyota,Aygo X 1.0,Benzina,GM842BD,,2024,41900,4,TOR,UTI,35,60,210,,150,0.15,300,disponibile
+TOR-04,auto,Elettrica,Fiat,500e,Elettrico,GP127FK,,2025,23100,4,TOR,ELE,70,120,420,,200,0.1,600,disponibile
+TOR-05,auto,Elettrica,Fiat,500e,Elettrico,GP129LH,,2025,32800,4,TOR,ELE,70,120,420,,200,0.1,600,disponibile
+TOR-06,auto,Elettrica,Tesla,Model 3 RWD,Elettrico,GT275HY,,2025,31700,5,TOR,ELP,110,190,660,,200,0.12,1000,disponibile
+TOR-07,auto,Compatta,Peugeot,208 PureTech,Benzina,GJ563ZC,,2022,115200,5,TOR,CMP,45,80,270,,200,0.18,400,disponibile
+TOR-08,auto,Compatta,Volkswagen,Golf 1.5 TSI,Benzina,GH746MV,,2022,66200,5,TOR,CMP,45,80,270,,200,0.18,400,disponibile
+TOR-09,auto,Compatta,Renault,Clio TCe GPL,GPL,GN218WB,,2024,46800,5,TOR,CMP,45,80,270,,200,0.18,400,disponibile
+TOR-10,auto,SUV,Jeep,Avenger 1.2,Benzina,GR690TX,,2025,19500,5,TOR,SUV,75,130,450,,250,0.22,600,disponibile
+TOR-11,auto,SUV,Nissan,Qashqai 1.3 mHEV,Ibrido,GS044CN,,2025,23000,5,TOR,SUV,75,130,450,,250,0.22,600,disponibile
+TOR-12,auto,Station wagon,Skoda,Octavia Wagon 2.0 TDI,Diesel,GK931JD,,2023,70600,5,TOR,SWG,60,105,360,,250,0.2,500,disponibile
+TOR-13,auto,Monovolume 7 posti,Dacia,Jogger 1.0 GPL,GPL,GM509KV,,2024,33800,7,TOR,MON,85,150,510,,250,0.22,700,disponibile
+TOR-14,furgone,Furgone,Fiat,Doblò Cargo,Diesel,GL652NF,,2023,84400,3,TOR,FPC,65,110,390,,200,0.2,600,disponibile
+TOR-15,furgone,Furgone,Ford,Transit Custom L2,Diesel,GP384DZ,,2025,43700,3,TOR,FGR,90,155,540,,200,0.25,800,disponibile
+TOR-16,furgone,Furgone,Fiat,Ducato L2H2,Diesel,GN761SP,,2024,72200,3,TOR,FGR,90,155,540,,200,0.25,800,disponibile
+TOR-17,furgone,Furgone elettrico,Peugeot,e-Expert,Elettrico,GR118BK,,2025,34500,3,TOR,FEL,95,160,570,,150,0.12,900,disponibile
+ALB-01,auto,Utilitaria,Citroën,C3 PureTech,Benzina,GK284RT,,2023,74500,5,ALB,UTI,35,60,210,,150,0.15,300,disponibile
+ALB-02,auto,Utilitaria,Fiat,Panda 1.0 Hybrid,Ibrido,GL477VC,,2023,84900,5,ALB,UTI,35,60,210,,150,0.15,300,disponibile
+ALB-03,auto,Compatta,Renault,Clio TCe,Benzina,GM356HX,,2024,33100,5,ALB,CMP,45,80,270,,200,0.18,400,disponibile
+ALB-04,auto,Station wagon,Fiat,Tipo SW,Benzina,GJ812NP,,2022,110000,5,ALB,SWG,60,105,360,,250,0.2,500,disponibile
+ALB-05,auto,SUV,Toyota,Yaris Cross Hybrid,Ibrido,GR153MD,,2025,32100,5,ALB,SUV,75,130,450,,250,0.22,600,disponibile
+ALB-06,auto,SUV,Jeep,Renegade 1.5 mHEV,Ibrido,GN630ZK,,2024,44100,5,ALB,SUV,75,130,450,,250,0.22,600,disponibile
+ALB-07,furgone,Furgone,Fiat,Doblò Cargo,Diesel,GP905TB,,2025,33100,3,ALB,FPC,65,110,390,,200,0.2,600,disponibile
+ALB-08,furgone,Furgone,Iveco,Daily 35S14,Diesel,GS271WE,,2025,50400,3,ALB,FGR,90,155,540,,200,0.25,800,disponibile
+BAR-01,auto,SUV 4x4,Dacia,Duster 4x4,Benzina,GH509LX,,2022,81400,5,BAR,S4X,95,165,570,,250,0.25,800,disponibile
+BAR-02,auto,SUV 4x4,Dacia,Duster 4x4,Benzina,GH512LY,,2022,66500,5,BAR,S4X,95,165,570,,250,0.25,800,disponibile
+BAR-03,auto,SUV 4x4,Toyota,RAV4 Hybrid AWD,Ibrido,GN447SK,,2024,36100,5,BAR,S4X,95,165,570,,250,0.25,800,disponibile
+BAR-04,auto,SUV 4x4,Jeep,Compass 4xe,Ibrido plug-in,GP071EN,,2025,34900,5,BAR,S4X,95,165,570,,250,0.25,800,disponibile
+BAR-05,auto,SUV 4x4,Skoda,Kodiaq 2.0 TDI 4x4,Diesel,GK648DM,,2023,75200,7,BAR,S4X,95,165,570,,250,0.25,800,disponibile
+BAR-06,auto,Compatta 4x4,Suzuki,Ignis 4x4,Ibrido,GL128ZH,,2023,84800,5,BAR,C4X,60,105,360,,200,0.2,500,disponibile
+BAR-07,furgone,Furgone,Ford,Transit Custom L2,Diesel,GM763JF,,2024,79100,3,BAR,FGR,90,155,540,,200,0.25,800,disponibile
+STR-01,auto,Utilitaria cabrio,Fiat,500C Hybrid,Ibrido,GN095AS,,2024,50500,4,STR,CAB,55,95,330,,150,0.2,500,disponibile
+STR-02,auto,Elettrica,Renault,5 E-Tech,Elettrico,GR842PW,,2025,37300,5,STR,ELE,70,120,420,,200,0.1,600,disponibile
+STR-03,auto,Compatta,Volkswagen,Polo 1.0 TSI,Benzina,GK517TC,,2023,64700,5,STR,CMP,45,80,270,,200,0.18,400,disponibile
+STR-04,auto,Compatta,Toyota,Yaris Hybrid,Ibrido,GS186DN,,2025,29300,5,STR,CMP,45,80,270,,200,0.18,400,disponibile
+STR-05,auto,SUV,Peugeot,2008 PureTech,Benzina,GM234BX,,2024,60200,5,STR,SUV,75,130,450,,250,0.22,600,disponibile
+STR-06,auto,SUV,Renault,Captur Hybrid,Ibrido,GP658HV,,2025,30600,5,STR,SUV,75,130,450,,250,0.22,600,disponibile
+STR-07,furgone,Furgone,Fiat,Scudo,Diesel,GL940KR,,2023,119900,3,STR,FPC,65,110,390,,200,0.2,600,disponibile
+CAS-01,auto,Utilitaria,Fiat,Panda 1.0 Hybrid,Ibrido,GM081CF,,2024,51900,5,CAS,UTI,35,60,210,,150,0.15,300,disponibile
+CAS-02,auto,Utilitaria,Citroën,C3 PureTech,Benzina,GJ449YR,,2022,103800,5,CAS,UTI,35,60,210,,150,0.15,300,disponibile
+CAS-03,auto,Compatta,Dacia,Sandero Stepway GPL,GPL,GN872LP,,2024,34400,5,CAS,CMP,45,80,270,,200,0.18,400,disponibile
+CAS-04,auto,Station wagon,Fiat,Tipo SW,Benzina,GR305KH,,2025,23200,5,CAS,SWG,60,105,360,,250,0.2,500,disponibile
+CAS-05,auto,SUV,Dacia,Duster GPL,GPL,GS719ZM,,2025,24400,5,CAS,SUV,75,130,450,,250,0.22,600,disponibile
+CAS-06,furgone,Furgone,Fiat,Ducato L2H2,Diesel,GP426WA,,2025,31400,3,CAS,FGR,90,155,540,,200,0.25,800,disponibile
+CAS-07,furgone,Furgone,Renault,Master L3H2,Diesel,GH683DT,,2022,111900,3,CAS,FGR,90,155,540,,200,0.25,800,disponibile
+EB-TOR-001,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-TOR-001,2024,1250,1,TOR,BTR,25,45,130,15,,0,100,disponibile
+EB-TOR-002,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-TOR-002,2025,1890,1,TOR,BTR,25,45,130,15,,0,100,disponibile
+EB-TOR-003,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-TOR-003,2025,710,1,TOR,BTR,25,45,130,15,,0,100,disponibile
+EB-TOR-004,e-bike,E-bike city/trekking,Bianchi,E-Omnia C-Type,Elettrico (pedalata assistita),,EB-TOR-004,2025,820,1,TOR,BTR,25,45,130,15,,0,100,disponibile
+EB-TOR-005,e-bike,E-bike city/trekking,Bianchi,E-Omnia C-Type,Elettrico (pedalata assistita),,EB-TOR-005,2025,2050,1,TOR,BTR,25,45,130,15,,0,100,disponibile
+EB-ALB-001,e-bike,E-bike MTB,Thok,E-K2,Elettrico (pedalata assistita),,EB-ALB-001,2024,1820,1,ALB,BMT,35,60,180,20,,0,200,disponibile
+EB-ALB-002,e-bike,E-bike MTB,Thok,E-K2,Elettrico (pedalata assistita),,EB-ALB-002,2024,1640,1,ALB,BMT,35,60,180,20,,0,200,disponibile
+EB-ALB-003,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-ALB-003,2024,710,1,ALB,BTR,25,45,130,15,,0,100,disponibile
+EB-BAR-001,e-bike,E-bike MTB,Thok,E-K2,Elettrico (pedalata assistita),,EB-BAR-001,2025,970,1,BAR,BMT,35,60,180,20,,0,200,disponibile
+EB-BAR-002,e-bike,E-bike MTB,Thok,E-K2,Elettrico (pedalata assistita),,EB-BAR-002,2024,2010,1,BAR,BMT,35,60,180,20,,0,200,disponibile
+EB-BAR-003,e-bike,E-bike MTB,Cube,Reaction Hybrid,Elettrico (pedalata assistita),,EB-BAR-003,2024,870,1,BAR,BMT,35,60,180,20,,0,200,disponibile
+EB-STR-001,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-STR-001,2024,2310,1,STR,BTR,25,45,130,15,,0,100,disponibile
+EB-STR-002,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-STR-002,2025,970,1,STR,BTR,25,45,130,15,,0,100,disponibile
+EB-STR-003,e-bike,E-bike city/trekking,Bianchi,E-Omnia C-Type,Elettrico (pedalata assistita),,EB-STR-003,2024,2580,1,STR,BTR,25,45,130,15,,0,100,disponibile
+EB-STR-004,e-bike,E-bike city/trekking,Bianchi,E-Omnia C-Type,Elettrico (pedalata assistita),,EB-STR-004,2025,830,1,STR,BTR,25,45,130,15,,0,100,disponibile
+EB-CAS-001,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-CAS-001,2025,1290,1,CAS,BTR,25,45,130,15,,0,100,disponibile
+EB-CAS-002,e-bike,E-bike city/trekking,Cube,Kathmandu Hybrid,Elettrico (pedalata assistita),,EB-CAS-002,2025,660,1,CAS,BTR,25,45,130,15,,0,100,disponibile
+EB-CAS-003,e-bike,E-bike city/trekking,Bianchi,E-Omnia C-Type,Elettrico (pedalata assistita),,EB-CAS-003,2024,920,1,CAS,BTR,25,45,130,15,,0,100,disponibile

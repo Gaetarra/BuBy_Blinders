@@ -1,0 +1,65 @@
+sede,citta,tipo,targa,stato,km
+Torino Lingotto,Torino,auto,GL305PT,disponibile,104191
+Torino Lingotto,Torino,auto,GL311RS,disponibile,70229
+Torino Lingotto,Torino,auto,GM842BD,disponibile,66750
+Torino Lingotto,Torino,auto,GP127FK,disponibile,46172
+Torino Lingotto,Torino,auto,GP129LH,disponibile,60614
+Torino Lingotto,Torino,auto,GT275HY,disponibile,58410
+Torino Lingotto,Torino,auto,GJ563ZC,disponibile,139809
+Torino Lingotto,Torino,auto,GH746MV,disponibile,86808
+Torino Lingotto,Torino,auto,GN218WB,disponibile,68057
+Torino Lingotto,Torino,auto,GR690TX,disponibile,42765
+Torino Lingotto,Torino,auto,GS044CN,disponibile,47761
+Torino Lingotto,Torino,auto,GK931JD,disponibile,88049
+Torino Lingotto,Torino,auto,GM509KV,disponibile,53228
+Torino Lingotto,Torino,furgone,GL652NF,disponibile,108546
+Torino Lingotto,Torino,furgone,GP384DZ,disponibile,69246
+Torino Lingotto,Torino,furgone,GN761SP,disponibile,92778
+Torino Lingotto,Torino,furgone,GR118BK,disponibile,55778
+Alba,Alba,auto,GK284RT,disponibile,113056
+Alba,Alba,auto,GL477VC,disponibile,112344
+Alba,Alba,auto,GM356HX,disponibile,71263
+Alba,Alba,auto,GJ812NP,disponibile,141849
+Alba,Alba,auto,GR153MD,disponibile,60569
+Alba,Alba,auto,GN630ZK,disponibile,72584
+Alba,Alba,furgone,GP905TB,disponibile,59772
+Alba,Alba,furgone,GS271WE,disponibile,82803
+Bardonecchia,Bardonecchia,auto,GH509LX,disponibile,109092
+Bardonecchia,Bardonecchia,auto,GH512LY,disponibile,89078
+Bardonecchia,Bardonecchia,auto,GN447SK,disponibile,61981
+Bardonecchia,Bardonecchia,auto,GP071EN,disponibile,64038
+Bardonecchia,Bardonecchia,auto,GK648DM,disponibile,100115
+Bardonecchia,Bardonecchia,auto,GL128ZH,disponibile,106673
+Bardonecchia,Bardonecchia,furgone,GM763JF,disponibile,100737
+Stresa,Stresa,auto,GN095AS,disponibile,80808
+Stresa,Stresa,auto,GR842PW,disponibile,65656
+Stresa,Stresa,auto,GK517TC,disponibile,97438
+Stresa,Stresa,auto,GS186DN,disponibile,58649
+Stresa,Stresa,auto,GM234BX,disponibile,97645
+Stresa,Stresa,auto,GP658HV,disponibile,64169
+Stresa,Stresa,furgone,GL940KR,disponibile,139373
+Casale Monferrato,Casale Monferrato,auto,GM081CF,disponibile,79720
+Casale Monferrato,Casale Monferrato,auto,GJ449YR,disponibile,130898
+Casale Monferrato,Casale Monferrato,auto,GN872LP,disponibile,56627
+Casale Monferrato,Casale Monferrato,auto,GR305KH,disponibile,48014
+Casale Monferrato,Casale Monferrato,auto,GS719ZM,disponibile,50810
+Casale Monferrato,Casale Monferrato,furgone,GP426WA,disponibile,58045
+Casale Monferrato,Casale Monferrato,furgone,GH683DT,disponibile,136966
+Torino Lingotto,Torino,ebike,EB-TOR-001,disponibile,4339
+Torino Lingotto,Torino,ebike,EB-TOR-002,disponibile,5485
+Torino Lingotto,Torino,ebike,EB-TOR-003,disponibile,4658
+Torino Lingotto,Torino,ebike,EB-TOR-004,disponibile,4630
+Torino Lingotto,Torino,ebike,EB-TOR-005,disponibile,5435
+Alba,Alba,ebike,EB-ALB-001,disponibile,5778
+Alba,Alba,ebike,EB-ALB-002,disponibile,5801
+Alba,Alba,ebike,EB-ALB-003,disponibile,4151
+Bardonecchia,Bardonecchia,ebike,EB-BAR-001,disponibile,3870
+Bardonecchia,Bardonecchia,ebike,EB-BAR-002,disponibile,4869
+Bardonecchia,Bardonecchia,ebike,EB-BAR-003,disponibile,3215
+Stresa,Stresa,ebike,EB-STR-001,disponibile,6482
+Stresa,Stresa,ebike,EB-STR-002,disponibile,5239
+Stresa,Stresa,ebike,EB-STR-003,disponibile,6664
+Stresa,Stresa,ebike,EB-STR-004,disponibile,4323
+Casale Monferrato,Casale Monferrato,ebike,EB-CAS-001,disponibile,4409
+Casale Monferrato,Casale Monferrato,ebike,EB-CAS-002,disponibile,3624
+Casale Monferrato,Casale Monferrato,ebike,EB-CAS-003,disponibile,4680

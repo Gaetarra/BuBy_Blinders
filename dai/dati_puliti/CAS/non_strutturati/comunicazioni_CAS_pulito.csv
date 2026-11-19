@@ -1,0 +1,558 @@
+id_comunicazione,id_noleggio_corretto,data_ora,canale,mittente_tipo,mittente,oggetto_clean,testo_clean
+COM-CAS-00001,NOL-CAS-00007,2025-10-17 06:40:00,email,cliente,gcerutti@example.org,disponibilita',"Gentile Buby Rent,
+Accettate carte dii debito per la cauzione o serve per forza la carta di credito?
+Cordialmente
+Giulia Cerutti"
+COM-CAS-00002,NOL-CAS-00028,2025-10-31 11:42:00,email,cliente,info@ferrariselettrica.example.it,disponibilita',"Gentile Buby Rent,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Grazie e saluti
+FERRARIS ELETTRICA"
+COM-CAS-00003,NOL-CAS-00554,2025-11-02 00:42:00,email,cliente,fabio.genre@example.org,Annullamento prenotazione,"Devo annullare la prenotazione per motivi di lavors, posso avere il rimborso?
+In attesa di un vostro riscontro
+Fabio Genre"
+COM-CAS-00004,NOL-CAS-00025,2025-11-02 04:21:00,whatsapp,cliente,3897223473,,"annullate x favore la mia prenotazione, la nostra gita e' saltata x il meteo"
+COM-CAS-00005,NOL-CAS-00036,2025-11-03 10:56:00,whatsapp,cliente,3687868442,,"devo spostare il noleggio di un giorno, e' possibile? (GN872LP)"
+COM-CAS-00006,NOL-CAS-00023,2025-11-03 15:01:00,nota_tecnico,tecnico,Tech1,,"RIIT CAS-02: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 40€ al cliente. Stefano"
+COM-CAS-00007,NOL-CAS-00008,2025-11-04 00:00:00,email,cliente,alombardi@example.it,Modifica prenotazione,"Buonasera,
+Poso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previst"
+COM-CAS-00008,NOL-CAS-00038,2025-11-06 03:50:00,telefonata_trascritta,cliente,3587086029,,"Trascr. chiamata ore 10:08 (op. Anna) - cliente Monica Gerbino: volevo avvisarvi che sul mezzo (GM081CF) c'e' un graffio su il paraurti posteriore, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-CAS-00196,NOL-CAS-00465,2026-06-15 00:00:00,nota_tecnico,tecnico,Stefano,,"RIT CAS-04: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 30€ al cliente. Gianni"
+COM-CAS-00010,NOL-CAS-00038,2025-11-07 00:00:00,nota_tecnico,tecnico,M.,,CAS-01 rientrato. Danno paraurti post.: crepa estesa. preventivo richiesto. Foto ok in cartella. Stima fermo 6gg (Paolo)
+COM-CAS-00011,NOL-CAS-00042,2025-11-10 00:49:00,email,cliente,brunettima11@example.org,Cancellazione,"Buonasera,
+Il tolo e' stato cancellato, devo annullare il noleggio. Come fnziona la penale?
+Grazie mille
+Matteo Brunett
+Inviao dl mio Samsung Galaxy"
+COM-CAS-00012,NOL-CAS-00003,2025-11-11 17:26:00,whatsapp,cliente,3312818174,,"sto arrivaido ma ho ponte chiuso sul Po, tra 2 ore sono da voi"
+COM-CAS-00013,NOL-CAS-00021,2025-11-13 08:33:00,email,cliente,ghiglioneel79@example.it,Annullamento prenotazione,"Spett.le Buby Rent,
+Annullate per favore a mia prenotazione, la nostra gita e' saltata per il moteo
+Grazit
+Ghiglione Elisa"
+COM-CAS-00014,NOL-CAS-00052,2025-11-14 19:51:00,nota_tecnico,tecnico,Sara,,"CAS-05: cofano -> crepa estesa. foto in cartella, addebito da valutare // femo 6gg"
+COM-CAS-00015,NOL-CAS-00015,2025-11-15 17:12:00,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GH683DT: specchietto dx leggera ammaccatura, ritocco vernice. cliente informato. no fermo - Stefano"
+COM-CAS-00016,NOL-CAS-00134,2025-11-15 20:54:00,telefonata_trascritta,cliente,3697815395,,"Trascr. chiamata ore 13:18 (op. Roberto) - cliente Giulia: devo spostare il noleggio di un giorno, e' possibile? (EB-CAS-003)"
+COM-CAS-00017,NOL-CAS-00052,2025-11-16 12:51:00,telefonata_trascritta,cliente,3497981364,,"Trascr. chiamata ore 10:56 (op. Roberto) - cliente Bosio Agricola: mi sono accorto di aver lasciato un ombrello nel mezzo, potrei passare domani"
+COM-CAS-00018,NOL-CAS-00043,2025-11-17 08:38:00,nota_tecnico,tecnico,Fabio,,"RIT CAS-06: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Sara"
+COM-CAS-00019,NOL-CAS-00043,2025-11-17 20:08:00,sms,cliente,3361919636,,"mi sono accorto di aver lasciato il caasco nel mezzoo, potrei passare domani"
+COM-CAS-00020,NOL-CAS-00056,2025-11-19 19:47:00,email,cliente,info@oliverocantine.example.it,Feedback noleggio,"Buongiorno,
+Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Olivero"
+COM-CAS-00021,NOL-CAS-00049,2025-11-20 09:31:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna gn872lp: fianco dx rottura con perdita di liquidi, carro attrezzi per officina. cliente informato. fermo 34gg - sara"
+COM-CAS-00022,NOL-CAS-00048,2025-11-20 19:00:00,nota_tecnico,tecnico,Tech1,,"CAS-02 - CLIMA NON FUNZIONANTE, GAS DA RICARICARE. FERMO 3GG. M."
+COM-CAS-00023,NOL-CAS-00001,2025-11-21 19:00:00,whatsapp,cliente,3315265836,,"i freni nn frenanoo bene in discesa, sono a Ozzano, bici Cube Kathmandu"
+COM-CAS-00024,NOL-CAS-00059,2025-11-22 20:01:00,modulo_web,cliente,info@raveraagricola.example.it,Richiesta assistenza,Nome: Ravera | Email: info@raveraagrcola.example.it | Tel: 3205782198 | Messaggio: ho visto un addebito di 35 euro per kkm extra ma secondo me o percorso molti meno km. Chiedo verifica del contratto OL-CAS-00059
+COM-CAS-00025,NOL-CAS-00001,2025-11-23 10:43:00,nota_tecnico,tecnico,Gianni,,"EB-CAS-002 - cambio che gratta, verifica. fermo 1gg. M."
+COM-CAS-00026,NOL-CAS-00071,2025-11-27 00:00:00,email,cliente,rblandino@example.net,pneumatico,"Spett.le Buby Rent,
+Hi, nhe vehicle (GH683DT) won't start near Pontestura. Can you send assistance please?
+Blandino Roserta"
+COM-CAS-00027,NOL-CAS-00071,2025-11-29 09:51:00,nota_tecnico,tecnico,Stefano,,"CAS-07 - pneumatico fianco danneggiato, nuovo treno gomme. fermo 3gg. Fabio"
+COM-CAS-00160,NOL-CAS-00207,2026-05-04 00:00:00,nota_operatore,operatore,Roberto,,"multa pedaggio non pagato targa GN872LP, Moncalvo: rivalsa su cliente"
+COM-CAS-00029,NOL-CAS-00009,2025-12-04 10:55:00,whatsapp,cliente,3836824364,,"durante il noleggio ho urtato lo specchietto sinistro del mezzo (Fiat Panda) mentre parcheggiavo a il Po. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?"
+COM-CAS-00030,NOL-CAS-00077,2025-12-04 21:10:00,modulo_web,cliente,info@cottinotraslochi.example.it,Richiesta assistenza,"Nome: Cottino Traslochi | Email: info@cottinotraslochi.example.it | Tel: 3275530597 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-CAS-00031,NOL-CAS-00066,2025-12-06 03:50:00,email,cliente,brunocl25@example.org,Piccolo incidente di parcheggio,"Mentre facevo retromarcia a il Po ho toccato un palo e si e' rovinato il fianco destro. Nessun ferito. Cosa devo fare?
+Claudio Bruno"
+COM-CAS-00032,NOL-CAS-00066,2025-12-06 17:22:00,nota_tecnico,tecnico,Gianni,,CAS-06: fianco dx -> cerchio scheggiato e ovalizzato. da sostituire il pezzo // fermo 9gg
+COM-CAS-00033,NOL-CAS-00076,2025-12-21 16:52:00,nota_tecnico,tecnico,Elena,,"rit cas-07: interno molto sporco (sabbia), pulizia straordinaria, addebito 30€ al cliente. l.g."
+COM-CAS-00034,NOL-CAS-00011,,whatsapp,cliente,3584266992,,"pneumatico a terra, il kit di riparazione non funziona. Mezzo Fiat Panda"
+COM-CAS-00035,NOL-CAS-00072,2025-12-23 17:01:00,whatsapp,cliente,3640329310,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-CAS-00036,NOL-CAS-00047,2025-12-25 08:59:00,nota_tecnico,tecnico,Gianni,,CAS-05: specchietto sx -> graffio profondo fino alla lamiera. da manare in carrozzeria // fermo 8gg
+COM-CAS-00037,NOL-CAS-00080,2025-12-25 11:11:00,whatsapp,cliente,3999713373,,"la bici si spegne in salita dopo 10 km, sono a Valenza"
+COM-CAS-00038,NOL-CAS-00080,2025-12-25 19:19:00,nota_tecnico,tecnico,Paolo,,EB-CAS-003 - sostituita batteria 12V. fermo 1gg. Fabio
+COM-CAS-00039,NOL-CAS-00111,2025-12-26 21:16:00,email,cliente,info@dellavalleimpianti.example.it,info danno,"Buonasera,
+Volevo avvisarvi che sul mezzo (CAS-04) c'e' un graffio su il cerchio posteriore destro, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-CAS-00040,NOL-CAS-00074,2025-12-27 18:47:00,nota_tecnico,tecnico,L.G.,,rit eb-cas-002 780km - display leva piegata ma funzionante. segnalato a fine mese per carrozzeria. no fermo. davide
+COM-CAS-00277,NOL-CAS-00462,2026-08-29 16:10:00,nota_operatore,operatore,Anna,,"multa pedaggio non pagato targa gs719zm, valenza: rivalsa su cliente"
+COM-CAS-00042,NOL-CAS-00074,2025-12-29 13:01:00,whatsapp,cliente,3547305718,,"ho dimenticato le chiavi di casa nel mezzo (EB-CAS-002), potete controllare?"
+COM-CAS-00043,NOL-CAS-00115,2025-12-31 17:45:00,whatsapp,cliente,3710222308,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-CAS-00044,NOL-CAS-00045,2026-01-02 00:36:00,telefonata_trascritta,cliente,3640329310,,"Trascr. chiamata ore 16:53 (op. Anna) - cliente Stefano Re: ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale"
+COM-CAS-00135,NOL-CAS-00307,2026-04-15 15:44:00,nota_tecnico,tecnico,Fabio,,rit cas-04 35286nm - passaruota ant. cechio scheggiato e ovalizzato. da sostituire il pzzo. fermo 4gg. m.
+COM-CAS-00046,NOL-CAS-00115,2026-01-08 13:30:00,whatsapp,cliente,3710222308,,"ritardo di 2h x coda a Valenza, scusate. Mezzo Renault Master"
+COM-CAS-00047,NOL-CAS-00116,2026-01-13 12:41:00,email,cliente,mcosta@example.com,Re: Feedback noleggio,"Spett.le Buby Rent,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Grazie
+Marco Costa"
+COM-CAS-00048,NOL-CAS-00123,2026-01-14 14:58:00,email,cliente,info@fontanastudiotecnico.example.it,Re: Grazie!,"Salve,
+Compliimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Distinti saluti
+FONTANA STUDIO TECNICO"
+COM-CAS-00049,NOL-CAS-00094,2026-01-14 00:00:00,email,cliente,lombardien62@example.com,info danno,"Buongiorno a tutti,
+Durante il noleggio ho urtato la portiera lato guida del mezzo (Fiat Panda) mentre parcheggiavo a Valenza. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Grazie
+Enrico"
+COM-CAS-00050,NOL-CAS-00094,2026-01-16 17:24:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna GM081CF: prtiera lato gguida ammaccatura con vernice saltata, foto in carttella, addebit da valutare. cliente infrmato. fermo 8gg - Luca B."
+COM-CAS-00051,NOL-CAS-00464,2026-01-17 00:15:00,whatsapp,cliente,3222676970,,si sono spente tutte le luci del cruscotto mentre guidavo vicino a Occimiano
+COM-CAS-00052,NOL-CAS-00075,2026-01-18 11:37:00,nota_tecnico,tecnico,Tech1,,CAS-07 - sostituita batteria 12V. fermo 7gg. Marco
+COM-CAS-00053,NOL-CAS-00137,2026-01-21 14:28:00,sms,cliente,3423066146,,"i freni non frenano bene in discesa, sono a Valenza, bici EB-CAS-001"
+COM-CAS-00054,NOL-CAS-00137,2026-01-21 20:14:00,nota_tecnico,tecnico,Paolo,,"EB-CAS-001 - FRENI DA CONTROLLARE, PASTIGLIE CONSUMATE. FERMO 3GG. STEFANO"
+COM-CAS-00055,NOL-CAS-00151,2026-01-28 14:38:00,whatsapp,cliente,3416775828,,"sono bloccato a Vercelli, la bici (Bianchi E-Omnia) non va piu', non riesco a tornare. Potete venire a prendermi?"
+COM-CAS-00056,NOL-CAS-00157,2026-01-28 17:37:00,email,cliente,vialema72@example.net,Cancellazione,"Buonasera,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Massimo"
+COM-CAS-00057,NOL-CAS-00151,2026-01-29 00:44:00,nota_tecnico,tecnico,Tech1,,"EB-CAS-003 - recupero con carro attrezzi, mezzo in officina. fermo 3gg. Paolo"
+COM-CAS-00058,NOL-CAS-00154,2026-01-29 15:27:00,email,cliente,barberosi13@example.org,Prolungamento noleggio,"Buongiorno,
+Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Silvia Barbero"
+COM-CAS-00059,NOL-CAS-00116,2026-01-30 12:35:00,nota_tecnico,tecnico,Luca B.,,"rit cas-03: interno molto sporco (peli di animali), pulizia straordinaria, addebito 40€ al cliente. fabio"
+COM-CAS-00060,NOL-CAS-00138,2026-01-31 00:40:00,whatsapp,cliente,3801972918,,"durante il noleggio ho urtato il fianco sinistro del mezzo (cas-07) mentre parcheggiavo a ozzano. mi sembra solo estetico, ho fatto qualche foto. come devo procedere con la cauzione?"
+COM-CAS-00061,NOL-CAS-00159,2026-01-31 00:52:00,modulo_web,cliente,laura.perotti@example.org,,"Nome: Laura Perotti | Email: laura.perotti@example.org | Tel: 3355560456 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-CAS-00062,,2026-01-31 05:33:00,email,cliente,info@martinicantine.example.it,Preventivo,"Gentile Buby Rent,
+Ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni
+Grazie e saluti"
+COM-CAS-00063,NOL-CAS-00144,2026-01-31 08:11:00,modulo_web,cliente,paolo.gamba@example.org,,"NOME: PAOLO GAMBA | EMAIL: PAOLO.GAMBA@EXAMPLE.ORG | TEL: 3646820796 | MESSAGGIO: DURANTE IL NOLEGGIO HO URTATO IL FIANCO DESTRO DEL MEZZO (FIAT PANDA) MENTRE PARCHEGGIAVO A PONTESTURA. MI SEMBRA SOLO ESTETICO, HO FATTO QUALCHE FOTO. COME DEVO PROCEDERE CON LA CAUZIONE?"
+COM-CAS-00064,NOL-CAS-00658,2026-01-31 09:15:00,telefonata_trascritta,cliente,3876384469,,"Trascr. chiamata ore 16:18 (op. Roberto) - cliente Giovanni Ferrari: ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-CAS-00065,NOL-CAS-00154,2026-01-31 15:33:00,whatsapp,cliente,3645803606,,"sono rimasto senza carburante a Valeza, cosa devo fare?"
+COM-CAS-00066,NOL-CAS-00138,2026-01-31 16:03:00,nota_tecnico,tecnico,Andrea,,CAAS-07: fianco sx -> graffio superficiale. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-CAS-00067,NOL-CAS-00146,2026-02-01 08:15:00,sms,cliente,3792408537,,"volevo avvisarvi ke sul mezzo (Fiat Ducato) c'e' un graffio su la porta scorrevole, nn so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-CAS-00068,NOL-CAS-00146,2026-02-01 17:21:00,nota_tecnico,tecnico,Elena,,"controlllo in riconsegna GP426WA: porta scorrevole piccola scheggiatura, segnalato a fine mese per carrozzeria. cliente informato. fermo 1gg - Tech1"
+COM-CAS-00069,NOL-CAS-00097,2026-02-01 18:24:00,nota_tecnico,tecnico,Tech1,,RIT CAS-01 58362km - fianco dx piccola scheggiatura. da lucidare. fermo 1gg. Luca B.
+COM-CAS-00070,NOL-CAS-00155,2026-02-06 07:46:00,modulo_web,cliente,fgallo@example.com,Richiesta assistenza,"Nome: Francesca Gallo | Email: fgallo@example.com | Tel: 3565117214 | Messaggio: ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale"
+COM-CAS-00071,NOL-CAS-00176,2026-02-06 07:57:00,email,cliente,riccich22@example.net,Preventivo,"buongiorno,
+quaanti km sono inclusi nella tariffa giornaliera e quant costano quelli extra?
+grazie
+chiara ricci"
+COM-CAS-00072,NOL-CAS-00177,2026-02-06 12:37:00,email,cliente,paola.greco@example.it,Richiesta informazioni,"Salve,
+Ho la atente da 1 anno, posso noleggiare un'auto? ho 22 anni
+Distinti saluti
+Greco Paola"
+COM-CAS-00073,NOL-CAS-00103,2026-02-07 04:47:00,modulo_web,cliente,bviale@example.com,,"nome: barbara | email: bviale@example.com | tel: 3709647919 | messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. torneremo sicuramente"
+COM-CAS-00237,NOL-CAS-00358,2026-07-26 13:01:00,nota_operatore,operatore,Anna,,"ricevuto verbale del comune di Moncalvo per ZTL/eccesso di velocita', targa EB-CAS-001. da addebitare al cliente + 40€ gestione pratica"
+COM-CAS-00075,NOL-CAS-00162,2026-02-10 20:10:00,modulo_web,cliente,info@allasiaagricola.example.it,Richiesta assistenza,"Nome: Allasia Agricola | Email: info@allasiaagricola.example.it | Tel: 3509272689 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-CAS-00076,NOL-CAS-00180,2026-02-12 12:13:00,nota_tecnico,tecnico,L.G.,,"RIT CAS-02: inrerno molto spoorco (rifiuti nnel bagagliaio), pulizia straordinaria, addebito 40€ al cliete. Andrea"
+COM-CAS-00077,NOL-CAS-00050,2026-02-13 17:46:00,nota_operatore,operatore,Anna,,"verbale GR305KH - Trino - violazione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-CAS-00078,NOL-CAS-00182,2026-02-14 16:07:00,email,cliente,info@galloedilizia.example.it,info danno,"Buongiorno a tutti,
+Sulla strada per Alessandria un sasso ha colpito il lunotto e ora c'e' una crepa. Posso continuare a guidare fino alla riconsegna? (Dacia Duster)
+Grazie e saluti
+GALLO EDILIZIA"
+COM-CAS-00079,NOL-CAS-00182,2026-02-15 00:47:00,nota_tecnico,tecnico,Fabio,,RIT CAS-05 30965KM - LUNOTTO STRISCIO DI VERNICE. DA LUCIDARE. FERMO 2GG. SARA
+COM-CAS-00080,NOL-CAS-00195,2026-02-17 23:13:00,email,cliente,fgerbino@example.com,Re: Preventivo,"Gentile Buby Rent,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+Grazie e saluti
+Francesco Gerbino"
+COM-CAS-00081,NOL-CAS-00173,2026-02-21 04:45:00,modulo_web,cliente,fmarchetti@example.org,Contatti,"Nome: Fabio Marchetti | Email: fmarchetti@example.org | Tel: 3536609401 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-CAS-00111,NOL-CAS-00249,2026-03-23 18:38:00,sms,cliente,3622519810,,"devo annullare la prenotazione per motivi di lavoro, posso aver il rimborso?"
+COM-CAS-00083,NOL-CAS-00198,2026-02-21 15:50:00,nota_tecnico,tecnico,Tech1,,"EB-CAS-001 rientrata piena di fango, lavaggio complet. addebito pulizia 15€. M."
+COM-CAS-00084,NOL-CAS-00198,2026-02-21 22:19:00,nota_tecnico,tecnico,M.,,"EB-CAS-001 - cambio che gratta, verifica. fermo 1gg. Fabio"
+COM-CAS-00085,NOL-CAS-00207,2026-02-23 00:09:00,telefonata_trascritta,cliente,3852196366,,"Trascr. chiamata ore 15:23 (op. Roberto) - cliente Lombardi Cantine: ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni"
+COM-CAS-00086,NOL-CAS-00161,2026-02-23 11:18:00,sms,cliente,3770113602,,MENTRE FACEVO RETROMARCIA A VERCELLI HO TOCCATO UN PALO E SI E' ROVINATO IL PARAURTI POSTERIORE. NESSUN FERITO. COSA DEVO FARE?
+COM-CAS-00087,NOL-CAS-00190,2026-02-28 07:16:00,email,cliente,costama85@example.it,Annullamento prenotazione,"Salve,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Costa Matteo"
+COM-CAS-00088,NOL-CAS-00191,2026-03-02 06:49:00,telefonata_trascritta,cliente,3866591560,,"Trascr. chiamata ore 17:28 (op. Anna) - cliente Pastore: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-CAS-00089,NOL-CAS-00177,2026-03-03 02:28:00,sms,cliente,3222676970,,POSSO CAMBIARE IL MEZZO CON UNO PIU' GRANDE? SIAMO IN PIU' PERSONE DEL PREISTO
+COM-CAS-00090,NOL-CAS-00212,2026-03-04 19:12:00,nota_tecnico,tecnico,Gianni,,"RIT CAS-05: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 40€ al clinte. Andrea"
+COM-CAS-00091,NOL-CAS-00212,2026-03-04 22:56:00,nota_tecnico,tecnico,Elena,,"controllo in riconsegna GS719ZM: paraurti ant. elemento disttrutto, dda sostituire, previntivo in attesa, mezzo bloccato. cliente informato. fermo 14gg - Marco"
+COM-CAS-00092,NOL-CAS-00124,2026-03-05 01:31:00,email,cliente,fcottino@example.it,Richiesta rimborso,"la cauzione di 500 euro non mi e' stata ancora restituia dopo 15 giorni dalla riconseggna. vorrei sapere quando arriva
+distinti saluti
+francesca"
+COM-CAS-00093,NOL-CAS-00194,2026-06-03 13:21:00,nota_tecnico,tecnico,Davide,,RIT CAS-06 40666km - specchietto dx graffio profondo fino alla lamiera. da mandare in carrozzeria. fermo 3gg. Paolo
+COM-CAS-00094,NOL-CAS-00184,2026-03-08 02:03:00,email,cliente,riccida62@example.org,Feedback noleggio,"Complimenti all'operaore di sede, molto disponibile. Prezzo onessto
+Grazie e saluti
+Davide"
+COM-CAS-00095,NOL-CAS-00232,2026-03-09 18:47:00,email,cliente,info@toscogiardinaggio.example.it,Cancellazione,"Spett.le Buby Rent,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Grazie e saluti"
+COM-CAS-00096,NOL-CAS-00224,2026-03-11 15:12:00,nota_tecnico,tecnico,Tech1,,"controllo in riconsegna GR305KH: portiera lato passeggero ammaccatura con vernice saltata, da mandare in carrozzeria. cliente informato. fermo 9gg - Luca B."
+COM-CAS-00097,NOL-CAS-00229,2026-03-12 00:00:00,whatsapp,cliente,3607645807,,"ho dimenticato le chiavi di casa nel mezzo (GM081CF), potete controllare?"
+COM-CAS-00098,NOL-CAS-00244,2026-03-12 17:29:00,whatsapp,cliente,3721040892,,per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-CAS-00099,NOL-CAS-00150,2026-03-13 17:49:00,telefonata_trascritta,cliente,3312818174,,"Trascr. chiamata te 13:43 (op. Ann) - cliente BARONE TRASPORTTI: ritardi di 4h per incidente in tangenziale, scusate. Mezzo FFiiat Duucato"
+COM-CAS-00100,NOL-CAS-00196,2026-03-13 21:00:00,email,cliente,info@allasiaagricola.example.it,Preventivo,"Buongiorno a tutti,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Grazie
+ALLASIA AGRICOLA"
+COM-CAS-00101,NOL-CAS-00212,2026-03-13 23:18:00,email,cliente,vialecl73@example.org,Preventivo,"Ciao,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Distinti saluti
+Claudio Viale"
+COM-CAS-00102,NOL-CAS-00222,2026-03-14 15:30:00,sms,cliente,3681873224,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-CAS-00103,NOL-CAS-00239,2026-03-14 19:12:00,telefonata_trascritta,cliente,3347285090,,"Trascr. chiamata ore 16:46 (op. Anna) - cliente Marco Ricci: ho preso una buca e adesso il cambio posteriore fa un rumore strano, secondo me e' storto/a. Bici (EB-CAS-001)"
+COM-CAS-00232,NOL-CAS-00557,2026-07-22 05:38:00,whatsapp,cliente,3896166699,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-CAS-00105,NOL-CAS-00243,2026-03-15 16:02:00,email,cliente,info@allasiaagricola.example.it,info danno,"Gentile Buby Rent,
+Mentre facevo retromarcia a Alessandria ho toccato un palo e si e' rovinato la porta scorrevole. Nessun ferito. Cosa devo fare?
+ALLASIA AGRICOLA"
+COM-CAS-00106,NOL-CAS-00243,2026-03-15 18:20:00,nota_tecnico,tecnico,Marco,,"controllo in riconsegna GH683DT: porta scorrevole leggera ammaccatura, segnalato a fine mese per carrozzeria. cliente informato. fermo 2gg - L.G."
+COM-CAS-00107,NOL-CAS-00254,2026-03-18 05:56:00,email,cliente,brunettima11@example.org,Re: disponibilita',"Egregi signori,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Grazie mille
+Matteo Brunetti"
+COM-CAS-00108,NOL-CAS-00211,2026-03-19 08:37:00,sms,cliente,3928910108,,"ho chiuso le chiavi dentro il mezzo a Pontestura, potete aiutarmi?"
+COM-CAS-00109,NOL-CAS-00228,2026-03-20 00:00:00,sms,cliente,3261204310,,"purtroppo nn posso piu' partire, cancello ls prenotazione. Mi restituite l'acconto?"
+COM-CAS-00110,NOL-CAS-00216,2026-03-22 19:32:00,nota_tecnico,tecnico,Andrea,,CAS-07 rientrato. Danno cofano: segni di sfregamento. ritocco vernice. Foto ok in cartella. Stima fermo 1gg (Fabio)
+COM-CAS-00082,NOL-CAS-00198,2026-02-21 12:41:00,email,cliente,martina.ghiglione@example.it,spia accesa,"Buongiorno a tutti,
+I freni non frenano bene in discesa, sono a Valenza, bici EB-CAS-001
+Grazie mille"
+COM-CAS-00112,NOL-CAS-00265,2026-03-25 05:27:00,whatsapp,cliente,3307598119,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-CAS-00113,NOL-CAS-00211,2026-03-25 23:05:00,nota_tecnico,tecnico,Tech1,,"CAS-01 - chiavi duplicate, mezzo ok. fermo 5gg. Gianni"
+COM-CAS-00114,NOL-CAS-00256,2026-03-27 19:34:00,nota_tecnico,tecnico,Fabio,,"rit cas-07: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 40€ al cliente. luca b."
+COM-CAS-00115,NOL-CAS-00183,2026-03-28 13:58:00,sms,cliente,3327636938,,"sono bloccato x problemi personali, arrivo con circa 1 ore di ritardo x la riconsegna (Cube Kathmandu)"
+COM-CAS-00116,NOL-CAS-00247,2026-03-31 19:24:00,nota_tecnico,tecnico,L.G.,,RIT CAS-01 62387km - parabrezza cerchio scheggiato e ovalizzato. da mandare in carrozzeria. fermo 8ggg. Sara
+COM-CAS-00117,NOL-CAS-00272,2026-04-01 01:46:00,email,cliente,info@chiesaagricola.example.it,Re: Guasto,"La frizione slitta e c'e' odore di bruciato, sono a Moncalvo. Mezzo Renault Master
+Cordialmente
+Chiesa Agricola"
+COM-CAS-00118,NOL-CAS-00171,2026-04-02 16:12:00,whatsapp,cliente,3497888148,,"hello, i scratched the bumper while parking near moncalvo. how should i proceed with the deposit?"
+COM-CAS-00119,NOL-CAS-00271,2026-04-02 18:53:00,nota_tecnico,tecnico,M.,,"RIT CAS-05: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 70€ al cliente. Gianni"
+COM-CAS-00120,NOL-CAS-00171,2026-04-03 11:03:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna gr305kh: portellone segni di sfregamento, nessun intervento urgente. cliente informato. fermo 1gg - elena"
+COM-CAS-00121,NOL-CAS-00267,2026-04-03 22:38:00,email,cliente,laura.marchetti@example.com,Feedback noleggio,vedi allegato
+COM-CAS-00122,,2026-04-04 02:29:00,email,cliente,allasiava61@example.it,Richiesta informazioni,"Salve,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Distinti saluti
+Allasia Valentina"
+COM-CAS-00123,NOL-CAS-00171,2026-04-04 02:29:00,whatsapp,cliente,3497888148,,credo di aver lasciato un ombrello nel bagagliaio (CAS-04). Si puo' recuperare?
+COM-CAS-00124,NOL-CAS-00289,2026-04-07 06:41:00,telefonata_trascritta,cliente,3995954434,,"TTrascr. chiamata ore 10:56 (op. Roberto) - cliente Enrico: ho chiuso le chiavi dentro il mezzo a il Po, ptete aiutarrmi?"
+COM-CAS-00125,NOL-CAS-00312,2026-04-07 11:29:00,email,cliente,paola.cerutti@example.org,Info noleggio,"Buonasera,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Paola"
+COM-CAS-00126,NOL-CAS-00130,2026-04-07 22:47:00,nota_operatore,operatore,Roberto,,"ricevuto verbale del comune di Trino per ZTL/eccesso di velocita', targa GH683DT. da addebitare al cliente + 40€ gestione pratica"
+COM-CAS-00127,NOL-CAS-00289,2026-04-08 18:03:00,email,cliente,brunoen8@example.org,Re: Grazie!,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Enrico Bruno"
+COM-CAS-00128,NOL-CAS-00298,2026-04-09 00:00:00,modulo_web,cliente,matteo.ghiglione@example.it,Contatti,"Nome: Matteo Ghiglione | Email: matteo.ghiglione@example.it | Tel: 3261503572 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-CAS-00129,NOL-CAS-00308,2026-04-10 00:00:00,whatsapp,cliente,3207185903,,"sono bloccato x ritardo del treno, arrivo con circa 3 ore di ritardo x la riconsegna (EB-CAS-002)"
+COM-CAS-00130,NOL-CAS-00294,2026-04-12 12:57:00,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GS719ZM: paraurti ant. leggera ammacccatura, da lucidare. cliente informato. fermo 1gg - Davide"
+COM-CAS-00131,NOL-CAS-00320,2026-04-13 07:53:00,email,cliente,info@ferrariselettrica.example.it,Prolungamento noleggio,"Buongiorno a tutti,
+Devo spostare il noleggio di un giorno, e' possibile? (Citroën C3)
+Grazie"
+COM-CAS-00132,NOL-CAS-00320,2026-04-14 09:15:00,email,cliente,info@ferrariselettrica.example.it,Re: ritardo,"Sono bloccato per incidente in tangenziale, arrivo con circa 1 ore di ritardo per la riconsegna (GJ449YR)
+Distinti saluti
+Ferraris"
+COM-CAS-00133,NOL-CAS-00209,2026-04-15 07:29:00,sms,cliente,3222676970,,"non parte, il motorino fa solo clic. Sono a Trino"
+COM-CAS-00134,NOL-CAS-00310,2026-04-15 10:14:00,telefonata_trascritta,cliente,3548037513,,"trascr. chiamata ore 19:14 (op. anna) - cliente gallo alpine service: posso tenere il mezzo (fiat ducato) fino a domani? coda a valenza, non riesco ad arrivare"
+COM-CAS-00045,NOL-CAS-00123,2026-01-04 22:30:00,email,cliente,info@fontanastudiotecnico.example.it,cambio data,"Salve,
+Vorrei prolungare di 1 giorni, il mezzo e' libero?
+Grazie e saluti"
+COM-CAS-00136,NOL-CAS-00209,2026-04-15 18:12:00,nota_tecnico,tecnico,Gianni,,"CAS-07 - clima non funzionante, gas da ricaricare. fermo 6gg. Tech1"
+COM-CAS-00137,NOL-CAS-00295,2026-04-16 11:33:00,whatsapp,cliente,3222676970,,"annusllate x favore la mmia prennotaione, la nostra gta ' saltata x il meteo"
+COM-CAS-00138,NOL-CAS-00251,2026-04-16 14:27:00,nota_operatore,operatore,Anna,,"multa pedaggio non pagato targa GS719ZM, Trino: rivalsa su cliente"
+COM-CAS-00139,NOL-CAS-00290,2026-04-17 05:28:00,email,cliente,vialema72@example.net,,"Salve,
+La cauzione di 500 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie
+Massimo Viale"
+COM-CAS-00140,NOL-CAS-00214,2026-04-17 16:10:00,email,cliente,info@cottinotraslochi.example.it,Info noleggio,"salve,
+hi, can i pick up the vehicle late in the evening? we arrive by train.
+in attesa di un vostro riscontro
+cottino traslochi"
+COM-CAS-00141,NOL-CAS-00323,2026-04-18 16:05:00,nota_tecnico,tecnico,Stefano,,"controllo in riconsegna GS719ZM: specchietto sx cercho scheggiato e ovalizzato, da sostituire il pezzo. cliente informato. fermo 8gg - Sara"
+COM-CAS-00142,NOL-CAS-00214,2026-04-18 16:22:00,whatsapp,cliente,3275530597,,"posso tenere il mezzo (GN872LP) fino a domani? problemi personali, non riesco ad arrivare"
+COM-CAS-00143,NOL-CAS-00328,2026-04-18 18:24:00,nota_tecnico,tecnico,Gianni,,EB-CAS-001: sella -> cerchio storto. da mandare in carrozzeria // fermo 6gg
+COM-CAS-00144,NOL-CAS-00336,2026-04-19 09:50:00,email,cliente,mondinofe2@example.net,disponibilita',"Spett.le Buby Rent,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Federico"
+COM-CAS-00145,NOL-CAS-00296,2026-04-19 11:10:00,whatsapp,cliente,3872972104,,all'arrivo il mezzo non era pulito e il carburante non ere al pien come promesso. Chiedo uno sconto
+COM-CAS-00146,NOL-CAS-00328,2026-04-19 16:12:00,whatsapp,cliente,3347285090,,"Great service, the bike was perfect and the staff very friendly. Thank you!"
+COM-CAS-00147,NOL-CAS-00231,2026-04-23 22:08:00,whatsapp,cliente,3593059050,,"sono uscito di strada a Ozzano x colpa del ghiaccio, il mezzo (GN872LP) e' danneggiato ma io sto bene"
+COM-CAS-00148,NOL-CAS-00309,2026-04-24 12:47:00,whatsapp,cliente,3470007396,,"ANNULLATE PER FAVORE LA MIA PRENOTAZIONE, LA NOSTRA GITA E' SAALTATA PERR IL MMETEO"
+COM-CAS-00149,NOL-CAS-00231,2026-04-24 22:15:00,nota_tecnico,tecnico,Gianni,,"CAS-03 - CAI riceeuto, controparte identificata, in attesa perizia. fermo 21gg. Stefano"
+COM-CAS-00150,NOL-CAS-00355,2026-04-26 12:21:00,modulo_web,cliente,anna.viale@example.com,,nome: anna viale | email: anna.viale@example.com | tel: 3412591573 | messaggio: per un'azienda con partita iva c'e' una tariffa agevolata per noleggi ripetuti?
+COM-CAS-00151,NOL-CAS-00316,2026-04-27 17:26:00,nota_tecnico,tecnico,Sara,,CAS-01: cofano -> leggera ammaccatura. nessun intervento urgente // no fermo
+COM-CAS-00152,NOL-CAS-00362,2026-04-27 18:26:00,email,cliente,grizzo@example.com,Richiesta informazioni,"Egregi signori,
+E' possibile riconsegnare a Alba invece che da voi? c'e' un supplemento?
+Giorgio Rizzo"
+COM-CAS-00153,NOL-CAS-00341,2026-04-29 11:19:00,whatsapp,cliente,3423579885,,"Hi, the vehicle (CAS-05) won't start near Pontestura. Can you send assistance please?"
+COM-CAS-00154,NOL-CAS-00341,2026-04-30 16:11:00,nota_tecnico,tecnico,Fabio,,CAS-05 - sostituito pneumatico. fermo 7gg. Tech1
+COM-CAS-00155,NOL-CAS-00348,2026-04-30 18:02:00,nota_tecnico,tecnico,M.,,CAS-04 rientrato. Danno specchietto dx: graffio profondo fino alla lamiera. da sostituire il pezzo. Foto ok in cartella. Stima fermo 9gg (Elena)
+COM-CAS-00156,NOL-CAS-00353,2026-05-01 11:28:00,email,cliente,gperotti@example.com,annullo noleggio,"BUONGIORNO,
+DEVO ANNULLARE LA PRENOTAZIONE PER MOTIVI DI LAVORO, POSSO AVERE IL RIMBORSO?
+GRAZIE E SALUTI
+PEROTTI GIOVANNI"
+COM-CAS-00157,NOL-CAS-00363,2026-05-01 21:42:00,nota_tecnico,tecnico,Tech1,,"controllo in riconsegna EB-CAS-001: cerchio ant. manubrio leggermente fuori asse, da lucidare. cliente informato. fermo 2gg - Luca B."
+COM-CAS-00158,NOL-CAS-00364,2026-05-02 23:13:00,nota_tecnico,tecnico,Luca B.,,EB-CAS-003 rientrato. Danno cambio post.: manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima no fermo (Marco)
+COM-CAS-00159,NOL-CAS-00345,2026-05-03 11:52:00,modulo_web,cliente,info@allasiaagricola.example.it,,"Nome: ALLASIA AGRICOLA | Email: info@allasiaagricola.example.it | Tel: 3509272689 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-CAS-00028,NOL-CAS-00004,2025-12-04 08:05:00,email,cliente,info@riccigiardinaggio.example.it,Ottimo servizio,"Egregi signori,
+Great service, the bike was perfecct and the staff very friendly. Thank you!
+Grazie e saluti
+Riicci"
+COM-CAS-00161,NOL-CAS-00334,2026-05-05 06:00:00,telefonata_trascritta,cliente,3721040892,,Trascr. chiamata ore 13:27 (op. Anna) - cliente Marco: il clima non funziona e il cambio fa fatica a ingranare la seconda (GM081CF)
+COM-CAS-00162,NOL-CAS-00334,2026-05-05 23:14:00,nota_tecnico,tecnico,M.,,"CAS-01 - freni da controllare, pastiglie consumate. fermo 3gg. L.G."
+COM-CAS-00163,NOL-CAS-00374,2026-05-08 01:10:00,email,cliente,mrossi@example.it,cambio data,"spett.le buby rent,
+ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+distinti saluti
+marco"
+COM-CAS-00308,NOL-CAS-00648,2026-09-24 08:20:00,email,cliente,paola.greco@example.it,Re: annullo noleggio,"Buonasera,
+Purtrorpo no possso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+GGreco Paola"
+COM-CAS-00165,NOL-CAS-00377,2026-05-09 12:05:00,sms,cliente,3296123103,,"posso tenere il mezzo (gh683dt) fino a domani? traffico, nn riesco ad arrivare"
+COM-CAS-00166,NOL-CAS-00359,2026-05-10 22:59:00,telefonata_trascritta,cliente,3382602612,,"Trascr. chiamata ore 10:46 (op. Anna) - cliente Mario Barone: il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 60 euro. Non accettabile"
+COM-CAS-00167,NOL-CAS-00385,2026-05-12 10:42:00,email,cliente,claudio.fenoglio@example.it,Annullamento prenotazione,"Ciao,
+Purrtroppo non posso piu' partire, cancello la prenotazione. i restiituite l'acconto?
+Grazie mille
+Clautio"
+COM-CAS-00168,NOL-CAS-00270,2026-05-12 17:36:00,modulo_web,cliente,molivero@example.com,Richiesta assistenza,"Nome: Massimo Olivero | Email: molivero@example.com | Tel: 3847764478 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-CAS-00169,NOL-CAS-00392,2026-05-14 14:20:00,telefonata_trascritta,cliente,3826501071,,"Trascr. chiamata one 9:01 (op. Anna) - cliente Giovanni Rossii: ritardo ei 1h per ponte chuso sul Po, scusste. Mezzo EB-CAS-002"
+COM-CAS-00170,NOL-CAS-00397,2026-05-15 06:12:00,modulo_web,cliente,baronemo94@example.org,Contatti,"nome: monica barone | email: baronemo94@example.org | tel: 3497888148 | messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-CAS-00171,NOL-CAS-00343,2026-05-16 19:55:00,nota_tecnico,tecnico,Sara,,
+COM-CAS-00172,NOL-CAS-00396,2026-05-17 14:23:00,email,cliente,info@fontanastudiotecnico.example.it,Re: Modifica prenotazione,"Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+In attesa di un vostro riscontro
+FONTANA STUDIO TECNICO"
+COM-CAS-00173,NOL-CAS-00393,2026-05-17 16:00:00,nota_tecnico,tecnico,Davide,,"RIT CAS-07 128860km - porta scorrevole rottura con perdita di liquidi. mezzo fermo, perizia in corso. fermo 31gg. Paolo"
+COM-CAS-00174,NOL-CAS-00393,2026-05-19 05:30:00,email,cliente,info@dellavalleimpianti.example.it,Feedback noleggio,"Buongiorno a tutti,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Cordialmente
+Dellavalle Impianti"
+COM-CAS-00175,NOL-CAS-00380,2026-05-19 20:56:00,nota_tecnico,tecnico,Stefano,,"RIT CAS-01: interno molto sporco (sabbia), pulizia straordinaria, addebito 50€ al cliente. Sara"
+COM-CAS-00176,NOL-CAS-00373,2026-05-21 22:40:00,nota_tecnico,tecnico,Davide,,"EB-CAS-002 rientratta piena dii fango, lavaggio completo. addebito pulizia 15€. Stefano"
+COM-CAS-00177,NOL-CAS-00302,2026-05-22 18:13:00,email,cliente,allasiava61@example.it,Re: Piccolo incidente di parcheggio,"Buonasera,
+Sono caduto con la bici sul sentiero verso Trino: il cerchio posteriore si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Cordialmente
+Valentina Allasia"
+COM-CAS-00178,NOL-CAS-00416,2026-05-22 18:36:00,nota_tecnico,tecnico,Fabio,,RIT EB-CAS-003 2882km - cavalletto graffi sul telaio. nessun intervento urgente. no fermo. Luca B.
+COM-CAS-00179,NOL-CAS-00302,2026-05-22 19:28:00,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna EB-CAS-002: cerchio post. leva piegata ma funzionante, da lucidare. cliente informato. no fermo - Sara"
+COM-CAS-00180,NOL-CAS-00432,2026-05-26 10:43:00,email,cliente,elisa.brunetti@example.it,Re: Preventivo,"Salve,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Grazie mille
+Elisa Brunetti"
+COM-CAS-00181,NOL-CAS-00422,2026-05-27 07:21:00,modulo_web,cliente,costasi89@example.com,Contatti,"Nome: Silvia | Email: costasi89@example.com | Tel: 3209410425 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-CAS-00182,NOL-CAS-00403,2026-05-28 02:24:00,whatsapp,cliente,3912715217,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-CAS-00183,NOL-CAS-00399,2026-05-28 05:15:00,email,cliente,paola.greco@example.it,Feedback noleggio,"Buongiorno a tutti,
+Great service, the bike was perfect and the staff very friendly. Thank you!
+Grazie e saluti
+Paola Greco"
+COM-CAS-00184,NOL-CAS-00433,2026-05-29 00:00:00,whatsapp,cliente,3226772037,,"sto arrivando ma ho ponte chiuso sul Po, tra 3 ore sono da voi"
+COM-CAS-00185,NOL-CAS-00439,2026-06-01 16:48:00,whatsapp,cliente,3420183782,,"gomma a terra sulla bici Bianchi E-Omnia, potete mandare qualcuno?"
+COM-CAS-00267,NOL-CAS-00628,2026-08-24 19:50:00,nota_tecnico,tecnico,Luca B.,,RIT CAS-01 73783km - fianco dx picccola scheggiatura. segnalato a fine mese per cnrrozzeria. fermo 1gg. L.G.
+COM-CAS-00187,,2026-06-04 11:55:00,sms,cliente,3465179615,,"sto arrivando ma ho ritardo del treno, tra 4 ore sono da voi"
+COM-CAS-00188,NOL-CAS-00439,2026-06-05 13:32:00,telefonata_trascritta,cliente,3420183782,,"Trascr. chiamata ore 19:05 (op. Anna) - cliente Roberto Gallo: sto arrivando ma ho traffico, tra 4 ore sono da voi"
+COM-CAS-00189,NOL-CAS-00338,2026-06-05 19:13:00,nota_tecnico,tecnico,Elena,,"EB-CAS-002 rientrata piiena di fango, lavaggio completo. addebito pulizia 15€. M. [incomprensibile]"
+COM-CAS-00190,NOL-CAS-00439,2026-06-07 06:00:00,nota_tecnico,tecnico,Stefano,,eb-cas-003 - camera d'aria sostituita. fermo 1gg. elena
+COM-CAS-00191,NOL-CAS-00457,2026-06-07 20:43:00,email,cliente,vialema72@example.net,Re: annullo noleggio,"Portropppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Massimo Viale"
+COM-CAS-00192,NOL-CAS-00437,2026-06-09 08:49:00,telefonata_trascritta,cliente,3247356461,,"rascr. chiamata ore 18:14 (op. roberrto) - cliente marco: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. contesto l'importo di 120 euro"
+COM-CAS-00193,NOL-CAS-00427,2026-06-09 13:20:00,sms,cliente,3885714738,,"sono bloccato x coda a valenza, arrivo con circa 1 ore di ritardo x la riconsegna (cube kathmandu)"
+COM-CAS-00194,NOL-CAS-00469,2026-06-13 19:09:00,nota_tecnico,tecnico,M.,,"EB-CAS-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Andrea"
+COM-CAS-00195,NOL-CAS-00440,2026-06-14 08:12:00,sms,cliente,3893485929,,"sono rimasto senza carburante a Moncalvo, cosa devo fare?"
+COM-CAS-00009,NOL-CAS-00016,2025-11-06 10:56:00,email,cliente,dfenoglio@example.com,Re: Grazie!,"egregi signori,
+everything was fine, clean car and quick check-in. recommened.
+codialmente
+davide"
+COM-CAS-00197,NOL-CAS-00440,2026-06-16 01:31:00,nota_tecnico,tecnico,Davide,,"CAS-02 - recupero con carro attrezzi, mezzo in officina. fermo 8gg. Gianni"
+COM-CAS-00198,NOL-CAS-00452,2026-06-16 09:05:00,modulo_web,cliente,anna.martini@example.com,Richiesta assistenza,"Nome: Martini Anna | Email: anna.martini@example.com | Tel: 3265852288 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-CAS-00199,NOL-CAS-00473,2026-06-17 16:36:00,sms,cliente,3280486725,,"posso tenere il mezzo (eb-cas-002) fino a domani? coda a valenza, non riesco ad arrivare"
+COM-CAS-00200,NOL-CAS-00009,2026-06-20 22:08:00,email,cliente,riccida62@example.org,Contestazione addebito,"Salvn,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 60 euro
+Grazie mille
+avvide"
+COM-CAS-00201,NOL-CAS-00436,2026-06-21 06:33:00,email,cliente,sactis@example.it,Grazie!,"Gentile Buby Rent,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+In attesa di un vostro riscontro
+Actis Simone"
+COM-CAS-00202,NOL-CAS-00419,2026-06-21 06:49:00,email,cliente,vialema72@example.net,Grazie!,"gentil buby rent,
+esperienza ortma, ritiro e riconsegna rapidissimi. consiglio
+massimo vviale"
+COM-CAS-00203,NOL-CAS-00453,2026-06-21 19:23:00,nota_tecnico,tecnico,Fabio,,"RIT CAS-01: interno molto sporrco (peli di animali), pulizia strarddinaria, addebio 30€ al cliente. Luca B."
+COM-CAS-00325,NOL-CAS-00613,2026-10-18 18:40:00,nota_operatore,operatore,Anna,,"ricevuto verbale del comune di il PPo per ZTL/eccesso di velocita', targa EB-CAS-003. da addebitare al cliente + 100€ gestione pratica"
+COM-CAS-00205,NOL-CAS-00508,2026-06-29 15:26:00,email,cliente,vialema72@example.net,Feedback noleggio,"Egregi signori,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Distinti saluti
+Massimo Viale"
+COM-CAS-00206,NOL-CAS-00496,2026-06-29 19:18:00,telefonata_trascritta,cliente,3230833426,,"Trascr. chiamata ore 17:51 (op. Roberto) - cliente Matteo Brunetti: devo annullare la prenotazione per motivi di eavoro, posso avere il rimborso?"
+COM-CAS-00207,NOL-CAS-00464,2026-06-30 17:52:00,telefonata_trascritta,cliente,3497981364,,"Trascr. chiamata ore 12:26 (op. Anna) - cliente BOSIO AGRICOLA: sto arrivando ma ho ritardo del treno, tra 2 ore sono da voi"
+COM-CAS-00208,NOL-CAS-00510,2026-07-01 17:19:00,sms,cliente,3294008579,,"sto arrivando ma ho traffico, tra 2 ore sono da voi"
+COM-CAS-00209,NOL-CAS-00510,2026-07-01 00:00:00,nota_tecnico,tecnico,Sara,,"EB-CAS-003 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. L.G."
+COM-CAS-00210,NOL-CAS-00512,2026-03-07 21:36:00,nota_tecnico,tecnico,Fabio,,"EB-CAS-001 rientrata piena di ango, llavaggio compleo. addebito puliizia 15€. Sara"
+COM-CAS-00211,NOL-CAS-00497,2026-07-04 21:26:00,nota_tecnico,tecnico,Tech1,,EB-CAS-002 rientrato. Danno cavalletto: leva piegata ma funzionante. ritocco vernice. Foto ok in cartella. Stima no fermo (Gianni)
+COM-CAS-00212,NOL-CAS-00464,2026-07-05 10:23:00,modulo_web,cliente,info@bosioagricola.example.it,Contatti,"Nome: BOSIO AGRICOLA | Emaail: info@booiogricola.example.it | Tel: 3497981364 | Messaggio: Great service, the bike was perfect and the staff ery friendly. Thank you!"
+COM-CAS-00213,NOL-CAS-00517,2026-07-06 14:27:00,nota_tecnico,tecnico,Sara,,RIT CAS-06 51151km - cofano cerchio scheggiato e ovalizzato. preventivo richiesto. fermo 6gg. Gianni
+COM-CAS-00214,NOL-CAS-00476,2026-07-07 00:00:00,whatsapp,cliente,3999713373,,"la bici si spegne in salita dopo 10 km, sono a Occimiano"
+COM-CAS-00215,NOL-CAS-00476,2026-07-07 21:11:00,nota_tecnico,tecnico,Luca B.,,EB-CAS-002 - connettore ricarica ossidato. fermo 2gg. Fabio
+COM-CAS-00216,NOL-CAS-00521,2026-07-08 09:48:00,modulo_web,cliente,reba9@example.com,Richiesta assistenza,vedi allegato
+COM-CAS-00217,NOL-CAS-00500,2026-07-09 10:35:00,whatsapp,cliente,3746997823,,"ho avuto un incidente a Ozzano, sono stato tamponato da un altro veicolo. Nessun ferito, abbiamo compilato il CAI. Mezzo Renault Master. Cosa devo fare?"
+COM-CAS-00218,NOL-CAS-00536,2026-07-09 00:00:00,email,cliente,info@raveraagricola.example.it,I: Richiesta informazioni,"Buongiorno a tutti,
+Accettate carte di debito per la cauzione o seve per forza la carta di credito?
+Grazie
+Ravera Agricola"
+COM-CAS-00219,NOL-CAS-00500,2026-10-07 04:52:00,nota_tecnico,tecnico,Paolo,,"CAAS-07 - verbale polizia locale in allegato, danni anteriori. fermo 23gg. Fabio"
+COM-CAS-00220,NOL-CAS-00484,2026-07-10 10:06:00,telefonata_trascritta,cliente,3235374312,,"TRASCR. CHIAMATA ORE 14:07 (OP. ROBERTO) - CLIENTE SILVIA: POSSO TENERE IL MEZZO (EB-CAS-002) FINO A DOMANI? INCIDENTE IN TANGENZIALE, NON RIESCO AD ARRIVARE [incomprensibile]"
+COM-CAS-00221,NOL-CAS-00533,2026-07-13 13:48:00,whatsapp,cliente,3230833426,,"sono bloccato x coda a Valenza, arrivo con circa 2 ore di ritardo x la riconsegna (EB-CAS-003)"
+COM-CAS-00222,NOL-CAS-00533,2026-07-15 20:19:00,nota_tecnico,tecnico,Marco,,"EB-CAS-003 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Gianni"
+COM-CAS-00223,NOL-CAS-00533,2026-07-17 02:23:00,modulo_web,cliente,brunettima11@example.org,Contatti,"Nome: Brunetti Maatteo | Email: brunettima11@exaple.org | Tel: 3230833426 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-CAS-00224,NOL-CAS-00550,2026-07-17 00:00:00,whatsapp,cliente,3491486956,,per un'azienda con partita IVA c'e' una tariffa agevolata x noleggi ripetuti?
+COM-CAS-00225,NOL-CAS-00533,2026-07-18 10:49:00,telefonata_trascritta,cliente,3230833426,,trascr. chiamata ore 9:42 (op. roberto) - cliente matteo: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. chiedo uno sconto
+COM-CAS-00226,NOL-CAS-00551,2026-07-18 17:30:00,sms,cliente,3292236111,,"sto arrivando ma ho coda in autostrada, tra 3 ore sono da voi"
+COM-CAS-00227,NOL-CAS-00554,2026-07-20 11:12:00,email,cliente,rizzocl25@example.it,cambio data,"Buongiorno,
+Devo spostare il noleggio di un giorno, e' possibile? (EB-CAS-003)
+In attesa di un vostro riscontro
+Claudio"
+COM-CAS-00228,NOL-CAS-00554,2026-07-20 19:42:00,email,cliente,rizzocl25@example.it,info danno,"Buongiorno a tutti,
+Volevo avvisarvi che la bici (EB-CAS-003) e' scivolata mentre era appoggiata a Ozzano, il cavalletto ha un danno. Vi mando le foto
+Grazie
+Rizzo Claudio"
+COM-CAS-00229,NOL-CAS-00554,2026-07-20 22:48:00,nota_tecnico,tecnico,Tech1,,EB-CAS-003 rientrato. Danno cavalletto: display rotto. da sostituire il pezzo. Foto ok in cartella. Stima fermo 5gg (Stefano)
+COM-CAS-00230,NOL-CAS-00553,2026-07-21 01:30:00,sms,cliente,3403257945,,sulla strada per il Po un sasso ha colpito il parabrezza e ora c'e' una crepa. Posso continuare a guidare fino alla riconsegna? (GN872LP)
+COM-CAS-00231,NOL-CAS-00553,2026-07-21 10:47:00,nota_tecnico,tecnico,Sara,,RIT CAS-03 48572km - parabrezza striscio di vernice. ritocco vernice. no fermo. Stefano
+COM-CAS-00104,NOL-CAS-00239,2026-03-14 21:24:00,nota_tecnico,tecnico,L.G.,,EB-CAS-001 rientrato. Danno cambio post.: forcella piegata. preventivo richiesto. Foto ok in cartella. Stima fermo 3gg (L.G.)
+COM-CAS-00233,NOL-CAS-00540,2026-07-22 18:05:00,telefonata_trascritta,cliente,3972611420,,"Trascr. chiamata ore 15:06 (op. Anna) - cliente Greco Sara: sto arrivando ma ho problemi personali, tra 1 ore sono da voi"
+COM-CAS-00234,NOL-CAS-00557,2026-07-23 15:56:00,email,cliente,barbara.chiesa@example.com,Ho dimenticato una cosa nel mezzo,"Buonasera,
+Ho dimenticato uno zaino nel mezzo (Cue Kathmandu), potete controllarre?
+Barbara"
+COM-CAS-00235,NOL-CAS-00550,2026-07-25 00:36:00,email,cliente,blombardi@example.net,Re: Feedback noleggio,"Salve,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Grazie
+Lombardi Barbara"
+COM-CAS-00236,NOL-CAS-00498,2026-07-26 01:17:00,telefonata_trascritta,cliente,3956650765,,Trascr. chiamata ore 19:16 (op. Anna) - cliente Chiara Sacco: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-CAS-00074,NOL-CAS-00167,2026-02-08 07:11:00,modulo_web,cliente,barberoal23@example.net,Richiesta assistenza,"Nome: Alessandro | Email: barberoal23@example.net | Tel: 3792408537 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-CAS-00238,NOL-CAS-00572,2026-07-27 15:06:00,sms,cliente,3582125685,,"vorrei noleggiare auto dda 01/08 a 15/08, avete disponibilita' e quanto costa?"
+COM-CAS-00239,NOL-CAS-00556,2026-07-27 20:47:00,nota_tecnico,tecnico,Paolo,,"EB-CAS-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Paolo"
+COM-CAS-00240,NOL-CAS-00536,2026-07-28 01:41:00,email,cliente,info@raveraagricola.example.it,,"Buongiorno a tutti,
+Mentre facevo retromarcia a Ozzano ho toccato un palo e si e' rovinato lo specchietto sinistro. Nessun ferito. Cosa devo fare?
+Grazie"
+COM-CAS-00241,NOL-CAS-00528,2026-07-28 11:51:00,nota_tecnico,tecnico,M.,,RIT CAS-03 49857km - specchietto sx calotta rotta. preventivo richiesto. fermo 7gg. Elena
+COM-CAS-00242,NOL-CAS-00502,2026-08-01 07:17:00,email,cliente,info@lombardigiardinaggio.example.it,Annullamento prenotazione,"Gentile Buby Rent,
+Annullate er favore la mia prenotazione, l nostra gita e' saltata per il meteo"
+COM-CAS-00243,NOL-CAS-00545,2026-08-02 00:00:00,telefonata_trascritta,cliente,3970210186,,"Trascr. chiamata ore 8:30 (op. Anna) - cliente Simone Chiesa: posso tenere il mezzo (GM081CF) fino a domani? coda in autostrada, non riesco ad arrivare"
+COM-CAS-00244,NOL-CAS-00571,,nota_tecnico,tecnico,Fabio,,"RIT CAS-02: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 40€ al cliente. Tech1"
+COM-CAS-00245,NOL-CAS-00509,2026-08-04 04:41:00,email,cliente,fgenre@example.com,oggetto smarrito,"buonasera,
+credo di aver lasciato le chiavi di casa nel bagagliaio (gp426waa). si puo' recuperare?
+grazie mille
+federica genre"
+COM-CAS-00246,NOL-CAS-00582,2026-08-06 10:30:00,sms,cliente,3353636202,,"la batteria e' a terra, nn parte piu' (dcia duster) sono a moncalvo"
+COM-CAS-00247,NOL-CAS-00582,2026-08-07 06:20:00,whatsapp,cliente,3353636202,,"posso tenere il mezzo (CAS-05) fino a domani? lavori sulla strada, non riesco ad arrivare"
+COM-CAS-00248,NOL-CAS-00493,2026-08-07 08:34:00,whatsapp,cliente,3559007940,,"sono uscito di strada a Pontestura x colpa del ghiaccio, il mezzo (CAS-07) e' danneggiato ma io sto bee"
+COM-CAS-00249,NOL-CAS-00493,2026-08-07 18:30:00,nota_tecnico,tecnico,Elena,,"CAS-07 - CAI ricevuto, controparte identficata, in attesa pperizia. fermo 12gg. Sara"
+COM-CAS-00250,NOL-CAS-00602,2026-08-07 23:24:00,email,cliente,pastoreel97@example.net,disponibilita',"Buongiorno a tutti,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi rieetuti?
+Pastore Elena"
+COM-CAS-00251,NOL-CAS-00593,2026-08-08 12:43:00,email,cliente,info@toscostudiotecnico.example.it,ritardo,"Posso tenerre il mezzo (CAt-06) fin a domani? traffico, non riesco ad arrirare
+Grazie ille"
+COM-CAS-00252,NOL-CAS-00592,2026-08-09 13:23:00,telefonata_trascritta,cliente,3230833426,,"Trascr. chiamata ore 19:53 (op. Anna) - cliente Matteo Brunetti: sono bloccato per coda a Valenza, arrivo con circa 1 ore di ritardo per la riconsegna (Cube Kathmandu)"
+COM-CAS-00253,NOL-CAS-00600,2026-08-09 14:27:00,email,cliente,brunoen8@example.org,I: Info noleggio,"Buongiorno a tutti,
+Hello, I would like to rent a e-bike from 25/08 to 25/08. Do you have one availaable and wha is the price? Thans
+Grazie
+Enrico
+Invrato dal mio Samsung Galaxy"
+COM-CAS-00254,NOL-CAS-00582,2026-08-10 03:34:00,nota_tecnico,tecnico,Marco,,"RIT CAS-05: interno molto sporco (sabbia), pulizia straordinaria, addebito 50€ al cliente. Davide"
+COM-CAS-00255,NOL-CAS-00599,2026-08-10 04:17:00,email,cliente,elisa.brunetti@example.it,Info noleggio,"salve,
+e' possibile riconsegnare a alba invece che da voi? c'e' un supplemento?
+grazie mille
+elisa brunetti"
+COM-CAS-00256,NOL-CAS-00582,2026-08-10 07:14:00,nota_tecnico,tecnico,Paolo,,CAS-05 - sostituita batteria 12V. fermo 2gg. M.
+COM-CAS-00257,NOL-CAS-00598,2026-08-10 17:10:00,sms,cliente,3954532281,,"volevo avvisarvi che la bici (Cube Kathmandu) e' scivolata mentre era appoggiata a Ozzano, il cerchio anteriore ha un danno. Vi mando le foto"
+COM-CAS-00258,NOL-CAS-00598,2026-08-10 17:57:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna EB-CAS-002: cerchio ant. manubrio leggermente fuori asse, ritocco vernice. cliente informato. fermo 1gg - Tech1"
+COM-CAS-00259,NOL-CAS-00604,2026-08-11 10:41:00,modulo_web,cliente,raverafa34@example.it,,"Nome: Fabio | Email: raverafa34@example.it | Tel: 3226772037 | Messaggio: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-CAS-00260,NOL-CAS-00584,2026-08-11 22:35:00,email,cliente,vialema72@example.net,Prolungamento noleggio,"Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Distinti saluti
+Viase Massimo"
+COM-CAS-00261,NOL-CAS-00581,2026-08-14 16:18:00,whatsapp,cliente,3294008579,,"la bici si spegne in salita dopo 10 km, sono a Alessandria"
+COM-CAS-00262,NOL-CAS-00572,2026-08-15 08:36:00,telefonata_trascritta,cliente,3582125685,,"Trascr. chiamata ore 10:14 (op. Roberto) - cliente Viale: sto arrivando ma ho lavori sulla strada, tra 1 ore sono da voi"
+COM-CAS-00263,NOL-CAS-00519,2026-08-19 14:26:00,nota_operatore,operatore,Anna,,"verbale GN872LP - Moncalvo - violazione art.142, oomunicazione dati conducente inviata. spese 80€"
+COM-CAS-00264,NOL-CAS-00605,2026-08-22 01:52:00,modulo_web,cliente,info@baronetrasporti.example.it,Contatti,"Nome: Barone Trasporti | Email: info@baronetrasporti.example.it | Tel: 3312818174 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-CAS-00265,NOL-CAS-00630,2026-08-22 18:51:00,whatsapp,cliente,3324017865,,"sto arrrivando ma ho ritardo del trtno, tra 3 ore sono da voi"
+COM-CAS-00266,NOL-CAS-00628,2026-08-24 15:36:00,email,cliente,vialema72@example.net,Segnalazione danno,"Buongiorno a tutti,
+Durante il noleggio ho urtato il fianco destro del mezzo (CAS-01) mentre parcheggiavo a Alessandria. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Distinti saluti
+Massimo"
+COM-CAS-00186,NOL-CAS-00304,2026-06-02 21:20:00,telefonata_trascritta,cliente,3920564471,,TRASCR. CHIAMATA ORE 18:14 (OP. ANNA) - CLIENTE ACTIS SIMONE: HO VISTO UN ADDEBITO DI 75 EURO PER KM EXTRA MA SECONDO ME HO PERCORSO MOLTI MENO KM. CHIEDO VERIFICA DEL CONTRATTO NOL-CAS-00304
+COM-CAS-00268,NOL-CAS-00639,2026-08-25 15:05:00,whatsapp,cliente,3995954434,,"ritardo di 2h per coda a Valenza, scusate. Mezzo EB-CAS-003"
+COM-CAS-00269,NOL-CAS-00530,2026-08-25 21:46:00,nota_tecnico,tecnico,Andrea,,"EB-CAS-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Davide"
+COM-CAS-00270,NOL-CAS-00631,2026-08-25 23:33:00,email,cliente,costaro19@example.net,annullo noleggio,"Buuongiorno,
+Il volo e' stato cancellato, devo annullare il noleggio. Ctme funziona la penale?
+Roberto Costa"
+COM-CAS-00271,NOL-CAS-00612,2026-08-26 19:04:00,nota_tecnico,tecnico,Fabio,,CAS-02 rientrato. Danno cofano: ammaccatura con vernice saltata. da mandare in carrozzeria. Foto ok in cartella. Stima fermo 5gg (Sara)
+COM-CAS-00272,NOL-CAS-00636,2026-08-28 00:43:00,whatsapp,cliente,3562284316,,"volevo avvisarvi ke sul mezzo (CAS-01) c'e' un graffio su la portiera lato passeggero, nn so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-CAS-00273,NOL-CAS-00617,2026-08-28 07:31:00,telefonata_trascritta,cliente,3228950757,,Trascr. chiamata ore 13:24 (op. Anna) - cliente Blandino Maria: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-CAS-00274,NOL-CAS-00636,2026-08-28 10:28:00,nota_tecnico,tecnico,M.,,rit cas-01 73848km - portiera lato passeggero piccola scheggiatura. da ucidare. fermo 1gg. fabio
+COM-CAS-00275,NOL-CAS-00623,2026-08-28 12:23:00,telefonata_trascritta,cliente,3324219516,,"Trascr. chiamata ore 8:28 (op. Anna) - cliente Marco Ferrero: sono bloccato per coda a Valenza, arrivo con circa 1 ore di ritardo per la riconsegna (Dacia Duster)"
+COM-CAS-00276,NOL-CAS-00625,2026-08-28 00:00:00,email,cliente,info@lombarditrasporti.example.it,Reclamo,"Gentile Buby Rent,
+Ho vistt un addebito di 60 euro per km extra ma secondo ho percorso molti mno km. Chiedo verifica del contratto NOL-CAS-00625
+Grazie e ssaluti
+Lombardii"
+COM-CAS-00041,NOL-CAS-00111,2025-12-27 18:57:00,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna gr305kh: cerchio post. dx elemento distrutto, da sostituire, contattata assicurazione. cliente informato. fermo 21gg - andrea"
+COM-CAS-00278,NOL-CAS-00609,2026-08-30 15:30:00,whatsapp,cliente,3920564471,,MENTRE FACEVO RETROMARCIA A VALENZA H TOCCATO UN PALO E SI E' ROVINATO IL PARAURTI ANTERIORE. NESSUN FERITO. COSA DEVO FARE?
+COM-CAS-00279,NOL-CAS-00630,2026-08-31 03:00:00,modulo_web,cliente,fsacco@example.it,Contatti,vedi allegato
+COM-CAS-00280,NOL-CAS-00599,2026-08-31 08:17:00,telefonata_trascritta,cliente,3889258741,,Trascr. chiamata ore 10:25 (op. Anna) - cliente Elisa Brunetti: ho visto un addebito di 250 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-CAS-00599
+COM-CAS-00281,NOL-CAS-00570,2026-08-31 11:46:00,nota_tecnico,tecnico,Sara,,"RIT CAS-06: interno molto sporco (fango), pulizia straordinaria, addebito 70€ al cliente. Andrea"
+COM-CAS-00282,NOL-CAS-00645,2026-08-31 00:00:00,nota_tecnico,tecnico,Fabio,,RIT CAS-01 74059km - cofano leggera ammaccatura. nessun intervento urgente. fermo 1gg. M.
+COM-CAS-00283,NOL-CAS-00627,2026-09-01 00:00:00,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GP426WA: specchietto dx calotta rotta, preventivo richiesto. cliente informato. fermo 9gg - Elena"
+COM-CAS-00284,NOL-CAS-00661,2026-09-02 14:57:00,modulo_web,cliente,anna.sacco@example.net,Richiesta assistenza,"Nome: Anna Sacco | Email: anna.sacco@example.net | Tel: 3230598288 | Messaggio: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-CAS-00285,NOL-CAS-00600,2026-09-02 21:12:00,email,cliente,brunoen8@example.org,Richiesta rimborso,"Spett.le Buby Rent,
+La cauzione di 100 euro non mi e' stata ancora restituita dopo 20 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie
+Enrico Bruno"
+COM-CAS-00286,NOL-CAS-00618,2026-09-03 04:24:00,email,cliente,info@vacchettoagricola.example.it,Ottimo servizio,"great service, the bike was perfect and the staff very friendly. thank you!
+vacchetto agricola"
+COM-CAS-00287,NOL-CAS-00657,2026-09-03 17:53:00,modulo_web,cliente,vialema72@example.net,,"nome: massimo viale | email: vialema72@example.net | tel: 3999713373 | messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. torneremo sicuramente"
+COM-CAS-00288,NOL-CAS-00608,2026-09-04 00:00:00,nota_operatore,operatore,Roberto,,"verbale GJ449YR - Valenza - violazione art.142, comunicazione dati conducente inviata. spese 80€"
+COM-CAS-00289,NOL-CAS-00603,2026-09-04 19:04:00,nota_tecnico,tecnico,Sara,,"RIT CAS-01: interno molto sporco (peli di animali), pulizia straordinaria, addebito 30€ al cliente. Luca B."
+COM-CAS-00290,NOL-CAS-00590,2026-09-05 15:29:00,sms,cliente,3836820603,,"sto arrivando ma ho nebbia sul Po, tra 3 ore sono da voi"
+COM-CAS-00291,NOL-CAS-00621,2026-09-07 08:23:00,email,cliente,vialema72@example.net,Cancellazione,"Ciao,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Grazie mille
+Massimo Viale"
+COM-CAS-00292,NOL-CAS-00660,2026-09-08 14:45:00,sms,cliente,3932523857,,"sto arrivando ma ho coda a Valenza, tra 1 ore sono da voi"
+COM-CAS-00293,NOL-CAS-00653,2026-09-08 17:03:00,modulo_web,cliente,blandinoma13@example.it,Richiesta assistenza,"Nome: Maria | Email: blandinoma13@example.it | Tel: 3228950757 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-CAS-00294,NOL-CAS-00670,2026-09-09 00:00:00,email,cliente,eferrero@example.it,Cancellazione,"Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Ferrero Elena"
+COM-CAS-00295,NOL-CAS-00660,2026-09-11 01:06:00,nota_tecnico,tecnico,Elena,,"RIT CAS-04: interno molto sporco (peli di animali), pulizia straordinaria, addebito 30€ al cliente. Tech1"
+COM-CAS-00296,NOL-CAS-00629,2026-09-13 00:00:00,email,cliente,gferrari@example.net,Re: Piccolo incidente di parcheggio,"Spett.le Buby Rent,
+Volevo avvisarvi che sul mezzo (GN872LP) c'e' un graffio su il cerchio anteriore sinistro, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-CAS-00297,NOL-CAS-00629,2026-09-13 17:13:00,nota_tecnico,tecnico,Davide,,CAS-03 rientrato. Danno cerchio ant. sx: graffio superficiale. ritocco vernice. Foto ok in cartella. Stima fermo 1gg (Gianni)
+COM-CAS-00298,NOL-CAS-00690,2026-09-15 15:48:00,whatsapp,cliente,3711864725,,"ho preso una buca e adesso il cerchio anteriore fa un rumore strano, secondo me e' storto/a. Bici (EB-CAS-002)"
+COM-CAS-00299,NOL-CAS-00667,2026-09-15 17:09:00,telefonata_trascritta,cliente,3836820603,,Trascr. chiamata ore 13:58 (op. Roberto) - cliente Ghiglione Martina: credo di aver lasciato un power bank nel bagagliaio (Cube Kathmandu). Si puo' recuperare?
+COM-CAS-00300,NOL-CAS-00690,2026-09-15 17:54:00,nota_tecnico,tecnico,Sara,,EB-CAS-002 rientrato. Danno cerchio ant.: leva piegata ma funzionante. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 1gg (Fabio)
+COM-CAS-00301,NOL-CAS-00664,2026-09-15 20:56:00,nota_tecnico,tecnico,Davide,,"RIT EB-CAS-003 4319km - catena forcella e ruota da sostituire. preventivo in attesa, mezzo bloccato. fermo 15gg. Gianni"
+COM-CAS-00302,NOL-CAS-00526,2026-09-17 10:08:00,nota_operatore,operatore,Anna,,"verbale GJ449YR - Moncalvo - violazione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-CAS-00303,NOL-CAS-00684,2026-09-19 03:40:00,nota_tecnico,tecnico,Davide,,CAS-07 rientrato. Danno sppeecchietto sx: crepa estesa. da sostituire il pezzo. Foto ok in cartella. Stima fermo 6gg (L.G.)
+COM-CAS-00304,NOL-CAS-00548,2026-09-19 16:29:00,nota_operatore,operatore,Anna,,"multa pedaggio non pagato targa GR305KH, Vercelli: rivalsa su cliente"
+COM-CAS-00305,NOL-CAS-00688,2026-09-21 18:59:00,nota_tecnico,tecnico,Elena,,RIT EB-CAS-002 2858km - leva del freno leva piegata ma funzionante. nessun intervento urgente. fermo 1gg. L.G.
+COM-CAS-00306,NOL-CAS-00715,2026-09-22 02:23:00,whatsapp,cliente,3562100404,,e' possibile rtconsegnare a Bardonecchia invece che da voi? c'e' un supplemento?
+COM-CAS-00307,NOL-CAS-00703,2026-09-23 13:36:00,nota_tecnico,tecnico,Tech1,,"RIT CAS-05: interno molto sporco (fango), pulizia straordinaria, addebito 40€ al cliente. Sara"
+COM-CAS-00164,NOL-CAS-00375,2026-05-09 02:51:00,nota_tecnico,tecnico,Elena,,"eb-cas-002 - batteria e-bike difettosa, apertura rma. fermo 1gg. gianni"
+COM-CAS-00309,NOL-CAS-00644,2026-09-25 12:39:00,modulo_web,cliente,sgreco@example.net,Contatti,Nome: Silvia | Email: sgreco@example.net | Tel: 3816267469 | Messaggio: la cauzione di 800 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+COM-CAS-00310,NOL-CAS-00637,2026-09-28 14:28:00,modulo_web,cliente,paolo.gamba@example.org,,"nome: Paolo | Email: palo.gamba@example.org | Tel: 3646820796 | Messaggio: uscendo da un posteggio stretto a Valenza ho strisciato lo speccchietto siistro. Mi spiare ttanto, quasto dovro' pagare?"
+COM-CAS-00311,NOL-CAS-00717,2026-09-30 07:15:00,email,cliente,rizzocl25@example.it,Annullamento prenotazione,"annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+grazie e saluti
+claudio"
+COM-CAS-00312,NOL-CAS-00637,2026-10-02 00:00:00,nota_tecnico,tecnico,Luca B.,,"CONTROLLO IN RICONSEGNA GN872LP: SPECCHIETTO SX AMMACCATURA CON VERNICE SALTATA, DA SOSTITUIRE IL PEZZO. CLIENTE INFORMATO. FERMO 7GG - MARCO"
+COM-CAS-00313,NOL-CAS-00736,2026-10-04 17:24:00,email,cliente,vialecl73@example.org,Modifica prenotazione,"Ciao,
+Vorrei prolungare di 2 giorni, il mezzo e' libero?
+Grazie e saluti"
+COM-CAS-00314,NOL-CAS-00727,2026-10-07 17:12:00,email,cliente,schiaves@example.net,Reclamo,"Gentile Buby Rent,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 90 euro
+Grazie e saluti
+Chiaves Silvia"
+COM-CAS-00315,NOL-CAS-00753,2026-10-09 12:14:00,email,cliente,info@piccoloeventi.example.it,Re: riconsegna in ritardo,"buonasera,
+sto arrivando ma ho lavori sulla strada, tra 4 ore sono da voi
+piccolo"
+COM-CAS-00316,NOL-CAS-00723,2026-10-10 02:37:00,telefonata_trascritta,cliente,3819408260,,"Trascr. chiamata ore 11:40 (op. Anna) - cliente Roberta Ferrari: incidente in Trino con il mezzo (GR305KH): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-CAS-00317,NOL-CAS-00750,2026-10-10 14:09:00,email,cliente,toscofr8@example.com,info danno,"Buonasera,
+Uscendo da un posteggio stretto a Vercelli ho strisciato il oassaruota anteriore. Mi spiace santo, quanto dovro' pagare?
+Francesco"
+COM-CAS-00318,NOL-CAS-00750,2026-10-10 19:06:00,nota_tecnico,tecnico,Elena,,CAS-03: passaruota ant. -> piccola scheggiatura. segnalato a fine mese per carrozzeria // fermo 1gg
+COM-CAS-00319,NOL-CAS-00763,2026-10-12 08:07:00,whatsapp,cliente,3885714738,,posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+COM-CAS-00320,NOL-CAS-00760,2026-10-15 21:32:00,whatsapp,cliente,3416775828,,"mi sono accorto di aver lasciato il portafoglio nel mezzo, potrei passare domani"
+COM-CAS-00321,NOL-CAS-00738,2026-10-17 18:13:00,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GP426WA: cofano leggera ammaccatura, da lucidare. cliente informato. fermo 2gg - Davide"
+COM-CAS-00322,NOL-CAS-00781,2026-10-18 07:32:00,modulo_web,cliente,info@mondinoristorazione.example.it,Richiesta assistenza,"Nome: Mondino | Email: info@mondinoristorazione.example.it | Tel: 3369100820 | Messaggio: Hi, can I pick up the vehhicle late in tie evening? We arrive by train."
+COM-CAS-00323,NOL-CAS-00770,2026-10-18 09:04:00,whatsapp,cliente,3312818174,,"la batteria e' a teerra, non parte piu' (gh683ddt) sono a pontestura"
+COM-CAS-00324,NOL-CAS-00707,2026-10-18 09:57:00,email,cliente,fontanama68@example.net,annullo noleggio,"Getile Buby Rent,
+Annullate per favore la mia prenotazione, la nostra gita e' ssaltata per il meteo"
+COM-CAS-00204,NOL-CAS-00483,2026-06-28 22:24:00,modulo_web,cliente,lmondino@example.com,Contatti,NOME: MONDINO LAURA | EMAIL: LMONDINO@EXAMPLE.COM | TEL: 3332230163 | MESSAGGIO: IERI SERA IN UN PARCHEGGIO A OCCIMIANO QUALCUNO HA COLPITO IL MEZZO (CAS-01) E IL CERCHIO ANTERIORE SINISTRO E' DANNEGGIATO. NON C'ERA NESSUN BIGLIETTO. HO FATTO DENUNCIA
+COM-CAS-00326,NOL-CAS-00770,2026-10-18 22:16:00,nota_tecnico,tecnico,Tech1,,CAS-07 - display e-bike sostituito. fermo 3gg. Sara
+COM-CAS-00327,NOL-CAS-00723,2026-10-21 00:00:00,nota_tecnico,tecnico,Sara,,"CAS-04 - verbale polizia locale in allegato, danni anteriori. fermo 17gg. L.G."
+COM-CAS-00328,NOL-CAS-00777,2026-10-21 14:14:00,email,cliente,barberoal23@example.net,Cancellazione,"Gentile Buby Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Cordialmente
+Alessandro Barbero"
+COM-CAS-00329,NOL-CAS-00769,2026-10-22 04:05:00,modulo_web,cliente,chiesaba44@example.org,Contatti,"Nome: Barbara Chiesa | Email: chiesaba44@example.org | Tel: 3922036855 | Messaggio: i freni non frenano bene in discesa, sono a Trino, bici EB-CAS-002"
+COM-CAS-00330,NOL-CAS-00779,2026-10-22 20:22:00,telefonata_trascritta,cliente,3886343210,,Trascr. chiamata ore 10:10 (op. Roberto) - cliente Laura Genre: credo di aver lasciato uno zaino nel bagagliaio (EB-CAS-003). oi puo' recuperare?
+COM-CAS-00331,NOL-CAS-00743,2026-10-27 23:07:00,email,cliente,ferrarini65@example.it,Feedback noleggio,"Buongioorno,
+Ottima assistenza quando abbiamo avuto bisogno, grozie davvero
+Grazie"
+COM-CAS-00332,NOL-CAS-00789,2026-10-28 04:19:00,whatsapp,cliente,3229668042,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-CAS-00333,NOL-CAS-00771,2026-10-28 06:56:00,whatsapp,cliente,3278410447,,"tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-CAS-00334,NOL-CAS-00665,2026-10-30 14:06:00,email,cliente,elisa.brunetti@example.it,Reclamo,"Ho visto un addebito di 90 euro per km exora ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-CAS-00665
+Elisa Brunetti
+Sent rom my iPhone"
+COM-CAS-00335,NOL-CAS-00757,2026-10-31 19:07:00,nota_tecnico,tecnico,Andrea,,"EB-CAS-003 rientrata pienn di fango, lavaggio completo. addebito pulizia 15â¬. Sara"
+COM-CAS-00336,NOL-CAS-00696,2026-11-01 11:10:00,nota_tecnico,tecnico,Luca B.,,"rit cas-07: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 70€ al cliente. paolo"
+COM-CAS-00337,NOL-CAS-00652,2026-11-01 11:21:00,nota_operatore,operatore,Anna,,"multa pedaggio non pagato targa GN872LP, Alessandria: rivalsa su cliente"
+COM-CAS-00338,NOL-CAS-00802,2026-11-02 08:50:00,telefonata_trascritta,cliente,3368032755,,"Trascr. chiamata ore 14:39 (op. Roberto) - cliente Baibara: il voao e' stato cancellto, devo annullare i noleggio. Come funziiona la penale?"
+COM-CAS-00339,NOL-CAS-00701,2026-11-03 18:50:00,nota_tecnico,tecnico,Marco,,"rit cas-07: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 30€ al cliente. fabio"
+COM-CAS-00340,NOL-CAS-00797,2026-11-04 10:43:00,sms,cliente,3852196366,,"posso tenere il mezzo (CAS-02) fino a domani? incidente in tangenziale, non riesco ad arrivare"
+COM-CAS-00341,NOL-CAS-00803,2026-11-05 00:00:00,modulo_web,cliente,claudio.fenoglio@example.it,Richiesta assistenza,"nome: cclaudio | email: claudio.fenoglio@example.it | tl: 3646816261 | messaggio: non oarte, il motorino fa solo clic. sono a il poo"
+COM-CAS-00342,NOL-CAS-00803,2026-11-06 00:58:00,nota_tecnico,tecnico,Stefano,,CAS-01 - frizione da sostituire. fermo 2gg. Tech1
+COM-CAS-00343,NOL-CAS-00800,2026-11-06 11:42:00,email,cliente,stefano.martini@example.it,Graffio sul mezzo,"Uscendo da un posteggio soretto a Vercelli ho strisciato il portellone posteriore. Mi spiace tanto, quanto dovro' pagare?
+Graziie mille"
+COM-CAS-00344,NOL-CAS-00800,2026-11-06 20:48:00,nota_tecnico,tecnico,Elena,,"controllo in riconsegna GH683DT: portellone post. elemento distrutto, da sostituire, contattata assicurazione. cliente informato. fermo 26gg - Gianni"
+COM-CAS-00345,NOL-CAS-00792,2026-11-07 05:23:00,modulo_web,cliente,info@ferrariselettrica.example.it,Richiesta assistenza,"Nome: Ferraris Elettrica | Email: info@ferrariselettrica.example.it | Tel: 3423579885 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-CAS-00346,NOL-CAS-00797,2026-11-08 04:13:00,whatsapp,cliente,3852196366,,all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-CAS-00347,NOL-CAS-00805,2026-11-09 00:00:00,nota_tecnico,tecnico,M.,,"CAS-05: passaruota ant. -> urto forte con piu' elementi coinvolti. preventivo in attesa, mezzo bloccato // fermo 13gg"
+COM-CAS-00348,NOL-CAS-00805,2026-11-12 02:51:00,email,cliente,paola.greco@example.it,Cauzione non restituita,"Ciao,
+La cauzione di 600 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva"
