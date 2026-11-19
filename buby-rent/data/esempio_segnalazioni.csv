@@ -1,0 +1,4 @@
+email_mittente,oggetto,testo,ricevuta_il,targa,categoria,urgenza,sintesi,targa_estratta
+giulia.neri@example.com,Graffio sul paraurti,"Alla riconsegna ho notato un graffio sul paraurti anteriore, c'era gia al ritiro?",2026-09-04 10:15,AB123CD,danno,media,Graffio paraurti anteriore,
+sconosciuto@example.com,Batteria scarica,L'e-bike EB001XX non si accende dopo la ricarica.,2026-09-11 08:30,,guasto,alta,E-bike non si accende,EB001XX
+paolo.gialli@example.com,Vuoto,,2026-09-16 09:00,,altro,bassa,,
