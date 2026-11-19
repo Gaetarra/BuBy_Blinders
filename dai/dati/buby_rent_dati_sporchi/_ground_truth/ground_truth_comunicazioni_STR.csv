@@ -1,0 +1,385 @@
+id_comunicazione,id_noleggio_corretto,categoria,componente,gravita,sentiment,richiede_fermo,giorni_fermo_stimati,lingua
+COM-STR-00001,NOL-STR-00001,danno_carrozzeria,leva del freno,alta,neutro,si,7,it
+COM-STR-00002,NOL-STR-00013,danno_carrozzeria,pedale,media,neutro,si,3,it
+COM-STR-00003,NOL-STR-00012,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00004,NOL-STR-00021,assistenza_stradale,assistenza,bassa,negativo,si,3,it
+COM-STR-00005,NOL-STR-00021,assistenza_stradale,,bassa,neutro,si,3,it
+COM-STR-00006,NOL-STR-00029,assistenza_stradale,assistenza,bassa,neutro,si,3,it
+COM-STR-00007,NOL-STR-00030,guasto_meccanico,meccanica,bassa,neutro,si,4,en
+COM-STR-00008,NOL-STR-00023,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00009,NOL-STR-00005,danno_carrozzeria,lunotto,media,neutro,si,4,it
+COM-STR-00010,NOL-STR-00038,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00011,NOL-STR-00040,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-STR-00012,NOL-STR-00040,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00013,NOL-STR-00040,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-STR-00014,NOL-STR-00026,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00015,NOL-STR-00015,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00016,NOL-STR-00046,cancellazione,,bassa,neutro,no,,it
+COM-STR-00017,NOL-STR-00020,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00018,NOL-STR-00033,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00019,NOL-STR-00053,assistenza_stradale,assistenza,bassa,negativo,si,1,it
+COM-STR-00020,NOL-STR-00052,cancellazione,,bassa,neutro,no,,it
+COM-STR-00021,NOL-STR-00053,assistenza_stradale,,bassa,neutro,si,1,it
+COM-STR-00022,NOL-STR-00062,cancellazione,,bassa,neutro,no,,it
+COM-STR-00023,NOL-STR-00039,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00024,NOL-STR-00048,danno_carrozzeria,paraurti posteriore,media,neutro,si,8,it
+COM-STR-00025,NOL-STR-00048,danno_carrozzeria,paraurti posteriore,media,neutro,si,8,it
+COM-STR-00026,NOL-STR-00048,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00027,NOL-STR-00017,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00028,NOL-STR-00032,cancellazione,,bassa,neutro,no,,it
+COM-STR-00029,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00030,NOL-STR-00076,danno_carrozzeria,paraurti posteriore,bassa,neutro,si,1,it
+COM-STR-00031,NOL-STR-00024,danno_carrozzeria,fanale posteriore,media,neutro,si,3,it
+COM-STR-00032,NOL-STR-00091,danno_carrozzeria,pedale,media,neutro,si,5,it
+COM-STR-00033,NOL-STR-00091,danno_carrozzeria,pedale,media,neutro,si,5,it
+COM-STR-00034,NOL-STR-00092,cancellazione,,bassa,neutro,no,,it
+COM-STR-00035,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00036,NOL-STR-00097,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00037,NOL-STR-00098,danno_carrozzeria,cavalletto,media,neutro,si,6,it
+COM-STR-00038,NOL-STR-00072,danno_carrozzeria,fianco sinistro,bassa,neutro,si,1,it
+COM-STR-00039,NOL-STR-00093,cancellazione,,bassa,neutro,no,,it
+COM-STR-00040,NOL-STR-00095,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00041,NOL-STR-00082,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00042,NOL-STR-00090,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00043,NOL-STR-00105,cancellazione,,bassa,neutro,no,,it
+COM-STR-00044,NOL-STR-00130,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00045,NOL-STR-00119,cancellazione,,bassa,neutro,no,,it
+COM-STR-00046,NOL-STR-00109,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-STR-00047,NOL-STR-00126,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00048,NOL-STR-00126,danno_carrozzeria,specchietto destro,bassa,neutro,no,0,it
+COM-STR-00049,NOL-STR-00083,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00050,NOL-STR-00138,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00051,NOL-STR-00133,cancellazione,,bassa,neutro,no,,it
+COM-STR-00052,NOL-STR-00126,danno_carrozzeria,specchietto destro,bassa,neutro,no,0,it
+COM-STR-00053,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00054,NOL-STR-00143,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00055,NOL-STR-00143,danno_carrozzeria,cambio posteriore,bassa,neutro,si,1,it
+COM-STR-00056,NOL-STR-00112,incidente_sinistro,,media,negativo,si,27,it
+COM-STR-00057,NOL-STR-00089,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00058,NOL-STR-00089,danno_carrozzeria,cambio posteriore,alta,neutro,si,18,en
+COM-STR-00059,NOL-STR-00089,danno_carrozzeria,cambio posteriore,alta,neutro,si,18,it
+COM-STR-00060,NOL-STR-00112,incidente_sinistro,fanale anteriore,media,neutro,si,27,it
+COM-STR-00061,NOL-STR-00112,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00062,NOL-STR-00180,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00063,NOL-STR-00146,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00064,NOL-STR-00127,danno_carrozzeria,porta scorrevole,media,neutro,si,5,it
+COM-STR-00065,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00066,NOL-STR-00135,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00067,NOL-STR-00192,foratura,pneumatico,bassa,negativo,si,2,it
+COM-STR-00068,NOL-STR-00187,guasto_meccanico,meccanica,bassa,neutro,si,4,de
+COM-STR-00069,NOL-STR-00192,danno_carrozzeria,specchietto destro,bassa,neutro,si,2,it
+COM-STR-00070,NOL-STR-00187,guasto_meccanico,,bassa,neutro,si,4,it
+COM-STR-00071,NOL-STR-00175,cancellazione,,bassa,neutro,no,,it
+COM-STR-00072,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00073,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00074,NOL-STR-00186,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00075,NOL-STR-00202,danno_carrozzeria,fanale anteriore,bassa,neutro,si,1,it
+COM-STR-00076,NOL-STR-00196,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00077,NOL-STR-00194,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00078,NOL-STR-00164,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00079,NOL-STR-00086,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00080,NOL-STR-00223,danno_carrozzeria,portiera lato guida,media,neutro,si,7,it
+COM-STR-00081,NOL-STR-00219,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00082,NOL-STR-00219,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00083,NOL-STR-00188,cancellazione,,bassa,neutro,no,,it
+COM-STR-00084,NOL-STR-00162,cancellazione,,bassa,neutro,no,,it
+COM-STR-00085,NOL-STR-00173,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00086,NOL-STR-00227,cancellazione,,bassa,neutro,no,,it
+COM-STR-00087,NOL-STR-00234,danno_carrozzeria,specchietto destro,bassa,neutro,no,0,it
+COM-STR-00088,NOL-STR-00237,guasto_meccanico,,media,neutro,si,8,it
+COM-STR-00089,NOL-STR-00247,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00090,NOL-STR-00259,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00091,NOL-STR-00235,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00092,NOL-STR-00245,guasto_meccanico,,bassa,neutro,si,1,it
+COM-STR-00093,NOL-STR-00254,cancellazione,,bassa,neutro,no,,it
+COM-STR-00094,NOL-STR-00238,danno_carrozzeria,parabrezza,alta,neutro,si,27,it
+COM-STR-00095,NOL-STR-00262,cancellazione,,bassa,neutro,no,,it
+COM-STR-00096,NOL-STR-00263,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00097,NOL-STR-00266,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00098,NOL-STR-00266,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00099,NOL-STR-00252,foratura,pneumatico,bassa,neutro,si,2,it
+COM-STR-00100,NOL-STR-00234,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00101,NOL-STR-00279,pulizia_igiene,peli di animali,bassa,neutro,si,1,it
+COM-STR-00102,NOL-STR-00293,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00103,NOL-STR-00244,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00104,NOL-STR-00243,incidente_sinistro,,alta,negativo,si,7,it
+COM-STR-00105,NOL-STR-00243,incidente_sinistro,cofano,alta,neutro,si,7,it
+COM-STR-00106,NOL-STR-00297,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00107,NOL-STR-00299,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00108,NOL-STR-00299,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00109,NOL-STR-00194,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00110,NOL-STR-00134,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00111,NOL-STR-00239,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00112,NOL-STR-00260,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00113,NOL-STR-00239,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00114,NOL-STR-00293,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00115,NOL-STR-00302,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00116,NOL-STR-00315,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00117,NOL-STR-00300,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00118,NOL-STR-00231,cancellazione,,bassa,neutro,no,,it
+COM-STR-00119,NOL-STR-00313,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00120,NOL-STR-00284,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00121,NOL-STR-00232,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00122,NOL-STR-00327,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00123,NOL-STR-00277,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-STR-00124,NOL-STR-00329,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00125,NOL-STR-00270,danno_carrozzeria,manubrio,bassa,neutro,si,1,it
+COM-STR-00126,NOL-STR-00251,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00127,NOL-STR-00346,cancellazione,,bassa,neutro,no,,it
+COM-STR-00128,NOL-STR-00267,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00129,NOL-STR-00347,cancellazione,,bassa,neutro,no,,it
+COM-STR-00130,NOL-STR-00330,cancellazione,,bassa,neutro,no,,it
+COM-STR-00131,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00132,NOL-STR-00353,guasto_elettrico_batteria,batteria,bassa,neutro,si,2,it
+COM-STR-00133,NOL-STR-00353,danno_carrozzeria,leva del freno,media,neutro,si,3,it
+COM-STR-00134,NOL-STR-00353,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-STR-00135,NOL-STR-00226,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00136,NOL-STR-00291,danno_carrozzeria,fanale posteriore,media,neutro,si,3,it
+COM-STR-00137,NOL-STR-00369,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00138,NOL-STR-00148,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00139,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00140,NOL-STR-00326,danno_carrozzeria,porta scorrevole,bassa,neutro,no,0,it
+COM-STR-00141,NOL-STR-00326,danno_carrozzeria,porta scorrevole,bassa,neutro,no,0,it
+COM-STR-00142,NOL-STR-00358,danno_carrozzeria,fianco destro,alta,neutro,si,27,it
+COM-STR-00143,NOL-STR-00380,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00144,NOL-STR-00366,foratura,pneumatico,bassa,negativo,si,2,it
+COM-STR-00145,NOL-STR-00285,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00146,NOL-STR-00366,foratura,,bassa,neutro,si,2,it
+COM-STR-00147,NOL-STR-00380,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00148,NOL-STR-00391,feedback_positivo,,bassa,positivo,no,,en
+COM-STR-00149,NOL-STR-00376,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00150,NOL-STR-00404,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00151,NOL-STR-00406,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00152,NOL-STR-00396,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-STR-00153,NOL-STR-00309,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00154,NOL-STR-00412,cancellazione,,bassa,neutro,no,,it
+COM-STR-00155,NOL-STR-00298,guasto_elettrico_batteria,impianto elettrico,alta,negativo,si,8,it
+COM-STR-00156,NOL-STR-00403,foratura,pneumatico,bassa,neutro,si,5,it
+COM-STR-00157,NOL-STR-00298,guasto_elettrico_batteria,,alta,neutro,si,8,it
+COM-STR-00158,,richiesta_info,,bassa,neutro,no,,en
+COM-STR-00159,NOL-STR-00410,danno_carrozzeria,cavalletto,alta,neutro,si,20,it
+COM-STR-00160,NOL-STR-00410,danno_carrozzeria,cavalletto,alta,neutro,si,20,it
+COM-STR-00161,NOL-STR-00432,danno_carrozzeria,fanale anteriore,media,neutro,si,8,it
+COM-STR-00162,NOL-STR-00432,danno_carrozzeria,fanale anteriore,media,neutro,si,8,it
+COM-STR-00163,NOL-STR-00278,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00164,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00165,NOL-STR-00363,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00166,NOL-STR-00425,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00167,NOL-STR-00436,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00168,NOL-STR-00430,danno_carrozzeria,pedale,media,neutro,si,2,it
+COM-STR-00169,NOL-STR-00383,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00170,NOL-STR-00222,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00171,NOL-STR-00437,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00172,NOL-STR-00467,danno_carrozzeria,forcella,bassa,neutro,si,2,it
+COM-STR-00173,NOL-STR-00413,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00174,NOL-STR-00474,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00175,NOL-STR-00429,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-STR-00176,NOL-STR-00243,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00177,NOL-STR-00444,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00178,NOL-STR-00429,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-STR-00179,NOL-STR-00450,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00180,NOL-STR-00485,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-STR-00181,NOL-STR-00368,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00182,NOL-STR-00497,cancellazione,,bassa,neutro,no,,it
+COM-STR-00183,NOL-STR-00476,assistenza_stradale,assistenza,media,neutro,si,6,it
+COM-STR-00184,NOL-STR-00493,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00185,NOL-STR-00457,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00186,NOL-STR-00252,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00187,NOL-STR-00476,assistenza_stradale,,media,neutro,si,6,it
+COM-STR-00188,NOL-STR-00455,cancellazione,,bassa,neutro,no,,it
+COM-STR-00189,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00190,NOL-STR-00512,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-STR-00191,NOL-STR-00512,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00192,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00193,NOL-STR-00449,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00194,NOL-STR-00337,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00195,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00196,NOL-STR-00375,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00197,NOL-STR-00529,cancellazione,,bassa,neutro,no,,it
+COM-STR-00198,NOL-STR-00536,cancellazione,,bassa,neutro,no,,it
+COM-STR-00199,NOL-STR-00535,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00200,NOL-STR-00538,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00201,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00202,NOL-STR-00499,incidente_sinistro,,media,negativo,si,12,it
+COM-STR-00203,NOL-STR-00530,pulizia_igiene,peli di animali,bassa,neutro,si,1,it
+COM-STR-00204,NOL-STR-00499,incidente_sinistro,specchietto destro,media,neutro,si,12,it
+COM-STR-00205,NOL-STR-00395,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00206,NOL-STR-00427,danno_carrozzeria,cofano,bassa,neutro,si,2,it
+COM-STR-00207,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00208,NOL-STR-00564,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00209,NOL-STR-00562,cancellazione,,bassa,neutro,no,,it
+COM-STR-00210,NOL-STR-00427,danno_carrozzeria,cofano,bassa,neutro,si,2,it
+COM-STR-00211,NOL-STR-00568,assistenza_stradale,assistenza,bassa,negativo,si,1,it
+COM-STR-00212,NOL-STR-00560,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00213,NOL-STR-00568,assistenza_stradale,,bassa,neutro,si,1,it
+COM-STR-00214,NOL-STR-00557,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,2,en
+COM-STR-00215,NOL-STR-00557,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,2,it
+COM-STR-00216,NOL-STR-00570,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00217,NOL-STR-00509,cancellazione,,bassa,neutro,no,,it
+COM-STR-00218,NOL-STR-00471,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00219,NOL-STR-00554,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00220,NOL-STR-00543,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00221,NOL-STR-00578,danno_carrozzeria,cambio posteriore,media,neutro,si,5,it
+COM-STR-00222,NOL-STR-00478,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00223,NOL-STR-00531,cancellazione,,bassa,neutro,no,,it
+COM-STR-00224,NOL-STR-00519,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00225,NOL-STR-00588,cancellazione,,bassa,neutro,no,,it
+COM-STR-00226,NOL-STR-00571,cancellazione,,bassa,neutro,no,,it
+COM-STR-00227,NOL-STR-00577,danno_carrozzeria,catena,media,neutro,si,5,it
+COM-STR-00228,NOL-STR-00587,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00229,NOL-STR-00592,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00230,NOL-STR-00584,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00231,NOL-STR-00592,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00232,NOL-STR-00591,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00233,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00234,NOL-STR-00574,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00235,NOL-STR-00582,danno_carrozzeria,sella,media,neutro,si,6,it
+COM-STR-00236,NOL-STR-00604,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-STR-00237,NOL-STR-00582,danno_carrozzeria,sella,media,neutro,si,6,it
+COM-STR-00238,NOL-STR-00551,danno_carrozzeria,fianco sinistro,alta,neutro,si,22,it
+COM-STR-00239,NOL-STR-00617,danno_carrozzeria,leva del freno,bassa,neutro,si,2,it
+COM-STR-00240,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00241,NOL-STR-00618,cancellazione,,bassa,neutro,no,,it
+COM-STR-00242,NOL-STR-00590,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00243,NOL-STR-00487,assistenza_stradale,assistenza,bassa,negativo,si,1,it
+COM-STR-00244,NOL-STR-00487,assistenza_stradale,,bassa,neutro,si,1,it
+COM-STR-00245,NOL-STR-00611,cancellazione,,bassa,neutro,no,,it
+COM-STR-00246,NOL-STR-00612,danno_carrozzeria,parabrezza,media,neutro,si,8,it
+COM-STR-00247,NOL-STR-00630,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-STR-00248,NOL-STR-00630,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-STR-00249,NOL-STR-00640,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00250,NOL-STR-00470,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00251,NOL-STR-00596,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00252,NOL-STR-00639,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-STR-00253,NOL-STR-00357,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00254,NOL-STR-00505,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00255,NOL-STR-00651,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,1,it
+COM-STR-00256,NOL-STR-00634,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00257,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00258,NOL-STR-00505,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00259,NOL-STR-00658,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00260,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00261,NOL-STR-00621,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00262,NOL-STR-00647,danno_carrozzeria,pedale,media,neutro,si,5,it
+COM-STR-00263,NOL-STR-00647,danno_carrozzeria,pedale,media,neutro,si,5,it
+COM-STR-00264,NOL-STR-00662,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00265,NOL-STR-00641,cancellazione,,bassa,neutro,no,,it
+COM-STR-00266,NOL-STR-00648,danno_carrozzeria,catena,media,neutro,si,6,it
+COM-STR-00267,NOL-STR-00648,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-STR-00268,NOL-STR-00648,danno_carrozzeria,catena,media,neutro,si,6,it
+COM-STR-00269,NOL-STR-00648,guasto_meccanico,,bassa,neutro,si,1,it
+COM-STR-00270,NOL-STR-00669,assistenza_stradale,assistenza,bassa,negativo,si,5,it
+COM-STR-00271,NOL-STR-00415,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00272,NOL-STR-00614,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-STR-00273,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00274,NOL-STR-00669,assistenza_stradale,,bassa,neutro,si,5,it
+COM-STR-00275,NOL-STR-00675,cancellazione,,bassa,neutro,no,,it
+COM-STR-00276,NOL-STR-00664,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00277,NOL-STR-00700,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00278,NOL-STR-00669,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00279,NOL-STR-00705,danno_carrozzeria,cambio posteriore,bassa,neutro,si,1,it
+COM-STR-00280,NOL-STR-00519,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-STR-00281,NOL-STR-00707,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00282,NOL-STR-00519,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00283,NOL-STR-00710,cancellazione,,bassa,neutro,no,,it
+COM-STR-00284,NOL-STR-00704,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00285,NOL-STR-00688,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00286,NOL-STR-00724,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-STR-00287,NOL-STR-00723,cancellazione,,bassa,neutro,no,,it
+COM-STR-00288,NOL-STR-00702,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00289,NOL-STR-00736,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00290,NOL-STR-00730,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00291,NOL-STR-00729,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00292,NOL-STR-00686,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00293,NOL-STR-00740,assistenza_stradale,,bassa,neutro,si,1,it
+COM-STR-00294,NOL-STR-00735,cancellazione,,bassa,neutro,no,,it
+COM-STR-00295,NOL-STR-00644,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00296,NOL-STR-00744,danno_carrozzeria,cerchio anteriore,media,neutro,si,3,it
+COM-STR-00297,NOL-STR-00754,cancellazione,,bassa,neutro,no,,it
+COM-STR-00298,NOL-STR-00750,danno_carrozzeria,parabrezza,media,neutro,si,5,it
+COM-STR-00299,NOL-STR-00760,cancellazione,,bassa,neutro,no,,it
+COM-STR-00300,NOL-STR-00725,danno_carrozzeria,fanale anteriore,media,neutro,si,8,it
+COM-STR-00301,NOL-STR-00764,cancellazione,,bassa,neutro,no,,it
+COM-STR-00302,NOL-STR-00715,danno_carrozzeria,cavalletto,bassa,neutro,si,1,it
+COM-STR-00303,NOL-STR-00728,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00304,NOL-STR-00761,guasto_meccanico,meccanica,alta,negativo,si,8,it
+COM-STR-00305,NOL-STR-00776,foratura,,bassa,neutro,si,1,it
+COM-STR-00306,NOL-STR-00784,cancellazione,,bassa,neutro,no,,it
+COM-STR-00307,NOL-STR-00804,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00308,NOL-STR-00757,danno_carrozzeria,cavalletto,bassa,neutro,si,1,it
+COM-STR-00309,NOL-STR-00800,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00310,NOL-STR-00791,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-STR-00311,NOL-STR-00789,incidente_sinistro,,media,negativo,si,14,it
+COM-STR-00312,NOL-STR-00718,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00313,NOL-STR-00815,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00314,NOL-STR-00722,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00315,NOL-STR-00791,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00316,NOL-STR-00789,incidente_sinistro,portiera lato guida,media,neutro,si,14,it
+COM-STR-00317,NOL-STR-00823,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00318,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00319,NOL-STR-00823,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00320,NOL-STR-00722,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00321,NOL-STR-00792,danno_carrozzeria,cambio posteriore,bassa,neutro,no,0,it
+COM-STR-00322,NOL-STR-00844,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00323,NOL-STR-00783,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00324,NOL-STR-00683,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-STR-00325,NOL-STR-00796,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00326,NOL-STR-00844,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00327,NOL-STR-00844,guasto_meccanico,meccanica,bassa,neutro,si,2,it
+COM-STR-00328,NOL-STR-00844,guasto_meccanico,,bassa,neutro,si,2,it
+COM-STR-00329,NOL-STR-00819,guasto_elettrico_batteria,batteria,alta,negativo,si,7,it
+COM-STR-00330,NOL-STR-00824,danno_carrozzeria,lunotto,bassa,neutro,no,0,it
+COM-STR-00331,NOL-STR-00828,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00332,NOL-STR-00824,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00333,NOL-STR-00837,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00334,NOL-STR-00835,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00335,NOL-STR-00825,danno_carrozzeria,specchietto destro,bassa,neutro,si,2,it
+COM-STR-00336,NOL-STR-00748,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00337,NOL-STR-00748,danno_carrozzeria,paraurti anteriore,bassa,neutro,no,0,it
+COM-STR-00338,NOL-STR-00677,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00339,NOL-STR-00620,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00340,NOL-STR-00557,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00341,NOL-STR-00850,danno_carrozzeria,fanale anteriore,media,neutro,si,9,it
+COM-STR-00342,NOL-STR-00822,danno_carrozzeria,paraurti anteriore,alta,neutro,si,21,it
+COM-STR-00343,NOL-STR-00846,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-STR-00344,NOL-STR-00846,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-STR-00345,NOL-STR-00846,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00346,NOL-STR-00855,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00347,NOL-STR-00859,danno_carrozzeria,display,bassa,neutro,si,1,it
+COM-STR-00348,NOL-STR-00859,danno_carrozzeria,display,bassa,neutro,si,1,it
+COM-STR-00349,NOL-STR-00863,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00350,NOL-STR-00861,danno_carrozzeria,cambio posteriore,bassa,neutro,no,0,it
+COM-STR-00351,NOL-STR-00843,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00352,NOL-STR-00801,modifica_prenotazione,,bassa,neutro,no,,it
+COM-STR-00353,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00354,NOL-STR-00863,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00355,NOL-STR-00826,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00356,NOL-STR-00876,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00357,NOL-STR-00875,danno_carrozzeria,leva del freno,media,neutro,si,2,it
+COM-STR-00358,NOL-STR-00852,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-STR-00359,NOL-STR-00877,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-STR-00360,NOL-STR-00884,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-STR-00361,NOL-STR-00718,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00362,NOL-STR-00873,reclamo_addebito,,media,negativo,no,,it
+COM-STR-00363,NOL-STR-00876,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-STR-00364,NOL-STR-00847,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00365,NOL-STR-00847,danno_carrozzeria,cerchio posteriore,bassa,neutro,no,0,it
+COM-STR-00366,,richiesta_info,,bassa,neutro,no,,it
+COM-STR-00367,NOL-STR-00880,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00368,NOL-STR-00903,danno_carrozzeria,manubrio,bassa,neutro,si,1,it
+COM-STR-00369,NOL-STR-00878,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00370,NOL-STR-00902,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-STR-00371,NOL-STR-00890,danno_carrozzeria,display,bassa,neutro,no,0,it
+COM-STR-00372,NOL-STR-00902,guasto_meccanico,,bassa,neutro,si,3,it
+COM-STR-00373,NOL-STR-00804,danno_carrozzeria,cambio posteriore,media,neutro,si,4,it
+COM-STR-00374,NOL-STR-00912,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-STR-00375,NOL-STR-00899,guasto_meccanico,,bassa,neutro,si,2,it
+COM-STR-00376,NOL-STR-00882,guasto_meccanico,meccanica,bassa,negativo,si,4,it
+COM-STR-00377,NOL-STR-00828,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00378,NOL-STR-00913,danno_carrozzeria,display,bassa,neutro,no,0,it
+COM-STR-00379,NOL-STR-00813,danno_carrozzeria,lunotto,media,neutro,si,9,it
+COM-STR-00380,NOL-STR-00882,feedback_positivo,,bassa,positivo,no,,it
+COM-STR-00381,NOL-STR-00919,danno_carrozzeria,paraurti posteriore,alta,neutro,si,30,it
+COM-STR-00382,NOL-STR-00738,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-STR-00383,NOL-STR-00921,guasto_meccanico,,bassa,neutro,si,1,it
+COM-STR-00384,NOL-STR-00889,oggetto_dimenticato,,bassa,neutro,no,,it

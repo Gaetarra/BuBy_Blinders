@@ -1,0 +1,294 @@
+id_comunicazione,id_noleggio_corretto,categoria,componente,gravita,sentiment,richiede_fermo,giorni_fermo_stimati,lingua
+COM-BAR-00001,NOL-BAR-00003,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00002,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00003,NOL-BAR-00013,incidente_sinistro,,media,negativo,si,12,it
+COM-BAR-00004,NOL-BAR-00013,incidente_sinistro,paraurti anteriore,media,neutro,si,12,it
+COM-BAR-00005,NOL-BAR-00016,danno_carrozzeria,fianco destro,bassa,neutro,no,0,it
+COM-BAR-00006,NOL-BAR-00004,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00007,NOL-BAR-00008,danno_carrozzeria,fanale anteriore,media,neutro,si,4,it
+COM-BAR-00008,NOL-BAR-00008,danno_carrozzeria,fanale anteriore,media,neutro,si,4,it
+COM-BAR-00009,NOL-BAR-00026,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00010,NOL-BAR-00018,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-BAR-00011,NOL-BAR-00014,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00012,NOL-BAR-00017,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00013,NOL-BAR-00044,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-BAR-00014,NOL-BAR-00044,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-BAR-00015,NOL-BAR-00041,guasto_meccanico,,alta,neutro,si,8,it
+COM-BAR-00016,NOL-BAR-00025,danno_carrozzeria,parabrezza,alta,neutro,si,34,fr
+COM-BAR-00017,NOL-BAR-00025,danno_carrozzeria,parabrezza,alta,neutro,si,34,it
+COM-BAR-00018,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00019,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00020,NOL-BAR-00036,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00021,NOL-BAR-00046,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00022,NOL-BAR-00051,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00023,NOL-BAR-00043,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00024,NOL-BAR-00066,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00025,NOL-BAR-00060,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00026,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00027,NOL-BAR-00048,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,no,0,it
+COM-BAR-00028,NOL-BAR-00048,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,no,0,it
+COM-BAR-00029,NOL-BAR-00067,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00030,NOL-BAR-00082,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00031,NOL-BAR-00082,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-BAR-00032,NOL-BAR-00081,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00033,NOL-BAR-00081,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-BAR-00034,NOL-BAR-00055,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00035,NOL-BAR-00101,danno_carrozzeria,lunotto,bassa,neutro,no,0,it
+COM-BAR-00036,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00037,NOL-BAR-00102,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00038,NOL-BAR-00107,danno_carrozzeria,cerchio posteriore destro,media,neutro,si,3,it
+COM-BAR-00039,NOL-BAR-00080,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00040,NOL-BAR-00100,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00041,NOL-BAR-00108,feedback_positivo,,bassa,positivo,no,,en
+COM-BAR-00042,NOL-BAR-00088,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00043,NOL-BAR-00112,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,si,1,it
+COM-BAR-00044,NOL-BAR-00136,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00045,NOL-BAR-00129,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00046,NOL-BAR-00142,incidente_sinistro,,media,negativo,si,20,it
+COM-BAR-00047,NOL-BAR-00142,incidente_sinistro,paraurti posteriore,media,neutro,si,20,it
+COM-BAR-00048,NOL-BAR-00136,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00049,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00050,NOL-BAR-00140,danno_carrozzeria,specchietto sinistro,bassa,neutro,si,1,it
+COM-BAR-00051,NOL-BAR-00146,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00052,NOL-BAR-00126,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00053,NOL-BAR-00152,danno_carrozzeria,cerchio anteriore,media,neutro,si,4,it
+COM-BAR-00054,NOL-BAR-00152,danno_carrozzeria,cerchio anteriore,media,neutro,si,4,it
+COM-BAR-00055,NOL-BAR-00126,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-BAR-00056,NOL-BAR-00097,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,1,it
+COM-BAR-00057,NOL-BAR-00095,assistenza_stradale,assistenza,media,neutro,si,8,it
+COM-BAR-00058,NOL-BAR-00095,assistenza_stradale,,media,neutro,si,8,it
+COM-BAR-00059,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00060,NOL-BAR-00163,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00061,NOL-BAR-00139,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-BAR-00062,NOL-BAR-00089,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00063,NOL-BAR-00139,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-BAR-00064,NOL-BAR-00169,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00065,NOL-BAR-00171,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00066,NOL-BAR-00170,danno_carrozzeria,paraurti anteriore,bassa,neutro,no,0,it
+COM-BAR-00067,NOL-BAR-00170,danno_carrozzeria,paraurti anteriore,bassa,neutro,no,0,it
+COM-BAR-00068,NOL-BAR-00147,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00069,NOL-BAR-00172,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-BAR-00070,NOL-BAR-00172,guasto_meccanico,,bassa,neutro,si,3,it
+COM-BAR-00071,NOL-BAR-00173,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-BAR-00072,NOL-BAR-00173,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00073,NOL-BAR-00153,assistenza_stradale,,alta,neutro,si,7,it
+COM-BAR-00074,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00075,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00076,NOL-BAR-00179,incidente_sinistro,,alta,negativo,si,7,it
+COM-BAR-00077,NOL-BAR-00198,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00078,NOL-BAR-00189,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00079,NOL-BAR-00150,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00080,NOL-BAR-00179,incidente_sinistro,fanale posteriore,alta,neutro,si,7,it
+COM-BAR-00081,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00082,NOL-BAR-00187,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00083,NOL-BAR-00217,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00084,NOL-BAR-00213,danno_carrozzeria,passaruota anteriore,media,neutro,si,3,it
+COM-BAR-00085,NOL-BAR-00225,richiesta_info,,bassa,neutro,no,,en
+COM-BAR-00086,NOL-BAR-00219,incidente_sinistro,,alta,negativo,si,23,it
+COM-BAR-00087,NOL-BAR-00219,incidente_sinistro,fianco destro,alta,neutro,si,23,it
+COM-BAR-00088,NOL-BAR-00201,assistenza_stradale,assistenza,alta,negativo,si,7,it
+COM-BAR-00089,NOL-BAR-00225,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00090,NOL-BAR-00225,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-BAR-00091,NOL-BAR-00196,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00092,NOL-BAR-00215,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00093,NOL-BAR-00242,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00094,NOL-BAR-00229,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00095,NOL-BAR-00229,danno_carrozzeria,specchietto destro,media,neutro,si,5,it
+COM-BAR-00096,NOL-BAR-00243,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00097,NOL-BAR-00196,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00098,NOL-BAR-00171,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00099,NOL-BAR-00249,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-BAR-00100,NOL-BAR-00240,danno_carrozzeria,fianco sinistro,bassa,neutro,si,1,it
+COM-BAR-00101,NOL-BAR-00235,danno_carrozzeria,cofano,alta,neutro,si,26,it
+COM-BAR-00102,NOL-BAR-00240,danno_carrozzeria,fianco sinistro,bassa,neutro,si,1,it
+COM-BAR-00103,NOL-BAR-00259,incidente_sinistro,,alta,negativo,si,12,it
+COM-BAR-00104,NOL-BAR-00259,incidente_sinistro,fanale anteriore,alta,neutro,si,12,it
+COM-BAR-00105,NOL-BAR-00238,danno_carrozzeria,fanale anteriore,bassa,neutro,no,0,it
+COM-BAR-00106,NOL-BAR-00238,danno_carrozzeria,fanale anteriore,bassa,neutro,no,0,it
+COM-BAR-00107,NOL-BAR-00205,danno_carrozzeria,specchietto destro,bassa,neutro,si,2,it
+COM-BAR-00108,NOL-BAR-00267,danno_carrozzeria,cavalletto,bassa,neutro,si,1,it
+COM-BAR-00109,NOL-BAR-00269,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00110,NOL-BAR-00204,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00111,NOL-BAR-00258,assistenza_stradale,assistenza,bassa,negativo,si,2,it
+COM-BAR-00112,NOL-BAR-00246,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00113,NOL-BAR-00262,danno_carrozzeria,paraurti anteriore,media,neutro,si,7,it
+COM-BAR-00114,NOL-BAR-00258,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00115,NOL-BAR-00272,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00116,NOL-BAR-00277,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00117,NOL-BAR-00296,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00118,NOL-BAR-00292,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00119,NOL-BAR-00260,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00120,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00121,NOL-BAR-00298,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-BAR-00122,NOL-BAR-00302,pulizia_igiene,peli di animali,bassa,neutro,si,1,it
+COM-BAR-00123,NOL-BAR-00251,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-BAR-00124,NOL-BAR-00284,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00125,NOL-BAR-00275,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00126,NOL-BAR-00312,guasto_meccanico,meccanica,bassa,neutro,si,3,it
+COM-BAR-00127,NOL-BAR-00312,guasto_meccanico,,bassa,neutro,si,3,it
+COM-BAR-00128,NOL-BAR-00285,danno_carrozzeria,display,media,neutro,si,7,it
+COM-BAR-00129,NOL-BAR-00313,danno_carrozzeria,lunotto,bassa,neutro,si,2,it
+COM-BAR-00130,NOL-BAR-00297,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00131,NOL-BAR-00276,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00132,NOL-BAR-00248,danno_carrozzeria,portellone,bassa,neutro,si,2,it
+COM-BAR-00133,NOL-BAR-00311,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00134,NOL-BAR-00307,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-BAR-00135,NOL-BAR-00345,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00136,NOL-BAR-00264,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00137,NOL-BAR-00339,danno_carrozzeria,cambio posteriore,media,neutro,si,6,it
+COM-BAR-00138,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00139,NOL-BAR-00310,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00140,NOL-BAR-00338,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00141,NOL-BAR-00352,danno_carrozzeria,cambio posteriore,bassa,neutro,no,0,it
+COM-BAR-00142,NOL-BAR-00352,danno_carrozzeria,cambio posteriore,bassa,neutro,no,0,it
+COM-BAR-00143,NOL-BAR-00314,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00144,NOL-BAR-00371,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00145,NOL-BAR-00324,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00146,NOL-BAR-00387,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00147,NOL-BAR-00376,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00148,NOL-BAR-00317,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00149,NOL-BAR-00317,danno_carrozzeria,parafango,bassa,neutro,si,2,it
+COM-BAR-00150,NOL-BAR-00366,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00151,NOL-BAR-00364,assistenza_stradale,assistenza,media,negativo,si,7,it
+COM-BAR-00152,NOL-BAR-00386,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-BAR-00153,NOL-BAR-00369,danno_carrozzeria,forcella,bassa,neutro,no,0,fr
+COM-BAR-00154,NOL-BAR-00369,danno_carrozzeria,forcella,bassa,neutro,no,0,it
+COM-BAR-00155,NOL-BAR-00357,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00156,NOL-BAR-00364,assistenza_stradale,,media,neutro,si,7,it
+COM-BAR-00157,NOL-BAR-00357,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00158,NOL-BAR-00341,assistenza_stradale,assistenza,bassa,negativo,si,2,it
+COM-BAR-00159,NOL-BAR-00391,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00160,NOL-BAR-00413,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00161,NOL-BAR-00383,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-BAR-00162,NOL-BAR-00321,furto_smarrimento,,alta,negativo,no,,it
+COM-BAR-00163,NOL-BAR-00377,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-BAR-00164,NOL-BAR-00418,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00165,NOL-BAR-00394,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00166,NOL-BAR-00399,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00167,NOL-BAR-00402,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00168,NOL-BAR-00421,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00169,NOL-BAR-00409,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00170,NOL-BAR-00426,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00171,NOL-BAR-00430,foratura,pneumatico,alta,negativo,si,8,it
+COM-BAR-00172,NOL-BAR-00443,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00173,NOL-BAR-00430,foratura,,alta,neutro,si,8,it
+COM-BAR-00174,NOL-BAR-00407,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-BAR-00175,NOL-BAR-00422,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00176,NOL-BAR-00434,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00177,NOL-BAR-00407,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00178,NOL-BAR-00309,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00179,NOL-BAR-00453,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00180,NOL-BAR-00397,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00181,NOL-BAR-00443,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00182,NOL-BAR-00455,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00183,NOL-BAR-00448,danno_carrozzeria,catena,bassa,neutro,si,2,it
+COM-BAR-00184,NOL-BAR-00448,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00185,NOL-BAR-00318,danno_carrozzeria,cofano,media,neutro,si,4,it
+COM-BAR-00186,NOL-BAR-00318,danno_carrozzeria,cofano,media,neutro,si,4,it
+COM-BAR-00187,NOL-BAR-00449,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00188,NOL-BAR-00428,danno_carrozzeria,leva del freno,alta,neutro,si,16,it
+COM-BAR-00189,NOL-BAR-00461,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00190,NOL-BAR-00301,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00191,NOL-BAR-00335,danno_carrozzeria,cerchio anteriore,bassa,neutro,no,0,it
+COM-BAR-00192,NOL-BAR-00335,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00193,NOL-BAR-00437,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,2,it
+COM-BAR-00194,NOL-BAR-00437,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,2,it
+COM-BAR-00195,NOL-BAR-00466,danno_carrozzeria,pedale,media,neutro,si,5,it
+COM-BAR-00196,NOL-BAR-00335,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00197,NOL-BAR-00432,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00198,NOL-BAR-00472,danno_carrozzeria,manubrio,bassa,neutro,si,2,it
+COM-BAR-00199,NOL-BAR-00472,danno_carrozzeria,manubrio,bassa,neutro,si,2,it
+COM-BAR-00200,NOL-BAR-00439,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,si,2,it
+COM-BAR-00201,NOL-BAR-00439,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,si,2,it
+COM-BAR-00202,NOL-BAR-00331,danno_carrozzeria,paraurti anteriore,bassa,neutro,si,2,it
+COM-BAR-00203,NOL-BAR-00475,guasto_meccanico,meccanica,bassa,neutro,si,1,it
+COM-BAR-00204,NOL-BAR-00475,guasto_meccanico,,bassa,neutro,si,1,it
+COM-BAR-00205,NOL-BAR-00482,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00206,NOL-BAR-00488,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00207,NOL-BAR-00398,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00208,NOL-BAR-00450,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00209,NOL-BAR-00456,foratura,pneumatico,bassa,negativo,si,3,it
+COM-BAR-00210,NOL-BAR-00481,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00211,NOL-BAR-00456,foratura,,bassa,neutro,si,3,it
+COM-BAR-00212,NOL-BAR-00504,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00213,NOL-BAR-00477,danno_carrozzeria,fianco sinistro,bassa,neutro,no,0,it
+COM-BAR-00214,NOL-BAR-00499,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-BAR-00215,NOL-BAR-00509,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00216,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00217,NOL-BAR-00486,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00218,NOL-BAR-00516,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00219,NOL-BAR-00493,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00220,NOL-BAR-00493,foratura,,bassa,neutro,si,3,it
+COM-BAR-00221,NOL-BAR-00400,danno_carrozzeria,manubrio,media,neutro,si,3,it
+COM-BAR-00222,NOL-BAR-00444,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00223,NOL-BAR-00526,danno_carrozzeria,catena,media,neutro,si,6,it
+COM-BAR-00224,NOL-BAR-00529,danno_carrozzeria,leva del freno,bassa,neutro,si,1,fr
+COM-BAR-00225,NOL-BAR-00529,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-BAR-00226,NOL-BAR-00469,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00227,NOL-BAR-00495,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00228,NOL-BAR-00454,foratura,pneumatico,bassa,negativo,si,3,it
+COM-BAR-00229,NOL-BAR-00529,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00230,NOL-BAR-00507,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-BAR-00231,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00232,NOL-BAR-00507,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-BAR-00233,NOL-BAR-00454,foratura,,bassa,neutro,si,3,it
+COM-BAR-00234,NOL-BAR-00541,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00235,NOL-BAR-00528,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00236,NOL-BAR-00492,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-BAR-00237,NOL-BAR-00492,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-BAR-00238,NOL-BAR-00511,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00239,NOL-BAR-00541,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00240,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00241,NOL-BAR-00425,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00242,NOL-BAR-00570,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00243,NOL-BAR-00563,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00244,NOL-BAR-00560,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00245,NOL-BAR-00555,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-BAR-00246,NOL-BAR-00580,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00247,NOL-BAR-00530,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00248,NOL-BAR-00363,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00249,NOL-BAR-00464,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00250,NOL-BAR-00538,incidente_sinistro,,alta,negativo,si,23,it
+COM-BAR-00251,NOL-BAR-00463,danno_carrozzeria,fianco sinistro,media,neutro,si,9,it
+COM-BAR-00252,NOL-BAR-00572,danno_carrozzeria,sella,media,neutro,si,4,it
+COM-BAR-00253,NOL-BAR-00585,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-BAR-00254,NOL-BAR-00465,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00255,NOL-BAR-00594,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00256,NOL-BAR-00539,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00257,NOL-BAR-00564,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00258,NOL-BAR-00593,danno_carrozzeria,catena,media,neutro,si,7,it
+COM-BAR-00259,NOL-BAR-00564,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00260,NOL-BAR-00577,danno_carrozzeria,parabrezza,bassa,neutro,si,2,it
+COM-BAR-00261,NOL-BAR-00574,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,2,it
+COM-BAR-00262,NOL-BAR-00523,danno_carrozzeria,manubrio,bassa,neutro,si,2,it
+COM-BAR-00263,NOL-BAR-00538,incidente_sinistro,fanale posteriore,alta,neutro,si,23,it
+COM-BAR-00264,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00265,NOL-BAR-00619,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00266,NOL-BAR-00620,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00267,NOL-BAR-00607,danno_carrozzeria,paraurti posteriore,bassa,neutro,no,0,it
+COM-BAR-00268,NOL-BAR-00607,danno_carrozzeria,paraurti posteriore,bassa,neutro,no,0,it
+COM-BAR-00269,NOL-BAR-00586,guasto_meccanico,meccanica,bassa,neutro,si,2,it
+COM-BAR-00270,NOL-BAR-00586,guasto_meccanico,,bassa,neutro,si,2,it
+COM-BAR-00271,NOL-BAR-00628,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00272,NOL-BAR-00607,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00273,NOL-BAR-00637,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00274,NOL-BAR-00627,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-BAR-00275,NOL-BAR-00643,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-BAR-00276,NOL-BAR-00608,danno_carrozzeria,fianco destro,bassa,neutro,si,1,it
+COM-BAR-00277,NOL-BAR-00633,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-BAR-00278,NOL-BAR-00653,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00279,NOL-BAR-00658,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-BAR-00280,NOL-BAR-00657,modifica_prenotazione,,bassa,neutro,no,,it
+COM-BAR-00281,NOL-BAR-00658,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-BAR-00282,,richiesta_info,,bassa,neutro,no,,it
+COM-BAR-00283,NOL-BAR-00631,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00284,NOL-BAR-00654,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00285,NOL-BAR-00668,cancellazione,,bassa,neutro,no,,it
+COM-BAR-00286,NOL-BAR-00656,reclamo_addebito,,media,negativo,no,,it
+COM-BAR-00287,NOL-BAR-00654,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00288,NOL-BAR-00648,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,2,it
+COM-BAR-00289,NOL-BAR-00648,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,2,it
+COM-BAR-00290,NOL-BAR-00672,feedback_positivo,,bassa,positivo,no,,it
+COM-BAR-00291,NOL-BAR-00609,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-BAR-00292,NOL-BAR-00528,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-BAR-00293,NOL-BAR-00669,feedback_positivo,,bassa,positivo,no,,it

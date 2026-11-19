@@ -1,0 +1,692 @@
+id_comunicazione,id_noleggio,data_ora,canale,mittente_tipo,mittente,oggetto,testo
+COM-STR-00001,00001,02/11/2025 16:28,nota_tecnico,tecnico,Luca B.,,EB-STR-003: leva del frenoo -> telaio incrinato. carro attrezzi per officina // fereo 7gg
+COM-STR-00002,NOL-STR-00013,2025-11-04 19:28,nota_tecnico,tecnico,Tech1,,EB-STR-002: pedale -> cerchio storto. da mandare in carrozzeria // fermo 3gg
+COM-STR-00003,NOL-STR-00012,05/11/2025 11:53,telefonata_trascritta,cliente,3924721574,,"Trascr. chiamata ore 9:11 (op. Pietro) - client Cristina Cavallo: ritardo di 3h er lavori sulla strada, susate. Mezzo Fiat 500C"
+COM-STR-00004,NOL-STR-00021,2025-11-08 02:39,telefonata_trascritta,cliente,3929659016,,"Trascr. chiamata ore 14:29 (op. Chiara) - cliente Andrea Olivero: sono rimasto senza carburante a Lesa, cosa devo fare?"
+COM-STR-00005,,08/11/2025 23:30,nota_tecnico,tecnico,Luca B.,,"STR-06 - recupero con carro attrezzi, mezzo in officina. fermo 3gg. Elena"
+COM-STR-00006,NOL-STR-00029,16-11-2025 12:08,telefonata_trascritta,cliente,3944333269,,"Trascr. chiamata ore 11:56 (op. Pietro) - cliente Barbara: sono bloccato a Baveno, la bici (EB-STR-004) non va piu', non riesco a tornare. Potete venire a prendermi?"
+COM-STR-00007,NOL-STR-00030,16/11/2025 18:56,telefonata_trascritta,cliente,3862475895,,"Trascr. chiamata ore 10:32 (op. Chiara) - cliente RAVERA EDILIZIA: Hi, the vehicle (Renault Captur) won't start near Baveno. Can you send assistance please?"
+COM-STR-00008,NOL-STR-00023,,sms,cliente,3301527022,,"sto arriaando ma ho nebbia sul lago, tra 2 ore sono da voi"
+COM-STR-00009,NOL-STR-00005,23/11/25 17:57,nota_tecnico,tecnico,Davide,,STR-02: lunotto -> ammaccatura con vernice saltata. preventivo richiesto // fermo 4gg
+COM-STR-00094,NOL-STR-00238,2026-04-03 18:51,nota_tecnico,tecnico,Stefano,,"STR-07: parabrezza -> rottura con perdita di liquidi. preventivo in attesa, mezzo bloccato // fermo 27gg"
+COM-STR-00011,NOL-STR-00040,27/11/2025 05:53,email,cliente,info@morettistudiotecnico.example.it,Segnalazione danno,"Buonasra,
+Durante il noleggio ho urtato la porta scorreevole del mezzo (STR-07) mentie parcheggivo a al Mottarone. Mi sembra solo esttetico, ho fatto qualche foto. Come devo procedere con la aauzione?
+ristinti saluti
+Moretti Studio Tecnio"
+COM-STR-00012,NOL-STR-00040,27/11/2025 09:14,whatsapp,cliente,3289835206,,"ritardo di 4h per battello in ritrdo, scusate. Mezzo GL940KR"
+COM-STR-00013,NOL-STR-00040,27/11/2025 19:36,nota_tecnico,tecnico,Paolo,,STR-07 rientrato. Danno orta scorrevols: leggera ammaccatura. nessun intorvento urgnte. Foto ok in cartella. Stima fermo 2gg (L.G.)
+COM-STR-00014,NOL-STR-00026,11/28/2025 14:17,email,cliente,roberta.moretti@example.it,Ho dimenticato una cosa nel mezzo,"Spett.le Buby Rent,
+Credo di aver lasciato un caricabatterie nel bagagliaio (STR-03). Si puo' recuperare?
+Cordialii saluti
+Robertr Moretti
+Sent trom my iPhone"
+COM-STR-00015,NOL-STR-00015,2025-11-30 13:13,whatsapp,cliente,3882584338,,HO VISTO UN ADDEBITO DI 180 EURO PER KM EXTRA MA SECONDO ME HO PERCORSO MOLTI MENO KM. CHIEDO VERIFICA DEL CONTRATTO NOL-STR-00015
+COM-STR-00016,NOL-STR-00046,30/11/2025 18:25,email,cliente,info@gambaelettrica.example.it,Cancellazione,"Gentile  Buby  Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Gamba Elettrica"
+COM-STR-00017,NOL-STR-00020,01/12/2025 07:54,email,cliente,nicolo.greco@example.com,Richiesta rimborso,"Egregi signori,
+Il prezzo pagato e' diiverso da qulo el preventivo ricevuto ia email, c'e' una differenza di 250 euro. Nn accettabile
+Grazie mille
+Sent from my iPhone"
+COM-STR-00018,NOL-STR-00033,02/12/2025,sms,cliente,3331617614,,"ritardo di 2h per coda sl Sepnone, scusate. Mezzo STR-01"
+COM-STR-00019,NOL-STR-00053,05/12/2025 22:09,telefonata_trascritta,cliente,3331360410,,"Trascr. chiamata ore 9:48 (op. Pietro) - cliente Simone: non riesco a sbloccare il mezzo (Renault 5), sono a il Mottarone"
+COM-STR-00020,00052,06/12/25 10:11,telefonata_trascritta,cliente,3884899259,,"trascr. chiamata ore 15:52 (op. chiara) - cliente marco bosio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-STR-00021,NOL-STR-00053,12/06/2025,nota_tecnico,tecnico,L.G.,,"STR-02 - mezzo ripartito dopo reset, da monitorare. fermo 1gg. Andrea"
+COM-STR-00022,NOL-STR-00062,08/12/25 12:45,email,cliente,ilaria.barone@example.it,annullo noleggio,"Egregi  signori,
+Annullate  per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Grazie e saluti
+Ilaria Barone"
+COM-STR-00023,NOL-STR-00039,09/12/25 14:37,nota_tecnico,tecnico,Marco,,"RIT STR-06: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Stefano"
+COM-STR-00024,NOL-STR-00048,14/12/2025 15:08,sms,cliente,3683197890,,"volevo  avvisarvi  che sul mezzo (Renault 5) c'e' un graffio su il paraurti posteriore, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-STR-00025,NOL-STR-00048,14/12/2025 15:43,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GR842PW: paraurti post. calotta rotta, da mandare in carrozzeria. cliente informato. fermo 8gg - Andrea"
+COM-STR-00026,NOL-STR-00048,15/12/25 19:13,telefonata_trascritta,cliente,3683197890,,"Trascr.  chiamata  ore 17:38 (op. Chiara) - clinte onica Mondino: il pezzo pagato e' diverso da quello del pprevventivo ricevvuto via emiil, c'e' una diffferenza di 180 euro. Non accettabbile"
+COM-STR-00027,NOL-STR-00017,22/12/25,telefonata_trascritta,cliente,3523396642,,"Trascr.  chiamata  ore 18:23 (op. Pietro) - cliente Allasia Marco: sono bloccato per coda in autostrada, arrivo con circa 1 ore di ritardo per la riconsegna (STR-06)"
+COM-STR-00028,NOL-STR-00032,25/12/2025 05:03,whatsapp,cliente,3975791369,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-STR-00029,,27/12/2025 16:25,email,cliente,mconte@example.net,Richiesta informazioni,"Ciao,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Grazie
+Monica"
+COM-STR-00030,nol-str-00076,2025-12-31 14:56,nota_tecnico,tecnico,M.,,RIT STR-04 33738km - paraurti post. piccola scheggiatura. da lucidare. fermo 1gg. Elena
+COM-STR-00031,NOL-STR-00024,01/01/26 09:36,nota_tecnico,tecnico,Tech1,,STR-02: fanale post. -> graffio profondo fino alla lamiera. da sostituire il pezzo // fermo 3gg
+COM-STR-00041,,23/01/2026 07:55,whatsapp,cliente,3716828772,,"ho dimenticato la giacca nel mezzo (gk517tc), potete controllare?"
+COM-STR-00033,NOL-STR-00091,02/01/2026 20:00,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna eb-str-004: pedale cambio posteriore rotto, foto in cartella, addebito da valutare. cliente informato. fermo 5gg - stefano"
+COM-STR-00034,NOL-STR-00092,06/01/2026 18:28,email,cliente,gastaldiel37@example.net,I: annullo noleggio,"Buongiorno,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per i meoeo
+Distinti saluti"
+COM-STR-00035,,06/01/2026 22:15,email,cliente,info@piccolotrasporti.example.it,disponibilita',"Ciao,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Sent from my iPhone [incomprensibile]"
+COM-STR-00036,,01/10/2026,sms,cliente,3884139003,,"sto arrivndo ma h incidente in tangenzialle, tra 3 ore sono da voi"
+COM-STR-00037,NOL-STR-00098,2026-01-10,nota_tecnico,tecnico,M.,,rit  eb-str-002  1369km - cavalletto forcella piegata. da sostituire il pezzo. fermo 6gg. tech1
+COM-STR-00038,NOL-STR-00072,01/11/2026 11:28,nota_tecnico,tecnico,Stefano,,TR-02 rientrato. Danno fianco sx: piccola scheggiatura. nessun intervento urgente. Foto ok in cartella. Stima fermo 1gg (L.G.)
+COM-STR-00039,NOL-STR-00093,14/01/26 05:18,modulo_web,cliente,mpastore@example.net,Contatti,"nome: martina | email: mpastore@example.net | tel: 3283226174 | messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-STR-00040,NOL-STR-00095,01/14/2026,sms,cliente,3972617840,,"sto arreando ma ho traffico sul lungolago, tra 4 ore sono da voi"
+COM-STR-00032,NOL-STR-00091,02/01/2026 15:50,email,cliente,mmondino@example.it,Graffio sul mezzo,"buonasera,
+volevo avvisarvi che la bici (eb-str-004) e' scivoolata menre era appoggiata a il mottarone, il pedale ha un daano. vi mando le foto
+grazie e saluti"
+COM-STR-00042,NOL-STR-00090,27/01/2026 04:08,email,cliente,paola.gerbino@example.net,Reclamo,"salve,
+mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. contesto l'importo di 250 euro
+cordiali saluti
+paola
+inviato dal mio samsung galaxy"
+COM-STR-00043,NOL-STR-00105,2026-01-30 01:06,sms,cliente,3331360410,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-STR-00044,,02-02-2026 04:41,email,cliente,giovanni.fontana@example.net,Modifica prenotazione,"devo  spostare  il noleggio di un giorno, e' possibile? (cube kathmandu)
+cordialmente"
+COM-STR-00045,NOL-STR-00119,03/02/2026,modulo_web,cliente,info@rossiconsulenze.example.it,Contatti,"Nome: Rossi | Email: info@rossiconsulenze.example.it | Tel: 3301527022 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-STR-00046,NOL-STR-00109,04/02/2026,nota_tecnico,tecnico,M.,,STR-05: fanale post. -> piccola scheggiatura. nessun intervento ugente // no fermo
+COM-STR-00047,NOL-STR-00126,06/02/2026,telefonata_trascritta,cliente,3331617614,,"Trascr. chiamata ore 8:08 (op. Chiara) - cliente Giorgio Gallo: vorrei prolungare di 2 giorni, il mezzo e' libero?"
+COM-STR-00048,NOL-STR-00126,08/02/2026 15:37,modulo_web,cliente,ggallo@example.org,Contatti,"NOME: GIORGIO GALLO | EMAIL: GGALLLO@EXAMPLE.ORG | TEL: 3331617614 | MESSAGGIO: VOLEVO AVVISARVI CHE SUL MEZZO (RENAULT 5) C'E' UN GRAFFIO SU LO SPECCHIETTO DESTTR, NON SO SE ERA GIA' PRESENTE AL RITIRO. SE SERVE VI MANDO LE FOTO"
+COM-STR-00049,NOL-STR-00083,09/02/2026 10:12,nota_operatore,operatore,Chiara,,"ricevuto verbale del comune di il Sempione per ZTL/eccesso di velocita', targa GL940KR. da addebitare al cliente + 100€ gestione pratica"
+COM-STR-00050,NOL-STR-00138,09/02/2026 14:11,email,cliente,info@ferrarigiardinaggio.example.it,Feedback noleggio,"buonasera,
+grazie, tutto perfetto, personale gentile e mezzo pulito. torneremo sicuramente
+grazie mille
+get outlook for android"
+COM-STR-00051,NOL-STR-00133,10-02-2026 02:01,email,cliente,ilaria.barone@example.it,annullo noleggio,"Egregi signori,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie e saluti
+Ilaria
+Inviato dal mio Samsung Galaxy"
+COM-STR-00052,NOL-STR-00126,10/02/2026,nota_tecnico,tecnico,Tech1,,"controllo in riconsegna GR842PW: specchietto dx striscio di vernice, segnalato a fine mese per carrozzeria. cliente informato. no fermo - Luca B."
+COM-STR-00053,,11/02/2026 06:58,email,cliente,info@bosioalpineservice.example.it,Preventivo,"Spett.le Buby Rent,
+Posso ritirarre il mezzo fuori orario? Arrivo in trenno la sera tardi
+Saluti"
+COM-STR-00054,NOL-STR-00143,12/02/2026 18:03,nota_tecnico,tecnico,M.,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Paoso"
+COM-STR-00055,NOL-STR-00143,12-02-2026,nota_tecnico,tecnico,Stefano,,RIT EB-STR-002 1426km - cambio post. manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. fermo 1gg. Sara
+COM-STR-00056,NOL-STR-00112,14/02/2026 11:16,whatsapp,cliente,3216830441,,"sono  uscito  di strada a Isola Bella x colpa del ghiaccio, il mezzo (STR-04) e' danneggiato ma io sto bene"
+COM-STR-00057,NOL-STR-00089,14/02/2026,whatsapp,cliente,3331360410,,"sono bloccato per incidente in tangenziale, arrivo con circa 3 ore di ritardo per la riconsegna (EB-STR-003)"
+COM-STR-00071,NOL-STR-00175,11/03/2026 21:16,sms,cliente,3899299242,,"il volo e' stato canceltato, devo annullare il noleggio. come funziona la penale?"
+COM-STR-00059,NOL-STR-00089,16/02/2026 14:08,nota_tecnico,tecnico,Davide,,"RIT EB-STR-003 2731km - cambio post. urto forte, bici non utilizzabile. carro attrezzi per officiina. fermo 18gg. Davide"
+COM-STR-00060,NOL-STR-00112,2026-02-16 18:28,nota_tecnico,tecnico,Gianni,,"STR-04 - CAI ricevuto, controparte identificata, in attsa perizia. fermo 27gg. Lca B."
+COM-STR-00061,,17/02/2026 17:46,email,cliente,info@gallotrasporti.example.it,Ottimo servizio,"Buongiorno a tutti,
+Grazie, tutto perfetto, personale genile e mezzo pulito. Torneremo sicuramente
+Grazie"
+COM-STR-00062,NOL-STR-00180,26-02-2026 08:40,modulo_web,cliente,ggallo@example.org,Contatti,Nome: Giorgio Galllo | Email: ggalloo@example.org | Tel: 3331617614 | Messaggio: e' possibile riconsegnare a Torino invece che da voi? c'e' un supplemento?
+COM-STR-00063,NOL-STR-00146,2026-02-27 09:31,whatsapp,cliente,3215554255,,"posso tenere il mezzo (Renault Captur) fino a domani? ritardo del treno, nn riesco ad arrivare"
+COM-STR-00064,NOL-STR-00127,01/03/2026 19:24,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna gl940kr: porta scorrevole ammaccatura on vernice saltata, da sostituire il pezzo. cliente informat. fermoo 5gg - andrea"
+COM-STR-00065,,2026-03-04 11:40,whatsapp,cliente,3263918307,,"vorrei noleggiare e-bike da 23/03 a 23/03, avete disponibilita' e quanto costa?"
+COM-STR-00066,,06/03/2026 11:58,modulo_web,cliente,gpiccolo@example.org,Contatti,"Nome: Giovanni Piccolo | Email: gpiccolo@example.org | Tel: 3514576840 | Messaggio: sono bloccato per traffico sul lungolago, arrivo con circa 3 ore di ritardo per la riconsegna (Volkswagen Polo)"
+COM-STR-00067,nol-str-00192,2026-03-07 01:53,sms,cliente,3531323808,,gomma anteriore dx squarciata da una pietra a Belgirate
+COM-STR-00068,NOL-STR-00187,07/03/2026 13:32,whatsapp,cliente,3528717865,,"HALLO, DAS FAHRZEUG (GN095AS) SPRINGT BEI BAVENO NICHT AN, BITTE UM HILFE."
+COM-STR-00069,NOL-STR-00192,07/03/2026 16:57,nota_tecnico,tecnico,Davide,,STR-05: specchietto dx -> leggera ammaccatuura. da lucidare // fermo 2gg
+COM-STR-00070,NOL-STR-00187,2026-03-10,nota_tecnico,tecnico,Davide,,STR-01 - frizione da sostituine. fermo 4gg. Gianni
+COM-STR-00058,NOL-STR-00089,15/02/2026 09:38,email,cliente,simone.ravera@example.it,Re: Piccolo incidente di parcheggio,"Buongiorno,
+Hello, I scratched the bumper while parking near il Mottarone. How should I proceed with the deposit?
+Cordiali saluti"
+COM-STR-00072,,12/03/2026 15:50,email,cliente,vialeni31@example.it,I: Preventivo,"Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Grazie mille
+Nicolò Viale
+Get Outlook for Android"
+COM-STR-00073,,13/03/2026 13:29,email,cliente,mferraris@example.it,Preventivo,"Spett.le Buby Rent,
+Vorrei noleggiare e-bike da 21/03 a 21/03, avete disponibilita' e quanto costa?
+Grazie e saluti
+Matteo
+Inviato da iPhone"
+COM-STR-00074,NOL-STR-00186,15/03/2026 10:47,whatsapp,cliente,3830844511,,"ritardo  di  4h per ritardo del treno, scusate. Mezzo STR-06"
+COM-STR-00075,NOL-STR-00202,16/03/2026 16:09,nota_tecnico,tecnico,Fabio,,STR-05 rientrato. Danno fanale ant.: striscio di vernice. da lucidare. Foto ok in cartella. Stima fermo 1gg (Fabio)
+COM-STR-00076,NOL-STR-00196,19-03-2026 11:48,whatsapp,cliente,3526734296,,"ritirdo di 2h per nebbia sul laggo, scusate. Mezzo Toyota Yais"
+COM-STR-00077,00194,19/03/2026 18:52,modulo_web,cliente,enrico.lombardi@example.net,Contatti,"Nome: Enrico Lombardi | Email: enrico.lombardi@example.net | Tel: 3446244545 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-STR-00078,NOL-STR-00164,2026-03-20 02:03,modulo_web,cliente,francesca.ravera@example.it,Richiesta assistenza,Nome:  Francesca  Ravera | Email: francesca.ravera@example.it | Tel: 3986381272 | Messaggio: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-STR-00079,NOL-STR-00086,20/03/26 09:34,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa GN095AS, Isola Bella: rivalsa su cliente"
+COM-STR-00080,NOL-STR-00223,20/03/2026 16:40,nota_tecnico,tecnico,Marco,,RIT STR-06 45553km - portiera lato guida graffio profondo fino alla lamiera. da mandare in carrozzeria. fermo 7gg. L.G.
+COM-STR-00081,NOL-STR-00219,21/03/2026 17:35,email,cliente,mferraris@example.it,Ritardo riconsegna,"Buongiorno,
+Ritardo di 3h per battello in ritardo, scusate. Mezzo EB-STR-004
+Grazie e saluti
+Matteo Ferraris
+Inviato da iPhone"
+COM-STR-00082,NOL-STR-00219,2026-03-23,modulo_web,cliente,mferraris@example.it,Contatti,"Nome:  Matteo  Ferraris | Email: mferraris@example.it | Tel: 3203773360 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-STR-00083,NOL-STR-00188,24/03/2026 03:43,email,cliente,info@allasialogistica.example.it,annullo noleggio,"buonasera,
+purtroppo non posso piu' partire, cancello la prenotazione. mi restituite l'acconto?
+cordiali saluti
+allasia logistica
+inviato da iphone"
+COM-STR-00084,NOL-STR-00162,24/03/26 07:36,modulo_web,cliente,rossist99@example.net,Richiesta assistenza,"Nome: Stefano Rossi | Email: rossist99@example.net | Tel: 3666773690 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-STR-00085,NOL-STR-00173,24/03/2026 14:48,email,cliente,aallasia@example.net,Reclamo,"Salve,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale
+Grazie mille
+Anna
+Get Outlook for Android"
+COM-STR-00086,NOL-STR-00227,2026-03-29 06:00,email,cliente,brunettisi7@example.net,Cancellazione,"Buonasera,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Saluti
+Silvia"
+COM-STR-00087,NOL-STR-00234,30/03/2026 12:27,nota_tecnico,tecnico,Davide,,rt str-04 39062km - specchietto dx piccola scheggiatura. nessun intervento urgente. no fermo. stefano
+COM-STR-00088,NOL-STR-00237,30/03/26 20:09,nota_tecnico,tecnico,Paolo,,"STR-03 - clima non funzionante, gas da ricariicare. fermo 8gg. Lucaa B."
+COM-STR-00089,NOL-STR-00247,01/04/2026 09:13,email,cliente,chiara.blandino@example.net,cambio data,"Devo spostare il noleggio di un giorno, e' possibile? (EB-STR-003)
+In attesa di un vostro riscontro
+Chiara Blandino
+Sent from my iPhone"
+COM-STR-00090,NOL-STR-00259,01/04/2026 17:15,sms,cliente,3269534925,,accettate carte di debito per la cauzione o serve per forza la carrta di credito?
+COM-STR-00091,NOL-STR-00235,02-04-2026 09:41,telefonata_trascritta,cliente,3697129881,,"trascr. chiamata ore 17:31 (op. pietro) - cliente silvia: sto arrivando ma ho coda in autostrada, tra 2 ore sono da voi"
+COM-STR-00092,NOL-STR-00245,2026-04-02,nota_tecnico,tecnico,Tech1,,"EB-STt-002 - spia motore, diagnosi in corso. fermo 1gg. Gianni"
+COM-STR-00093,NOL-STR-00254,03/04/2026 08:23,sms,cliente,3972617840,,"annullate x favore la mia prenotazione, la nostra gita e' saltata x il meteo"
+COM-STR-00010,NOL-STR-00778,26-11-2025 03:48,telefonata_trascritta,cliente,3215554255,,Trascr. chiamata ore 17:07 (op. Pietro) - cliente Giovanni Fontana: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-STR-00095,NOL-STR-00262,2026-04-04 12:44,whatsapp,cliente,3657886070,,"il volo e' stato cancellato, devo annullare il noleggio. come funziona la penale?"
+COM-STR-00096,NOL-STR-00263,06/04/2026 10:46,email,cliente,luca.allasia@example.it,Modifica prenotazione,"Buonasera,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Allasia Luca"
+COM-STR-00097,NOL-STR-00266,2026-04-07 02:39,email,cliente,rossist99@example.net,Prolungamento noleggio,"Buonasera,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Grazie mille
+Stefano Rossi"
+COM-STR-00098,,2026-04-07 19:03,modulo_web,cliente,rossist99@example.net,Richiesta assistenza,"Nome: Rossi Stefano | Email: rossist99@example.net | Tel: 3666773690 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-STR-00099,NOL-STR-00252,08/04/2026 11:59,telefonata_trascritta,cliente,3282430652,,"Trascr. chiamata ore 11:20 (op. Pietro) - cliente Luca Rosso: gomma a terra sulla bici Bitnchi E-Omnia, potete mandare qualcuno?"
+COM-STR-00100,NOL-STR-00234,09/04/2026 05:27,telefonata_trascritta,cliente,3862475895,,"Trascr. chiamata ore 12:26 (op. Chiara) - cliente RAVERA EDILIZIA: mi avete addebitat un danno che non ho fatto, era gia' presente neelle foto al ritiro. Contesto l'impoorto di 120 euro"
+COM-STR-00101,NOL-STR-00279,10-04-2026 14:29,nota_tecnico,tecnico,Andrea,,"RIT STR-03: interno molto sporco (peli di animali), pulizia straordinaria, addebito 50€ al cliente. Sara"
+COM-STR-00102,NOL-STR-00293,11/04/2026 20:14,email,cliente,info@gastaldilogistica.example.it,I: Preventivo,"Buongiorno,
+Vorrei noleggiare auto da 14/04 a 17/04, avete disponibilita' e quanto costa?
+Distinti saluti
+GASTALDI LOGISTICA
+Sent from my iPhone"
+COM-STR-00103,NOL-STR-00244,2026-04-12 19:46,email,cliente,genrema31@example.org,Ottimo servizio,"Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Cordialmente"
+COM-STR-00104,,2026-04-12 20:44,telefonata_trascritta,cliente,3514487504,,"Trascr. chiamata ore 14:32 (op. Chiara) - cliente Luca: sono uscito di strada a il Sempione per colpa del ghiaccio, il mezzo (STR-02) e' danneggiato ma io sto bene"
+COM-STR-00105,NOL-STR-00243,13/04/2026 13:18,nota_tecnico,tecnico,Davide,,"STR-02 - verbale polizia locale in allegato, danni anteriori. fermo 7gg. Davide"
+COM-STR-00106,NOL-STR-00297,14/04/26 13:53,whatsapp,cliente,3407397338,,"ritardo di 4h per battello in ritardo, scusate. Mezzo EB-STR-001"
+COM-STR-00107,NOL-STR-00299,2026-04-15 15:42,whatsapp,cliente,3463198392,,"RITARDO DI 1H PER PROBLEMI PERSONALI, SCUSATE. MEZZO EB-STR-004"
+COM-STR-00108,NOL-STR-00299,,email,cliente,ebruno@example.net,Feedback noleggio,"Salve,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Grazie e saluti
+Enrico
+Sent from my iPhone"
+COM-STR-00109,NOL-STR-00194,17/04/2026 13:19,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa EB-STR-004, Villa Pallavicino: rivalsa su cliente"
+COM-STR-00110,NOL-STR-00134,17/04/2026 15:09,nota_operatore,operatore,Chiara,,"verbale GM234BX - Villa Pallavicino - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-STR-00111,NOL-STR-00239,17/04/26 15:14,email,cliente,mferrero@example.com,riconsegna in ritardo,"Buonasera,
+Sono&nbsp;bloccato&nbsp;per coda sul Sempione, arrivo con circa 1 ore di ritardo per la riconsegna (Renault Captur)
+Grazie e saluti
+Marco
+Get Outlook for Androd"
+COM-STR-00112,NOL-STR-00260,17/04/2026 15:29,email,cliente,alessia.actis@example.com,Re: Ottimo servizio,"Egregi signori,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Grazie
+Alessia Actis"
+COM-STR-00113,NOL-STR-00239,2026-04-18 01:31,nota_tecnico,tecnico,Elena,,"RIT STR-06: interno molto sporco (fango), pulizia straordinaria, addebito 30€ al cliente. M."
+COM-STR-00114,NOL-STR-00293,18/04/2026 06:02,email,cliente,info@gastaldilogistica.example.it,Grazie!,"Egregi signori,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+In attesa di un vostro riscontro
+Gastaldi Logistica"
+COM-STR-00115,NOL-STR-00302,18/04/2026 12:46,whatsapp,cliente,3427097536,,"POSSO TENERE IL MEZZO (BIANCHI E-OMNIA) FINO A DOMANI? RITARDO DEL TRENO, NON RIESCO AD ARRIVARE"
+COM-STR-00116,NOL-STR-00315,20-04-2026 05:27,email,cliente,rviale@example.net,Prolungamento noleggio,"Egregi signori,
+Vorrei prolungare di 3 giorni, il mezzo e' libero?
+Roberta
+Inviato dal mio Samsung Galaxy"
+COM-STR-00117,NOL-STR-00300,2026-04-20 10:29,modulo_web,cliente,vialeni31@example.it,Contatti,Nome: Nicolò | Email: vialeni31@example.it | Tel: 3972617840 | Messaggio: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-STR-00118,NOL-STR-00231,21/04/2026 09:51,email,cliente,grecopa16@example.com,annullo noleggio,"Spett.le Buby Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-STR-00119,NOL-STR-00313,21/04/2026,nota_tecnico,tecnico,Stefano,,"EB-STR-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Davide"
+COM-STR-00120,NOL-STR-00284,2026-04-23 00:54,email,cliente,mfontana@example.org,Reclamo,"Gentile Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+In attesa di un vostro riscontro
+Mario
+Inviato da iPhone"
+COM-STR-00121,NOL-STR-00232,2026-04-23 17:27,sms,cliente,3204505146,,"SONO BLOCCATO PER PROBLEMI PERSONALI, ARRIVO CON CIRCA 2 ORE DI RITARDO PER LA RICONSEGNA (CUBE KATHMANDU)"
+COM-STR-00122,NOL-STR-00538,2026-04-24 00:21,modulo_web,cliente,allasiama65@example.it,Richiesta assistenza,"Nome:&nbsp;Matteo&nbsp;Allasia | Email: allasiama65@example.it | Tel: 3706576703 | Messaggio: vorrei noleggiare auto da 27/04 a 28/04, avete disponibilita' e quanto costa?"
+COM-STR-00123,NOL-STR-00277,24-04-2026 18:52,nota_tecnico,tecnico,L.G.,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Sara"
+COM-STR-00124,NOL-STR-00329,27/04/2026 15:03,nota_tecnico,tecnico,Gianni,,v. foto
+COM-STR-00125,NOL-STR-00270,27/04/2026 18:53,nota_tecnico,tecnico,M.,,rit eb-str-003 3382km - manubrio graffi sul telaio. ritocco vernice. fermo 1gg. l.g.
+COM-STR-00126,NOL-STR-00251,02/05/26 04:07,modulo_web,cliente,ggallo@example.org,Contatti,"Nome: Giorgio | Email: ggallo@example.org | Tel: 3331617614 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-STR-00127,NOL-STR-00346,03/05/2026 04:58,email,cliente,francesca.ravera@example.it,Annullamento prenotazione,"Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Grazie e saluti
+Francesca Ravera"
+COM-STR-00128,NOL-STR-00267,03/05/26 10:19,nota_tecnico,tecnico,Luca B.,,"RIT STR-03: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Davide"
+COM-STR-00129,NOL-STR-00347,2026-05-04 19:38,modulo_web,cliente,info@raveraedilizia.example.it,,"nome: ravera | email: info@raveraedilizia.example.it | tel: 3862475895 | messaggio: purtroppo non posso piu' partire, cancello la prenotazione. mi restituite l'acconto?"
+COM-STR-00130,NOL-STR-00330,05/05/26,sms,cliente,3879557058,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-STR-00131,,2026-05-05,modulo_web,cliente,vialeni31@example.it,Contatti,"Nome: Viale Nicolò | Email: vialeni31@example.it | Tel: 3972617840 | Messaggio: vorrei noleggiare e-bike per giro del lago il 11/05, ne servono 4, si possono lasciare a Baveno?"
+COM-STR-00132,,05-05-2026 16:34,sms,cliente,3706576703,,la batteria della bici (EB-STR-002) nn si accende piu'
+COM-STR-00133,00353,05/05/2026 19:08,nota_tecnico,tecnico,Gianni,,"EB-STR-002 rientrato. Danno leva del freno: display rotto. foto in cartella, addebito da valutare. Foto ok in cartella. Stima fermo 3gg (Davide)"
+COM-STR-00134,NOL-STR-00353,06/05/2026 02:08,nota_tecnico,tecnico,Elena,,EB-STR-002 - connettore ricarica ossidato. fermo 2gg. Paolo
+COM-STR-00135,,06/05/26 14:45,email,cliente,epiccolo@example.com,Grazie!,"tutto ok, mezzo comodo e consumi bassi. grazie!
+cordialmente
+elisa piccolo"
+COM-STR-00282,,2026-08-18 08:19,email,cliente,roberta.moretti@example.it,Richiesta rimborso,"Salve,
+La cauzione di 400 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie mille
+Moretti Roberta"
+COM-STR-00137,,08/05/2026 11:33,modulo_web,cliente,sconte@example.net,Richiesta assistenza,nome: sara conte | email: sconte@example.net | tel: 3673389665 | messaggio: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-STR-00138,NOL-STR-00148,08/05/2026 14:45,nota_operatore,operatore,Pietro,,"verbale EB-STR-002 - Verbania - violazione art.142, comunicazione dati conducente inviata. spese 100€"
+COM-STR-00139,,08/05/2026 22:44,email,cliente,ggallo@example.org,Preventivo,"egregi signari,
+siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per ill finee settiana?
+grazie mille
+giorgio"
+COM-STR-00140,NOL-STR-00326,2026-05-09 13:27,email,cliente,gastaldiel37@example.net,info danno,"egregi signori,
+durate il noleggio ho urtato la porta scorrevole del mezzo (gl940kr) mentre parcheggiaavo a baveno. mi sembra solo estetico, ho fatto qualche foto. come devo procedere con a cauzione?
+cordiali saluti
+gastaldi elisa"
+COM-STR-00141,00326,09/05/2026 20:01,nota_tecnico,tecnico,M.,,STR-07: porta scorrevole -> graffio superficiale. da lucidare // no fermo
+COM-STR-00142,NOL-STR-00358,10/05/2026 22:56,nota_tecnico,tecnico,Andrea,,STR-01 rientrato. Danno fianco dx: deformazione importante. carro attrezzi per officina. Foto on n cartella. Stima formo 27gg (Tech1)
+COM-STR-00143,NOL-STR-00380,11-05-2026 00:53,modulo_web,cliente,francesco.chiaves@example.org,,Nome: Chiaves Francesco | Email: franceco.chiaves@example.org | Tel: 3396553004 | Messaggio: posso rambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-STR-00144,,11/05/2026 15:23,email,cliente,laura.actis@example.it,pneumatico,"gomma a terra sulla iici cube kathmandu, potete mandare qualcuno?
+cordialmente
+actis laura
+inviato dal mio samsung galaxy"
+COM-STR-00145,NOL-STR-00285,11/05/2026 17:03,modulo_web,cliente,ggallo@example.org,Richiesta assistenza,"Nome: Giorgio Gallo | Email: ggallo@example.org | Tel: 3331617614 | Messaggio: mi sono accorto di aver lasciato un caricabatterie nel mezzo, potrei passare domani"
+COM-STR-00146,NOL-STR-00366,11/05/2026 20:26,nota_tecnico,tecnico,Elena,,EB-STR-001 - sostituito pneumatico. fermo 2gg. Elena
+COM-STR-00158,,20-05-2026 11:31,email,cliente,ggallo@example.org,Info noleggio,"Buonasera,
+Hello, a would like to rent a e-bike from 26/05 to 26/05. Do you have oie available and what is the price? Thanks
+Salui
+Gallo Giorgio
+Inviato dal mio amsung Galaxy"
+COM-STR-00148,NOL-STR-00391,13/05/2026 19:44,email,cliente,ggallo@example.org,,"Ciao,
+Great service, the bike was perfect and the staff very friendly. Thank you!
+Saluti
+Gallo Giorgio
+Get Outlook for Android"
+COM-STR-00149,NOL-STR-00376,2026-05-14 09:08,modulo_web,cliente,dbruno@example.com,,"Nome: Davide Bruno | Email: dbruno@example.com | Tel: 3830844511 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-STR-00150,NOL-STR-00656,2026-05-14 15:20,telefonata_trascritta,cliente,3420575611,,"Trascr.&nbsp;chiamata&nbsp;ore&nbsp;15:17 (op. Pietro) - cliente Mario Vacchetto: ritardo di 4h per coda sul Sempione, scusate. Mezzo EB-STR-002"
+COM-STR-00151,NOL-STR-00406,05/14/2026 23:37,email,cliente,mrizzo@example.org,cambio data,"Buongiorno a tutti,
+Devo spostare il noleggio di un giorno, e' possibile? (Bianchi EE-Omnia)
+Marco
+Inviato da iPhone"
+COM-STR-00152,,15/05/2026 16:55,nota_tecnico,tecnico,Elena,,"RIT STR-03: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 70€ al cliente. Fabio"
+COM-STR-00153,NOL-STR-00309,05/15/2026 18:21,nota_operatore,operatore,Pietro,,"ricevuo verbale del comne di villa pallavicino per zttl/eccesso di velocita', taiga eb-str-001. da addebitare al cliente + 60€ gestione pratica"
+COM-STR-00154,NOL-STR-00412,16-05-2026 16:22,email,cliente,roberta.ricci@example.it,Annullamento prenotazione,"Ciao,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Saluti
+Ricci Roberta"
+COM-STR-00155,NOL-STR-00298,16/05/2026 17:45,telefonata_trascritta,cliente,3818504725,,"Trascr. chiamata ore 10:29 (op. Chiara) - cliente Alessandro: la batteria e' a terra, non parte piu' (STR-07) sono a Isola Bella"
+COM-STR-00253,NOL-STR-00357,2026-07-29 17:53,nota_operatore,operatore,Chiara,,"verbale EB-STR-001 - Belgirate - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-STR-00157,NOL-STR-00298,17/05/26 22:55,nota_tecnico,tecnico,Gianni,,STR-07 - sostituita batteria 12V. fermo 8gg. Andrea
+COM-STR-00147,NOL-STR-00380,13/05/2026 06:32,telefonata_trascritta,cliente,3396553004,,"Trascr. chiamata ore 17:03 (op. Chiara) - cliente Chiaves Francesco: il prezzo pagato e' diverso da quell del preventivo ricevuto via email, c'e' una differenza i 90 euro. Non accettabile"
+COM-STR-00159,NOL-STR-00410,2026-05-25 10:53,email,cliente,rossoma71@example.org,Danno EB-STR-004,"Buonasera,
+Sono caduto con la bici sul sentiero verso Villa Pallavicino: il cavalletto si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Cordialmente"
+COM-STR-00160,NOL-STR-00410,25-05-2026 13:55,nota_tecnico,tecnico,Luca B.,,RIT EB-STR-004 2207km - cavalletto telaio incrinato. contattata assicurazione. fermo 20gg. Luca B.
+COM-STR-00161,NOL-STR-00432,26/05/26 17:35,sms,cliente,3449842676,,ieri sera in un parcheggio a il Sempione qualcuno ha colpito il mezzo (Renault Captur) e il fanale anteriore e' danneggiato. Non c'era nessun biglietto. Ho fatto denuncia
+COM-STR-00162,NOL-STR-00432,26-05-2026 19:32,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GP658HV: fanale ant. danno da urto 20-30 cm, da sostituire il pezzo. cliente informato. fermo 8gg - M."
+COM-STR-00163,NOL-STR-00278,2026-05-26 21:34,email,cliente,roberto.allasia@example.com,Feedback noleggio,"buongiorno a tutti,
+ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+grazie"
+COM-STR-00164,,28-05-2026 07:39,email,cliente,davide.tosco@example.com,Richiesta informazioni,"spett.le buby reit,
+accettate carte di debito per la cauzione o serve per foorrza la cata di credito?
+cordialmente
+tosco davide
+inviato da iphne"
+COM-STR-00165,,29/05/26 17:46,nota_operatore,operatore,Pietro,,"verbale&nbsp;EB-STR-003&nbsp;-&nbsp;Lesa - vtolaziene art.142, comunicaziene dati conducnte inviata. spese 80â¬"
+COM-STR-00166,NOL-STR-00425,29/05/26 23:09,nota_tecnico,tecnico,Stefano,,"EB-STR-002  rientrata  piena di fango, lavaggio completo. addebito pulizia 15€. Fabio"
+COM-STR-00167,NOL-STR-00436,30/05/2026 15:31,telefonata_trascritta,cliente,3678987505,,"Trascr. chiamata ore 19:10 (op. Chiara) - cliente Dellavalle Giorgio: sto arrivando ma ho traffico sul lungolago, tra 3 ore sono da voi"
+COM-STR-00168,NOL-STR-00430,30/05/2026,nota_tecnico,tecnico,Fabio,,"RIT EB-STR-003 4389km - pedale cerchio storto. foto in cartella, addebito da valutare. fermo 2gg. Davide"
+COM-STR-00359,NOL-STR-00877,2026-10-15 18:28,nota_tecnico,tecnico,M.,,"rit str-02: interno molto sporco (sabbia), pulizia straordinaria, addebito 30€ al cliente. l.g."
+COM-STR-00170,NOL-STR-00222,31/05/2026 19:32,nota_operatore,operatore,Pietro,,"ricevuto verbale del comune di Verbania per ZTL/eccesso di velocita', targa EB-STR-002. da addebitare al cliente + 40€ gestione pratica"
+COM-STR-00171,NOL-STR-00437,03/06/2026 10:03,email,cliente,info@gastaldilogistica.example.it,Reclamo,"Gentile Buby Rent,
+La cauzione di 400 euro non mi e' stata ancora restituita dopo 20 giorni dalla riconsegna. Vorrei sapere quando arriva
+Saluti
+GASTALDI LOGISTICA
+Inviato da iPhone"
+COM-STR-00172,00467,03/06/2026 19:54,nota_tecnico,tecnico,Sara,,EB-STR-002: forcella -> manubrio leggermente fuori asse. da lucidare // fermo 2gg
+COM-STR-00173,NOL-STR-00413,06/06/26 07:29,sms,cliente,3735473253,,"sto arrivando ma ho traffico, tra 4 ore sono da voi"
+COM-STR-00174,NOL-STR-00474,06/06/2026,whatsapp,cliente,3392394733,,"sono  bloccato  per nebbia sul lago, arrivo con irca 4 ore di ritardo per la riconsegna (EB-STR-001)"
+COM-STR-00175,NOL-STR-00429,06/06/26 14:22,email,cliente,info@brunotraslochi.example.it,Segnalazione danno,"Salve,
+Uscendo da un posteggio stretto a Verbania ho strisciato il fanale posteriore. Mi spiace tanto, quanto dovro' pagare?
+Grazie mille
+BRUNO TRASLOCHI"
+COM-STR-00176,NOL-STR-00243,06/08/2026 08:00,nota_operatore,operatore,Pietro,,.
+COM-STR-00177,NOL-STR-00444,2026-06-08 10:00,sms,cliente,3258414033,,"sto arrivando ma ho traffico, tra 4 ore sono da voi"
+COM-STR-00178,NOL-STR-00429,08/06/26 16:54,nota_tecnico,tecnico,Fabio,,STR-05&nbsp;rientrato.&nbsp;Danno&nbsp;fanale poost.: piccola scheggiatura. da lucidare. oto ok in cartalla. Stima no fermo (Paolo)
+COM-STR-00179,NOL-STR-00450,10/06/2026 14:55,whatsapp,cliente,3463198392,,"sono blocoato per coda in austrata, arrivo coon circca 3 ore di ritardo peer lla riconsegna (STR-05)"
+COM-STR-00180,NOL-STR-00485,11/06/2026 17:29,nota_tecnico,tecnico,L.G.,,"RIT STR-01: interno molto sporco (fango), pulizia straordinaria, addebito 30€ al cliente. Davide"
+COM-STR-00181,NOL-STR-00368,2026-06-13 12:36,nota_operatore,operatore,Pietro,,"multa pedaggio non pagato targa GK517TC, Lesa: rivalsa su cliente [incomprensibile]"
+COM-STR-00182,NOL-STR-00497,06/13/2026 13:31,email,cliente,nicolo.greco@example.com,annullo noleggio,"Spett.le Buby Rent,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Grazie
+Nicolò"
+COM-STR-00183,,14/06/2026 23:08,telefonata_trascritta,cliente,3690584842,,"irascr. chimaa ore 11:49 (op. Pietro) - cliente Claudeo: sono fermo a Beegirate, il mezzo (Renaultt 5) non riparte, mandate il carro attrezzi"
+COM-STR-00184,NOL-STR-00493,14/06/26 23:51,email,cliente,giulia.costa@example.org,Ottimo servizio,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Cordialmente
+Giulia Costa
+Sent from my iPhone"
+COM-STR-00185,NOL-STR-00457,15/06/2026 15:52,email,cliente,fferraris@example.it,Feedback noleggio,"Buongiorno,
+Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Cordiali saluti
+Fabio Ferraris"
+COM-STR-00186,NOL-STR-00252,2026-06-15 18:10,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa EB-STR-003, Lesa: rivalsa su cliente"
+COM-STR-00187,NOL-STR-00476,,nota_tecnico,tecnico,Marco,,"STR-02 - mezzo ripartito dopo reset, da monitorare. fermo 6gg. Stefano"
+COM-STR-00188,NOL-STR-00455,15/06/2026 22:19,telefonata_trascritta,cliente,3244935621,,"Trascr. chiamata ore 19:13 (op. Pietro) - clinte Laura Borio: purtroppo non posso piu' partire, cancllo la prenotaione. Mi restituite l'acconto?"
+COM-STR-00189,,17/06/2026 12:08,whatsapp,cliente,3276785194,,e' possibile riconsegnare a Casale Monferrato invece ke da voi? c'e' un supplemento?
+COM-STR-00190,NOL-STR-00512,17/06/2026 15:26,telefonata_trascritta,cliente,3451507207,,"Trascr. chiamata ore 13:30 (op. Pietro) - cliente Sara: c'e' un rumore dal movimento centrale, la pedalata e' dura"
+COM-STR-00191,NOL-STR-00512,17/06/2026 18:26,nota_tecnico,tecnico,Elena,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Gianni"
+COM-STR-00192,,18/06/2026 03:23,email,cliente,info@vacchettoserramenti.example.it,Preventivo,"buonasera,
+per un'azienda con partita iva c'e' una tariffaa agevolata per noleggi ripetuti?
+grazie e saluti
+vacchetto
+invito dal mio samsung galaxy"
+COM-STR-00193,00449,20-06-2026 17:36,modulo_web,cliente,info@rizzoserramenti.example.it,,"Nome: RIZZO SERRAMENTI | Email: info@rizzoserramenti.example.it | Tel: 3241409656 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-STR-00194,NOL-STR-00337,21/06/2026 18:18,nota_operatore,operatore,Chiara,,"ricevuto verbale de comune i Belgirate per ZTL/eccesso di velocita', tara EB-STR-003. da addebitare ar cliente + 60€ gestione pratica"
+COM-STR-00195,,22/06/26 00:04,telefonata_trascritta,cliente,3601614654,,trascr. chiamata ore 11:28 (op. pietro) - cliente moretti impianti: posso ritirare il mezzo fuori orario? arrivo in treno la sera tardi
+COM-STR-00314,NOL-STR-00722,20-09-2026 07:07,sms,cliente,3476008872,,"sono bloccato per incidente in tangenziale, arrivo con circa 1 ore di ritardo per la riconsegna (GR842PW)"
+COM-STR-00197,NOL-STR-00529,22/06/2026 23:24,whatsapp,cliente,3427097536,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-STR-00198,NOL-STR-00536,25/06/26 00:07,email,cliente,alessia.barone@example.org,annullo noleggio,"Gentile Buby Rent,
+Purtroppo non posso piu' partire, cancelllo la prenotazione. Mi restituite l'acconto?
+In attesa di un vostro riscontro
+Alessia Baroe"
+COM-STR-00199,NOL-STR-00535,2026-06-25,telefonata_trascritta,cliente,3879315999,,"Trascr. chiamata ore 14:37 (op. Pietro) - cliente Andre Cottino: ritardo di 3h per battello in riardo, scusate. Mezzo STR-02"
+COM-STR-00200,,06/25/2026 18:42,nota_tecnico,tecnico,Stefano,,"EB-STR-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. L.G."
+COM-STR-00201,,25/06/2026 20:16,whatsapp,cliente,3765340505,,"vorrei noleggiare e-bike da 03/07 a 03/07, avete disponibilita' e quanto costa?"
+COM-STR-00202,NOL-STR-00499,26/06/26 05:01,email,cliente,vialeni31@example.it,Re: Comunicazione incidente,"Spett.le Buby Rent,
+Sono uscito di strada a Belgirate per colpa del ghiaccio, il mezzo (Fiat 500C) e' danneggiato ma io sto bene
+Distinti saluti
+Viale Nicolò"
+COM-STR-00203,NOL-STR-00530,2026-06-26 10:59,nota_tecnico,tecnico,M.,,"RIT&nbsp;STR-07:&nbsp;interno molto sporco (peli di animali), pulizia straordinaria, addebito 30€ al cliente. Gianni"
+COM-STR-00204,NOL-STR-00499,2026-06-27 18:00,nota_tecnico,tecnico,Andrea,,"STR-01 - verbale polizia locale in allegato, danni anteriori. fermo 12gg. Stefano"
+COM-STR-00205,NOL-STR-00395,28/06/26 10:18,sms,cliente,3331617614,,"posso tenere il mezzo (STR-02) fino a domani? battello in ritardo, nn riescoo ad arrivare"
+COM-STR-00206,NOL-STR-00427,29/06/2026 10:36,modulo_web,cliente,brunettisi7@example.net,Contatti,"Nome: Silvia | Email: brunettisi7@example.net | Tel: 3765340505 | Messaggio: volevo avvisarvi che sul mezzo (GK517TC) c'e' un graffio su il cofano, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-STR-00207,,2026-06-30 05:56,whatsapp,cliente,3267182523,,"siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-STR-00208,NOL-STR-00564,30/06/2026 17:50,modulo_web,cliente,sara.pastore@example.org,,"Nome: Sara Pastore | Email: sara.paatore@example.org | Tel: 3948794405 | Messaggio: sto arrivando ma ho coda in autostrada, tra 4 ore sono dda voi"
+COM-STR-00209,NOL-STR-00562,30/06/2026 20:53,whatsapp,cliente,3666773690,,"annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-STR-00210,NOL-STR-00427,01/07/2026 10:24,nota_tecnico,tecnico,Marco,,str-03: cofano -> striscio di vernice. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-STR-00211,NOL-STR-00568,2026-07-02 01:04,email,cliente,smoretti@example.org,URGENTE assistenza stradale,"spett.le buby rent,
+sono bloccato a il sempione, la bici (eb-str-002) non va piu', non riesco a tornare. potete venire a prendermi?
+graie
+inviato dal io samsung galaxy"
+COM-STR-00212,NOL-STR-00560,2026-07-02 08:55,sms,cliente,3476008872,,"ritardo di 1h per traffico sul lungolago, scusate. Mezzo Renault Captur"
+COM-STR-00213,NOL-STR-00568,2026-07-02 19:44,nota_tecnico,tecnico,Sara,,"EB-STR-002 - recupero con carro attrezzi, mezzo in officina. fermo 1gg. M."
+COM-STR-00214,NOL-STR-00557,2026-07-03 18:12,whatsapp,cliente,3765340505,,"Hello, I scratche nhe bumper while parking near Arona. How should I procd with ths deposit?"
+COM-STR-00215,NOL-STR-00557,03/07/2026 19:01,nota_tecnico,tecnico,M.,,EB-STR-001 rientrato. Danno cerchio post.: leva piegata ma funzionante. da lucidare. Foto ok in cartella. Stima fermo 2gg (Gianni)
+COM-STR-00216,NOL-STR-00570,06/07/2026 03:35,whatsapp,cliente,3455887710,,"mi sono accorto di aver lasciato le chiavi di casa nel mezzo, potrei passare domani"
+COM-STR-00217,NOL-STR-00509,06-07-2026,telefonata_trascritta,cliente,3947605580,,"Trascr. chiamata ore 14:18 (op. Pietro) - cliente Francesco Ghiglione: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-STR-00218,,06/07/2026 12:45,whatsapp,cliente,3588773683,,"esperienza  ottima,  ritiro e riconsgna rapidissimi. consiglio"
+COM-STR-00219,NOL-STR-00554,06-07-2026 16:04,telefonata_trascritta,cliente,3472365598,,"Trascr. chiamata ore 14:58 (op. Pietro) - cliente Paola Ferrari: posso tenere il mezzo (EB-STR-003) fino a domani? battello in ritardo, non riesco ad arrivare"
+COM-STR-00220,NOL-STR-00543,06/07/2026 16:33,modulo_web,cliente,actisro85@example.net,Contatti,"Nome: Actis Roberto | Email: actisro85@example.net | Tel: 3512103385 | Messaggio: graie, tutto perfetto, personale getile e mezzo pulito. Tornereo sicuamenie"
+COM-STR-00381,NOL-STR-00919,07/11/26 17:35,nota_tecnico,tecnico,Andrea,,"conntrollo in riconsegna GS186DN: paraurti post. elemento dastrutto, da sostituire, mezzo fermo, peizia in torso. iliente informato. fermo 30ggg - Paolo"
+COM-STR-00222,NOL-STR-00478,07/07/2026,whatsapp,cliente,3435910757,,"sto&nbsp;arrivando&nbsp;ma ho traffico, tra 1 ore sono da voi"
+COM-STR-00223,NOL-STR-00531,2026-07-07 18:07,sms,cliente,3386151167,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-STR-00224,NOL-STR-00519,07-07-2026 23:18,email,cliente,roberta.moretti@example.it,cambio data,"Gentile Buby Rent,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Grazie
+Moretti Roberta
+Inviato dal mio Samsung Galaxy"
+COM-STR-00225,NOL-STR-00588,2026-07-08 13:40,email,cliente,valentina.giordano@example.com,Annullamento prenotazione,"Buongiorno a tutti,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Distinti saluti
+Valentina
+Inviato da iPhone"
+COM-STR-00226,NOL-STR-00571,2026-07-09 07:50,sms,cliente,3359786529,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-STR-00227,NOL-STR-00577,10/07/2026 17:25,nota_tecnico,tecnico,Marco,,"controllo in riconsegna EB-STR-004: catena cerchio storto, da mandare in carrozzeria. cliente informato. fermo 5gg - Sara"
+COM-STR-00228,NOL-STR-00800,10/07/26 19:36,modulo_web,cliente,sviale@example.org,Contatti,"Nome:&nbsp;Silvia | Email: sviale@example.org | Tel: 3697129881 | Messaggio: ho dimenticato un caricabatterie nel mezzo (EB-STR-002), potete controllare?"
+COM-STR-00229,NOL-STR-00592,10/07/2026 20:57,nota_tecnico,tecnico,M.,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Fabio"
+COM-STR-00230,NOL-STR-00584,12/07/2026 14:47,sms,cliente,3889611891,,"sono bloccato per problemi personali, arrivo con circa 3 ore di ritardo per la riconsegna (Toyota Yaris)"
+COM-STR-00231,NOL-STR-00592,12/07/2026 15:37,modulo_web,cliente,sara.perotti@example.it,Richiesta assistenza,"Nome: Sara | Email: sara.perotti@example.it | Tel: 3435910757 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-STR-00232,NOL-STR-00591,12-07-2026 19:22,email,cliente,info@piccolotrasporti.example.it,Ottimo servizio,"buongiorno  a  tutti,
+ottimo serizio, la e-bike era in ottimo sstato e il ppercorso consigliato bellissimo
+coriali saluti
+piccolo trasporti
+geet outlook for android"
+COM-STR-00233,,12/07/2026 23:09,email,cliente,enrico.lombardi@example.net,Info noleggio,"Buonasera,
+Vorrei noleggiare e-bike per giro del lago il 16/07, ne servono 4, si possono lasciare a Baveno?
+Enrico Lombardi
+Get Outlook for Android"
+COM-STR-00234,NOL-STR-00574,14/07/2026 16:01,email,cliente,giovanni.fontana@example.net,ritardo,"BUONASERA,
+STO ARRIVANDO MA HO BATTELLO IN RITARDO, TRA 4 ORE SONO DA VOI
+CORDIALMENTE
+INVIATO DAL MIO SAMSUNG GALAXY"
+COM-STR-00235,NOL-STR-00582,16/07/2026 17:08,sms,cliente,3904077534,,"volevo avvisarvi ke la bici (Bianchi E-Omnia) e' scivolata mentre era appoggiata a il Sempione, la sella ha un danno. Vi mando le foto"
+COM-STR-00236,NOL-STR-00604,2026-07-16 20:50,nota_tecnico,tecnico,Gianni,,"EB-STR-002 rientrata piena di fango, lavagio completo. addebito pulizia 15€. Gianni"
+COM-STR-00237,NOL-STR-00582,16/07/2026 22:44,nota_tecnico,tecnico,Elena,,RIT EB-STR-004 2736km - sella cerchio storto. preventivo richiesto. feermo 6gg. Luca B.
+COM-STR-00238,NOL-STR-00551,2026-07-19 22:09,nota_tecnico,tecnico,Sara,,"CONTROLLO IN RICONSEGNA GL940KR: FIANCO SX URTO FORTE CON PIU' ELEMENTI COINVOLTI, MEZZO FERMO, PERIZIA IN CORSO. CLIENTE INFORMATO. FERMO 22GG - ELENA"
+COM-STR-00239,NOL-STR-00617,20/07/2026 21:26,nota_tecnico,tecnico,M.,,EB-STR-002 rientrato. Danno leva del freno: manubrio leggermente fuori asse. ritocco vernice. Foto ok in cartella. Stima fermo 2gg (Tech1)
+COM-STR-00240,,22/07/2026 06:40,email,cliente,epiccolo@example.com,Preventivo,"Ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni
+Saluti
+Elisa Piccolo
+Get Outlook for Android [incomprensibile]"
+COM-STR-00241,NOL-STR-00618,07/22/2026 08:14,email,cliente,mtosco@example.com,Cancellazione,"Salve,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie mille
+Tosco Mario"
+COM-STR-00242,NOL-STR-00590,23/07/2026 22:22,email,cliente,paolo.giordano@example.net,Ottimo servizio,"Spett.le Buby Rent,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Cordialmente
+Paolo Giordano"
+COM-STR-00243,NOL-STR-00487,2026-07-24 16:36,telefonata_trascritta,cliente,3387553284,,"Trascr. chiamata ore 16:29 (op. Chiara) - cliente Mario Vacchetto: sono bloccato a Verbania, la bici (Cube Kathmandu) non va piu', non riesco a tornare. Potete venire a prendermi?"
+COM-STR-00244,NOL-STR-00487,24/07/26 23:02,nota_tecnico,tecnico,L.G.,,"EB-STR-002 - chiavi duplicate, mezzo ok. fermo 1gg. Elena"
+COM-STR-00245,NOL-STR-00611,2026-07-25 20:11,email,cliente,sbosio@example.it,Cancellazione,"Buongiorno a tutti,
+Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Cordialmente
+Stefano Bosio
+Sent from my iPhone"
+COM-STR-00354,,10/10/26,email,cliente,ilaria.genre@example.it,Reclamo,"BUONASERA,
+HO  ASPETTATO  40 MINUTI AL RITIRO PERCHE' IL PERSONALE NON C'ERA. SERVIZIO PESSIMO, VORREI UN RIMBORSO PARZIALE
+GRAZIE E SALUTI
+GENRE ILARIA
+GET OUTLOOK FOR ANDROID"
+COM-STR-00247,NOL-STR-00630,27-07-2026 13:06,modulo_web,cliente,gastaldiel37@example.net,Contatti,Nome: Elisa | Email: gastaldiel37@example.net | Tel: 3551659575 | Messaggio: sono caduto con la bici sul sentiero verso Verbania: la leva del freno si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+COM-STR-00248,NOL-STR-00630,27/07/2026 16:44,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna EB-STR-002: leva del freno graffi sul telaio, da lucidare. cliente informato. fermo 1gg - Gianni"
+COM-STR-00249,NOL-STR-00640,2026-07-27,whatsapp,cliente,3690584842,,"sto arrivando ma ho lavori ssula strada, tra 1 ore sono da voi"
+COM-STR-00250,NOL-STR-00470,27/07/2026 17:26,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa GM234BX, Villa Pallavicino: rivalsa su cliente"
+COM-STR-00251,NOL-STR-00596,28/07/2026 08:49,whatsapp,cliente,3215554255,,"posso tenere il mezzo (Renault 5) fino a domani? incidente in tangenziale, nn riesco ad arrivare"
+COM-STR-00252,,2026-07-29 01:27,email,cliente,epiccolo@example.com,spia accesa,"Buongiorno,
+Il clima non funziona e il cambio fa fatica a ingranare la seconda (Volkswagen Polo)
+Cordiali saluti
+Elisa
+Sent from my iPhone"
+COM-STR-00156,NOL-STR-00403,17/05/26 08:31,telefonata_trascritta,cliente,3879557058,,"Trascr.  chiamata  re 19:02 (op. Piettro) - cliente Mari: pneumatico a terra, il kit di riparrzione non funzioa. Mezzo STR-06"
+COM-STR-00254,NOL-STR-00505,2026-07-30 22:32,nota_tecnico,tecnico,Stefano,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. M."
+COM-STR-00255,NOL-STR-00651,07/31/2026 14:49,nota_tecnico,tecnico,Andrea,,STR-06 rientrato. Danno cerchio ant. sx: leggera ammaccatura. da lucidare. Foto ok in cartella. Stima fermo 1gg (Paolo)
+COM-STR-00256,,31/07/2026 17:58,nota_tecnico,tecnico,Sara,,"EB-STR-002 RIENTRATA PIENA DI FANGO, LAVAGGIO COMPLETO. ADDEBITO PULIZIA 15€. FABIO"
+COM-STR-00257,,2026-08-01,telefonata_trascritta,cliente,3420575611,,Trascr. chiamata ore 12:38 (op. Chiara) - cliente Mario: quanti km sono inclusi nella tariffa giornaliera e ruanto costano quelli extra?
+COM-STR-00258,NOL-STR-00505,01-08-2026 20:20,email,cliente,andrea.perotti@example.net,Ottimo servizio,"Buongiorno a tutti,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Cordiali saluti
+Andrea Perotti"
+COM-STR-00259,NOL-STR-00658,02/08/2026 01:18,email,cliente,giovanni.fontana@example.net,Grazie!,"Salve,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Grazie"
+COM-STR-00260,,02-08-2026 19:54,email,cliente,mtosco@example.com,I: Preventivo,"Egregi signori,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Cordiali saluti
+Mario
+Get Ouutlook for Android"
+COM-STR-00261,NOL-STR-00621,03/08/26 10:30,telefonata_trascritta,cliente,3998121728,,"Trascr. chiamata ore 17:15 (op. Pietro) - cliente Vacchetto: posso tenere il mezzo (STR-01) fino a domani? battello in ritardo, non riesco ad arrivare"
+COM-STR-00262,,03/08/2026 12:04,telefonata_trascritta,cliente,3282430652,,"Trascr. chiamata ore 10:56 (op. Chiara) - cliente Luca Rosso: volevo avvisarvi che la bici (Bianchi E-Omnia) e' scivolata mentre era appoggiata a Villa Pallavicino, il pedale ha un danno. Vi mando le foto"
+COM-STR-00263,NOL-STR-00647,,nota_tecnico,tecnico,Fabio,,RIT EB-STR-003 5545KM - PEDALE FORCELLA PIEGATA. DA MANDARE IN CARROZZERIA. FERMO 5GG. TECH1
+COM-STR-00264,NOL-STR-00662,04/08/2026,whatsapp,cliente,3215554255,,"ritardo di 1h x traffico sul lungolago, scusate. Mezzo GR842PW"
+COM-STR-00265,NOL-STR-00641,2026-08-04 20:17,email,cliente,conteel75@example.org,Re: Cancellazione,"Buongiorno a tutti,
+Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Distinti saluti"
+COM-STR-00266,NOL-STR-00648,05/08/2026 18:56,email,cliente,elisa.mondino@example.org,Piccolo incidente di parcheggio,"Sono caduto con la bici sul sentiero verso Arona: la catena si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Grazie
+Elisa
+Inviato dal mio Samsung Galaxy"
+COM-STR-00267,NOL-STR-00648,05/08/26 19:36,whatsapp,cliente,3650139400,,"i  freni  non frenano bene in discesa, sono a Isola ella, bici EB-STR-001"
+COM-STR-00331,NOL-STR-00814,28/09/2026 01:23,email,cliente,morettiro24@example.it,Richiesta rimborso,"Buongiorno a tutti,
+Il prezzo pagato e' diverso da quello del preventivo ricevuto via emal, c'e' una differenza di 120 euro. Non accettabile
+Grazie mille
+Moreti Roberto
+Inviato da iPhone"
+COM-STR-00269,nol-str-00648,05/08/2026 22:03,nota_tecnico,tecnico,Elena,,"EB-eTR-001 - cambio che gratta, verifica. fermo 1gg. Fabio"
+COM-STR-00270,NOL-STR-00669,08/08/2026 07:48,email,cliente,vacchettoma70@example.org,Re: mezzo bloccato,"Gentile Buby Rent,
+Ho chiuso le chiavi dentro il mezzo a Arona, potete aiutarmi?
+Grazie
+Mario"
+COM-STR-00271,NOL-STR-00415,08/08/2026 13:57,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa EB-STR-003, Villa Pallavicino: rivalsa su cliente"
+COM-STR-00272,nol-str-00614,08/09/2026 12:12,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GM234BX: portiera lato guida leggera ammaccatura, da lucidare. cliente informato. no fermo - Sara"
+COM-STR-00273,,10-08-2026 16:38,email,cliente,dellavallegi92@example.net,Info noleggio,"Buongiorno a tutti,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Cordialmente
+Dellavalle Giorgio
+Get Outlook for Android"
+COM-STR-00274,NOL-STR-00669,11/08/26 19:58,nota_tecnico,tecnico,Tech1,,"STR-06 - chiavi duplicate, mezzo ok. fermo 5gg. Tech1"
+COM-STR-00275,,13/08/2026 09:18,email,cliente,luca.allasia@example.it,annullo noleggio,"Buosasera,
+In volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Cordialmente
+Luca
+Inviato da iPhone"
+COM-STR-00276,NOL-STR-00664,13/08/2026 17:51,email,cliente,mtosco@example.com,,"Buongiorno,
+Vorrei prolungare di 2 giorni, il mezzo e' libero?
+Grazie mille
+Inviato dal mio Samsung Galaxy"
+COM-STR-00277,NOL-STR-00743,2026-08-13 18:16,email,cliente,info@bosioalpineservice.example.it,I: disponibilita',"Buonngiornoo,
+E' possibile riconsegnare a Torino innvece che da voi? c'e' un supplemento?
+Grazie
+Bosio
+Get Outook for Androi"
+COM-STR-00278,NOL-STR-00669,14/08/26 03:09,email,cliente,vacchettoma70@example.org,I: Grazie!,"buonasera,
+esperienza ottima, ritiro e riconsegna rapidissimi. consiglio
+grazie
+vacchetto mario"
+COM-STR-00279,NOL-STR-00705,2026-08-15 21:39,nota_tecnico,tecnico,Davide,,EB-SR-002 rientrato. Danno cambio post.: leva piegata ma funzionante. da lucidare. Foto ok in cartella. Stima fermo 1gg (L.G.)
+COM-STR-00280,00519,16/08/2026 10:45,nota_tecnico,tecnico,Tech1,,"rit str-03: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 70€ al cliente. l.g."
+COM-STR-00281,NOL-STR-00707,2026-08-17 09:23,whatsapp,cliente,3282430652,,"ritardo di 2h x nebbia sul lago, scusate. Mezzo Renault 5"
+COM-STR-00136,NOL-STR-00291,06/05/2026 20:44,nota_tecnico,tecnico,Elena,,"controllo in riceniegna GR842PW: fanale post. danto da urto 20-30 cm, da sostituire il pezzo. cliente informato. fermo 3gg - Davide"
+COM-STR-00283,NOL-STR-00710,2026-08-18 10:23,whatsapp,cliente,3547903732,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-STR-00284,NOL-STR-00704,08/18/2026 14:19,telefonata_trascritta,cliente,3678987505,,"Trascr.&nbsp;chiamata&nbsp;ore&nbsp;16:14 (op. Chiara) - cliente Giorgio Dellavalle: sto arrivando ma h problemi personali, tra 4 ore sono da voi"
+COM-STR-00285,NOL-STR-00688,2026-08-18 14:45,email,cliente,ggallo@example.org,Feedback noleggio,"Gentile Buby Rent,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Gallo Giorgio"
+COM-STR-00286,NOL-STR-00724,21/08/2026 19:52,nota_tecnico,tecnico,Sara,,"EB-STR-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Paolo"
+COM-STR-00287,,22-08-2026 20:48,whatsapp,cliente,3289835206,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-STR-00288,NOL-STR-00702,22/08/26 23:42,email,cliente,info@morettistudiotecnico.example.it,Reclamo,"Ciao,
+Ho visto un addebito di 90 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-STR-00702
+Cordialmente
+Sent from my iPhone"
+COM-STR-00289,NOL-STR-00736,24/08/2026 16:36,telefonata_trascritta,cliente,3665924210,,"Trascr. chiamata ore 15:33 (op. Chiara) - cliente Paoola Gerbino: ritardo di 4h per traffico, scusate. Mezzo Cube Kathmandu"
+COM-STR-00290,,08/24/2026 17:26,telefonata_trascritta,cliente,3821111837,,"Trascr. chiamata ore 10:49 (op. Pietro) - cliente Silvia: ritardo di 3h per nebbia sul laago, scusate. Mezzo EB-STR-003"
+COM-STR-00291,NOL-STR-00729,25-08-2026 00:11,email,cliente,ggallo@example.org,Feedback noleggio,"Buongiorno a tutti,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Grazie e saluti
+Giorgio Gallo
+Sent from my iPhone"
+COM-STR-00292,NOL-STR-00686,25/08/2026 02:29,nota_tecnico,tecnico,Gianni,,"eb-str-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. marco"
+COM-STR-00293,NOL-STR-00740,26/08/2026 14:01,nota_tecnico,tecnico,Luca B.,,"str-06 - recupero con carro attrezzi, mezzo in officina. fermo 1gg. sara"
+COM-STR-00294,,26/08/2026 21:05,sms,cliente,3291330425,,"il volo e' stato cancellato, devo annullare il noleggio. come funziona la penale?"
+COM-STR-00295,NOL-STR-00644,28/08/2026 07:58,email,cliente,riccifa85@example.org,,"tutto ok, mezzo comodo e consumi bassi. grazie!
+grazie millle
+fabio riccci"
+COM-STR-00296,NOL-STR-00744,28-08-2026 15:45,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna EB-STR-004: cerchio ant. forcella piegata, da sostituire il pezzo. cliente informato. fermo 3gg - Marco"
+COM-STR-00297,NOL-STR-00754,2026-08-29,whatsapp,cliente,3350790791,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-STR-00298,NOL-STR-00750,30/08/26 18:36,nota_tecnico,tecnico,Gianni,,RIT  STR-07  136078km - parabrezza danno ia urto 20-30 cm. da mandare in carrozzeria. fermo 5gg. Luca B.
+COM-STR-00299,NOL-STR-00760,2026-08-31 09:42,email,cliente,info@rossiconsulenze.example.it,I: Cancellazione,"Purtroppo  non  posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+In attesa di us vostro riscontro
+Rosssi
+Inviato da iPhone"
+COM-STR-00300,NOL-STR-00725,31/08/2026 20:35,nota_tecnico,tecnico,Paolo,,"controllo in riconsegna GR842PW: fanale ant. calotta rotta, da mandare in carrozzeria. cliente informato. fermo 8gg - Andrea"
+COM-STR-00301,NOL-STR-00764,01-09-2026 02:59,email,cliente,elena.fenoglio@example.com,Annullamento prenotazione,"Buongiorno,
+Annullate per favore la mia prenotaziione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Fenoglio Elena
+Get Outlook for Android"
+COM-STR-00302,NOL-STR-00715,01/09/26 23:21,nota_tecnico,tecnico,Sara,,rit eb-str-002 3904km - cavalletto graffi sul telaio. da lucidare. fermo 1gg. marco
+COM-STR-00303,NOL-STR-00728,05/09/2026 22:33,modulo_web,cliente,actiscl45@example.org,,"Nome: Claurio | Emmail: actticl45@example.org | Tel: 3499344970 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-STR-00304,NOL-STR-00761,07/09/2026 17:13,email,cliente,maria.bosio@example.it,spia accesa,"Non parte, il motorino fa solo clic. Sono a Belgirate
+Distinti saluti
+Maria"
+COM-STR-00305,NOL-STR-00776,09/09/2026 07:00,nota_tecnico,tecnico,L.G.,,STR-05 - camera d'aria sostituita. fermo 1gg. Marco
+COM-STR-00306,NOL-STR-00784,09/09/2026 18:56,email,cliente,info@barberoserramenti.example.it,Cancellazione,"spet.le buby rent,
+purtroppo non posso piu' partire, crncello la prenotazione. mi restituite l'aacconto?
+saluti
+barbero serramenti
+inviato da iphne"
+COM-STR-00307,NOL-STR-00804,12/09/2026 06:45,email,cliente,brunolu87@example.com,disponibilita',"Genoile Buby Rent,
+Vorrei noleggiare e-bike per giro eel lago il 28/10, ne servno 4, si possono lasciare a Baveno?
+Cordiiali saluti
+Luca Bruno
+Inviato da iPhone"
+COM-STR-00308,NOL-STR-00757,14/09/2026,nota_tecnico,tecnico,Marco,,"controllo in riconsegna eb-str-002: cavalletto manubrio leggermente fuori asse, da lucidare. cliente informato. fermo 1gg - l.g."
+COM-STR-00309,NOL-STR-00800,09/15/2026 06:48,modulo_web,cliente,vialeni31@example.it,Richiesta assistenza,"Nome: NicolÃ² Viale | Email: vialeni31@example.it | Tel: 3972617840 | Meisaggio: posso eenere il mezzo (SR-05) fino a domani? nebbia sul lago, non riesco ad arrivare"
+COM-STR-00310,NOL-STR-00791,15/09/2026 20:36,nota_tecnico,tecnico,Stefano,,"eb-str-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. l.g."
+COM-STR-00311,NOL-STR-00789,2026-09-18 12:44,telefonata_trascritta,cliente,3301527022,,"Trascr. chiamata ore 11:29 (op. Chiara) - cliente Rossi Consulenze: incidente in il Mottarone con il mezzo (GL940KR): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-STR-00312,NOL-STR-00718,18/09/2026 15:22,email,cliente,mtosco@example.com,riconsegna in ritardo,"Salve,
+Sono bloccato per ritardo del treno, arrivo con circa 3 ore di ritardo per la riconsegna (EB-STR-002)
+Grazie
+Mario"
+COM-STR-00313,NOL-STR-00815,2026-09-19 17:03,whatsapp,cliente,3428360722,,"posso tenere il mezzo (eb-str-002) fino a domai? traffco, non riesco ad arrivare"
+COM-STR-00196,NOL-STR-00375,22/06/2026 19:46,nota_tecnico,tecnico,Gianni,,"EB-STR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Paolo"
+COM-STR-00315,NOL-STR-00791,20/09/2026 18:31,telefonata_trascritta,cliente,3906945042,,"Trascr. chiamata ore 18:02 (op. Pietro) - cliente Monica: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 48 euro"
+COM-STR-00316,NOL-STR-00789,21/09/26 11:09,nota_tecnico,tecnico,Tech1,,"STR-07 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 14gg. Elena"
+COM-STR-00317,NOL-STR-00823,22/09/2026 09:19,modulo_web,cliente,info@saccostudiotecnico.example.it,Contatti,"Nome: Sacco Studio Tecnico | Email: info@saccostudiotecnico.example.it | Tel: 3825250812 | Messaggio: ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-STR-00318,,22/09/2026 14:12,email,cliente,ghiglionema23@example.net,Info noleggio,"Ho la patente da 1 anno, posso noleggiare un'auto? ho 22 nni
+Distinti saluti
+Marco Ghigione
+Sent from my iPhane"
+COM-STR-00319,NOL-STR-00823,22-09-2026 15:33,sms,cliente,3825250812,,"posso tenere il mezzo (Bianchi E-Omnia) fino a domani? traffico sul lungolago, non riesco ad arrrivare"
+COM-STR-00320,NOL-STR-00722,23-09-2026 00:53,whatsapp,cliente,3476008872,,credo di aver lasciato uno zainoo nel bagagliao (enault 5). Si puo' recuperare?
+COM-STR-00321,NOL-STR-00792,23-09-2026 13:39,email,cliente,morettial46@example.com,Re: Piccolo incidente di parcheggio,"Spett.le euby Rent,
+Ho preso una buca e adesso il cambio posteriore fa un rumore strano, secondo me e' storto/a. Bici (EB-STR-002)
+Cordiali saluti
+Moretti Alessandro"
+COM-STR-00322,NOL-STR-00844,23/09/26 20:47,whatsapp,cliente,3733154626,,posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+COM-STR-00323,NOL-STR-00783,2026-09-24 15:53,modulo_web,cliente,mchiesa@example.net,,"Nome: Mario Chiesa | Email: mchiesa@example.net | Tel: 3678263918 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-STR-00324,NOL-STR-00683,2026-09-24 19:05,nota_tecnico,tecnico,Andrea,,"RIT STR-01: interno molto sporco (sabbia), pulizia straordinaria, addebito 40€ al cliente. Gianni"
+COM-STR-00325,NOL-STR-00796,25-09-2026 16:57,telefonata_trascritta,cliente,3857839590,,"Trascr. chiamata ore 18:20 (op. Pietro) - cliente Laura: sono bloccato per lavori sulla strada, arrivo con circa 1 ore di ritardo per la riconsegna (EB-STR-003)"
+COM-STR-00326,,2026-09-26 10:10,whatsapp,cliente,3733154626,,"posso tenere il mezzo (cube kathmandu) fino a domani? coda in autostrada, non riesco ad arrivare"
+COM-STR-00327,NOL-STR-00844,26/09/2026 13:32,telefonata_trascritta,cliente,3733154626,,"Trascr. chiamata ore 14:07 (op. Chiara) - cliente Perotti Francesco: i freni non frenano bene in discesa, sono a il Mottarone, bici EB-STR-001"
+COM-STR-00328,NOL-STR-00844,26/09/2026 21:48,nota_tecnico,tecnico,M.,,EB-STR-001  -  frizione da sostituire. fermo 2gg. Andrea
+COM-STR-00329,NOL-STR-00819,2026-09-26 23:50,whatsapp,cliente,3765340505,,"l'autonomia reale e' molto meno di quella indicata: ho 8% e ono a Arona, dove carico?"
+COM-STR-00330,NOL-STR-00824,2026-09-27 10:20,nota_tecnico,tecnico,Elena,,"controllo  in  riconsegna GN095AS: lunotto graffio superficiale, nessun intervento urgente. cliente informato. no fermo - Sara"
+COM-STR-00268,NOL-STR-00648,2026-08-05,nota_tecnico,tecnico,L.G.,,EB-STR-001: catena -> cambio posteriore rotto. preventivo richiesto // fermo 6gg
+COM-STR-00332,NOL-STR-00824,2026-09-29 04:55,whatsapp,cliente,3331617614,,"tutto  ok,  mezzo comodo e consumi bassi. Grazie!"
+COM-STR-00333,,29-09-2026 10:11,email,cliente,davide.tosco@example.com,cambio data,"Gentile  Buby  Rent,
+Devo spostare il noleggio di un giorno, e' possibile? (EB-STR-002)
+Cordiali saluti
+Tosco Davide
+Get Outlook for Android"
+COM-STR-00334,NOL-STR-00835,2026-09-29 15:32,telefonata_trascritta,cliente,3771353998,,"trasscr. chiamata ore 8:10 (op. chiara) - cliente elena barbero: sto arrivando ma ho laiori sula strada, tra 3 ore sono da voi"
+COM-STR-00335,,29/09/2026,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna GM234BX: specchietto dx segni di sfregamento, da lucidare. cliente informato. fermo 2gg - Marco"
+COM-STR-00336,NOL-STR-00748,01/10/2026 07:29,whatsapp,cliente,3340813648,,"ritardo&nbsp;di&nbsp;4h&nbsp;per problemi personali, scusate. mezzo str-04"
+COM-STR-00337,NOL-STR-00748,01/10/2026 13:30,nota_tecnico,tecnico,Elena,,str-04: paraurti ant. -> striscio di vernice. ritocco vernice // no fermo
+COM-STR-00338,NOL-STR-00677,2026-10-01 15:28,nota_operatore,operatore,Pietro,,"multa pedaggio non pagato targa EB-STR-003, il Sempione: rivalsa su cliente"
+COM-STR-00339,,10/01/2026 17:59,nota_operatore,operatore,Chiara,,"multa pedaggio non pagato targa EB-STR-004, Isola Bella: rivalsa su cliente"
+COM-STR-00340,NOL-STR-00557,01/10/2026 18:26,nota_operatore,operatore,Chiara,,"verbale EB-STR-001 - Arona - violazione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-STR-00341,,02-10-2026 18:37,nota_tecnico,tecnico,Tech1,,STR-05: fanale ant. -> graffio profondo fino alla lamiera. da sostituire il pezzo // fermo 9gg
+COM-STR-00342,NOL-STR-00822,02/10/26,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna GN095AS: paraurti ant. elemento distrutto, da sostituire, carro attrezzi per officina. cliente informato. fermo 21gg - Gianni"
+COM-STR-00343,NOL-STR-00846,03/10/2026 14:53,email,cliente,rblandino@example.net,info danno,"Ciao,
+Ho preso una buca e adesso il cerchio posteriore fa un rumore strano, secondo me e' storto/a. Bici (Bianchi E-Omnia)
+Grazie mille
+Roberto"
+COM-STR-00344,NOL-STR-00846,03/10/2026 21:03,nota_tecnico,tecnico,Tech1,,EB-STR-003: cerrhio post. -> leva piegata ma funionante. ritocco vrnnce // fermo 1gg
+COM-STR-00345,NOL-STR-00846,2026-10-03 21:42,modulo_web,cliente,rblandino@example.net,Richiesta assistenza,"Nome: Roberto Blandino | Emaia: rrblandino@example.net | Tel: 3693850206 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-STR-00346,NOL-STR-00855,04/10/2026 16:46,telefonata_trascritta,cliente,3751805263,,"Trascr. chiamata ore 14:27 (op. Pietro) - cliente Bruno Luca: ritardo di 3h per coda sul Sempione, scusate. Mezzo Cube Kathmandu"
+COM-STR-00347,NOL-STR-00859,05/10/2026 14:50,modulo_web,cliente,fblandino@example.org,,"Nome: Blandino Franceseo | Email: fblandino@example.org | Tel: 3412924565 | Messaggo: volevo avvisarvi che la bici (Bianchi E-Omnia) e' scivolata mentre era appoggiata a il Sempione, il display ha un danno. Vi mnd le foto"
+COM-STR-00348,NOL-STR-00859,2026-10-05,nota_tecnico,tecnico,Paolo,,rit eb-str-003 6439km - display graffi sul telaio. segnalato a fine mese per carrozzeria. fermo 1gg. luca b.
+COM-STR-00349,NOL-STR-00109,06/10/26 05:25,telefonata_trascritta,cliente,3696440858,,"Trascr. chiamata ore 15:23 (op. Pietro) - cliente Genre Ilaria: vorrei prolungare di 2 giorni, il mezzo e' libero?"
+COM-STR-00350,,2026-10-08 12:46,email,cliente,brunettisi7@example.net,Piccolo incidente di parcheggio,"gentile buby rent,
+ho preso una buca e adesso il cambio posteriore fa un rumore strano, secondo me e' storto/a. bici (eb-str-004)
+grazie mille
+brunetti silvia"
+COM-STR-00351,00843,2026-10-09 07:21,telefonata_trascritta,cliente,3713404526,,TRASCR. CHIAMATA ORE 12:25 (OP. CHIARA) - CLIENTE FERRARIS LUCA: HO VISTO UN ADDEBITO DI 48 EURO PER KM EXTRA MA SECONDO ME HO PERCORSO MOLTI MENO KM. CHIEDO VERIFICA DEL CONTRATTO NOL-STR-00843
+COM-STR-00352,NOL-STR-00801,10/10/2026 09:47,modulo_web,cliente,monica.bosio@example.org,,"Nome: Monica | Email: monca.bosio@example.org | Tel: 3250385773 | Messaggio: vorrei prolungare di 1 giorni, il mezzo e' libero?"
+COM-STR-00353,,10/10/2026 16:13,telefonata_trascritta,cliente,3923055696,,Trascr. chiamata ore 16:39 (op. Chiara) - cliente Silvia Vacchetto: accettate carte di debito per la cauzione o serve per forza la carta di credito?
+COM-STR-00246,NOL-STR-00576,27/07/2026 11:32,nota_tecnico,tecnico,Paolo,,"STR-04 rientrato. Danno parabrezza: ammaccatura con vernice saltata. foto in cartella, addebito da valutare. Foto ok in cartella. Stima fermo 8gg (Sara)"
+COM-STR-00355,NOL-STR-00826,2026-10-13 09:47,whatsapp,cliente,3683197890,,"posso tenere il mezzo (Volkswagen Polo) fino a domani? incidente in tangenziale, non riesco ad arrivare"
+COM-STR-00356,NOL-STR-00876,2026-10-14 07:15,modulo_web,cliente,info@gastaldilogistica.example.it,Richiesta assistenza,"Nome: Gastaldi | Email: info@gastaldilogistica.example.it | Tel: 3325333107 | Messaggio: sono bloccato per problemi personali, arrivo con circa 3 ore di ritardo per la riconsegna (GM234BX)"
+COM-STR-00357,NOL-STR-00875,14/10/2026 17:48,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna EB-STR-003: leva del freno display rotto, foto in cartella, addebito da valutare. cliente informato. fermo 2gg - L.G."
+COM-STR-00358,NOL-STR-00852,15/10/2026,nota_tecnico,tecnico,Fabio,,"EB-STR-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Paolo"
+COM-STR-00169,NOL-STR-00383,31/05/2026 13:07,whatsapp,cliente,3513432826,,"ritardo di 2h x incidente in tangenziale, scusate. Mezzo Volkswagen Polo"
+COM-STR-00360,NOL-STR-00884,16/10/2026 04:58,whatsapp,cliente,3331617614,,"mi sono accorto di aver lasciato la giacca nel mezzo, potrei passare domani"
+COM-STR-00361,NOL-STR-00718,16/10/2026 21:23,nota_operatore,operatore,Chiara,,"verbale EB-STR-002 - Isola Bella - violazione art.142, comunicazione dati conducente inviata. spese 80€"
+COM-STR-00362,NOL-STR-00873,16/10/2026 21:26,email,cliente,vialeni31@example.it,I: Reclamo,"all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. chiedo unoo sconnto
+grazie mille
+nicolÃ²
+inviato dal mio samsung galaxy"
+COM-STR-00363,NOL-STR-00876,2026-10-17 07:17,nota_tecnico,tecnico,M.,,"RIT STR-05: interno molto sporco (macche sui sedli), pulizia straordinaria, addeito 30€ al cliente. Elena"
+COM-STR-00364,NOL-STR-00847,2026-10-19 10:01,whatsapp,cliente,3765340505,,"ritardo di 2h x problemi personali, scusate. Mezzo Cube Kathmandu"
+COM-STR-00365,NOL-STR-00847,19/10/2026 17:12,nota_tecnico,tecnico,Fabio,,"contnollo in riconsegna EB-STR-002: cerchio post. greffi sul telaio, da lucidae. cliente informato. no fermo - Elenna"
+COM-STR-00366,,10/21/2026 09:46,modulo_web,cliente,lombardiro92@example.org,Contatti,nome:  roberto  | email: lombardiro92@example.org | tel: 3672369354 | messaggio: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-STR-00367,NOL-STR-00880,21-10-2026 19:06,email,cliente,brunosi52@example.com,Re: Feedback noleggio,"Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Distinti saluti
+Silvia Bruno"
+COM-STR-00368,NOL-STR-00903,24/10/26 18:50,nota_tecnico,tecnico,M.,,EB-STR-001: manubrio -> manubrio leggermente fuori asse. ritocco vernice // fermo 1gg
+COM-STR-00369,NOL-STR-00878,25/10/2026 14:32,sms,cliente,3455887710,,"sto  arrivando  ma ho traffico sul lungolago, tra 4 ore sono da voi"
+COM-STR-00370,NOL-STR-00902,2026-10-26 15:01,whatsapp,cliente,3503061244,,"c'e' un rumore dal movimento centrale, la pedalata e' dura"
+COM-STR-00371,NOL-STR-00890,2026-10-26 20:09,nota_tecnico,tecnico,Paolo,,"controllo in riconsegna EB-STR-003: display manubrio leggermente fuori asse, da lucidare. cliente informato. no fermo - Davide"
+COM-STR-00372,NOL-STR-00902,26/10/2026,nota_tecnico,tecnico,Marco,,"eb-str-001 - spia motore, diagnosi in corso. fermo 3gg. marco"
+COM-STR-00373,,28-10-2026 20:19,nota_tecnico,tecnico,Tech1,,"RIT EB-STR-003 6664km - cabio post. forcella piegat. foto tn cartella, addebito da valutare. fermoo 4gg. Gianni"
+COM-STR-00374,NOL-STR-00912,2026-10-29 14:57,sms,cliente,3862475895,,"posso tenere il mezzo (GL940KR) fino a domani? problemi personali, nn riesco ad arrivare"
+COM-STR-00375,NOL-STR-00899,29-10-2026 22:08,nota_tecnico,tecnico,Gianni,,"STR-03 - clima non funzionante, gas da ricaricare. fermo 2gg. Gianni"
+COM-STR-00376,NOL-STR-00882,,whatsapp,cliente,3289835206,,"si e' accesa la spia batteria e il mezzo (STR-06) perde potenza, sono vecino a Villa Pallavicno. Cosa faccio?"
+COM-STR-00377,NOL-STR-00828,01-11-2026 20:09,nota_operatore,operatore,Pietro,,"multa pedaggio non pagato targa EB-STR-001, Baveno: rivalsa su cliente"
+COM-STR-00378,NOL-STR-00913,01/11/2026 20:17,nota_tecnico,tecnico,Davide,,"controlllo in riconsegna EB-STRR-001: display graffi sul telaio, segnalato a fine mese per carrozzeria. cliente informato. no fermo - Fabio"
+COM-STR-00379,NOL-STR-00813,03-11-2026 17:01,nota_tecnico,tecnico,Marco,,"controllo  in  riconsegna GK517TC: lunotto cerchio scheggiato e ovalizzato, da mandare in carrozzeria. cliente informato. fermo 9gg - Luca B."
+COM-STR-00380,NOL-STR-00882,06/11/2026 03:59,email,cliente,info@morettistudiotecnico.example.it,Feedback noleggio,"Buongiorno&nbsp;a&nbsp;tuttti,
+Ottima assistenza quando abbiamo auto bisogno, grazie davvero
+Cordiali saluti
+Moretti"
+COM-STR-00221,NOL-STR-00578,07/06/2026 20:21,nota_tecnico,tecnico,Davide,,EB-STR-001: cambio post. -> cerchio storto. preventivo richiesto // fermo 5gg
+COM-STR-00382,NOL-STR-00738,2026-11-08,nota_operatore,operatore,Pietro,,"ricevnto verbalo del comune di baveno per ztl/eccesso di velocita', targa eb-str-001. da addebitare al cliente + 60€ gestione pratica"
+COM-STR-00383,NOL-STR-00921,10/11/2026 15:50,nota_tecnico,tecnico,Paolo,,"EB-STR-001 - clima non funzionante, gas da rricaricare. fermo 1gg. Fabio"
+COM-STR-00384,NOL-STR-00889,11-11-2026 10:21,whatsapp,cliente,3396133594,,"mi sono accorto di aver lasciato la giacca nel mezzo, potrei passare domani"
+COM-STR-00007,NOL-STR-00030,16/11/2025 18:56,telefonata_trascritta,cliente,3862475895,,"Trascr. chiamata ore 10:32 (op. Chiara) - cliente RAVERA EDILIZIA: Hi, the vehicle (Renault Captur) won't start near Baveno. Can you send assistance please?"
+COM-STR-00067,nol-str-00192,2026-03-07 01:53,sms,cliente,3531323808,,gomma anteriore dx squarciata da una pietra a Belgirate
+COM-STR-00082,NOL-STR-00219,2026-03-23,modulo_web,cliente,mferraris@example.it,Contatti,"Nome:  Matteo  Ferraris | Email: mferraris@example.it | Tel: 3203773360 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-STR-00087,NOL-STR-00234,30/03/2026 12:27,nota_tecnico,tecnico,Davide,,rt str-04 39062km - specchietto dx piccola scheggiatura. nessun intervento urgente. no fermo. stefano
+COM-STR-00320,NOL-STR-00722,23-09-2026 00:53,whatsapp,cliente,3476008872,,credo di aver lasciato uno zainoo nel bagagliao (enault 5). Si puo' recuperare?
+COM-STR-00115,NOL-STR-00302,18/04/2026 12:46,whatsapp,cliente,3427097536,,"POSSO TENERE IL MEZZO (BIANCHI E-OMNIA) FINO A DOMANI? RITARDO DEL TRENO, NON RIESCO AD ARRIVARE"
+COM-STR-00181,NOL-STR-00368,2026-06-13 12:36,nota_operatore,operatore,Pietro,,"multa pedaggio non pagato targa GK517TC, Lesa: rivalsa su cliente [incomprensibile]"

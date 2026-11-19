@@ -1,0 +1,641 @@
+id_comunicazione,id_noleggio_corretto,data_ora,canale,mittente_tipo,mittente,oggetto_clean,testo_clean
+COM-ALB-00001,NOL-ALB-00032,2025-10-28 00:00:00,whatsapp,cliente,3202938527,,"ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni"
+COM-ALB-00002,NOL-ALB-00030,2025-10-29 14:39:00,email,cliente,paola.moretti@example.net,disponibilita',"Spett.le Buby Rent,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi"
+COM-ALB-00003,NOL-ALB-00001,2025-11-03 11:02:00,nota_tecnico,tecnico,Marco,,"ALB-05: fanale post. -> urto fort con piu' elementi coinvolti. preeventivo in attesa, mezzo bloccato // ermo 34gg"
+COM-ALB-00120,NOL-ALB-00293,2026-04-02 18:05:00,telefonata_trascritta,cliente,3855577779,,"trascr. chiamata ore 13:13 (op. paola) - cliente piccolo logistica: incidente in serralunga con il mezzo (fiat tipo): ho tamponato un'auto davanti a me, danni al paraurti. sono ok. chiamo la polizia locale?"
+COM-ALB-00005,NOL-ALB-00035,2025-11-04 05:35:00,telefonata_trascritta,cliente,3236474540,,"Trascr. chiamata ore 9:05 (op. Franco) - cliente Perotti: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-ALB-00006,NOL-ALB-00257,2025-11-08 02:49:00,nota_tecnico,tecnico,Elena,,eb-alb-003: cerchio ant. -> display rotto. da mandare n carrozzeria // fermo 7gg
+COM-ALB-00007,NOL-ALB-00004,2025-11-08 21:07:00,telefonata_trascritta,cliente,3450757265,,Trascr. chiamata ore 12:11 (op. Franco) - cliente Barbero Cantine: si sono spente tutte le luci deel cruscotto mentre guidavo vicino a La Morra
+COM-ALB-00008,NOL-ALB-00053,2025-11-09 21:45:00,email,cliente,info@gerbinoimpianti.example.it,Re: Richiesta informazioni,"Egregi signori,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Gerbino"
+COM-ALB-00009,NOL-ALB-00046,2025-11-10 16:11:00,email,cliente,gferrero@example.com,Cancellazione,"Ciao,
+Purtroppo non posso piu' partire, cancelo la prenotazione. Mi restituite l'acconto?
+Grazie e saluti
+iovanni Ferrero"
+COM-ALB-00010,NOL-ALB-00049,2025-11-11 15:40:00,telefonata_trascritta,cliente,3508676191,,"Trascr. chiamata or 19:22 (op. Paola) - clinte Ricci Paoln: Hi, the vehicle (EB-ALB-001) won't start near Cannale. Can you send asssistance please?"
+COM-ALB-00011,NOL-ALB-00049,2025-11-11 18:17:00,nota_tecnico,tecnico,Sara,,"EB-ALB-001 - recupero con carro attretzi, mezzo in officina. fermo 1gg. Stefano"
+COM-ALB-00012,NOL-ALB-00038,2025-11-12 08:53:00,email,cliente,pbosio@example.net,Re: Cauzione non restituita,"Gentile Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+In attesa di un vostro riscontro
+Bosio Paolo"
+COM-ALB-00013,NOL-ALB-00057,2025-11-13 00:00:00,telefonata_trascritta,cliente,3255831966,,"Trascr. chiamata ore 16:23 (op. Paola) - cliente Marco: vorrei prolungare di 3 giorni, il mezzo e' libero?"
+COM-ALB-00014,NOL-ALB-00014,2025-11-14 12:29:00,email,cliente,blandinogi32@example.it,Grazie!,"Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Giulia"
+COM-ALB-00015,NOL-ALB-00062,2025-11-15 06:25:00,whatsapp,cliente,3961409993,,posso ritirare il mezzo fuoi orario? Arrivo in treno la sera tardi
+COM-ALB-00016,NOL-ALB-00011,2025-11-15 06:53:00,whatsapp,cliente,3816481682,,"ritardo di 2h per ritardo del treno, scusate. Mezzo GM356HX"
+COM-ALB-00017,NOL-ALB-00056,2025-11-15 10:17:00,modulo_web,cliente,toscocr52@example.net,Richiesta assistenza,"Nome: Cristina Tosco | Email: toscocr52@example.net | Tel: 3730399722 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-ALB-00018,NOL-ALB-00065,2025-11-17 00:00:00,modulo_web,cliente,mricci@example.com,Contatti,Nome: Martina Ricci | Email: mricci@example.com | Tel: 3732717934 | Messaggio: per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-ALB-00019,NOL-ALB-00023,2025-11-18 08:05:00,email,cliente,valentina.greco@example.net,URGENTE assistenza stradale,"Buonasera,
+Sono fermo a Bra, il mezzo (Renault Clio) non riparte, mandate il carro attrezzi
+Valentina Greco"
+COM-ALB-00020,NOL-ALB-00023,2025-11-19 13:59:00,nota_tecnico,tecnico,M.,,"ALB-03 - mezzo ripartito dopo reset, da monitorare. fermo 4gg. Tech1"
+COM-ALB-00021,NOL-ALB-00041,2025-11-20 13:09:00,whatsapp,cliente,3498094864,,"il display e' nero e non da' assistenza, sono bloccato a Bra"
+COM-ALB-00022,NOL-ALB-00041,2025-11-20 15:33:00,nota_tecnico,tecnico,Tech1,,EB-ALB-003 - connettore ricarica ossidato. fermo 2gg. Stefano
+COM-ALB-00023,NOL-ALB-00034,2025-11-24 20:19:00,nota_tecnico,tecnico,Marco,,"EB-ALB-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Marco"
+COM-ALB-00024,NOL-ALB-00076,2025-11-24 22:35:00,sms,cliente,3575788212,,"Hi, can I pick up the vehicle late in the evening? We arrive by train."
+COM-ALB-00025,NOL-ALB-00008,,email,cliente,claudio.fontana@example.it,Contestazione addebito,"Egregi signori,
+Mi avete addebitato un danno che non o fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 60 euro
+Cordialmente
+Caudio Fontana"
+COM-ALB-00026,NOL-ALB-00062,2025-11-30 00:00:00,modulo_web,cliente,fferrero@example.net,,"Nome: Federica Ferrero | Email: fferrero@example.net | Tel: 3961409993 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-ALB-00027,NOL-ALB-00015,2025-12-04 10:55:00,modulo_web,cliente,genregi15@example.net,,"Nome: Giovanni Genre | Email: genregi15@example.net | Tel: 3497627902 | Messaggio: essperienza ottima, ritiro e rconsegna rapidissimi. Consiglio"
+COM-ALB-00028,NOL-ALB-00091,2025-12-05 10:16:00,whatsapp,cliente,3816481682,,"posso tenere il mezzo (ALB-07) fino a domani? coda a Bra, non riesco ad arrivare"
+COM-ALB-00029,NOL-ALB-00073,2025-12-07 17:27:00,nota_tecnico,tecnico,M.,,RIT ALB-07 36502km - portellonee post. graffio superficiale. ritocco vernice. fermo 2gg. Marrco
+COM-ALB-00030,NOL-ALB-00075,2025-12-10 10:31:00,email,cliente,info@piccoloeventi.example.it,Re: Ottimo servizio,"salve,
+ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+grazie e saluti
+piccolo eventi"
+COM-ALB-00031,NOL-ALB-00069,2025-12-15 14:13:00,whatsapp,cliente,3919024295,,"sto arrivando ma ho incidente in tangenziale, tra 3 ore sono da voi"
+COM-ALB-00032,NOL-ALB-00068,,modulo_web,cliente,davide.cerutti@example.it,Contatti,"Nome: Davide Cerutti | Email: davide.cerutti@example.it | Tel: 3386413790 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-ALB-00290,NOL-ALB-00558,2026-08-16 12:43:00,nota_tecnico,tecnico,Paolo,,ALB-03 rientrato. Danno specchietto sx: graffio superficiale. nessun intervento urgente. Foto ok in cartella. Stima no fermo (Stefano)
+COM-ALB-00034,NOL-ALB-00104,2025-12-18 00:00:00,whatsapp,cliente,3290835452,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00035,,2025-12-19 12:31:00,email,cliente,blandinogi32@example.it,Grazie!,"Spett.le Buby Rent,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+In attesa di un vostnoo risconntro
+Giulia"
+COM-ALB-00370,NOL-ALB-00804,2026-10-22 20:32:00,nota_tecnico,tecnico,Luca B.,,"ALB-06 - pneumatico fianco danneggiato, nuovo treno gomme. fermo 6gg. Davide"
+COM-ALB-00037,NOL-ALB-00106,2025-12-22 05:04:00,email,cliente,federica.gamba@example.net,Re: Grazie!,"Buonasera,
+Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Grazie e saluti"
+COM-ALB-00038,NOL-ALB-00111,2025-12-22 09:51:00,whatsapp,cliente,3630285865,,"annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-ALB-00039,NOL-ALB-00084,2025-12-24 14:04:00,email,cliente,info@bosioagricola.example.it,Grazie!,"ciao,
+complimenti all'operatore di sede, molto disponibile. prezzo onsto
+bosio agricola"
+COM-ALB-00040,NOL-ALB-00109,2025-12-26 12:12:00,whatsapp,cliente,3793713389,,"la frizione slitta e c'e' odore di bruciato, sono a Cherasco. Mezzo AB-04"
+COM-ALB-00041,NOL-ALB-00109,2025-12-26 00:00:00,nota_tecnico,tecnico,M.,,"ALB-04 - climaa non funzionante, gas da ricaricare. ferm 5gg. L.G."
+COM-ALB-00042,NOL-ALB-00116,2025-12-26 20:56:00,nota_tecnico,tecnico,Elena,,ALB-06: lunotto -> danno da urto 20-30 cm. da mandare in carrozzeria // fermo 3gg
+COM-ALB-00043,NOL-ALB-00074,2025-12-27 19:38:00,nota_tecnico,tecnico,Tech1,,"controllo in riconsegna gr153md: paraurti nt. leggera ammaccatura, riitocco vernice. cliente informate. no fermo - steano"
+COM-ALB-00044,NOL-ALB-00128,2025-12-30 01:53:00,modulo_web,cliente,rizzoal1@example.org,Richiesta assistenza,"Nome: Alessia Rizzo | Email: rizzoal1@example.org | Tel: 3685702311 | Messaggio: durante il noleggio ho urtato il cofano del mezzo (GR153MD) mentre parcheggiavo a Cuneo. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?"
+COM-ALB-00045,NOL-ALB-00126,2025-12-30 07:32:00,whatsapp,cliente,3348916747,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto? [incomprensibile]"
+COM-ALB-00046,NOL-ALB-00128,2025-12-30 00:00:00,nota_tecnico,tecnico,Andrea,,RIT ALB-05 33779km - cofano segni di sfregamento. ritocco vernice. fermo 1gg. Andrea [incomprensibile]
+COM-ALB-00047,NOL-ALB-00113,2025-12-31 00:00:00,telefonata_trascritta,cliente,3784444591,,"Traacr. chiamata ore 19:39 (op. Franco) - cliente Mondino Luca: vorret prolungare di 2 giorni, il mezzo e' libero?"
+COM-ALB-00048,NOL-ALB-00134,2025-12-31 08:25:00,email,cliente,rema86@example.net,Re: ritardo,"ciao,
+posso tenere il mezzo (alb-06) fino a domani? incidente in tangenziale, non riesco ad arrivare
+re martina"
+COM-ALB-00286,NOL-ALB-00614,2026-08-09 08:00:00,whatsapp,cliente,3638086075,,"incidente in Cuneo con il mezzo (Fiat Tipo): ho tamponato un'auto davanti a me, danni al paraurri. Sono ok. Chiao la polizia locale?"
+COM-ALB-00050,NOL-ALB-00140,2026-03-01 20:08:00,nota_tecnico,tecnico,Luca B.,,"controllo in riconsegna EB-ALB-002: catena manubrio leggermente fuori asse, ritocco vernice. cliente informato. no fermo - Davide"
+COM-ALB-00051,NOL-ALB-00143,2026-01-03 20:15:00,email,cliente,fenogliomo23@example.net,Annullamento prenotazione,"Gentile Buby Rent,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Grazie mille
+Monica Fenoglio"
+COM-ALB-00052,NOL-ALB-00133,2026-01-06 10:25:00,email,cliente,roberta.costa@example.it,I: annullo noleggio,"Spett.le Buby Rent,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Roberta Costa"
+COM-ALB-00053,NOL-ALB-00123,2026-01-06 13:43:00,whatsapp,cliente,3730399722,,"ritardo di 2h per incidente in tangenziale, scusate. Mezzo ALB-02"
+COM-ALB-00054,NOL-ALB-00159,2026-01-14 00:51:00,whatsapp,cliente,3872710145,,"sono rimasto senza carburante a Cherasco, cosa devo fare?"
+COM-ALB-00055,NOL-ALB-00159,2026-01-14 17:35:00,nota_tecnico,tecnico,M.,,"ALB-06 - chiavi duplicate, mezzo ok. fermo 1gg. Sara"
+COM-ALB-00056,NOL-ALB-00136,2026-01-14 21:02:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-05: interno molto sporco (fango), pulizia straordinaria, addebito 30â¬ al cliente. Stefano"
+COM-ALB-00057,NOL-ALB-00144,2026-01-15 05:59:00,modulo_web,cliente,info@bosioagricola.example.it,,"Nome: Bosio Agricola | Email: innfo@bosioagricola.example.it | Tel: 3416570167 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-ALB-00058,NOL-ALB-00165,2026-01-18 02:27:00,email,cliente,info@pastoregiardinaggio.example.it,Incidente,"Sono uscito di strada a La Morra per colpa del ghiaccio, il mezzo (GK284RT) e' danneggiato ma io sto bene
+In attesa di un vostro riscontro
+PASTORE GIARDINAGGIO"
+COM-ALB-00059,NOL-ALB-00157,2026-01-18 09:50:00,modulo_web,cliente,chiesama38@example.com,Richiesta assistenza,"Nome: Chiesa Marco | Email: chiesama38@eexample.com | Tel: 3255831966 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-ALB-00060,NOL-ALB-00165,2026-01-18 10:19:00,nota_tecnico,tecnico,Marco,,"RIT ALB-01: interno moltoo iporco (macchie sui sedili), pulizia stroedinaria, aebito 40€ al cliente. Elena"
+COM-ALB-00061,NOL-ALB-00165,2026-01-18 11:37:00,nota_tecnico,tecnico,Marco,,rit alb-01 82719km - portiera lato guiaa graffio supericiale. nessun intervento urgente. no fermo. m.
+COM-ALB-00062,NOL-ALB-00165,2026-01-18 12:18:00,nota_tecnico,tecnico,Davide,,"ALB-01 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 8gg. Gianni"
+COM-ALB-00063,NOL-ALB-00149,2026-01-19 07:08:00,email,cliente,info@costaedilizia.example.it,Reclamo,"Egregi signori,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 250 euro
+In attesa di un vostro riscontro
+Costa Edilizia"
+COM-ALB-00064,NOL-ALB-00137,2026-01-19 20:23:00,email,cliente,nicolo.gallo@example.net,Feedback noleggio,"Compplimenti all'operatore d sede, mlto dispoibile. Prezzo onesto
+Grazie e saluti"
+COM-ALB-00065,NOL-ALB-00169,2026-01-20 14:44:00,whatsapp,cliente,3421143567,,"sono uscito di strada a Cherasco x colpa del ghiaccio, il mezzo (Fiat Tipo) e' danneggiato ma io sto bene"
+COM-ALB-00066,NOL-ALB-00169,2026-01-20 22:05:00,nota_tecnico,tecnico,Elena,,"ALB-04 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 9gg. L.G."
+COM-ALB-00067,NOL-ALB-00154,2026-01-21 17:00:00,telefonata_trascritta,cliente,3379537999,,"trascr. chiatata ore 13:07 (op. franco) - cliente elena costa: il finestrino elettrico non si chiudr, auto gr153md"
+COM-ALB-00068,NOL-ALB-00174,2026-01-25 14:41:00,sms,cliente,3816481682,,"STO ARRIVANDO MA HO CODA IN AUTOSTRADA, TRA 2 ORE SONO DA VOI"
+COM-ALB-00069,NOL-ALB-00154,2026-01-26 19:31:00,nota_tecnico,tecnico,Elena,,ALB-05 - connettore ricarica ossidato. fermo 7gg. Tech1
+COM-ALB-00070,NOL-ALB-00179,2026-01-28 16:22:00,whatsapp,cliente,3246556455,,"il volo e' stato cancellato, devo annullare il noleggio. come funziona la penale?"
+COM-ALB-00071,NOL-ALB-00167,2026-02-03 07:16:00,modulo_web,cliente,lperotti@example.net,,Nome: Laura Perotti | Email: lperotti@example.net | Tel: 3950744594 | Messaggio: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00072,NOL-ALB-00200,2026-02-05 00:00:00,email,cliente,baroneni65@example.org,Richiesta informazioni,"Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Nicolò Barone"
+COM-ALB-00319,NOL-ALB-00556,2026-09-13 12:57:00,nota_operatore,operatore,Franco,,"verbale GK284RT - Cherasco - violazione art.142, comunicazione dati conducente inviata. spese 100€"
+COM-ALB-00074,NOL-ALB-00197,2026-02-06 08:27:00,email,cliente,info@barberostudiotecnico.example.it,annullo noleggio,"Buonasera,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Barbero"
+COM-ALB-00075,NOL-ALB-00147,2026-02-06 12:31:00,nota_tecnico,tecnico,Andrea,,"ALB-02 - clima non funzionante, gas da ricaricare. fermo 3gg. Paolo"
+COM-ALB-00076,NOL-ALB-00206,2026-02-08 00:00:00,modulo_web,cliente,info@genreelettrica.example.it,,Nome: Genre | Email: info@genreelettrica.example.it | Tel: 3753823233 | Messaggio: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-ALB-00077,NOL-ALB-00168,2026-02-09 07:58:00,email,cliente,stefano.gerbino@example.net,Contestazione addebito,"Buongiorno a tutti,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servzio pessimo, vorreii un rimborso parziale
+ordiali saluti
+Gerbino Stefano"
+COM-ALB-00078,NOL-ALB-00202,,email,cliente,lombardife16@example.com,Feedback noleggio,"Buootgiorno a tutti,
+Ottima assistenza quando abiamo avuto bisognno, grazie davvero
+Grazie mille
+Fedenica"
+COM-ALB-00079,NOL-ALB-00156,2026-10-02 21:52:00,telefonata_trascritta,cliente,3919024295,,"Trascr. chimata ore 9:49 (op. Franco) - cliente Silvia Cavallo: il finestrino elettrico non si chiude, auto ALB-02"
+COM-ALB-00080,NOL-ALB-00207,2026-02-11 18:33:00,telefonata_trascritta,cliente,3797802881,,"trascr. chiamata ore 19:35 (op. franco) - cliente francesco ricci: devo spostare il noleggio di un giorno, e' possibile? (iveco daily)"
+COM-ALB-00081,NOL-ALB-00156,2026-02-11 19:17:00,nota_tecnico,tecnico,Gianni,,ALB-02 - centralina da resettare. fermo 6gg. Luca B.
+COM-ALB-00082,NOL-ALB-00211,2026-02-12 12:23:00,email,cliente,grecocr42@example.it,Richiesta informazioni,"Buonasera,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Grazie e saluti
+Cristina"
+COM-ALB-00083,NOL-ALB-00177,2026-02-14 02:02:00,whatsapp,cliente,3655338711,,"la frizione slitta e c'e' odore di bruciato, sono a la morra. mezzo fiat tipo"
+COM-ALB-00084,NOL-ALB-00177,2026-02-15 01:54:00,nota_tecnico,tecnico,Andrea,,"ALB-04 - cambio che gratta, verifica. fermo 3gg. Gianni"
+COM-ALB-00085,NOL-ALB-00210,2026-02-15 19:43:00,nota_tecnico,tecnico,Stefano,,"rit alb-03: interno molto sporco (rifiuti nel bagagliaio), pulitia straordinaria, addebito 30€ al cliente. marco"
+COM-ALB-00086,NOL-ALB-00218,2026-02-18 00:00:00,telefonata_trascritta,cliente,3548032647,,"Trascr. chiamata ore 15:30 (op. Paola) - cliente Silvia Tosco: sto arrivando ma ho trattori sulla strada, tra 1 ore sono da voi"
+COM-ALB-00087,NOL-ALB-00211,2026-02-23 11:04:00,sms,cliente,3290835452,,"sto arrivando ma ho nebbia in collina, tra 4 ore sono da voi"
+COM-ALB-00088,NOL-ALB-00219,2026-02-23 11:43:00,nota_tecnico,tecnico,Davide,,RIT ALB-01 86631KM - PARABREZZA PICCOLA SCHEGGIATURA. RITOCCO VERNICE. FERMO 1GG. M.
+COM-ALB-00089,NOL-ALB-00151,2026-02-23 17:29:00,nota_tecnico,tecnico,Marco,,EB-ALB-003: sella -> telaio incrinato. carro attrezzi per officina // fermo 14gg
+COM-ALB-00090,NOL-TOR-00538,2026-02-26 10:37:00,email,cliente,info@piccoloagricola.example.it,disponibilita',"buonasera,
+quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+piccolo"
+COM-ALB-00091,NOL-ALB-00228,2026-02-26 20:38:00,sms,cliente,3789987531,,"si e' accesa la spia airbag e il mezzo (Iveco Daily) perde potenza, sono vicino a La Mora. Cosa faccio?"
+COM-ALB-00092,NOL-ALB-00228,2026-02-27 13:45:00,nota_tecnico,tecnico,Stefano,,"ALB-08 - clima non funzionante, gas da risaricare. fermo 1gg. Tech1"
+COM-ALB-00093,NOL-ALB-00174,2026-03-02 23:04:00,nota_operatore,operatore,Paola,,"multa pedaggo non pagato tara GP905TB, Bra: rivalsa su cliente"
+COM-ALB-00094,NOL-ALB-00241,2026-03-03 18:04:00,nota_tecnico,tecnico,M.,,"RIT ALB-07: interno molto sporco (fango), pulizia straordinaria, addebito 70€ al cliente. Fabio"
+COM-ALB-00095,NOL-ALB-00243,2026-03-05 07:34:00,whatsapp,cliente,3676691997,,"sto arrivando ma ho problemi personali, tra 3 ore sono da voi"
+COM-ALB-00096,NOL-ALB-00243,2026-03-05 15:08:00,nota_tecnico,tecnico,Gianni,,"RIT ALB-02: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. M."
+COM-ALB-00097,NOL-ALB-00247,2026-03-05 17:36:00,sms,cliente,3532185931,,"ritardo di 1h per trattori sulla strada, scusate. Mezzo Thok E-K2"
+COM-ALB-00098,NOL-ALB-00198,2026-03-07 18:02:00,nota_tecnico,tecnico,L.G.,,"EB-ALB-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Elena"
+COM-ALB-00099,NOL-ALB-00254,2026-03-13 12:26:00,email,cliente,oliveroma15@example.net,Problema Cube Kathmandu,"Salve,
+I freni non frenano bene in discesa, sono a Serralunga, bici Cube Kathmandu
+Martina Olivero"
+COM-ALB-00100,,2026-03-13 15:27:00,modulo_web,cliente,cottinofe12@example.net,Richiesta assistenza,Nome: Federico Cottino | Email: cottinofe12@example.net | Tel: 3752178305 | Messaggio: per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-ALB-00101,NOL-ALB-00254,,email,cliente,oliveroma15@example.net,Grazie!,"Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Olivero Martina"
+COM-ALB-00102,NOL-ALB-00254,2026-03-13 22:58:00,nota_tecnico,tecnico,Stefano,,EB-ALB-003 - frizione da sostituire. fermo 1gg. L.G.
+COM-ALB-00103,NOL-ALB-00253,2026-03-14 20:04:00,whatsapp,cliente,3517433528,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-ALB-00104,NOL-ALB-00186,2026-03-15 21:59:00,email,cliente,info@bosioagricola.example.it,Feedback noleggio,"Salve,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Grazie
+Bosio Agricola"
+COM-ALB-00105,NOL-ALB-00279,2026-03-16 07:52:00,email,cliente,fabio.chiaves@example.net,Info noleggio,"Buonaser,
+E' possibile iconsegnare a Bardonecchhia invece che da voi? c'e' un supplemento?
+Chiaves Fabio"
+COM-ALB-00235,NOL-ALB-00537,2026-06-23 23:15:00,nota_tecnico,tecnico,Paolo,,EB-ALB-001 rientrato. Danno catena: cambio posteriore rotto. ireventivo richiesto. Foto ok in cartella. Stima fermo 5gg (Elena)
+COM-ALB-00107,NOL-ALB-00284,2026-03-21 13:22:00,sms,cliente,3919024295,,"vorrei prolungare di 3 giorni, il mezzo e' libero?"
+COM-ALB-00108,NOL-ALB-00283,2026-03-24 12:46:00,email,cliente,info@piccoloeventi.example.it,Re: annullo noleggio,"Salve,
+Annullate per favore la mia prenotazione, la nostra gita e' naltata per il meteo
+PICCOLO EVENTI"
+COM-ALB-00109,NOL-ALB-00291,2026-03-25 14:21:00,email,cliente,bolivero@example.net,annullo noleggio,"Spett.le Buby Rent,
+Il volo e' stato csncellato, devo annullare il noleggio. Come funziona la penale?
+Distintii saluti
+Barbara Olivero"
+COM-ALB-00110,NOL-ALB-00255,2026-03-25 17:15:00,telefonata_trascritta,cliente,3919024295,,Trascr. chiamata ore 15:01 (op. Franco) - cliente Silvia: posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+COM-ALB-00111,NOL-ALB-00261,2026-03-27 00:15:00,email,cliente,info@gerbinoagricola.example.it,Re: mezzo bloccato,"Buongiornn a tutti,
+Il mezzo (Renault CClao) si e' bloccato i mezzo alla stada a La Morra, urgente
+Grazie mille"
+COM-ALB-00112,NOL-ALB-00289,2026-03-27 03:38:00,sms,cliente,3559888699,,"devo spostare il noleggio di un giorno, e' possibile? (EB-ALB-002)"
+COM-ALB-00113,NOL-ALB-00281,2026-03-27 04:33:00,modulo_web,cliente,oliveroma15@example.net,,"Nome: Olivero Martina | Email: oliveroma15@example.net | Tel: 3593687905 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-ALB-00114,NOL-ALB-00249,2026-03-27 15:50:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-06: interno molto sporco (fango), pulizia straordinaria, addebito 30€ al cliente. Paolo"
+COM-ALB-00115,NOL-ALB-00261,2026-03-29 17:21:00,email,cliente,info@gerbinoagricola.example.it,Re: Grazie!,"CIAO,
+COMPLIMENTI ALL'OPRATORE DI SEDE, MOLTO DISPONIBILE. PPREZEO ONESTO
+RBINO AGRICOLA"
+COM-ALB-00116,NOL-ALB-00250,2026-03-29 22:17:00,whatsapp,cliente,3710900412,,"il finestrino elettrico non si chiude, auto Jeep Renegade"
+COM-ALB-00117,NOL-ALB-00250,2026-03-31 00:47:00,nota_tecnico,tecnico,Andrea,,alb-06 - connettore ricarica ossidato. fermo 8gg. andrea
+COM-ALB-00118,NOL-ALB-00295,2026-04-01 19:42:00,nota_tecnico,tecnico,Elena,,RIT EB-ALB-003 1032km - pedale leva piegata ma funzionante. da lucidare. fermo 1gg. Andrea
+COM-ALB-00119,NOL-ALB-00319,2026-04-01 20:27:00,modulo_web,cliente,ghiglionefe53@example.com,Contatti,"Nome: Ghiglione Federico | Email: ghiglionefe53@example.com | Tel: 3680467924 | Messaggio: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-ALB-00004,NOL-ALB-00007,2025-11-04 02:47:00,telefonata_trascritta,cliente,3406874822,,"trascr. chiamata ore 17:09 (op. paola) - cliente nicolò gerbino: ho bucato una gomma vicino a bra, c'e' la ruota di scorta? (fiat tipo)"
+COM-ALB-00121,NOL-ALB-00293,2026-04-03 17:05:00,whatsapp,cliente,3855577779,,mentre facevo retromarcia a Neive ho toccato un palo e si e' rovinato la portiera lato passeggero. Nessun ferito. Cosa devo fare?
+COM-ALB-00122,NOL-ALB-00321,2026-04-04 08:39:00,email,cliente,oliverosa27@example.org,Preventivo,"Buongiorno,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Cordialmente
+Sara Olivero"
+COM-ALB-00123,NOL-ALB-00279,2026-04-04 14:18:00,nota_tecnico,tecnico,Sara,,"RIT ALB-03: interno molto sporco (odore di fumo), pulizia straordinaria, addeito 30€ al cliente. Davide"
+COM-ALB-00124,NOL-ALB-00293,2026-04-05 11:37:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-04 122087kmm - portiera lato passiggero cerchro scheggiato e ovaizznto. foto in cartella, addebito da valutare. fermo 9g. Marco"
+COM-ALB-00125,NOL-ALB-00311,2026-04-05 12:53:00,nota_tecnico,tecnico,Luca B.,,ALB-01 - sostituita batteria 12V. fermo 1gg. Gianni
+COM-ALB-00126,NOL-ALB-00293,2026-04-05 15:14:00,nota_tecnico,tecnico,Sara,,"ALB-04 - verbale polizia locale in allegato, danni anteriori. fermo 8gg. Marco"
+COM-ALB-00127,NOL-ALB-00323,2026-04-06 16:04:00,email,cliente,blandinogi32@example.it,Danno EB-ALB-002,"Spett.le Buby Rent,
+Volevo avvisarvi che la bici (EB-ALB-002) e' scivolata mentre era appoggiata a Barolo, la catena ha un danno. Vi mando le foto
+Cordialmente"
+COM-ALB-00128,NOL-ALB-00293,2026-04-06 00:00:00,email,cliente,info@piccolologistica.example.it,,"Buongiorno,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servzio pessimo, vorrei un rimborso parziale
+ent fom my iPhone"
+COM-ALB-00129,NOL-ALB-00324,2026-04-06 18:19:00,whatsapp,cliente,3730399722,,"ho preso una buca e adesso la sella fa un rumore strano, secondo me e' storto/a. Bici (Cube Kathmandu)"
+COM-ALB-00130,NOL-ALB-00323,2026-04-06 18:39:00,nota_tecnico,tecnico,Paolo,,"controllo in riconsegna EB-ALB-002: catena forcella piegata, da mandare in carrozzeria. cliente informato. fermo 2gg - Elena"
+COM-ALB-00131,NOL-ALB-00324,2026-04-06 22:46:00,nota_tecnico,tecnico,Fabio,,EB-ALB-003: sella -> leva piegata ma funzionante. da lucidare // fermo 2gg
+COM-ALB-00132,NOL-ALB-00309,2026-04-08 00:00:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-08: interno molto sporco (peli di animali), pulizia straordinaria, addebito 50€ al cliente. Sara"
+COM-ALB-00133,NOL-ALB-00306,2026-04-09 11:05:00,email,cliente,stefano.gerbino@example.com,Ottimo servizio,"Egregi signori,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Stefano"
+COM-ALB-00134,NOL-ALB-00319,2026-04-10 07:54:00,telefonata_trascritta,cliente,3680467924,,Trascr. chiamata ore 10:04 (op. Paola) - cliente Ghiglione Federico: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00135,NOL-ALB-00325,2026-04-10 14:23:00,nota_tecnico,tecnico,Marco,,"ALB-08 rientrato. Danno parauoti ant.: grffio profondo fino alla lamiera. foto inn cartella, addebito da valutare. Foto ok in cartella. Stima fermo 9gg (Fabio)"
+COM-ALB-00136,NOL-ALB-00340,2026-04-10 22:32:00,whatsapp,cliente,3789987531,,e' possibile riconsegnare a Casale Monferrato invece che da voi? c'e' un supplemento?
+COM-ALB-00137,NOL-ALB-00312,2026-11-04 21:40:00,email,cliente,silvia.cavallo@example.com,Feedback noleggio,"Spett.le Buby Rent,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Cordialmente
+Silvia Cavallo"
+COM-ALB-00138,NOL-ALB-00331,2026-04-12 08:09:00,email,cliente,info@marchettieventi.example.it,Annullamento prenotazione,"Salve,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Cordialmente
+Marchetti Eventi"
+COM-ALB-00139,NOL-ALB-00352,2026-04-12 18:37:00,email,cliente,info@barberocantine.example.it,Re: disponibilita',"Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Grazie mille
+Barbero"
+COM-ALB-00140,NOL-ALB-00233,2026-04-13 15:55:00,nota_tecnico,tecnico,Marco,,"RIT ALB-05: interno molto sporco (sabbi), pulizia straordinaria, addebito 30€ al cliente. Marco"
+COM-ALB-00141,NOL-ALB-00355,2026-04-15 04:32:00,email,cliente,silvia.cavallo@example.com,Preventivo,"Gentile Buby Rent,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli ettra?
+Cavallo Silvia"
+COM-ALB-00142,NOL-ALB-00274,2026-04-15 13:43:00,whatsapp,cliente,3752178305,,"i freni non frenano bene in discesa, sono a senralunga, bici eb-alb-001"
+COM-ALB-00143,NOL-ALB-00346,2026-04-15 16:08:00,nota_tecnico,tecnico,M.,,EB-ALB-002 rientrato. Danno sella: graffi sul telaio. nessun intervento urgente. Foto ok in carttella. Stima no fermo (Tech1)
+COM-ALB-00144,NOL-ALB-00221,2026-04-15 23:56:00,email,cliente,costacl18@example.com,Re: Richiesta rimborso,"Salve,
+Mi avete addebitato un dano che non ho fato, era gia' presentee nelle foto al ritiro. Contesto l'importo di 180 euro
+Claudio Costa"
+COM-ALB-00145,NOL-ALB-00320,2026-04-17 16:41:00,nota_tecnico,tecnico,Sara,,ALB-07 - centralina da resettaee. fermo 6gg. Tech1
+COM-ALB-00146,NOL-ALB-00317,2026-04-18 15:47:00,email,cliente,info@riccicantine.example.it,ritardo,"Gentile Buby Rent,
+Ritardo di 2h per chiusura per fiera del tartufo, scusate. Mezzo Fiat Panda
+Ricci Cantine"
+COM-ALB-00147,NOL-ALB-00349,2026-04-18 19:33:00,modulo_web,cliente,federico.rizzo@example.net,,"Nome: Federico | Email: federico.rizzo@example.net | Tel: 3281182022 | Messaggio: la batteria non ha mantenuto la carica promessa, dopo 20 km era a zero"
+COM-ALB-00148,NOL-ALB-00349,2026-04-18 00:00:00,nota_tecnico,tecnico,Fabio,,"EB-ALB-003 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. L.G."
+COM-ALB-00149,NOL-ALB-00361,2026-04-20 11:36:00,whatsapp,cliente,3576520207,,"Hi, can I pick up the vehicle latte in she evening? WWe arrive bby train."
+COM-ALB-00150,NOL-ALB-00332,2026-04-20 00:00:00,whatsapp,cliente,3530284415,,credo di aver lasciato gli occhiali da sole nel bagagliaio (GM356HX). Si puo' recuperare?
+COM-ALB-00151,NOL-ALB-00352,2026-04-23 03:46:00,whatsapp,cliente,3450757265,,"la batteria e' a terra, non parte piu' (ALB-08) sono a Canale"
+COM-ALB-00152,NOL-ALB-00203,2026-04-23 14:59:00,nota_operatore,operatore,Franco,,"ricevuto verbale del comune di Neive per ZTL/eccesso di velocita', targa GN630ZK. da addebitare al cliente + 60€ gestione pratica"
+COM-ALB-00153,NOL-ALB-00337,2026-04-23 17:00:00,email,cliente,elena.bertolino@example.com,Danno EB-ALB-003,"Buongiorno a tutti,
+Ho preso una buca e adesso il cerchio posteriore fa un rumore strano, secondo me e' storto/a. Bici (EB-ALB-003)
+Elena Bertolino"
+COM-ALB-00154,NOL-ALB-00337,2026-04-23 19:59:00,nota_tecnico,tecnico,Tech1,,EB-ALB-003: cerchio post. -> leva piegata ma funzionante. nessun intervento urgente // fermo 1gg
+COM-ALB-00155,NOL-ALB-00352,2026-04-23 21:37:00,nota_tecnico,tecnico,Paolo,,ALB-08 - connettore ricarica ossidato. fermo 1gg. Andrea
+COM-ALB-00156,NOL-ALB-00365,2026-04-24 09:52:00,email,cliente,info@bosioagricola.example.it,Prolungamento noleggio,"Salve,
+Devo spostare il noleggio di un giorno, e' possibile? (Fiat Doblò)
+Bosio"
+COM-ALB-00157,NOL-ALB-00371,2026-04-26 16:25:00,email,cliente,cgreco@example.org,info danno,"salve,
+sono caduto con la bici sul sentiero verso bra: il pedale si r' rovinato/a ma io sto bene. mi dite come funziona con la cauzione?
+grazie e saluti
+claudio greco"
+COM-ALB-00158,NOL-ALB-00368,2026-04-26 00:00:00,whatsapp,cliente,3891399261,,credo di aver lasciato il portafoglio nel bagagliaio (Fiat Panda). Si puo' recuperare?
+COM-ALB-00159,NOL-ALB-00371,2026-04-26 21:01:00,nota_tecnico,tecnico,Luca B.,,EB-ALB-002: pedale -> graffi sul telaio. segnalato a fine mese per carrozzeria // fermo 1gg
+COM-ALB-00160,NOL-ALB-00353,2026-04-28 15:09:00,sms,cliente,3490730002,,"sto arrivando ma ho traffico, tra 2 ore sono da voi"
+COM-ALB-00161,NOL-ALB-00365,2026-04-30 12:19:00,nota_tecnico,tecnico,L.G.,,"RIT ALB-07: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Fabio"
+COM-ALB-00162,NOL-ALB-00385,2026-05-01 10:50:00,email,cliente,cristina.tosco@example.org,Re: Cancellazione,"Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie e saluti
+Cristina Tosco"
+COM-ALB-00163,NOL-ALB-00327,2026-05-01 19:57:00,modulo_web,cliente,toscocr52@example.net,,"Nome: Cristina Tosco | Email: toscocr52@example.net | Tel: 3730399722 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-ALB-00164,NOL-ALB-00376,2026-05-01 21:13:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna GL477VC: paraurti ant. graffio profondo fino alla lamiera, da sostituire il pezzo. cliente informatto. fermo 8gg - Elena"
+COM-ALB-00165,NOL-ALB-00338,2026-05-02 03:37:00,email,cliente,ghiglionefe53@example.com,Contestazione addebito,"Gentile Buby Rent,
+La cauzione di 200 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie
+Federico"
+COM-ALB-00166,NOL-ALB-00158,2026-05-03 08:00:00,nota_operatore,operatore,Franco,,"verbale GR153MD - Bra - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-ALB-00167,NOL-ALB-00389,2026-04-05 08:32:00,telefonata_trascritta,cliente,3780163985,,"Trascr. chiamata ore 18:06 (op. Paola) - cliente Davide Vacchetto: sono bloccato per coda a Bra, arrivo con circa 4 ore di ritardo per la riconsegna (ALB-05)"
+COM-ALB-00168,NOL-ALB-00383,2026-05-06 16:42:00,email,cliente,toscocr52@example.net,Reclamo,"Buonasera,
+La cauzione di 100 euro non mi e' stata ancora restituita dopo 10 giorni dalla riconsegna. Vorrei sapere quando arriva
+In attesa di un vostro riscontro
+Tosco Cristina"
+COM-ALB-00169,NOL-ALB-00418,2026-05-08 03:06:00,email,cliente,info@piccoloeventi.example.it,Preventivo,"Per un'aziienda con partita IVA c'e' una tariffa agevollata per noleggi ripetuti?
+Grazie e saluti
+Piccolo Eventi"
+COM-ALB-00170,NOL-ALB-00216,2026-05-08 08:00:00,nota_operatore,operatore,Paola,,"multa pedaggio non pagato targa GM356HX, Barolo: rivalsa su cliente"
+COM-ALB-00171,NOL-ALB-00392,2026-05-08 12:56:00,modulo_web,cliente,stefano.gerbino@example.net,,"Nome: Stefano | Email: stefano.gerbino@example.net | Tel: 3365669005 | Messaggio: la batteria non ha mantenuto la carica promessa, dopo 20 km era a zero"
+COM-ALB-00172,NOL-ALB-00386,2026-05-08 18:51:00,nota_tecnico,tecnico,Elena,,"cotrollo in riconsegna EB-ALB-002: sella manubrio leggermente fuori asse, ritocco vernice. cliente inforrmat. fermo 2gg - Luca B."
+COM-ALB-00173,NOL-ALB-00392,2026-08-05 22:27:00,nota_tecnico,tecnico,L.G.,,"EB-ALB-003 - batteria e-bike difettosa, apertura RMA. fermo 1gg. Sara"
+COM-ALB-00174,NOL-ALB-00399,2026-05-09 01:43:00,email,cliente,info@gastaldilogistica.example.it,Re: Reclamo,"Buonasera,
+Ho visto un addebito di 48 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-ALB-00399
+Cordialmente
+Gastaldi Logistica"
+COM-ALB-00175,NOL-ALB-00409,2026-05-09 23:16:00,whatsapp,cliente,3212006432,,"vorrei prolungare di 1 giorni, il mezzo e' libero?"
+COM-ALB-00176,NOL-ALB-00360,2026-05-10 00:16:00,modulo_web,cliente,paola.sacco@example.net,,"Nome: Sacco Paola | Email: paola.sacco@example.net | Tel: 3576520207 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-ALB-00177,NOL-ALB-00292,2026-05-10 14:30:00,whatsapp,cliente,3910219288,,"STO ARRIVANDO MA HO CODA A BRA, TRA 4 ORE SONO DA VOI"
+COM-ALB-00178,NOL-ALB-00335,2026-05-12 13:13:00,email,cliente,stefano.gerbino@example.net,Piccolo incidente di parcheggio,"Ciao,
+Ho preso una buca e adesso il cerchio anteriore fa un rumore strano, secondo me e' storto/a. Bici (Cube Kathmandu)
+Grazie mille"
+COM-ALB-00179,NOL-ALB-00335,2026-05-12 17:15:00,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna EB-ALB-003: cerchio nt. display rotto, da sostituire il pezzo. csiente inforrmato. fermo 3gg - Luca B."
+COM-ALB-00180,NOL-ALB-00351,2026-05-12 17:26:00,modulo_web,cliente,info@pastoregiardinaggio.example.it,,Nome: Pastore Giardinaggio | Email: info@pastoregiardinaggio.example.it | Tel: 3789987531 | Mssaggio: metre facevo retromariia a La Morra ho toccato un palo e si e' rovinato il fianco sinistro. Nessun ferio. Cosa dev fare?
+COM-ALB-00282,NOL-ALB-00632,2026-08-07 10:16:00,email,cliente,stefano.gerbino@example.com,Richiesta informazioni,"SPETT.LE BUBY RENT,
+E' POSSIBILE RICONSEGNARE A CASALE MONFERRATO INVECE CHE DA VOI? C'E' UN SUPPLEMENTO?
+GRAZIE MILLE
+STEFANO"
+COM-ALB-00182,NOL-ALB-00426,2026-05-13 19:18:00,email,cliente,paola.sacco@example.net,Preventivo,"Vorrei noleggiare auto da 14/05 a 17/05, avete disponibilita' e quanto costa?
+In attesa di un vostro riscontro
+Paola"
+COM-ALB-00183,NOL-ALB-00410,2026-05-15 06:18:00,modulo_web,cliente,info@pastoregiardinaggio.example.it,Richiesta assistenza,Nome: Pastore Giardinaggio | Email: info@pastoregiardinaggio.example.it | Tel: 3789987531 | Messaggio: il clima non fuunziona e il cambio fa fatica a ingranare la seconda (Citroën C3)
+COM-ALB-00184,NOL-ALB-00351,2026-05-15 10:25:00,nota_tecnico,tecnico,Davide,,"ALB-07: fianco sx -> rottura con perdita di liquidi. preventivo in attesa, mezzo bloccato // fermo 35gg"
+COM-ALB-00185,NOL-ALB-00447,2026-05-15 22:05:00,email,cliente,actismo17@example.it,Preventivo,"E' possibile riconsegnare a Stresa invece che da voi? c'e' un supplemento?
+Grazie
+Monica"
+COM-ALB-00186,NOL-ALB-00426,2026-05-16 12:50:00,telefonata_trascritta,cliente,3576520207,,"Trascr. chiamata ore 9:53 (op. Franco) - cliente Sacco Paola: si e' accesa la spia airbag e il mezzo (GR153MD) perde potenza, sono vicino a Barolo. Cosa faccio?"
+COM-ALB-00187,NOL-ALB-00436,2026-05-16 21:17:00,email,cliente,info@giordanoconsulenze.example.it,disponibilita',"Buonasera,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Distinti saluti
+Giordano Consulenze"
+COM-ALB-00188,NOL-ALB-00425,2026-05-16 21:30:00,nota_tecnico,tecnico,Davide,,"CONTROLLO IN RICONSEGNA GS271WE: FIANCO SX PICCOLA SHEGGIATURA, SEGNALATO A FINE MESE PER SARROZZERIA. CLIENTE INFORMATO. FERMO 2GG - SEEFANO"
+COM-ALB-00189,NOL-ALB-00426,2026-05-17 13:27:00,nota_tecnico,tecnico,Luca B.,,"ALB-05 - clima non funzionante, gas da ricaricare. fermo 7gg. Sara"
+COM-ALB-00190,NOL-ALB-00755,2026-05-18 12:59:00,email,cliente,toscosi26@example.com,Feedback noleggio,"Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Grazie
+Silvia Tosco"
+COM-ALB-00191,NOL-ALB-00395,2026-05-18 00:00:00,nota_tecnico,tecnico,Andrea,,"eb-alb-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15â¬. davide"
+COM-ALB-00192,NOL-ALB-00441,2026-05-19 03:05:00,modulo_web,cliente,info@barberocantine.example.it,Richiesta assistenza,"nome: barbero cantine | email: info@barberocantine.example.it | tel: 3450757265 | messaggio: purtroppo non posso piu' partire, cancello la prenotazione. mi restituite l'acconto?"
+COM-ALB-00193,NOL-ALB-00410,2026-05-20 00:37:00,nota_tecnico,tecnico,L.G.,,"ALB-01 - freni da controllare, pastiglie consumate. fermo 8gg. Davide"
+COM-ALB-00194,NOL-ALB-00426,2026-05-20 02:28:00,email,cliente,paola.sacco@example.net,Ottimo servizio,"Gentile Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Grazie e saluti
+Paola Sacco"
+COM-ALB-00195,NOL-ALB-00398,2026-05-20 04:41:00,email,cliente,giorgio.sacco@example.it,,"GENTILE BUBY RENT,
+TUTTO OK, MEZZO COMODO E CONSUMI BASSI. GRAZIE!
+GRAZIE
+GIORGIO SACCO"
+COM-ALB-00196,NOL-ALB-00436,2026-05-21 13:30:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-02: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Tech1"
+COM-ALB-00197,NOL-ALB-00411,2026-05-22 09:27:00,email,cliente,brunettian27@example.net,Grazie!,"Buonasera,
+Great service, the bike was perfect and the staff very friendly. Thank you!
+Grazie e saluti"
+COM-ALB-00198,NOL-ALB-00442,2026-05-22 13:16:00,nota_tecnico,tecnico,Elena,,"RIT ALB-08: interno molto sporco (peli di animali), pulizia straordinaria, addebito 70€ al cliente. Andrea"
+COM-ALB-00199,NOL-ALB-00452,2026-05-22 15:01:00,email,cliente,vacchettoma73@example.net,Annullamento prenotazione,"Buongiorno a tutti,
+DDevo nnullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Vacchetto Matteo"
+COM-ALB-00200,NOL-ALB-00454,2026-05-22 00:00:00,whatsapp,cliente,3752178305,,"volevo avvisarvi che la bici (Cube Kathmandu) e' scivolata mentre era appoggiata a Bra, il cavalletto ha un danno. Vi mando le foto"
+COM-ALB-00201,NOL-ALB-00454,2026-05-22 17:55:00,nota_tecnico,tecnico,Paolo,,"EB-ALB-003 rientrato. Danno cavalletto: telaio incrinato. mezzo fermo, perizia in corso. Foto ok in cartella. Stima fermo 7gg (L.G.)"
+COM-ALB-00202,NOL-ALB-00362,2026-05-23 08:52:00,sms,cliente,3841704054,,"il finestrino ellettrico non si chiude, auto GL477VC"
+COM-ALB-00203,NOL-ALB-00362,2026-05-23 23:36:00,nota_tecnico,tecnico,Sara,,ALB-02 - sostituita batteria 12V. fermo 5gg. M.
+COM-ALB-00204,NOL-ALB-00397,2026-05-25 07:05:00,whatsapp,cliente,3280838344,,"devo annullare la prenotazione per motivi di lavoro, posso averre il rimborso?"
+COM-ALB-00205,NOL-ALB-00450,2026-05-25 18:18:00,whatsapp,cliente,3569375723,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-ALB-00206,NOL-ALB-00427,2026-05-25 18:33:00,email,cliente,mbrunetti@example.net,Grazie!,"Buongiorno a tutti,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Marco Brunetti"
+COM-ALB-00207,NOL-ALB-00307,2026-05-30 15:04:00,nota_operatore,operatore,Franco,,"verbale EB-ALB-001 - Canale - iolazione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-ALB-00208,NOL-ALB-00473,2026-05-31 02:30:00,email,cliente,giulia.allasia@example.org,Modifica prenotazione,"Buonasera,
+Devo spostare il noleggio di un giorno, e' possibile? (Fiat Tipo)
+Cordialmente
+Allasia Giulia"
+COM-ALB-00209,NOL-ALB-00468,2026-06-01 10:27:00,nota_tecnico,tecnico,Elena,,EB-ALB-002: parafango -> leva piegata ma funzionante. segnalato a fine mese per carrozzeria // no fermo
+COM-ALB-00210,NOL-ALB-00471,2026-06-02 20:13:00,modulo_web,cliente,bolivero@example.net,Richiesta assistenza,"Nome: Barbara | Email: bolivero@example.net | Tel: 3617041868 | Messaggio: ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-ALB-00211,NOL-ALB-00476,2026-06-03 06:18:00,whatsapp,cliente,3855311476,,"ritardo di 4h x problemmi persnali, scusate. mezzo iveco dalt"
+COM-ALB-00212,NOL-ALB-00394,2026-06-03 16:08:00,whatsapp,cliente,3559888699,,"SONO BLOCCATO A CHERASCO, LA BICI (THOK E-K2) NON VA PIU', NON RIESCO A TORNARE. POTETE VENIRE A PRENDERMI?"
+COM-ALB-00213,NOL-ALB-00401,2026-06-04 20:42:00,modulo_web,cliente,toscosi26@example.com,,"Nome: Silvia Tosco | Email: toscosi26@example.com | Tel: 3548032647 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-ALB-00214,NOL-ALB-00475,2026-06-06 00:00:00,email,cliente,cristina.tosco@example.org,cambio data,"Buongiorno,
+Devo spostare il noleggio di un giorno, e' possibile? (Citroën C3)
+In attesa di un vostro riscontro
+Tosco Cristina"
+COM-ALB-00261,NOL-ALB-00582,,sms,cliente,3576520207,,"STO ARRIVANDO MA HO RITARDO DEL TRENO, TRA 3 ORE SONO DA VOI"
+COM-ALB-00216,NOL-ALB-00429,2026-06-10 06:04:00,email,cliente,mbrunetti@example.org,Ottimo servizio,"Spett.le Buby Rent,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Monica Brunetti"
+COM-ALB-00217,NOL-ALB-00464,2026-06-10 12:18:00,email,cliente,ffenoglio@example.com,,"Ciao,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Fabio Fenoglio"
+COM-ALB-00218,NOL-ALB-00509,2026-06-11 12:53:00,email,cliente,gastaldifa29@example.org,Richiesta informazioni,"Buongiorno a tutti,
+E' possibile riconsegnare a Casale Monferrato invece che da voi? c'e' un supplemento?
+Fabio Gastaldi"
+COM-ALB-00219,NOL-ALB-00493,2026-06-11 21:22:00,nota_tecnico,tecnico,Andrea,,
+COM-ALB-00220,NOL-ALB-00394,2026-06-13 05:50:00,email,cliente,federica.marchetti@example.org,Richiesta rimborso,"ciao,
+all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. chiedo uno sconto
+grazie e saluti"
+COM-ALB-00221,NOL-ALB-00423,2026-06-13 11:44:00,modulo_web,cliente,paola.sacco@example.net,Contatti,"nome: paola | email: paola.sacco@example.net | tel: 3576520207 | messaggio: i freni non frenano bene in discesa, sono a bra, bici eb-alb-003"
+COM-ALB-00222,NOL-ALB-00484,2026-06-13 11:50:00,email,cliente,toscocr52@example.net,ritardo,"Salve,
+Ritardo di 4h per traffico, scusate. Mezzo Iveco Daily
+Grazie mille
+Tosco Cristina"
+COM-ALB-00223,NOL-ALB-00501,2026-06-14 05:34:00,telefonata_trascritta,cliente,3941913312,,"Tascr. chiamata ore 11:23 (op. Paola) - cliente Paolo: posso tenere il mezzo (Fiat Panda) fino a domsni? ritarrdo del treno, nn riesco ad arrivare"
+COM-ALB-00224,NOL-ALB-00471,2026-06-14 00:00:00,email,cliente,bolivero@example.net,Graffio sul mezzo,"Sulla strada per Cherasco un sasso ha colpito il lunotto e ora c'e' una crepa. Posso continuare a guidare fino alla riconsegna? (ALB-06)
+Grazie mille
+Barbara Olivero"
+COM-ALB-00225,NOL-ALB-00471,2026-06-14 13:20:00,nota_tecnico,tecnico,Luca B.,,RIT ALB-06 62181KM - LUNOTO STRISCIO DI VERNICE. DA LUCIDARE. FERMO 2GG. SARA
+COM-ALB-00226,NOL-ALB-00515,2026-06-16 13:05:00,email,cliente,ftosco@example.org,Prolungamento noleggio,"Gentile Buby Rent,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Grazie mille"
+COM-ALB-00227,NOL-ALB-00508,2026-06-17 00:00:00,nota_tecnico,tecnico,Elena,,"ALB-05: fanle ant. -> ammaccatura con vernice saltata. foto in crtella, addebito da valutare // fero 8gg"
+COM-ALB-00228,NOL-ALB-00483,2026-06-17 00:00:00,nota_tecnico,tecnico,Luca B.,,"EB-ALB-003 RIENTRATA PIENA DI FANGO, LAVAGGIO COMPLETO. ADDEBITO PULIZIA 15€. STEFANO"
+COM-ALB-00229,NOL-ALB-00499,2026-06-18 09:46:00,modulo_web,cliente,francesca.vacchetto@example.net,,"Nome: Francesca | Email: francesca.vacchetto@example.net | Tel: 3861403774 | Messaggio: sono bloccato per chiusura per fiera del tartufo, arrivo con circa 3 ore di ritardo per la riconsegna (Fiat Tipo)"
+COM-ALB-00230,NOL-ALB-00507,2026-06-18 00:00:00,email,cliente,rizzoro90@example.org,annullo noleggio,"Purtroppo non posso pnu' partire, cancello la preennotazione. Mi restituite l'accoeto?
+Grazie e saluti
+Inviato sal mio Samsung Galaxy"
+COM-ALB-00231,NOL-ALB-00509,2026-06-19 17:22:00,nota_tecnico,tecnico,Davide,,"RIT ALB-02: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Paolo"
+COM-ALB-00232,NOL-ALB-00449,2026-06-21 08:52:00,telefonata_trascritta,cliente,3975985923,,"Trascr. chiamata ore 17:50 (op. Paola) - cliente MARCHETTI CONSULENZE: non parte, il motorino fa solo clic. Sono a Barolo"
+COM-ALB-00233,NOL-ALB-00503,2026-06-23 07:14:00,email,cliente,gerbinocr49@example.net,Grazie!,"Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Cristina Gerbino"
+COM-ALB-00234,NOL-ALB-00536,2026-06-23 21:26:00,nota_tecnico,tecnico,Davide,,"eb-alb-003 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. andrea"
+COM-ALB-00106,NOL-ALB-00272,2026-03-20 04:51:00,telefonata_trascritta,cliente,3485346155,,"Trascr. chiamata ore 19:58 (op. Paola) - cliente Luca Vacchetto: il volo e' stato cancellato, devvo annullare il noleggio. Come funziona la penale?"
+COM-ALB-00236,NOL-ALB-00541,2026-06-24 00:18:00,telefonata_trascritta,cliente,3919024295,,Trascr. chiamata ore 11:31 (op. tranco) - cliente Cavallr Silvia: per uun'azienda con partita IVA c'e' una tariffa agevolatr per noleggi ripetuti?
+COM-ALB-00237,NOL-ALB-00547,2026-06-26 09:13:00,email,cliente,gerbinomo65@example.it,Re: Preventivo,"Egregi signori,
+Quanti km sono inclusi nellla tariffa giornaliera e quaeto costano quelli extra?
+Grazie e saluti
+Gerbino Monica"
+COM-ALB-00238,NOL-ALB-00449,2026-06-26 14:49:00,email,cliente,info@marchetticonsulenze.example.it,Cauzione non restituita,"buongiorno a tutti,
+ho visto un addebito di 35 euro per km extra ma secondo me ho percorso molti meno km. chiedo verifica del contrtto nol-alb-00449
+grazie mille
+marchetti connsuleoze"
+COM-ALB-00239,NOL-ALB-00538,2026-06-26 16:17:00,modulo_web,cliente,riccini89@example.com,Richiesta assistenza,"nome: nicolo' ricci | email: riccini89@example.com | tel: 3988311325 | messaggiio: tutto ok, mezzo comodo e consumi bassi. grazie!"
+COM-ALB-00240,NOL-ALB-00526,2026-06-27 04:36:00,whatsapp,cliente,3576520207,,"sento un rumore strano dai freni quando freno, soprattutto in discesa verso Cherasco"
+COM-ALB-00241,NOL-ALB-00526,2026-06-27 16:01:00,nota_tecnico,tecnico,L.G.,,"RIT ALB-05 47962km - cofano danno da urto 20-30 cm. foto in cartella, addebito da valutare. fermo 9gg. M."
+COM-ALB-00242,NOL-ALB-00526,2026-06-27 17:08:00,nota_tecnico,tecnico,Fabio,,"RIT ALB-05: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Fabio"
+COM-ALB-00243,NOL-ALB-00526,2026-06-28 18:46:00,nota_operatore,operatore,Paola,,"ricevuto verbale del comune di Canale per ZTL/eccesso di velocita', targa GR153MD. da addebitare al cliente + 80€ gestione pratica"
+COM-ALB-00244,NOL-ALB-00535,2026-06-29 12:36:00,whatsapp,cliente,3503306710,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00245,NOL-ALB-00545,2026-06-29 16:55:00,nota_tecnico,tecnico,Stefano,,"RIT ALB-04: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 40€ al cliente. M."
+COM-ALB-00246,NOL-ALB-00530,2026-06-30 05:11:00,modulo_web,cliente,aferraris@example.net,,Nome: Alessia | Email: aferraris@example.net | Tel: 3267276952 | Messaggio: accettate carte di debito per la cauzione o serve per forza la carta di credito?
+COM-ALB-00247,NOL-ALB-00470,2026-06-30 00:00:00,email,cliente,galloma11@example.com,Grazie!,"Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Cordialmente
+Gallo Maria"
+COM-ALB-00248,NOL-ALB-00518,2026-06-30 20:18:00,email,cliente,cristina.tosco@example.org,Contestazione addebito,"Egrgi signori,
+Mi avete addebitato un danno che non ho fatto, era gia' presente eelle foto al ritiro. Contesto l'importo di 250 euro
+osco Cristina"
+COM-ALB-00249,NOL-ALB-00525,2026-07-01 06:52:00,email,cliente,rema86@example.net,Richiesta rimborso,"Buongiorno a tutti,
+La cauzione di 600 euro non mi e' stata ancora restituita dopo 10 giorni dalla riconsegna. Vorrei sapere quando arriva
+Distinti saluti
+Re Martina"
+COM-ALB-00331,NOL-ALB-00741,2026-09-22 12:52:00,telefonata_trascritta,cliente,3927862500,,"Trascr. chiamata ore 14:38 (op. Paola) - cliente Ilaria Ferraris: sto arrivando ma ho incidente in tangenziale, tra 4 ore sono da voi"
+COM-ALB-00251,NOL-ALB-00531,2026-07-01 18:54:00,email,cliente,grecocr42@example.it,Grazie!,"Buongiorno a tutti,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Distinti saluti
+Cristina Greco"
+COM-ALB-00252,NOL-ALB-00530,2026-07-02 08:36:00,modulo_web,cliente,aferraris@example.net,Contatti,"Nome: Ferraris Alessia | Email: aferraris@example.net | Tel: 3267276952 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-ALB-00253,NOL-ALB-00550,2026-07-02 19:31:00,nota_tecnico,tecnico,M.,,"RIT ALB-03 60477km - passaruota ant. danno strutturale sospetto, non guidabile. contattata assicurazione. fermo 35gg. M."
+COM-ALB-00254,NOL-ALB-00563,2026-07-04 11:30:00,telefonata_trascritta,cliente,3730399722,,"TRASCR. CHIAMATA ORE 16:14 (OP. FRANCO) - CLIENTE CRISTINA TOSCO: PURTROPPO NON POSSO PIU' PARTIRE, CANCELLO LA PRENOTAZIONE. MI RESTITUITE L'ACCONTO?"
+COM-ALB-00255,NOL-ALB-00560,2026-07-08 09:17:00,sms,cliente,3522020265,,"sono bloccato per trattori sulla strada, arrivo con circa 2 ore di ritardo x la riconsegna (Jeep Renegade)"
+COM-ALB-00256,NOL-ALB-00568,2026-07-11 17:30:00,nota_tecnico,tecnico,Gianni,,"RIT ALB-08: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 70â¬ al cliente. Gianni"
+COM-ALB-00257,NOL-ALB-00569,2026-07-13 15:56:00,sms,cliente,3686725714,,"sto arrivando ma ho chiusura per fiera del tartufo, tra 3 ore sono da voi"
+COM-ALB-00258,NOL-ALB-00581,2026-07-14 14:26:00,email,cliente,roberta.costa@example.org,Comunicazione incidente,"Gentile Buby Rent,
+Incidente in Cuneo con il mezzo (ALB-07): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?
+Cordialmente
+Roberta"
+COM-ALB-00259,NOL-ALB-00540,2026-07-14 14:57:00,email,cliente,roberta.ferrari@example.org,Preventivo,"Egregi signori,
+E' possibile riconsegnare a Stresa invece che da voi? c'e' un supplemento?
+Distinti saluti
+Ferrari Roberta"
+COM-ALB-00260,NOL-ALB-00581,2026-07-14 23:22:00,nota_tecnico,tecnico,Luca B.,,"ALB-07 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 21gg. Sara"
+COM-ALB-00215,NOL-ALB-00487,2026-06-06 16:39:00,nota_tecnico,tecnico,Gianni,,RIT ALB-04 126860km - specchietto dx ammaccatura con vernice saltata. preventivo richiesto. fermo 5gg. Marco
+COM-ALB-00262,NOL-ALB-00568,2026-07-17 14:31:00,email,cliente,info@dellavalleedilizia.example.it,Contestazione addebito,"Buonasera,
+Ho visto un addebito di 60 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-ALB-00568
+Cordialmente
+Dellavalle"
+COM-ALB-00263,NOL-ALB-00583,2026-07-17 16:40:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-08: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 50€ al cliente. Fabio"
+COM-ALB-00264,NOL-ALB-00583,2026-07-17 00:00:00,nota_tecnico,tecnico,Davide,,ALB-08: specchietto dx -> graffio superficiale. nessun intervento urgente // fermo 2gg
+COM-ALB-00265,NOL-ALB-00474,2026-07-19 17:34:00,nota_operatore,operatore,Franco,,"multa pedaggio non pagato targa EB-ALB-002, La Morra: rivalsa su cliente"
+COM-ALB-00268,NOL-ALB-00593,2026-07-21 22:59:00,whatsapp,cliente,3490730002,,"incidente in Cherasco con il mezzo (GS271WE): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-ALB-00267,NOL-ALB-00554,2026-07-20 09:47:00,nota_tecnico,tecnico,Elena,,"RIT ALB-04: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 30€ al cliente. Davide"
+COM-ALB-00266,NOL-ALB-00573,2026-07-20 00:00:00,modulo_web,cliente,marchettigi59@example.it,,"Nome: Marchetti Giulia | Email: marchettigi59@example.it | Tel: 3306874624 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-ALB-00269,NOL-ALB-00593,2026-07-22 20:06:00,nota_tecnico,tecnico,Davide,,"ALB-08 - verbale polizia locale in allegato, danni anteriori. fermo 20gg. M."
+COM-ALB-00270,NOL-ALB-00602,,email,cliente,vialeil99@example.it,Cancellazione,"Buongiorno,
+Il voloo e' stato cancelllato, devo annullare il noleggio. Come funzianr la penale?
+Grazie e saluti"
+COM-ALB-00271,NOL-ALB-00600,2026-07-24 00:00:00,sms,cliente,3730399722,,"ritardo di 2h x coda a Bra, scusate. Mezzo EB-ALB-002"
+COM-ALB-00272,NOL-ALB-00605,2026-07-25 18:41:00,nota_tecnico,tecnico,L.G.,,EB-ALB-002 rientrato. Danno pedale: display rotto. da mandare in carrozzeria. Foto ok in cartella. Stima fermo 3gg (Tech1)
+COM-ALB-00273,NOL-ALB-00592,2026-07-27 00:00:00,email,cliente,genregi15@example.net,Ottimo servizio,"Ciao,
+Grazie, tutto perfetto, ersonale gentile e mezzzo pulioo. Torneremo sicuramente
+Grazie mille"
+COM-ALB-00274,NOL-ALB-00613,2026-07-27 00:00:00,email,cliente,info@toscocantine.example.it,Richiesta informazioni,"Gentile Buby Rent,
+Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+Distinti saluti
+Tosco"
+COM-ALB-00275,NOL-ALB-00610,2026-07-27 20:45:00,whatsapp,cliente,3761104352,,"pneumatico a terra, il kit di riparazione nn funziona. Mezzo GN630ZK"
+COM-ALB-00276,NOL-ALB-00610,2026-07-27 23:21:00,email,cliente,nre@example.net,Piccolo incidente di parcheggio,"Buonasera,
+Volevo avvisarvi che sul mezzo (GN630ZK) c'e' un graffio su il fianco destro, non so se era gia' presente al ritiro. Se serve vi mando le foto
+Grazie
+Re Nicolò"
+COM-ALB-00277,NOL-ALB-00610,2026-07-28 16:10:00,nota_tecnico,tecnico,Luca B.,,"ALB-06: fianco dx -> danno strutturale sospetto, non guidabile. preventivo in attesa, mezzo bloccato // fermo 35gg"
+COM-ALB-00278,NOL-ALB-00616,2026-07-28 00:00:00,email,cliente,info@marchettieventi.example.it,disponibilita',"egregi signori,
+per un'azienda con partita iva c'e' una tariffa agevolata per noleggi ripetuti?
+cordialmente
+marchetti"
+COM-ALB-00279,NOL-ALB-00553,2026-07-31 22:49:00,modulo_web,cliente,toscocr52@example.net,,"Nome: Cristina | Email: toscocr52@example.net | Tel: 3730399722 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-ALB-00280,NOL-ALB-00510,2026-08-01 21:54:00,nota_tecnico,tecnico,Marco,,ALB-01: portellone -> grrffio supeerficiale. ds lucidare // fermo 2gg
+COM-ALB-00281,,2026-08-05 01:18:00,email,cliente,info@raveratrasporti.example.it,disponibilita',"posso ritirare il mezzo fuori orario? arrivo in treno la sera tardi
+ravera trasporti"
+COM-ALB-00181,NOL-ALB-00420,2026-05-13 02:22:00,email,cliente,boninoma39@example.it,Cancellazione,"salve,
+putroppo non posso piu' partire, cancello la prenotaziione. mi restituite l'acconto?
+grazie e saluti
+massimo bonino"
+COM-ALB-00283,NOL-ALB-00586,2026-08-07 11:00:00,email,cliente,paola.sacco@example.net,Grazie!,"Buongiorno,
+Everything was fine, clean car and quick checck-in. Recommended.
+In attesa di un vostro riscontro
+Paola"
+COM-ALB-00284,NOL-ALB-00617,2026-08-08 17:26:00,modulo_web,cliente,lmondino@example.com,Richiesta assistenza,"Nome: Luca Mondino | Email: lmondino@example.com | Tel: 3784444591 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-ALB-00285,NOL-ALB-00604,2026-08-08 19:52:00,nota_tecnico,tecnico,Fabio,,"controllo in riconsegna GR153MD: specchietto dx graffio superficiale, nessun intervento urgente. cliente informato. no fermo - Fabio"
+COM-ALB-00049,NOL-ALB-00140,2026-01-03 15:03:00,telefonata_trascritta,cliente,3406874822,,"Trascr. chiamata ore 8:01 (op. Franco) - cliente Nicolò Gerbino: volevo avvisarvi che la bici (EB-ALB-002) e' scivolata mentre era appoggiata a Cuneo, la catena ha un danno. Vi mando le foto"
+COM-ALB-00287,NOL-ALB-00608,2026-08-11 11:05:00,nota_tecnico,tecnico,Fabio,,ALB-03: SPECCHIETTO DX -> SEGNI DI SFREGAMENTO. SEGNALATO A FINE MESE PER CARROZZERIA // FERMO 1GG
+COM-ALB-00288,NOL-ALB-00614,2026-08-11 15:44:00,nota_tecnico,tecnico,Davide,,"ALB-04 - CAI ricevuto, tontroparte identificata, in attesa perizia. fermo 29gg. Gianni"
+COM-ALB-00289,NOL-ALB-00613,2026-08-15 13:08:00,whatsapp,cliente,3857012871,,"posso tenere il mezzo (Fiat Doblò) fino a domani? problemi personali, non riesco ad arrivare [incomprensibile]"
+COM-ALB-00033,NOL-ALB-00105,2025-12-17 08:22:00,email,cliente,info@pastoregiardinaggio.example.it,Ho dimenticato una cosa nel mezzo,"Egregi signori,
+Ho dimenticato un passeggino nel mezzo (GM356HX), potete controllare?
+Pastore Giardinaggio"
+COM-ALB-00291,NOL-ALB-00629,2026-08-19 13:26:00,nota_tecnico,tecnico,Elena,,"RIE ALB-07: INTRNO MOLTO SPORCO (SABBIA), PULIZIA STRAORDINARIA, ADDEBITO 30€ AL LIENTE. FABIO"
+COM-ALB-00292,NOL-ALB-00657,2026-08-20 20:20:00,nota_tecnico,tecnico,Stefano,,"RIT ALB-08: interno molto sporco (fango), pulizia straordinaria, addebito 40€ al cliente. Fabio"
+COM-ALB-00293,NOL-ALB-00657,2026-08-20 21:16:00,nota_tecnico,tecnico,Fabio,,"ALB-08 rientrato. Danno portellone post.: urto forte con piu' elementi coinvolti. preventivo in attesa, mezzo bloccato. Foto ok in cartella. Stima fermo 31gg (Davide)"
+COM-ALB-00294,NOL-ALB-00674,2026-08-23 15:32:00,sms,cliente,3799683336,,"ho sbagliatoo la data di rrittiro nelln prenotaazione, vorrei correggerla"
+COM-ALB-00295,NOL-ALB-00630,2026-08-23 17:27:00,email,cliente,vialeil99@example.it,Grazie!,"Egregi signori,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Grazie
+Viaale Ilaria
+Geet Outlook for Android"
+COM-ALB-00296,,2026-08-24 21:17:00,whatsapp,cliente,3363697406,,accettate carte di debito per la cauzione o serve per forza la carta di credito? [incomprensibile]
+COM-ALB-00297,NOL-ALB-00633,2026-08-26 07:58:00,email,cliente,pbosio@example.net,Contestazione addebito,"Salve,
+All'arrio il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Paolo"
+COM-ALB-00298,NOL-ALB-00659,2026-08-26 17:58:00,telefonata_trascritta,cliente,3708253779,,"trascr. chiamata ore 15:22 (op. paola) - cliente ilaria viale: la bici si spegne in salita dopo 10 km, sono a monforte"
+COM-ALB-00299,NOL-ALB-00619,2026-08-28 05:44:00,telefonata_trascritta,cliente,3550610647,,Trascr. chiamata ore 12:46 (op. Franco) - cliente Alessia Marchetti: gomma anteriore dx squarciata da una pietra a Serralunga
+COM-ALB-00300,NOL-ALB-00688,2026-08-28 13:38:00,telefonata_trascritta,cliente,3393420661,,trascr. chiamata ore 10:56 (op. paola) - cliente valentina tosco: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00301,NOL-ALB-00619,2026-08-29 13:44:00,whatsapp,cliente,3550610647,,"sto arrivando ma ho ritardo del treno, tra 3 ore sono da voi"
+COM-ALB-00302,NOL-ALB-00599,2026-08-29 00:00:00,email,cliente,toscocr52@example.net,annullo noleggio,"Buongiorno a tutti,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Cordialmente
+Cristina Tosco"
+COM-ALB-00303,NOL-ALB-00571,2026-08-29 17:30:00,nota_operatore,operatore,Paola,,"multa pedaggio non pagato targa EB-ALB-003, Canale: rivalsa su cliente"
+COM-ALB-00304,NOL-ALB-00619,2026-08-29 21:24:00,nota_tecnico,tecnico,L.G.,,ALB-02 - camera d'aria sostituita. fermo 1gg. Sara
+COM-ALB-00305,NOL-ALB-00658,2026-08-30 19:06:00,email,cliente,mgreco@example.org,Cancellazione,"devo annullara la prenotazioe per motivi di lavoro, posso avere il rimborso?
+grazie e soluti"
+COM-ALB-00306,NOL-ALB-00673,2026-08-31 05:59:00,whatsapp,cliente,3753823233,,"devo spostare il noleggio di un giorno, e' possibile? (ALB-07)"
+COM-ALB-00378,NOL-ALB-00845,2026-10-30 19:22:00,nota_tecnico,tecnico,Stefano,,"EB-ALB-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Andrea"
+COM-ALB-00308,NOL-ALB-00687,2026-09-02 17:21:00,whatsapp,cliente,3708253779,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-ALB-00309,NOL-ALB-00649,2026-09-03 19:07:00,nota_tecnico,tecnico,M.,,"RIT ALB-03: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. M."
+COM-ALB-00310,NOL-ALB-00670,2026-09-04 03:41:00,whatsapp,cliente,3447727021,,"pneumatico a terra, il kit di riparazione nn funziona. Mezzo GL477VC"
+COM-ALB-00311,NOL-ALB-00670,2026-09-04 15:01:00,nota_tecnico,tecnico,Paolo,,ALB-02 - camera d'aria sostituita. fermo 1gg. Marco
+COM-ALB-00312,NOL-ALB-00718,2026-09-05 13:46:00,modulo_web,cliente,fabio.chiesa@example.net,Richiesta assistenza,Nome: Chiesa Fabio | Email: fabio.chiesa@example.net | Tel: 3440260426 | Messaggio: e' possibile riconsegnare a Stresa invece che da voi? c'e' un supplemento?
+COM-ALB-00313,NOL-ALB-00678,2026-09-07 17:11:00,whatsapp,cliente,3555904234,,"sto arrivando ma ho coda a Bra, tra 3 ore sono da voi [incomprensibile]"
+COM-ALB-00314,NOL-ALB-00714,2026-09-08 02:02:00,email,cliente,aconte@example.com,Preventivo,"Buongiorno a tutti,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi"
+COM-ALB-00315,NOL-ALB-00664,2026-09-09 16:41:00,nota_tecnico,tecnico,Andrea,,"RIT ALB-05: interno molto sporco (sabbia), pulizia straordinaria, addebito 40€ al cliente. Tech1"
+COM-ALB-00316,NOL-ALB-00687,2026-09-09 18:59:00,nota_tecnico,tecnico,Luca B.,,RIT ALB-07 53072km - paraurti post. calotta rotta. da mandarre in carrozzeria. fermo 9gg. Marco
+COM-ALB-00317,NOL-ALB-00718,2026-09-11 00:32:00,email,cliente,fabio.chiesa@example.net,Oggetto dimenticato,"Egregi signori,
+Mi sono accorto di aver lasciato un caricabatterie nel mezzo, potrei passare domani
+In attesa di un vostro riscontro
+Fabio Chiesa"
+COM-ALB-00318,NOL-ALB-00671,2026-09-11 20:19:00,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna EB-ALB-003: pedale cambio posteriore rotto, preventivo richiesto. cliente informato. fermo 7gg - L.G."
+COM-ALB-00073,NOL-ALB-00147,2026-02-05 22:43:00,email,cliente,pchiesa@example.com,Guasto,"Buongiorno a tutti,
+La frizione slitta e c'e' odore di bruciato, sono a Canale. Mezzo Fiat Panda
+In attesa di un vostro riscontro
+Paola Chiesa"
+COM-ALB-00320,NOL-ALB-00735,2026-09-15 05:41:00,email,cliente,gambacl2@example.net,Preventivo,"Salve,
+E' possibile riconsegnare a Torino invece che da voi? c'e' un supplemento?
+Claudio Gamba"
+COM-ALB-00321,NOL-ALB-00696,2026-09-15 06:30:00,modulo_web,cliente,bravera@example.it,,Nome: Barbara Ravera | Email: bravera@example.it | Tel: 3289631427 | Messaggio: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno scontt
+COM-ALB-00322,NOL-ALB-00733,2026-09-16 22:35:00,email,cliente,abonino@example.net,Prolungamento noleggio,"Vorrei prolungare di 3 giorni, il mezzo e' libero?
+In attesa di un vostro riscontro
+Bonino Andrea"
+COM-ALB-00323,NOL-ALB-00723,2026-09-17 15:52:00,nota_tecnico,tecnico,Luca B.,,"RIT ALB-03: interno molto sporco (peli di animali), pulizia straordinaria, addebito 40€ al cliente. Tech1"
+COM-ALB-00324,NOL-ALB-00713,2026-09-17 00:00:00,nota_tecnico,tecnico,L.G.,,"EB-ALB-002 rsentrata piena di fango, lavaggio completo. addebito plizia 15â¬. Davide"
+COM-ALB-00325,NOL-ALB-00745,2026-09-19 10:14:00,whatsapp,cliente,3802955614,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-ALB-00326,NOL-ALB-00690,2026-09-19 20:47:00,nota_tecnico,tecnico,Stefano,,"EB-ALB-003: cavalletto -> cerchio storto. foto in cartella, addebito da valutare // fermo 7gg"
+COM-ALB-00327,NOL-ALB-00752,2026-09-20 00:00:00,email,cliente,martina.vacchetto@example.it,Re: Info noleggio,"Buongiorno,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Martina"
+COM-ALB-00328,,2026-09-20 12:56:00,whatsapp,cliente,3393329438,,"siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-ALB-00329,NOL-ALB-00668,2026-09-20 17:55:00,email,cliente,info@gastaldieventi.example.it,Re: Guasto,"Sptt.le Buby Rent,
+Il clima nn funziona e il cambio fa fttia a ingranaare la secnda (iat Panda)
+Distinti saluti"
+COM-ALB-00330,NOL-ALB-00724,2026-09-22 05:42:00,telefonata_trascritta,cliente,3901042524,,"Trascr. chiamata ore 13:40 (op. Paola) - clliente Fontana Claudio: poso tenere il mezzo (GN630ZKK) fino a domani? riardo del treno, non riesco ad arrivare"
+COM-ALB-00250,NOL-ALB-00544,2026-07-01 13:15:00,modulo_web,cliente,mgreco@example.org,Richiesta assistenza,"Nome: Greco Mario | Email: mgreco@example.org | Tel: 3725755553 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-ALB-00332,NOL-ALB-00756,2026-09-25 17:10:00,email,cliente,info@barberostudiotecnico.example.it,Richiesta informazioni,"Ciao,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Cordialmente
+Barbero"
+COM-ALB-00333,NOL-ALB-00685,2026-09-27 00:00:00,modulo_web,cliente,toscosi26@example.com,Contatti,"Nome: Silvia | Email: toscosi26@example.com | Tel: 3548032647 | Messaggio: sono bloccato per trattori sulla strada, arrivo con circa 4 ore di ritardo per la riconsegna (Thok E-K2)"
+COM-ALB-00334,NOL-ALB-00756,2026-09-28 21:21:00,nota_tecnico,tecnico,Davide,,ALB-02 rientrato. Danno fianco dx: crepa estesa. preventivo richiesto. Foto ok in cartella. Stima fermo 4gg (Gianni)
+COM-ALB-00335,NOL-ALB-00777,2026-09-29 12:02:00,email,cliente,allasiaro56@example.com,I: annullo noleggio,"Spett.le Buby Rent,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Roberta"
+COM-ALB-00336,NOL-ALB-00765,2026-09-30 18:50:00,sms,cliente,3576520207,,"mi sono accorto di aver lasciato il casco nel mezzo, potrei passare domani"
+COM-ALB-00337,NOL-ALB-00778,2026-10-02 04:06:00,email,cliente,morettipa23@example.org,Annullamento prenotazione,"Spett.le Buby Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-ALB-00338,NOL-ALB-00779,2026-10-02 00:00:00,nota_tecnico,tecnico,Luca B.,,ALB-01 rientrato. Danno paraurti ant.: segni di sfregamento. ritocco vernice. Foto ok in cartella. Stima fermo 2gg (Marco)
+COM-ALB-00339,NOL-ALB-00763,2026-10-03 00:00:00,whatsapp,cliente,3692493778,,"ho sbaglito la data di ritiro nella prenotazione, vorrei correggerlla"
+COM-ALB-00340,NOL-ALB-00760,2026-10-03 19:27:00,nota_tecnico,tecnico,Sara,,"EB-ALB-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. M."
+COM-ALB-00341,NOL-ALB-00750,2026-10-05 08:23:00,email,cliente,srosso@example.com,riconsegna in ritardo,"Ritardo di 1h per nebbia in collina, scusate. Mezzo GR153MD
+Distinti saluti
+Stefano Rosso"
+COM-ALB-00342,NOL-ALB-00796,2026-10-05 16:33:00,email,cliente,mrosso@example.com,annullo noleggio,"Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie e saluti"
+COM-ALB-00343,NOL-ALB-00781,2026-10-06 05:40:00,whatsapp,cliente,3265183894,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-ALB-00344,NOL-ALB-00506,2026-10-06 18:37:00,nota_operatore,operatore,Paola,,"ricevuto verbale del comune di Monforte per ZTL/eccesso di velocita', targa EB-ALB-003. da addebitare al cliente + 60€ gestione pratica"
+COM-ALB-00345,NOL-ALB-00636,2026-10-07 14:56:00,nota_tecnico,tecnico,L.G.,,"RIT ALB-03: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Stefano"
+COM-ALB-00346,NOL-ALB-00790,2026-10-07 17:24:00,sms,cliente,3867346471,,"ritardo di 4h per trattori sulla strada, scusate. mezzo eb-alb-002"
+COM-ALB-00347,NOL-ALB-00768,2026-10-08 17:03:00,modulo_web,cliente,baronema27@example.com,,"Nome: Mrtia | Email: baronema27@example.oom | Tel: 3532185931 | Messaggio: sto arrivando ma no tratori sula strada, tra 1 ore sono da voi"
+COM-ALB-00348,NOL-ALB-00794,2026-10-09 20:33:00,email,cliente,paolo.giordano@example.com,Cancellazione,"GENTILE BUBY RENT,
+PURTROPPO NON POSSO PIU' PARTIRE, CANCELLO LA PRENOTAZIONE. MI RESTITUITE L'ACCONTO?
+IN ATTESA DI UN VOSTRO RISCONTRO
+PAOLO GIORDANO"
+COM-ALB-00349,NOL-ALB-00817,2026-10-10 01:42:00,modulo_web,cliente,oliveromo6@example.it,,Nome: Monica | Email: oliveromo6@example.it | Tel: 3719241588 | Messaggio: per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-ALB-00350,NOL-ALB-00787,2026-10-10 14:47:00,nota_tecnico,tecnico,Fabio,,ALB-06: cerchio ant. sx -> ammaccatura con vernice saltata. da sostituire il pezzo // fermo 7gg
+COM-ALB-00351,NOL-ALB-00749,2026-10-12 17:15:00,whatsapp,cliente,3437757925,,"sono bloccato a Cherasco, la bici (Thok E-K2) non va piu', non riesco a tornare. Potete venire a prendermi?"
+COM-ALB-00352,NOL-ALB-00749,2026-10-12 22:31:00,nota_tecnico,tecnico,Elena,,"EB-ALB-002 - recupero con caro attrezzi, mezzo in officina. fermo 2gg. Elena"
+COM-ALB-00353,NOL-ALB-00751,2026-10-13 16:26:00,nota_tecnico,tecnico,Fabio,,ALB-07: specchietto dx -> striscio di vernice. ritocco vernice // fermo 1gg
+COM-ALB-00354,NOL-ALB-00776,2026-10-13 18:35:00,nota_tecnico,tecnico,Elena,,RIT EB-ALB-001 5556km - catena forcella piegata. preventivo richiesto. fermo 7gg. Andrea
+COM-ALB-00355,NOL-ALB-00772,2026-10-13 19:39:00,email,cliente,gerbinoni26@example.org,Feedback noleggio,"Ciao,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Distinti saluti
+Nicolò Gerbino"
+COM-ALB-00356,NOL-ALB-00763,2026-10-13 20:48:00,modulo_web,cliente,info@raveratrasporti.example.it,,"Nome: RAVERA TRASPORTI | Email: info@raveratrasporti.example.it | Tel: 3692493778 | Messaggio: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 180 euro"
+COM-ALB-00357,NOL-ALB-00814,2026-10-15 16:16:00,whatsapp,cliente,3636473561,,"posso tenere il mezzo (Fiat Doblò) fino a domani? ritardo del treno, non riesco ad arrivare"
+COM-ALB-00358,NOL-ALB-00814,2026-10-15 21:52:00,nota_tecnico,tecnico,Stefano,,"RIT ALB-07: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 50â¬ al cliente. Elena"
+COM-ALB-00359,NOL-ALB-00814,2026-10-15 00:00:00,nota_tecnico,tecnico,Marco,,RIT ALB-07 57739km - fianco dx graffio superficiale. da lucidare. fermo 2gg. Stefano
+COM-ALB-00360,NOL-ALB-00816,2026-10-16 00:00:00,sms,cliente,3440260426,,"sto arrivando ma ho problemi personali, tra 3 ore sono da voi"
+COM-ALB-00361,NOL-ALB-00813,2026-10-16 00:00:00,sms,cliente,3500696672,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-ALB-00362,NOL-ALB-00819,2026-10-17 10:30:00,telefonata_trascritta,cliente,3644457180,,"racr. chiamata ore 19:59 (op. Franio) - cliente Olivero Masssimo: ho bucato a ruota posteriore vicino a La Morra, non ho l camera d'aria"
+COM-ALB-00363,NOL-ALB-00819,2026-10-17 14:19:00,nota_tecnico,tecnico,Marco,,"EB-ALB-003 - pneumatico fianco danneggiato, nuovo trenno gomme. fermo 2gg. Fabio"
+COM-ALB-00364,NOL-ALB-00693,2026-10-17 21:54:00,email,cliente,vacchettoda92@example.net,Info noleggio,"Buongiosno a tutti,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-ALB-00365,NOL-ALB-00799,2026-10-19 01:40:00,email,cliente,giovanni.gerbino@example.net,Cauzione non restituita,"Buonasera,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale
+Cordialmente
+Gerbino Giovanni"
+COM-ALB-00366,NOL-ALB-00703,2026-10-19 14:06:00,nota_tecnico,tecnico,Tech1,,ALB-07 rientrato. Danno specchietto sx: cerchio schegggiato e ovaizzato. da sostituire il pezzzo. Foto ok in cartella. Stima fermo 9gg (Elenaa)
+COM-ALB-00367,NOL-ALB-00326,2026-10-19 20:44:00,email,cliente,molivero@example.org,Grazie!,"Gentile Buby Rent,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-ALB-00368,NOL-ALB-00808,2026-10-20 00:00:00,telefonata_trascritta,cliente,3761854420,,Trascr. chiamata ore 14:02 (op. Franco) - cliente Cottino Anna: ho visto un addebito di 48 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-ALB-00808
+COM-ALB-00369,NOL-ALB-00804,2026-10-22 09:44:00,sms,cliente,3397726390,,gomma anteriore dx squarciata da una pietra a Barolo
+COM-ALB-00036,NOL-ALB-00127,2025-12-19 14:05:00,whatsapp,cliente,3730399722,,accettate carte di debito x la cauzione o serve x forza la carta di credito?
+COM-ALB-00371,NOL-ALB-00783,2026-10-23 13:09:00,telefonata_trascritta,cliente,3343239128,,"Trascr. chiamata ore 9:45 (op. Franco) - cliente Giulia: incidente in Canale con il mezzo (GK284RT): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-ALB-00372,NOL-ALB-00827,2026-10-23 00:00:00,nota_tecnico,tecnico,Gianni,,"EB-ALB-002 - pneumatico fianco dannegiato, nuovo treno gomme. fermo 3gg. Sara"
+COM-ALB-00373,NOL-ALB-00783,2026-10-24 00:00:00,nota_tecnico,tecnico,Marco,,"ALB-01 - verbale polizia locale in allegato, danni anteriori. fermo 18gg. Sara"
+COM-ALB-00374,NOL-ALB-00755,2026-10-25 09:45:00,whatsapp,cliente,3520025179,,"ritardo di 4h per coda a Bra, scusate. Mezzo AALB-04"
+COM-ALB-00375,NOL-ALB-00841,2026-10-29 15:09:00,modulo_web,cliente,stefano.gerbino@example.net,,"Nome: Gerbino Stefano | Email: stefano.gerbino@example.net | Tel: 3365669005 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-ALB-00376,NOL-ALB-00844,2026-10-30 11:03:00,telefonata_trascritta,cliente,3250922822,,Trascr. chiamata ore 9:30 (op. Franco) - cliente Ferrari Serramenti: si sono spente tutte le luci del cruscotto mentre guidavo vicino a Bra
+COM-ALB-00377,NOL-ALB-00783,2026-10-30 13:12:00,nota_operatore,operatore,Paola,,"multa pedaggio non pagato targa GK284RT, Bra: rivalsa su cliente"
+COM-ALB-00379,NOL-ALB-00844,2026-10-30 19:34:00,nota_tecnico,tecnico,Davide,,ALB-04 - centralina da resettare. fermo 4gg. M.
+COM-ALB-00380,NOL-ALB-00834,2026-11-04 00:00:00,email,cliente,claudio.pastore@example.org,Segnalazione danno,"Ciao,
+Hello, I scratched the bumper while parking near Serralunga. How should I proceed with the deposit?
+In attesa di un vostro riscontro
+Claudio"
+COM-ALB-00381,NOL-ALB-00836,2026-11-04 03:35:00,sms,cliente,3548032647,,"mi sono accorto di aver lasciato gli occhiali da sole nel mezzo, potrei passare domani"
+COM-ALB-00382,NOL-ALB-00846,2026-11-07 13:30:00,sms,cliente,3780163985,,"ho dimenticato il portafoglio nel mezzo (Cube Kathmandu), potete controllare?"
+COM-ALB-00307,NOL-ALB-00515,2026-09-02 00:00:00,nota_operatore,operatore,Franco,,"multa pedaggio non pagato targa GN630ZK, Neive: rivalsa su cliente"

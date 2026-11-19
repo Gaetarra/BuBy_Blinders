@@ -1,0 +1,306 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-TOR-0001,TOR-17,04/11/2025,06/11/2025,2,carrozzeria,striscio di vernice,Carrozzeria Bruno,34666,90.00,S,NOL-TOR-00057,chiuso
+INT-TOR-0002,TOR-10,5 nov 2025,6 nov 2025,1,cambio gomme invernali,cambio stagionale,CARROZZERIA BRUNO,19747,79.00,NO,,chiuso
+INT-TOR-0003,TOR-12,06/11/2025,07/11/2025,1,CAMBIO GOMME INV.,cambio stagionale,Autofficina Piemonte Service,70769,"€ 80,00",no,,chiuso ok
+INT-TOR-0004,EB-TOR-005,07-11-2025,09-11-2025,2,elettrico/batteria,guasto elettrico/batteria,Bici Service Torino,2089,"€ 217,00",,NOL-TOR-00007,chiuso
+INT-TOR-0005,EB-TOR-001,09/11/2025,29/11/2025,20,bici,forcella e ruota da sostituire,bici service torino,1338,n.d.,SI,NOL-TOR-00032,
+INT-TOR-0006,TOR-15,2025-11-09,2025-11-11,1,cambio gomme,CSMBIO STAGIONALE,Autofficina Piemonte Service,44304,"€ 83,00",no,,chiuso
+INT-TOR-0007,TOR-08,10/11/2025,26/11/2025,16,carrozz.,"danno strutturale sospetto, non guidabile",carrozzeria bruno,66860,"2.336,00",S,NOL-TOR-00081,chiuso
+INT-TOR-0008,TOR 17,2025-11-10,2025-11-11,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,34917,"64,00",,,CHIUSO
+INT-TOR-0009,tor-02,2025-11-10,2025-11-11,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,48765,"55,00 €",N,,
+INT-TOR-0010,TOR-4,11/11/2025,13/11/2025,1,cambio gomme,cambio stagionale,Carrozzeria Bruno,23.719,"84,00 €",no,,
+INT-TOR-0011,TOR-06,2025-11-12,2025-11-13,1,gomme invernali,,Autofficina Piemonte Service,,"€ 81,00",NO,,chiuso ok
+INT-TOR-0012,TOR-16,12/11/2025,14/11/2025,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,73305,,,,CHIUSO
+INT-TOR-0013,TOR-13 ,13/11/2025,14/11/2025,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,34.491,730,,,chiuso
+INT-TOR-0014,TOR-05,14/11/2025,15/11/2025,1,cambio gomme,cambio  stagionale,Autofficina Piemonte Service,34386,91.00,N,,CHIUSO
+INT-TOR-0015,TOR14,14/11/25,16/11/25,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,84839,"€ 94,00",NO,,chiuso
+INT-TOR-0016,TOR-01,16/11/2025,17/11/2025,1,CAMBIO GOMME INV.,cambio stagionale,Carrozzeria Bruno,78160,"€ 63,00",N,,chiuso ok
+INT-TOR-0017,TOR-03,16/11/25,18/11/25,1,cambio gomme invernali,cambio  stagionale,Autofficina Piemonte Service,42825,95.00,N,,CHIUSO
+INT-TOR-0018,tor-17,17/11/25,23/11/25,6,Carrozzeria,dannii da sinistro stradale,Autofficina Piemonte Service,35 279,"€ 5403,00",NO,NOL-TOR-00102,CHIUSO
+INT-TOR-0019,TOR-07,17/11/2025,18/11/2025,1,cambio gomme invernali,cambio stagionale,Carrozzeria Bruno,116471,"61,00",,,chiuso
+INT-TOR-0020,eb-tor-005,19/11/2025,20/11/2025,1,pulizia profonda,pulizia straordinaria,Ciclofficina Lingotto,2162,"53,00 €",si,NOL-TOR-00126,chiuso
+INT-TOR-0021,TOR-13,2025-11-20,2025-11-22,2,carrozzeria,,Autofficina Piemonte Service,34906,"1.680,00",N,NOL-TOR-00036,chiuso
+INT-TOR-0022,EB-TOR-002,2025-11-21,2025-12-03,-12,ciclofficina,telaio incrinato,Bici Service Torino,2197,1158,S,NOL-TOR-00130,chiuso
+INT-TOR-0023,EB-TOR-002,21/11/2025,23/11/2025,2,pneumatici,sostituziioe pneumatico,Bici Service Torino,2197,"€ 336,00",N,NOL-TOR-00130,chiuso ok
+INT-TOR-0024,TOR-05,22-11-2025,24-11-2025,2,MECC.,guasto meccanico in nleggio,Autofficina Piemonte Service,34686,,no,NOL-TOR-00135,chiuso
+INT-TOR-0025,TOR-11,22/11/2025,23/11/2025,0,cambio gomme,cambio stagionale,Carrozzeria Bruno,24185,"88,00 €",,,chiuso
+INT-TOR-0026,TOR-02,2025-11-22,2025-12-15,23,carrozz.,,Carrozzeria Bruno,49 219,2008.00,NO,NOL-TOR-00031,
+INT-TOR-0027,TOR-07,24/11/2025,26/11/2025,2,Assistenza,intervento dopo assistenza stradale,Autofficina,117043,"154,00",NO,NOL-TOR-00106,chiuso ok
+INT-TOR-0028,TOR-14,24/11/2025,26/11/2025,2,carrozz.,,Carrozzeria Bruno,85295,"141,00",no,NOL-TOR-00143,chiuso
+INT-TOR-0029,TOR-09,2025-11-24,2025-11-25,1,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,48.564,"89,00",,,
+INT-TOR-0030,tor-17,26/11/25,27/11/25,1,Pulizia Profonda,pulizia straordinaria,Carrozzeria Bruno,35461,53.00,SI,NOL-TOR-00140,chiuso ok
+INT-TOR-0031,TOR-08,26/11/2025,27/11/2025,1,cambio gomme invernali,cambio stagonale,Autofficina Piemonte Service,66860,da definire,,,chiuso
+INT-TOR-0032,TOR-15,26/11/2025,22/12/2025,25,carrozzeria,danni da sinistro stradale,Autofficina Piemonte Service,44909,"€ 4991,00",,NOL-TOR-00149,chiuso ok
+INT-TOR-0033,EB-TOR-005,27/11/2025,30/11/2025,3,assistenza,intervento dopo assistenza stradale,Bici Service Torino,2393,"324,00 €",,,chiuso
+INT-TOR-0034,EB-TOR-005,29/11/2025,01/12/2025,4,tagliando,tagliano programmato,,2.393,75.00,no,,
+INT-TOR-0035,EB-TOR-003,01/12/2025,02/12/2025,1,bici,GRAFFI SUL TELAIO,Bici Service Torino,923,"82,00",no,NOL-TOR-00021,CHIUSO
+INT-TOR-0036,TOR-05,01/12/2025,03/12/2025,2,carrozzeria,segni di snregamento,Carrozzeria Bruno,35104,130.00,S,,CHIUSO
+INT-TOR-0037,TOR-03,2025-12-02,2025-12-05,2,Carrozzeria,graffio superficiale,Carrozzeria Bruno,43902 km,84.00,si,NOL-TOR-00125,CHIUSO
+INT-TOR-0038,TOR-10,03/12/25,08/12/25,5,Carrozzeria,crepa estesa,Autofficina Piemonte Service,22570,"€ 453,00",,NOL-TOR-00181,
+INT-TOR-0039,TOR-16 ,04/12/2025,05/12/2025,1,Pulizia Profonda,pulizia straordinaria,Carrozzeria Bruno,,46.00,SI,NOL-TOR-00173,
+INT-TOR-0040,TOR-04,04/12/25,24/12/25,19,Carrozzeria,deformazione importante,Autofficina Piemonte Service,25194,"€ 3754,00",S,NOL-TOR-00105,
+INT-TOR-0041,TOR-03,12/07/2025,12/08/2025,1,carrozz.,striscio di vernice,Carrozzeria Bruno,44312,,si,,CHIUSO
+INT-TOR-0042,TOR-16,18/12/2025,03/01/2026,,carrozz.,deformazione importante,autofficina piemonte service,75412,"€ 4068,00",SI,,CHIUSO
+INT-TOR-0043,TOR 14,12/21/2025,12/26/2025,5,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,87286,"181,00 €",,,chiuso ok
+INT-TOR-0044,TOR-03,22/12/2025,23/12/2025,1,pulizia straordinaria,pulizia straordinaria,Autofficina Piemonte Service,44997,"42,00 €",si,NOL-TOR-00238,chiuso
+INT-TOR-0045,TOR-6,12/22/2025,12/23/2025,1,cerchi/gomme,segni di sfregamento,Autofficina Piemonte Service,35594,"112,00 €",,,chiuso ok
+INT-TOR-0046,EB-TOR-001,23/12/2025,25/12/2025,1,tagliando,tagliando programmato,Ciclofficina Lingotto,1486,"€ 64,00",,,chiuso
+INT-TOR-0047,TOR-8,2025-12-24,2025-12-28,4,parabrezza,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,68688,"1.097,00",S,NOL-TOR-00244,chiuso
+INT-TOR-0048,TOR-05,05/01/26,06/01/26,0,carrozzeria,piccola scheggiatura,Carrozzeria Bruno,38002,203,,NOL-TOR-00205,CHIUSO
+INT-TOR-0049,TOR-16,06/01/2026,11/01/2026,5,Meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,76046,236,,NOL-TOR-00275,CHIUSO
+INT-TOR-0209,EB-TOR-005,30/07/2026,01/08/2026,2,bici,cerchio storto,Bici Service Torino,4574,"310,00",N,NOL-TOR-01066,chiuso
+INT-TOR-0051,TOR-07,10/01/26,12/01/26,2,carrozzeria,segni di sfregamento,Carrozzeria Bruno,119529,223.00,S,NOL-TOR-00297,chiuso
+INT-TOR-0052,TOR-05,2026-01-11,2026-01-13,2,carrozz.,graffio superficiale,AUTOFFICINA PIEMONTE SERVICE,38186,"172,00",NO,NOL-TOR-00306,CHIUSO
+INT-TOR-0053,TOR 12,11-01-2026,13-01-2026,2,manutenzione ordinaria,tagliando piogramato,Carrozzeria Bruno,75297,365.00,,,chiuso
+INT-TOR-0054,TOR-05,15/01/26,22/01/26,7,vetri,ammaccatura con vernice saltata,Carrozzeria Bruno,38222,"929,00 €",SI,NOL-TOR-00316,
+INT-TOR-0055,tor-02,15-01-2026,16-01-2026,1,tagliando,tagliando programmato,Autofficina Piemonte Service,52203,400.00,N,,chiuso
+INT-TOR-0056,EB-TOR-002,19/01/2026,22/01/2026,2,Bici,leva piegata ma funzionante,ciclofficina lingotto,2305,"67,00 €",SI,,CHIUSO
+INT-TOR-0057,TOR-10,21/01/26,28/01/26,,CARROZZERIA,cerchio scheggiato e ovalizzato,Carrozzeria Bruno,28050,"€ 1143,00",si,NOL-TOR-00279,chiuso
+INT-TOR-0058,tor-15,2026-01-24,2026-01-25,1,tagliando,tagliando proggrammato,Carrozzeria Bruno,47203,"€ 3510,00",no,,chiuso
+INT-TOR-0059,EB-TOR-002,02/02/2026,03/02/2026,,Tagliando,tagliando programmato,Ciclofficina Lingotto,2343,104.00,NO,,chiuso
+INT-TOR-0060,TOR06,02/02/26,05/02/26,3,tagl.,tagliando programmato,Carrozzeria,38206,230.00,,,chiuso ok
+INT-TOR-0061,TOR-10,04/02/26,07/02/26,3,tagliando,tagliando programmato,Carrozzeria Bruno,28963,"258,00",N,,chiuso ok
+INT-TOR-0062,TOR-10,08/02/26,14/02/26,6,batteria,guasto elettrico/batteria,Carrozzeria Bruno,29056,564.00,NO,NOL-TOR-00417,CHIUSO
+INT-TOR-0063,TOR-05,02/11/2026,02/13/2026,1,Pulizia Profonda,pulizia&nbsp;straordinariaa,Carrozzeria Bruno,41609,48.00,si,NOL-TOR-00359,
+INT-TOR-0064,TOR-07,2026-02-12,2026-02-15,3,tagliando,tagliando programmato,Autofficina Piemonte Service,123251,"353,00 €",N,,chiuso
+INT-TOR-0065,TOR-11,16/02/2026,18/02/2026,-1,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,30834,26,si,,chiuso
+INT-TOR-0066,TOR09,17/02/2026,23/02/2026,6,carrozz.,crepa estesa,Autofficina Piemonte Service,,"1.045,00",NO,NOL-TOR-00428,chiuso
+INT-TOR-0067,TOR-05,24/02/2026,03/03/2026,7,carrozz.,danni da sinistro strradale,Carrozzeria Bruno,42305,4476.00,NO,NOL-TOR-00361,chiuso
+INT-TOR-0068,TOR-02,25/02/26,27/02/26,4,parabrezza,segni di sfregamento,Autofficina Piemonte Service,54315,227.00,S,NOL-TOR-00464,chiuso
+INT-TOR-0069,EBTOR004,25/02/2026,26/02/2026,1,tagliando,tagliando programmato,Bici Service Torino,1 241,54.00,NO,,
+INT-TOR-0070,tor-15,2026-02-28,2026-03-07,7,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,48534,"501,00",S,,CHIUSO
+INT-TOR-0071,EB-TOR-005,28 feb 2026,6 mar 2026,6,CICLOFFICINA,forcella piegata,Bici Service Torino,2577,,N,NOL-TOR-00497,CHIUSO
+INT-TOR-0072,TOR-13,01/03/2026,27/03/2026,26,CARROZZERIA,danni da sinistro stradale,Carrozzeria Bruno,42.635,"€ 3988,00",no,NOL-TOR-00436,chiuso
+INT-TOR-0073,TOR-05,2026-03-02,2026-03-05,3,tagliando,tagliando programmato,Carrozzeria Bruno,42305,268,,,
+INT-TOR-0074,TOR-08,03/03/2026,07/03/2026,4,carrozz.,crepa estesa,Autofficina,73692,in garanzia,S,NOL-TOR-00398,CHIUSO
+INT-TOR-0075,TOR-08,03-03-2026,09-03-2026,6,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,73692 km,666.00,NO,NOL-TOR-00398,chiuso
+INT-TOR-0076,TOR-08,03/03/2026,05/03/2026,1,Pulizia Profonda,pulizia straordinaria,CARROZZERIA BRUNO,73692,da definire,SI,NOL-TOR-00398,chiuso ok
+INT-TOR-0077,TOR-11,2026-03-04,2026-03-05,1,tagl.,tagliando progrommato,autofficina piemonte service,32632,"399,00",NO,,
+INT-TOR-0078,TOR-10,06/03/2026,08/03/2026,2,vetri,graffit  superficiale,,,,S,NOL-TOR-00501,
+INT-TOR-0079,TOR-11,07/03/2026,10/03/2026,2,carrozzeria,piccola scheggiatura,Autofficina Piemonte Service,32.773,131.00,no,NOL-TOR-00540,chiuso
+INT-TOR-0080,TOR-09,08/03/2026,15/03/2026,7,meccanica,guasto meccanico in noleggio,carrozzeria bruno,52283,"€ 544,00",NO,NOL-TOR-00360,chiuso
+INT-TOR-0081,TOR-15,12/03/2026,13/03/2026,1,gomme,sostituzione pneumatico,Autofficina Piemonte Service,49094,in garanzia,NO,NOL-TOR-00538,chiuso ok
+INT-TOR-0082,EB-TOR-001,12-03-2026,14-03-2026,1,pulizia profonda,pulizia straordinaria,Bici Service Torino,1596,27,S,NOL-TOR-00574,chiuso
+INT-TOR-0083,EB-TOR-003,13/03/2026,16/03/2026,,pneumatici,sostituzione pneumatico,Bici Service Torino,1178,650.00,N,,
+INT-TOR-0084,TOR-03,2026-03-14,2026-03-17,3,manutenzione ordinaria,tagliando programmato,Carrozzeria Bruno,51.694,218,no,,chiuso ok
+INT-TOR-0085,TOR-16,15/03/2026,16/03/2026,1,Pulizia Profonda,pulizia straordinaria,Autofficina Piemonte Service,79126,n.d.,si,NOL-TOR-00531,chiuso ok
+INT-TOR-0086,EB-TOR-003,2026-03-18,2026-03-19,1,pulizia profonda,pulizia straordinaria,Ciclofficina Lingotto,1195,"€ 62,00",si,NOL-TOR-00599,chiuso ok
+INT-TOR-0087,EB-TOR-003,18/03/2026,19/03/2026,0,tagliando,tagliando programmato,Bici Service Torino,1195,"93,00",N,,chiuso
+INT-TOR-0088,TOR-04,18/03/26,21/03/26,3,tagliando,tagliando programmato,Autofficina Piemonte Service,32460,196,NO,,chiuso ok
+INT-TOR-0242,TOR-17,12/09/2026,11/10/2026,29,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,53 849,"6.638,00",,NOL-TOR-01440,CHIUSO
+INT-TOR-0090,EB-TOR-002,20/03/26,21/03/26,1,ciclofficina,leva piegata ma funzionante,Bici Service Torino,2683 km,"69,00",S,NOL-TOR-00613,chiuso ok
+INT-TOR-0091,TOR-02,20/03/2026,27/03/2026,6,carrozzeria,amraccatura con veeeice saltata,Autofficina Piemonte Service,56684,774,SI,NOL-TOR-00618,chiuso
+INT-TOR-0092,EB-TOR-003,26/03/2026,29/03/2026,3,bici,cerchio storto,Bici Service Torino,1219,"98,00 €",NO,NOL-TOR-00425,chiuso
+INT-TOR-0093,TOR-09,29-03-2026,31-03-2026,2,cerchi/gomme,graffio superficiale,Autofficina Piemonte Service,53331,"166,00",no,NOL-TOR-00647,chiuso
+INT-TOR-0094,TOR-09,29/03/2026,02/04/2026,4,assistenza,intervento dopo aassistenza stradale,Carrozzeria Bruno,53331,"€ 159,00",NO,,chiuso
+INT-TOR-0181,TOR-05,24/06/2026,25/06/2026,1,carrozzeria,striscio di vernice,Autofficina Piemonte Service,50795,161.00,si,NOL-TOR-00856,chiuso
+INT-TOR-0096,TOR-13,03/04/2026,16/04/2026,13,CARROZZERIA,rottura con perdita di liquidi,Autofficina Piemonte Service,43647,,SI,NOL-TOR-00445,chiuso
+INT-TOR-0097,EB-TOR-003,2026-04-03,2026-04-04,1,bici,leva piegata ma funzionante,Ciclofficina Lingotto,1.322,46.00,NO,NOL-TOR-00640,chiuso ok
+INT-TOR-0098,TOR-16,03/04/2026,05/04/2026,1,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,80255,24,SI,NOL-TOR-00530,chiuso ok
+INT-TOR-0099,TOR 01,03/04/2026,07/04/2026,5,manutenzione ordinaria,tagliando proggramato,Autofficina Piemonte Service,87809,"201,00",,,chiuso
+INT-TOR-0100,TOR-08,2026-04-04,2026-05-07,33,carrozzeria,"elemento distrutto, da sostituire",Carrozzeria Bruno,74784,"6.791,00",SI,NOL-TOR-00519,
+INT-TOR-0101,EBTOR003,05/04/2026,25/04/2026,20,Bici,"urto forte, bici non utilizzabile",Bici Service Torino,1339 km,"471,00",NO,,chiuso
+INT-TOR-0102,TOR-09,06/04/26,11/04/26,5,carrozzeria,caotta rotta,autofficina piemonte service,53503,"994,00",si,NOL-TOR-00665,chiuso
+INT-TOR-0103,TOR-17,08/04/26,09/04/26,1,tagliando,tagliando programmato,Autofficina Piemonte Service,44420,"213,00",N,,CHIUSO
+INT-TOR-0104,EB-TOR-005,12/04/2026,13/04/2026,1,meccanica,guasto meccanico in noleggio,Bici Service Torino,2882,"545,00",no,NOL-TOR-00580,chiuso
+INT-TOR-0105,EB TOR 001,2026-04-12,2026-04-13,1,tagliando,tagliando programmato,Bici Service Torino,2001,"€ 41,00",,,chiuso ok
+INT-TOR-0106,TOR-01,2026-04-14,2026-04-24,9,Carrozzeria,danno da urto 20-30 cm,autofficina piemonte service,88566,"718,00 €",SI,NOL-TOR-00661,CHIUSO
+INT-TOR-0107,EB-TOR-002,2026-04-14,2026-04-15,,tagliando,tagliando programmato,Bici Service Torino,3095,"€ 88,00",N,,
+INT-TOR-0108,EB-TOR-005,15/04/26,16/04/26,1,tagliando,tagliando programmato,Ciclofficina Lingotto,2899,"58,00",N,,chiuso
+INT-TOR-0109,TOR-04,2026-04-15,2026-04-18,3,cerchi/gomme,,autofficina piemonte service,33724,569,SI,NOL-TOR-00697,
+INT-TOR-0110,eb-tor-004,16/04/2026,17/04/2026,0,tagliando,tagliando programmato,Ciclofficina Lingotto,1765,51.00,,,chiuso
+INT-TOR-0111,TOR-09,2026-04-16,2026-04-19,3,tagl.,TAGLIANDO PROGRAMMATO,Carrozzeria Bruno,53917,294.00,N,,
+INT-TOR-0112,TOR-03,16/04/2026,18/04/2026,1,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,53518,"92,00",NO,,
+INT-TOR-0113,TOR-6,16/04/2026,18/04/2026,2,carrozz.,segni di sfregamento,AUTOFFICINA PIEMONTE SERVICE,43447,"234,00",si,NOL-TOR-00516,
+INT-TOR-0114,EB-TOR-001,17/04/26,20/04/26,2,bici,leva piegata ma funzionante,Ciclofficina Lingotto,2022,"45,00 €",no,NOL-TOR-00532,
+INT-TOR-0115,TOR-04,18/04/2026,19/04/2026,1,gomme estive,cambio stagionale,Autofficina Piemonte Service,33724,"69,00",N,,CHIUSO
+INT-TOR-0116,TOR-12,18/04/2026,20/04/2026,2,Carrozzeria,leggera ammaccatura,Carrozzeria Bruno,81472,"149,00",si,NOL-TOR-00717,
+INT-TOR-0117,TOR-05,19/04/2026,21/04/2026,1,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,45151,66,NO,,CHIUSO
+INT-TOR-0118,TOR-10,2026-04-19,2026-04-21,1,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,33298,"63,00",,,chiuso
+INT-TOR-0119,TOR-17,20/04/2026,21/04/2026,1,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,45122,82.00,,,chiuso ok
+INT-TOR-0120,TOR-12,20-04-2026,21-04-2026,1,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,81472,"95,00",,,chiuso ok
+INT-TOR-0121,TOR-13,2026-04-22,2026-04-25,3,tagliando,tagliando programmato,Carrozzeria Bruno,44145,"361,00",N,,chiuso
+INT-TOR-0122,tor-14,2026-04-22,2026-04-23,1,CAMBIO GOMME EST.,cabio stagionale,Carrozzeria Bruno,96321,"€ 61,00",no,,CHIUSO
+INT-TOR-0123,TOR-11,2026-04-22,2026-04-23,1,gomme estive,cambio stagionale,Carrozzeria Bruno,34324,"73,00",no,,chiuso
+INT-TOR-0124,TOR-02,23/04/26,25/04/26,2,carrozzeria,legggera ammaccatura,Carrozzeria Bruno,59276,82.00,no,NOL-TOR-00694,chiuso
+INT-TOR-0125,tor-07,2026-04-23,2026-04-25,1,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,128090,94.00,NO,,chiuso
+INT-TOR-0126,TOR-09,23-04-2026,25-04-2026,1,cambio gomme estive,cambio stagionale,carrozzeria bruno,54130,66.00,no,,chiuso
+INT-TOR-0127,TOR-15,24/04/2026,25/04/2026,1,cambio gomme estive,CAMBIO STAGIONALE,carrozzeria bruno,52431,"93,00",NO,,chiuso
+INT-TOR-0128,TOR-12,25/04/2026,12/05/2026,17,CARROZZERIA,"danno strutturale sospetto, non guidabile",Autofficina Piemonte Service,81811,6391,SI,NOL-TOR-00772,chiuso ok
+INT-TOR-0129,EB-TOR-004,25/04/26,27/04/26,2,bici,display rotto,,1919,"299,00",si,NOL-TOR-00714,
+INT-TOR-0130,TOR-13,25/04/2026,26/04/2026,1,cambio gomme estive,cambio stagionale,,44145 km,"66,00",no,,chiuso
+INT-TOR-0131,TOR-16,2026-04-26,2026-05-19,23,CARROZZERIA,danni da sinistro stradale,Carrozzeria Bruno,81 623,"6.984,00",NO,NOL-TOR-00770,chiuso ok
+INT-TOR-0132,TOR-02,2026-04-26,2026-04-27,1,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,59434,"84,00 €",no,,chiuso ok
+INT-TOR-0133,tor-01,27/04/2026,28/04/2026,1,CAMBIO GOMME EST.,cambio stagionale,Carrozzeria Bruno,89272,,no,,CHIUSO
+INT-TOR-0134,TOR-09,30/04/2026,05/05/2026,5,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,54422,562.00,no,NOL-TOR-00722,chiuso ok
+INT-TOR-0135,TOR-14,30/04/2026,05/05/2026,,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,96734,"150,00 €",N,NOL-TOR-00762,chiuso
+INT-TOR-0136,TOR-23,01/05/2026,14/05/2026,13,CARROZZERIA,danni da sinistro stradale,,128605,6961.00,,,
+INT-TOR-0137,TOR-06,05/02/2026,05/03/2026,1,CAMBIO GOMME EST.,cambio stagionale,CARROZZERIA BRUNO,45 397,da definire,N,,chiuso
+INT-TOR-0138,TOR-04,02/05/26,04/05/26,2,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,34 226,"531,00",NO,NOL-TOR-00766,chiuso ok
+INT-TOR-0139,EB-TOR-004,03/05/2026,06/05/2026,1,gomme,sostituzione pneumatico,Bici Service Torino,1992,"€ 392,00",N,NOL-TOR-00778,chiuso
+INT-TOR-0140,TOR-14,04/05/26,07/05/26,3,tagliando,TAGLIANDO PROGRAMMATO,Carrozzeria Bruno,96734 km,398.00,no,,chiuso
+INT-TOR-0141,EB-TOR-002,2026-05-05,2026-05-08,3,bici,forcella piegata,Ciclofficina Lingotto,3384,"385,00",,NOL-TOR-00683,chiuso
+INT-TOR-0142,TOR-08,2026-05-06,2026-05-07,1,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,74784 km,77,,,CHIUSO
+INT-TOR-0143,EB-TOR-003,2026-05-07,2026-05-08,1,tagliando,tagliando programmato,Ciclofficina Lingotto,1758,49.00,NO,,CHIUSO
+INT-TOR-0144,EB-TOR-004,2026-05-09,2026-05-10,1,Pulizia Profonda,pulizia  straordinaria,Bici Service Torino,2123,"€ 36,00",si,NOL-TOR-00843,chiuso
+INT-TOR-0149,TOR-04,14/05/2026,18/05/2026,3,Carrozzeria,crepa estesa,carrozzeria bruno,35265,"€ 428,00",NO,NOL-TOR-00720,chiuso ok
+INT-TOR-0146,TOR-02,09/05/2026,14/05/2026,4,carrozzeria,calotta rotta,Carrozzeria Bruno,60013,"1111,00 €",,NOL-TOR-00626,chiuso
+INT-TOR-0147,tor-10,11/05/2026,18/05/2026,6,meccanico,guasto meccanico in noleggio,Autofficina Piemonte Service,35122,"€ 635,00",N,NOL-TOR-00655,chiuso ok
+INT-TOR-0148,TOR-05,12/05/2026,18/05/2026,6,Carrozzeria,crepa estesa,Carrozzeria Bruno,46970,1193,S,NOL-TOR-00831,chiuso
+INT-TOR-0145,EB-TOR-001,09/05/2026,11/05/2026,2,elettrico,,Ciclofficina Lingotto,2374,208.00,no,NOL-TOR-00861,chiuso
+INT-TOR-0150,EB-TOR-003,15 mag 2026,17 mag 2026,2,gomme,sostituzione pneumatico,Bici Service Torino,1835,"84,00 €",NO,NOL-TOR-00785,chiuso
+INT-TOR-0151,TOR-16,18/05/2026,19/05/2026,1,gomme estive,cambio stagionale,Autofficina Piemonte Service,81 623,85,N,,chiuso
+INT-TOR-0152,TOR-09 ,2026-05-19,2026-05-28,9,carrozz.,ammaccatura con vernice saltata,Autofficina Piemonte Service,54957,"898,00",N,NOL-TOR-00824,chiuso
+INT-TOR-0153,EB-TOR-004,19/05/26,20/05/26,1,tagl.,tagliando programmato,Ciclofficina Lingotto,2265,"53,00",no,,
+INT-TOR-0154,TOR-13 ,19/05/2026,23/05/2026,4,carrozz.,,Carrozzeria Bruno,45.570,503.00,si,NOL-TOR-00826,chiuso ok
+INT-TOR-0155,TOR-10,19/05/2026,28/05/2026,9,vetri,danno da urto 20-30 cm,Autofficina Piemonte Service,35.231,"687,00",no,NOL-TOR-00886,chiuso ok
+INT-TOR-0156,EB-TOR-002,20/05/2026,21/05/2026,,tagliando,tagliando programmato,Ciclofficina Lingotto,3597,90,N,,CHIUSO
+INT-TOR-0157,EB-TOR-005,21/05/2026,22/05/2026,1,tagl.,tagliando programmato,Bici Service Torino,3399,"109,00",N,,
+INT-TOR-0158,EB-TOR-002,05/21/2026,05/24/2026,3,meccanica,GUASTO MECCANICO IN NOLEGGIO,Ciclofficina Lingotto,3613,83.00,NO,NOL-TOR-00891,chiuso ok
+INT-TOR-0159,EB-TOR-001,21/05/2026,23/05/2026,1,tagliando,tagiando programmato,bici service torino,2648,"€ 60,00",no,,chiuso ok
+INT-TOR-0160,EB-TOR-003,22/05/2026,25/05/2026,3,meccanica,guasto meccanico in noleggio,Bici,1.911,"234,00 €",no,NOL-TOR-00934,CHIUSO
+INT-TOR-0161,TOR-14,2026-05-23,2026-06-03,11,carrozzeria,danni da sinistro stradale,carrozzeria bruno,98910,"7.054,00",NO,NOL-TOR-00933,chiuso ok
+INT-TOR-0162,TOR-08,2026-05-29,2026-06-01,2,tagliando,tagliando programmato,Autofficina Piemonte Service,76623,,,,chiuso
+INT-TOR-0163,EB-TOR-004,2026-05-29,2026-06-01,2,gomme,eostituzione pneumarico,Bici Service Torino,2319,"€ 435,00",,NOL-TOR-00853,CHIUSO
+INT-TOR-0164,TOR-12,30/05/2026,17/06/2026,18,cerchi/gomme,"elemento&nbsp;distrutto, da sostituire",CARROZZERIA BRUNO,82670,"1.544,00",N,NOL-TOR-00811,chiuso ok
+INT-TOR-0165,eb-tor-001,2026-05-30,2026-06-04,4,bici,forcella piegata,Ciclofficina Lingotto,2724,258.00,si,,chiuso
+INT-TOR-0166,TOR-04,01/06/2026,03/06/2026,2,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,36540,147.00,NO,NOL-TOR-00973,chiuso
+INT-TOR-0167,TOR-06,02/06/2026,15/06/2026,13,CARROZZERIA,deformazione importante,autofficina piemonte service,47174,6749.00,SI,NOL-TOR-00975,
+INT-TOR-0168,EB-TOR-003,2026-06-02,2026-06-03,1,tagliando,tagliano prorammato,Bici Service Torino,2324,"€ 109,00",N,,chiuso
+INT-TOR-0169,TOR-13,2026-06-15,2026-07-16,,carrozzeria,"elemento disstrutto, da sostituire",Carrozzeria Bruno,46903,"€ 5716,00",S,NOL-TOR-01002,chiuso
+INT-TOR-0170,TOR-01,16-06-2026,24-06-2026,8,Elettrico,guasto elettrico/batteria,,92568,"228,00",no,NOL-TOR-00888,
+INT-TOR-0171,EBTOR002,06/17/2026,06/19/2026,1,pulizia straordinaria,pulizia straordinaria,Ciclofficina Lingotto,4050,"29,00",S,NOL-TOR-01067,chiuso
+INT-TOR-0172,EB-TOR-001 ,18-06-2026,19-06-2026,1,bici,manubrio leggermente fuori asse,bici service torino,3084,"€ 31,00",si,NOL-TOR-01050,
+INT-TOR-0173,TOR-16,19/06/2026,22/06/2026,3,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,83 331,"149,00",no,NOL-TOR-00960,chiuso
+INT-TOR-0174,EB-TOR-003,2026-06-20,2026-06-22,2,bici,forcella piegata,Bici Service Torino,2627,"318,00",S,NOL-TOR-01068,chiuso ok
+INT-TOR-0175,EB-TOR-005,20/06/2026,21/06/2026,1,TAGLIANDO,tagliando programmato,Ciclofficina Lingotto,4024,107,no,,chiuso
+INT-TOR-0176,eb-tor-001,21/06/2026,28/06/2026,7,Bici,forcella piegata,Bici Service Torino,3203,"€ 249,00",SI,NOL-TOR-01091,chiuso
+INT-TOR-0177,TOR-12,2026-06-21,2026-07-20,29,carrozzeria,urto forte con piu' elementi coinvolti,Autofficina Piemonte Service,,1576.00,SI,NOL-TOR-01078,chiuso ok
+INT-TOR-0178,TOR 05,21/06/2026,22/06/2026,1,carrozzeria,segni di sfregamento,Autofficina,50643,248.00,,NOL-TOR-00908,chiuso
+INT-TOR-0179,EB-TOR-002 ,23 giu 2026,24 giu 2026,1,tagliando,tagliando programmato,Bici Service Torino,4101,"€ 96,00",NO,,chiuso ok
+INT-TOR-0180,EB-TOR-004,23/06/2026,25/06/2026,1,manutenzione ordinaria,tagliando programmato,Ciclofficina Lingotto,2837,"82,00",NO,,chiuso
+INT-TOR-0095,TOR-12,31/03/2026,05/04/2026,4,Carrozzeria,ammccatura con ernice saltata,carrozzeria bruno,79992,843.00,,NOL-TOR-00560,chiuso
+INT-TOR-0182,TOR04,24/06/2026,25/06/2026,1,cristalli,piccola scheggiatura,Carrozzeria Bruno,37768,88.00,SI,NOL-TOR-00945,chiuso ok
+INT-TOR-0183,TOR-06,2026-06-26,2026-06-27,1,carrozzeria,strisccio di vernice,Autofficina Piemonte Service,49215,100.00,no,,chiuso
+INT-TOR-0184,EB-TOR-001,27 giu 2026,29 giu 2026,1,tagliando,tagliando programmato,Bici Service Torino,3203,43,N,,chiuso
+INT-TOR-0185,TOR-03,29/06/2026,17/07/2026,18,vetri,"elemento distrutto, da sostituire",Autofficina Piemonte Service,59691,"2.075,00",,NOL-TOR-01055,chiuso
+INT-TOR-0186,EB-TOR-003,2026-06-30,2026-07-01,1,CICLOFFICINA,graffi sul telaio,Bici Service Torino,2817,"€ 82,00",no,NOL-TOR-01130,CHIUSO
+INT-TOR-0187,EB-TOR-001,30/06/2026,01/07/2026,1,bici,graffi sul telaio,Ciclofficina Lingotto,3223,56.00,,NOL-TOR-01145,chiuso ok
+INT-TOR-0188,TOR-16,01/07/2026,03/07/2026,1,carrozzeria,piccola scheggiatura,Carrozzeria,84264,"121,00",SI,NOL-TOR-01148,
+INT-TOR-0189,EB-TOR-003,2026-07-02,2026-07-03,1,tagliando,tagliando programmato,Ciclofficina Lingotto,2835 km,107,NO,,chiuso
+INT-TOR-0190,TOR-16,02/07/2026,03/07/2026,1,tagl.,tagliando programmato,Autofficina Piemonte Service,84264,177.00,NO,,chiuso
+INT-TOR-0191,tor-09,2026-07-09,2026-07-18,9,cerchi,ammaccatura con vernice saltata,Autofficina Piemonte Service,57.800,1073,N,NOL-TOR-01073,
+INT-TOR-0192,EB-TOR-002,09/07/2026,11/07/2026,1,bici,graffi sul telaio,Ciclofficina Lingotto,4364,27,no,NOL-TOR-01184,chiuso
+INT-TOR-0193,TOR-17,11/07/2026,13/07/2026,2,carrozz.,leggera  ammaccatura,Autofficina Piemonte Service,51 170,214,N,NOL-TOR-01178,CHIUSO
+INT-TOR-0194,EB-TOR-005,13/07/2026,14/07/2026,1,bici,leva  piegata  ma funzionante,bici service torino,4377,74,,NOL-TOR-01138,chiuso
+INT-TOR-0195,EB TOR 004,13/07/2026,15/07/2026,2,Assistenza,intervento  dopo  assistenza stradale,Ciclofficina Lingotto,3218,"165,00",no,NOL-TOR-01141,chiuso ok
+INT-TOR-0196,EB-TOR-001,14/07/2026,15/07/2026,1,pulizia profonda,pulizia straordinaria,Bici Service Torino,3364,43.00,S,,chiuso
+INT-TOR-0197,EB-TOR-004,2026-07-17,2026-07-18,3,ciclofficina,,Bici Service Torino,3333,"53,00",SI,NOL-TOR-01221,CHIUSO
+INT-TOR-0198,EBTOR003,19/07/2026,21/07/2026,2,batteria,guasto elettrico/batteria,Bici Service Torino,3325,"253,00",NO,NOL-TOR-01168,CHIUSO
+INT-TOR-0199,TOR-14,21/07/2026,25/07/2026,4,gomme,sostituzione pneumatico,Carrozzeria Bruno,102811,364.00,no,NOL-TOR-01209,chiuso
+INT-TOR-0200,EB-TOR-001,22/07/2026,24/07/2026,2,MECC.,guasto meccanico in noleggio,Ciclofficina Lingotto,3411,324.00,,,chiuso
+INT-TOR-0201,TOR 12,22 lug 2026,25 lug 2026,0,cerchi/gomme,leggera ammaccatura,Autofficina Piemonte Service,83081,192.00,NO,NOL-TOR-01183,chiuso
+INT-TOR-0202,EB-TOR-003,24/07/2026,25/07/2026,-1,TAGLIANDO,TAGLIANDO PROGRAMMATO,Bici Service Torino,3375,"53,00",NO,,chiuso
+INT-TOR-0203,EB-TOR-004,24-07-2026,25-07-2026,1,TAGLIANDO,tagliando programmato,Bici Service Torino,3 359,100.00,NO,,chiuso
+INT-TOR-0204,TOR-11,24-07-2026,25-07-2026,1,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,41064,"36,00",SI,NOL-TOR-01219,CHIUSO
+INT-TOR-0205,TOR-05,26/07/2026,28/07/2026,2,Gomme/cerchi,,Carrozzeria Bruno,52683 km,"103,00",N,NOL-TOR-01228,chiuso ok
+INT-TOR-0206,TOR-17,2026-07-26,2026-08-05,9,carrozzeria,crepa estesa,Carrozzeria Bruno,52463,528.00,NO,NOL-TOR-01180,chiuso
+INT-TOR-0207,EB-TOR-005,27/07/2026,28/07/2026,1,Tagliando,tagliando programmato,Ciclofficina Lingotto,4557 km,102.00,N,,chiuso ok
+INT-TOR-0208,TOR-12,27 lug 2026,28 lug 2026,-1,CARROZZERIA,piccola scheggiatura,Carrozzeria Bruno,83176,92.00,N,NOL-TOR-01265,
+INT-TOR-0050,TOR-09,07/01/2026,05/02/2026,28,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,51081,4769.00,N,NOL-TOR-00292,chiuso
+INT-TOR-0210,eb-tor-002,07/31/2026,08/09/2026,9,Bici,,Ciclofficina Lingotto,4609,1223.00,SI,NOL-TOR-01287,
+INT-TOR-0211,tor-10,01/08/26,02/08/26,1,carrozz.,striscio di vernice,carrozzeria bruno,38285,"197,00",si,NOL-TOR-01278,
+INT-TOR-0212,TOR10,03/08/2026,05/08/2026,1,carrozzeria,graffio superficiale,Autofficina Piemonte Service,38 460,202,,NOL-TOR-01271,chiuso ok
+INT-TOR-0213,TOR-12,08/05/2026,08/13/2026,6,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,,429.00,NO,NOL-TOR-01289,chiuso
+INT-TOR-0214,EB-TOR-002,2026-08-09,2026-08-10,1,tagliando,tagliando programmato,Bici Service Torino,4609,44.00,NO,,chiuso
+INT-TOR-0215,TOR-13,09/08/2026,16/08/2026,7,carrozzeria,ammaccatura con vernice saltata,Autofficina Piemonte Service,48543,943.00,SI,NOL-TOR-01233,
+INT-TOR-0216,TOR-17,14/08/26,15/08/26,1,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,52765,n.d.,SI,NOL-TOR-01257,CHIUSO
+INT-TOR-0217,EB-TOR-003,14/08/2026,03/09/2026,19,bici,"urto forte, bici non utilizzabile",Ciclofficina Lingotto,3646,,no,NOL-TOR-01362,chiuso ok
+INT-TOR-0218,TOR-06,15 ago 2026,17 ago 2026,2,tagliando,tagliando programmato,Carrozzeria Bruno,53491,"€ 245,00",NO,,
+INT-TOR-0219,TOR-09,21/08/2026,25/08/2026,4,carrozzeria,danno da urto 20-30 cm,Carrozzeria Bruno,60602,1124.00,si,NOL-TOR-01312,CHIUSO
+INT-TOR-0220,TOR-15,22/08/2026,28/08/2026,5,carrozzeria,danno da urto 20-30 cm,Carrozzeria Bruno,62584,"€ 735,00",NO,NOL-TOR-01250,CHIUSO
+INT-TOR-0247,EB-TOR-003,19/09/2026,21/09/2026,1,batteria,guasto elettrico/batteria,Ciclofficina Lingotto,4055,"49,00 €",NO,NOL-TOR-01525,chiuso
+INT-TOR-0222,TOR-06,25/08/2026,08/09/2026,,carrozzeria,"elemennto distrutto, da sostituire",Carrozzeria Bruno,53704,4583.00,N,NOL-TOR-01389,CHIUSO
+INT-TOR-0223,EB-TOR-001,26/08/2026,02/09/2026,6,bici,forcella piegata,Bici Service Torino,3684,da definire,,NOL-TOR-01392,chiuso
+INT-TOR-0224,TOR-12,27/08/2026,28/08/2026,1,carrozzeria,segni di sfregamento,Autofficina Piemonte Service,84329 km,"202,00 €",si,NOL-TOR-01409,chiuso ok
+INT-TOR-0245,EB-TOR-003,2026-09-16,2026-09-17,1,meccanica,guasto meccanico in noleggio,Ciclofficina Lingotto,3992,,N,NOL-TOR-01509,chiuso ok
+INT-TOR-0226,tor-14,30/08/2026,31/08/2026,1,CARROZZERIA,striscio di vernice,Autofficina Piemonte Service,,208.00,,NOL-TOR-01357,CHIUSO
+INT-TOR-0227,TOR-02,03/09/2026,10/09/2026,7,carrozz.,crepa estesa,CARROZZERIA BRUNO,67576,9270.00,NO,NOL-TOR-01432,chiuso
+INT-TOR-0228,TOR-04,03/09/2026,04/09/2026,1,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,41123,30,si,NOL-TOR-01412,chiuso
+INT-TOR-0236,TOR-09,08/09/2026,09/09/2026,1,carrozzeria,grafio superficiale,Autofficina Piemonte Service,62052,"220,00",no,NOL-TOR-01458,chiuso
+INT-TOR-0230,TOR-03,03/09/2026,08/09/2026,4,soccorso,intervento dopo assistenza stradale,Autofficina Piemonte Service,,4200,N,NOL-TOR-01383,
+INT-TOR-0231,TOR-08,04/09/2026,05/09/2026,1,vetri,striscio di vernice,Autofficina Piemonte Service,82.232,"106,00 €",NO,NOL-TOR-01367,
+INT-TOR-0232,TOR-17,05/09/2026,06/09/2026,1,Carrozzeria,striscio di vernice,Carrozzeria,53177,199.00,no,NOL-TOR-01410,chiuso
+INT-TOR-0233,TOR-05,07/09/2026,08/09/2026,1,vetri,graffio superficiale,Carrozzeria,56.486,199.00,N,NOL-TOR-01447,chiuso
+INT-TOR-0234,TOR-15,08/09/2026,17/09/2026,9,carrozzeria,danno&nbsp;da&nbsp;urto 20-30 cm,,65610,429.00,NO,NOL-TOR-01341,chiuso
+INT-TOR-0235,TOR-15,08/09/26,10/09/26,2,Elettrico,guasto elettrico/batteria,Carrozzeria Bruno,65610,"€ 437,00",no,NOL-TOR-01341,
+INT-TOR-0229,EB-TOR-001,03/09/2026,04/09/2026,1,TAGLIANDO,tagliando programmato,Ciclofficina,3709,"104,00",NO,,chiuso ok
+INT-TOR-0237,TOR-13,08/09/2026,16/09/2026,7,Carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,50178,1010.00,si,NOL-TOR-01335,
+INT-TOR-0238,TOR-16,2026-09-09,2026-09-17,8,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,88904,"586,00 €",N,NOL-TOR-01442,chiuso
+INT-TOR-0239,EB-TOR-004,09-09-2026,11-09-2026,1,tagliando,tagliando programmato,Bici Service Torino,3918,56.00,N,,CHIUSO
+INT-TOR-0240,TOR-12,2026-09-10,2026-09-17,7,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,85210,"666,00 €",no,,chiuso
+INT-TOR-0241,EB-TOR-003,10/09/2026,12/09/2026,4,manutenzione ordinaria,tagliando programmato,Ciclofficina Lingotto,3952,"46,00",no,,chiuso ok
+INT-TOR-0270,tor-01,12/10/2026,14/10/2026,2,tagliando,tagliando programmato,AUTOFFICINA PIEMONTE SERVICE,102891,270.00,N,,chiuso
+INT-TOR-0272,TOR-11,13/10/2026,15/10/2026,2,elettrico/batteria,guasto elettrico/batteria,CARROZZERIA BRUNO,45.929,540.00,,NOL-TOR-01647,chiuso
+INT-TOR-0244,EB-TOR-002,13/09/2026,14/09/2026,1,tagliando,tagliando programmate,Ciclofficina Lingotto,5110,102.00,,,chiuso
+INT-TOR-0225,TOR-02,27/08/2026,29/08/2026,2,tagliando,tagliando programmato,Carrozzeria Bruno,67506,"222,00",NO,,chiuso
+INT-TOR-0246,EB-TOR-001,17/09/2026,20/09/2026,3,meccanico,guasto meccanico in noleggio,,3 817,208.00,no,NOL-TOR-01465,
+INT-TOR-0221,TOR-12,24/08/2026,25/08/2026,1,Pulizia Profonda,pulizia straordinaria,Autofficina Piemonte Service,84270,"33,00",SI,NOL-TOR-01349,chiuso
+INT-TOR-0248,EB-TOR-005,23 set 2026,24 set 2026,1,manutenzione ordinaria,tagliando programmato,Bici Service Torino,5060,49.00,no,,chiuso ok
+INT-TOR-0249,TOR-03,24/09/2026,27/09/2026,3,Elettrico,guasto elettrico/batteria,Autofficina Piemonte Service,64394,"524,00 €",,NOL-TOR-01332,CHIUSO
+INT-TOR-0250,TOR-05,25/09/26,04/10/26,8,carrozzeria,,Autofficina Piemonte Service,57142,"474,00",si,NOL-TOR-01523,chiuso
+INT-TOR-0251,tor-02,26/09/2026,28/09/2026,2,carrozzeria,leggera ammaccatura,carrozzeria bruno,67959,163.00,,NOL-TOR-01443,
+INT-TOR-0252,TOR-02,26/09/2026,02/10/2026,6,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,67959,"€ 597,00",,NOL-TOR-01443,chiuso
+INT-TOR-0253,EB-TOR-002,2026-09-27,2026-10-01,3,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Lingotto,5333,"172,00",N,NOL-TOR-01563,CHIUSO
+INT-TOR-0254,TOR-10,28/09/2026,03/10/2026,5,assistenza,intervento dopo assistenza stradale,Carrozzeria Bruno,41950,598,no,NOL-TOR-01541,chiuso
+INT-TOR-0255,tor-12,28-09-2026,13-10-2026,15,carrozzeria,danni da sinistro stradale,Autofficina Piemonte Service,85667,,NO,NOL-TOR-01521,CHIUSO
+INT-TOR-0256,EB-TOR-005,28 set 2026,1 ott 2026,3,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Lingotto,5085,"€ 316,00",,NOL-TOR-01583,CHIUSO
+INT-TOR-0257,TOR 11,29/09/2026,03/10/2026,4,assistenza,intervento dopo assistenza stradale,Carrozzeria Bruno,45774,"€ 553,00",no,NOL-TOR-01556,chiuso
+INT-TOR-0258,TOR-13,02-10-2026,05-10-2026,3,assistenza,intervento dopo assistenza stradale,autofficina piemonte service,50775,"509,00",NO,,chiuso
+INT-TOR-0259,EB-TOR-001,04/10/26,10/10/26,6,bici,display rotto,Ciclofficina Lingotto,3967,"255,00",si,NOL-TOR-01493,chiuso
+INT-TOR-0260,EB-TOR-002,2026-10-04,2026-10-09,5,bici,forcella piegata,Ciclofficina Lingotto,5367,"€ 404,00",S,,chiuso ok
+INT-TOR-0261,TOR-14,04/10/2026,07/10/2026,1,meccanica,guasto meccanico in oleggio,Carrozzeria Bruno,106582,"227,00",N,NOL-TOR-01582,
+INT-TOR-0262,TOR-1,2026-10-05,2026-10-13,8,carrozzeria,,Autofficina Piemonte Service,102891,563.00,,NOL-TOR-01520,chiuso
+INT-TOR-0263,TOR-11,2026-10-05,2026-10-12,,gomme,,autofficina piemonte service,45865,"570,00",N,NOL-TOR-01599,chiuso
+INT-TOR-0264,TOR-05,05/10/2026,06/10/2026,1,tagliando,tagliando programmato,Carrozzeria Bruno,57349,366.00,NO,,chiuso
+INT-TOR-0265,TOR-07,07/10/2026,10/10/2026,3,manutenzione ordinaria,tagliando programmato,autofficina piemonte service,138402,"€ 280,00",N,,chiuso
+INT-TOR-0266,TOR-10,08/10/2026,04/11/2026,27,CARROZZERIA,deformazione importante,Autofficina Piemonte Service,42.174,"4716,00 €",N,NOL-TOR-01604,chiuso
+INT-TOR-0267,EB-TOR-003,09/10/2026,10/10/2026,1,tagliando,tagliando programmato,Bici Service Torino,,"108,00",,,chiuso
+INT-TOR-0268,EB-TOR-004,10/10/2026,11/10/2026,1,tagliando,tagliando programmato,Ciclofficina Lingotto,4428,da definire,NO,,CHIUSO
+INT-TOR-0269,EB-TOR-002,2026-10-11,2026-10-15,4,bici,cambio posteriore rotto,Bici Service Torino,5408,351.00,,NOL-TOR-01635,CHIUSO
+INT-TOR-0089,TOR-11,03/20/2026,03/26/2026,6,cristalli,graffio profondo fino alla lamiera,Carrozzeria Bruno,33039,738.00,NO,NOL-TOR-00577,CHIUSO
+INT-TOR-0271,TOR-2,13/10/2026,19/10/2026,5,cerchi/gomme,graffio profondo fino alla lamiera,Autofficina Piemonte Service,,"€ 346,00",N,NOL-TOR-01616,chiuso
+INT-TOR-0243,TOR 02,2026-09-13,2026-09-21,8,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,67621,6794.00,NO,NOL-TOR-01477,chiuso
+INT-TOR-0273,tor-15,14/10/2026,17/10/2026,3,tagliando,tagliando programmato,Autofficina,67387,165.00,NO,,chiuso
+INT-TOR-0274,EB-TOR-002,2026-10-17,2026-11-05,19,bici,telaio incrinato,Ciclofficina,5485,872,no,NOL-TOR-01666,chiuso ok
+INT-TOR-0275,TOR-08,17/10/2026,19/10/2026,1,meccanico,guasto meccanico in noleggio,Autofficina Piemonte Service,85754,"563,00",,NOL-TOR-01596,chiuso
+INT-TOR-0276,TOR04,20/10/2026,25/10/2026,5,Carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Bruno,44630,"€ 413,00",N,NOL-TOR-01658,chiuso
+INT-TOR-0277,EB-TOR-001,2026-10-22,2026-10-23,1,tagliando,tagliando programmato,Bici Service Torino,4.218,80.00,,,CHIUSO
+INT-TOR-0278,TOR-09,23/10/2026,01/11/2026,9,carrozzeria,ammaccatura con vernice saltata,AUTOFFICINA PIEMONTE SERVICE,67816,932,NO,,chiuso
+INT-TOR-0279,TOR-17,2026-10-23,2026-10-27,4,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,54954,n.d.,,NOL-TOR-01682,chiuso
+INT-TOR-0280,TOR-03,25-10-2026,01-11-2026,7,elettrico/batteria,guasto elettrico/batteria,CARROZZERIA BRUNO,66327,"128,00",,NOL-TOR-01627,chiuso
+INT-TOR-0281,EB-TOR-004,25/10/2026,01/11/2026,7,bici,forcella piegata,,4537,158.00,,NOL-TOR-01487,chiuso ok
+INT-TOR-0282,TOR-16,25/10/26,26/10/26,1,carrozzeria,leggera ammacccatura,Autofficina Piemonte Service,91506,214.00,no,NOL-TOR-01548,
+INT-TOR-0283,tor-16,25/10/2026,27/10/2026,2,meccanica,guasto meccanico in noleggio,autofficina piemonte service,91506,676.00,N,NOL-TOR-01548,chiuso
+INT-TOR-0284,tor-06,29-10-2026,31-10-2026,2,batteria,guasto elettrico/batteria,Autofficina,57770,61.00,NO,NOL-TOR-01603,chiuso
+INT-TOR-0285,TOR-01,29/10/2026,30/10/2026,1,carrozzeria,piccola scheggiatura,Autofficina Piemonte Service,103750,da definire,no,NOL-TOR-01701,CHIUSO
+INT-TOR-0286,tor-14,29-10-2026,31-10-2026,1,assistenza,intervento dopoo assistenza stradale,Carrozzeria Bruno,108227,"48,00",NO,NOL-TOR-01679,chiuso ok
+INT-TOR-0287,TOR-07,30/10/26,03/11/26,6,elettrico,guasto elettrico/batteria,autofficina piemonte service,139 679,395.00,,,
+INT-TOR-0288,TOR-17,31/10/2026,01/11/2026,1,CARROZZERIA,leggera ammaccitura,Autofficina Piemonte Service,55220,114.00,NO,NOL-TOR-01709,chiuso ok
+INT-TOR-0289,TOR-14,31-10-2026,02-11-2026,1,pulizia straordinaria,pulizia straordinaria,Carrozzeria Bruno,108343,"26,00",si,NOL-TOR-01669,chiuso
+INT-TOR-0290,TOR05,04/11/2026,,,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,60614,"207,00",,NOL-TOR-01461,in corso
+INT-TOR-0291,EB-TOR-001,04-11-2026,11-11-2026,7,bici,"urto forte, bici non utilizzabile",Bici Service Torino,4339,"€ 1001,00",si,NOL-TOR-01720,chiuso ok
+INT-TOR-0292,TOR-12,04/11/2026,10/11/2026,5,meccanica,,Autofficina Piemonte Service,88049,"127,00 €",no,NOL-TOR-01723,chiuso ok
+INT-TOR-0293,TOR 07,06/11/2026,,,CARROZZERIA,urto forte con piu' elementi coinvolti,Autofficina Piemonte Service,139.809,5273.00,N,NOL-TOR-01724,in corso
+INT-TOR-0294,TOR-11,08/11/26,12/11/26,3,tagliando,tagliando programmato,Carrozzeria Bruno,47761,308.00,NO,,chiuso
+INT-TOR-0295,TOR-03,09/11/2026,11/11/2026,1,Tagliando,tagliando programmato,Carrozzeria Bruno,66750 km,276.00,NO,,chiuso ok
+INT-TOR-0296,TOR-02,2026-11-11,,,vetri,DANNO  DA  URTO 20-30 CM,Autofficina Piemonte Service,70229,"€ 1003,00",SI,,in corso
+INT-TOR-0297,TOR-16,11/11/2026,,,meccanica,guasto  meccanico  in noleggio,Autofficina Piemonte Service,92778,,no,NOL-TOR-01712,in corso
+INT-TOR-0184,EB-TOR-001,27 giu 2026,29 giu 2026,1,tagliando,tagliando programmato,Bici Service Torino,3203,43,N,,chiuso
+INT-TOR-0097,EB-TOR-003,2026-04-03,2026-04-04,1,bici,leva piegata ma funzionante,Ciclofficina Lingotto,1.322,46.00,NO,NOL-TOR-00640,chiuso ok
+INT-TOR-0051,TOR-07,10/01/26,12/01/26,2,carrozzeria,segni di sfregamento,Carrozzeria Bruno,119529,223.00,S,NOL-TOR-00297,chiuso
+INT-TOR-0016,TOR-01,16/11/2025,17/11/2025,1,CAMBIO GOMME INV.,cambio stagionale,Carrozzeria Bruno,78160,"€ 63,00",N,,chiuso ok
+INT-TOR-0158,EB-TOR-002,05/21/2026,05/24/2026,3,meccanica,GUASTO MECCANICO IN NOLEGGIO,Ciclofficina Lingotto,3613,83.00,NO,NOL-TOR-00891,chiuso ok
+INT-TOR-0037,tor-03,02/12/2025,05/12/2025,2,carrozzeria,raffio superficiale,Carrozzeria Bruno,,84,SI,NOL-TOR-00125,chiuso
+INT-TOR-0105,EB-TOR-001,12/04/2026,13/04/2026,1,tagliando,taoliando programmato,bici service torino,2001,"41,00 €",,,chiuso
+INT-TOR-0252,tor-02,26/09/2026,02/10/2026,6,Elettrico,guasto  elettrico/batteria,AUTOFFICINA PIEMONTE SERVICE,67959 km,"597,00 €",NO,NOL-TOR-01443,chiuso

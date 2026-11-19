@@ -1,0 +1,1404 @@
+id_comunicazione,id_noleggio,data_ora,canale,mittente_tipo,mittente,oggetto,testo
+COM-TOR-00001,,02/10/2025 16:30,email,cliente,francesco.ferraris@example.com,I: Preventivo,"Gentile Buby Rent,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine sttimana?
+Sent fro my iPhone"
+COM-TOR-00002,NOL-TOR-00008,2025-10-29 09:10,email,cliente,giovanni.ricci@example.com,annullo noleggio,"Egregi signori,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie
+Ricci Giovanni"
+COM-TOR-00003,NOL-TOR-00019,29/10/2025 23:41,sms,cliente,3962435104,,"devo spostare il noleggio di un giorno, e' possibile? (Fiat 500e)"
+COM-TOR-00004,NOL-TOR-00061,30/10/25 03:24,email,cliente,lombardima86@example.it,Richiesta informazioni,"Salve,
+Ho la patente da 1 anno, posso noleggiare tn'auto? ho 22 anni
+Cordiali ssaluti
+Lombaardi Mario"
+COM-TOR-00005,NOL-TOR-00028,30/10/25 17:03,telefonata_trascritta,cliente,3329130587,,"Trascr. chiamata ore 8:35 (op. Elisa) - cliente Costa Roberto: vorrei prolungare di 1 giorni, il mezzo e' libero?"
+COM-TOR-00006,NOL-TOR-00050,2025-10-31 18:25,modulo_web,cliente,info@chiesaconsulenze.example.it,Richiesta assistenza,"Nome: Chiesa | Email: info@chiesaconsulenze.example.it | Tel: 3205100757 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00007,,01/11/25 02:07,telefonata_trascritta,cliente,3268531686,,"Trascr. chiamata ore 17:13 (op. Elisa) - cliente Giorgio Tosco: purtroppo non posso piu' patire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00008,NOL-TOR-00026,02/11/2025 13:47,whatsapp,cliente,3958377905,,"ritardo di 3h per incidente in tangenziale, scusate. Mezzo GL305PT"
+COM-TOR-00009,,04/11/2025 09:07,nota_tecnico,tecnico,M.,,RIT TOR-17 34666km - portiera lato guida graffio superficiale. nessun intervento urgente. fermo 2gg. Stefano
+COM-TOR-00010,NOL-TOR-00067,2025-11-04 17:43,modulo_web,cliente,alessia.martini@example.org,Contatti,"Nome: Alessia Martini | Email: alessia.martini@example.org | Tel: 3216310258 | Messaggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-TOR-00011,,05-11-2025 15:04,nota_tecnico,tecnico,Marco,,"RIT TOR-06: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 30€ al cliente. M. [incomprensibile]"
+COM-TOR-00012,NOL-TOR-00007,06/11/2025 14:34,email,cliente,aperotti@example.com,batteria bici,"Gentile Buby Rent,
+La bici si spegne in salita dopo 10 km, sono a la Mandria
+Cordiali saluti
+Alessia Perotti
+Inviato da iPhone"
+COM-TOR-00013,,11/06/2025 21:46,nota_tecnico,tecnico,Marco,,"EB-TOR-005 - batteria e-bike difettosa, apertura RMA. fermo 2gg. Marco [incomprensibile]"
+COM-TOR-00014,,2025-11-07 07:35,telefonata_trascritta,cliente,3716951035,,Trascr. chiamata ore 11:14 (op. Marta) - cliente Paola Chiaves: sono caduto con la bici sul sentiero verso Porta Nuova: il cavalletto si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+COM-TOR-00015,NOL-TOR-00006,2025-11-07 12:52,sms,cliente,3768318349,,"st arrivando ma ho inccidente in tangenziale, tra 3 ore sono da voi"
+COM-TOR-00016,NOL-TOR-00002,08/11/2025 16:30,email,cliente,elena.olivero@example.com,Feedback noleggio,"Spett.le Buby Rent,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Cordialmente
+Elena
+Inviato da iPhone"
+COM-TOR-00017,NOL-TOR-00032,2025-11-08 21:15,nota_tecnico,tecnico,Gianni,,"RIT EB-TOR-001 1338km - cavalletto urto iorte, bici non utiizzabile. carro attrezzi per officina. fermo 20gg. Sara"
+COM-TOR-00018,NOL-TOR-00081,09/11/25 12:25,telefonata_trascritta,cliente,3837541208,,vedi allegato
+COM-TOR-00019,NOL-TOR-00081,09/11/2025 15:00,telefonata_trascritta,cliente,3837541208,,"Trascr.  chiamata  ore 9:41 (op. Marta) - cliente Matteo: posso tenere il mezzo (Volkswagen Golf) fino a domani? lavori sulla strada, non riesco ad arrivare"
+COM-TOR-00020,NOL-TOR-00081,10/11/2025 01:48,nota_tecnico,tecnico,Marco,,"controllo in riconsegna gh746mv: fianco sx rottura con perdita di liquidi, carro attrezzi per officina. cliente informato. fermo 16gg - davide"
+COM-TOR-00021,,10/11/2025 18:21,email,cliente,info@pastoreeventi.example.it,Preventivo,"Ciao,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Cordiali saluti
+PASTORE EVENTI"
+COM-TOR-00022,,12/11/2025 17:17,email,cliente,info@pastoreeventi.example.it,Re: Preventivo,"Buongiorno,
+E' possibile riconsegnare a Bardonecchia invece che da voi? c'e' un supplemento?
+Grazie e saluti
+Inviato da iPhone"
+COM-TOR-00023,NOL-TOR-00109,2025-11-14 05:43,whatsapp,cliente,3800449041,,"sono bloccato per sciopero mezzi, arrivo con circa 3 ore di ritardo per la riconsegna (GP384DZ)"
+COM-TOR-00024,NOL-TOR-00102,2025-11-15 15:05,telefonata_trascritta,cliente,3711879780,,"Trascr. chiamata ore 13:33 (op. Marta) - cliente RIZZO ELETTRICA: ho avuto un incidente a Lingotto, sono stato tamponato da un altro veicolo. Nessun ferito, abbiamo compilato il CAI. Mezzo TOR-17. Cosa devo fare?"
+COM-TOR-00025,NOL-TOR-00102,2025-11-16 16:37,nota_tecnico,tecnico,M.,,"TOR-17 - verbale polizio locale in allegatto, danni anteriori. fetmo 6gg. Davide"
+COM-TOR-00026,NOL-TOR-00084,16/11/25 20:01,email,cliente,dravera@example.it,Re: Cauzione non restituita,"ho  aspettato  40 minuti al ritiro perche' il personale non c'era. servizio pessimo, vorrei un rimborso parziale
+in attesa di un vostro riscontro
+davide"
+COM-TOR-00027,NOL-TOR-00109,11/17/2025 00:55,nota_tecnico,tecnico,Luca B.,,TOR-15: portiera lato guida -> piccola scheggiatura. da lucidare // no fermo
+COM-TOR-00028,NOL-TOR-00113,17/11/2025 02:44,email,cliente,monica.chiesa@example.net,Feedback noleggio,"Buongiorno,
+Complimenti&nbsp;all'operatore&nbsp;di&nbsp;sede, molto disponibile. Prezzo onesto
+Cordialmente"
+COM-TOR-00029,,2025-11-18,email,cliente,giorgio.moretti@example.it,Preventivo,"Gentile Buby Rent,
+La vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 20/11
+Grazie e saluti
+Giorgio"
+COM-TOR-00030,NOL-TOR-00126,2025-11-18 20:42,nota_tecnico,tecnico,Davide,,"EB-TOR-005  rientrata  piena d fango, lavaggio completo. addebito pulizia 15€. Tech1"
+COM-TOR-00031,,19/11/2025 22:52,nota_tecnico,tecnico,Stefano,,TOR-13 rientrato. Danno portellone: striscio di vernice. ritocco vernice. Foto ok in cartella. Stima fermo 2gg (Paolo)
+COM-TOR-00032,NOL-TOR-00135,2025-11-20 04:30,email,cliente,giorgio.moretti@example.it,Prolungamento noleggio,"Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Grazie e saluti
+Moretti Giorgio
+Sent from my iPhone"
+COM-TOR-00033,NOL-TOR-00130,2025-11-20 15:09,sms,cliente,3837541208,,"ho bucato la ruota posteriore vicino a piazza Vittorio, non ho la camera d'aria"
+COM-TOR-00034,NOL-TOR-00130,20/11/2025 17:04,telefonata_trascritta,cliente,3837541208,,"Trascr. chiamata ore 8:19 (op. Marta) - cliente Matteo Actis: ritardo di 2h per ritardo del treno, scusate. Mezzo Cube Kathmandu"
+COM-TOR-00035,,20/11/2025 21:59,nota_tecnico,tecnico,Andrea,,"controllo in riconsegna GP384DZ: paraurti ant. segni di sfregamento, da lucidare. cliente informato. no fermo - Fabio"
+COM-TOR-00269,NOL-TOR-00685,08/04/2026 03:28,email,cliente,amondino@example.org,oggetto smarrito,"Credo di aver lasciato le chiavi di casa nel bagagliaio (TOR-04). Si puo' recuperare?
+Grazie
+Mondino Alessia
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00037,NOL-TOR-00135,21-11-2025 05:40,sms,cliente,3784861728,,il clima non funziona e il cambio fa fatica a ingranare la seconda (Fiat 500e)
+COM-TOR-00038,NOL-TOR-00138,21-11-2025 12:37,email,cliente,info@contealpineservice.example.it,Cancellazione,"Spett.le Buby Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Distinti saluti
+Sent from my iPhone"
+COM-TOR-00039,NOL-TOR-00131,22/11/2025 04:04,email,cliente,mlombardi@example.org,Re: URGENTE assistenza stradale,"Salve,
+Hi, the vehicle (EB-TOR-005) won't start near Stupinigi. Can you send assistance please?
+Grazie
+Martina Lombardi
+Sent from my iPhone"
+COM-TOR-00040,NOL-TOR-00135,22/11/2025 10:56,email,cliente,giorgio.moretti@example.it,Grazie!,"Buonasera,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Grazie e saluti"
+COM-TOR-00041,NOL-TOR-00031,2025-11-23 01:37,email,cliente,info@dellavalletraslochi.example.it,Feedback noleggio,"Gentile Buby Rent,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Cordialmente
+Inviato da iPhone"
+COM-TOR-00042,NOL-TOR-00143,23/11/25 05:05,email,cliente,info@ferrariscantine.example.it,Graffio sul mezzo,"Spett.le Buby Rent,
+Durante il noleggio ho urtato la porta scorrevole del mezzo (TOR-14) mentre parcheggiavo a Caselle. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Distinti saluti
+Ferraris
+Inviato da iPhone"
+COM-TOR-00043,NOL-TOR-00106,2025-11-23 11:40,telefonata_trascritta,cliente,3837541208,,"trascr. chiamata ore 8:22 (op. marta) - cliente matteo actis: il mezzo (peugeot 208) si e' bloccato in mezzo alla strada a la mandria, urgente"
+COM-TOR-00044,NOL-TOR-00136,23/11/2025 14:37,whatsapp,cliente,3269446790,,"ritardo&nbsp;di&nbsp;4h&nbsp;pper traffico in tangenziale, scusate. Mezzo TOR-01"
+COM-TOR-00045,NOL-TOR-00143,23/11/2025 15:21,whatsapp,cliente,3553499068,,"posso tenere il mezzo (GL652NF) fino a domani? traffico, non riesco ad arrivare"
+COM-TOR-00046,NOL-TOR-00143,2025-11-23 21:20,nota_tecnico,tecnico,Stefano,,RIT TOR-14 85295KM - PORTA SCORREVOLE LEGGERA AMMACCATURA. SEGNALATO A FINE MESE PER CARROZZERIA. FERMO 2GG. SARA
+COM-TOR-00047,NOL-TOR-00014,24/11/2025 16:44,nota_tecnico,tecnico,Gianni,,"RIT  TOR-09:  interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 40€ al cliente. Elena"
+COM-TOR-00048,NOL-TOR-00083,24/11/2025 21:20,telefonata_trascritta,cliente,3823557023,,Trascr. ciamata ore 16:15 (op. Gianni) - cliente Fabio Costa: credo di aver lasciato un passeggino nel bagagliaio (Dacia Jogger). Si po' recuperare?
+COM-TOR-00049,NOL-TOR-00123,25/11/25 12:46,email,cliente,info@martinieventi.example.it,Ottimo servizio,"Buonasera,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Grazie mille
+Martini Eventi"
+COM-TOR-00050,NOL-TOR-00150,11/25/2025 13:10,modulo_web,cliente,info@contetrasporti.example.it,,"Nome: Conte Trasporti | Email: info@contetrasporti.example.it | Tel: 3599080006 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-TOR-00336,,05/05/2026 14:35,email,cliente,perottigi1@example.net,I: Info noleggio,"Egregi signori,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Cordiali saluti
+Giorgio Perotti
+Sent from my iPhone"
+COM-TOR-00052,,26/11/2025 08:37,telefonata_trascritta,cliente,3607547138,,"Trascr. chiamata ore 16:55 (op. Gianni) - cliente Rossi Luca: incidente in corso Unità d'Italia con il mezzo (Ford Transit): ho tamponaato un'autoo dvanti a me, danni al paraurni. Sono ok. Chiiamo la poolizia locale?"
+COM-TOR-00053,NOL-TOR-00149,26/11/25 15:24,nota_tecnico,tecnico,Sara,,"TOR-15 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 25gg. L.G."
+COM-TOR-00321,NOL-TOR-00722,2026-04-29,nota_tecnico,tecnico,Paolo,,"TOR-09 - freni da controllare, pastiglie consumate. fermo 5gg. Marco [incomprensibile]"
+COM-TOR-00055,,27/11/2025 02:16,modulo_web,cliente,info@toscoristorazione.example.it,Richiesta assistenza,Nome: Tosco Ristorazione | Email: info@toscoristorazione.example.it | Tel: 3687668216 | Messaggio: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-TOR-00056,NOL-TOR-00158,29/11/2025 13:06,whatsapp,cliente,3224089602,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00057,NOL-TOR-00021,30/11/2025 14:32,nota_tecnico,tecnico,Marco,,"EB-TOR-003 rientrata piena di fango, lavaggio completo. addebato pulizia 15â¬. Paolo"
+COM-TOR-00058,NOL-TOR-00154,01/12/2025 17:28,nota_tecnico,tecnico,Stefano,,RIT TOR-05 35104km - portiera lato guida graffio superficiale. nessun intervento urgente. fermo 2gg. Tech1
+COM-TOR-00059,,02/12/2025 14:26,sms,cliente,3927303214,,"posso tenere il mezzo (Peugeot e-Expert) fino a domani? problemi personali, nn riesco ad arrivare"
+COM-TOR-00752,NOL-TOR-01681,28/10/26 13:24,whatsapp,cliente,3883659693,,"posso tenere il mezzo (Peugeot 208) fino a domani? coda in autostrada, nn riesco ad arrivare"
+COM-TOR-00061,NOL-TOR-00181,02/12/2025 18:36,nota_tecnico,tecnico,Tech1,,tr-10 rientrato. danno fanle post.: graffio profondo fino alla lamiera. da sostiturre il pezzo. foto ok in cartella. stima fermo 5gg (andre)
+COM-TOR-00062,NOL-TOR-00173,03/12/2025 17:20,nota_tecnico,tecnico,Paolo,,"RIT TOR-16: intterno molto sporso (rifiuti nel bagagliaio), pulizia srraordinaria, addebito 40€ al cliente. Gianni"
+COM-TOR-00101,NOL-TOR-00205,05-01-2026 15:13,email,cliente,ghiglionesi15@example.org,Ottimo servizio,"Salve,
+Esperienza ottimaa, ritiro e riconsegnaa rapidissimi. Conssiglio
+Simone Ghiglione
+Sent from my iPhone"
+COM-TOR-00064,NOL-TOR-00098,2025-12-04 08:54,email,cliente,info@pastoreeventi.example.it,Annullamento prenotazione,"Buongiorno,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Cordialmente
+Pastore"
+COM-TOR-00065,NOL-TOR-00015,04/12/2025 14:50,nota_operatore,operatore,Marta,,"ricevuto verbale del comune di Superga per ZTL/eccesso di velocita', targa GM842BD. da addebitare al cliente + 80€ gestione pratica"
+COM-TOR-00066,NOL-TOR-00105,12/04/2025 16:30,nota_tecnico,tecnico,Andrea,,"TOR-04: portellone -> danno strutturale sospetto, non guidabile. preventivo in attesa, mezzo bloccato // fermo 18gg"
+COM-TOR-00067,NOL-TOR-01011,2025-12-05 05:06,email,cliente,mlombardi@example.org,Ottimo servizio,"CComplimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Saluti
+Lombardi artina
+Sent from my iPhone"
+COM-TOR-00068,NOL-TOR-00194,07/12/2025 16:22,nota_tecnico,tecnico,Elena,,RIT TOR-03 44312km - specchietto dx piccola scheggiatura. da lucidare. fermo 1gg. Fabio
+COM-TOR-00069,NOL-TOR-00124,12/09/2025 08:03,modulo_web,cliente,dravera@example.it,Contatti,"Nome: Davide | Email: dravera@example.it | Tel: 3282809685 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-TOR-00070,NOL-TOR-00041,11/12/25 09:47,sms,cliente,3641661369,,"sono blocato per sciopero mezzi, arrivo con circa 3 ore di ritardo per la riconsegna (GH746MV)"
+COM-TOR-00071,NOL-TOR-00041,13-12-2025 14:40,telefonata_trascritta,cliente,3641661369,,"Trascr. chiamata ore 9:05 (op. Elisa) - cliente Barbara Rizzo: il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 60 euro. Non accettabile"
+COM-TOR-00072,,14/12/25 19:51,modulo_web,cliente,matteo.actis@example.com,Contatti,Nome: Actis Matteo | Email: matteo.actis@example.com | Tel: 3837541208 | Messaggio: per un'azienda con partita IVA c'e' una tariffa agevolataa per noleggi ripetuti?
+COM-TOR-00073,NOL-TOR-00228,2025-12-16 09:47,email,cliente,blandinoro57@example.net,Annullamento prenotazione,"bbuonaseri,
+devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+distinti saluti
+get outlook for android"
+COM-TOR-00074,NOL-TOR-00221,2025-12-16,email,cliente,federico.chiaves@example.org,Ritardo riconsegna,"Spett.le  Buby  Rent,
+Posso tenere il mezzo (Nissan Qashqai) fino a domani? incidente in tangenziale, non riesco ad arrivare
+Cordiali saluti
+Federico"
+COM-TOR-00075,,17/12/2025 01:27,whatsapp,cliente,3611032434,,"annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00076,00231,2025-12-18 14:26,whatsapp,cliente,3210769203,,mentre facevo retromarcia a superga ho tccto un palo s si e' rvinato il pararti anteriore. nessun ferito. cosa devo fsre?
+COM-TOR-00077,NOL-TOR-00220,18/12/2025 18:34,whatsapp,cliente,3919936984,,"vorrei prolungare di 3 giorni, il mezzo e' libero?"
+COM-TOR-00078,,18/12/2025 19:07,nota_tecnico,tecnico,Tech1,,"RIT TOR-16 75412km - paraurti ant. urto forte con piu' elementi coinvolti. preventivo in attesa, mezzo bloccato. fermo 15gg. Tech1"
+COM-TOR-00079,NOL-TOR-00213,2025-12-20 00:32,telefonata_trascritta,cliente,3938769939,,"Trascr. chiamata ore 18:12 (op. Gianni) - cliente GRECO CANTINE: non parte, il motorino fa solo clic. Sono a Porta Nuova"
+COM-TOR-00080,NOL-TOR-00121,20/12/2025 09:18,email,cliente,info@ceruttiristorazione.example.it,I: Feedback noleggio,"Gentili Buby Rent,
+Ottimo servizio, la e-bike era in ottimo stato  il percorso consigliato bbelissimo
+Grazie
+CERUTTTI RISTORAZIONE"
+COM-TOR-00081,NOL-TOR-00213,20/12/25 22:17,nota_tecnico,tecnico,L.G.,,TOR-14 - frizione da sostituire. fermo 5ag. Davide
+COM-TOR-00082,NOL-TOR-00235,21/12/25 10:26,whatsapp,cliente,3676754081,,"ritardo di 3h x code sulla A32, scusate. Mezzo Renault Clio"
+COM-TOR-00083,NOL-TOR-00238,2025-12-21 18:23,nota_tecnico,tecnico,Davide,,"RIT TOR-03: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 40€ al cliente. Gianni"
+COM-TOR-00084,NOL-TOR-00039,21-12-2025 19:06,nota_tecnico,tecnico,M.,,tor-06 rientrato. danno cerchio ant. sx: graffio superficiale. ritocco vernice. foto ok in cartella. stima fermo 1gg (davide)
+COM-TOR-00085,NOL-TOR-00197,22/12/25 14:00,nota_tecnico,tecnico,Marco,,"RIT TOR-01: interno molto sporco (fango), pulizia straordinaria, addebito 30€ al cliente. M."
+COM-TOR-00086,NOL-TOR-00244,23/12/2025 19:35,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GH746MV: lunott graffio profono fino alla lamiera, foto in cartella, addebito da valutare. cliente informaato. fermo 4gg - Fabio"
+COM-TOR-00087,NOL-TOR-00203,27-12-2025 08:58,email,cliente,info@vacchettocantine.example.it,Contestazione addebito,"Ciao,
+Il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 180 euro. Non accettabile
+In attesa di un vostro riscontro
+Get Outlook for Android"
+COM-TOR-00088,NOL-TOR-00188,27/12/2025 09:37,email,cliente,factis@example.org,cambio data,"Egregi signori,
+Vorrei prolungare di 1 giorni, il mezzo e' libero?
+Francesca Actis"
+COM-TOR-00089,,27/12/2025 10:50,email,cliente,mondinoro12@example.it,Preventivo,"Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+Cordialmente
+Roberto"
+COM-TOR-00090,NOL-TOR-00163,2025-12-28 04:56,telefonata_trascritta,cliente,3878524140,,"trascr. chiamata ore 19:37 (op. marta) - cliente bruno mario: ho aspettato 40 minuti al ritiro perche' il personale non c'era. servizio pessimo, vorrei un rimborso parziale"
+COM-TOR-00091,,28/12/25 06:31,sms,cliente,3611032434,,"purtroppo non posso piu' partire, cancello la prenotazione. mi restituite l'acconto?"
+COM-TOR-00092,NOL-TOR-00276,,nota_tecnico,tecnico,Gianni,,"RIT TOR-13: interno molto sporco (fango), pulizia straordinaria, addebito 70€ al cliente. Gianni"
+COM-TOR-00093,NOL-TOR-00252,2026-01-01 04:20,email,cliente,info@giordanoedilizia.example.it,Contestazione addebito,"Buongiorno a tutti,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Cordialmente
+Giordano"
+COM-TOR-00094,,02-01-2026 04:07,sms,cliente,3641564437,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-TOR-00095,NOL-TOR-00290,02/01/2026 04:23,modulo_web,cliente,info@blandinostudiotecnico.example.it,Richiesta assistenza,"Nome: Blandino Studio Tecnico | Email: info@blandinostudiotecnico.example.it | Tel: 3609976853 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00096,NOL-TOR-00291,02-01-2026,email,cliente,erosso@example.com,Cancellazione,"Buonasera,
+Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Grazie
+Enrico Rosso
+Get Outlook for Android"
+COM-TOR-00749,,26/10/2026 22:52,whatsapp,cliente,3610014172,,"purtroppo non posso piu' partire, cancello la prenotazione. mi restituite l'acconto?"
+COM-TOR-00098,,2026-01-03 12:47,email,cliente,paola.chiaves@example.com,Feedback noleggio,"Buonasera,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Grazie mille
+Chiaves Paola"
+COM-TOR-00099,NOL-TOR-00233,03/01/26 13:20,whatsapp,cliente,3908436705,,"sono bloccato per coda in autostrada, arrivo con circa 4 ore di ritardo per la riconsegna (Peugeot 208)"
+COM-TOR-00100,,04/01/2026 18:57,nota_tecnico,tecnico,Fabio,,rit tor-05 38002km - portiera lato passeggero piccola scheggiatura. da lucidare. fermo 1gg. davide
+COM-TOR-00063,,04/12/2025 00:28,email,cliente,mario.bruno@example.com,Richiesta informazioni,"Buonasera,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Saluti
+Mario Bruno"
+COM-TOR-00102,,2026-01-05 16:22,sms,cliente,3609976853,,"ritardo di 2h x ritardo del treno, scusate. Mezzo TOR-12"
+COM-TOR-00103,NOL-TOR-00292,2026-01-06 06:32,telefonata_trascritta,cliente,3676958013,,"Trascr. chiamata ore 9:19 (op. Gianni) - cliente Fontana Trasporti: ho avuto un incidente a Superga, sono stato tamponato da un altro veiicolo. Nessun ferito, abbiamo compilato il CAI. Mezzo Renault Clio. Cosa devo fare?"
+COM-TOR-00104,NOL-TOR-00301,06-01-2026 14:34,whatsapp,cliente,3703053236,,"posso tenere il mezzo (TOR-17) fino a domani? sciopero mezzi, nn riesco ad arrivare"
+COM-TOR-00105,NOL-TOR-00275,06/01/2026 20:02,nota_tecnico,tecnico,M.,,"RIT&nbsp;TOR-16:  interno  molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Davide"
+COM-TOR-00106,NOL-TOR-00265,07/01/2026 10:13,telefonata_trascritta,cliente,3421403640,,"trascr. chiamata ore 12:04 (op. gianni) - cliente sara sacco: il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 35 euro. non accettabile"
+COM-TOR-00107,,2026-01-07 14:03,telefonata_trascritta,cliente,3839378590,,"Trascr. chiamata oe 16:50 (op. Marta) - cliente Bertolino Traslochi: vorrei noleggiare furgone da 09/01 a 13/01, avete disonibilita' e quanto costa?"
+COM-TOR-00108,NOL-TOR-00292,07/01/2026 17:52,nota_tecnico,tecnico,Davide,,"TOR-09 - CAI ricevuto, controparte identifficata, in attesa perizia. fermo 28gg. Anddrea"
+COM-TOR-00109,NOL-TOR-00087,08/01/2026 18:18,nota_operatore,operatore,Elisa,,"ricevuto verbale del comune di corso Unità d'Italia per ZTL/eccesso di velocita', targa GK931JD. da addebitare al cliente + 60€ gestione pratica"
+COM-TOR-00110,,08/01/2026 21:42,sms,cliente,3920221727,,"ho  la  patente da 1 anno, posso noleggiare un'auto? ho 22 anni"
+COM-TOR-00111,NOL-TOR-00297,09/01/2026 15:54,nota_tecnico,tecnico,Davide,,RIT  TOR-07  119529km - passaruota ant. leggera ammaccatura. ritocco vernice. fermo 2gg. Elena [incomprensibile]
+COM-TOR-00112,NOL-TOR-00302,2026-01-09,whatsapp,cliente,3205100757,,"SONO BLOCCATO PER LAVORI SULLA STRADA, ARRIVO CON CIRCA 3 ORE DI RITARDO PER LA RICONSEGNA (EB-TOR-001)"
+COM-TOR-00113,NOL-TOR-00306,10/01/26 03:21,modulo_web,cliente,mrossi@example.it,Richiesta assistenza,"Nome: Maria Rossi | Email: mrossi@example.it | Tel: 3847353738 | Messaggio: uscendo da un posteggio stretto a Superga ho strisciato il fanale posteriore. Mi spiace tannto, quano dovro' pagare?"
+COM-TOR-00114,NOL-TOR-00306,10/01/2026 21:26,nota_tecnico,tecnico,Gianni,,RIT TOR-05 38186km - fanale post. graffio superficiale. segnalato a fine mese per carrozzeria. fermo 2gg. Marco
+COM-TOR-00115,,01/13/2026 03:28,email,cliente,vialeel90@example.it,Info noleggio,"Gentile Buby Rent,
+Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+Saluti
+Elisa Viale"
+COM-TOR-00116,NOL-TOR-00283,13-01-2026 14:03,telefonata_trascritta,cliente,3607547138,,"trascr. chiamata orn 16:31 (op. elisa) - cliente luca: posso tenere il mezo (eb-tor-004) fino a domani? sciopero mezzi, non riesco ad arrivare"
+COM-TOR-00117,NOL-TOR-00320,13/01/2026 18:29,telefonata_trascritta,cliente,3927731821,,"Trascr. chiamata ore 19:03 (op. Gianni) - cliente Matteo Rossi: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00118,NOL-TOR-00316,14/01/2026 05:20,modulo_web,cliente,dravera@example.it,Richiesta assistenza,nome: ravera davide | email: dravera@example.it | tel: 3282809685 | messaggio: sulla strada per piazza vittorio un sasso ha colpito il parabrezza e ora c'e' una crepa. posso continuare a guidare fino alla riconsegna? (gp129lh)
+COM-TOR-00434,NOL-TOR-01101,06/16/2026 11:21,email,cliente,massimo.cerutti@example.net,,"La vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 27/06
+Grazie e saluti
+Massimo Cerutti
+Sent from my iPhone"
+COM-TOR-00120,,15/01/2026 12:25,sms,cliente,3205100757,,"posso tenere il mezzo (TOR-15) fino a domani? code sulla A32, nn riesco ad arrivare"
+COM-TOR-00121,NOL-TOR-00294,15/01/2026 19:15,email,cliente,ngreco@example.com,Cauzione non restituita,"Ciao,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 180 euro
+Cordiali saluti
+Nicolò Greco"
+COM-TOR-00122,NOL-TOR-00324,15/01/2026 20:39,whatsapp,cliente,3839378590,,"ho dimenticato gli occhiali da sole nel mezzo (TOR-16), potete controllare?"
+COM-TOR-00123,NOL-TOR-00302,16/01/2026 04:52,email,cliente,info@chiesaconsulenze.example.it,,"Ho visto un addebito di 48 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contrattto NOL-TOR-00302
+Cordiali saluti
+Chiesa Consulenze
+Get Outlook for Android"
+COM-TOR-00124,NOL-TOR-00122,16/01/2026 17:49,nota_operatore,operatore,Marta,,"ricevuto verbale del comune di orso Units d'Italia per ZTL/eccesso di velocta', targa EB-TOR-002. da addebitare al ciente + 80€ gestione pratica"
+COM-TOR-00125,00279,17/01/2026 17:04,email,cliente,marco.barbero@example.it,info danno,"Durante  il  noleggio ho urtato il fianco destro del mezzo (TOR-10) mentre parcheggiavo a corso Unità d'Italia. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Cordialmente
+Marco Barbero
+Inviato da iPhone"
+COM-TOR-00126,NOL-TOR-00348,19/01/26 20:25,nota_tecnico,tecnico,Paolo,,EB-TOR-002 rientrato. Danno cambio post.: grraffi sul telaio. da lucidare. Foto ok in cartella. Stima fermoo 2gg (Andrea) [incomprensibile]
+COM-TOR-00127,NOL-TOR-00279,20-01-2026 20:03,nota_tecnico,tecnico,L.G.,,RIT TOR-10 28050km - fianco dx calotta rotta. da mandare in carrozzeria. fermo 7gg. Fabio
+COM-TOR-00128,NOL-TOR-00354,23/01/2026 09:18,whatsapp,cliente,3938769939,,"ritardo di 4h per blocco ZTL, scusate. Mezzo TOR-12"
+COM-TOR-00129,NOL-TOR-00313,23/01/2026 19:40,whatsapp,cliente,3572921677,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-TOR-00130,,26/01/2026 07:01,sms,cliente,3609976853,,"ritardo di 3h x code sulla A32, scusate. Mezzo Fiat Ducato"
+COM-TOR-00131,,26/01/2026 16:27,modulo_web,cliente,info@fontanalogistica.example.it,,"nome: fontanaa logistica | email: info@fontanalogistica.example.it | tel: 3706452154 | meosaggio: il volo e' stato cancellato, devo annulrare il noleggio. coome funziona la penae?"
+COM-TOR-00132,,2026-01-27 04:51,modulo_web,cliente,info@ferrarieventi.example.it,Contatti,Nome:  Ferrari  Eventi | Email: info@ferrarieventi.example.it | Tel: 3466048432 | Messaggio: posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+COM-TOR-00133,NOL-TOR-00371,27-01-2026 16:56,whatsapp,cliente,3467985943,,"sono bloccatto x traffico in tangenziiaale, arrivo con circa 2 ore di ritardo x l riconsegna (EB-TOR-004)"
+COM-TOR-00134,NOL-TOR-00181,27/01/2026 18:14,nota_operatore,operatore,Gianni,,"multa pedaggio non pagato targa GR690TX, Lingotto: rivalsa su cliente"
+COM-TOR-00135,NOL-TOR-00357,28/01/2026 00:43,email,cliente,info@pastoreeventi.example.it,Modifica prenotazione,"Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Grazie
+Pastore
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00136,,2026-01-28 01:43,nota_tecnico,tecnico,Elena,,"EB-TOR-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Elena"
+COM-TOR-00137,,2026-01-28 07:50,sms,cliente,3499917908,,per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-TOR-00138,NOL-TOR-00286,2026-02-01,sms,cliente,3632420126,,"sto arrivando ma ho incidente in tangenziale, tra 1 ore ssno da voi"
+COM-TOR-00139,,2026-02-01 20:34,whatsapp,cliente,3697260626,,posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-TOR-00140,NOL-TOR-00426,2026-02-03 21:44,whatsapp,cliente,3781769675,,"ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni"
+COM-TOR-00141,,04/02/2026 06:42,whatsapp,cliente,3358622671,,"posso tenerr il mezzo (gr690tx) fino a domani? blocco ztl, nn riesco ad arrivare"
+COM-TOR-00142,00386,2026-02-04 12:38,nota_tecnico,tecnico,L.G.,,TOR-02  rientrato.  Danno cofano: striscio di vernice. da lucidare. Foto ok in cartella. Stima no fermo (Gianni)
+COM-TOR-00143,,2026-02-06 02:42,whatsapp,cliente,3331613556,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00144,NOL-TOR-00406,06/02/2026 22:04,whatsapp,cliente,3572921677,,"devo spostare il noleggio di un giorno, ' possibile? (Fiat ucato)"
+COM-TOR-00145,NOL-TOR-00418,2026-02-07 10:00,whatsapp,cliente,3729394570,,"ritardo di 1h per incidente in tangenziale, scusate. mezzo fiat doblò"
+COM-TOR-00146,NOL-TOR-00420,07/02/2026 20:13,modulo_web,cliente,marco.barbero@example.it,Richiesta assistenza,"Nome: Marco | Email: marco.barbero@example.it | Tel: 3585487257 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00147,NOL-TOR-00417,08/02/2026 09:18,whatsapp,cliente,3265140314,,si  sono  spente tutte le luci del cruocotto meentre guidavo vicino a Lingotto
+COM-TOR-00148,NOL-TOR-00417,2026-02-08 21:34,nota_tecnico,tecnico,Elena,,TOR-10  -  connettore ricarica ossidato. fermo 6gg. Davide
+COM-TOR-00149,NOL-TOR-00427,2026-02-09 02:11,sms,cliente,3536182148,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00150,NOL-TOR-00359,11-02-2026 18:50,nota_tecnico,tecnico,Andrea,,"RIT  TOR-05:  interno molto sporco (peli di animali), pulizia straordinaria, addebito 40€ al cliente. Sara"
+COM-TOR-00151,NOL-TOR-00270,11/02/2026 19:50,nota_tecnico,tecnico,Stefano,,"CONTROLLO IN RICONSEGNA GP384DZ: PORTELLONE POST. GRAFFIO SUPERFICIALE, SEGNALATO A FINE MESE PER CARROZZERIA. CLIENTE INFORMATO. NO FERMO - ELENA"
+COM-TOR-00152,NOL-TOR-00385,2026-02-12 02:43,email,cliente,gactis@example.com,URGENTE furto,"Egregi signori,
+La bici e' stata rubata a corso Unità d'Italia mentre ero in negozio, aveva il lucchetto. Cosa devo fare? Ho gia' sporto denuncia.
+In attesa di un vostro riscontro
+Giulia Actis
+Sent from my iPhone"
+COM-TOR-00153,NOL-TOR-00315,13/02/2026 12:28,telefonata_trascritta,cliente,3669987120,,"Trascr.  cchiamata  ore 13:00 (op. Gianni) - cliente aontana Edilizia: sto arrivando ma ho incidnte in tangenziale, tra 2 ore sono da voi"
+COM-TOR-00154,NOL-TOR-00396,16/02/26 15:25,whatsapp,cliente,3800500460,,"ritardo di 2h x coda in autostrada, scusate. Mezzo Nissan Qashqai"
+COM-TOR-00155,NOL-TOR-00396,16/02/26 20:44,nota_tecnico,tecnico,L.G.,,"RIT TOR-11: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 40€ al cliente. Davide"
+COM-TOR-00156,,17-02-2026 11:36,nota_tecnico,tecnico,Davide,,TOR-09: fianco sx -> calotta rotta. preventivo richiesto // fermo 6gg
+COM-TOR-00157,,2026-02-17 13:25,email,cliente,roberta.moretti@example.net,disponibilita',"Ciao,
+La vostra auto puo' entrare in ZTL a Torino? Devo andare in centtro il 27/02
+Grazie
+Roberta Moretti"
+COM-TOR-00158,NOL-TOR-00475,2026-02-17 13:43,email,cliente,fperotti@example.it,Info noleggio,"vorrei  noleggiare  auto da 20/03 a 21/03, avete disponibilita' e quanto costa?
+cordiali saluti
+fabio perotti"
+COM-TOR-00159,NOL-TOR-00444,,modulo_web,cliente,ferrerogi4@example.com,Richiesta assistenza,"NOME:&nbsp;FERRERO&nbsp;GIULIA | EMAIL: FERREROGI4@EXAMPLE.COM | TEL: 3890154433 | MESSAGGIO: IL VOLO E' STATO CANCELLATO, DEVO ANNULLARE IL NOLEGGIO. COME FUNZIONA LA PENALE?"
+COM-TOR-00160,NOL-TOR-00446,19/02/2026 11:52,whatsapp,cliente,3643727778,,"sono bloccato x coda in autostrada, arrivo con circa 4 ore di ritardo x la riconsegna (Skoda Octavia)"
+COM-TOR-00161,NOL-TOR-00426,19/02/2026 16:22,nota_tecnico,tecnico,Tech1,,"RIT  TOR-14:  INTERNO MOLTO SPORCO (RIFIUTI NEL BAGAGLIAIO), PULIZIA STRAORDINARIA, ADDEBITO 70€ AL CLIENTE. TECH1"
+COM-TOR-00427,NOL-TOR-01002,14/06/2026 02:50,email,cliente,elena.olivero@example.com,info danno,"Salve,
+Durante il noleggio ho urtato il cofano del mezzo (Dacia Jogger) mentre parcheggiavo a Stupinigi. Mi sembra solo estetico, ho fatto qualche foto. Come devo proedere con la cauzione?
+Salutti
+Elena OOlivero
+Seent from my iPhone [incomprensibile]"
+COM-TOR-00163,NOL-TOR-00416,20/02/2026 08:07,modulo_web,cliente,boninoma35@example.net,,Nome: Mario Bonino | Emaail: boninoma35@example.net | Tel: 3499917908 | Messagio: la cauzione di 600 euro non mi e' stata ancora restituita dopo 10 giorni dalla riconsegna. Vorrei sapere quando arriva
+COM-TOR-00164,NOL-TOR-00311,20/02/2026 15:48,nota_operatore,operatore,Gianni,,"verbal GM842BD - la tangenziale - violazzione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-TOR-00165,NOL-TOR-00479,2026-02-20 21:02,email,cliente,mondinola24@example.com,Cauzione non restituita,"Gentile Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+In attesa di un vostro riscontro
+Laura"
+COM-TOR-00166,NOL-TOR-00393,21/02/2026 06:34,email,cliente,silvia.gallo@example.org,riconsegna in ritardo,"Buongiorno,
+Sono blocccato per ritado del treno, arrivo crn circa 2 ore di ritardo per la rriconsegna (GK931JD)
+nordiali saluti
+Silvia Gallo"
+COM-TOR-00167,,21/02/2026 20:28,telefonata_trascritta,cliente,3553499068,,"Trascr. chiamata ore 12:09 (op. Marta) - cliente FERRARIS CANTINE: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00168,NOL-TOR-00361,2026-02-21 22:08,telefonata_trascritta,cliente,3890154433,,"trascr. chiamata ore 12:32 (op. elisa) - cliente ferrero giulia: ho avuto un incidente a stupinigi, sono stato tamponato da un altro veicolo. nessun ferito, abbiamo compilato il cai. mezzo fiat 500e. cosa devo fare?"
+COM-TOR-00169,NOL-TOR-00361,24/02/2026 01:30,nota_tecnico,tecnico,Fabio,,"TOR-05 - verbale polizia locale in allegato, danni anteriori. fermo 7gg. Stefano"
+COM-TOR-00170,NOL-TOR-00436,24/02/2026 20:40,telefonata_trascritta,cliente,3572028196,,"Trascr. chiamata ore 15:28 (op. Gianni) - cliente Laura Mondino: sono uscito di strada a Porta Nuova per colpa del ghiaccio, il mezzo (Dacia Jogger) e' danneggiato ma io sto bene"
+COM-TOR-00171,NOL-TOR-00453,2026-02-25 01:18,whatsapp,cliente,3301294352,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00578,01402,24/08/2026 00:11,email,cliente,info@pastoreeventi.example.it,Cancellazione,"Buongiorno,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Cordiali saluti
+Pastore Eventi"
+COM-TOR-00173,,02/25/2026 12:17,whatsapp,cliente,3958377905,,"sono bloccato per lavori sulla strada, arrivo con circa 1 ore di ritardo per la riconsegna (GP127FK)"
+COM-TOR-00174,,25-02-2026 12:36,nota_tecnico,tecnico,Luca B.,,"controllo in riconsegna GL311RS: parabrezza leggera ammaccaiura, segnalato a fine mete per carrozzeria. cliente informato. fermo 2gg - L.G."
+COM-TOR-00175,NOL-TOR-00505,2026-02-25 18:01,email,cliente,fenogliocl82@example.com,ritardo,"Ciao,
+Sono bloccato per problemi personali, arrivo con circa 3 ore di ritardo per la riconsegna (EB-TOR-001)
+Grazie"
+COM-TOR-00176,,26/02/2026 05:10,whatsapp,cliente,3257217311,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00177,NOL-TOR-00464,2026-02-27 02:48,sms,cliente,3837541208,,"ho dimenticato le chiavi di casa nel mezzo (GL311RS), potete controllare?"
+COM-TOR-00178,NOL-TOR-00498,2026-02-27 16:00,nota_tecnico,tecnico,Fabio,,"TOR-15: specchietto dx -> danno da urto 20-30 cm. foto in cartella, addebito da valutare // fermo 7gg"
+COM-TOR-00179,NOL-TOR-00497,27/02/2026 19:05,nota_tecnico,tecnico,Luca B.,,EB-TOR-005 rientrato. Danno catena: forcella piegata. preventivo richiesto. Foto ok in cartella. Stima fermo 6gg (Gianni)
+COM-TOR-00180,NOL-TOR-00436,03/01/2026 00:42,nota_tecnico,tecnico,Gianni,,"TOR-13 - versle polizia locale in allegato, danni anteriorri. fermo 26gg. Davide"
+COM-TOR-00181,NOL-TOR-00486,01-03-2026,email,cliente,info@pastoreeventi.example.it,Ritardo riconsegna,"Spett.le Buby Rent,
+Sono bloccato per lavori sulla strada, arrivo con circa 4 ore di ritardo per la riconsegna (GR118BK)
+Saluti
+Pastore Eventi
+Sent from my iPhone"
+COM-TOR-00182,NOL-TOR-00512,01-03-2026 17:38,modulo_web,cliente,cavalloal33@example.com,Richiesta assistenza,"nome: alessandro | email: cavalloal33@exxample.com | tel: 3853507964 | messaggio: tutto ok, merzo comodo e consuni bassi. grazie!"
+COM-TOR-00183,NOL-TOR-00999,01/03/2026 19:02,email,cliente,davide.blandino@example.net,Feedback noleggio,"Salve,
+Complimenti&nbsp;all'operatore di sede, molto disponibile. Prezzo onesto
+Saluti"
+COM-TOR-00184,NOL-TOR-01652,03/03/26 04:45,telefonata_trascritta,cliente,3759017624,,"Trascr. chiamata ore 17:12 (op. Gianni) - cliente Giulia Ravera: sono fermo a Lingotto, il mezzo (Volkswagen Golf) non riparte, mandate il carro attrezzi"
+COM-TOR-00185,,03/03/2026,nota_tecnico,tecnico,Luca B.,,"RIT TOR-07: interno molto sporco (rifioti nel bagagliaio), pulizia straordinaria, addebito 40€ al cliente. Paolo"
+COM-TOR-00186,NOL-TOR-00398,03/03/26 17:46,nota_tecnico,tecnico,Andrea,,"RIT TOR-08: interrno molto sporco (peli di animali), pulizia straordinaria, addebito 50€ al cliente. M."
+COM-TOR-00187,NOL-TOR-00506,04/03/2026 11:46,telefonata_trascritta,cliente,3784861728,,"Trascr. chiamata orre 14:41 (op. Gianni) - cliente Giorgio: posso tenere il mezzo (Cube Kathmandu) fino a domani? traffico, non riesco ad arrivare"
+COM-TOR-00188,NOL-TOR-00460,05/03/2026,modulo_web,cliente,cottinoel25@example.com,Richiesta assistenza,"Nome: Elena | Email: cottinoel25@example.com | Tel: 3769715394 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00189,,05/03/2026 09:04,email,cliente,boninoma35@example.net,Info noleggio,"Salve,
+Accettate carte di debito per la cauzione o servee per forza la carta di credito?
+Grazie e saluti
+Mario Bonino"
+COM-TOR-00190,NOL-TOR-00449,06/03/2026,sms,cliente,3935389610,,"ritardo di 2h x traffico, scusate. Mezzo Fiat Panda"
+COM-TOR-00191,NOL-TOR-00501,2026-03-06,email,cliente,ebosio@example.it,Grazie!,"BUONASERA,
+GREAT  SERVICE,  THE BIKE WAS PERFECT AND THE STAFF VERY FRIENDLY. THANK YOU!
+GRAZIE
+ELENA BOSIO
+INVIATO DA IPHONE"
+COM-TOR-00192,NOL-TOR-00501,06/03/2026 17:45,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GR690TX: parabrezza segni di sfregamento, segnalato a fine mese per carrozzeria. cliente informato. fermo 2gg - Sara"
+COM-TOR-00193,NOL-TOR-00540,07/03/2026 20:05,nota_tecnico,tecnico,Fabio,,RIT TOR-11 32773km - cofano piccola scheggiatura. nessun intervento urgente. fermo 2gg. L.G.
+COM-TOR-00194,,2026-03-07 21:16,sms,cliente,3468859926,,per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-TOR-00195,NOL-TOR-00360,08-03-2026 00:15,whatsapp,cliente,3890154433,,"non parte, il motorino fa solo clic. Sono a Caselle"
+COM-TOR-00196,NOL-TOR-00538,08/03/26 09:31,email,cliente,info@piccoloagricola.example.it,Re: foratura,"Hi, the vehicle (GP384DZ) won't start near Caselle. Can you send assistance please?
+Cordialmente
+Piccolo
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00197,NOL-TOR-00360,08-03-2026 19:27,nota_tecnico,tecnico,Luca B.,,TOR-09 - frizione da sostituire. fermo 7gg. L.G.
+COM-TOR-00198,NOL-TOR-00225,09/03/2026 12:35,nota_operatore,operatore,Elisa,,"ricevuto  verbale  del comune di Porta Nuova per ZTL/eccesso di velocita', targa GP127FK. da addebitare al cliente + 100€ gestione pratica"
+COM-TOR-00199,NOL-TOR-00360,11-03-2026 10:34,modulo_web,cliente,ferrerogi4@example.com,,"Nome: Giulia Ferrero | Email: ferrerogi4@example.com | Tel: 3890154433 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00200,NOL-TOR-00538,11/03/2026 11:15,sms,cliente,3214461062,,"posso tenere il mezzo (Ford Transit) fino a domani? code sulla A32, nn riesco ad arrivare"
+COM-TOR-00201,NOL-TOR-00571,11-03-2026 14:51,email,cliente,andrea.marchetti@example.com,Annullamento prenotazione,"buongiorno  a  tutti,
+devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+grazie mille
+marchetti andrea
+inviato dal mio saasung galaxy"
+COM-TOR-00202,NOL-TOR-00399,12/03/2026 02:13,email,cliente,perottipa43@example.net,Cauzione non restituita,"Buongiorno a tutti,
+Ho visto un addebito di 90 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-TOR-00399
+Paolo
+Inviato da iPhone"
+COM-TOR-00203,,2026-03-12,email,cliente,piccoloma70@example.it,Grazie!,"gentile buby rent,
+esperienza ottima, ritiro e riconsegna rapidissimi. consiglio
+cordialmente
+inviato da iphone"
+COM-TOR-00204,,12-03-2026 10:32,email,cliente,grecosi80@example.org,Modifica prenotazione,"buonasera,
+devo spostare il noleggio di un giorno, e' possibile? (eb-tor-001)
+grazie"
+COM-TOR-00205,NOL-TOR-00582,2026-03-12 19:16,whatsapp,cliente,3890154433,,"ho bucato la ruota posteriore vicino a la Mandria, non ho la camera d'aria"
+COM-TOR-00206,NOL-TOR-00574,2026-03-12,nota_tecnico,tecnico,Marco,,"EB-TOR-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Marco"
+COM-TOR-00207,NOL-TOR-00582,2026-03-13 02:52,nota_tecnico,tecnico,M.,,EB-TOR-003 - sostituito pneumatico. fermo 3gg. Paolo
+COM-TOR-00208,,13/03/2026 05:29,sms,cliente,3739478132,,"siamo in 5 con bagagli e 2 bicci, che mezzo ci consigliae per il fine settimana?"
+COM-TOR-00209,,2026-03-14 09:08,modulo_web,cliente,info@ferrariscantine.example.it,Contatti,Nome: Ferraris | Email: info@ferrariscantine.example.it | Tel: 3553499068 | Messaggio: per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+COM-TOR-00210,NOL-TOR-00584,2026-03-14,telefonata_trascritta,cliente,3697260626,,"Trascr. chiamata ore 13:43 (op. Gianni) - cliente Olivero Elena: sto arrivando ma ho sciopero mezzi, tra 1 ore sono da voi"
+COM-TOR-00211,NOL-TOR-00531,14/03/26,telefonata_trascritta,cliente,3781769675,,"Trascr. chiamata ore 9:18 (op. Gianni) - cliente Martini Trasporti: sto arrivando ma ho coda in autostrada, tra 3 ore sono da voi"
+COM-TOR-00212,,,email,cliente,cristina.ferrero@example.it,Re: Preventivo,"accettate carte di debito per la cauzione o serve per forza la carta di credito?
+saluti
+cristina
+get outlook for android"
+COM-TOR-00213,NOL-TOR-00581,15-03-2026 21:52,sms,cliente,3391247333,,"VORREI PROLUNGARE DI 1 GIORNI, IL MEZZO E' LIBERO?"
+COM-TOR-00214,00590,2026-03-16,telefonata_trascritta,cliente,3890154433,,"Trascr. chiamata ore 19:34 (op. Gianni) - cliente Giulia Ferrero: posso tenere l mezzo (GP129LH) fino a domani? code sulla A32, non riesco ad arivare"
+COM-TOR-00215,NOL-TOR-00382,16/03/2026 17:50,whatsapp,cliente,3839378590,,"TUTTO OK, MEZZO COMODO E CONSUMI BASSI. GRAZIE!"
+COM-TOR-00216,NOL-TOR-00599,17/03/2026 19:30,nota_tecnico,tecnico,L.G.,,"EB-TOR-003 rientrata pien di fango, lavaggio completo. addebito puliizia 15€. M."
+COM-TOR-00217,NOL-TOR-00577,19/03/2026 02:26,sms,cliente,3837541208,,sulla strada per la Mandria un sasso ha colpito il lunotto e ora cc'e' una crepa. Posso continuare a guidare fino alla riconsegna? (TOR-11)
+COM-TOR-00218,NOL-TOR-00577,19/03/26 05:11,whatsapp,cliente,3837541208,,"ritardo di 2h per sciopero mezzi, scusate. Mezzo Nissan Qashqai"
+COM-TOR-00219,NOL-TOR-00577,19-03-2026 14:29,nota_tecnico,tecnico,Gianni,,TOR-11 rientrato. Danno lunotto: calotta rotta. da sostituire il pezzo. Foto ok in caartella. Stima fermo 6gg (L.G.)
+COM-TOR-00220,NOL-TOR-00586,19/03/2026 16:04,whatsapp,cliente,3536170088,,"mi  sono  accorto di aver lasciato il portafoglio nel mezzo, potrei passare domani"
+COM-TOR-00221,NOL-TOR-00235,19/03/26 17:36,nota_operatore,operatore,Marta,,"multa pedaggio non pagato targa G218WB, la Mandria: rivalsa su cliente"
+COM-TOR-00222,NOL-TOR-00537,19/03/2026 21:05,email,cliente,rcosta@example.org,Reclamo,"Salve,
+Mi aveie addebitato un danno che non ho fatto, era gia' resente nelle foto al ritiro. Contesto l'importo di 75 euro
+Cordials saluti
+Roberto Cota
+Sent from my iPhone"
+COM-TOR-00223,NOL-TOR-00613,2026-03-19 21:21,nota_tecnico,tecnico,Tech1,,EB-TOR-002 rientrato. Danno catena: leva pigata ma funzionante. nessun intervvento urgente. Foto o in cartella. Stima fermo 1gg (Davide)
+COM-TOR-00224,NOL-TOR-00585,20-03-2026 06:36,email,cliente,alessia.bruno@example.org,Re: Ritardo riconsegna,"Ciao,
+Ritardo di 4h per coda in autostrada, scusate. Mezzo GH746MV
+Grazie
+Alessia"
+COM-TOR-00225,NOL-TOR-00599,20/03/26 11:25,modulo_web,cliente,alessia.re@example.net,,"Nome: Alessia Re | Email: alessia.re@example.net | Tel: 3831751947 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00226,NOL-TOR-00615,20/03/26 13:38,modulo_web,cliente,info@pastoreeventi.example.it,,"Nome: PASTORE EVENTI | Email: info@pastoreeventi.example.it | Tel: 3572921677 | Messaggio: annullate er favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00227,00618,2026-03-20 14:06,nota_tecnico,tecnico,Stefano,,RIT TOR-02 56684km - passaruot ant. ammaccatura con vernice saltata. da mandare in carrozeria. oermo 6gg. Paoloo
+COM-TOR-00228,NOL-TOR-00554,22/03/26 01:39,whatsapp,cliente,3800449041,,"devo spostare il noleggio di un giorno, e' possibile? (TOR-10)"
+COM-TOR-00229,NOL-TOR-00595,22/03/2026 11:39,email,cliente,roberta.moretti@example.net,riconsegna in ritardo,"ciao,
+sono bloccato per traffico, arrivo con circa 4 ore di ritardo per la riconsegna (n761sp)
+grazie
+roberta mretti
+inviato dal mmio samsung galaxy"
+COM-TOR-00230,NOL-TOR-01369,03/23/2026,email,cliente,ilaria.bertolino@example.it,Preventivo,"spett.le buby rent,
+ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni
+cordialmente
+ilaria bertolino [incomprensibile]"
+COM-TOR-00231,NOL-TOR-00425,25/03/26 14:19,email,cliente,rgallo@example.it,info danno,"Egregi sgnori,
+Ho preso una buca e adesso il parafango fa un rumore strano, secondo e e' storto/a. Bici (EB-TOR-003)
+Roberta allo"
+COM-TOR-00232,NOL-TOR-00425,25/03/2026,nota_tecnico,tecnico,Elena,,EB-TOR-003 RIENTRATO. DANNO PARAFANGO: FORCELLA PIEGATA. DA SOSTITUISE IL PEZZO. FOTO OK IN CARTELLA. STIMA FERMO 3GG (M.)
+COM-TOR-00233,NOL-TOR-00297,26/03/2026 19:00,nota_operatore,operatore,Elisa,,"multa pedaggio non pagato targa GN218WB, la Mandria: rivalsa su cliente"
+COM-TOR-00766,,05-11-2026 21:09,email,cliente,info@giordanoconsulenze.example.it,Contestazione addebito,"La cauzione di 800 euro non mi e' stata ancora restituita dopo 10 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie mille
+GIORDANO CONSULENZE"
+COM-TOR-00235,NOL-TOR-00612,28/03/26,email,cliente,info@martinitrasporti.example.it,Re: Richiesta rimborso,"All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie mille
+Martini Trasporti
+Inviato da iPhone"
+COM-TOR-00236,,28/03/2026 16:20,telefonata_trascritta,cliente,3937550991,,"Trascr. chiamata ore 15:01 (op. Marta) - clientte Cristina Actis: sto arrivando ma ho incdente in tangenziale, tra 4 ore sono da voi"
+COM-TOR-00237,NOL-TOR-00522,28-03-2026,modulo_web,cliente,ebertolino@example.org,Richiesta assistenza,"Nome: Elena Bertolino | Email: ebertolino@example.org | Tel: 3518434560 | Messaggio: grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente"
+COM-TOR-00238,NOL-TOR-00647,28/03/2026 17:50,nota_tecnico,tecnico,Andrea,,"TOR-09 - recupero con carro attrezzi, mezzo in officina. fermo 4gg. Stefano"
+COM-TOR-00239,NOL-TOR-00647,28/03/2026 18:44,nota_tecnico,tecnico,Stefano,,TOR-09: cerchio post. dx -> graffio superficiale. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-TOR-00240,NOL-TOR-00651,2026-03-29 08:23,whatsapp,cliente,3572921677,,"ritardo di 1h per traffico, scusate. Mezzo GN761SP"
+COM-TOR-00241,NOL-TOR-00674,30/03/2026 01:45,email,cliente,giorgio.moretti@example.it,Info noleggio,"Ciao,
+Per un'azienda on partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Giorgio Moretti"
+COM-TOR-00242,,,email,cliente,cavalloal33@example.com,Cauzione non restituita,"buongiorno,
+ho&nbsp;visto&nbsp;ut addebito di 250 euro per km extra ma secondo me ho percorso molti meno km. chiedo verifica del ontratto nol-tor-00647
+cordiali saluti
+alessandro
+sent from iy iphone"
+COM-TOR-00243,NOL-TOR-00445,31/03/2026,whatsapp,cliente,3900095783,,"USCENDO DA UN POSTEGGIO STRETTO A LA MANDRIA HO STRISCITO IL PARAURTI ANTERIORE. MI SPACE TANTO, QUANTO DOVRO' PAGARE? [incomprensibile]"
+COM-TOR-00244,NOL-TOR-00633,2026-03-31 08:14,email,cliente,andrea.barbero@example.com,Contestazione addebito,"ouongioro,
+Il prezzo pgato e' diverso da quello del reventivo ricevuto via email, c'e' una differenza ddi 48 euro. Non accettabile
+Grazie millo
+Barbero Andrea"
+COM-TOR-00245,NOL-TOR-00560,31/03/2026 10:27,nota_tecnico,tecnico,Andrea,,TOR-12 rientrato. Danno paraurti ant.: cerchio scheggiato e ovalizzato. preventivo richiesto. Foto ok in cartella. Stima fermo 4gg (Marco)
+COM-TOR-00246,,01-04-2026 12:23,sms,cliente,3618555811,,"vorrei prolungare di 3 giorni, il mezzo e' libero?"
+COM-TOR-00247,,01/04/2026 19:46,email,cliente,info@barberoalpineservice.example.it,Preventivo,"Salve,
+Vorrei noleggiare auto da 04/04 a 11/04, avete disponibilita' e quanto costa?
+Saluti"
+COM-TOR-00248,NOL-TOR-00371,02/04/2026 00:29,nota_operatore,operatore,Gianni,,"verbale EB-TOR-004 - corso Unità d'Italia - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-TOR-00249,NOL-TOR-00640,2026-04-02 06:30,email,cliente,sferrero@example.it,info danno,"Spett.le Buby Rent,
+Ho preso una buca e adesso il display fa un rumore strano, secondo me e' storto/a. Bici (Cube Kathmandu)
+Saluti
+Silvia Ferrero"
+COM-TOR-00250,NOL-TOR-00445,02/04/2026 14:08,nota_tecnico,tecnico,M.,,TOR-13  rientrato.  Danno paraurti ant.: urto forte con piu' elementi coinvolti. carro attrezzi per officina. Foto ok in cartella. Stima fermo 13gg (Sara)
+COM-TOR-00251,,02/04/2026 19:06,nota_tecnico,tecnico,Andrea,,EB-TOR-003 rientrato. Danno display: manubrio leggermente fuori asse. nessun intervento urgente. Foto ok in cartella. Stima fermo 1gg (Elena)
+COM-TOR-00252,NOL-TOR-00632,2026-04-03 06:41,email,cliente,martina.cerutti@example.net,Feedback noleggio,"buongiorno a tutti,
+esperienza ottima, ritiro e riconsegna rapidissimi. consiglio
+saluti
+sent from my iphone"
+COM-TOR-00253,NOL-TOR-00530,03/04/2026 10:08,nota_tecnico,tecnico,Tech1,,"rit tor-16: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 50â¬ al cliente. fabio"
+COM-TOR-00254,NOL-TOR-00519,2026-04-03 12:28,nota_tecnico,tecnico,Elena,,rit tor-08 74784km - paraurti ant. urto forte con piu' elementi coinvolti. contattata assicurazione. fermo 32gg. stefano
+COM-TOR-00255,00588,2026-04-03 13:07,whatsapp,cliente,3352146179,,"sono bloccato x cosa in autostrada, arrivo con circa 1 ore di ritardo x la riconsegna (EB-TOR-002)"
+COM-TOR-00256,NOL-TOR-00535,03/04/2026,whatsapp,cliente,3430754650,,"sono bloccato x traffico in tangenziale, arrivo con circa 1 ore di ritardo x la riconsegna (Bianchi E-Omnia)"
+COM-TOR-00257,NOL-TOR-00598,03/04/2026 22:37,email,cliente,rossilu93@example.org,Annullamento prenotazione,"Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Distinti saluti"
+COM-TOR-00258,NOL-TOR-00623,04/04/2026 17:59,whatsapp,cliente,3577628627,,"ho preso na buca e adesso la catena fa un rumore strano, secondo me e' storto/a. Bici (EB-TOR-003)"
+COM-TOR-00731,,2026-10-20 10:56,nota_tecnico,tecnico,M.,,"controllo in riconsegna gs044cn: cerchio post. dx segni di sfregamento, nessun intervento urgente. cliente informato. no ferio - l.g."
+COM-TOR-00260,,05/04/2026 16:09,email,cliente,ilaria.blandino@example.com,,"Ciao,
+Per un'azienda con arttita IVA c'e' una tariffa agevolata per noleeggi ripetuti?
+Grazie e saluti
+Ilaria
+Get Outlook for Android"
+COM-TOR-00261,NOL-TOR-00665,2026-04-05 22:15,nota_tecnico,tecnico,Gianni,,TOR-09 rientrato. Danno passaruota ant.: crepa estesa. preventivo richiesto. Foto ok in cartella. Stima fermo 5gg (Gianni)
+COM-TOR-00262,NOL-TOR-00689,05/04/2026 22:30,email,cliente,paola.chiaves@example.com,Cancellazione,"Spett.le Buby Rent,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+In attesa di un vostro riscontro
+Paola Chiaves
+Get Outlook for Android"
+COM-TOR-00263,NOL-TOR-00680,06/04/2026 15:50,email,cliente,boninoma35@example.net,Feedback noleggio,"Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Cordialmente
+Mario Bonino"
+COM-TOR-00264,,2026-04-06 18:46,email,cliente,claudio.conte@example.com,Info noleggio,"Buongiorno a tutti,
+Vorrei noleggiare e-bike da 14/04 a 14/04, avete disponibilita' e quanto costa?
+Conte Claudio
+Inviato da iPhone"
+COM-TOR-00265,NOL-TOR-00652,2026-04-06 23:04,email,cliente,info@gastaldieventi.example.it,Re: Oggetto dimenticato,"Ho dimenticato un ombrello nel mezzo (Peugeot 208), potete controllare?
+Grazie mille
+Gastaldi Eventi
+Sent from my iPhone"
+COM-TOR-00266,NOL-TOR-00650,07-04-2026 11:08,email,cliente,elena.olivero@example.com,Danno EB-TOR-001,"Buongiorno,
+Ho preso una buca e adesso il parafango fa un rumore strano, secondo me e' storto/a. Bici (EB-TOR-001)
+Distinti saluti
+Olivero Elena"
+COM-TOR-00267,NOL-TOR-00650,07/04/2026 15:41,nota_tecnico,tecnico,Paolo,,RIT EB-TOR-001 1932km - parafango manubbrio leggermente fuori asse. segnalato a fine mese per carrozzeria. no fermo. Tech1
+COM-TOR-00268,NOL-TOR-00608,2026-04-07 18:39,email,cliente,info@ferrarieventi.example.it,Feedback noleggio,"Ciao,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Saluti
+Get Outlook for Android"
+COM-TOR-00369,,,modulo_web,cliente,andrea.barbero@example.com,,"Nome: Andrea Barbero | Email: andrea.barbero@example.com | Tel: 3220166379 | Messaggio: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-TOR-00270,NOL-TOR-00251,2026-04-08 10:33,nota_operatore,operatore,Marta,,"verbale  GP384DZ  - Superga - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-TOR-00271,NOL-TOR-00623,10/04/2026 06:01,modulo_web,cliente,cvacchetto@example.it,,Nome: Vacchetto Claudio | Email: cvacchetto@example.it | Tel: 3577628627 | Messaggio: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-TOR-00272,NOL-TOR-00698,04/10/2026 09:13,sms,cliente,3562593686,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00273,NOL-TOR-00710,10/04/2026 16:12,email,cliente,fferraris@example.it,Cancellazione,"Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Federica"
+COM-TOR-00274,NOL-TOR-00708,10-04-2026 17:29,whatsapp,cliente,3217116525,,"posso tenere il mezzo (EB-TOR-004) fino a domani? blocco ZTL, nn riesco ad arrivare"
+COM-TOR-00275,NOL-TOR-00661,11/04/2026 06:04,email,cliente,info@costagiardinaggio.example.it,Graffio sul mezzo,"Buongiorno a tutti,
+Volevo avvisarvi che sul mezzo (Fiat Pannda) c'e' un graaffio su il cofano, non so se era gia' present al ritiro. See serve vi mando le footo
+COSTA GIARDINAGGIO"
+COM-TOR-00276,NOL-TOR-00580,11-04-2026 12:46,telefonata_trascritta,cliente,3697260626,,"Trascr.  chiamata  ore 8:02 (op. ilisa) - cliente Elena Olivero: i freni non frenano bene in discesa, sono a Superga, bici EB-TORR-005"
+COM-TOR-00277,NOL-TOR-00712,11/04/2026,whatsapp,cliente,3499917908,,"sono bloccato per ritardo del treno, arrivo con circa 3 ore di ritardo per la riconsegna (EB-TOR-001)"
+COM-TOR-00278,NOL-TOR-00580,,nota_tecnico,tecnico,Sara,,"EB-TOR-005 - freni da controllare, pastiglie consumate. fermo 1gg. Stefano"
+COM-TOR-00279,NOL-TOR-00704,04/12/2026 20:08,email,cliente,info@gastaldieventi.example.it,Ottimo servizio,"Buongiorno,
+Complimenti all'operatore di sede, moltt disponibiile. Prezzo onesto
+Saluti
+GASTALDI EVENTI
+Get Outlook for Android"
+COM-TOR-00280,NOL-TOR-00712,2026-04-12 22:33,nota_tecnico,tecnico,Fabio,,"eb-tor-001 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. stefano"
+COM-TOR-00344,NOL-TOR-00875,09/05/2026 00:56,modulo_web,cliente,info@martinitrasporti.example.it,,Nome: MARTINI TRASPORTI | Email: info@martinitrasporti.example.it | Tel: 3781769675 | Messaggio: la vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 26/05
+COM-TOR-00282,NOL-TOR-00443,04/13/2026 11:08,nota_operatore,operatore,Gianni,,"ricevuto verbale del comune di Porta Nuova per ZTL/eccesso di velocita', targa GT275HY. da addebitare al cliente + 100€ gestione pratica"
+COM-TOR-00283,NOL-TOR-00702,13/04/2026 12:08,telefonata_trascritta,cliente,3224089602,,"trtscr. chiimata ore 16:18 (op. gianni) - cliente ilaria: posso tenere l mezzo (eb-tor-005) fino a domani? problemi personali, non riesco ad arrivare"
+COM-TOR-00284,,14/04/2026 06:44,email,cliente,pre@example.net,Preventivo,"Ciao,
+Per  un'azienda  con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Distinti saluti
+R Paolo
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00285,00661,2026-04-14 11:12,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna GL305PT: cofano crepa estesa, da sostituire il pezzo. cliente informato. fermo 9gg - Sara"
+COM-TOR-00286,,14-04-2026 13:27,telefonata_trascritta,cliente,3398072167,,"Trascr. chiamata ore 17:34 (op. Elisa) - cliente Alessia Bonino: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-TOR-00287,NOL-TOR-00516,15-04-2026 03:42,email,cliente,federica.bruno@example.org,info danno,"Buongiorno a tutti,
+Uscendo da un posteggio stretto a Stupiniga ho strisciato il fanale posteriore. Mi sspiace tnto, quanto dovro' agare?
+Cordiali saluti"
+COM-TOR-00288,NOL-TOR-00697,15/04/26 09:21,nota_tecnico,tecnico,Gianni,,"cntrollo in riconsegna GP127FK: cerchio oost. dx crepa esstea, da maadare in carrozzeria. cliente inforrmato. fermo 3gg - Stefano"
+COM-TOR-00289,NOL-TOR-00516,16/04/2026 09:50,nota_tecnico,tecnico,Elena,,"RIT TOR-06: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70â¬ al cliente. Sara"
+COM-TOR-00290,NOL-TOR-00516,16/04/2026 12:36,nota_tecnico,tecnico,Fabio,,TOR-06: fanale post. -> leggera ammaccatura. da lucidare // fermo 2gg
+COM-TOR-00291,NOL-TOR-00694,17/04/2026 01:47,sms,cliente,3784861728,,"uscendo da un posteggio stretto a caselle ho strisciato il fanale anteriore. mi spiace tanto, quanto dovro' pagare?"
+COM-TOR-00292,NOL-TOR-00731,04/17/2026 09:14,whatsapp,cliente,3465325362,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00293,,17/04/2026 12:47,modulo_web,cliente,ferrerogi4@example.com,Richiesta assistenza,"Nome: Giulia Ferrero | Email: ferrerogi4@example.com | Tel: 3890154433 | Messaggio: siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-TOR-00294,NOL-TOR-00504,18-04-2026 06:30,telefonata_trascritta,cliente,3572921677,,"Trascr. chiamata ore 14:16 (op. Marta) - cliente Pastore Eventi: sono bloccato per incidente in tangenziale, arrivo con circa 2 ore di ritardo per la riconsegna (GN761SP)"
+COM-TOR-00295,NOL-TOR-00717,2026-04-18 15:41,nota_tecnico,tecnico,Fabio,,"controllo in riconsegna GK931JD: fanale ant. segni di sfregamento, da lucidare. cliente informato. fermo 2gg - Sara"
+COM-TOR-00296,,19/04/26 01:29,whatsapp,cliente,3958377905,,"siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?"
+COM-TOR-00297,NOL-TOR-00717,19/04/2026 14:49,email,cliente,rbarone@example.org,Grazie!,"Buongiorno,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Grazie
+Roberto Barone"
+COM-TOR-00298,,19-04-2026 18:38,email,cliente,giorgio.moretti@example.it,Info noleggio,"Salve,
+Vorrei noleggiare auto da 21/04 a 23/04, avete disponibilita' e quanto costa?
+Grazie mille
+Get Outloo for Android"
+COM-TOR-00299,NOL-TOR-00738,20/04/2026 09:21,telefonata_trascritta,cliente,3644438970,,"Trascr. chamata ore 14:14 (op. Gianni) - cliente Piccolo Robertoo: posso tenere il mezzo (TOR-13) fino a domani? lavori sulla strada, non riesco ad arrivare"
+COM-TOR-00300,NOL-TOR-00737,20/04/2026 13:31,sms,cliente,3514514605,,"pposso tenere il mezzo (Nissan Qashqai) fino a doomani? ritardo del treno, non riessco ad arrivare"
+COM-TOR-00301,NOL-TOR-01027,22/04/2026 07:58,sms,cliente,3784861728,,"sto  arrivando  ma ho lavori sulla strada, tra 1 ore sono da voi"
+COM-TOR-00302,NOL-TOR-00661,23-04-2026 03:56,email,cliente,info@costagiardinaggio.example.it,Cauzione non restituita,"Egregi signori,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Sereizio pessimo, vorrei un rimborso parziale
+Grazie
+Costa Giardinaggio"
+COM-TOR-00303,NOL-TOR-00784,23/04/26 06:14,whatsapp,cliente,3669987120,,"devoo annullare la prenoazionee x motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00703,NOL-TOR-01527,2026-10-12 00:00,email,cliente,fbrunetti@example.it,annullo noleggio,"Ciao,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Distinti saluti
+Sent from my iPhone"
+COM-TOR-00305,,23-04-2026 16:33,sms,cliente,3678491924,,"vorrei noleggiare e-bike da 09/05 a 09/05, avete disponibilita' e quanto costa?"
+COM-TOR-00306,NOL-TOR-01220,24/04/2026 07:42,email,cliente,federica.bruno@example.org,Segnalazione danno,"Gentile Buby Rent,
+Mentre facevo retromarcia a la tangenziale ho toccato un palo e si e' rovinato il fianco sinistro. Nessun ferito. Cosa devo fare?
+Grazie mille
+Bruno Federica"
+COM-TOR-00307,00714,24/04/2026 14:30,whatsapp,cliente,3483942959,,sono caduto con la bici sul sentiero verso la tangenziale: il parafango si e' rovinato/a ma ioo sto bene. mi dite come funzona con la cauzione?
+COM-TOR-00308,NOL-TOR-00770,2026-04-24 17:30,email,cliente,info@rossotrasporti.example.it,Comunicazione incidente,"gentile  buby  rent,
+sono uscito di strada a corso unità d'italia per colpa del ghiaccio, il mezzo (fiat ducato) e' danneggiato ma io sto bene
+cordiali saluti
+get outlook for android"
+COM-TOR-00309,NOL-TOR-00714,24/04/2026 18:03,nota_tecnico,tecnico,Tech1,,"EB-TOR-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Fabio"
+COM-TOR-00310,,24/04/2026 20:51,nota_tecnico,tecnico,Fabio,,"controllo in riconsegna eb-tor-004: parafango cambio posteriore rotto, foto in cartella, addebito da valutare. cliente informato. fermo 2gg - paolo"
+COM-TOR-00311,NOL-TOR-00820,25/04/2026 08:39,whatsapp,cliente,3905926749,,la vostra auto puo' entrare in ZT a Torino? Devo andare in centro il 13/05
+COM-TOR-00312,,2026-04-25 19:19,nota_tecnico,tecnico,L.G.,,"TOR-16 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 23gg. Luca B."
+COM-TOR-00313,NOL-TOR-00801,26/04/2026 04:03,telefonata_trascritta,cliente,3837541208,,"Trascr. chiamata ore 15:42 (op. Gianni) - cllisnte Matteo: vorrei prolungaare di 2 giorni, il mmezzo e' libero?"
+COM-TOR-00314,,26/04/26 12:12,email,cliente,perottigi1@example.net,Contestazione addebito,"Salve,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 120 euro
+Distinti saluti
+Giorgio"
+COM-TOR-00315,NOL-TOR-00684,2026-04-26 17:36,email,cliente,francesco.ferraris@example.com,Re: Feedback noleggio,"ciao,
+complimenti all'operatore di sede, molto disponibile. prezzo onesto
+distinti saluti
+francesco errraris"
+COM-TOR-00316,NOL-TOR-00722,27/04/2026 10:37,email,cliente,laura.greco@example.net,I: spia accesa,"Buongiorno,
+Sento un rumore strano dai freni quando freno, soprattutto in discesa verso piazza Vittorio
+Distinti saluti"
+COM-TOR-00317,NOL-TOR-00734,27/04/2026 18:24,email,cliente,perottima57@example.com,Feedback noleggio,"Salve,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Grazie mille
+Matteo Perotti"
+COM-TOR-00318,NOL-TOR-00775,28-04-2026 09:26,whatsapp,cliente,3937505514,,"ritardo di 1h per ritardo del treno, scusate. Mezzo GS044CN"
+COM-TOR-00319,00762,28/04/2026 21:32,whatsapp,cliente,3658583890,,"non  parte,  il motorino fa solo clic. sono a piaza vittoeio"
+COM-TOR-00320,NOL-TOR-00766,29/04/2026 12:55,whatsapp,cliente,3970708390,,"ritardo di 4h per problemi personal, scusats. Mezzo Fiat 500e"
+COM-TOR-00054,NOL-TOR-00131,,nota_tecnico,tecnico,Gianni,,"EB-TOR-005 rientrata piena di fango, lavaggio compleo. addebito pulizit 15€. Gianni"
+COM-TOR-00322,NOL-TOR-00786,30/04/2026 01:33,telefonata_trascritta,cliente,3735806224,,"Trascr. chiamata ore 15:23 (op. Gianni) - cliente Monica Gamba: incidente in Lingotto con il mezzo (Peugeot 208): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-TOR-00323,NOL-TOR-00762,30/04/2026 12:44,nota_tecnico,tecnico,Marco,,"TOR-14  -  freni da controllare, pastiglie consumate. fermo 4gg. Paolo"
+COM-TOR-00324,NOL-TOR-00766,2026-04-30 21:49,modulo_web,cliente,valentina.conte@example.it,Contatti,"Nome: Valentina | Email: valentina.conte@example.it | Tel: 3970708390 | Messaggio: la colonnina a Stupinigi non carica, errore cavo. Auto TOR-04"
+COM-TOR-00325,NOL-TOR-00829,01/05/2026 14:27,email,cliente,ggreco@example.com,Cancellazione,"Gentile Buby Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie
+Giulia Greco"
+COM-TOR-00326,,01/05/2026 16:25,modulo_web,cliente,roberto.sacco@example.org,Contatti,Nome: Sacco Reberto | Email: roberto.sacco@example.org | Tel: 3948406193 | Messaggio: posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+COM-TOR-00327,NOL-TOR-00786,,nota_tecnico,tecnico,Fabio,,"TOR-07 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 13gg. M."
+COM-TOR-00328,NOL-TOR-00709,02/05/2026 06:03,email,cliente,info@toscoserramenti.example.it,Reclamo,"buonasera,
+la cauzione di 600 euro non mi e' stata ancora restituita dopo 15 giorni dalla riconsegna. vorrei sapere quando arriva
+tosco serramenti"
+COM-TOR-00329,NOL-TOR-00778,02/05/2026 16:46,whatsapp,cliente,3837541208,,"Hallo, das Fahrzeug (Bianchi E-Omnia) springt bei piazza Vittorio nicht an, bitte um Hilfe."
+COM-TOR-00330,NOL-TOR-00768,05/02/2026 20:18,sms,cliente,3958377905,,"ho dimenticato gli occhiali da sole nel mezzo (bianchi e-omnia), potete controllare?"
+COM-TOR-00331,NOL-TOR-00778,2026-05-02,nota_tecnico,tecnico,Paolo,,"EB-TOR-004  -  pneumatico fianco danneggiato, nuovo treno gomme. fermo 3gg. Tech1"
+COM-TOR-00332,NOL-TOR-00591,03/05/26 00:42,email,cliente,ferrerogi4@example.com,Feedback noleggio,"Salve,
+Grazie, tutto perfettto, personnale gentile e mezzo pulito. Torneremo sicuramente
+Grazie mlle
+Giulia Ferrero
+Get Outlook for Android"
+COM-TOR-00333,,04/05/2026 16:31,modulo_web,cliente,piccoloma70@example.it,Richiesta assistenza,Nome: Mario Piccolo | Email: piccoloma70@example.it | Tel: 3496785626 | Messaggio: per un'azienda con partita IVA c'e' una tariffa ageevolata per noleggi ripetuti?
+COM-TOR-00334,NOL-TOR-00749,04/05/26 17:42,modulo_web,cliente,giovanni.cerutti@example.it,,"Nome:  Giovanni  | Email: giovanni.cerutti@example.it | Tel: 3777217078 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie! [incomprensibile]"
+COM-TOR-00335,,04-05-2026 22:55,nota_tecnico,tecnico,Andrea,,"eb-tor-002: forcella -> cerchio storto. foto in cartella, addebito da valutare // fermo 3gg"
+COM-TOR-00361,NOL-TOR-00865,14/05/2026 17:30,telefonata_trascritta,cliente,3697260626,,"trascr. chiamata ore 9:22 (op. elisa) - cliente elena olivero: sto arrivando ma ho traffico in tangenziale, tra 2 ore sono da voi"
+COM-TOR-00337,NOL-TOR-00655,06/05/26 00:26,sms,cliente,3224089602,,"sento un rumore strano dai freni quando freno, soprattutt in discesa verso Lingotto"
+COM-TOR-00338,NOL-TOR-00644,06/05/2026 09:58,nota_operatore,operatore,Gianni,,"multa pedaggio non pagato targa gp129lh, porta nuova: rivalsa su cliente"
+COM-TOR-00339,NOL-TOR-00839,06/05/2026 15:19,modulo_web,cliente,info@bertolinotraslochi.example.it,Richiesta assistenza,"Nome: Bertolino Traslochi | Email: info@bertolinotraslochi.example.it | Tel: 3839378590 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00340,NOL-TOR-00842,07/05/2026 16:14,email,cliente,lombardima86@example.it,Re: ritardo,"Buongiorno,
+Posso tenere il mezzo (EB-TOR-005) fino a domani? incidente in tangenziale, non riesco ad arrivare
+Saluti
+Mario
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00341,NOL-TOR-00856,2026-05-08 05:09,telefonata_trascritta,cliente,3927731821,,trascr. chiamata ore 19:27 (op. marta) - cliente rossi matteo: e' possibile riconsegnare a stresa invece che da voi? c'e' un supplemento?
+COM-TOR-00342,NOL-TOR-00799,08-05-2026 15:18,email,cliente,nicolo.cerutti@example.it,riconsegna in ritardo,"Sono bloccato per lavori sulla strada, arrivo con circa 2 ore di ritardo per la riconsegna (Tesla Model)
+Cordialmente
+Nicolo'"
+COM-TOR-00343,,2026-05-08 19:24,nota_tecnico,tecnico,Fabio,,"EB-TOR-004 rientrata piena di fanno, lavaggio comeleto. addebito pulizia 15€. Davide"
+COM-TOR-00281,NOL-TOR-00721,2026-04-13 06:58,sms,cliente,3520544573,,"sono bloccato per problemi peraonali, arrivo con circa 2 ore di ritardo per la riconsrgna (skoda octavia)"
+COM-TOR-00345,NOL-TOR-00851,09/05/2026 12:52,email,cliente,matteo.gastaldi@example.com,Prolungamento noleggio,"Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Grazie mille
+Matteo
+Inviato da iPhone"
+COM-TOR-00346,NOL-TOR-00861,05/09/2026 14:15,telefonata_trascritta,cliente,3956342452,,"Trascr. chiamata ore 9:12 (op. Marta) - cliente Simone Ghiglione: Hallo, das Fahrzeug (EB-TOR-001) springt bei Caselle nicht an, bitte um Hilfe."
+COM-TOR-00347,NOL-TOR-00841,2026-05-09 15:44,email,cliente,mre@example.com,Oggetto dimenticato,"Ho dimenticato il casco nel mezzo (EB-TOR-004), potete controllare?
+Matteo Re
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00348,NOL-TOR-00626,09/05/2026 15:45,nota_tecnico,tecnico,Stefano,,"controllo in riconsegna gl311rs: specchietto dx crepa estesa, da sostituire il pezzo. cliente informato. fermo 4gg - sara"
+COM-TOR-00349,NOL-TOR-00861,09-05-2026,nota_tecnico,tecnico,Stefano,,EB-TOR-001 - centranina d resettare. fermo 2gg. Sara
+COM-TOR-00350,NOL-TOR-00863,10/05/2026 19:18,nota_tecnico,tecnico,Fabio,,"EB-TOR-003 rietrata piena di fango, lavaggio completo. addebito pulizia 15€. Teh1"
+COM-TOR-00489,NOL-TOR-01188,2026-07-09 19:58,modulo_web,cliente,info@raveratrasporti.example.it,,"Nome: RAVERA TRASPORTI | Email: info@raveratrasporti.example.it | Tel: 3511166961 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-TOR-00352,NOL-TOR-00639,12/05/26 02:05,email,cliente,info@bosiostudiotecnico.example.it,Feedback noleggio,"Egregi signori,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Distinti saluti"
+COM-TOR-00353,,12/05/2026 06:49,email,cliente,ghiglionesi15@example.org,Feedback noleggio,"Salve,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Cordiali saluti
+Simone"
+COM-TOR-00354,nol-tor-00812,2026-05-12 08:09,email,cliente,francesco.ferraris@example.com,Cauzione non restituita,"Egregi  signori,
+Il  prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 75 euro. Non accettabile
+Distinti saluti
+Francesco Ferraris
+Get Outlook for Android"
+COM-TOR-00355,NOL-TOR-00871,13/05/2026 09:06,whatsapp,cliente,3641966753,,"ritardo di 2h per code sulla A32, scusate. Mezzo Peugeot e-Expert"
+COM-TOR-00507,,2026-07-18 18:46,nota_tecnico,tecnico,Tech1,,EB-TOR-003 - centralina da resettare. feroo 2gg. Fabio
+COM-TOR-00357,NOL-TOR-00863,05/13/2026 14:20,modulo_web,cliente,mcerutti@example.net,Contatti,"Nome: Cerutti Martina | Email: mcerutti@example.net | Tel: 3896700866 | Mensaggio: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 120 euro"
+COM-TOR-00358,,,whatsapp,cliente,3919936984,,e' possibile riconsegnare  Casale Monferrato invece ke da voi? c'e' un suppleminto?
+COM-TOR-00359,NOL-TOR-00879,05/14/2026 16:25,whatsapp,cliente,3890154433,,"ritardo di 1h per traffico, scusate. Mezzo Fiat Panda"
+COM-TOR-00360,NOL-TOR-00785,14-05-2026 16:36,telefonata_trascritta,cliente,3665903635,,"Trascr. chiamata ore 8:57 (op. Gianni) - cliente Genre Chiara: Bonjour, le vehicule (Cube Kathmandu) est en panne pres de Superga, pouvez-vous envoyer une depanneuse ?"
+COM-TOR-00051,,25/11/25 19:52,nota_tecnico,tecnico,L.G.,,"RIT TOR-17: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. M."
+COM-TOR-00362,NOL-TOR-00720,2026-05-14,nota_tecnico,tecnico,Sara,,"TOR-04 rientrato. Danno paraurti post.: cerchio scheggiato e ovalizzato. foto in cartella, addebito da valutare. Foto ok in cartella. Stima fermo 3gg (M.)"
+COM-TOR-00363,NOL-TOR-01240,05/14/2026 20:40,nota_tecnico,tecnico,Luca B.,,"EB-TOR-003 - pnsumatico fianco dannegggiato, nuovo treno goomme. ferno 2gg. Elena"
+COM-TOR-00364,NOL-TOR-00889,15/05/2026 14:13,whatsapp,cliente,3706452154,,"sto arrivando ma ho lavori sulla strada, tra 3 ore sono da voi"
+COM-TOR-00365,,15/05/2026 15:21,modulo_web,cliente,federica.ghiglione@example.it,Richiesta assistenza,nome: federica ghiglione | email: federica.ghiglione@exaample.i | tel: 3816119255 | messaggio: la vostra auto puo' entrare in ztl a torino? devo andarre in centro il 26/05
+COM-TOR-00366,,2026-05-16 14:21,whatsapp,cliente,3653275445,,"sono bloccato x code sulla A32, arrivo con circa 4 ore di ritardo x la riconsegna (Ford Transit)"
+COM-TOR-00367,NOL-TOR-00827,16/05/2026 16:04,modulo_web,cliente,rbarone@example.org,Contatti,"Nome: Barone Roberrto | Email: rbarone@example.org | Tel: 3851810786 | Messaggio: ottima assistenza quando abbinmo avuto bisogno, grazie daavvero"
+COM-TOR-00368,,17/05/2026 11:24,nota_operatore,operatore,Marta,,"ricevuto verbale del comune di Superga per ZTL/eccesso di velocita', targa GR690TX. da addebitare al cliente + 60€ gestione pratica"
+COM-TOR-00036,NOL-TOR-00130,20/11/2025,nota_tecnico,tecnico,Luca B.,,"RIT  E-TOR-002  2197km - parafano forcellla e rruota da sostituire. mezzo fermo, perizia in corso. fermo 12gg. Tech1"
+COM-TOR-00370,,18/05/2026 13:19,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GN218WB: fianco dx graffio profondo fino alla lamiera, foto in cartella, addebito da valutare. cliente informato. fermo 9gg - Fabio"
+COM-TOR-00371,,18/05/2026 14:46,whatsapp,cliente,3602878015,,"ritardo di 3h x sciopero mezzi, scusate. Mezzo EB-TOR-001"
+COM-TOR-00372,00826,05/19/2026,nota_tecnico,tecnico,M.,,tor-13 rientrato. danno paraurti post.: cerchio scheggiato e ovalizzato. da mandaare in carrozzeria. foto ok in cartella. stima fermo 4gg (gianni)
+COM-TOR-00373,NOL-TOR-00886,19/05/26 10:42,whatsapp,cliente,3546121868,,sulla strada x la tangenziale un sasso ha colpito il parabrezza e ora c'e' una crepa. Posso continuare a guidare fino alla riconsegna? (GR690TX)
+COM-TOR-00374,NOL-TOR-00434,19/05/26 13:43,nota_operatore,operatore,Elisa,,"verbale GL311RS - Caselle - violazione art.142, comunicazione dati condocente inviata. spese 60€"
+COM-TOR-00375,NOL-TOR-00886,19/05/2026 14:17,nota_tecnico,tecnico,Luca B.,,"RIT TOR-10 35231km - parabrezza graffio profondo fino alla lamiera. foto in cartella, addebito da valutare. fermo 9gg. L.G."
+COM-TOR-00376,NOL-TOR-00890,19/05/2026 19:12,nota_tecnico,tecnico,L.G.,,"EB-TOR-005 rientrata piena di fango, lrvaggio completo. addebito pulizia 15€. Gianni"
+COM-TOR-00377,NOL-TOR-00339,20-05-2026 00:17,nota_operatore,operatore,Gianni,,"multa pedaggio non pagato targa GN761SP, Caselle: rivalsa su cliente"
+COM-TOR-00378,NOL-TOR-00934,21-05-2026 15:35,whatsapp,cliente,3210087701,,"Hi, the vehicle (EB-TOR-003) won't start near piazza Vittorio. Can you send assistance please?"
+COM-TOR-00379,NOL-TOR-00934,21/05/2026 21:10,nota_tecnico,tecnico,L.G.,,"EB-TOR-003 - clima non funzionante, gas da ricaricare. fermo 3gg. Marco"
+COM-TOR-00380,,2026-05-22 07:42,email,cliente,info@contestudiotecnico.example.it,,"Ciao,
+Ho avuto un incidente a Superga, sono stato tamponato da un altro veicolo. Nessun ferito, abbiamo compilato il CAI. Mezzo GL652NF. Cosa devo fare?
+Grazie mille
+Conte"
+COM-TOR-00381,NOL-TOR-00855,2026-05-22,telefonata_trascritta,cliente,3589266355,,"Trascr. chiamata ore 18:46 (opp. Elisa) - cliente Sara Rosso: sto arrivando ma ho ritardo del treno, tra 4 ore sono da voi"
+COM-TOR-00172,NOL-TOR-00464,2026-02-25 11:58,nota_tecnico,tecnico,Luca B.,,"RIT TOR-02: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 50€ al cliente. M."
+COM-TOR-00383,NOL-TOR-00701,22/05/26 21:43,modulo_web,cliente,info@piccolotrasporti.example.it,Contatti,nome: piccolo trasporti | email: info@piccolotrasporti.example.it | tel: 3643727778 | messaggio: ho visto un addebito di 90 euro per km extra ma secondo me ho percorso molti meno km. chiedo verifica del contratto nol-tor-00701
+COM-TOR-00384,NOL-TOR-00816,23/05/26 11:22,whatsapp,cliente,3607547138,,"posso tenere il mezzo (TOR-07) fino a domani? sciopero mezzi, non riesco ad arrivare"
+COM-TOR-00385,NOL-TOR-00891,23/05/2026 13:19,modulo_web,cliente,claudio.ravera@example.org,,"Nome:  Claudio  Ravera | Email: claudio.ravera@example.org | Tel: 3534097456 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-TOR-00386,,23/05/2026 20:03,email,cliente,ggreco@example.com,Ottimo servizio,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Grazie mille
+Greco Giulia"
+COM-TOR-00387,NOL-TOR-00930,25/05/2026 19:11,nota_tecnico,tecnico,Davide,,"EB-TOR-003 rientrata piena di fango, lavaogio comppleto. addebito pulizia 15€. M."
+COM-TOR-00388,NOL-TOR-00798,2026-05-26 13:14,nota_tecnico,tecnico,Sara,,"RIT TOR-05: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 30€ al cliente. M."
+COM-TOR-00389,NOL-TOR-00953,2026-05-26 14:49,whatsapp,cliente,3768318349,,"devo anullar la prenootazione x motivi di lavoroo, posso avere i rimborso?"
+COM-TOR-00390,,2026-05-26 15:26,nota_tecnico,tecnico,Stefano,,rit tor-03 57378km - fanale ant. segni di sfregamento. ritocco vernice. no fermo. elena
+COM-TOR-00391,NOL-TOR-00968,27/05/2026 15:16,sms,cliente,3669134796,,"purtroppo  non  posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00392,,28/05/2026 13:21,email,cliente,ptosco@example.org,Richiesta informazioni,"Buonasera,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+In attesa di un vostro riscontro
+Tosco Paola"
+COM-TOR-00393,NOL-TOR-00875,28-05-2026 15:56,nota_tecnico,tecnico,Paolo,,"RIT TOR-16: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. Paolo"
+COM-TOR-00394,NOL-TOR-00321,05/29/2026 13:07,whatsapp,cliente,3853507964,,"ho&nbsp;bucato&nbsp;la&nbsp;ruota posteriore vicino a la Mandria, non ho la camera d'aria"
+COM-TOR-00395,NOL-TOR-00811,29/05/2026 14:00,nota_tecnico,tecnico,Marco,,"TOR-12: cerchio ant. sx -> elemento distrutto, da sostituire. preventivo in attesa, mezzo bloccato // fermo 18gg"
+COM-TOR-00396,,30/05/2026 05:24,email,cliente,francesco.ferraris@example.com,disponibilita',"Buonasera,
+Vorrei noleggiare auto da 04/06 a 18/06, avete disponibilita' e quanto costa?
+Cordialmente
+Francesco Ferraris"
+COM-TOR-00397,NOL-TOR-00816,30/05/2026 18:27,email,cliente,rossilu93@example.org,Cauzione non restituita,"Buonasera,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 180 euro
+Rossi Luca
+Get Outlook for Android"
+COM-TOR-00398,NOL-TOR-00928,30/05/2026 21:57,nota_tecnico,tecnico,Paolo,,"eb-tor-001 rientrato. danno cambio post.: cambio posteriore rotto. foto in cartella, addebito da valutare. foto ok in cartella. stima fermo 4gg (elena)"
+COM-TOR-00399,NOL-TOR-00973,2026-05-30 23:39,whatsapp,cliente,3514514605,,il clima non funziona e il cambio fa fatica a ingranare la seconda (TOR-04)
+COM-TOR-00400,NOL-TOR-00928,31/05/26 02:10,email,cliente,fcosta@example.net,Re: Feedback noleggio,"Ciao,
+Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Saluti
+Francesco"
+COM-TOR-00401,NOL-TOR-00973,31/05/2026 22:55,nota_tecnico,tecnico,Paolo,,"TOR-04 - cambi che gratta, verifica. iermo 2gg. Marco"
+COM-TOR-00402,NOL-TOR-00975,2026-06-01,nota_tecnico,tecnico,L.G.,,"RIT TOR-06 47174km - fanale ant. urtoo forte con piu' elemmenti coinvolti. preventivo in artesa, mezzo bloccaato. fermo 13ggg. Tech1"
+COM-TOR-00403,NOL-TOR-00905,01/06/2026 12:36,whatsapp,cliente,3784861728,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00404,NOL-TOR-00974,01/06/2026,whatsapp,cliente,3418426164,,"purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00405,NOL-TOR-00754,2026-06-02 16:17,modulo_web,cliente,alessia.bruno@example.org,Contatti,"Nome: Alessia Bruno | Email: alessia.bruno@example.org | Tel: 3335032932 | Messaggio: sono bloccato per traffico in tangenziale, arrivo con circa 3 ore di ritardo per la riconsegna (Cube Kathmandu)"
+COM-TOR-00406,NOL-TOR-00881,2026-06-03,email,cliente,fravera@example.com,,"SSpett.le Buby Rent,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Saluti
+Federico Ravera
+Inviato da iPhone"
+COM-TOR-00407,NOL-TOR-00967,06/03/2026 02:09,email,cliente,alessia.mondino@example.it,Feedback noleggio,"egregi signori,
+ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+saluti
+mondino alessia"
+COM-TOR-00408,NOL-TOR-00981,03/06/2026,modulo_web,cliente,info@oliveroeventi.example.it,Contatti,"Nome: Olivero Eventi | Email: info@oliveroeventi.examole.it | Tel: 3331613556 | Messaggio: devo annullare la prenotazione per mmotivi di lavoro, posso avere il rimborso?"
+COM-TOR-00409,NOL-TOR-00941,04/06/2026 03:22,sms,cliente,3602454487,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-TOR-00410,nol-tor-00988,04/06/2026 19:29,email,cliente,rcosta@example.org,Annullamento prenotazione,"Ciao,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Grazie mille
+Roberto Costa"
+COM-TOR-00411,,04-06-2026,sms,cliente,3261428947,,"ho la patente da 1 anno, posso noleggiare un'auto? ho 22 anni"
+COM-TOR-00412,NOL-TOR-00465,06/06/26 17:37,nota_operatore,operatore,Gianni,,"verbale EB-TOR-004 - Superga - violazione aart.142, comunicazione dati conducente inviata. spese 60€"
+COM-TOR-00413,NOL-TOR-01026,08/06/2026 07:11,modulo_web,cliente,info@bertolinotraslochi.example.it,Contatti,"Nome: Bertolino Traslochi | Email: info@bertolinotraslochi.example.it | Tel: 3839378590 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00414,NOL-TOR-01014,08/06/2026 15:38,telefonata_trascritta,cliente,3523268180,,"Trascr. chiamata ore 18:04 (op. Marta) - cliente Elisa Ferraris: posso tenere il mezzo (EB-TOR-001) fino a domani? blocco ZTL, non riesco ad arrivare"
+COM-TOR-00415,NOL-TOR-00915,08/06/26 17:36,sms,cliente,3853507964,,"sto arrivando ma o coda in autostrada, tra 1 ore sono da voi"
+COM-TOR-00416,NOL-TOR-00956,08/06/2026 22:24,email,cliente,info@ferrariscantine.example.it,Re: Ottimo servizio,"Salve,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Grazie
+FERRAsIS CANTINE"
+COM-TOR-00417,NOL-TOR-01129,09/06/2026 14:16,email,cliente,info@pastoreeventi.example.it,annullo noleggio,"Il volo e' stato cancelato, devo annullare il noleggio. Come funziona la penale?
+In attesa di un vostro riscontro
+PASTORE EVENTI"
+COM-TOR-00418,NOL-TOR-00803,10/06/2026 20:21,nota_tecnico,tecnico,Stefano,,EB-TOR-005: display -> manubrio leggermente fuori asse. da lucidare // no fermo
+COM-TOR-00419,,11/06/2026 03:24,whatsapp,cliente,3602454487,,"vorrei noleggiare auto da 29/07 a 30/07, avete disponibilita' e quanto costa?"
+COM-TOR-00420,,11-06-2026 17:11,nota_operatore,operatore,Gianni,,"multa&nbsp;pedaggio&nbsp;non pagato targa EB-TOR-003, orta Nuova: rivalsa su cliente"
+COM-TOR-00421,NOL-TOR-01013,12/06/26,whatsapp,cliente,3589266355,,"posso tenere il mezzo (EB-TOR-004) fino a domani? incidente in tangenziale, nn riesco ad arrivare"
+COM-TOR-00422,NOL-TOR-01031,2026-06-12 23:10,modulo_web,cliente,rcosta@example.org,,"Nome: Rorerto Costa | Email: rcosta@example.org | Tel: 3329130587 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00423,NOL-TOR-01038,13/06/2026 02:33,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna gl311rs: cerchio post. dx piccola scheggiatura, segnalato a fine mese per carrozzeria. cliente informato. no fermo - l.g."
+COM-TOR-00424,NOL-TOR-00852,13/06/2026 10:35,email,cliente,cavalloal33@example.com,ritardo,"Egregi signori,
+Ritardo di 4h per problemi persinali, scusate. Mezzo Fiat 500e
+Grazie
+Alessandro"
+COM-TOR-00425,NOL-TOR-01050,13/06/26 10:45,email,cliente,boninoma35@example.net,Modifica prenotazione,"Gentile Buby Rent,
+Posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+Cordiali saluti
+Bonino Mario
+Sent from my iPhone"
+COM-TOR-00426,NOL-TOR-01034,13/06/2026 18:48,nota_tecnico,tecnico,Marco,,"RIT TOR-11: interno molto sporco (peli di animali), pulizia straordinaria, addebito 50€ al cliente. Luca B."
+COM-TOR-00162,NOL-TOR-00479,19/02/2026 19:45,nota_tecnico,tecnico,L.G.,,"EB-TOR-003 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. L.G."
+COM-TOR-00428,NOL-TOR-00888,14/06/26 22:39,email,cliente,mondinoro12@example.it,I: Problema batteria,"Egregi signori,
+La batteria e' a erra, non parte piu' (GL305PPT) sono a Lingotto
+Cordialmmente
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00429,NOL-TOR-01002,15/06/2026 01:44,nota_tecnico,tecnico,Andrea,,"RIT TOR-13 46903km - cofano elemento distrutto, da sostituire. preventivo in attesa, mezzo bloccato. fermo 31gg. Tech1"
+COM-TOR-00430,NOL-TOR-00888,15/06/2026 10:05,telefonata_trascritta,cliente,3520544573,,"Trascr. chiamata ore 19:44 (op. Gianni) - cliente Roberto Mondino: posso tenere il mezzo (GL305PT) fino a domani? traffico in tangenziale, non riesco ad arrivare"
+COM-TOR-00431,NOL-TOR-01695,15/06/2026 22:12,email,cliente,giorgio.moretti@example.it,I: Prolungamento noleggio,"Egregi signori,
+Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Cordiali saluti
+Moretti Giorgio"
+COM-TOR-00432,NOL-TOR-00888,15/06/2026 22:59,nota_tecnico,tecnico,M.,,TOR-01 - centralina da resettare. fermo 8gg. Andrea
+COM-TOR-00433,NOL-TOR-00932,2026-06-16 03:55,email,cliente,factis@example.org,Reclamo,"Salve,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale
+Saluti
+Actis Francesca"
+COM-TOR-00119,NOL-TOR-00316,14-01-2026,nota_tecnico,tecnico,Gianni,,RIT TOR-05 38222km - parabrezza danno da urto 20-30 cm. preventivo richiesto. fermo 7gg. Andrea
+COM-TOR-00435,nol-tor-01072,06/17/2026 01:47,whatsapp,cliente,3572921677,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00436,NOL-TOR-01067,17/06/2026 15:36,nota_tecnico,tecnico,Stefano,,"eb-tor-002  rientrata  piena di fango, lavaggio completo. addebito pulizia 15€. davide"
+COM-TOR-00437,NOL-TOR-01050,17/06/2026 20:36,nota_tecnico,tecnico,Tech1,,EB-TOR-001: CAMBIO POST. -> MANUBRIO LEGGERMENTE FUORI ASSE. RITOCCO VERNICE // FERMO 1GG
+COM-TOR-00438,NOL-TOR-00845,2026-06-17 21:54,email,cliente,matteo.actis@example.com,Reclamo,"mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. contesto l'importo di 250 euro
+cordiali saluti
+matteo actis"
+COM-TOR-00439,NOL-TOR-00960,,email,cliente,cavallofa4@example.net,URGENTE assistenza stradale,"Il mezzo (Fiat Ducato) si e' bloccato in mezzo alla strada a Caselle, urgente
+Fabio Cavallo"
+COM-TOR-00440,NOL-TOR-01102,19/06/2026 04:13,email,cliente,cgenre@example.org,Info noleggio,"Buonasera,
+E' possibile riconsegnare a Alba invece che da voi? c'e' un supplemento?
+Saluti
+Genre Chiara
+Sent from my iPhone"
+COM-TOR-00441,,19/06/26 06:29,email,cliente,piccoloma70@example.it,I: Info noleggio,"Salve,
+Quanti km ono inclusi nella tariffa girnalier e quanto costano quelli extraa?
+Cordialmente
+Piccolo Mario
+Get Outlook for Android"
+COM-TOR-00442,,19/06/2026 12:26,whatsapp,cliente,3784861728,,"sono bloccato x traffico in tangenziale, arrivo co circa 2 ore di ritardo x la riiconsegna (iianchi E-Omnia)"
+COM-TOR-00443,NOL-TOR-00906,19/06/2026 16:12,modulo_web,cliente,info@bertolinotraslochi.example.it,Contatti,"nome: ertolino | email: info@bertolinotraslochi.example.it | tel: 3839378590 | mmessaggio: esperienza ottima, ritiro e iiconsegna rapidissimi. consiglio"
+COM-TOR-00444,NOL-TOR-00960,2026-06-19,nota_tecnico,tecnico,M.,,"rit tor-16: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 50€ al cliente. elena"
+COM-TOR-00445,NOL-TOR-01068,19/06/26 21:06,nota_tecnico,tecnico,Sara,,"controllo in riconsegna EB-TOR-003: cerchio ant. display rotto, foto in cartella, addebito da valutare. cliente informato. fermo 2gg - Gianni"
+COM-TOR-00446,NOL-TOR-01079,2026-06-20 04:09,email,cliente,info@bertolinotraslochi.example.it,Annullamento prenotazione,"CIAO,
+DEVO ANNULLARE LA PRENOTAZIONE PER MOTIVI DI LAVORO, POSSO AVERE IL RIMBORSO?
+DISTINTI SALUTI
+BERTOLINO TRASLOCHI
+SENT FROM MY IPHONE"
+COM-TOR-00447,NOL-TOR-01091,20/06/2026 10:28,whatsapp,cliente,3430050264,,"volevo avvisarvi ke la bici (Cube Kathmandu) e' scivolata mentre era appoggiata a corso Unità d'Italia, il manubrio ha un danno. Vi mando le foto"
+COM-TOR-00448,NOL-TOR-01078,2026-06-20 16:54,nota_tecnico,tecnico,Andrea,,"RIT TOR-12 82983km - passaruota ant. danno strutturale sospetto, non guidabile. mezzo fermo, perizia in corso. fermo 29gg. Elena"
+COM-TOR-00449,NOL-TOR-01091,20/06/2026 20:56,nota_tecnico,tecnico,Andrea,,EB-TOR-001: manubrio -> display rotto. preventivo richiesto // fermo 7gg
+COM-TOR-00450,NOL-TOR-00908,21/06/2026 02:40,modulo_web,cliente,davide.blandino@example.net,Richiesta assistenza,Nome: Davide Blandino | Email: davide.blandino@example.net | Tel: 3693375576 | Messaggio: ieri sera in un parcheggio a la tangenziale qualcuno ha colpito il mezzo (TOR-05) e la portiera lato guida e' danneggiato. Non c'era nessun biglietto. Ho fatto denuncia
+COM-TOR-00451,NOL-TOR-01086,06/21/2026 10:32,modulo_web,cliente,info@pastoregiardinaggio.example.it,Richiesta assistenza,"Nome: Pastore | Email: info@pastoregiardinaggio.example.it | Tel: 3387233914 | Messaggio: posso tenere il mezzo (Peugeot e-Expert) fino a domani? traffico in tangenziale, non riesco ad arrivare"
+COM-TOR-00452,NOL-TOR-00908,21/06/26 12:02,nota_tecnico,tecnico,Paolo,,TOR-05: PORTIERA LATO GUIDA -> STRISCIO DI VERNICE. SEGNALATO A FINE MESE PER CARROZZERIA // FERMO 1GG
+COM-TOR-00453,NOL-TOR-00769,06/22/2026 04:43,email,cliente,cvacchetto@example.it,Reclamo,"Spett.le Buby Rent,
+Il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 250 euro. Non accettabile
+Cordialmente
+Claudio Vacchetto
+Inviato da iPhone"
+COM-TOR-00454,NOL-TOR-01105,22/06/2026 08:29,modulo_web,cliente,info@piccoloagricola.example.it,Contatti,"Nome: Piccolo Agricola | Email: info@piccoloagriola.example.it | Tel: 3214461062 | Messaggio: il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00455,NOL-TOR-01018,22/06/2026,email,cliente,info@dellavalletraslochi.example.it,Richiesta rimborso,"Buongiorno a tutti,
+Ho visto un addebito i 250 euro per km extra ma secondo me ho ppercorso molti meno km. Chiedo verifica del contrattoo NOL-TOR-01018
+Grazie mille"
+COM-TOR-00456,NOL-TOR-01107,23-06-2026 01:53,telefonata_trascritta,cliente,3679606269,,"Trascr. chiamata ore 14:58 (op. MMrta) - cliente Federico Re: evo annullare la prenotazione per motivi di lavro, posso avere il rimborso?"
+COM-TOR-00457,,23/06/2026,whatsapp,cliente,3469572150,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00458,NOL-TOR-01431,2026-06-23 15:08,nota_tecnico,tecnico,Sara,,rit tor-04 37768km - lunotto graffio superficiale. ritocco vernice. fermo 1gg. m.
+COM-TOR-00459,NOL-TOR-00856,23/06/2026 18:05,nota_tecnico,tecnico,Elena,,TOR-05 rientrato. Danno fanale post.: leggera ammaccatura. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 1gg (Sara)
+COM-TOR-00460,NOL-TOR-01117,24/06/2026,email,cliente,info@dellavalleserramenti.example.it,annullo noleggio,"Gntile Buby Rent,
+Il volo e' stato cancellaato, devo annullare il noleggio. Come funziona la penale?
+In attesa di un vostro riscontro
+Dellavalle"
+COM-TOR-00461,,2026-06-25 19:45,email,cliente,info@martinitrasporti.example.it,disponibilita',"Buonasera,
+Accettate  carte  di debito per la cauzione o serve per forza la carta di credito?
+Grazie
+Martini"
+COM-TOR-00462,NOL-TOR-01119,2026-06-26 11:32,nota_tecnico,tecnico,Sara,,RIT  TOR-06  49215km - cofano striscio di vernice. ritocco vernice. fermo 1gg. Luca B.
+COM-TOR-00559,NOL-TOR-01216,08/13/2026,nota_tecnico,tecnico,Marco,,"eb-tor-001  rientrata  piena di fango, lavaggir completo. addebito pulizia 15€. davide"
+COM-TOR-00464,NOL-TOR-01052,26/06/2026 18:37,email,cliente,giorgio.tosco@example.org,Re: info danno,"Egregi  signori,
+Ho  preso una buca e adesso il pedale fa un rumori stranno, secondo mi e' storto/a. Bici (EB-TOR-005)
+Grazie mille
+Giorgio Tosco
+Sent from ny iPhone"
+COM-TOR-00582,NOL-TOR-01392,2026-08-26 15:40,telefonata_trascritta,cliente,3261200433,,"Trascr. chiamata ore 13:37 (op. Elisa) - cliente Chiara Mondino: ho preso una buca e adesso il cerchio posteriore fa un rumore strano, secondo me e' storto/a. Bici (Cube Kathmandu)"
+COM-TOR-00466,NOL-TOR-01109,06/28/2026 04:26,whatsapp,cliente,3764276454,,credo di aver lasciato il portafoglio nel bagagliaio (EB-TOR-003). Si puo' recuperare?
+COM-TOR-00467,01055,28/06/2026,nota_tecnico,tecnico,Marco,,"RIT TOR-03: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 40â¬ al cliente. Elena"
+COM-TOR-00468,NOL-TOR-01055,28/06/2026 12:45,nota_tecnico,tecnico,M.,,TOR-03 rientrato. Dano lunotto: deformazione importante. carro atttrezzi per officina. Foto ok in cartella. Stima fermo 18gg (Elena)
+COM-TOR-00469,NOL-TOR-00894,28/06/2026 17:04,modulo_web,cliente,csacco@example.net,Richiesta assistenza,Nomee: Claudio | Email: csacco@exaple.net | Tel: 3430050264 | Messaggio: all'arrivo il mezzo non era pulito e il caburante non era al pieno come promesso. Chiedo uno sconto
+COM-TOR-00470,NOL-TOR-01131,,whatsapp,cliente,3813775915,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00471,NOL-TOR-01130,2026-06-29 17:21,email,cliente,ferrerogi4@example.com,Piccolo incidente di parcheggio,"Ciao,
+Ho preso uuna buca e adesso il parafango fa un rumore ttrano, secondo me e' storto/a. Bici (Cube Kathmandu)
+Ferrero Giulia
+Inviato dal mio oamsung Galaxy"
+COM-TOR-00472,01145,29/06/2026 21:08,nota_tecnico,tecnico,Paolo,,EB-TOR-001: forcella -> graffi sul telaio. segnalato a fine mese per carrozzeria // fermo 1gg
+COM-TOR-00473,NOL-TOR-01063,29/06/2026 21:55,email,cliente,giorgio.moretti@example.it,Modifica prenotazione,"Spett.le Buby Rent,
+Devo spostare il noleggio di un giorno, e' possibile? (Tesla Model)
+Grazie"
+COM-TOR-00474,,29/06/2026 23:07,modulo_web,cliente,gravera@example.it,,Nome: Giulia Ravera | Email: gravera@example.it | Tel: 3759017624 | Messaggio: la vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 02/07
+COM-TOR-00475,NOL-TOR-01130,30/06/2026 02:28,nota_tecnico,tecnico,Paolo,,eb-tor-003 rietrato. danno parafango: manubrio leggermente ruori assse. segnalato a fine mese per crrozzeriaa. foto ok in caartella. stima fermo 1gg (tech1)
+COM-TOR-00476,NOL-TOR-01071,2026-07-01 12:49,email,cliente,cavalloal33@example.com,Richiesta rimborso,"Ciao,
+La cauzione di 600 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+Grazie e saluti"
+COM-TOR-00477,NOL-TOR-01140,01/07/26 23:08,email,cliente,elena.olivero@example.com,annullo noleggio,"Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Grazie
+Inviato da iPhone"
+COM-TOR-00478,NOL-TOR-01167,02/07/2026 08:18,email,cliente,gferrero@example.net,Re: Info noleggio,"Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Saluti
+Giovanni Ferrero
+Inviato da iPhone"
+COM-TOR-00479,,2026-07-05 00:02,telefonata_trascritta,cliente,3826742840,,Trascr. chiamata ore 11:58 (op. Gianni) - cliente Silvia Ricci: la vostra auto puo' entrare in ZTL a Torrino? Devo andare in centro il 14/07
+COM-TOR-00480,NOL-TOR-00379,06/07/2026 15:03,whatsapp,cliente,3837541208,,"SONO BLOCCATO PER CODE SULLA A32, ARRIVO CON CIRCA 2 ORE DI RITARDO PER LA RICONSEGNA (EB-TOR-002)"
+COM-TOR-00481,NOL-TOR-00751,2026-07-06 16:42,nota_operatore,operatore,Elisa,,"verbale GS044CN - corso Unita' d'Italia - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-TOR-00482,NOL-TOR-00941,06/07/2026,whatsapp,cliente,3602454487,,"posso tenrre il mezzo (Cue Kathmandu) fino a domani? sciopero mezzi, non riesco ad arrivare"
+COM-TOR-00483,NOL-TOR-01152,07/07/2026 12:44,telefonata_trascritta,cliente,3968487400,,"Trascr. chiamata ore 19:52 (op. Elisa) - cliente Faio Perotti: sno arrivandi ma ho code sulla A32, tra 2 ore sono da voi"
+COM-TOR-00484,NOL-TOR-00846,2026-07-07 13:41,nota_operatore,operatore,Gianni,,"ricevuto verbale del comune di Caselle per ZTL/eccesso di velocita', targa EB-TOR-001. da addebitare al cliente + 40€ gestione pratica"
+COM-TOR-00485,,08/07/26 01:52,whatsapp,cliente,3572921677,,"vorrei noleggiare furgone da 17/07 a 18/07, avete disponibilita' e quanto costa? [incomprensibile]"
+COM-TOR-00486,NOL-TOR-01154,08/07/2026 17:08,sms,cliente,3756174799,,"sto arrivando ma ho incidente in tangenziale, tra 4 ore sono da voi"
+COM-TOR-00487,,09/07/2026 10:52,nota_tecnico,tecnico,Sara,,"RIT TOR-04: interno molto sporco (rifiuti nel bagaliaio), pulizia straordinaria, addebito 50€ al clientee. Fabio"
+COM-TOR-00488,NOL-TOR-01025,2026-07-09 15:27,email,cliente,dravera@example.it,Ottimo servizio,"Buonasera,
+Tutto ok, mezzo comodo e consum bassi. Grazie!
+Grazie e saluti
+Davide
+Sent from my iPhone"
+COM-TOR-00351,NOL-TOR-00831,2026-05-11 11:35,nota_tecnico,tecnico,Paolo,,TOR-05: passaruota nnt. -> danno da urto 20-30 cm. da mandare in carrozzeria // fermo 6gg
+COM-TOR-00490,NOL-TOR-01184,2026-07-09 22:03,nota_tecnico,tecnico,Paolo,,"CONTROLLO  IN  RICONSEGNA EB-TOR-002: CAMBIO POST. LEVA PIEGATA MA FUNZIONANTE, NESSUN INTERVENTO URGENTE. CLIENTE INFORMATO. FERMO 1GG - SARA"
+COM-TOR-00491,NOL-TOR-01084,09-07-2026,sms,cliente,3739478132,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00492,NOL-TOR-01029,10/07/2026 08:57,telefonata_trascritta,cliente,3740753392,,"Trascr.  chiamata  ore 17:14 (op. Gianni) - cliente Roberto Giordano: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 90 euro"
+COM-TOR-00493,NOL-TOR-00838,11/07/2026 15:54,nota_operatore,operatore,Elisa,,"ricevuto verbale del comune di corso unità d'italia per ztl/eccesso di velocita', targa gr118bk. da addebitare al cliente + 100€ gestione pratica"
+COM-TOR-00494,NOL-TOR-01184,2026-07-12 18:15,modulo_web,cliente,info@gastaldiimpianti.example.it,Richiesta assistenza,"Nome: GASTALDI IMPIANTI | Email: info@gastaldiimpianti.example.it | Tl: 3641564437 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-TOR-00495,NOL-TOR-01141,2026-07-12 20:09,nota_tecnico,tecnico,Andrea,,"EB-TOR-004 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Marco"
+COM-TOR-00496,NOL-TOR-01138,07/12/2026 22:05,nota_tecnico,tecnico,Luca B.,,EB-TOR-005: cavalletto -> manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria // fermo 1gg
+COM-TOR-00497,NOL-TOR-00657,13-07-2026 18:40,nota_operatore,operatore,Elisa,,"multa pedaggio non pagato targa eb-tor-004, la tangenziale: rivalsa su cliente"
+COM-TOR-00498,NOL-TOR-01205,14/07/26 18:09,nota_tecnico,tecnico,Paolo,,"RsT TOR-14: interno molto sporco (macchhie sui sedili), pulizia straordinaria, addebito 40€ al cliente. Fabio"
+COM-TOR-00499,,15/07/2026 16:31,email,cliente,info@fontanaedilizia.example.it,I: Prolungamento noleggio,"Buongiorno,
+Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Grazie mmille
+Fontana"
+COM-TOR-00500,NOL-TOR-01204,16/07/2026 00:14,email,cliente,info@pastoreeventi.example.it,Ottimo servizio,"buongiorno,
+grazie, tutto perfetto, personale gentile e mezzo pulito. torneremo sicuramente
+saluti
+pastore eventi
+inviato dal mio samsung galaxy"
+COM-TOR-00501,NOL-TOR-01074,2026-07-16 18:30,email,cliente,elena.olivero@example.com,Cancellazione,"Buonasea,
+Prtroppo on posso piu' partire, ccancello la prenotazione. Mi restituite l'acconto?
+Grazie
+Elena
+Sent from my iPhone"
+COM-TOR-00502,NOL-TOR-01223,17/07/26 02:42,whatsapp,cliente,3282809685,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00503,NOL-TOR-00996,17/07/26 10:00,telefonata_trascritta,cliente,3265140314,,"trascr. chiamata ore 10:59 (op. elisa) - cliente silvia gallo: sono bloccato per ritardo del treno, arrivo con circa 3 ore di ritardo per la riconsegna (cube kathmandu)"
+COM-TOR-00504,nol-tor-01221,17/07/2026 20:26,nota_tecnico,tecnico,Paolo,,EB-TOR-004 rientrato. Danno catena: leva piegata ma funzionante. ritocco vernice. oto ok in cartella. Stim fermo 1gg (Gianni)
+COM-TOR-00505,NOL-TOR-01208,18/07/26 11:51,whatsapp,cliente,3499917908,,"sono bloccccato x ritardo del treno, arrivo con circa 4 ore di ritardo x la riconsegna (GP129LH)"
+COM-TOR-00506,NOL-TOR-01168,2026-07-18 14:38,sms,cliente,3970708390,,la  batteria  della bici (cube kathmandu) nn si accende piu'
+COM-TOR-00356,NOL-TOR-00887,2026-05-13,email,cliente,cvacchetto@example.it,cambio data,"Vorrei prolungare di 2 giorni, il mezzo e' libero?
+Grazie
+Vacchetto Claudio"
+COM-TOR-00508,NOL-TOR-01238,19/07/2026 07:21,email,cliente,roberta.dellavalle@example.com,Prolungamento noleggio,"Vorrei prolungare di 2 giorni, il mezzo e' libero?
+Saluti
+Roberta Dellavalle"
+COM-TOR-00509,NOL-TOR-01209,19/07/2026 17:47,telefonata_trascritta,cliente,3572028196,,"Trascr. chiamata ore 12:34 (op. Marta) - cliente Mondino Laura: ho bucato una gomma vicino a la tangenziale, c'e' la ruota di scorta? (TOR-14)"
+COM-TOR-00510,NOL-TOR-01209,2026-07-20 22:01,nota_tecnico,tecnico,Gianni,,TOR-14 - camera d'aria sostituita. fermo 4gg. Luca B.
+COM-TOR-00511,NOL-TOR-01235,21/07/2026 03:50,whatsapp,cliente,3618014642,,"sto arrivando ma ho problemi personali, tra 3 ore sono da voi"
+COM-TOR-00512,NOL-TOR-01253,21/07/2026 15:12,telefonata_trascritta,cliente,3687263219,,Trascr. chiamata ore 11:19 (op. Marta) - cliente Ghiglione Paolo: la catena continua a saltare e il cambio non scala piu' (Cube Kathmandu)
+COM-TOR-00513,NOL-TOR-01253,2026-07-21 21:59,nota_tecnico,tecnico,L.G.,,"EB-TOR-001 - clima non funzionante, gas da ricaricare. fermo 2gg. Andrea"
+COM-TOR-00514,NOL-TOR-01174,07/21/2026 23:24,whatsapp,cliente,3837541208,,"uscendo da un posteggio stretto a piazza Vittorio ho strisciato la portiera lato guida. Mi spiace tanto, quanto dovro' pagare?"
+COM-TOR-00515,NOL-TOR-01238,22/07/2026 13:12,email,cliente,roberta.dellavalle@example.com,Grazie!,"Egregi signori,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Saluti
+Roberta Dellavalle
+Sent from my iPhone"
+COM-TOR-00516,NOL-TOR-01174,22/07/2026 15:37,nota_tecnico,tecnico,M.,,"controllo in riconsegna GM509KV: portiera lato guida segni di sfregamento, ritocco vernice. cliente informato. no fermo - Davide"
+COM-TOR-00517,NOL-TOR-01183,22-07-2026 15:58,nota_tecnico,tecnico,Stefano,,TOR-12 rientrato. Danno cerchio post. dx: leggera ammaccatura. ritco vernice. Foto ok in cartella. Stima fermo 2gg (Andrea)
+COM-TOR-00518,NOL-TOR-01209,23/07/2026 08:43,modulo_web,cliente,mondinola24@example.com,,"Nome: Laura Mondino | Email: mondinola24@example.com | Tel: 3572028196 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00519,NOL-TOR-01228,07/23/2026 10:23,modulo_web,cliente,info@ferrariscantine.example.it,Richiesta assistenza,nome: ferraris cantine | email: info@ferrariscantine.example.it | tel: 3553499068 | messaggio: ieri sera in un parcheggio a corso unità d'italia qualcuno ha colpito il mezzo (fiat 500e) e il cerchio anteriore sinistro e' danneggiato. non c'era nessun biglietto. ho fatto denuncia
+COM-TOR-00520,NOL-TOR-01201,23/07/26,modulo_web,cliente,claudio.cerutti@example.net,Contatti,nome:  claudio  cerutti | email: claudio.cerutti@example.net | tel: 3465325362 | messaggio: la cauzione di 100 euro non mi e' stata ancora restituita dopo 20 giorni dalla riconsegna. vorrei sapere quando arriva
+COM-TOR-00521,NOL-TOR-01219,23/07/2026 17:05,nota_tecnico,tecnico,Gianni,,"RIT TOR-11: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 70€ al cliente. Tech1"
+COM-TOR-00522,,24/07/2026 03:11,email,cliente,costafa17@example.net,Richiesta informazioni,"Ciao,
+E' possibile riconsegnare a Casale Moiferrato invece ch da voi? c'e' un supplemento?
+Saluti
+Fabio Costa
+Get Outlook for Android [incomprensibile]"
+COM-TOR-00523,NOL-TOR-01261,2026-07-24 15:28,nota_tecnico,tecnico,Paolo,,"EB-TOR-005 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Tech1"
+COM-TOR-00524,NOL-TOR-00011,25/07/2026,nota_tecnico,tecnico,Marco,,RIT TOR-05 52683km - cerchio ant. sx segni di sfregamento. da lucidare. fermo 2gg. Fabio
+COM-TOR-00525,NOL-TOR-01265,26/07/2026 14:46,email,cliente,dravera@example.it,Re: info danno,"Buongiorno,
+Durante il noleggio ho urtato il paraurti posteriore del mezzo (TOR-12) mentre parcheggiavo a Stupinigi. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Cordialmente
+Davide Ravera"
+COM-TOR-00526,NOL-TOR-01278,26/07/2026,telefonata_trascritta,cliente,3920221727,,"Trascr. chiamata ore 10:06 (op. Marta) - cliente Francesco Gastaldi: Bonjour, est-ce que les chaines a neige sont incluses ?"
+COM-TOR-00527,NOL-TOR-01180,26/07/2026 20:16,nota_tecnico,tecnico,Paolo,,TOR-17 rrientrato. Danno porta scorrevole: calotta rotta. da mandare in carrozzerii. Foto ok in cartella. Stima fermo 9gg (Fabio)
+COM-TOR-00528,NOL-TOR-01193,26-07-2026 20:17,modulo_web,cliente,mferrari@example.com,Contatti,"Nome: Ferrari Maria | Email: mferrari@example.com | Tel: 3695760330 | Messaggio: tutto ok, mezzo comodo e consumi bassi. Grazie!"
+COM-TOR-00529,NOL-TOR-01265,26-07-2026 20:35,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GK931JD: paraurti post. piccola scheggiatura, segnalato a fine mese per carrozzeria. cliente informato. fermo 1gg - Fabio"
+COM-TOR-00530,NOL-TOR-01132,27-07-2026 13:06,email,cliente,info@martinitrasporti.example.it,Re: riconsegna in ritardo,"Salve,
+Sono&nbsp;bloccato&nbsp;per&nbsp;incidente in tangenziale, arrivo con circa 3 ore di ritardo per la riconsegna (EB-TOR-004)
+Grazit mille"
+COM-TOR-00531,,28/07/2026 00:46,modulo_web,cliente,dravera@example.it,Contatti,"Nome: Davide | Email: dravera@example.it | Tel: 3282809685 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-TOR-00532,NOL-TOR-01270,28/07/2026 10:26,sms,cliente,3224089602,,"ritardo di 3h per ritardo del treno, scusate. Mezzo GM509KV"
+COM-TOR-00533,NOL-TOR-01066,29/07/2026 14:20,whatsapp,cliente,3981212727,,"volevo avvisarvi che la bici (Bianchi E-Omnia) e' scivolata mentre era appoggiata a piazza Vittorio, la forcella ha un danno. Vi mando le foto"
+COM-TOR-00534,NOL-TOR-01259,2026-07-29 14:39,email,cliente,info@pastoreeventi.example.it,Annullamento prenotazione,"Egregi signori,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+PASTORE EVENTI
+Get Outlook for Android"
+COM-TOR-00535,NOL-TOR-01066,29/07/2026,nota_tecnico,tecnico,Andrea,,EB-TOR-005 rientrato. Danno forcella: display rotto. da mandare in carrozzeria. Foto ok in cartella. Stima fermo 2gg (Paolo)
+COM-TOR-00536,NOL-TOR-01287,30/07/2026 15:27,sms,cliente,3958377905,,"posso tenere il mezzo (Cube Kathmandu) fino a domani? blocco ZTL, nn riesco ad arrivare"
+COM-TOR-00537,NOL-TOR-01287,31/07/2026 03:08,nota_tecnico,tecnico,Gianni,,"EB-TOR-002 rrenttrato. Danno catena: telaio incrinato. mezz fermo, perizia in corso. Foto ok i cartella. Stnma fermo 9gg (L.G.)"
+COM-TOR-00538,NOL-TOR-01314,2026-07-31,email,cliente,fferraris@example.it,Preventivo,"Spett.le Buby Rent,
+La vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 18/09
+Grazie e saluti
+Federica Ferraris"
+COM-TOR-00539,NOL-TOR-01278,2026-07-31 15:23,nota_tecnico,tecnico,Tech1,,"controllo in riconsegna GR690TX: paraurti ant. segni di sfregamento, da lucidare. cliente informato. fermo 1gg - Tech1"
+COM-TOR-00540,NOL-TOR-01286,02/08/2026,modulo_web,cliente,dellavallegi64@example.org,,"Nome: Giorgio Dellavalle | Email: dellavallegi64@example.org | Tel: 3813775915 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00541,NOL-TOR-01303,03/08/2026 01:30,modulo_web,cliente,info@giordanoedilizia.example.it,Richiesta assistenza,"Nome: Giordano Edilizia | Email: info@giordanoedilizia.example.it | Tel: 3257217311 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-TOR-00542,,03/08/2026,modulo_web,cliente,info@gastaldiimpianti.example.it,Richiesta assistenza,Nome: Gastaldi | Email: info@gastaldiimpianti.example.it | Tel: 3641564437 | Messaggio: ieri sera in un parcheggio a la tangenziale qualcuno ha colpito il mezzo (Jeep Avenger) e lo specchietto sinistro e' danneggiato. Non c'era nessun biglietto. Ho fatto denuncia
+COM-TOR-00543,NOL-TOR-01271,03-08-2026 15:55,nota_tecnico,tecnico,Luca B.,,TOR-10 rientrato. Danno specchietto sx: piccola scheggiatura. da lucidare. Foto ok in cartella. Stima fermo 1gg (Sara)
+COM-TOR-00544,NOL-TOR-01306,08/03/2026 23:44,modulo_web,cliente,ggreco@example.com,Contatti,"Nome: Giulia Greco | Email: ggreco@example.com | Tel: 3967648027 | Messaggio: ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-TOR-00545,NOL-TOR-01289,04/08/2026 03:49,telefonata_trascritta,cliente,3572921677,,"Trascr. chiamata ore 17:55 (op. Marta) - cliente PASTORE EVENTI: il finestrino elettrico non si chiude, auto GK931JD"
+COM-TOR-00546,NOL-TOR-01289,2026-08-04 12:32,nota_tecnico,tecnico,L.G.,,"TOR-12  -  batteria e-bik difettosa, apertura RMA. fermo 8gg. Eleena"
+COM-TOR-00547,NOL-TOR-01315,2026-08-04 17:49,telefonata_trascritta,cliente,3664904704,,"Trascr. chiamata ore 8:58 (op. Elisa) - cliente Simone Re: ritardo di 4h per coda in autostrada, scusate. Mezzo EB-TOR-005"
+COM-TOR-00548,NOL-TOR-01094,2026-08-05 00:00,email,cliente,info@fontanaedilizia.example.it,Danno Fiat Ducato,"ciao,
+uscendo da un posteggio stretto a la mandria ho strisciato il fianco sinistro. mi spiace tanto, quanto dovro' pagare?
+cordialmente
+fontana edilizia
+inviato dal mio samsung galaxy"
+COM-TOR-00549,NOL-TOR-01094,05/08/26 13:50,nota_tecnico,tecnico,Davide,,"conrollo en riconsegna GN761SP: fianco sx segni di sfregamento, ritocco vernice. cliente informato. no fermo - Maarco"
+COM-TOR-00550,NOL-TOR-01322,06/08/2026 03:54,whatsapp,cliente,3866363204,,"il volo e' stato cancellato, devo annullare il noleggio. Come fuunzona la penale?"
+COM-TOR-00551,NOL-TOR-01237,06/08/2026 10:25,nota_tecnico,tecnico,Stefano,,RIT TOR-06 52776km - fanale post. striiscio di vernice. ritocco vernice. n fermo. Sara [incomprensibile]
+COM-TOR-00552,NOL-TOR-01327,07/08/2026 03:26,email,cliente,info@pastorecantine.example.it,Cancellazione,"Spett.le Buby Rent,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Pastore Cantine"
+COM-TOR-00553,01233,2026-08-08 20:53,email,cliente,info@martinitrasporti.example.it,Piccolo incidente di parcheggio,"Ciao,
+Volevo avvisarvi che sul mezzo (TOR-13) c'e' un graffio su la portiera lato passeggero, non so se era gia' presente al ritiro. Se serve vi mando le foto
+Grazie
+Sent from my iPhone"
+COM-TOR-00554,NOL-TOR-01233,09/08/2026 11:09,nota_tecnico,tecnico,Paolo,,"TOR-13: portiera lato passeggero -> calotta rotta. foto in cartella, addebito da valutare // fermo 7gg"
+COM-TOR-00555,,2026-08-10 19:49,nota_operatore,operatore,Elisa,,"multa pedaggio non pagato targa EB-TOR-004, Caselle: rivalsa su cliente"
+COM-TOR-00556,,2026-08-12 20:13,whatsapp,cliente,3768318349,,e' possibile ricosegnaare a casale monferrato invece cte da voi? c'e' un supplemento?
+COM-TOR-00557,NOL-TOR-01328,13/08/2026 00:16,whatsapp,cliente,3697260626,,mentre faevo retromarcia a Lingotto ho toccato un palo e si e' rovinato la portiera lato guida. Nessun ferito. Cosa devo fare?
+COM-TOR-00558,NOL-TOR-01249,2026-08-13,email,cliente,ilaria.bertolino@example.it,Ottimo servizio,"Spett.le Buby Rent,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+Cordiali saluti"
+COM-TOR-00463,NOL-TOR-01076,26/06/2026 14:00,telefonata_trascritta,cliente,3853507964,,"Trascr. chiamata ore 17:36 (op. Marta) - cliente Alessandro Cavallo: sto arrivando ma ho sciopero mezzi, tra 1 ore sono da voi"
+COM-TOR-00560,NOL-TOR-01359,14/08/2026 04:57,modulo_web,cliente,fchiesa@example.net,,"Nome:&nbsp;Federico | Email: fchiesa@example.net | Tel: 3535538448 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso? [incomprensibile]"
+COM-TOR-00561,NOL-TOR-01257,14/08/2026 08:48,nota_tecnico,tecnico,Stefano,,"RIT TOR-17: intternoo molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 40€ al cliente. M."
+COM-TOR-00562,NOL-TOR-01362,14/08/26 14:00,email,cliente,francesco.ferraris@example.com,Re: Graffio sul mezzo,"Egregi signori,
+Ho preso una buca e adesso il cerchio posteriore fa un rumore strano, secondo me e' storto/a. Bici (Cube Kathmandu)
+Distinti saluti"
+COM-TOR-00563,NOL-TOR-01362,14/08/2026 17:31,nota_tecnico,tecnico,L.G.,,"EB-TOR-003: ceerchio post. -> urto forte, bici non utilizzabile. carro attrezzi per officina // fermo 17gg"
+COM-TOR-00564,NOL-TOR-00983,14/08/2026 19:04,nota_operatore,operatore,Gianni,,"MULTA PEDAGGIO NON PAGATO TARGA EB-TOR-005, PORTA NUOVA: RIVALSA SU CLIENTE"
+COM-TOR-00565,NOL-TOR-01328,15/08/2026 11:33,nota_tecnico,tecnico,Luca B.,,TOR-06: portiera lato guida -> graffio superficiale. da lucidare // no fermo
+COM-TOR-00566,NOL-TOR-01330,15/08/2026,nota_tecnico,tecnico,Tech1,,rit eb-tor-001 3673km - manubrio leva piegata ma funzionante. segnalato a fine mese per carrozzeria. no fermo. marco
+COM-TOR-00567,,17/08/2026 02:20,email,cliente,ghiglionesi15@example.org,Preventivo,"Spett.le  Buby  Rent,
+La vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 27/08
+In attesa di un vostro riscontro
+Simone Ghiglione"
+COM-TOR-00568,NOL-TOR-01381,18/08/2026 20:40,modulo_web,cliente,aperotti@example.com,,"Nome: Alessia | Email: aperotti@example.com | Tel: 3330767586 | Messaggio: devo spostae il noleggio di un giornoo, e' possibile? (GP129LH)"
+COM-TOR-00569,,2026-08-19 19:07,email,cliente,info@riccielettrica.example.it,Cancellazione,"Spett.le  Buby  Rent,
+Il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?
+Grazie
+RICCI ELETTRICA
+Inviato da iPhone"
+COM-TOR-00570,,20/08/2026 10:17,modulo_web,cliente,info@fontanaedilizia.example.it,Contatti,"Nome:  Fontana  Edilizia | Email: info@fontanaedilizia.example.it | Tel: 3669987120 | Messaggio: ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale"
+COM-TOR-00571,NOL-TOR-01355,20/08/2026 11:31,nota_tecnico,tecnico,Sara,,"RIT TOR-12: interno mollto spoco (odore di fumo), pulizia straordinaria, addebito 50€ al clinte. Andrea"
+COM-TOR-00572,,20/08/2026 19:30,nota_tecnico,tecnico,Fabio,,"controllo in riconsegna GN218WB: fianco dx graffio profondo fino alla lamiera, da sostituire il pezzo. cliente informato. fermo 4gg - Marco"
+COM-TOR-00573,NOL-TOR-01368,2026-08-22 02:51,nota_tecnico,tecnico,Paolo,,"RIT TOR-13: interno molto sporco (sabbia), pulizia straordinaria, addebito 70â¬ al cliente. Paolo"
+COM-TOR-00574,NOL-TOR-01250,2026-08-22 15:24,nota_tecnico,tecnico,Gianni,,TOR-15 rientrato. Danno specchietto sx: danno da urto 20-30 cm. da sostituire il pezzo. Foto ok in cartella. Stima fermo 5gg (avide)
+COM-TOR-00575,,2026-08-23 10:37,nota_tecnico,tecnico,Paolo,,"RIT TOR-12: interno molto sporco (abbia), pulizia straordinaria, addebito 40€ al cliente. Fabio"
+COM-TOR-00576,,23/08/2026 12:49,email,cliente,matteo.actis@example.com,Annullamento prenotazione,"Buonasera,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Cordialmente
+Matteo Actis
+Inviato da iPhone"
+COM-TOR-00577,NOL-TOR-01364,,modulo_web,cliente,info@martinitrasporti.example.it,Contatti,"Nome: MARTINI TRASPORTI | Email: info@martinitrasporti.example.it | Tel: 3781769675 | Messaggio: Merci, tout etait parfait, personnel tres aimable. A bientot !"
+COM-TOR-00382,NOL-TOR-00933,22-05-2026 19:55,nota_tecnico,tecnico,Tech1,,"TOR-14 - verbale polizia locale inn allegaato, danni anteriori. fermo 11gg. Gianni"
+COM-TOR-00579,NOL-TOR-01389,24/08/2026 03:54,modulo_web,cliente,info@ghiglioneagricola.example.it,Contatti,nome: ghiglione agricola | email: info@ghiglioneagricola.example.it | tel: 3800500460 | messaggio: ieri sera in un parcheggio a caselle qualcuno ha colpito il mezzo (tesla model) e il passaruota anteriore e' danneggiato. non c'era nessun biglietto. ho fatto denuncia
+COM-TOR-00580,NOL-TOR-01360,24/08/2026 11:58,email,cliente,martinilu14@example.com,I: ritardo,"Sto arrivando ma ho incidente in tangenziale, tra 2 ore sono da voi
+Distinti saluti
+Martini Luca
+Get Outlook for Android"
+COM-TOR-00581,NOL-TOR-00985,2026-08-24 20:08,nota_tecnico,tecnico,Davide,,"TOR-06: passaruota ant. -> danno strutturale sospetto, non guidabile. contattata assiurazione // fermo 14gg"
+COM-TOR-00465,NOL-TOR-01052,26/06/2026 21:53,nota_tecnico,tecnico,L.G.,,rit eb-tor-005 4121km - pedale manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. no fermo. sara
+COM-TOR-00583,NOL-TOR-01409,26/08/2026 15:51,nota_tecnico,tecnico,Andrea,,TOR-12 rientrato. Danno paraurti post.: leggera ammaccatura. da lucidare. Foto ok in cartella. Stima fermo 1gg (Gianni)
+COM-TOR-00584,NOL-TOR-01392,26/08/2026 16:47,nota_tecnico,tecnico,Davide,,"EB-TOR-001 rientrato. Danno cerchio post.: cambio posteriore rotto. foto in cartella, addebito da valutare. Foto ok in cartella. Stima fermo 6gg (L.G.)"
+COM-TOR-00585,NOL-TOR-01421,26/08/2026 19:20,whatsapp,cliente,3324649459,,la vostra auto puo' entrare in ZTL a Torino? Deo andare in centro il 28/08
+COM-TOR-00586,NOL-TOR-01197,27-08-2026 19:53,nota_operatore,operatore,Marta,,"multa pedaggio non pagato targa EB-TOR-001, corso Unità d'Italia: rivalsa su cliente"
+COM-TOR-00587,NOL-TOR-01337,28/08/26 11:24,email,cliente,elena.gastaldi@example.org,Cancellazione,"il&nbsp;volo&nbsp;e'&nbsp;stato cancellato, devo annullare il noleggio. come funziona la penale?
+grazie mille
+elena gastaldi"
+COM-TOR-00588,NOL-TOR-01379,28/08/2026 16:37,nota_tecnico,tecnico,Sara,,RIT EB-TOR-004 3609km - cerchio post. leva piegata ma funzionante. nessun intervento urgente. no fermo. Andrea
+COM-TOR-00589,NOL-TOR-01220,2026-08-28 18:59,telefonata_trascritta,cliente,3498523057,,"Trascr. chiamata ore 8:33 (op. Elisa) - cliente Giovanni Perotti: sono bloccato per sciopero mezzi, arrivo con circa 2 ore di ritardo per la riconsegna (Cube Kathmandu)"
+COM-TOR-00590,NOL-TOR-01390,2026-08-29 12:59,whatsapp,cliente,3956342452,,"ritardo di 1h x sciopero mezzi, scusate. Mezzo TOR-11"
+COM-TOR-00591,01408,29/08/2026 23:40,email,cliente,colivero@example.net,Annullamento prenotazione,"Buongiorno,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Grazie"
+COM-TOR-00592,NOL-TOR-01367,30/08/2026,whatsapp,cliente,3520544573,,sulla strada per la tangenziale un sasso ha colpito il lnotto e ora c'e' una crepa. Posso continuare a guidare fino alla riconsegna? (Volkswagen Golf)
+COM-TOR-00593,NOL-TOR-01195,30/08/2026,nota_operatore,operatore,Elisa,,"verbale GS044CN - piazza Vittorio - violazione art.142, comunicazione dati conducente inviata. spese 80€"
+COM-TOR-00682,NOL-TOR-01493,03/10/2026,email,cliente,matteo.actis@example.com,,"Sono caduto con la bici sul sentiero verso la tangenziale: la sella si e' rovinnato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Saaluti
+Matteo Actis
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00595,NOL-TOR-01357,2026-08-30 17:31,email,cliente,cavallofa4@example.net,Re: info danno,"Buonasera,
+Mentre facevo retromarcia a corso Unità d'Italia ho toccato un palo e si e' rovinato lo specchietto destro. Nessun ferito. Cosa devo fare?
+Grazie mille
+Fabio Cavallo
+Sent from my iPhone"
+COM-TOR-00596,NOL-TOR-01400,01/09/26,email,cliente,mondinola24@example.com,Richiesta rimborso,"Buongiorno a tutti,
+Il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 180 euro. Non accettabile
+Grazie"
+COM-TOR-00597,,01/09/2026 12:01,sms,cliente,3520544573,,"ritardo di 4h per incidente in tangenziale, scusate. Mezzo GH746MV"
+COM-TOR-00598,NOL-TOR-01325,01/09/2026 12:56,email,cliente,info@chiesaconsulenze.example.it,Richiesta rimborso,"Spett.le Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie e saluti
+Chiesa"
+COM-TOR-00599,NOL-TOR-00932,01/09/26 13:34,nota_operatore,operatore,Elisa,,"multa pedaggio non pagato targa EB-TOR-001, piazza Vittorio: rivalsa su cliente"
+COM-TOR-00600,NOL-TOR-01042,02/09/2026 13:05,nota_operatore,operatore,Gianni,,"multa pedaggio non pagato targa GN761SP, Stupinigi: rivalsa su cliente"
+COM-TOR-00601,NOL-TOR-01412,02/09/26 14:45,nota_tecnico,tecnico,M.,,"rir tor-04: nterno molto sporco (macchie sui sedili), puliziia strordinaria, addebito 40€ al cliente. stefano"
+COM-TOR-00602,NOL-TOR-01432,2026-09-02 17:06,nota_tecnico,tecnico,Gianni,,TOR-02:  specchietto  dx -> ammaccatura con vernice saltata. da sostituire il pezzo // fermo 7gg
+COM-TOR-00603,NOL-TOR-01410,03/09/26 08:44,email,cliente,matteo.actis@example.com,Danno Peugeot e-Expert,"Gentile Buby Rent,
+Uscendo da un posteggio stretto a Superga ho strisciato lo specchietto sinistro. Mi spiace tanto, quanto dovro' pagare?"
+COM-TOR-00604,NOL-TOR-01367,2026-09-04 02:29,nota_tecnico,tecnico,Stefano,,RIT TOR-08 82232km - lunotto leggera ammaccatura. ritocco vernice. fermo 1gg. Fabio
+COM-TOR-00605,NOL-TOR-01410,2026-09-04 15:21,nota_tecnico,tecnico,Paolo,,TOR-17 rientrato. Danno specchietto sx: piccola scheggiatura. da lucidare. Foto ok in cartella. Stima fermo 1gg (Tech1)
+COM-TOR-00606,,2026-09-05 12:50,modulo_web,cliente,matteo.actis@example.com,Contatti,"nome: matteo | email: matteo.actis@example.com | tel: 3837541208 | messaggio: vorrei noleggiare e-bike da 25/10 a 25/10, avete disponibilita' e quanto costa?"
+COM-TOR-00607,NOL-TOR-01442,2026-09-06 09:20,whatsapp,cliente,3898177875,,si  sono  spente tutte le luci del cruscotto mentre guidavo vicino a la mandria
+COM-TOR-00608,,2026-09-06 11:14,whatsapp,cliente,3839378590,,si sono spente tutte le luci del cruscotto mentre guidavo vicino a Lingotto
+COM-TOR-00609,NOL-TOR-00402,06/09/2026 14:43,email,cliente,info@riccielettrica.example.it,cambio data,"Vorrei  prolungare  di 1 giorni, il mezzo e' libero?
+In attesa di un vostro risconro
+RICCI ELETTRICA
+Sent from my iPhone"
+COM-TOR-00610,,07/09/2026 07:41,whatsapp,cliente,3484323619,,"vorrei noleggiare furgone da 22/10 a 27/10, avete disponibilita' e quanto costa?"
+COM-TOR-00611,,2026-09-07 08:55,email,cliente,paola.chiaves@example.com,Danno GN218WB,"Spett.le Buby Rent,
+Durante il noleggio ho urtato la portiera lato passeggero del mezzo (Renault Clio) mentre parcheggiavo a Caselle. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+In attesa di un vostro riscontro"
+COM-TOR-00612,NOL-TOR-01447,07/09/2026 12:12,nota_tecnico,tecnico,Paolo,,TOR-05 rientrato. Danno parabrezza: leggera ammaccatura. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 1gg (Davide)
+COM-TOR-00613,NOL-TOR-01458,2026-09-07 18:10,nota_tecnico,tecnico,Paolo,,TOR-09: portiera lato passeggero -> leggera ammaccatura. ritocco vernice // fermo 1gg
+COM-TOR-00614,NOL-TOR-01335,08/09/2026 04:29,email,cliente,glombardi@example.org,Segnalazione danno,"Salve,
+Mentre facevo retromarcia a corso Unità d'Italia ho toccato un palo e si e' rovinaato il fanale posteriore. Nessun ferito. Cosa devo fare?
+Saluti
+LLombardi siuia"
+COM-TOR-00615,nol-tor-01321,08/09/2026 08:12,email,cliente,elena.gastaldi@example.org,I: Richiesta rimborso,"Buongiorno,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale"
+COM-TOR-00616,,2026-09-08,nota_tecnico,tecnico,Paolo,,"controllo in riconsegna GM509KV: fanale post. danno da urto 20-30 cm, da sostituire il pezzo. cliente informato. fermo 7gg - Davide"
+COM-TOR-00617,NOL-TOR-01442,09/09/2026 05:31,sms,cliente,3898177875,,"sono bloccato pper cda in autostradt, arrivo con circa 2 ore di ritardo per laa riconsegna (Fiat Ducato)"
+COM-TOR-00618,NOL-TOR-01367,09/09/2026 21:59,modulo_web,cliente,mondinoro12@example.it,Contatti,Nome: Roberto | EEmail: mondinoro12@example.it | Tel: 3520544573 | Messaggio: all'arivo il mezzo non era pulito e il crrburante non era al pieo come promesso. Chiedo uno sconto
+COM-TOR-00619,NOL-TOR-01473,10-09-2026 12:52,email,cliente,giorgio.moretti@example.it,oggetto smarrito,"Gentile Buby Rent,
+Credo di aver lasciato la giacca nel bagagliaio (EB-TOR-005). Si puo' recuperare?
+Grazie e saluti
+Giorgio
+Get Outlook for Android"
+COM-TOR-00620,NOL-TOR-01310,09/10/2026 12:58,whatsapp,cliente,3735806224,,"IL VOLO E' STATO CANCELLATO, DEVO ANNULLARE IL NOLEGGIO. COME FUNZIONA LA PENALE?"
+COM-TOR-00621,NOL-TOR-01196,10/09/2026 15:48,sms,cliente,3418426164,,"sto arrivando ma ho blocco ZTL, tra 4 ore sono da voi"
+COM-TOR-00622,NOL-TOR-01486,2026-09-10 19:34,nota_tecnico,tecnico,Tech1,,"TOR-12 - cambio che gratta, verifica. fermo 7gg. Luca B."
+COM-TOR-00623,,10/09/2026,email,cliente,mchiesa@example.org,Re: Annullamento prenotazione,"ciao,
+devo  annullare  la prenotazione per motivi di lavoro, posso avere il rimborso?
+cordialmente
+sent from my iphone"
+COM-TOR-00624,NOL-TOR-01488,11/09/2026 00:10,email,cliente,matteo.actis@example.com,Modifica prenotazione,"EGREGI  SIGNORI,
+HO  SBAGLIATO LA DATA DI RITIRO NELLA PRENOTAZIONE, VORREI CORREGGERLA
+CORDIALI SALUTI
+MATTEO ACTIS
+GET OUTLOOK FOR ANDROID"
+COM-TOR-00625,NOL-TOR-01440,11/09/2026 10:04,whatsapp,cliente,3697260626,,"incidente in corso Unnità d'Italia con il mezzo (Peugeot e-Expert): ho tamponat un'auto davanti a me, danni al praurti. Sono ok. Chiamo la polizia lcale?"
+COM-TOR-00626,NOL-TOR-01462,11/09/2026 15:48,nota_tecnico,tecnico,Gianni,,"rit tor-14: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. marco"
+COM-TOR-00627,NOL-TOR-01347,11/09/26 17:58,email,cliente,info@fontanaedilizia.example.it,Grazie!,"Buongiorno a tutti,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramente
+Saluti
+Fontana Edilizia"
+COM-TOR-00628,NOL-TOR-01440,11/09/2026 22:24,nota_tecnico,tecnico,Sara,,"tor-17 - verbale polizia locale in allegato, danni anteriori. fermo 29gg. m."
+COM-TOR-00629,NOL-TOR-01477,12-09-2026 05:00,telefonata_trascritta,cliente,3340671483,,"Trascr. chiamata ore 12:11 (op. Mata) - cliente Mario Ravera: incidente in la tangenziale con il mezzo (Fiat Panda): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale? [incomprensibile]"
+COM-TOR-00630,NOL-TOR-01462,12/09/26 12:48,email,cliente,info@chiesaconsulenze.example.it,,"gentile buby rent,
+grazie, tutto perfetto, personale gentile e mezzo pulito. torneremo sicuramente
+in attesa di un vostro riscontro
+chiesa consulenze"
+COM-TOR-00631,NOL-TOR-01398,2026-09-12 16:54,whatsapp,cliente,3952099316,,"sono  bloccato  per incidente in tangenziale, arrivo con circa 2 ore di ritardo per la riconsegna (Cube Kathmandu)"
+COM-TOR-00632,NOL-TOR-01477,12/09/26 20:16,nota_tecnico,tecnico,Gianni,,"TOR-02 - verbale polizia locale in allegato, danni anteriori. fermo 8gg. Andrea"
+COM-TOR-00633,nol-tor-01495,14-09-2026 03:06,sms,cliente,3679399108,,"purtroppo  non  posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00634,,2026-09-14 06:28,email,cliente,ghiglionesi15@example.org,Preventivo,"Spett.le Buby Rent,
+Bonjour, je voudrais louer un velo electrique du 15/10 au 15/10. Avez-vous de la disponibilite et quel est le tarif ?
+Simone Ghiglione
+Get Outlook for Android"
+COM-TOR-00635,NOL-TOR-01374,14/09/2026 09:42,sms,cliente,3438046037,,"ritardo di 4h x coda in autostrada, scusate. Mezzo Volkswagen Golf"
+COM-TOR-00636,NOL-TOR-01431,15/09/26 03:15,email,cliente,info@oliveroimpianti.example.it,Richiesta rimborso,"Gentile Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie"
+COM-TOR-00637,NOL-TOR-01406,15/09/2026 08:06,sms,cliente,3641661369,,"sono bloccato x traffico, arrivo con circa 4 ore di ritardo x la riconsegna (GR690TX)"
+COM-TOR-00638,NOL-TOR-01473,15/09/2026 10:24,email,cliente,giorgio.moretti@example.it,Reclamo,"ciao,
+all'arrivo&nbsp;il&nbsp;mezzo&nbsp;non  era  pulito e il carburante non era al pieno come promesso. chiedo uno sconto
+in attesa d un vostro riscontro
+giorgio moretti
+get outlook for adroid"
+COM-TOR-00639,NOL-TOR-01509,15-09-2026 13:46,sms,cliente,3894932897,,la catena continua a saltare e il cambio non scala piu' (Cube Kathmandu)
+COM-TOR-00640,NOL-TOR-01522,15/09/2026 19:43,email,cliente,matteo.actis@example.com,Richiesta informazioni,"Gentile Buby Rent,
+Vorrei noleggiare e-bike da 25/09 a 25/09, avete disponibilita' e quanto costa?
+Cordialmente"
+COM-TOR-00641,NOL-TOR-01509,15-09-2026 21:28,nota_tecnico,tecnico,Gianni,,"EB-TOR-003  -  freni da controllare, pastiglie consumate. fermo 1gg. Andrea"
+COM-TOR-00642,NOL-TOR-01465,16/09/2026 13:11,telefonata_trascritta,cliente,3679606269,,"TRASCR. CHIAMATA ORE 15:47 (OP. GIANNI) - CLIENTE FEDERICO: C'E' UN RUMORE DALL MOVIMENTO CENTRALE, LA PEDALATA E' DURA"
+COM-TOR-00643,NOL-TOR-01425,2026-09-16 14:26,nota_tecnico,tecnico,Stefano,,TOR-07 rientrato. Danno cerchio post. dx: segni di sfregamesto. ritocco verrnice. Foto ok in cartella. Stima no fermo (M.)
+COM-TOR-00644,NOL-TOR-01496,,whatsapp,cliente,3920221727,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-TOR-00645,NOL-TOR-01470,18/09/2026 01:44,modulo_web,cliente,info@grecocantine.example.it,,"Nome: Greco Cantine | Email: info@grecocantine.example.it | Tel: 3938769939 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-TOR-00646,NOL-TOR-01482,18-09-2026 19:07,email,cliente,baronegi19@example.it,Grazie!,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Grazie e saluti
+Giulia"
+COM-TOR-00647,NOL-TOR-01467,18/09/2026 20:20,telefonata_trascritta,cliente,3693418568,,Trascr. chiamata ore 10:29 (op. Elisa) - cliente Conte: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-TOR-00648,NOL-TOR-01526,,email,cliente,info@bertolinotraslochi.example.it,cambio data,"ciao,
+devo  spostare  il noleggio di un giorno, e' possibile? (tor-14)
+grazie mille
+bertolino"
+COM-TOR-00649,,09/19/2026 15:40,email,cliente,csacco@example.net,Richiesta informazioni,"Salve,
+La vostra auto puo' entrare in ZTL a Torino? Devo andare in centro il 24/09
+Grazie
+Claudio Sacco
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00650,NOL-TOR-01189,19/09/2026 19:36,telefonata_trascritta,cliente,3572028196,,Trascr. chiamata ore 9:25 (op. Gianni) - cliente Laura: la batteria della bici (Cube Kathmandu) non si accende piu'
+COM-TOR-00651,NOL-TOR-01525,2026-09-19 22:50,nota_tecnico,tecnico,Elena,,EB-TOR-003 - sostituita batteria 12V. fermo 1gg. L.G.
+COM-TOR-00652,NOL-TOR-01519,21-09-2026 09:06,modulo_web,cliente,info@piccolotrasporti.example.it,,"Nome: Piccolo | Email: info@piccolotrasporti.example.it | Tel: 3643727778 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00653,NOL-TOR-01486,2026-09-21 19:47,modulo_web,cliente,giovanni.barone@example.com,Richiesta assistenza,NOME:  GIOVANNI  BARONE | EMAIL: GIOVANNI.BARONE@EXAMPLE.COM | TEL: 3471460921 | MESSAGGIO: ALL'ARRIVO IL MEZZO NON ERA PULITO E IL CARBURANTE NON ERA AL PIENO COME PROMESSO. CHIEDO UNO SCONTO
+COM-TOR-00654,,22/09/2026 20:00,telefonata_trascritta,cliente,3609110510,,"trascr.  chiamatta  ore 9:23 (op. marta) - cliente perotti mario: il finestrino elettrico non si chiude, auto tor-02"
+COM-TOR-00715,NOL-TOR-01646,2026-10-14,whatsapp,cliente,3697260626,,"sto  arrivando  ma ho traffico, tra 2 ore sono da voi"
+COM-TOR-00656,,23/09/26 16:01,nota_tecnico,tecnico,Davide,,TOR-03 - centralena da resettare. fermo 3gg. Tech1
+COM-TOR-00657,NOL-TOR-00600,24/09/2026 06:12,email,cliente,refe10@example.it,Cauzione non restituita,"Il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 120 euro. Non accettabile
+Grazie e saluti
+Re Federico"
+COM-TOR-00658,NOL-TOR-01545,2026-09-24 07:29,telefonata_trascritta,cliente,3796652962,,Trascr. chiamata ore 10:22 (op. Gianni) - cliente Simone: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-TOR-00659,NOL-TOR-01566,24-09-2026,email,cliente,info@allasiaeventi.example.it,Richiesta informazioni,"Salve,
+Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+In attesa di un vostro riscontro
+Allasia
+Sent from my iPhone"
+COM-TOR-00660,NOL-TOR-01523,2026-09-24 22:30,whatsapp,cliente,3716951035,,"durante  il  noleggio ho urtato la portiera lato passeggero del mezzo (tor-05) mentre parcheggiavo a la mandria. mi sembra solo estetico, ho fatto qualche foto. come devo procedere con la cauzione?"
+COM-TOR-00661,NOL-TOR-01541,2026-09-25 00:54,sms,cliente,3890154433,,"sono fermo a corso Unità d'Italia, il mezzo (Jeep Avenger) non riparte, mandate il carro attrezzi"
+COM-TOR-00662,,25/09/26 12:05,email,cliente,matteo.actis@example.com,riconsegna in ritardo,"Buongiorno a tutti,
+Ritardo di 2h per blocco ZTL, scusate. Mezzo Bianchi E-Omnia
+Grazie
+Matteo Actis
+Sent from my iPhone"
+COM-TOR-00663,NOL-TOR-01523,25/09/26 12:37,nota_tecnico,tecnico,M.,,"controllo in riconsegna GP129LH: portiera lato passeggero cerchio scheggiato e ovalizzato, da sostituire il pezzo. cliente informato. fermo 8gg - M."
+COM-TOR-00664,NOL-TOR-01443,25/09/2026 20:11,nota_tecnico,tecnico,Gianni,,TOR-02 - display e-bike sostituito. fermo 6gg. Luca B.
+COM-TOR-00665,NOL-TOR-01443,25-09-2026 21:21,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GL311RS: passaruota ant. segni di sfregamento, ritocco vernice. cliiente informato. fermo 2gg - Elena"
+COM-TOR-00666,NOL-TOR-01552,26/09/2026 10:30,modulo_web,cliente,mondinola24@example.com,,"Nome: Laura Mondino | Email: mondinila24@example.com | Tel: 3572028196 | Messaggio: posso tener il mezzo (GH746MV) fino a domani? incidente in tangenziale, non riesco ad arrivare"
+COM-TOR-00667,NOL-TOR-01556,2026-09-26 20:14,telefonata_trascritta,cliente,3890154433,,"Trascr. chiamata ore 17:16 (op. Elisa) - cliente Giulia: sono rimasto senza carburante a Porta Nuova, cosa devo fare?"
+COM-TOR-00668,NOL-TOR-01563,27/09/2026,whatsapp,cliente,3380592672,,"il display e' nero e nn da' assistenza, sono bloccato a Superga"
+COM-TOR-00669,NOL-TOR-01395,27/09/26 14:25,email,cliente,info@toscoristorazione.example.it,Richiesta rimborso,"ll'arrivo il mezzo non era pulito e il carbuante non ra al pieno come promesso. chiedo uno sconto
+cordiali saluti
+tosco ristorazione
+get outlook for android"
+COM-TOR-00670,NOL-TOR-01558,27/09/2026 16:53,nota_tecnico,tecnico,Davide,,"RIT TOR-03: interno molto sporco (macchie suii sedili), pulizia straordinaria, addebito 40€ al liente. Stefano"
+COM-TOR-00671,NOL-TOR-01541,27/09/26 17:49,nota_tecnico,tecnico,Luca B.,,"TOR-10 - chiavi duplicate, mezzo ok. fermo 5gg. Fabio"
+COM-TOR-00672,NOL-TOR-01521,28/09/2026 02:16,telefonata_trascritta,cliente,3676958013,,"Trasccr.  chiamata  ore 8:52 (op. Elisa) - cliente Fontana Trasporti: ho avuto un incidente a Porta Nuova, sono sstato tamponato da un altro veicilo. Nessun ferito, abbiamo comrilato il CAI. Mezzo GK931JD. Cosa devo farre?"
+COM-TOR-00673,NOL-TOR-01521,28/09/2026 18:19,nota_tecnico,tecnico,Luca B.,,"TOR-12 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 15gg. Paolo"
+COM-TOR-00747,NOL-TOR-01680,2026-10-25 20:14,nota_tecnico,tecnico,Tech1,,TOR-14: cofano -> piccola scheggiatura. nessun intervento urgente // no fermo
+COM-TOR-00675,NOL-TOR-01583,09/29/2026 00:17,nota_tecnico,tecnico,Tech1,,eb-tor-005 - displlay e-bikee sostituito. fermo 3gg. marco
+COM-TOR-00676,,29/09/2026 02:00,nota_tecnico,tecnico,Davide,,"tor-11 - chiavi duplnate, mezzo ok. fermo 4gg. andrea"
+COM-TOR-00677,NOL-TOR-01566,29/09/2026 20:15,nota_tecnico,tecnico,Andrea,,"rit tor-16: interno molto sporco (peli di animali), pulizia straordinaria, addebito 50€ al cliente. tech1"
+COM-TOR-00678,NOL-TOR-01520,30/09/2026 01:02,sms,cliente,3418426164,,ieri  sera  in un parcheggio a Porta Nuova qualcuno ha colpito il mezzo (Foat Panda) e il fanale posteriore e' danneggiato. Non c'era nessun biglietto. Ho fatto denuncia
+COM-TOR-00679,NOL-TOR-01585,2026-10-01 02:45,email,cliente,info@bertolinotraslochi.example.it,Richiesta assistenza,"Egregi signori,
+Sono fermo a Caselle, il mezzo (GM509KV) non riparte, mandate il carro attrezzi
+Cordiali saluti
+Bertolino
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00680,NOL-TOR-01531,01/10/26 10:46,email,cliente,blandinoal22@example.org,annullo noleggio,"Buongiorno,
+Il volo e' stato cancellato, devo annullare il noleggio. Come fuunziona la penale?
+Codiali saluti
+Alessandro Blandino"
+COM-TOR-00681,NOL-TOR-01391,02/10/2026 23:31,email,cliente,piccoloma70@example.it,Re: Cauzione non restituita,"ciao,
+all'arrivo il mezzo non era pulsto e il carburante non era al pieno come promesso. chiedo uno sconto
+cordialmente
+piccolo mario
+inviato dal mio samsung galaxy"
+COM-TOR-00594,NOL-TOR-01357,30/08/26,nota_tecnico,tecnico,M.,,RIT  TOR-14  105362km - specchietto dx leggera ammaccatura. nessun intervento urgente. fermo 1gg. M.
+COM-TOR-00683,,03/10/2026 20:03,nota_tecnico,tecnico,Tech1,,rit eb-tor-001 3967km - sella display rotto. da mandare in carrozzeria. ermo 6gg. girnni
+COM-TOR-00684,NOL-TOR-01582,03/10/2026 23:14,email,cliente,info@ceruttiristorazione.example.it,Re: spia accesa,"Hallo, das Fahrzeug (Fiat Doblò) springt bei piazza Vittorio nicht an, bitte um Hilfe.
+Saluti"
+COM-TOR-00685,NOL-TOR-01599,04/10/2026 00:47,whatsapp,cliente,3345978055,,gomma anteriore dx squarciata da una pietra a la Mandria
+COM-TOR-00686,NOL-TOR-01582,10/04/2026 15:19,nota_tecnico,tecnico,Andrea,,"TOR-14 - clima non unzionanti, gas da ricaricare. fermo 2gg. Daide"
+COM-TOR-00687,NOL-TOR-01599,10/04/2026 18:55,nota_tecnico,tecnico,Davide,,"TOR-11 - pneumatico fianco danneggiato, nuovo treno gomme. fermo 7gg. M."
+COM-TOR-00688,NOL-TOR-01520,04/10/26 19:53,nota_tecnico,tecnico,Andrea,,RIT TOR-01 102891km - fanale post. danno da urto 20-30 cm. preventivo richiesto. fermo 8gg. Sara
+COM-TOR-00689,,05-10-2026 05:04,email,cliente,giovanni.perotti@example.net,I: Preventivo,"Ciao,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+Distinti saluti
+Giovanni Perotti
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00690,01561,05/10/2026 17:12,sms,cliente,3986749888,,"posso tenere il mezzo (EB-TOR-003) fino a domani? code sulla A32, non riesco ad arrivare"
+COM-TOR-00691,NOL-TOR-01602,06/10/2026 00:06,whatsapp,cliente,3890154433,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00692,NOL-TOR-01622,07/10/2026 03:32,modulo_web,cliente,info@fontanalogistica.example.it,Contatti,Nome: Fontana | Email: info@fontanalogistica.exmple.in | Tel: 3706452154 | MMessaggio: accettate carte di debito per la cauzione o serve per forza la carta di credito?
+COM-TOR-00693,,07-10-2026 17:51,nota_tecnico,tecnico,Davide,,"RIT TOR-10 42174km - fianco sx elemento distrutto, da sostituire. contattata assicurazione. fermo 23gg. Sara"
+COM-TOR-00694,NOL-TOR-01290,10/07/2026 19:51,nota_operatore,operatore,Gianni,,"RICEVUTO VERBALE DEL COMUNE DI LA MANDRIA PER ZTL/ECCESSO DI VELOCITA', TARGA EB-TOR-002. DA ADDEBITARE AL CLIENTE + 100€ GESTIONE PRATICA"
+COM-TOR-00695,NOL-TOR-01596,07/10/26,telefonata_trascritta,cliente,3421497320,,"Trascr. chiamata ore 10:45 (op. Elisa) - cliente Claudio: non parte, il motorino fa solo clic. Sono a la Mandria"
+COM-TOR-00696,,2026-10-09 08:02,whatsapp,cliente,3898688327,,"ho la patente da 1 anno, posso oleggiare un'uto? ho 22 anni"
+COM-TOR-00697,NOL-TOR-01607,10-10-2026 05:06,email,cliente,gambaro15@example.it,Ritardo riconsegna,"Posso tenere il mezo (GL652NFF) fino a domani? sciopero mmezzi, non riesco ad arrivare
+Grazie mille
+Rberto Gamba
+Sent from my iPhone"
+COM-TOR-00698,,2026-10-10 08:23,whatsapp,cliente,3900095783,,"annullate per favore la mia prenotazione, la nostra gita e' saltat per il meteo"
+COM-TOR-00699,nol-tor-01547,10-10-2026 08:37,email,cliente,massimo.cerutti@example.net,Cauzione non restituita,"buonasera,
+ho visto un addebito di 120 euro per km sxtra ma secondo me ho percorso molti meno km. chiedo verifica del ontratto nol-tor-01547
+grazie e saluti
+cerutti massimo
+sent from my iphone"
+COM-TOR-00700,NOL-TOR-01635,10/10/2026 18:02,nota_tecnico,tecnico,Stefano,,"controllo in riconsegna EB-TOR-002: display cambio posteriore rotto, foto in cartella, addebito da valutare. cliente informato. fermo 4gg - Marco"
+COM-TOR-00701,NOL-TOR-01634,10-10-2026 21:39,whatsapp,cliente,3233852133,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-TOR-00702,NOL-TOR-01635,11/10/2026 04:16,whatsapp,cliente,3937550991,,"mi sono accorto di aver lasciato le chiavi di casa nel mezzo, potrei passare domani"
+COM-TOR-00304,,23/04/2026 09:50,email,cliente,barbara.rizzo@example.com,Re: Preventivo,"Spett.le Buby Rent,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Distinti saluti
+Rizzo Barbara
+Inviato da iPhone"
+COM-TOR-00704,NOL-TOR-01608,12/10/2026 04:55,sms,cliente,3572028196,,"sto arrivando ma ho sciopero mezzi, tra 4 ore sono da voi"
+COM-TOR-00705,NOL-TOR-01623,2026-10-12,email,cliente,giovanni.perotti@example.net,Richiesta rimborso,"buonasera,
+il prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 120 euro. non accettabile
+distinti saluti
+inviato da iphone"
+COM-TOR-00706,NOL-TOR-01640,2026-10-12 14:30,sms,cliente,3919936984,,"ritardo di 2h x problemi personali, scusate. Mezzo Bianchi E-Omnia"
+COM-TOR-00707,NOL-TOR-01603,2026-10-12 21:04,telefonata_trascritta,cliente,3823557023,,"Trascr. chiamata ore 12:09 (op. Elisa) - cliente Fabio Costa: la colonnina a Caselle non carica, errore cavo. Auto GT275HY"
+COM-TOR-00708,NOL-TOR-01640,10/13/2026 01:06,nota_tecnico,tecnico,Tech1,,"EB-TOR-005 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. Sara"
+COM-TOR-00709,NOL-TOR-01647,13/10/2026,whatsapp,cliente,3697260626,,"il finestrino elettrico nn si chiude, auto Nissan Qashqai"
+COM-TOR-00710,NOL-TOR-01616,13-10-2026 10:42,email,cliente,giorgio.moretti@example.it,Graffio sul mezzo,"Buonasera,
+Durante  il  noleggio ho urtato il cerchio anteriore sinistro del mezzo (Fiat Panda) mentre parcheggiavo a Porta Nuova. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?
+Grazie e saluti
+Giorgio Moretti
+Get Outlook for Android"
+COM-TOR-00711,NOL-TOR-01231,13/10/2026 11:20,nota_operatore,operatore,Elisa,,"multa pedaggio non pagato targa GP129LH, la tangenziale: rivalsa su cliente"
+COM-TOR-00712,NOL-TOR-01647,2026-10-13 19:35,nota_tecnico,tecnico,Luca B.,,"TOR-11 - battteria e-bike dinettosa, apertura RMA. fermo 2gg. Davide"
+COM-TOR-00713,NOL-TOR-01616,10/13/2026 21:42,nota_tecnico,tecnico,Davide,,"controllo in riconsegna GL311RS: cerchio ant. sx danno da urto 20-30 cm, preventivo richiesto. cliente informato. fermo 5gg - L.G."
+COM-TOR-00714,NOL-TOR-01650,14/10/2026 07:25,email,cliente,pastoregi95@example.com,Modifica prenotazione,"egregi signori,
+posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+giovanni pastore"
+COM-TOR-00655,NOL-TOR-01332,2026-09-23 08:27,telefonata_trascritta,cliente,3781769675,,"Trascr. chiamata ore 8:10 (op. Gianni) - cliente Martini Trasporti: il finestrino elettrico non si chiude, auto TOR-03"
+COM-TOR-00716,NOL-TOR-01640,10/14/2026 16:16,email,cliente,info@riccielettrica.example.it,Feedback noleggio,"Ciao,
+Grazie, tutto perfetto, personale gentile e mezzo pulito. Torneremo sicuramentee
+Cordiali saluti
+Ricc Elettrca
+Inviato da iPhone"
+COM-TOR-00717,NOL-TOR-01612,14/10/2026,sms,cliente,3837541208,,"sto arrivando ma ho coda in autostrada, tra 4 re sono da voi"
+COM-TOR-00718,NOL-TOR-00506,15/10/2026 06:15,whatsapp,cliente,3919936984,,"sono bloccaio x coda in autostrada, arrivo con circa 3 ore di ritardo x la riconsegna (GL652NF)"
+COM-TOR-00719,NOL-TOR-01673,16/10/2026 04:42,email,cliente,massimo.cerutti@example.net,Preventivo,"Gentile Buby Rent,
+Quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+Saluti
+Massimo Cerutti
+Inviato da iPhone"
+COM-TOR-00720,NOL-TOR-01345,2026-10-16 15:01,nota_operatore,operatore,Marta,,"multa pedaggio non pagato targa GH746MV, la Mandria: rivalsa su cliente"
+COM-TOR-00721,NOL-TOR-01666,2026-10-16 15:28,nota_tecnico,tecnico,Marco,,"controllo in riconsegna eb-tor-002: display telaio incrinato, carro attrezzi per officina. cliente informato. fermo 17gg - andrea"
+COM-TOR-00722,NOL-TOR-01650,17/10/2026 05:49,email,cliente,pastoregi95@example.com,Grazie!,"Buongiorno a tutti,
+Ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissmo
+Grazie
+Get Outlook for Android"
+COM-TOR-00723,NOL-TOR-01506,2026-10-18 06:20,modulo_web,cliente,ghiglionesi15@example.org,Contatti,"Nome: Simone Ghigliione | Email: ghiglionesi15@example.org | Tel: 3956342452 | Messaggio: ottmo servizio, la e-bike era in ottimo stato e il percorso consigltaato beleissimo"
+COM-TOR-00724,NOL-TOR-01658,18/10/2026 11:49,sms,cliente,3304710819,,"posso tenere il mezzo (Fiat 500e) fino a domani? sciopero mezzi, non riesco ad arrivare"
+COM-TOR-00725,NOL-TOR-00388,2026-10-18 16:14,modulo_web,cliente,roberto.sacco@example.org,Contatti,"Nome: Roberto | Email: roberto.sacco@example.org | Tel: 3948406193 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-TOR-00726,NOL-TOR-01296,18/10/2026,nota_operatore,operatore,Gianni,,"verbale GN761SP - Lingotto - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-TOR-00727,NOL-TOR-01658,19/10/2026 14:37,telefonata_trascritta,cliente,3304710819,,"Trascr. chiamata ore 12:20 (op. Gianni) - cliente Franncesco: uscendo ia un posteggi stretto a Superga ho itrisciato la portiera lato guida. Mi spiace tanto, quanto dovro' pagare?"
+COM-TOR-00728,NOL-TOR-01674,2026-10-19,whatsapp,cliente,3265140314,,"sto arrivando ma ho lavori sulla strada, tra 1 ore sono da voi"
+COM-TOR-00729,NOL-TOR-01658,2026-10-20 06:25,nota_tecnico,tecnico,M.,,TOR-04: portiera lato guda -> ammaccatura con venice saltata. da mandare in carrozzeria // fermo 5gg
+COM-TOR-00730,,2026-10-20 09:47,email,cliente,info@martinitrasporti.example.it,Info noleggio,
+COM-TOR-00259,NOL-TOR-00623,04/04/2026 20:02,nota_tecnico,tecnico,Tech1,,"EB-TOR-003: catena -> urto forte, bici non utilizzabile. mezzo fermo, perizia in corso // fermo 20gg"
+COM-TOR-00732,NOL-TOR-01659,20/10/2026 23:15,modulo_web,cliente,info@riccielettrica.example.it,Contatti,"Nome: RICCI ELETTRICA | Email: info@riccielettrica.example.it | Tel: 3919936984 | Messaggio: Great service, the bike was perfect and the staff very friendly. Thank you!"
+COM-TOR-00733,NOL-TOR-01682,22/10/2026 12:13,telefonata_trascritta,cliente,3643727778,,"Trascr. chiamata ore 9:49 (op. Gianni) - cliente PICCOLO TRASPORTI: la colonnina a Caselle non carica, errore cavo. Auto GR118BK"
+COM-TOR-00734,NOL-TOR-01689,22/10/2026 15:14,telefonata_trascritta,cliente,3958377905,,"Trascr. chiamata ore 9:57 (op. Marta) - cliente Federica: volevo avvisarvi che sul mezzo (TOR-09) c'e' un graffio su il paraurti posteriore, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-TOR-00735,NOL-TOR-01689,22/10/26 15:46,nota_tecnico,tecnico,Stefano,,"controllo in iconsegna GN218WB: paraurti post. daanno da urto 20-30 cm, da mandare in carrozzeria. clieente informato. fermo 9gg - L.G."
+COM-TOR-00736,NOL-TOR-01656,23/10/2026 09:56,email,cliente,info@contealpineservice.example.it,annullo noleggio,"Annullate  per  fanore la mia prenotazione, a nostra gita e' saltatta per il meteo
+Distinti saluti
+CONTE ALPINE SERVICE
+Ge Oulok for Android"
+COM-TOR-00737,NOL-TOR-01606,23/10/2026 14:09,nota_tecnico,tecnico,Tech1,,TOR-03:  lunotto  -> piccola scheggiatura. segnalato a fine mese per carrozzeria // no fermo
+COM-TOR-00738,NOL-TOR-01682,2026-10-23 16:22,nota_tecnico,tecnico,L.G.,,tor-17 - connettore ricarica ossidato. fermo 4gg. stefano
+COM-TOR-00739,NOL-TOR-01627,24/10/2026,whatsapp,cliente,3237873885,,"il finestrino elettrico nn si chiude, auto GM842BD"
+COM-TOR-00740,NOL-TOR-01548,24/10/2026 16:49,whatsapp,cliente,3693418568,,ii clima eon funziona e il cambio fa fatica a ingranare la seconda (GN761SP)
+COM-TOR-00741,NOL-TOR-01649,24/10/2026,email,cliente,barbara.brunetti@example.net,cambio data,"Buonasera,
+Vorrei prolungare di 3 giorni, il mezzo e' libero?
+Grazie
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00742,01662,25/10/2026 09:46,modulo_web,cliente,ghiglioneil33@example.it,,"Nome: Ilaria | Email: ghiglioneil33@example.it | Tel: 3217116525 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00743,NOL-TOR-01548,25/10/2026 14:37,nota_tecnico,tecnico,Fabio,,TOR-16: porta scorrevole -> segni di sfregamento. segnalato a fine mese per carrozzeria // fermo 1gg
+COM-TOR-00744,NOL-TOR-01691,25/10/2026 15:23,sms,cliente,3554186909,,"sto arrivando ma ho coda in autostrada, tra 4 ore sono da voi"
+COM-TOR-00745,NOL-TOR-01487,25/10/26 17:36,nota_tecnico,tecnico,Elena,,"controllo in riconsegnna EB-TOR-004: forcella disrlay rotto, foto in cartella, addebito da valutare. cliente informat. ermo 7gg - Saraa"
+COM-TOR-00746,NOL-TOR-01518,2026-10-25,nota_operatore,operatore,Gianni,,"verbale  EB-TOR-003  - la tangenziale - violazione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-TOR-00674,NOL-TOR-01583,28/09/2026 18:22,sms,cliente,3867563924,,"la bici si spegne in salita dopo 10 km, sono a la tangenziale"
+COM-TOR-00748,NOL-TOR-01695,26/10/2026 07:56,modulo_web,cliente,matteo.actis@example.com,Contatti,"Nome: Matteo | Email: matteo.actis@example.com | Tel: 3837541208 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-TOR-00097,NOL-TOR-00268,03/01/2026 12:00,telefonata_trascritta,cliente,3716951035,,"Trasc. chiamata ore 11:26 (op. Marta) - cliente Chiaves Paola: posso tenere il mezzo (Renault Clio) fino a domani? code sulla A32, non riesco ad arrivare"
+COM-TOR-00750,NOL-TOR-01432,27/10/2026 14:10,nota_operatore,operatore,Marta,,"verbale GL311RS - Lingottoo - violazione art.142, comuniiazione dati conduucente inviata. spese 80€"
+COM-TOR-00751,NOL-TOR-01691,27/10/26 20:34,modulo_web,cliente,andrea.marchetti@example.com,,"Nome: Marchetti Andrea | Email: andrea.marchetti@example.com | Tel: 3554186909 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-TOR-00060,NOL-TOR-00125,2025-12-02,nota_tecnico,tecnico,L.G.,,TOR-03: fianco sx -> graffio superficiale. da lucidare // fermo 2gg
+COM-TOR-00753,NOL-TOR-01551,2026-10-29 12:52,nota_operatore,operatore,Gianni,,"multa pedaggio non pagato targa GP384DZ, Caselle: rivalsa su cliente"
+COM-TOR-00754,NOL-TOR-01701,29/10/26 16:36,nota_tecnico,tecnico,Marco,,RIT TOR-01 103750km - cofano leggera ammaccatura. da lucidare. fermo 1gg. Sara
+COM-TOR-00755,,29/10/2026 23:55,nota_tecnico,tecnico,Gianni,,"TOR-07 - batteria e-bike difettosa, apertura RMA. fermo 4gg. L.G."
+COM-TOR-00756,NOL-TOR-01461,2026-10-30 11:20,whatsapp,cliente,3817619240,,"la colonnina a Porta Nuova non carica, errore cavo. Auto Fiat 500e"
+COM-TOR-00757,NOL-TOR-01709,30/10/2026 18:01,nota_tecnico,tecnico,M.,,"controllo in riconssegna GR118BK: portellone post. piccola scheggiatura, ritocco vernice. cliente informato. fermo 1gg - Elena"
+COM-TOR-00758,NOL-TOR-01684,30/10/2026 23:39,email,cliente,info@grecostudiotecnico.example.it,Richiesta rimborso,"Gentile Buby Rent,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie
+Greco Studio Tecnico
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00759,NOL-TOR-01669,31/10/2026,nota_tecnico,tecnico,Andrea,,"rit tor-14: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 50€ al cliente. tech1"
+COM-TOR-00760,NOL-TOR-01667,02/11/2026,email,cliente,info@toscoserramenti.example.it,Grazie!,"Gentile Buby Rent,
+Esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio
+Cordiali saluti"
+COM-TOR-00761,NOL-TOR-01719,2026-11-02 11:03,whatsapp,cliente,3805237610,,"purtroppo nn posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00762,NOL-TOR-00728,2026-11-02,telefonata_trascritta,cliente,3499917908,,Trascr. chiamata ore 15:55 (op. Gianni) - cliente Mario Bonino: ho visto un addebito ddi 48 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-TOR-01706
+COM-TOR-00763,NOL-TOR-01692,2026-11-03 02:17,whatsapp,cliente,3609976853,,ieri sera in un parcheggio a Stupinigi qualcuno ha colpito il mezzo (Fiat 500e) e la portiera lato guida e' danneggiato. Non c'era nessun biglietto. Ho fatto denuncia
+COM-TOR-00764,NOL-TOR-01723,04-11-2026 06:08,whatsapp,cliente,3266492569,,"non parte, il motorino fa solo clic. Sono a piazza Vittorio"
+COM-TOR-00765,NOL-TOR-01722,05/11/2026,email,cliente,perottiro59@example.org,annullo noleggio,"Buonasera,
+Devo  annullare  la prenotazione per motivi di lavoro, posso avere il rimborso?
+Roberta Perotti
+Get Outlook for Android"
+COM-TOR-00234,NOL-TOR-00633,26-03-2026 19:50,nota_tecnico,tecnico,L.G.,,"RIT TOR-11: interno molto sporco (rifiuti nel bagagliaio), pulizia straordinaria, addebito 70€ al cliente. Stefano"
+COM-TOR-00767,NOL-TOR-01694,06/11/2026 17:24,telefonata_trascritta,cliente,3211693199,,Trasc. chiamata ore 16:42 (op. Elisa) - clinte Bertlino Ilaria: la cauzioone di 800 euro non mi e' stata tncora restituita dopo 30 giorn dalla riconsgna. Vorrei sapere quando arriva
+COM-TOR-00768,,11/06/2026 22:11,telefonata_trascritta,cliente,3866861299,,"Trascr. chiamata ore 11:01 (op. Marta) - cliente Mario Barbero: la frizione slitta e c'e' odore di bruciato, sono a la Mandria. Mezzo GN761SP"
+COM-TOR-00769,,07-11-2026 10:06,nota_tecnico,tecnico,Marco,,TOR-14 rientrato. Danno parabrezza: segni di sfregamento. ritocco vernice. Foto ok in cartella. Stima no fermo (Davide)
+COM-TOR-00770,NOL-TOR-01649,07/11/2026 18:25,nota_tecnico,tecnico,Sara,,tor-13: passaruota ant. -> leggera ammaccatura. ritocco vernice // no fermo
+COM-TOR-00771,NOL-TOR-01363,07/11/2026 19:00,nota_operatore,operatore,Gianni,,"verbale GP127FK - piazza Vittorio - violazione art.142, comunicazione dati conducente inviata. spese 100€"
+COM-TOR-00772,NOL-TOR-00189,08/11/2026 18:41,nota_tecnico,tecnico,Tech1,,OR-04: ortiera lato guida -> graffio supeficiale. segnalato a fine mese per carrozzeria // no fermo
+COM-TOR-00773,NOL-TOR-01712,2026-11-11 13:15,nota_tecnico,tecnico,Tech1,,TOR-16 - feizione da sostituire. fermo 5gg. Elena
+COM-TOR-00774,NOL-TOR-01678,2026-11-11 13:55,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GL311RS: lunotto graffio profondo fino alla lamiera, da mandare in carrozzeria. cliente informato. fermo 8gg - Andrea"
+COM-TOR-00201,NOL-TOR-00571,11-03-2026 14:51,email,cliente,andrea.marchetti@example.com,Annullamento prenotazione,"buongiorno  a  tutti,
+devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+grazie mille
+marchetti andrea
+inviato dal mio saasung galaxy"
+COM-TOR-00100,,04/01/2026 18:57,nota_tecnico,tecnico,Fabio,,rit tor-05 38002km - portiera lato passeggero piccola scheggiatura. da lucidare. fermo 1gg. davide
+COM-TOR-00123,NOL-TOR-00302,16/01/2026 04:52,email,cliente,info@chiesaconsulenze.example.it,,"Ho visto un addebito di 48 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contrattto NOL-TOR-00302
+Cordiali saluti
+Chiesa Consulenze
+Get Outlook for Android"
+COM-TOR-00146,NOL-TOR-00420,07/02/2026 20:13,modulo_web,cliente,marco.barbero@example.it,Richiesta assistenza,"Nome: Marco | Email: marco.barbero@example.it | Tel: 3585487257 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-TOR-00064,NOL-TOR-00098,2025-12-04 08:54,email,cliente,info@pastoreeventi.example.it,Annullamento prenotazione,"Buongiorno,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+Cordialmente
+Pastore"
+COM-TOR-00575,,2026-08-23 10:37,nota_tecnico,tecnico,Paolo,,"RIT TOR-12: interno molto sporco (abbia), pulizia straordinaria, addebito 40€ al cliente. Fabio"
+COM-TOR-00108,NOL-TOR-00292,07/01/2026 17:52,nota_tecnico,tecnico,Davide,,"TOR-09 - CAI ricevuto, controparte identifficata, in attesa perizia. fermo 28gg. Anddrea"
+COM-TOR-00759,NOL-TOR-01669,31/10/2026,nota_tecnico,tecnico,Andrea,,"rit tor-14: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 50€ al cliente. tech1"
+COM-TOR-00676,,29/09/2026 02:00,nota_tecnico,tecnico,Davide,,"tor-11 - chiavi duplnate, mezzo ok. fermo 4gg. andrea"
+COM-TOR-00347,NOL-TOR-00841,2026-05-09 15:44,email,cliente,mre@example.com,Oggetto dimenticato,"Ho dimenticato il casco nel mezzo (EB-TOR-004), potete controllare?
+Matteo Re
+Inviato dal mio Samsung Galaxy"
+COM-TOR-00239,NOL-TOR-00647,28/03/2026 18:44,nota_tecnico,tecnico,Stefano,,TOR-09: cerchio post. dx -> graffio superficiale. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-TOR-00354,nol-tor-00812,2026-05-12 08:09,email,cliente,francesco.ferraris@example.com,Cauzione non restituita,"Egregi  signori,
+Il  prezzo pagato e' diverso da quello del preventivo ricevuto via email, c'e' una differenza di 75 euro. Non accettabile
+Distinti saluti
+Francesco Ferraris
+Get Outlook for Android"
+COM-TOR-00164,NOL-TOR-00311,20/02/2026 15:48,nota_operatore,operatore,Gianni,,"verbal GM842BD - la tangenziale - violazzione art.142, comunicazione dati conducente inviata. spese 40€"
+COM-TOR-00622,NOL-TOR-01486,2026-09-10 19:34,nota_tecnico,tecnico,Tech1,,"TOR-12 - cambio che gratta, verifica. fermo 7gg. Luca B."
+COM-TOR-00692,NOL-TOR-01622,07/10/2026 03:32,modulo_web,cliente,info@fontanalogistica.example.it,Contatti,Nome: Fontana | Email: info@fontanalogistica.exmple.in | Tel: 3706452154 | MMessaggio: accettate carte di debito per la cauzione o serve per forza la carta di credito?

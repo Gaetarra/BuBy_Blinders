@@ -1,0 +1,16 @@
+codice_tariffa,categoria_tariffaria,tariffa_giorno_eur,tariffa_weekend_2gg_eur,tariffa_settimana_eur,tariffa_mezza_giornata_eur,km_inclusi_giorno,costo_extra_km_eur,cauzione_eur,coeff_alta_stagione,coeff_bassa_stagione
+UTI,Utilitaria,35,60,210,,150,0.15,300,1.25,0.85
+CAB,Utilitaria cabrio,55,95,330,,150,0.2,500,1.25,0.85
+CMP,Compatta,45,80,270,,200,0.18,400,1.25,0.85
+C4X,Compatta 4x4,60,105,360,,200,0.2,500,1.25,0.85
+SWG,Station wagon,60,105,360,,250,0.2,500,1.25,0.85
+SUV,SUV,75,130,450,,250,0.22,600,1.25,0.85
+S4X,SUV 4x4,95,165,570,,250,0.25,800,1.25,0.85
+MON,Monovolume 7 posti,85,150,510,,250,0.22,700,1.25,0.85
+ELE,Elettrica standard,70,120,420,,200,0.1,600,1.25,0.85
+ELP,Elettrica premium,110,190,660,,200,0.12,1000,1.25,0.85
+FPC,Furgone piccolo,65,110,390,,200,0.2,600,1.25,0.85
+FGR,Furgone grande,90,155,540,,200,0.25,800,1.25,0.85
+FEL,Furgone elettrico,95,160,570,,150,0.12,900,1.25,0.85
+BTR,E-bike city/trekking,25,45,130,15,,0,100,1.25,0.85
+BMT,E-bike MTB,35,60,180,20,,0,200,1.25,0.85

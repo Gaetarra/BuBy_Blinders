@@ -1,0 +1,160 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-STR-0001,EB-STR-003,2025-11-03,2025-11-10,7,CICLOFFICINA,forcella e ruota da sostituire,Bike Service Lago,2593,"€ 576,00",SI,NOL-STR-00001,
+INT-STR-0002,EB-STR-002,05/11/25,08/11/25,3,CICLOFFICINA,cambio posteriore rotto,Ciclofficina Stresa,989,"236,00 €",no,NOL-STR-00013,CHIUSO
+INT-STR-0003,STR-06,2025-11-06,2025-11-07,1,CAMBIO GOMME INV.,cambio&nbsp;stagionale,carrozzeria verbano,31222 km,"€ 91,00",,,chiuso ok
+INT-STR-0004,STR-01,07/11/2025,08/11/2025,1,cambio gomme invernali,cambio stagionale,Autofficina Lago Maggiore,50618,63.00,NO,,chiuso
+INT-STR-0005,STR-06,08/11/2025,12/11/2025,3,soccorso,intervento dopo assistenza stradale,Carrozzeria,31371,617.00,NO,NOL-STR-00021,chiuso
+INT-STR-0006,STR-03,09/11/2025,10/11/2025,1,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,65316,85.00,NO,,chiuso
+INT-STR-0007,STR-02,13 nov 2025,14 nov 2025,1,cambio gomme invernali,cambio stagionale,Autofficina Lago Maggiore,38715,88,no,,chiuso
+INT-STR-0008,STR-04,13 nov 2025,14 nov 2025,1,gomme invernali,cambio  stagionale,Autofficina Lago Maggiore,30276,"75,00",N,,
+INT-STR-0009,str-07,15/11/2025,16/11/2025,1,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,120113,92,no,,chiuso ok
+INT-STR-0010,EB-STR-004,16/11/25,20/11/25,3,assistenza,intervento  dopo  assistenza stradale,Ciclofficina Stresa,875,152.00,NO,NOL-STR-00029,CHIUSO
+INT-STR-0011,STR-06,19/11/2025,23/11/2025,4,meccanica,guasto  meccanico  in noleggio,carrozzeria verbano,31643,"555,00",no,NOL-STR-00030,chiuso
+INT-STR-0012,STR-2,24/11/2025,28/11/2025,4,vetri,graffio profondo fino alla lamiera,Autofficina Lago Maggiore,39004,"401,00",si,NOL-STR-00005,
+INT-STR-0013,STR-05,24/11/2025,25/11/2025,,gomme invernali,cambio stagionale,Carrozzeria Verbano,61855,"55,00",N,,CHIUSO
+INT-STR-0014,STR-7,27-11-2025,29-11-2025,2,carrozz.,graffio superficiale,Carrozzeria Verbano,120234,"112,00",si,NOL-STR-00040,
+INT-STR-0015,str-02,07-12-2025,08-12-2025,1,assistenza,intervento dopo assistenza stradale,autofficina lago maggiore,39611,"389,00",no,NOL-STR-00053,chiuso
+INT-STR-0016,STR-23,07/12/2025,09/12/2025,0,tagliando,tagliando programmato,autofficina lago maggiore,67.134,"270,00",no,,CHIUSO
+INT-STR-0017,STR-02,2025-12-14,2025-12-22,8,carrozzeria,graffio profondo fino alla lamier,Autofficina Lago Maggiore,40039,"€ 435,00",S,NOL-STR-00048,chiuso ok
+INT-STR-0018,STR-04,31/12/2025,01/01/2026,1,carrozzeria,striscso&nbsp;di vernice,Autofficina,33738,116.00,N,,
+INT-STR-0124,STR-02,2026-09-01,2026-09-09,8,carrozzeria,graffio profondo fino alla lamiera,,60727,"807,00 €",no,,CHIUSO
+INT-STR-0020,EB-STR-004,02/01/2026,08/01/2026,7,bici,display rotto,Bike Service Lago,943,94,N,NOL-STR-00091,CHIUSO
+INT-STR-0021,EB-STR-002,10/01/2026,17/01/2026,6,CICLOFFICINA,display rotto,Bike Service Lago,1369,113.00,,NOL-STR-00098,chiuso
+INT-STR-0022,STR-02,12/01/2026,13/01/2026,1,carrozzeria,striscio di vernice,,42060,98,NO,NOL-STR-00072,chiuso
+INT-STR-0023,STR-04,19/01/2026,20/01/2026,1,tagl.,tagliando programmato,Carrozzeria Verbano,34285,"€ 349,00",,,chiuso
+INT-STR-0024,EB-STR-004,22/01/2026,23/01/2026,1,tagliando,tagliando programmato,BIKE SERVICE LAGO,971,80.00,NO,,chiuso
+INT-STR-0025,STR-02,31/01/2026,03/02/2026,3,manutenzione ordinaria,tagliando programmato,Carrozzeria Verbano,43666,"169,00",NO,,
+INT-STR-0026,STR-06,02/06/2026,02/07/2026,1,tagliando,tagliando programmmato,Autofficina Lago Maggiore,41768,321.00,N,,CHIUSO
+INT-STR-0027,EB-STR-002,13/02/26,14/02/26,1,bici,graffi sul telaio,Bike Service Lago,1426,59.00,si,NOL-STR-00143,CHIUSO
+INT-STR-0028,EB STR 002,13/02/26,14/02/26,1,tagliando,,Ciclofficina Stresa,1426,"61,00",NO,,chiuso
+INT-STR-0029,EB-STR-003,17/02/2026,07/03/2026,18,bici,telaio incrinato,Bike,2731,466.00,no,NOL-STR-00089,chiuso
+INT-STR-0030,STR-04,17/02/2026,16/03/2026,29,carrozzeria,danni da sinistro stradale,Carrozzeria Verbano,37267,"4.942,00",,NOL-STR-00112,chiuso
+INT-STR-0031,str-07,01/03/2026,07/03/2026,8,Carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,125795,"437,00",si,NOL-STR-00127,chiuso
+INT-STR-0032,EBSTR001,2026-03-05,2026-03-06,1,tagliando,tagliando programmato,Bike Service Lago,2352,,,,
+INT-STR-0033,STR-05,08-03-2026,10-03-2026,,carrozzeria,piccola scheggiatura,Autofficina Lago Maggiore,71.781,"94,00",si,NOL-STR-00192,CHIUSO
+INT-STR-0034,STR-05,08/03/2026,10/03/2026,2,gomme,sostituzione pneumatico,Carrozzeria Verbano,71781,"600,00 €",,NOL-STR-00192,chiuso
+INT-STR-0035,EB-STR-003,09/03/2026,10/03/2026,1,TAGLIANDO,tagliando programmato,Bike Service Lago,2731,75.00,no,,chiuso
+INT-STR-0036,STR-01,10/03/2026,14/03/2026,4,MECC.,guasto meccanico in noleggio,Autofficina Lago Maggiore,62438,"389,00",N,NOL-STR-00187,CHIUSO
+INT-STR-0037,STR-05,17/03/2026,18/03/2026,1,carrozzeria,segni di sfregamento,Carrozzeria Verbano,72256,"111,00",N,NOL-STR-00202,chiuso
+INT-STR-0038,STR-06,21/03/2026,28/03/2026,7,carrozz.,ammaccatura  con  vernice saltata,Carrozzeria Verbano,45553,483.00,si,NOL-STR-00223,chiuso
+INT-STR-0039,STR-03,2026-03-30,2026-04-08,8,meccanico,guasto meccanico in noleggio,Carrozzeria Verbano,77356,578.00,no,,chiuso ok
+INT-STR-0040,STR-01,31/03/2026,03/04/2026,3,manutenzione ordinaria,tagliando programmato,Autofficina Lago Maggiore,63752,,,,
+INT-STR-0041,EB-STR-002,03/04/26,04/04/26,1,meccanica,guasto meccanico in noleggio,ciclofficina stresa,1781,"207,00",NO,NOL-STR-00245,chiuso
+INT-STR-0042,STR-07,03-04-2026,30-04-2026,27,vetri,deformazione importante,Carrozzeria Verbano,128880,5020.00,no,NOL-STR-00238,chiuso ok
+INT-STR-0043,STR-05,04/04/2026,06/04/2026,1,tagliando,tagliando programmato,Autofficina Lago Maggiore,75.120,da definire,no,,chiuso
+INT-STR-0044,EB-STR-004,09/04/2026,13/04/2026,4,ciclofficina,forcella&nbsp;piegata,Bike Service Lago,1428,346.00,no,NOL-STR-00276,chiuso ok
+INT-STR-0045,EB-STR-003,10/04/2026,12/04/2026,2,gomme,sostituzione pneumatico,Ciclofficina Stresa,3158,296.00,no,NOL-STR-00252,chiuso ok
+INT-STR-0046,STR-03,2026-04-10,2026-04-11,1,Pulizia Profonda,pulizia straordinaria,carrozzeria verbano,77632,23.00,SI,NOL-STR-00279,chiuso
+INT-STR-0073,STR-06,2026-05-21,2026-05-26,5,pneumatici,sostituzione pneumatico,Autofficina Lago Maggiore,51498,"€ 386,00",N,NOL-STR-00403,chiuso
+INT-STR-0048,STR-02,13/04/26,20/04/26,7,carrozzeria,danni da sinistro stradale,Carrozzeria Verbano,49265,6122,N,,CHIUSO
+INT-STR-0049,EB-STR-003,2026-04-17,2026-04-18,1,Tagliando,tagliando&nbsp;programmato,BIKE SERVICE LAGO,3260,92.00,NO,,chiuso
+INT-STR-0050,EB-STR-001,17/04/2026,18/04/2026,1,pulizia profonda,pulizia straordinaria,Ciclofficina Stresa,2596,"63,00 €",si,NOL-STR-00236,
+INT-STR-0051,STR03,17/04/2026,19/04/2026,1,cambio gomme estive,cambioo tagionale,Carrozzeria Verbano,78306,"65,00",N,,chiuso
+INT-STR-0052,STR-06,2026-04-18,2026-04-19,1,cambio gomme estive,cambio stagionale,Carrozzeria Verbano,48101,59,,,chiuso ok
+INT-STR-0053,EB-STR-004,18/04/2026,20/04/2026,1,tagliando,tagliaido programmato,Ciclofficina Stresa,1510,106.00,NO,,chiuso
+INT-STR-0054,STR-01,22/04/2026,24/04/2026,1,cambio gomme estive,CAMBIO STAGIONALE,Carrozzeria Verbano,65640,"€ 60,00",,,CHIUSO
+INT-STR-0055,EB-STR-002,2026-04-25,2026-04-26,1,Pulizia Profonda,pulizia straordinaria,Bike Service Lago,1979,"€ 30,00",SI,NOL-STR-00277,chiuso
+INT-STR-0056,eb-str-002,2026-04-25,2026-04-27,1,tagliando,tagliando programmato,Ciclofficina Stresa,1.979,"€ 77,00",NO,,
+INT-STR-0057,EB-STR-003,27/04/2026,29/04/2026,1,bici,leva piegata ma funzionante,Bike Service Lago,3382,89.00,no,NOL-STR-00270,chiuso
+INT-STR-0058,STR-21,28/04/2026,07/05/2026,9,carrozzeria,crepa estesa,Carrozzeria Verbano,65942,"€ 393,00",S,NOL-STR-00327,
+INT-STR-0059,STR-02,2026-04-29,2026-05-01,1,cambio gomme estive,cambio stagionale,Carrozzeria Verbano,50476,70.00,NO,,chiuso ok
+INT-STR-0060,STR-07,30/04/2026,01/05/2026,1,cambio gomme estive,cambio stagionale,Autofficina Lago Maggiore,128880,78.00,,,
+INT-STR-0061,STR-04,30/04/26,02/05/26,1,cambio gomme estive,cambio stagionale,Autofficina Lago Maggiore,41268,86,N,,
+INT-STR-0062,STR-05,01/05/2026,02/05/2026,1,cambio gomme,csmbo staagionale,Autofficina Lago Maggiore,77619,"€ 69,00",no,,chiuso
+INT-STR-0063,EB-STR-001,02/05/2026,03/05/2026,,tagliando,tagliando programmato,Ciclofficina Stresa,3114,"49,00",NO,,
+INT-STR-0064,EB-STR-002,06-05-2026,09-05-2026,3,CICLOFFICINA,forcella piegata,Bike Service Lago,2079,"151,00 €",S,NOL-STR-00353,chiuso ok
+INT-STR-0065,EB-STR-002,06/05/2026,08/05/2026,2,elettrico/batteria,guasto elettoico/batteria,Bike Service Lago,2079,"618,00",no,NOL-STR-00353,
+INT-STR-0066,STR-02,07/05/2026,10/05/2026,3,carrozzeria,crepa estesa,Carrozzeria,,637.00,SI,NOL-STR-00291,chiuso
+INT-STR-0067,STR-07,09/05/2026,12/05/2026,,manutenzione ordinaria,tagliando programmato,Autofficina Lago Maggiore,129396,"€ 344,00",,,chiuso ok
+INT-STR-0068,STR-01,11/05/2026,07/06/2026,27,carrozzeria,urto forte con piu' elementi coinvolti,Carrozzeria Verbano,66147,"1.633,00",S,NOL-STR-00358,CHIUSO
+INT-STR-0069,EB-STR-001,2026-05-12,2026-05-14,2,pneumatici,sostituzione pneumatico,Ciclofficina Stresa,3272,163.00,N,NOL-STR-00366,chiuso
+INT-STR-0070,EB-STR-003,15-05-2026,17-05-2026,3,TAGLIANDO,tagliando programmato,Ciclofficina Stresa,3 991,,NO,,CHIUSO
+INT-STR-0071,EB-STR-004,17/05/2026,19/05/2026,1,tagliando,tagliando programato,Ciclofficina Stresa,2076,,,,
+INT-STR-0072,STR-07,18/05/2026,30/05/2026,,batteria,guasto elettrico/batteria,Carrozzeria Verbano,130259,598.00,,NOL-STR-00298,chiuso
+INT-STR-0136,EB-STR-001,2026-09-27,2026-09-29,2,meccanica,guasto meccanico in noleggio,Ciclofficina Stresa,6036,100.00,NO,NOL-STR-00844,chiuso ok
+INT-STR-0074,EB-STR-004,26/05/2026,15/06/2026,20,bici,telaio incrinato,bike service lago,2207,"1073,00 €",S,NOL-STR-00410,CHIUSO
+INT-STR-0075,STR-06,27/05/2026,04/06/2026,8,CARROZZERIA,danno da urto 20-30 cm,Autofficina,51576,"964,00",no,NOL-STR-00432,chiuso
+INT-STR-0076,EB-STR-001,2026-05-28,2026-05-30,1,Tagliando,tagliando programmato,Ciclofficina Stresa,3750,103.00,N,,chiuso
+INT-STR-0077,eb-str-003,31/05/2026,02/06/2026,2,bici,CERCHIO STORTO,Bike Service Lago,4389,"244,00",si,,chiuso
+INT-STR-0078,EB-STR-002,04/06/2026,06/06/2026,2,bici,LEVA PIEGATA MA FUNZIONANTE,Ciclofficina Stresa,2517,51.00,si,NOL-STR-00467,chiuso ok
+INT-STR-0079,EB-STR-002,05/06/2026,06/06/2026,1,manutenzione ordinaria,tagliando programmato,Bike Service Lago,2517,97.00,,,chiuso ok
+INT-STR-0080,STR-07,10/06/26,11/06/26,1,pulizia profonda,pulizia straordinaria,Autofficina Lago Maggiore,131394,"55,00",si,NOL-STR-00364,chiuso
+INT-STR-0081,STR-03,10/06/2026,13/06/2026,3,tagliando,tagliando  proggrammato,Carrozzeria,82399,"341,00",NO,,chiuso
+INT-STR-0082,STR-01,12/06/2026,13/06/2026,1,pulizia profonda,pulizia straordinaria,Carrozzeria Verbano,66384,48,SI,NOL-STR-00485,chiuso
+INT-STR-0083,STR-02,16/06/2026,22/06/2026,6,soccorso,intervento dopo assistenza stradale,CARROZZERIA VERBANO,53909,"€ 133,00",N,NOL-STR-00476,chiuso
+INT-STR-0084,EB-STR-003,17/06/2026,18/06/2026,1,TAGLIANDO,tagliando programmato,Ciclofficina Stresa,4512,43.00,no,,chiuso
+INT-STR-0085,eb-str-002,2026-06-18,2026-06-19,1,meccanica,guasto meccanico in noleggio,bike service lago,2 723,614.00,,NOL-STR-00512,
+INT-STR-0086,EB-STR-001,2026-06-25,2026-06-27,1,TAGLIANDO,tagliando&nbsp;programmato,Ciclofficina Stresa,4376,"€ 100,00",no,,
+INT-STR-0087,STR-07,26/06/2026,27/06/2026,1,Pulizia Profonda,pulizia straordinaria,Carrozzeria Verbano,,38,S,NOL-STR-00530,CHIUSO
+INT-STR-0088,STR-1,28/06/2026,10/07/2026,12,carrozz.,danni da sinistro stradale,Carrozzeria Verbano,68555,4161.00,,NOL-STR-00499,chiuso ok
+INT-STR-0089,STR-03,01/07/2026,03/07/2026,2,carrozz.,leggera ammaccatura,Carrozzeria Verbano,,"192,00 €",no,NOL-STR-00427,chiuso ok
+INT-STR-0090,EB-STR-002,02/07/2026,04/07/2026,1,assistenza,intervento dopo assistenza stradale,Ciclofficina Stresa,3.036,602,,,chiuso
+INT-STR-0091,EB-STR-002,2026-07-03,2026-07-05,1,tagl.,tagliando programmato,Ciclofficina Stresa,3036,"€ 80,00",,,
+INT-STR-0092,EB-STR-001,03/07/2026,06/07/2026,2,ciclofficina,sraffi sul telaio,Ciclofficina Stresa,4.520,21.00,NO,,chiuso
+INT-STR-0093,EB-STR-004,05/07/2026,07/07/2026,1,tagl.,tagliando programmato,Bike Service Lago,2.582,65.00,NO,,chiuso
+INT-STR-0094,EB-STR-001,07/07/2026,12/07/2026,5,bici,cambio posteriore rotto,Ciclofficina Stresa,4.538,388.00,,NOL-STR-00578,chiuso ok
+INT-STR-0095,EB-STR-004,07/11/2026,07/16/2026,7,bici,display rotto,Ciclofficina Stresa,2687,"172,00",si,NOL-STR-00577,chiuso
+INT-STR-0096,EBSTR003,2026-07-14,2026-07-15,1,TAGLIANDO,tagliando programmato,,5055,"70,00",NO,,chiuso
+INT-STR-0097,EBSTR004,17/07/2026,23/07/2026,6,bici,cerchio&nbsp;storto,Bike Service Lago,2736,"188,00",si,NOL-STR-00582,chiuso
+INT-STR-0098,EB-STR-002,2026-07-17,2026-07-18,1,pulizia straordinaria,pulizia straordinaria,Ciclofficina Stresa,3172,27.00,SI,NOL-STR-00604,chiuso
+INT-STR-0099,STR-07,2026-07-20,2026-08-11,22,carrozzeria,deformazione importante,Autofficina Lago Maggiore,134824,3950.00,S,NOL-STR-00551,chiuso
+INT-STR-0100,EB-STR-002,21/07/2026,23/07/2026,2,ciclofficina,manubrio leggermnte fuori asse,Bike Service Lago,3191,"67,00",SI,NOL-STR-00617,chiuso ok
+INT-STR-0101,EB STR 002,24/07/2026,25/07/2026,1,assistenza,intervento dopo assistenza stradale,Ciclofficina Stresa,3218,452.00,N,NOL-STR-00487,chiuso ok
+INT-STR-0102,STR-04,2026-07-27,2026-08-04,8,vetri,graffio profondo fino alla lamiera,Carrozzeria Verbano,48816,445.00,SI,NOL-STR-00612,
+INT-STR-0103,EB-STR-002,27/07/2026,29/07/2026,1,CICLOFFICINA,,Ciclofficina Stresa,3247,"40,00",,NOL-STR-00630,CHIUSO
+INT-STR-0104,STR02,28/07/2026,29/07/2026,1,tagliando,tagoiando programmato,AUTOFFICINA LAGO MAGGIORE,58811,176.00,no,,chiuso
+INT-STR-0105,EBSTR001,30-07-2026,31-07-2026,1,Tagliando,tagliando programmato,bike service lago,4993,"64,00",no,,CHIUSO
+INT-STR-0106,STR-03,31 lug 2026,2 ago 2026,2,meccanico,guasto meccanico in noleggio,Carrozzeria Verbano,87569,"496,00",N,NOL-STR-00639,CHIUSO
+INT-STR-0107,STR-6,01/08/2026,02/08/2026,1,cerchi/gomme,piccola scheggiatura,Carrozzeria Verbano,57031,193.00,si,NOL-STR-00651,CHIUSO
+INT-STR-0108,STR-06,01/08/26,02/08/26,1,tagliando,tagliando programmato,autofficina lago maggiore,57031,"€ 374,00",,,CHIUSO
+INT-STR-0109,EB-STR-003,03-08-2026,08-08-2026,5,ciclofficina,cambio posteriore rotto,Bike Service Lago,5545,184.00,SI,NOL-STR-00647,
+INT-STR-0110,EB-STR-001,06/08/2026,12/08/2026,6,bici,display rotto,Bike Service Lago,5072,417.00,NO,,chiuso
+INT-STR-0111,EB-STR-001,06/08/2026,07/08/2026,1,MECC.,guasto mmeccanico n noleggio,Ciclofficina Stresa,5072,489.00,,NOL-STR-00648,chiuso
+INT-STR-0112,EB-STR-003,09/08/2026,10/08/2026,1,Tagliando,TAGLIANDO PROGRAMMATO,CICLOFFICINA STRESA,5558,"84,00 €",no,,
+INT-STR-0113,STR-06,11/08/26,16/08/26,5,soccorso,INTERVENTO DOPO ASSISTENZA STRADALE,Carrozzeria Verbano,57886,"433,00 €",,,chiuso
+INT-STR-0114,GS186DN,2026-08-12,2026-08-13,1,tagliando,tagliando programmato,Carrozzeria Verbano,49426,415.00,N,,chiuso ok
+INT-STR-0115,EB-STR-004,13/08/2026,14/08/2026,1,tagliando,tagliando programmato,Ciclofficina Stresa,3087,59.00,no,,CHIUSO
+INT-STR-0116,EB-STR-002,2026-08-16,2026-08-17,1,ciclofficina,,Ciclofficina Stresa,3569,32,si,NOL-STR-00705,chiuso
+INT-STR-0117,STR-03,2026-08-16,2026-08-18,1,pulizia straordinaria,pulizia straordinaria,Carrozzeria Verbano,,61.00,SI,NOL-STR-00519,chiuso
+INT-STR-0118,EB-STR-002,16/08/2026,17/08/2026,1,Tagliando,tagliando programmato,Ciclofficina Stresa,3569,43.00,,,chiuso
+INT-STR-0119,EB-STR-001,21/08/2026,23/08/2026,1,pulizia profonda,pulizia  straordinaria,ciclofficina stresa,5251,"€ 66,00",si,,CHIUSO
+INT-STR-0120,STR-01,23/08/2026,30/08/2026,5,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,73790,1124.00,no,,chiuso
+INT-STR-0121,STR-06,26/08/26,27/08/26,1,assistenza,intervento  dopo  assistenza stradale,Autofficina Lago Maggiore,58380,226.00,NO,NOL-STR-00740,
+INT-STR-0122,EB-STR-004,29/08/2026,01/09/2026,3,bici,forcella piegata,bike service lago,3526,249.00,N,NOL-STR-00744,chiuso
+INT-STR-0123,STR-07,31-08-2026,05-09-2026,5,vetri,ammaccatura con vernice saltata,Carrozzeria Verbano,136078,826.00,,NOL-STR-00750,
+INT-STR-0019,STR-02,01-01-2026,05-01-2026,3,carrozzeria,danno da urto 20-30 cm,Autofficina Lago Maggiore,40291,"498,00",SI,NOL-STR-00024,chiuso
+INT-STR-0125,str-05,01/09/2026,04/09/2026,3,manutenzione ordinaria,tagliando programmato,Carrozzeria Verbano,90769,,,,chiuso
+INT-STR-0126,EB-STR-002,02/09/2026,03/09/2026,-1,bici,graffi sul telaio,Bike Service Lago,3904,30.00,N,,CHIUSO
+INT-STR-0127,EB-STR-001,2026-09-05,2026-09-06,1,tagliando,,Bike,5522,"€ 44,00",,,
+INT-STR-0128,STR-04,08/09/2026,16/09/2026,8,meccanica,guasto meccanico in noleggio,AUTOFFICINA LAGO MAGGIORE,51761,da definire,,NOL-STR-00761,chiuso
+INT-STR-0129,STR05,09/09/26,10/09/26,1,gomme,sostituzione pneumatico,,90849,361.00,N,NOL-STR-00776,chiuso
+INT-STR-0130,EB STR 002,10-09-2026,12-09-2026,1,TAGLIANDO,tagliando programmato,Ciclofficina Stresa,4277,75,NO,,chiuso ok
+INT-STR-0131,EB-STR-003,12/09/26,13/09/26,1,Tagliando,tagliando programmato,Bike Service Lago,6101,96.00,,,chiuso
+INT-STR-0132,EB-STR-004,13-09-2026,14-09-2026,1,tagliando,tagliando programmato,ciclofficina stresa,3595,92.00,N,,chiuso
+INT-STR-0133,EB-STR-002,09/14/2026,09/15/2026,1,bici,manubrio leggermente fuori asse,Ciclofficina Stresa,4420,"65,00 €",no,,chiuso
+INT-STR-0134,EB-STR-004,15/09/2026,17/09/2026,1,Pulizia Profonda,tulizia straodinaria,Ciclofficina Stresa,3623,"25,00",SI,NOL-STR-00791,
+INT-STR-0135,str-07,21 set 2026,5 ott 2026,14,carrozzeria,danni da sinistro stradale,,137307,"7.384,00",,NOL-STR-00789,chiuso
+INT-STR-0047,eb-str-001,2026-04-10,2026-04-14,3,bici,forcella piegata,bike service lago,2.552,"100,00 €",SI,NOL-STR-00241,
+INT-STR-0137,STR-02,2026-09-28,2026-10-05,7,elettrico/batteria,,Carrozzeria Verbano,62946,100,NO,NOL-STR-00819,chiuso
+INT-STR-0138,EB-STR-001,2026-09-28,2026-09-30,1,tagliando,tagliando programmato,Bike Service Lago,6036,51.00,no,,
+INT-STR-0139,str-05,2026-09-29,2026-10-02,,Carrozzeria,striscio di vernicce,Carrozzeria Verbano,,"€ 250,00",NO,NOL-STR-00825,chiuso
+INT-STR-0140,EBSTR002,01/10/26,02/10/26,3,tagliando,tagliando  programmato [incomprensibile],Ciclofficina Stresa,4806,74.00,N,,chiuso
+INT-STR-0141,STR-05,03/10/2026,12/10/2026,9,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,,"373,00 €",S,NOL-STR-00850,chiuso ok
+INT-STR-0142,STR-01,03/10/2026,24/10/2026,21,CARROZZERIA,"elemento distrutto, da sostituire",Autofficina Lago Maggiore,77392,"1.536,00",no,NOL-STR-00822,chiuso
+INT-STR-0143,EB STR 003,03/10/26,05/10/26,1,ciclofficina,graffi sul telaio,BIKE SERVICE LAGO,6403,74.00,si,,chiuso ok
+INT-STR-0144,EB-STR-003,06-10-2026,07-10-2026,1,CICLOFFICINA,manubrio leggermente fuori asse,Ciclofficina Stresa,6439,"47,00 €",N,NOL-STR-00859,chiuso ok
+INT-STR-0145,EB-STR-003,15/10/2026,17/10/2026,2,bici,cerchio storto,Ciclofficina Stresa,6577,333.00,si,NOL-STR-00875,chiuso
+INT-STR-0146,EB-STR-003,23/10/2026,24/10/2026,1,tagliando,tagliando programmato,Ciclofficina Stresa,6623,41.00,N,,chiuso ok
+INT-STR-0147,EB-STR-017,23 ott 2026,24 ott 2026,1,tagliando,tagliando&nbsp;programmato,CICLOFFICINA STRESA,4119,41,NO,,chiuso
+INT-STR-0148,EB-STR-001,25/10/2026,26/10/2026,1,bici,manubrio  leggermente  fuori asse,CICLOFFICINA STRESA,6313,"88,00 €",NO,NOL-STR-00903,CHIUSO
+INT-STR-0149,EB-STR-001,27/10/2026,30/10/2026,3,meccanica,guasto meccanico in noleggio,Bike Service Lago,6354,129.00,N,NOL-STR-00902,CHIUSO
+INT-STR-0150,EB-STR-003,2026-10-29,2026-11-02,4,bici,display rotto,Bike Service Lago,6664,372.00,S,NOL-STR-00804,
+INT-STR-0151,STR-03,29/10/2026,01/11/2026,2,MECC.,guasto&nbsp;meccanico&nbsp;in&nbsp;noleggio,Autofficina Lago Maggiore,97232,,no,NOL-STR-00899,chiuso ok
+INT-STR-0152,STR-03,03/11/2026,,,vetri,calotta rotta,Autofficina Lago Maggiore,97438,"€ 1191,00",N,NOL-STR-00813,in corso
+INT-STR-0153,GP658HV,05/11/2026,09/11/2026,4,MECC.,guasto meccanico in noleggio,Carrozzeria Verbano,64169,"€ 680,00",N,NOL-STR-00882,chiuso
+INT-STR-0154,STR04,07/11/2026,,,carrozz.,,Autofficina Lago Maggiore,58649,"2.715,00",S,NOL-STR-00919,in corso
+INT-STR-0155,STR-01,10/11/2026,,,tagliando,tagliando programmato,Carrozzeria Verbano,80808,"€ 284,00",N,,in corso
+INT-STR-0156,EB-STR-001,2026-11-10,2026-11-12,1,meccanica,guasto meccanico in noleggio,Bike Service Lago,6482,251.00,N,NOL-STR-00921,chiuso ok
+INT-STR-0118,EB-STR-002,16/08/2026,17/08/2026,1,Tagliando,tagliando programmato,Ciclofficina Stresa,3569,43.00,,,chiuso
+INT-STR-0125,str-05,01/09/2026,04/09/2026,3,manutenzione ordinaria,tagliando programmato,Carrozzeria Verbano,90769,,,,chiuso
+INT-STR-0016,STR-03,7 dic 2025,9 dic 2025,2,tagliando,tagliando programmato,Autofficina Lago Maggiore,67134 km,"270,00",no,,
