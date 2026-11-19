@@ -34,7 +34,8 @@ propria sede e quelle ancora non smistate, può crearne e prenderle in carico;
 l'admin crea, assegna e vede tutto; il CEO consulta in sola lettura.
 
 La documentazione separata delle feature è disponibile in
-[`../docs/features/`](../docs/features/README.md).
+[`../docs/features/`](../docs/features/README.md). Le idee di chiunque lavori al
+progetto si annotano in [`../IDEE.md`](../IDEE.md).
 
 Per importare i CSV di esempio, eseguire nell'ordine:
 

@@ -80,6 +80,8 @@ buby-rent/db/        init del ruolo DB di sola lettura e configurazione pgAdmin
 
 `frontend/src/routeTree.gen.ts` è generato: non modificarlo a mano. Le rotte sono file-based in `src/routes/`; non introdurre convenzioni Next.js/Remix.
 
+`IDEE.md` nella root raccoglie le idee aperte di chiunque lavori al progetto: è un elenco leggero, non documentazione di dominio. Le priorità restano nel backlog (§ 9).
+
 ## 5. Regole non negoziabili
 
 1. **Dati personali cifrati a livello applicativo.** Usa `StringaCifrata` (`encrypted_types.py`). Se il campo va cercato o reso unico, aggiungi una colonna `*_idx` con `blind_index()` ricalcolata in un `@validates`, come in `Cliente` e `Utente`. Mai `==` o ricerche SQL su un campo cifrato.
