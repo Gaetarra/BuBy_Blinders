@@ -1,0 +1,6 @@
+id_sede,nome_sede,comune,provincia,cap,territorio,altitudine_slm_m,indirizzo,latitudine,longitudine
+TOR,Buby Rent Torino Lingotto,Torino,TO,10126,Pianura / urbano,239,Via Esempio 15 (fittizio),45.03,7.665
+ALB,Buby Rent Alba,Alba,CN,12051,Collina (Langhe),172,Corso Esempio 8 (fittizio),44.7008,8.0356
+BAR,Buby Rent Bardonecchia,Bardonecchia,TO,10052,Montagna (Alta Val di Susa),1312,Via Esempio 22 (fittizio),45.0786,6.7
+STR,Buby Rent Stresa,Stresa,VB,28838,Lago Maggiore,200,Lungolago Esempio 4 (fittizio),45.885,8.531
+CAS,Buby Rent Casale Monferrato,Casale Monferrato,AL,15033,Fiume (Po) / pianura,116,Via Esempio 31 (fittizio),45.133,8.452

@@ -1,0 +1,349 @@
+id_comunicazione,id_noleggio_corretto,categoria,componente,gravita,sentiment,richiede_fermo,giorni_fermo_stimati,lingua
+COM-CAS-00001,NOL-CAS-00007,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00002,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00003,NOL-CAS-00002,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00004,NOL-CAS-00025,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00005,NOL-CAS-00036,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00006,NOL-CAS-00023,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-CAS-00007,NOL-CAS-00008,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00008,NOL-CAS-00038,danno_carrozzeria,paraurti posteriore,media,neutro,si,6,it
+COM-CAS-00009,NOL-CAS-00016,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00010,NOL-CAS-00038,danno_carrozzeria,paraurti posteriore,media,neutro,si,6,it
+COM-CAS-00011,NOL-CAS-00042,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00012,NOL-CAS-00003,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00013,NOL-CAS-00021,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00014,NOL-CAS-00052,danno_carrozzeria,cofano,media,neutro,si,6,it
+COM-CAS-00015,NOL-CAS-00015,danno_carrozzeria,specchietto destro,bassa,neutro,no,0,it
+COM-CAS-00016,NOL-CAS-00013,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00017,NOL-CAS-00052,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00018,NOL-CAS-00043,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00019,NOL-CAS-00043,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00020,NOL-CAS-00056,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00021,NOL-CAS-00049,danno_carrozzeria,fianco destro,alta,neutro,si,34,it
+COM-CAS-00022,NOL-CAS-00048,guasto_meccanico,,bassa,neutro,si,3,it
+COM-CAS-00023,NOL-CAS-00001,guasto_meccanico,meccanica,bassa,neutro,si,1,it
+COM-CAS-00024,NOL-CAS-00059,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00025,NOL-CAS-00001,guasto_meccanico,,bassa,neutro,si,1,it
+COM-CAS-00026,NOL-CAS-00071,foratura,pneumatico,bassa,neutro,si,3,en
+COM-CAS-00027,NOL-CAS-00071,foratura,,bassa,neutro,si,3,it
+COM-CAS-00028,NOL-CAS-00004,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00029,NOL-CAS-00009,danno_carrozzeria,specchietto sinistro,bassa,neutro,no,0,it
+COM-CAS-00030,NOL-CAS-00077,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00031,NOL-CAS-00066,danno_carrozzeria,fianco destro,media,neutro,si,9,it
+COM-CAS-00032,NOL-CAS-00066,danno_carrozzeria,fianco destro,media,neutro,si,9,it
+COM-CAS-00033,NOL-CAS-00076,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-CAS-00034,NOL-CAS-00011,foratura,pneumatico,media,negativo,si,6,it
+COM-CAS-00035,NOL-CAS-00072,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00036,NOL-CAS-00047,danno_carrozzeria,specchietto sinistro,media,neutro,si,8,it
+COM-CAS-00037,NOL-CAS-00080,guasto_elettrico_batteria,batteria,bassa,negativo,si,1,it
+COM-CAS-00038,NOL-CAS-00080,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-CAS-00039,NOL-CAS-00111,danno_carrozzeria,cerchio posteriore destro,alta,neutro,si,21,it
+COM-CAS-00040,NOL-CAS-00074,danno_carrozzeria,display,bassa,neutro,no,0,it
+COM-CAS-00041,NOL-CAS-00111,danno_carrozzeria,cerchio posteriore destro,alta,neutro,si,21,it
+COM-CAS-00042,NOL-CAS-00074,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00043,NOL-CAS-00115,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00044,NOL-CAS-00045,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00045,NOL-CAS-00123,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00046,NOL-CAS-00115,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00047,NOL-CAS-00116,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00048,NOL-CAS-00123,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00049,NOL-CAS-00094,danno_carrozzeria,portiera lato guida,media,neutro,si,8,it
+COM-CAS-00050,NOL-CAS-00094,danno_carrozzeria,portiera lato guida,media,neutro,si,8,it
+COM-CAS-00051,NOL-CAS-00075,guasto_elettrico_batteria,impianto elettrico,alta,negativo,si,7,it
+COM-CAS-00052,NOL-CAS-00075,guasto_elettrico_batteria,,alta,neutro,si,7,it
+COM-CAS-00053,NOL-CAS-00137,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-CAS-00054,NOL-CAS-00137,guasto_meccanico,,bassa,neutro,si,3,it
+COM-CAS-00055,NOL-CAS-00151,assistenza_stradale,assistenza,bassa,negativo,si,3,it
+COM-CAS-00056,NOL-CAS-00157,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00057,NOL-CAS-00151,assistenza_stradale,,bassa,neutro,si,3,it
+COM-CAS-00058,NOL-CAS-00154,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00059,NOL-CAS-00119,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-CAS-00060,NOL-CAS-00138,danno_carrozzeria,fianco sinistro,bassa,neutro,si,2,it
+COM-CAS-00061,NOL-CAS-00159,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00062,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00063,NOL-CAS-00144,danno_carrozzeria,fianco destro,bassa,neutro,si,1,it
+COM-CAS-00064,NOL-CAS-00156,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00065,NOL-CAS-00154,assistenza_stradale,assistenza,bassa,negativo,si,5,it
+COM-CAS-00066,NOL-CAS-00138,danno_carrozzeria,fianco sinistro,bassa,neutro,si,2,it
+COM-CAS-00067,NOL-CAS-00146,danno_carrozzeria,porta scorrevole,bassa,neutro,si,1,it
+COM-CAS-00068,NOL-CAS-00146,danno_carrozzeria,porta scorrevole,bassa,neutro,si,1,it
+COM-CAS-00069,NOL-CAS-00144,danno_carrozzeria,fianco destro,bassa,neutro,si,1,it
+COM-CAS-00070,NOL-CAS-00155,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00071,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00072,NOL-CAS-00177,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00073,NOL-CAS-00103,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00074,NOL-CAS-00167,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00075,NOL-CAS-00162,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00076,NOL-CAS-00180,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-CAS-00077,NOL-CAS-00050,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00078,NOL-CAS-00182,danno_carrozzeria,lunotto,bassa,neutro,si,2,it
+COM-CAS-00079,NOL-CAS-00182,danno_carrozzeria,lunotto,bassa,neutro,si,2,it
+COM-CAS-00080,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00081,NOL-CAS-00173,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00082,NOL-CAS-00198,guasto_meccanico,meccanica,bassa,neutro,si,1,it
+COM-CAS-00083,NOL-CAS-00198,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00084,NOL-CAS-00198,guasto_meccanico,,bassa,neutro,si,1,it
+COM-CAS-00085,NOL-CAS-00207,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00086,NOL-CAS-00161,danno_carrozzeria,paraurti posteriore,media,neutro,si,4,it
+COM-CAS-00087,NOL-CAS-00190,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00088,NOL-CAS-00191,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00089,NOL-CAS-00177,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00090,NOL-CAS-00212,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-CAS-00091,NOL-CAS-00212,danno_carrozzeria,paraurti anteriore,alta,neutro,si,14,it
+COM-CAS-00092,NOL-CAS-00124,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00093,NOL-CAS-00194,danno_carrozzeria,specchietto destro,media,neutro,si,3,it
+COM-CAS-00094,NOL-CAS-00184,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00095,NOL-CAS-00232,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00096,NOL-CAS-00224,danno_carrozzeria,portiera lato passeggero,media,neutro,si,9,it
+COM-CAS-00097,NOL-CAS-00229,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00098,NOL-CAS-00244,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00099,NOL-CAS-00150,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00100,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00101,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00102,NOL-CAS-00222,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00103,NOL-CAS-00239,danno_carrozzeria,cambio posteriore,media,neutro,si,3,it
+COM-CAS-00104,NOL-CAS-00239,danno_carrozzeria,cambio posteriore,media,neutro,si,3,it
+COM-CAS-00105,NOL-CAS-00243,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-CAS-00106,NOL-CAS-00243,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-CAS-00107,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00108,NOL-CAS-00211,assistenza_stradale,assistenza,bassa,neutro,si,5,it
+COM-CAS-00109,NOL-CAS-00255,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00110,NOL-CAS-00216,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-CAS-00111,NOL-CAS-00249,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00112,NOL-CAS-00265,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00113,NOL-CAS-00211,assistenza_stradale,,bassa,neutro,si,5,it
+COM-CAS-00114,NOL-CAS-00256,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-CAS-00115,NOL-CAS-00183,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00116,NOL-CAS-00247,danno_carrozzeria,parabrezza,media,neutro,si,8,it
+COM-CAS-00117,NOL-CAS-00272,guasto_meccanico,meccanica,bassa,neutro,si,4,it
+COM-CAS-00118,NOL-CAS-00171,danno_carrozzeria,portellone,bassa,neutro,si,1,en
+COM-CAS-00119,NOL-CAS-00271,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-CAS-00120,NOL-CAS-00171,danno_carrozzeria,portellone,bassa,neutro,si,1,it
+COM-CAS-00121,NOL-CAS-00267,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00122,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00123,NOL-CAS-00171,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00124,NOL-CAS-00289,assistenza_stradale,assistenza,media,neutro,si,8,it
+COM-CAS-00125,NOL-CAS-00317,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00126,NOL-CAS-00130,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00127,NOL-CAS-00289,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00128,NOL-CAS-00298,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00129,NOL-CAS-00308,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00130,NOL-CAS-00294,danno_carrozzeria,paraurti anteriore,bassa,neutro,si,1,it
+COM-CAS-00131,NOL-CAS-00320,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00132,NOL-CAS-00320,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00133,NOL-CAS-00209,guasto_meccanico,meccanica,media,negativo,si,6,it
+COM-CAS-00134,NOL-CAS-00310,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00135,NOL-CAS-00307,danno_carrozzeria,passaruota anteriore,media,neutro,si,4,it
+COM-CAS-00136,NOL-CAS-00209,guasto_meccanico,,media,neutro,si,6,it
+COM-CAS-00137,NOL-CAS-00295,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00138,NOL-CAS-00251,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00139,NOL-CAS-00290,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00140,,richiesta_info,,bassa,neutro,no,,en
+COM-CAS-00141,NOL-CAS-00323,danno_carrozzeria,specchietto sinistro,media,neutro,si,8,it
+COM-CAS-00142,NOL-CAS-00214,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00143,NOL-CAS-00328,danno_carrozzeria,sella,media,neutro,si,6,it
+COM-CAS-00144,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00145,NOL-CAS-00296,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00146,NOL-CAS-00328,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00147,NOL-CAS-00231,incidente_sinistro,,alta,negativo,si,21,it
+COM-CAS-00148,NOL-CAS-00309,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00149,NOL-CAS-00231,incidente_sinistro,paraurti anteriore,alta,neutro,si,21,it
+COM-CAS-00150,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00151,NOL-CAS-00316,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-CAS-00152,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00153,NOL-CAS-00341,foratura,pneumatico,media,neutro,si,7,en
+COM-CAS-00154,NOL-CAS-00341,foratura,,media,neutro,si,7,it
+COM-CAS-00155,NOL-CAS-00348,danno_carrozzeria,specchietto destro,media,neutro,si,9,it
+COM-CAS-00156,NOL-CAS-00353,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00157,NOL-CAS-00363,danno_carrozzeria,cerchio anteriore,bassa,neutro,si,2,it
+COM-CAS-00158,NOL-CAS-00364,danno_carrozzeria,cambio posteriore,bassa,neutro,no,0,it
+COM-CAS-00159,NOL-CAS-00345,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00160,NOL-CAS-00207,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00161,NOL-CAS-00334,guasto_meccanico,meccanica,bassa,neutro,si,3,it
+COM-CAS-00162,NOL-CAS-00334,guasto_meccanico,,bassa,neutro,si,3,it
+COM-CAS-00163,NOL-CAS-00374,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00164,NOL-CAS-00375,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-CAS-00165,NOL-CAS-00377,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00166,NOL-CAS-00359,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00167,NOL-CAS-00385,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00168,NOL-CAS-00270,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00169,NOL-CAS-00392,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00170,NOL-CAS-00397,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00171,NOL-CAS-00343,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00172,NOL-CAS-00396,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00173,NOL-CAS-00393,danno_carrozzeria,porta scorrevole,alta,neutro,si,31,it
+COM-CAS-00174,NOL-CAS-00393,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00175,NOL-CAS-00380,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-CAS-00176,NOL-CAS-00373,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-CAS-00177,NOL-CAS-00302,danno_carrozzeria,cerchio posteriore,bassa,neutro,no,0,it
+COM-CAS-00178,NOL-CAS-00416,danno_carrozzeria,cavalletto,bassa,neutro,no,0,it
+COM-CAS-00179,NOL-CAS-00302,danno_carrozzeria,cerchio posteriore,bassa,neutro,no,0,it
+COM-CAS-00180,NOL-CAS-00432,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00181,NOL-CAS-00422,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00182,NOL-CAS-00403,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00183,NOL-CAS-00399,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00184,NOL-CAS-00433,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00185,NOL-CAS-00439,foratura,pneumatico,bassa,neutro,si,1,it
+COM-CAS-00186,NOL-CAS-00304,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00187,NOL-CAS-00448,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00188,NOL-CAS-00439,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00189,NOL-CAS-00338,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00190,NOL-CAS-00439,foratura,,bassa,neutro,si,1,it
+COM-CAS-00191,NOL-CAS-00457,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00192,NOL-CAS-00437,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00193,NOL-CAS-00427,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00194,NOL-CAS-00469,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00195,NOL-CAS-00440,assistenza_stradale,assistenza,media,negativo,si,8,it
+COM-CAS-00196,NOL-CAS-00465,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-CAS-00197,NOL-CAS-00440,assistenza_stradale,,media,neutro,si,8,it
+COM-CAS-00198,NOL-CAS-00452,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00199,NOL-CAS-00473,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00200,NOL-CAS-00408,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00201,NOL-CAS-00436,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00202,NOL-CAS-00419,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00203,NOL-CAS-00453,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-CAS-00204,NOL-CAS-00483,danno_carrozzeria,cerchio anteriore sinistro,alta,neutro,si,18,it
+COM-CAS-00205,NOL-CAS-00508,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00206,NOL-CAS-00496,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00207,NOL-CAS-00464,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00208,NOL-CAS-00510,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00209,NOL-CAS-00510,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00210,NOL-CAS-00512,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00211,NOL-CAS-00497,danno_carrozzeria,cavalletto,bassa,neutro,no,0,it
+COM-CAS-00212,NOL-CAS-00464,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00213,NOL-CAS-00517,danno_carrozzeria,cofano,media,neutro,si,6,it
+COM-CAS-00214,NOL-CAS-00476,guasto_elettrico_batteria,batteria,bassa,neutro,si,2,it
+COM-CAS-00215,NOL-CAS-00476,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-CAS-00216,NOL-CAS-00521,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00217,NOL-CAS-00500,incidente_sinistro,,media,negativo,si,23,it
+COM-CAS-00218,NOL-CAS-00536,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00219,NOL-CAS-00500,incidente_sinistro,portellone posteriore,media,neutro,si,23,it
+COM-CAS-00220,NOL-CAS-00484,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00221,NOL-CAS-00533,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00222,NOL-CAS-00533,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-CAS-00223,NOL-CAS-00533,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00224,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00225,NOL-CAS-00533,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00226,NOL-CAS-00551,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00227,NOL-CAS-00554,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00228,NOL-CAS-00554,danno_carrozzeria,cavalletto,media,neutro,si,5,it
+COM-CAS-00229,NOL-CAS-00554,danno_carrozzeria,cavalletto,media,neutro,si,5,it
+COM-CAS-00230,NOL-CAS-00553,danno_carrozzeria,parabrezza,bassa,neutro,no,0,it
+COM-CAS-00231,NOL-CAS-00553,danno_carrozzeria,parabrezza,bassa,neutro,no,0,it
+COM-CAS-00232,NOL-CAS-00557,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00233,NOL-CAS-00540,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00234,NOL-CAS-00557,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00235,NOL-CAS-00550,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00236,NOL-CAS-00498,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00237,NOL-CAS-00358,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00238,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00239,NOL-CAS-00556,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00240,NOL-CAS-00528,danno_carrozzeria,specchietto sinistro,media,neutro,si,7,it
+COM-CAS-00241,NOL-CAS-00528,danno_carrozzeria,specchietto sinistro,media,neutro,si,7,it
+COM-CAS-00242,NOL-CAS-00502,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00243,NOL-CAS-00545,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00244,NOL-CAS-00571,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-CAS-00245,NOL-CAS-00509,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00246,NOL-CAS-00582,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,2,it
+COM-CAS-00247,NOL-CAS-00582,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00248,NOL-CAS-00493,incidente_sinistro,,alta,negativo,si,12,it
+COM-CAS-00249,NOL-CAS-00493,incidente_sinistro,paraurti anteriore,alta,neutro,si,12,it
+COM-CAS-00250,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00251,NOL-CAS-00593,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00252,NOL-CAS-00592,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00253,,richiesta_info,,bassa,neutro,no,,en
+COM-CAS-00254,NOL-CAS-00582,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-CAS-00255,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00256,NOL-CAS-00582,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-CAS-00257,NOL-CAS-00598,danno_carrozzeria,cerchio anteriore,bassa,neutro,si,1,it
+COM-CAS-00258,NOL-CAS-00598,danno_carrozzeria,cerchio anteriore,bassa,neutro,si,1,it
+COM-CAS-00259,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00260,NOL-CAS-00584,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00261,NOL-CAS-00581,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-CAS-00262,NOL-CAS-00572,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00263,NOL-CAS-00519,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00264,NOL-CAS-00605,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00265,NOL-CAS-00630,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00266,NOL-CAS-00628,danno_carrozzeria,fianco destro,bassa,neutro,si,1,it
+COM-CAS-00267,NOL-CAS-00628,danno_carrozzeria,fianco destro,bassa,neutro,si,1,it
+COM-CAS-00268,NOL-CAS-00600,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00269,NOL-CAS-00530,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-CAS-00270,NOL-CAS-00631,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00271,NOL-CAS-00612,danno_carrozzeria,cofano,media,neutro,si,5,it
+COM-CAS-00272,NOL-CAS-00636,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,1,it
+COM-CAS-00273,NOL-CAS-00617,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00274,NOL-CAS-00636,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,1,it
+COM-CAS-00275,NOL-CAS-00623,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00276,NOL-CAS-00625,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00277,NOL-CAS-00462,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00278,NOL-CAS-00609,danno_carrozzeria,paraurti anteriore,bassa,neutro,si,2,it
+COM-CAS-00279,NOL-CAS-00630,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00280,NOL-CAS-00599,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00281,NOL-CAS-00570,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-CAS-00282,NOL-CAS-00645,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-CAS-00283,NOL-CAS-00627,danno_carrozzeria,specchietto destro,media,neutro,si,9,it
+COM-CAS-00284,NOL-CAS-00661,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00285,NOL-CAS-00600,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00286,NOL-CAS-00618,feedback_positivo,,bassa,positivo,no,,en
+COM-CAS-00287,NOL-CAS-00657,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00288,NOL-CAS-00426,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00289,NOL-CAS-00603,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-CAS-00290,NOL-CAS-00590,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00291,NOL-CAS-00621,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00292,NOL-CAS-00660,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00293,NOL-CAS-00653,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00294,NOL-CAS-00670,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00295,NOL-CAS-00660,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-CAS-00296,NOL-CAS-00629,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,1,it
+COM-CAS-00297,NOL-CAS-00629,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,1,it
+COM-CAS-00298,NOL-CAS-00690,danno_carrozzeria,cerchio anteriore,bassa,neutro,si,1,it
+COM-CAS-00299,NOL-CAS-00667,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00300,NOL-CAS-00690,danno_carrozzeria,cerchio anteriore,bassa,neutro,si,1,it
+COM-CAS-00301,NOL-CAS-00664,danno_carrozzeria,catena,alta,neutro,si,15,it
+COM-CAS-00302,NOL-CAS-00526,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00303,NOL-CAS-00684,danno_carrozzeria,specchietto sinistro,media,neutro,si,6,it
+COM-CAS-00304,NOL-CAS-00548,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00305,NOL-CAS-00688,danno_carrozzeria,leva del freno,bassa,neutro,si,1,it
+COM-CAS-00306,,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00307,NOL-CAS-00703,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-CAS-00308,NOL-CAS-00713,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00309,NOL-CAS-00644,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00310,NOL-CAS-00637,danno_carrozzeria,specchietto sinistro,media,neutro,si,7,it
+COM-CAS-00311,NOL-CAS-00717,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00312,NOL-CAS-00637,danno_carrozzeria,specchietto sinistro,media,neutro,si,7,it
+COM-CAS-00313,NOL-CAS-00736,modifica_prenotazione,,bassa,neutro,no,,it
+COM-CAS-00314,NOL-CAS-00727,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00315,NOL-CAS-00753,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00316,NOL-CAS-00723,incidente_sinistro,,alta,negativo,si,17,it
+COM-CAS-00317,NOL-CAS-00750,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,1,it
+COM-CAS-00318,NOL-CAS-00750,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,1,it
+COM-CAS-00319,NOL-CAS-00763,richiesta_info,,bassa,neutro,no,,it
+COM-CAS-00320,NOL-CAS-00760,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00321,NOL-CAS-00738,danno_carrozzeria,cofano,bassa,neutro,si,2,it
+COM-CAS-00322,,richiesta_info,,bassa,neutro,no,,en
+COM-CAS-00323,NOL-CAS-00770,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,3,it
+COM-CAS-00324,NOL-CAS-00707,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00325,NOL-CAS-00613,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00326,NOL-CAS-00770,guasto_elettrico_batteria,,bassa,neutro,si,3,it
+COM-CAS-00327,NOL-CAS-00723,incidente_sinistro,specchietto destro,alta,neutro,si,17,it
+COM-CAS-00328,NOL-CAS-00777,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00329,NOL-CAS-00769,guasto_meccanico,meccanica,bassa,neutro,si,1,it
+COM-CAS-00330,NOL-CAS-00779,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-CAS-00331,NOL-CAS-00743,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00332,NOL-CAS-00789,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00333,NOL-CAS-00771,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00334,NOL-CAS-00665,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00335,NOL-CAS-00757,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-CAS-00336,NOL-CAS-00696,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-CAS-00337,NOL-CAS-00652,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-CAS-00338,NOL-CAS-00802,cancellazione,,bassa,neutro,no,,it
+COM-CAS-00339,NOL-CAS-00701,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-CAS-00340,NOL-CAS-00797,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-CAS-00341,NOL-CAS-00803,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-CAS-00342,NOL-CAS-00803,guasto_meccanico,,bassa,neutro,si,2,it
+COM-CAS-00343,NOL-CAS-00800,danno_carrozzeria,portellone posteriore,alta,neutro,si,26,it
+COM-CAS-00344,NOL-CAS-00800,danno_carrozzeria,portellone posteriore,alta,neutro,si,26,it
+COM-CAS-00345,NOL-CAS-00792,feedback_positivo,,bassa,positivo,no,,it
+COM-CAS-00346,NOL-CAS-00797,reclamo_addebito,,media,negativo,no,,it
+COM-CAS-00347,NOL-CAS-00805,danno_carrozzeria,passaruota anteriore,alta,neutro,si,13,it
+COM-CAS-00348,NOL-CAS-00805,reclamo_addebito,,media,negativo,no,,it

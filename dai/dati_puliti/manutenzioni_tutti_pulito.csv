@@ -1,0 +1,862 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-ALB-0001,ALB-05,2025-11-03,2025-12-07,34.0,carrozzeria,deformazione importante,Carrozzeria Gallo,32370,661.5,si,NOL-ALB-00001,chiuso
+INT-ALB-0002,ALB-07,2025-11-06,2025-11-07,1.0,cambio gomme invernali,cambio stagionale,Autofficina Langhe,33461,78.0,no,,chiuso
+INT-ALB-0003,ALB-04,2025-11-07,2025-11-13,6.0,gomme,sostituzione pneumatico,Carrozzeria Gallo,110281,146.0,,NOL-ALB-00007,chiuso
+INT-ALB-0004,EB-ALB-003,2025-11-08,2025-11-15,7.0,bici,cambio posteriore rotto,,787,200.0,si,NOL-ALB-00039,chiuso
+INT-ALB-0005,ALB-08,2025-11-09,2025-11-10,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,51628,81.0,no,,chiuso
+INT-ALB-0006,ALB-07,2025-11-10,2025-11-13,3.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,33718,611.0,,NOL-ALB-00004,chiuso
+INT-ALB-0007,ALB-02,2025-11-10,2025-11-11,1.0,gomme,,Carrozzeria Gallo,85389,69.0,no,,chiuso
+INT-ALB-0008,ALB-06,2025-11-10,2025-11-16,6.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Gallo,44782,606.0,no,NOL-ALB-00045,chiuso
+INT-ALB-0009,ALB-01,2025-11-11,2025-11-13,2.0,cambio gomme invernali,cambio stagionale,Autofficina Langhe,,83.0,no,,chiuso
+INT-ALB-0010,EB-ALB-001,2025-11-12,2025-11-13,1.0,assistenza,intervento dopo assistenza stradale,Bici Service Langhe,1900,291.0,,NOL-ALB-00049,chiuso
+INT-ALB-0011,ALB-04,2025-11-12,2025-11-13,1.0,cambio gomme invernali,cambio stagioale,Carrozzeria Gallo,110281,95.0,,,chiuso
+INT-ALB-0012,ALB-03,2025-11-15,2025-11-16,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,34293,60.0,no,,chiuso
+INT-ALB-0013,ALB-06,2025-11-16,2025-11-17,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,44782,95.0,no,,chiuso
+INT-ALB-0014,ALB-03,2025-11-19,2025-11-23,4.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Gallo,34536,643.0,no,NOL-ALB-00023,chiuso
+INT-ALB-0015,EB-ALB-003,2025-11-20,2025-11-22,2.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Alba,804,384.0,no,NOL-ALB-00041,chiuso
+INT-ALB-0016,ALB-05,2025-12-07,2025-12-08,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Gallo,32370,75.0,no,,chiuso
+INT-ALB-0017,ALB-07,2025-12-07,2025-12-09,2.0,carrozzeria,graffio superficiale,Carrozzeria Gallo,36502,,si,NOL-ALB-00073,chiuso
+INT-ALB-0018,ALB-04,2025-12-15,2025-12-17,2.0,tagliando,tagliando programmato,Autofficina Langhe,114515,268.0,no,,chiuso
+INT-ALB-0019,EB-ALB-002,2025-12-26,2025-12-27,1.0,tagliando,tagliando programmato,Ciclofficina Alba,2005,41.0,no,,chiuso
+INT-ALB-0020,ALB-06,2025-12-26,2025-12-30,4.0,vetri,crepa estesa,Carrozzeria Gallo,47710,,no,NOL-ALB-00116,chiuso
+INT-ALB-0021,ALB-04,2025-12-27,2026-01-01,5.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,114857,91.0,no,NOL-ALB-00109,chiuso
+INT-ALB-0022,ALB-02,2025-12-29,2026-01-01,3.0,tagliando,tagliando programmato,Carrozzeria Gallo,90574,233.0,no,,chiuso
+INT-ALB-0023,ALB-05,2025-12-30,2026-01-01,2.0,carrozzeria,leggera ammaccatura,Autofficina Langhe,33779,147.0,,NOL-ALB-00128,chiuso
+INT-ALB-0024,ALB-03,2026-01-01,2026-01-04,3.0,tagliando,tagliando programato,Carrozzeria Gallo,40474,251.0,no,,chiuso
+INT-ALB-0025,ALB-07,2026-01-09,2026-01-11,2.0,tagliando,tagliando programmato,Autofficina Langhe,39326,407.0,no,,chiuso
+INT-ALB-0026,ALB-01,2026-01-12,2026-01-13,1.0,tagliando,tagliando programmato,Autofficina Langhe,82450,192.0,no,,chiuso
+INT-ALB-0027,ALB-06,2026-01-15,2026-01-16,1.0,assistenza,,Carrozzeria Gallo,48759,596.0,no,,chiuso
+INT-ALB-0028,ALB-01,2026-01-19,2026-01-20,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Gallo,82719,48.0,si,NOL-ALB-00165,chiuso
+INT-ALB-0029,ALB-01,2026-01-19,2026-01-27,8.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,82719,490.3,no,NOL-ALB-00165,chiuso
+INT-ALB-0030,ALB-04,2026-01-21,2026-02-01,11.0,carrozzeria,danni da sinistro stratale,Carrozzeria Gallo,115832,617.9,no,NOL-ALB-00169,chiuso
+INT-ALB-0031,ALB-05,2026-01-27,2026-02-03,7.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Langhe,35945,421.0,no,NOL-ALB-00154,chiuso
+INT-ALB-0032,ALB-02,2026-02-06,2026-02-09,3.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,93359,467.0,no,NOL-ALB-00147,chiuso
+INT-ALB-0033,ALB-05,2026-02-08,2026-02-09,1.0,tagliando,tagliando programmato,Carrozzeria Gallo,36287,159.0,no,,chiuso
+INT-ALB-0034,ALB-02,2026-02-12,2026-02-18,6.0,elettrico/batteria,guasto elettrico/batteria,,93510,307.0,no,NOL-ALB-00156,chiuso
+INT-ALB-0035,ALB-04,2026-02-15,2026-02-18,3.0,meccanica,,Carrozzeria Gallo,116728,548.0,no,NOL-ALB-00177,chiuso
+INT-ALB-0036,ALB-03,2026-02-16,2026-02-17,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,44051,30.0,si,NOL-ALB-00210,chiuso
+INT-ALB-0037,ALB-01,2026-02-23,2026-02-24,1.0,vetri,striscio di ernice,Autofficina Langhe,86631,166.0,si,NOL-ALB-00219,chiuso
+INT-ALB-0038,EB-ALB-003,2026-02-23,2026-03-12,17.0,bici,,Ciclofficina Alba,895,109.4,no,NOL-ALB-00151,chiuso
+INT-ALB-0039,ALB-08,2026-02-27,2026-03-01,2.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,63735,462.0,,NOL-ALB-00228,chiuso
+INT-ALB-0040,EB-ALB-001,2026-03-06,2026-03-07,1.0,tagliando,tagliando programmato,Bici Service Langhe,2310,98.0,no,,chiuso
+INT-ALB-0041,ALB-06,2026-03-10,2026-03-12,2.0,tagliando,tagliando programmato,Carrozzeria Gallo,52469,305.0,no,,chiuso
+INT-ALB-0042,EB-ALB-003,2026-03-14,2026-03-15,1.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,921,233.0,no,NOL-ALB-00254,chiuso
+INT-ALB-0043,ALB-03,2026-03-27,2026-03-29,2.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Gallo,48266,202.0,no,NOL-ALB-00261,chiuso
+INT-ALB-0044,ALB-03,2026-03-27,2026-03-28,1.0,pulizia profonda,pulizia staordinaria,Carrozzeria Gallo,48266,58.0,si,NOL-ALB-00261,chiuso
+INT-ALB-0045,ALB-06,2026-03-31,2026-04-08,8.0,elettrico/batteria,guasto elettrico/batteria,Autofficina,53540,616.0,,NOL-ALB-00250,chiuso
+INT-ALB-0046,EB-ALB-003,2026-04-01,2026-04-03,2.0,bici,leva piegata ma funzionante,Bici Service Langhe,1032,54.0,si,NOL-ALB-00295,chiuso
+INT-ALB-0047,ALB-04,2026-04-05,2026-04-14,9.0,carrozzeria,crepa estesa,Carrozzeria Gallo,122087,977.0,no,NOL-ALB-00293,chiuso
+INT-ALB-0048,ALB-04,2026-04-05,2026-04-14,9.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,,1289.0,no,NOL-ALB-00293,chiuso
+INT-ALB-0049,ALB-01,2026-04-05,2026-04-07,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,91586,126.0,,,chiuso
+INT-ALB-0050,EB-ALB-002,2026-04-07,2026-04-09,2.0,bici,cerchio storto,Ciclofficina Alba,2354,226.0,si,NOL-ALB-00323,chiuso
+INT-ALB-0051,EB-ALB-003,2026-04-07,2026-04-09,2.0,bici,manubrio leggermente fuori asse,Ciclofficina Alba,1090,47.0,,,chiuso
+INT-ALB-0052,ALB-08,2026-04-11,2026-04-20,9.0,carrozzeria,danno da urto 20-30 cm,Autofficina Langhe,68377,833.0,si,NOL-ALB-00325,chiuso
+INT-ALB-0053,ALB-05,2026-04-13,2026-04-14,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,42533,48.0,si,NOL-ALB-00233,chiuso
+INT-ALB-0054,EB-ALB-001,2026-04-15,2026-04-18,3.0,meccanica,guasto meccanico in noleggio,Bici Service Langhe,2628,479.0,,NOL-ALB-00274,chiuso
+INT-ALB-0055,EB-ALB-003,2026-04-16,2026-04-18,2.0,tagliando,tagliando programmato,Bici Service Langhe,,88.0,no,,chiuso
+INT-ALB-0056,ALB-07,2026-04-17,2026-04-24,7.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,46610,358.0,no,NOL-ALB-00320,chiuso
+INT-ALB-0057,EB-ALB-003,2026-04-19,2026-04-20,1.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Langhe,1244,437.0,no,NOL-ALB-00349,chiuso
+INT-ALB-0058,ALB-08,2026-04-19,2026-04-20,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Gallo,,60.0,no,,chiuso
+INT-ALB-0059,ALB-03,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Gallo,50773,55.0,no,,chiuso
+INT-ALB-0060,ALB-08,2026-04-20,2026-04-22,2.0,tagliando,,,68377,232.0,no,,chiuso
+INT-ALB-0061,ALB-01,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Autofficina,92860,94.0,,,chiuso
+INT-ALB-0062,ALB-05,2026-04-22,2026-04-23,1.0,gomme,,Carrozzeria Gallo,43364,63.0,,,chiuso
+INT-ALB-0063,EB-ALB-002,2026-04-22,2026-04-23,1.0,tagliando,tagliando programmato,Bici Service Langhe,2879,94.0,no,,chiuso
+INT-ALB-0064,ALB-07,2026-04-23,2026-04-24,1.0,cambio gomme estive,cambio stagionale,Autofficina Langhe,46610,93.0,no,,chiuso
+INT-ALB-0065,ALB-08,2026-04-24,2026-04-25,1.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Gallo,68674,608.0,no,NOL-ALB-00352,chiuso
+INT-ALB-0066,EB-ALB-003,2026-04-24,2026-04-25,1.0,bici,,Bici Service Langhe,1318,47.0,no,NOL-ALB-00337,chiuso
+INT-ALB-0067,ALB-06,2026-04-25,2026-04-26,1.0,cambio gomme estive,,Autofficina Langhe,57062,80.0,,,chiuso
+INT-ALB-0068,ALB-02,2026-04-25,2026-04-27,2.0,gomme,cambio stagionale,Autofficina Langhe,98450,59.0,no,,chiuso
+INT-ALB-0069,EB-ALB-002,2026-04-27,2026-04-28,1.0,bici,graffi sul telaio,Bici Service Langhe,2943,85.0,si,,chiuso
+INT-ALB-0070,ALB-07,2026-04-30,2026-05-01,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,47310,52.0,si,NOL-ALB-00365,chiuso
+INT-ALB-0071,ALB-02,2026-05-02,2026-05-10,8.0,carrozzeria,crepa estesa,,98767,1194.0,no,NOL-ALB-00376,chiuso
+INT-ALB-0072,EB-ALB-001,2026-05-04,2026-05-05,1.0,tagliando,tagliando programmato,Ciclofficina Alba,,58.0,no,,chiuso
+INT-ALB-0073,ALB-04,2026-05-06,2026-05-07,1.0,cambio gomme estive,cambio stagionale,Autofficina Langhe,124476,61.0,no,,chiuso
+INT-ALB-0074,EB-ALB-002,2026-05-09,2026-05-11,2.0,bici,graffi sul telaio,Bici Service Langhe,3215,58.0,si,NOL-ALB-00386,chiuso
+INT-ALB-0075,EB-ALB-003,2026-05-09,2026-05-10,1.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Alba,1561,162.0,no,NOL-ALB-00392,chiuso
+INT-ALB-0076,EB-ALB-003,2026-05-12,2026-05-15,3.0,bici,display rotio,Bici Service Langhe,1584,157.0,no,NOL-ALB-00335,chiuso
+INT-ALB-0077,ALB-07,2026-05-16,2026-06-23,38.0,carrozzeria,deformazione importante,Carrozzeria Gallo,49138,3530.0,si,NOL-ALB-00351,chiuso
+INT-ALB-0078,ALB-08,2026-05-16,2026-05-19,3.0,carrozzeria,,Autofficina Langhe,71171,167.0,si,NOL-ALB-00425,chiuso
+INT-ALB-0079,ALB-05,2026-05-17,2026-05-25,8.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,45573,255.0,no,NOL-ALB-00426,chiuso
+INT-ALB-0080,ALB-01,2026-05-19,2026-05-28,9.0,meccanica,guasto meccanico in noleggio,Carrozzeria Gallo,96200,75.0,no,,chiuso
+INT-ALB-0081,ALB-03,2026-05-21,2026-05-22,1.0,tagliando,tagliando programmato,Autofficina Langhe,55516,328.0,no,,chiuso
+INT-ALB-0082,ALB-02,2026-05-21,2026-05-23,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Gallo,99404,20.0,si,NOL-ALB-00436,chiuso
+INT-ALB-0083,EB-ALB-003,2026-05-22,2026-06-01,10.0,bici,forcella e ruoti da sostituire,Bici Service Langhe,1754,111.9,si,NOL-ALB-00454,chiuso
+INT-ALB-0084,EB-ALB-002,2026-05-23,2026-05-24,1.0,tagliando,tagliando programmato,Ciclofficina Alba,3394,44.0,no,,chiuso
+INT-ALB-0085,ALB-02,2026-05-23,2026-05-29,6.0,elettrico/batteria,suasto elettrico/batteri,Autofficina Langhe,99465,614.0,no,NOL-ALB-00362,chiuso
+INT-ALB-0086,EB-ALB-003,2026-05-31,2026-06-01,1.0,tagliando,tagliando programmato,Ciclofficina Alba,1754,75.0,no,,chiuso
+INT-ALB-0087,EB-ALB-001,2026-06-02,2026-06-03,1.0,tagliando,tagliando programmato,Bici Service Langhe,3455,87.0,no,,chiuso
+INT-ALB-0088,EB-ALB-002,2026-06-04,2026-06-06,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Alba,3517,160.0,,NOL-ALB-00394,chiuso
+INT-ALB-0089,ALB-04,2026-06-07,2026-06-12,5.0,carrozzeria,amaccatura con vernice saltata,Autofficina Langhe,126860,945.0,no,NOL-ALB-00487,chiuso
+INT-ALB-0090,ALB-05,2026-06-11,2026-06-13,2.0,carrozzeria,striscio di vernice,Autofficina Langhe,47457,83.0,si,NOL-ALB-00493,chiuso
+INT-ALB-0091,EB-ALB-003,2026-06-14,2026-06-17,3.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,1992,403.0,no,NOL-ALB-00423,chiuso
+INT-ALB-0092,ALB-06,2026-06-15,2026-06-17,2.0,vetri,striscio di vernice,Carrozzeria Gallo,62181,153.0,no,NOL-ALB-00471,chiuso
+INT-ALB-0093,ALB-01,2026-06-15,2026-06-16,1.0,tagliando,tagliando programmato,,99475,151.0,,,chiuso
+INT-ALB-0094,ALB-05,2026-06-17,2026-06-26,9.0,carrozzeria,danno da urto 20-30 cm,Autofficina Langhe,47641,,si,NOL-ALB-00508,chiuso
+INT-ALB-0095,ALB-08,2026-06-22,2026-06-23,1.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,74366,,no,NOL-ALB-00449,chiuso
+INT-ALB-0096,EB-ALB-003,2026-06-24,2026-06-25,1.0,pulizia profonda,pulizia straordinaria,Bici Service Langhe,2191,54.0,si,NOL-ALB-00536,chiuso
+INT-ALB-0097,EB-ALB-001,2026-06-24,2026-06-29,5.0,bici,forcella piegata,Bici Service Langhe,3756,229.0,no,NOL-ALB-00537,chiuso
+INT-ALB-0098,ALB-05,2026-06-27,2026-07-06,9.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Gallo,47962,302.0,no,NOL-ALB-00526,chiuso
+INT-ALB-0099,ALB-05,2026-06-27,2026-07-02,5.0,meccanica,guasto meccanico in noleggio,Autofficina Langhe,47962,,no,NOL-ALB-00526,chiuso
+INT-ALB-0100,EB-ALB-002,2026-06-28,2026-06-29,1.0,tagliando,tagliandoo prograammato,Ciclofficina Alba,3898,62.0,,,chiuso
+INT-ALB-0101,EB-ALB-003,2026-06-28,2026-06-30,2.0,tagliando,tagliando programmato,Bici Service Langhe,2281,75.0,no,,chiuso
+INT-ALB-0102,EB-ALB-001,2026-06-30,2026-07-03,3.0,meccanica,guasto meccanico in noleggio,Ciclofficina Alba,3809,671.0,no,NOL-ALB-00539,chiuso
+INT-ALB-0103,ALB-03,2026-07-03,2026-08-09,37.0,carrozzeria,deformazione importante,,60477,1978.0,si,NOL-ALB-00550,chiuso
+INT-ALB-0104,EB-ALB-002,2026-07-13,2026-07-15,2.0,tagliando,tagliando programmato,Ciclofficina Alba,4487,,no,,chiuso
+INT-ALB-0105,ALB-07,2026-07-15,2026-08-05,21.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,50525,788.3,no,NOL-ALB-00581,chiuso
+INT-ALB-0106,EB-ALB-001,2026-07-16,2026-07-17,1.0,tagliando,tagliando programmato,Ciclofficina Alba,4030,75.0,no,,chiuso
+INT-ALB-0107,ALB-08,2026-07-18,2026-07-20,2.0,carrozzeria,graffio superficiale,Autofficina Langhe,76856,96.0,si,,chiuso
+INT-ALB-0108,ALB-08,2026-07-18,2026-07-19,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,76856,46.0,si,NOL-ALB-00583,chiuso
+INT-ALB-0109,ALB-04,2026-07-20,2026-07-21,1.0,tagliando,tagliando programmato,Autofficina Langhe,131722,392.0,no,,chiuso
+INT-ALB-0110,ALB-08,2026-07-23,2026-08-13,21.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,76965,2540.0,no,NOL-ALB-00593,chiuso
+INT-ALB-0111,EB-ALB-002,2026-07-25,2026-07-29,4.0,bici,cambio posteriore rotto,Ciclofficina Alba,4606,305.0,no,NOL-ALB-00605,chiuso
+INT-ALB-0112,EB-ALB-003,2026-07-26,2026-07-27,1.0,tagliando,tagliando programmato,Ciclofficina Alba,2808,93.0,no,,chiuso
+INT-ALB-0113,ALB-06,2026-07-29,2026-09-04,37.0,carrozzeria,rottura con perdita di liquidi,Autofficina Langhe,64910,3742.0,no,NOL-ALB-00610,chiuso
+INT-ALB-0114,ALB-06,2026-07-29,2026-08-04,6.0,gomme,sostituzione pneumatico [incomprensibile],Carrozzeria Gallo,64910,432.0,,NOL-ALB-00610,chiuso
+INT-ALB-0115,ALB-01,2026-08-02,2026-08-04,2.0,carrozzeria,segni di sfregamento,Carrozzeria Gallo,104444,201.0,si,NOL-ALB-00510,chiuso
+INT-ALB-0116,ALB-05,2026-08-08,2026-08-10,2.0,tagliando,tagliando programmato,Autofficina,52220,170.0,no,,chiuso
+INT-ALB-0117,ALB-04,2026-08-11,2026-09-09,29.0,carrozzeria,danni da sinistro stradale,Carrozzeria Gallo,133907,762.5,no,NOL-ALB-00614,chiuso
+INT-ALB-0118,ALB-03,2026-08-11,2026-08-13,2.0,carrozzeria,segni di sfregamento,Carrozzeria Gallo,60582,225.0,,NOL-ALB-00608,chiuso
+INT-ALB-0119,ALB-02,2026-08-12,2026-08-13,1.0,tagliando,tagliando programmato,Autofficina Langhe,106220,167.0,no,,chiuso
+INT-ALB-0120,EB-ALB-001,2026-08-14,2026-08-16,2.0,tagliando,tagliando programmato,Bici Service Langhe,4755,75.0,no,,chiuso
+INT-ALB-0121,ALB-07,2026-08-19,2026-08-21,2.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,51539,45.0,si,NOL-ALB-00629,chiuso
+INT-ALB-0122,ALB-08,2026-08-21,2026-09-21,31.0,carrozzeria,deformazione importante,Carrozzeria Gallo,77266,3617.0,si,NOL-ALB-00657,chiuso
+INT-ALB-0123,EB-ALB-003,2026-08-27,2026-08-30,3.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Langhe,3089,249.0,no,NOL-ALB-00659,chiuso
+INT-ALB-0124,EB-ALB-002,2026-08-29,2026-08-30,1.0,tagliando,tagliando programmato,Ciclofficina Alba,4988,70.0,no,,chiuso
+INT-ALB-0125,ALB-02,2026-08-29,2026-08-31,2.0,gomme,sostituziine pneumatico [incomprensibile],Autofficina Langhe,107848,206.0,no,NOL-ALB-00619,chiuso
+INT-ALB-0126,ALB-02,2026-09-04,2026-09-05,1.0,gomme,sostituzione pneumatico,Carrozzeria Gallo,108250,537.0,no,NOL-ALB-00670,chiuso
+INT-ALB-0127,ALB-07,2026-09-09,2026-09-18,9.0,carrozzeria,calotta ootta,Carrozzeria Gallo,53072,859.0,,NOL-ALB-00687,chiuso
+INT-ALB-0128,EB-ALB-003,2026-09-12,2026-09-19,7.0,bici,display rotto,,3298,375.0,,NOL-ALB-00671,chiuso
+INT-ALB-0129,EB-ALB-002,2026-09-18,2026-09-19,1.0,pulizia profonda,,Bici Service Langhe,5101,50.0,si,,chiuso
+INT-ALB-0130,EB-ALB-003,2026-09-19,2026-09-27,8.0,bici,cerchio storto,Ciclofficina Alba,3323,133.0,si,NOL-ALB-00690,chiuso
+INT-ALB-0131,ALB-02,2026-09-21,2026-09-25,4.0,meccanica,guasto meccanico in noleggio,Carrozzeria,108979,436.0,,NOL-ALB-00668,chiuso
+INT-ALB-0132,EB-ALB-001,2026-09-23,2026-09-24,1.0,tagliando,tagliando programmato,Ciclofficina Alba,5267,58.0,no,,chiuso
+INT-ALB-0133,ALB-05,2026-09-26,2026-10-01,5.0,carrozzeria,crepa estesa,Carrozzeria Gallo,56289,476.0,no,NOL-ALB-00704,chiuso
+INT-ALB-0134,EB-ALB-003,2026-09-26,2026-09-28,2.0,tagliando,,Ciclofficina Alba,3323,96.0,no,,chiuso
+INT-ALB-0135,ALB-02,2026-09-29,2026-10-03,4.0,carrozzeria,crepa astesa,Carrozzeria Gallo,109256,372.0,no,NOL-ALB-00756,chiuso
+INT-ALB-0136,ALB-01,2026-10-02,2026-10-05,3.0,carrozzeria,leggera ammaccatura,Carrozzeria Gallo,110855,139.0,si,NOL-ALB-00779,chiuso
+INT-ALB-0137,EB-ALB-001,2026-10-04,2026-10-05,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Alba,5418,69.0,si,NOL-ALB-00760,chiuso
+INT-ALB-0138,ALB-06,2026-10-06,2026-10-07,1.0,tagliando,tagliando programmato,Carrozzeria Gallo,70153,242.0,no,,chiuso
+INT-ALB-0139,ALB-03,2026-10-08,2026-10-09,1.0,pulizia profonda,pulizia straordinaria,Autofficina Langhe,67592,33.0,si,,chiuso
+INT-ALB-0140,ALB-06,2026-10-11,2026-10-18,7.0,gomme,ammaccatura con vernice salttata,Carrozzeria Gallo,70366,730.0,si,NOL-ALB-00787,chiuso
+INT-ALB-0141,EB-ALB-002,2026-10-13,2026-10-15,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Alba,5501,442.0,no,NOL-ALB-00749,chiuso
+INT-ALB-0142,ALB-07,2026-10-14,2026-10-15,1.0,carrozzeria,leggera ammaccatura,Carrozzeria Gallo,57553,115.0,no,NOL-ALB-00751,chiuso
+INT-ALB-0143,EB-ALB-001,2026-10-14,2026-10-21,7.0,bici,cerchio storto,Bici Service Langhe,5556,301.0,si,NOL-ALB-00776,chiuso
+INT-ALB-0144,EB-ALB-002,2026-10-14,2026-10-16,2.0,tagliando,tagliando programmato,Ciclofficina Alba,5501,92.0,no,,chiuso
+INT-ALB-0145,ALB-07,2026-10-16,2026-10-18,2.0,carrozzeria,graffio superficiale,Autofficina Langhe,57739,167.0,si,NOL-ALB-00814,chiuso
+INT-ALB-0146,EB-ALB-003,2026-10-18,2026-10-20,2.0,gomme,sostituzione pneumatico,Bici Service Langhe,3672,229.0,no,NOL-ALB-00819,chiuso
+INT-ALB-0147,ALB-07,2026-10-19,2026-10-29,10.0,carrozzeria,calotta rotta,Carrozzeria Gallo,57853,1196.0,si,NOL-ALB-00703,chiuso
+INT-ALB-0148,ALB-06,2026-10-23,2026-10-29,6.0,gomme,,Autofficina Langhe,70778,,,NOL-ALB-00804,chiuso
+INT-ALB-0149,EB-ALB-002,2026-10-23,2026-10-26,3.0,gomme,sostituzione pneumatico,Bici Service Langhe,5600,57.0,,,chiuso
+INT-ALB-0150,ALB-01,2026-10-24,2026-11-11,18.0,carrozzeria,danni da sinistro stradale,Autofficina Langhe,113056,2580.0,no,NOL-ALB-00783,chiuso
+INT-ALB-0151,ALB-04,2026-10-30,2026-11-04,5.0,elettrico/batteria,guasto elettrco/batteraa,Carrozzeria Gallo,141849,646.0,,NOL-ALB-00844,chiuso
+INT-ALB-0152,EB-ALB-002,2026-10-31,2026-11-01,1.0,pulizia profonda,pulizia straordinaria,Bici Service Langhe,5741,22.0,si,NOL-ALB-00845,chiuso
+INT-ALB-0153,ALB-03,2026-10-31,2026-11-03,3.0,tagliando,tagliando programmato,Carrozzeria Gallo,71263,391.0,no,,chiuso
+INT-ALB-0154,EB-ALB-003,2026-10-31,2026-11-02,2.0,tagliando,tagliando programmato,Bici Service Langhe,4095,62.0,no,,chiuso
+INT-ALB-0155,EB-ALB-001,2026-11-10,2026-11-11,1.0,tagliando,tagliando programmato,Bici Service Langhe,5778,79.0,no,,chiuso
+INT-BAR-0001,BAR-02,2025-11-04,2025-11-16,12.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,66620,3110.0,no,NOL-BAR-00013,chiuso
+INT-BAR-0002,BAR-06,2025-11-07,2025-11-08,1.0,cambio gomme invernali,cambio stagionale,Officina Alta Valle,84949,91.0,,,chiuso
+INT-BAR-0003,BAR-04,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,35174,77.0,,,chiuso
+INT-BAR-0004,BAR-07,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,79659,72.0,,,chiuso
+INT-BAR-0005,BAR-01,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,82583,74.0,,,chiuso
+INT-BAR-0006,BAR-05,2025-11-11,2025-11-12,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,76122,70.0,no,,chiuso
+INT-BAR-0007,BAR-05,2025-11-15,2025-11-19,4.0,carrozzeria,danno da urto 20-30 cm,Officina Alta Valle,76261,666.0,no,NOL-BAR-00008,chiuso
+INT-BAR-0008,BAR-02,2025-11-15,2025-11-17,2.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,66620,62.0,no,,chiuso
+INT-BAR-0009,BAR-03,2025-11-18,2025-11-19,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Frejus,38766,95.0,,,chiuso
+INT-BAR-0010,BAR-01,2025-11-20,2025-11-21,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Frejus,82915,66.0,si,NOL-BAR-00018,chiuso
+INT-BAR-0011,BAR-06,2025-11-23,2025-11-24,1.0,tagliando,tagliando programtato,Carrozzeria Frejus,86681,360.0,,,chiuso
+INT-BAR-0012,EB-BAR-002,2025-11-26,2025-11-28,2.0,bici,,Bike Workshop Bardonecchia,2052,64.0,no,,chiuso
+INT-BAR-0013,BAR-06,2025-12-01,2025-12-09,8.0,meccanica,guasto meccanico in noleggio,,87327,444.0,no,NOL-BAR-00041,chiuso
+INT-BAR-0014,BAR-07,2025-12-02,2026-01-09,38.0,vetri,"elemento distrutto, da sostituire",Carrozzeria,81110,581.3,no,NOL-BAR-00025,chiuso
+INT-BAR-0015,BAR-02,2025-12-17,2025-12-18,1.0,tagliando,tagliando programmato,Officina Alta Valle,68610,257.0,no,,chiuso
+INT-BAR-0016,BAR-05,2026-01-12,2026-01-16,4.0,gomme,cerchio scheggiato e ovalizzato,Officina Alta Valle,79254,,no,NOL-BAR-00107,chiuso
+INT-BAR-0017,BAR-01,2026-01-26,2026-01-27,1.0,gomme,piccola scheggiatura,Carrozzeria Frejus,87413,105.0,no,NOL-BAR-00112,chiuso
+INT-BAR-0018,BAR-03,2026-01-30,2026-02-01,2.0,tagliando,tagliando programmato,Officina Alta Valle,44167,405.0,no,,chiuso
+INT-BAR-0019,BAR-06,2026-02-01,2026-02-22,21.0,carrozzeria,danni da sinnistro stradale,Carrozzeria Frejus,90666,2453.0,,NOL-BAR-00142,chiuso
+INT-BAR-0020,BAR-01,2026-02-04,2026-02-05,1.0,carrozzeria,striscio di vernice,Carrozzeria Frejus,88169,238.0,si,,chiuso
+INT-BAR-0021,EB-BAR-002,2026-02-08,2026-02-12,4.0,bici,forcella piegata,Bike Workshop Bardonecchia,2119,234.0,no,,chiuso
+INT-BAR-0022,BAR-04,2026-02-12,2026-02-13,1.0,gomme,graffio superficiale,,44383,157.0,,NOL-BAR-00097,chiuso
+INT-BAR-0023,BAR-03,2026-02-13,2026-02-21,8.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,45078,663.0,,NOL-BAR-00095,chiuso
+INT-BAR-0024,EB-BAR-002,2026-02-19,2026-02-20,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2119,63.0,no,,chiuso
+INT-BAR-0025,BAR-02,2026-03-04,2026-03-08,4.0,meccanica,guasto meccanico in noleggio,Officina Alta Valle,73134,672.0,no,NOL-BAR-00172,chiuso
+INT-BAR-0026,BAR-07,2026-03-10,2026-03-17,7.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,86623,230.0,no,NOL-BAR-00153,chiuso
+INT-BAR-0027,BAR-05,2026-03-13,2026-03-16,3.0,tagliando,taliando programmato,Carrozzeria Frejus,83502,215.0,no,,chiuso
+INT-BAR-0028,BAR-04,2026-03-20,2026-03-29,9.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,49231,709.3,no,NOL-BAR-00179,chiuso
+INT-BAR-0029,BAR-04,2026-03-28,2026-03-31,3.0,tagliando,tagliando programmato,Carrozzeria Frejus,49231,368.0,no,,chiuso
+INT-BAR-0030,BAR-03,2026-04-01,2026-04-04,3.0,carrozzeria,ammaccatura con vernice saltata,Carrozzeria Frejus,48685,610.0,si,NOL-BAR-00213,chiuso
+INT-BAR-0031,BAR-07,2026-04-05,2026-04-28,23.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,89224,781.2,,,chiuso
+INT-BAR-0032,BAR-06,2026-04-11,2026-04-18,7.0,assistenza,intervento dopo assistenza stradale,Officina Alta Valle,94442,250.0,no,NOL-BAR-00201,chiuso
+INT-BAR-0033,BAR-05,2026-04-17,2026-04-22,5.0,carrozzeria,crepa estesa,Officina Alta Valle,85538,1100.0,no,NOL-BAR-00229,chiuso
+INT-BAR-0034,BAR-06,2026-04-19,2026-04-20,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Frejus,94442,91.0,no,,chiuso
+INT-BAR-0035,BAR-01,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,95210,56.0,no,,chiuso
+INT-BAR-0036,BAR-03,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagioonale,Officina Alta Valle,50063,62.0,no,,chiuso
+INT-BAR-0037,BAR-05,2026-04-21,2026-04-22,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,85538,74.0,no,,chiuso
+INT-BAR-0038,EB-BAR-003,2026-04-22,2026-04-23,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1228,47.0,no,,chiuso
+INT-BAR-0039,EB-BAR-002,2026-04-23,2026-04-24,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Valsusa,2170,20.0,si,NOL-BAR-00249,chiuso
+INT-BAR-0040,BAR-03,2026-04-26,2026-04-27,1.0,carrozzeria,graffio ssuperficiale,Officina Alta Valle,50242,140.0,no,NOL-BAR-00240,chiuso
+INT-BAR-0041,BAR-07,2026-04-27,2026-04-28,1.0,cambio gomme estive,cambio stagionale,Officina Alta Valle,89224,78.0,no,,chiuso
+INT-BAR-0042,BAR-06,2026-04-27,2026-05-24,27.0,carrozzeria,"danno strutturale sospetto, non guidabile",Carrozzeria Frejus,94884,2997.0,si,NOL-BAR-00235,chiuso
+INT-BAR-0043,BAR-04,2026-04-28,2026-04-29,1.0,cambio gomme estive,cambio stgionale,Officina Alta Valle,51033,78.0,no,,chiuso
+INT-BAR-0044,BAR-03,2026-04-29,2026-05-13,14.0,carrozzeria,danni da sinistro stradale,Carrozzeria Frejus,50371,,,,chiuso
+INT-BAR-0045,BAR-02,2026-05-04,2026-05-06,2.0,carrozzeria,piccola scheggiatura,Carrozzeria Frejus,78081,188.0,si,NOL-BAR-00205,chiuso
+INT-BAR-0046,EB-BAR-001,2026-05-05,2026-05-06,1.0,bici,graffi sul telaio,Ciclofficina Valsusa,1159,44.0,no,NOL-BAR-00267,chiuso
+INT-BAR-0047,BAR-02,2026-05-06,2026-05-07,1.0,cambio gomme estive,cambio stagionale [incomprensibile],Carrozzeria Frejus,78081,56.0,no,,chiuso
+INT-BAR-0048,EB-BAR-002,2026-05-11,2026-05-13,2.0,assistenza,intervento dopo assistenza stradale,Bike Workshop Bardonecchia,2396,684.0,no,NOL-BAR-00258,chiuso
+INT-BAR-0049,BAR-07,2026-05-11,2026-05-16,5.0,elettrico/batteria,guasto elettrico/batteria,Officina Alta Valle,89838,227.0,no,NOL-BAR-00244,chiuso
+INT-BAR-0050,BAR-02,2026-05-12,2026-05-19,7.0,carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Frejus,78318,775.0,no,NOL-BAR-00262,chiuso
+INT-BAR-0051,EB-BAR-001,2026-05-13,2026-05-14,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,1385,84.0,no,,chiuso
+INT-BAR-0052,BAR-01,2026-05-14,2026-05-16,2.0,tagliando,tagliando programmato,Carrozzeria Frejus,96367,350.0,no,,chiuso
+INT-BAR-0053,BAR-07,2026-05-24,2026-05-25,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Frejus,,70.0,si,,chiuso
+INT-BAR-0054,EB-BAR-001,2026-05-27,2026-05-31,4.0,meccanica,gusto meccanico in noleggio,Bike Workshop Bardonecchia,1478,146.0,no,NOL-BAR-00312,chiuso
+INT-BAR-0055,EB-BAR-002,2026-05-29,2026-06-05,7.0,bici,display rotto,,2603,246.0,no,NOL-BAR-00285,chiuso
+INT-BAR-0056,BAR-01,2026-06-01,2026-06-04,3.0,vetri,piccola scheggiatura,Carrozzeria Frejus,97018,100.0,no,NOL-BAR-00313,chiuso
+INT-BAR-0057,BAR-04,2026-06-04,2026-06-06,2.0,carrozzeria,segni de sfregamento,Carrozzeria Frejus,53325,,no,NOL-BAR-00248,chiuso
+INT-BAR-0058,BAR-03,2026-06-05,2026-06-09,4.0,elettrico/batteria,guasto elettrico/batteria,Officina,52857,303.0,no,NOL-BAR-00307,chiuso
+INT-BAR-0059,EB-BAR-002,2026-06-06,2026-06-07,1.0,tagliando,tagliando progrnmmato,Ciclofficina Valsusa,2650,69.0,,,chiuso
+INT-BAR-0060,BAR-07,2026-06-06,2026-06-08,2.0,tagliando,tagliando programmato,Officina Alta Valle,91248,410.0,,,chiuso
+INT-BAR-0061,EB-BAR-003,2026-06-07,2026-06-14,7.0,bici,cerchio storto,Bike Workshop Bardonecchia,1633,,si,NOL-BAR-00339,chiuso
+INT-BAR-0062,BAR-04,2026-06-19,2026-06-23,4.0,carrozzeria,crepa estesa,Carrozzeria Frejus,54694,758.0,si,NOL-BAR-00355,chiuso
+INT-BAR-0063,EB-BAR-003,2026-06-21,2026-06-23,2.0,bici,manubrio leggermente fuori asse,,1725,,no,NOL-BAR-00317,chiuso
+INT-BAR-0064,EB-BAR-002,2026-06-23,2026-06-24,1.0,pulizia profonda,pulizia straordinaria,Bike Workshop Bardonecchia,2937,34.0,si,NOL-BAR-00386,chiuso
+INT-BAR-0065,EB-BAR-003,2026-06-24,2026-06-25,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1776,78.0,,,chiuso
+INT-BAR-0066,BAR-02,2026-06-26,2026-07-03,7.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Frejus,81511,145.0,no,NOL-BAR-00364,chiuso
+INT-BAR-0067,EB-BAR-001,2026-06-27,2026-06-28,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,1894,55.0,no,,chiuso
+INT-BAR-0068,BAR-03,2026-06-28,2026-07-01,3.0,assistenza,intervento dopo assistenza stradale,Officina Alta Valle,54456,173.0,no,NOL-BAR-00341,chiuso
+INT-BAR-0069,EB-BAR-002,2026-07-06,2026-07-11,5.0,bici,cambio posteriore rotto,Ciclofficina Valsusa,3155,240.0,no,NOL-BAR-00402,chiuso
+INT-BAR-0070,BAR-03,2026-07-07,2026-07-15,8.0,gomme,sostituzione pneumatico,Officina Alta Valle,54922,,,NOL-BAR-00430,chiuso
+INT-BAR-0071,BAR-01,2026-07-07,2026-07-09,2.0,carrozzeria,segni di sfregamento,Carrozzeria Frejus,99137,90.0,no,,chiuso
+INT-BAR-0072,EB-BAR-002,2026-07-10,2026-07-11,1.0,tagliando,,Bike Workshop Bardonecchia,3155,88.0,no,,chiuso
+INT-BAR-0073,EB-BAR-002,2026-07-14,2026-07-17,3.0,bici,manubrio leggermente fuori asse,Bike Workshop Bardonecchia,3284,70.0,si,NOL-BAR-00448,chiuso
+INT-BAR-0074,BAR-01,2026-07-15,2026-07-19,4.0,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Frejus,99710,467.0,no,NOL-BAR-00318,chiuso
+INT-BAR-0075,EB-BAR-003,2026-07-17,2026-08-02,16.0,bici,tlaio incrinato,Ciclofficina Valsusa,2074,132.9,si,NOL-BAR-00428,chiuso
+INT-BAR-0076,EB-BAR-001,2026-07-20,2026-07-26,6.0,bici,cambio posteriore rotto,Bike Workshop Bardonecchia,2321,225.0,,NOL-BAR-00466,chiuso
+INT-BAR-0077,BAR-05,2026-07-20,2026-07-23,3.0,carrozzeria,piccola scheegniatura,Carrozzeria Frejus,93073,168.0,no,NOL-BAR-00437,chiuso
+INT-BAR-0078,EB-BAR-002,2026-07-22,2026-07-24,2.0,bici,manubrio leggermente fuori asse,Bike Workshop Bardonecchia,3370,39.0,no,NOL-BAR-00472,chiuso
+INT-BAR-0079,BAR-06,2026-07-26,2026-07-29,3.0,gomme,striscio di vernice,Officina Alta Valle,99346,203.0,si,NOL-BAR-00439,chiuso
+INT-BAR-0080,EB-BAR-002,2026-07-27,2026-07-29,2.0,meccanica,guasto meccanico in noleggio,Ciclofficina Valsusa,3409,678.0,no,NOL-BAR-00475,chiuso
+INT-BAR-0081,BAR-03,2026-07-28,2026-07-30,2.0,carrozzeria,striscio di vernice,Officina Alta Valle,56169,112.0,si,,chiuso
+INT-BAR-0082,EB-BAR-001,2026-07-28,2026-07-29,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,2435,65.0,no,,chiuso
+INT-BAR-0083,BAR-03,2026-08-02,2026-08-05,3.0,gomme,sostituzione pneumatico,Officina Alta Valle,56521,293.0,no,NOL-BAR-00456,chiuso
+INT-BAR-0084,EB-BAR-003,2026-08-04,2026-08-05,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Valsusa,2172,38.0,si,,chiuso
+INT-BAR-0085,EB-BAR-001,2026-08-07,2026-08-10,3.0,gomme,sostituzione pneumatico,Ciclofficina Valsusa,2697,645.0,no,NOL-BAR-00493,chiuso
+INT-BAR-0086,BAR-02,2026-08-07,2026-08-10,3.0,tagliando,tagliando programmato,,85902,273.0,no,,chiuso
+INT-BAR-0087,EB-BAR-003,2026-08-08,2026-08-11,3.0,bici,cerchio storto,Ciclofficina Valsusa,2226,165.0,si,NOL-BAR-00400,chiuso
+INT-BAR-0088,EB-BAR-002,2026-08-08,2026-08-10,2.0,tagliando,tagliando programmato [incomprensibile],Bike Workshop Bardonecchia,,53.0,,,chiuso
+INT-BAR-0089,EB-BAR-002,2026-08-10,2026-08-16,6.0,bici,cambio posteriore rotto,,3680,382.0,no,NOL-BAR-00526,chiuso
+INT-BAR-0090,EB-BAR-003,2026-08-12,2026-08-13,1.0,bici,leva piegata ma funzionante,Ciclofficina Valsusa,2265,58.0,no,NOL-BAR-00529,chiuso
+INT-BAR-0091,EB-BAR-003,2026-08-14,2026-08-15,1.0,gomme,sostituzione pneumatico,Bike Workshop Bardonecchia,2286,222.0,no,NOL-BAR-00506,chiuso
+INT-BAR-0092,EB-BAR-003,2026-08-15,2026-08-16,1.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,2286,72.0,no,,chiuso
+INT-BAR-0093,BAR-04,2026-08-19,2026-08-23,4.0,gomme,sostituzione pneumatico,Officina Alta Valle,59345,155.0,no,NOL-BAR-00454,chiuso
+INT-BAR-0094,EB-BAR-001,2026-08-20,2026-08-21,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2962,66.0,no,,chiuso
+INT-BAR-0095,EB-BAR-002,2026-08-22,2026-08-23,1.0,bici,leva piegata ma funzionante,Bike Workshop Bardonecchia,3831,46.0,no,NOL-BAR-00492,chiuso
+INT-BAR-0096,EB-BAR-002,2026-09-03,2026-09-10,7.0,bici,cerchio storto,Ciclofficina Valsusa,4147,258.0,si,NOL-BAR-00561,chiuso
+INT-BAR-0097,BAR-07,2026-09-09,2026-09-18,9.0,carrozzeria,crea estesa,,98318,486.0,,NOL-BAR-00463,chiuso
+INT-BAR-0098,EB-BAR-003,2026-09-10,2026-09-14,4.0,bici,cambio posteriore rotto,Ciclofficina Valsusa,2788,193.0,no,NOL-BAR-00572,chiuso
+INT-BAR-0099,EB-BAR-002,2026-09-11,2026-09-12,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,4181,90.0,no,,chiuso
+INT-BAR-0100,EB-BAR-003,2026-09-13,2026-09-14,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,2788,103.0,,,chiuso
+INT-BAR-0101,BAR-06,2026-09-15,2026-09-17,2.0,tagliando,taagliando proogramrato,Officina Alta Valle,102222,169.0,,,chiuso
+INT-BAR-0102,EB-BAR-001,2026-09-21,2026-09-23,2.0,tagliando,tagliando programmato,Bike Workshop Bardonecchia,3721,72.0,no,,chiuso
+INT-BAR-0103,EB-BAR-002,2026-09-22,2026-09-30,8.0,bici,forcella piegata,Ciclofficina Valsusa,4274,387.0,no,NOL-BAR-00593,chiuso
+INT-BAR-0104,BAR-05,2026-09-24,2026-09-26,2.0,vetri,leggera ammaccatura,Carrozzeria Frejus,97698,170.0,no,NOL-BAR-00577,chiuso
+INT-BAR-0105,BAR-03,2026-09-24,2026-09-26,2.0,carrozzeria,,Officina Alta Valle,58475,188.0,,NOL-BAR-00574,chiuso
+INT-BAR-0106,EB-BAR-003,2026-09-24,2026-09-26,2.0,bici,leva piegaata ma funzionante,Ciclofficina Valsusa,2824,81.0,,NOL-BAR-00523,chiuso
+INT-BAR-0107,BAR-02,2026-09-24,2026-10-19,25.0,carrozzeria,danni da sinistro stradale,Officina Alta Valle,88749,618.5,no,,chiuso
+INT-BAR-0108,BAR-04,2026-09-29,2026-10-02,3.0,meccanica,guasto meccanico in noleggio,Carrozzeria Frejus,61710,396.0,no,NOL-BAR-00586,chiuso
+INT-BAR-0109,BAR-04,2026-10-15,2026-10-16,1.0,pulizia profonda,pulizia straordinaria,Officina Alta Valle,62486,31.0,si,NOL-BAR-00643,chiuso
+INT-BAR-0110,BAR-03,2026-10-15,2026-10-17,2.0,carrozzeria,,Carrozzeria Frejus,59937,99.0,si,NOL-BAR-00608,chiuso
+INT-BAR-0111,BAR-03,2026-10-16,2026-10-20,4.0,tagliando,tagliando programmato,Carrozzeria Frejus,59937,374.0,no,,chiuso
+INT-BAR-0112,BAR-05,2026-10-18,2026-10-21,3.0,tagliando,tagliando programmato,Officina Alta Valle,98680,259.0,,,chiuso
+INT-BAR-0113,EB-BAR-002,2026-10-23,2026-10-24,1.0,bici,graffi sul telaio,Ciclofficina,4451,79.0,,,chiuso
+INT-BAR-0114,EB-BAR-002,2026-10-31,2026-11-01,1.0,tagliando,tagliando programmato,Ciclofficina Valsusa,4869,44.0,no,,chiuso
+INT-BAR-0115,EB-BAR-003,2026-10-31,2026-11-03,3.0,bici,graffi sul telaio,Ciclofficina Valsusa,3215,45.0,no,NOL-BAR-00648,chiuso
+INT-CAS-0001,CAS-05,2025-11-06,2025-11-07,1.0,cambio gomme invernali,cambin stagionale,,24486,86.0,no,,chiuso
+INT-CAS-0002,CAS-01,2025-11-07,2025-11-13,6.0,carrozzeria,danno da urto 20-30 cm,Autofficina Monferrato,52336,632.0,si,NOL-CAS-00038,chiuso
+INT-CAS-0003,CAS-02,2025-11-10,2025-11-15,5.0,gomme,sostituzione pneumatico,Autofficina Monferrato,104751,618.0,,NOL-CAS-00014,chiuso
+INT-CAS-0004,CAS-06,2025-11-11,2025-11-13,2.0,cambio gomme invernali,cambio stagionale,Carrozzeria Po,32125,,,,chiuso
+INT-CAS-0005,CAS-04,2025-11-12,2025-11-13,1.0,cambio gomme invernali,cambio stagionale,,24195,59.0,no,,chiuso
+INT-CAS-0006,CAS-01,2025-11-13,2025-11-14,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Po,52336,94.0,no,,chiuso
+INT-CAS-0007,CAS-02,2025-11-14,2025-11-16,2.0,cambio gomme invernali,camtio stagioonale,Autofficina Monferrato,104751,80.0,,,chiuso
+INT-CAS-0008,CAS-05,2025-11-15,2025-11-21,6.0,carrozzeria,crepa estesa,Autofficina Monferrato,25192,912.0,si,NOL-CAS-00052,chiuso
+INT-CAS-0009,CAS-03,2025-11-15,2025-11-16,1.0,gomme,cambio stagionale,Autofficina Monferrato,35376,92.0,no,,chiuso
+INT-CAS-0010,CAS-07,2025-11-15,2025-11-17,2.0,cambio gomme invernali,cambio stagionale,Autofficina Monferrato,113440,60.0,no,,chiuso
+INT-CAS-0011,CAS-06,2025-11-17,2025-11-19,2.0,pulizia profonda,ppulizia straordinaria,Autofficina Monferrato,32619,50.0,si,NOL-CAS-00043,chiuso
+INT-CAS-0012,CAS-04,2025-11-20,2025-11-22,2.0,tagliando,tagliando programmato,Carrozzeria Po,25263,170.0,no,,chiuso
+INT-CAS-0013,CAS-02,2025-11-20,2025-11-23,3.0,meccanica,guasto meccanico in noleggio,Carrozzeria Po,104902,180.0,no,NOL-CAS-00048,chiuso
+INT-CAS-0014,CAS-03,2025-11-20,2025-12-24,34.0,carrozzeria,deformazione importante,Autofficina Monferrato,35515,528.6,si,NOL-CAS-00049,chiuso
+INT-CAS-0015,EB-CAS-002,2025-11-23,2025-11-24,1.0,meccanica,guasto meccanico in noleggio,Ciclofficina Casale,719,470.0,no,NOL-CAS-00001,chiuso
+INT-CAS-0016,CAS-07,2025-11-29,2025-12-02,3.0,gomme,sostituzione pneumatico,Autofficina Monferrato,114549,437.0,no,NOL-CAS-00071,chiuso
+INT-CAS-0017,CAS-06,2025-12-07,2025-12-16,9.0,carrozzeria,calotta rotta,Carrozzeria Po,34922,367.0,si,NOL-CAS-00066,chiuso
+INT-CAS-0018,CAS-05,2025-12-25,2026-01-02,8.0,carrozzeria,graffio profondo fino alla lamiera,Autofficina Monferrato,27601,339.0,no,NOL-CAS-00047,chiuso
+INT-CAS-0019,EB-CAS-003,2025-12-26,2025-12-27,1.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Monferrato,1100,670.0,no,NOL-CAS-00080,chiuso
+INT-CAS-0020,CAS-04,2025-12-27,2026-01-18,22.0,gomme,"elemento distrutto, da sostituire",Autofficina Monferrato,28101,364.2,no,NOL-CAS-00111,chiuso
+INT-CAS-0021,CAS-01,2025-12-28,2026-01-03,6.0,gomme,sostituzione pneumatico,Autofficina Monferrato,56967,495.0,no,NOL-CAS-00011,chiuso
+INT-CAS-0022,CAS-01,2026-01-16,2026-01-24,8.0,carrozzeria,graffio profondo fino alla lamiera,Autofficina Monferrato,57721,1096.0,,NOL-CAS-00094,chiuso
+INT-CAS-0023,CAS-07,2026-01-19,2026-01-26,7.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Monferrato,117834,59.0,,,chiuso
+INT-CAS-0024,EB-CAS-001,2026-01-22,2026-01-25,3.0,meccanica,guasto meccanico in noleggio,Bici Service Monferrato,1614,590.0,no,NOL-CAS-00137,chiuso
+INT-CAS-0025,EB-CAS-003,2026-01-29,2026-02-01,3.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Casale,1154,84.0,no,NOL-CAS-00151,chiuso
+INT-CAS-0026,CAS-07,2026-02-01,2026-02-03,2.0,carrozzeria,piccola scheggiatura,Carrozzeria Po,118235,140.0,,NOL-CAS-00138,chiuso
+INT-CAS-0027,CAS-01,2026-02-01,2026-02-02,1.0,carrozzeria,segni di sfregamento,Autofficina Monferrato,58362,215.0,si,NOL-CAS-00144,chiuso
+INT-CAS-0028,CAS-06,2026-02-01,2026-02-03,2.0,carrozzeria,leggera ammaccaatura,Autofficina Monferrato,39161,89.0,no,NOL-CAS-00146,chiuso
+INT-CAS-0029,CAS-05,2026-02-01,2026-02-07,6.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Po,30357,325.0,no,NOL-CAS-00154,chiuso
+INT-CAS-0030,CAS-02,2026-02-06,2026-02-08,2.0,tagliando,tagliando programmato,Autofficina Monferrato,111157,331.0,no,,chiuso
+INT-CAS-0031,EB-CAS-003,2026-02-06,2026-02-07,1.0,tagliando,tagliando programmato,Bici Service Monferrato,1154,82.0,no,,chiuso
+INT-CAS-0032,CAS-01,2026-02-09,2026-02-12,3.0,tagliando,tagliando programmatoo,,58742,363.0,no,,chiuso
+INT-CAS-0033,CAS-06,2026-02-10,2026-02-12,2.0,tagliando,tagliando programmato,Carrozzeria Po,39896,152.0,,,chiuso
+INT-CAS-0034,CAS-02,2026-02-12,2026-02-14,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Po,111395,40.0,si,NOL-CAS-00180,chiuso
+INT-CAS-0035,EB-CAS-001,2026-02-13,2026-02-14,1.0,tagliando,tagliando programmato,Ciclofficina Casale,1636,109.0,no,,chiuso
+INT-CAS-0036,CAS-05,2026-02-15,2026-02-17,2.0,vetri,piccola scheggiatura,Autofficina Monferrato,30965,180.0,si,NOL-CAS-00182,chiuso
+INT-CAS-0037,EB-CAS-002,2026-02-18,2026-02-19,1.0,tagliando,tagliando programmato,Ciclofficina Casale,822,100.0,,,chiuso
+INT-CAS-0038,EB-CAS-001,2026-02-22,2026-02-23,1.0,meccanica,guasto meccanico in noleggio,Bici Service Monferrato,1674,419.0,no,NOL-CAS-00198,chiuso
+INT-CAS-0039,EB-CAS-001,2026-02-22,2026-02-23,1.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,1674,62.0,si,NOL-CAS-00198,chiuso
+INT-CAS-0040,CAS-06,2026-02-23,2026-02-28,5.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Po,40187,750.0,,,chiuso
+INT-CAS-0041,CAS-03,2026-02-27,2026-03-01,2.0,tagliando,tagliando programmato,Carrozzeria Po,41550,243.0,,,chiuso
+INT-CAS-0042,CAS-05,2026-02-27,2026-03-01,2.0,tagliando,tagliando programmato,Carrozzeria Po,32100,397.0,no,,chiuso
+INT-CAS-0043,CAS-05,2026-03-05,2026-03-19,14.0,carrozzeria,urto forte con piu' elementi coinvolti,Autofficina Monferrato,32335,482.3,no,NOL-CAS-00212,chiuso
+INT-CAS-0044,CAS-06,2026-03-07,2026-03-10,3.0,carrozzeria,calotta rotta,Carrozzeria,40666,439.0,no,NOL-CAS-00194,chiuso
+INT-CAS-0045,CAS-04,2026-03-12,2026-03-21,9.0,carrozzeria,crepa estesa,Carrozzeria Po,33174,888.0,si,NOL-CAS-00224,chiuso
+INT-CAS-0046,EB-CAS-001,2026-03-15,2026-03-18,3.0,bici,forcella piegata,Bici Service Monferrato,1825,204.0,,NOL-CAS-00239,chiuso
+INT-CAS-0047,CAS-07,2026-03-15,2026-03-17,2.0,carrozzeria,,Carrozzeria Po,124117,234.0,si,NOL-CAS-00243,chiuso
+INT-CAS-0048,CAS-07,2026-03-22,2026-03-24,2.0,carrozzeria,striscio di vernice,Carrozzeria,124944,87.0,si,NOL-CAS-00216,chiuso
+INT-CAS-0049,CAS-01,2026-03-26,2026-03-31,5.0,assistenza,intervento dopo assistenza stradale,Autofficina Monferrato,62203,513.0,no,,chiuso
+INT-CAS-0050,CAS-07,2026-03-28,2026-03-29,1.0,pulizia profonda,pulizia stoaordinara,,125162,68.0,si,NOL-CAS-00256,chiuso
+INT-CAS-0051,CAS-01,2026-04-01,2026-04-09,8.0,vetri,calotta rotta,Carrozzeria Po,62387,1165.0,si,NOL-CAS-00247,chiuso
+INT-CAS-0052,EB-CAS-003,2026-04-01,2026-04-03,2.0,tagliando,tagliando programmato,Ciclofficina Casale,1794,,no,,chiuso
+INT-CAS-0053,CAS-07,2026-04-02,2026-04-06,4.0,meccanica,guasto meccanico in noleggio,Autofficina Monferrato,125368,550.0,no,NOL-CAS-00272,chiuso
+INT-CAS-0054,CAS-04,2026-04-03,2026-04-04,1.0,carrozzeria,,,34413,231.0,no,NOL-CAS-00171,chiuso
+INT-CAS-0055,CAS-03,2026-04-07,2026-04-15,8.0,assistenza,intervento dopo asssistenza stradale,Autofficina Monferrato,44431,333.0,no,NOL-CAS-00289,chiuso
+INT-CAS-0056,CAS-05,2026-04-12,2026-04-14,2.0,carrozzeria,legger ammaccatura,Autofficina Monferrato,33961,249.0,no,NOL-CAS-00294,chiuso
+INT-CAS-0057,EB-CAS-001,2026-04-13,2026-04-14,1.0,tagliando,tagliando programmato,Bici Service Monferrato,2158,,no,,chiuso
+INT-CAS-0058,CAS-04,2026-04-15,2026-04-19,4.0,carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Po,35286,753.0,si,NOL-CAS-00307,chiuso
+INT-CAS-0059,CAS-07,2026-04-16,2026-04-22,6.0,meccanica,guasto meccanico in noleggio,Carrozzeria Po,126274,306.0,no,NOL-CAS-00209,chiuso
+INT-CAS-0060,CAS-03,2026-04-16,2026-04-17,1.0,cambio gomme estive,cambio stagionale,Autofficina Monferrato,44431,69.0,,,chiuso
+INT-CAS-0061,CAS-05,2026-04-18,2026-04-27,9.0,carrozzeria,,Autofficina Monferrato,34481,922.0,no,NOL-CAS-00323,chiuso
+INT-CAS-0062,EB-CAS-001,2026-04-18,2026-04-25,7.0,bici,display rotto,Bici Service Monferrato,2263,95.0,si,NOL-CAS-00328,chiuso
+INT-CAS-0063,CAS-06,2026-04-19,2026-04-20,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Po,43240,61.0,no,,chiuso
+INT-CAS-0064,CAS-04,2026-04-21,2026-04-22,1.0,gomme,cambio stagionalle,,35286,89.0,no,,chiuso
+INT-CAS-0065,CAS-02,2026-04-22,2026-04-23,1.0,cambio gomme estive,cambio stagionale,,116209,61.0,no,,chiuso
+INT-CAS-0066,CAS-01,2026-04-23,2026-04-24,1.0,cambio gomme estive,cambio stagionalee,Carrozzeria Po,64472,92.0,no,,chiuso
+INT-CAS-0067,EB-CAS-003,2026-04-23,2026-04-25,2.0,tagliando,tagliando programmato,Ciclofficina Casale,2400,75.0,no,,chiuso
+INT-CAS-0068,CAS-07,2026-04-24,2026-04-25,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Po,126571,83.0,,,chiuso
+INT-CAS-0069,CAS-03,2026-04-24,2026-05-16,22.0,carrozzeria,danni da sinistro stradale,Carrozzeria Po,44778,2449.0,no,NOL-CAS-00231,chiuso
+INT-CAS-0070,EB-CAS-002,2026-04-26,2026-04-28,2.0,tagliando,tagliando programmato,Ciclofficina Casale,1326,70.0,no,,chiuso
+INT-CAS-0071,CAS-05,2026-04-30,2026-05-07,7.0,gomme,ssosstituzione pneumatico,Carrozzeria Po,34684,113.0,no,NOL-CAS-00341,chiuso
+INT-CAS-0072,CAS-04,2026-04-30,2026-05-10,10.0,carrozzeria,calotta rotta,Carrozzeria Po,36103,617.0,si,NOL-CAS-00348,chiuso
+INT-CAS-0073,EB-CAS-001,2026-05-02,2026-05-04,2.0,bici,manubrio leggermente fuori asse,Ciclofficina Casale,2320,31.0,si,NOL-CAS-00363,chiuso
+INT-CAS-0074,CAS-01,2026-05-05,2026-05-09,4.0,meccanica,guasto meccanico in noleggio,Autofficina Monferrato,65036,332.0,no,NOL-CAS-00334,chiuso
+INT-CAS-0075,CAS-05,2026-05-07,2026-05-08,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Po,34684,78.0,no,,chiuso
+INT-CAS-0076,EB-CAS-002,2026-05-09,2026-05-10,1.0,elettrico/batteria,,Ciclofficina Casale,1425,660.0,no,NOL-CAS-00375,chiuso
+INT-CAS-0077,EB-CAS-003,2026-05-16,2026-05-18,2.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,2813,33.0,si,NOL-CAS-00343,chiuso
+INT-CAS-0078,CAS-07,2026-05-17,2026-06-18,32.0,carrozzeria,rottura con perdita di liquidi,Carrozzeria Po,128860,2696.0,,NOL-CAS-00393,chiuso
+INT-CAS-0079,EB-CAS-001,2026-05-21,2026-05-22,1.0,tagliando,tagliando programmato,Ciclofficina Casale,2680,68.0,no,,chiuso
+INT-CAS-0080,EB-CAS-003,2026-05-25,2026-05-26,1.0,tagliando,tagliando programmato,Ciclofficina,,55.0,,,chiuso
+INT-CAS-0081,EB-CAS-002,2026-06-06,2026-06-07,1.0,pulizia profonda,pulizia straordinaria,Bici,1839,30.0,si,NOL-CAS-00338,chiuso
+INT-CAS-0082,EB-CAS-002,2026-06-06,2026-06-07,1.0,tagliando,tagliando programmato,Ciclofficina Casale,1839,73.0,no,,chiuso
+INT-CAS-0083,EB-CAS-003,2026-06-07,2026-06-08,1.0,gomme,sosttituzione pneumatiro,Ciclofficina Casale,3168,225.0,no,NOL-CAS-00439,chiuso
+INT-CAS-0084,EB-CAS-002,2026-06-14,2026-06-15,1.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,1940,63.0,si,NOL-CAS-00469,chiuso
+INT-CAS-0085,CAS-02,2026-06-15,2026-06-24,9.0,assistenza,intervento dopo assistenza stradale,,121080,694.0,no,NOL-CAS-00440,chiuso
+INT-CAS-0086,CAS-04,2026-06-16,2026-06-17,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Po,39402,32.0,si,NOL-CAS-00465,chiuso
+INT-CAS-0087,EB-CAS-003,2026-06-18,2026-06-19,1.0,tagliando,tagliando programmato,Bici Service Monferrato,3529,85.0,no,,chiuso
+INT-CAS-0088,CAS-04,2026-06-19,2026-06-22,3.0,gomme,leggera ammaccatura,Autofficina,39688,,no,NOL-CAS-00477,chiuso
+INT-CAS-0089,EB-CAS-002,2026-06-24,2026-07-01,7.0,bici,cambio posteriore rotto,Bici Service Monferrato,2016,230.0,si,NOL-CAS-00487,chiuso
+INT-CAS-0090,EB-CAS-003,2026-07-02,2026-07-03,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Casale,3630,28.0,si,NOL-CAS-00510,chiuso
+INT-CAS-0091,CAS-04,2026-07-02,2026-07-05,3.0,tagliando,tagliando programmato,Autofficina Monferrato,40408,,no,,chiuso
+INT-CAS-0092,CAS-07,2026-07-03,2026-07-05,2.0,tagliando,tagliando programmato,Carrozzeria Po,131097,201.0,no,,chiuso
+INT-CAS-0093,EB-CAS-001,2026-07-04,2026-07-05,1.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,3056,32.0,si,,chiuso
+INT-CAS-0094,CAS-06,2026-07-06,2026-07-12,6.0,carrozzeria,,Autofficina Monferrato,51151,428.0,no,NOL-CAS-00517,chiuso
+INT-CAS-0095,EB-CAS-002,2026-07-07,2026-07-10,3.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Monferrato,2095,137.0,no,NOL-CAS-00476,chiuso
+INT-CAS-0096,CAS-07,2026-07-10,2026-08-02,23.0,carrozzeria,,Carrozzeria Po,131258,733.4,no,NOL-CAS-00500,chiuso
+INT-CAS-0097,CAS-01,2026-07-13,2026-08-01,19.0,gomme,rottura con perdita di liquidi,Carrozzeria Po,,633.5,no,NOL-CAS-00483,chiuso
+INT-CAS-0098,EB-CAS-001,2026-07-15,2026-07-16,1.0,tagliando,tagliando programmato,Bici Service Monferrato,3193,68.0,no,,chiuso
+INT-CAS-0099,EB-CAS-003,2026-07-20,2026-07-25,5.0,bici,cambio posteriore rotto,Bici Service Monferrato,3829,,no,NOL-CAS-00554,chiuso
+INT-CAS-0100,EB-CAS-001,2026-07-28,2026-07-29,1.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,3406,40.0,si,NOL-CAS-00556,chiuso
+INT-CAS-0101,CAS-03,2026-07-29,2026-08-05,7.0,carrozzeria,crepa estesa,,49857,881.0,si,,chiuso
+INT-CAS-0102,EB-CAS-002,2026-08-02,2026-08-03,1.0,tagliando,tagliando programmato,Bici Service Monferrato,2343,94.0,no,,chiuso
+INT-CAS-0103,CAS-07,2026-08-08,2026-08-20,12.0,carrozzeria,danni da sinistro stradale,Carrozzeria Po,131428,610.9,,NOL-CAS-00493,chiuso
+INT-CAS-0104,CAS-05,2026-08-10,2026-08-12,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Po,44062,682.0,,NOL-CAS-00582,chiuso
+INT-CAS-0105,EB-CAS-002,2026-08-11,2026-08-12,1.0,bici,leva piegata ma funzionante,Ciclofficina Casale,2489,47.0,,NOL-CAS-00598,chiuso
+INT-CAS-0106,EB-CAS-003,2026-08-15,2026-08-17,2.0,elettrico/batteria,guasto elettaico/batteria,Bici Service Monferrato,3953,508.0,no,NOL-CAS-00581,chiuso
+INT-CAS-0107,EB-CAS-003,2026-08-23,2026-08-24,1.0,tagliando,tagliando programmato,Ciclofficina Casale,4031,55.0,no,,chiuso
+INT-CAS-0108,CAS-02,2026-08-23,2026-08-25,2.0,tagliando,tagliando programmato,Autofficina Monferrato,126293,166.0,no,,chiuso
+INT-CAS-0109,CAS-01,2026-08-25,2026-08-26,1.0,carrozzeria,striscio di vernice,Autofficina Monferrato,73783,203.0,no,NOL-CAS-00628,chiuso
+INT-CAS-0110,CAS-01,2026-08-25,2026-08-26,1.0,tagliando,tagliando programmato,Carrozzeria Po,73783,184.0,no,,chiuso
+INT-CAS-0111,EB-CAS-001,2026-08-26,2026-08-27,1.0,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,3634,34.0,si,NOL-CAS-00530,chiuso
+INT-CAS-0112,CAS-02,2026-08-26,2026-09-01,6.0,carrozzeria,ammaccatura con vernice saltata,Carrozzeria Po,126375,737.0,,NOL-CAS-00612,chiuso
+INT-CAS-0113,CAS-01,2026-08-28,2026-08-30,2.0,carrozzeria,piccola scheggiatura,Autofficina Monferrato,73848,241.0,no,NOL-CAS-00636,chiuso
+INT-CAS-0114,EB-CAS-001,2026-09-01,2026-09-02,1.0,tagliando,tagliando programmato,Bici Service Monferrato,3702,103.0,no,,chiuso
+INT-CAS-0115,CAS-01,2026-09-01,2026-09-02,1.0,carrozzeria,piccola scheggiatura,Carrozzeria Po,74059,131.0,si,NOL-CAS-00645,chiuso
+INT-CAS-0116,CAS-06,2026-09-01,2026-09-10,9.0,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Po,54613,1159.0,,NOL-CAS-00627,chiuso
+INT-CAS-0117,CAS-04,2026-09-02,2026-09-04,2.0,carrozzeria,graffio superficiale,Autofficina Monferrato,45466,230.0,si,,chiuso
+INT-CAS-0118,CAS-03,2026-09-13,2026-09-15,2.0,gomme,piccola scheggiatura,Autofficina Monferrato,52899,158.0,no,NOL-CAS-00629,chiuso
+INT-CAS-0119,EB-CAS-003,2026-09-15,2026-10-04,19.0,bici,,Ciclofficina Casale,4319,804.0,si,NOL-CAS-00664,chiuso
+INT-CAS-0120,EB-CAS-002,2026-09-16,2026-09-17,1.0,bici,manuubrioo leggermente fuorri asne,Ciclofficina Casale,2775,39.0,no,,chiuso
+INT-CAS-0121,CAS-07,2026-09-19,2026-09-25,6.0,carrozzeria,calotta rotta,Autofficina Monferrato,133585,865.0,,NOL-CAS-00684,chiuso
+INT-CAS-0122,EB-CAS-002,2026-09-21,2026-09-23,2.0,bici,leva piegata ma funzionante,Ciclofficina,2858,38.0,si,,chiuso
+INT-CAS-0123,EB-CAS-002,2026-09-22,2026-09-23,1.0,tagliando,tagliando programmato,Bici Service Monferrato,2858,77.0,no,,chiuso
+INT-CAS-0124,CAS-05,2026-09-23,2026-09-25,2.0,tagliando,taglianndo progrsmmato,Autofficina Monferrato,47385,242.0,no,,chiuso
+INT-CAS-0125,CAS-03,2026-10-03,2026-10-10,7.0,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Po,54824,528.0,si,NOL-CAS-00637,chiuso
+INT-CAS-0126,CAS-03,2026-10-10,2026-10-12,2.0,carrozzeria,segni di sfregamento,Autofficina Monferrato,54922,160.0,,NOL-CAS-00750,chiuso
+INT-CAS-0127,EB-CAS-001,2026-10-14,2026-10-15,1.0,tagliando,tagliando programmato,Bici Service Monferrato,4211,75.0,,,chiuso
+INT-CAS-0128,CAS-06,2026-10-17,2026-10-20,3.0,carrozzeria,leggera ammaccatura,Carrozzeria Po,57028,130.0,no,NOL-CAS-00738,chiuso
+INT-CAS-0129,CAS-07,2026-10-18,2026-10-22,4.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Po,135549,563.0,,NOL-CAS-00770,chiuso
+INT-CAS-0130,CAS-04,2026-10-21,2026-11-08,18.0,carrozzeria,danni da sinistro stradale,Autofficina Monferrato,48014,3947.0,no,NOL-CAS-00723,chiuso
+INT-CAS-0131,EB-CAS-002,2026-10-23,2026-10-24,1.0,meccanica,guasto meccanico in noleggio,Bici Service Monferrato,3416,188.0,no,NOL-CAS-00769,chiuso
+INT-CAS-0132,EB-CAS-003,2026-10-23,2026-10-24,1.0,tagliando,tagliando programmato,Bici Service Monferrato,4555,69.0,no,,chiuso
+INT-CAS-0133,EB-CAS-002,2026-10-23,2026-10-24,1.0,tagliando,tagliando programmato,Bici Service Monferrato,3416,93.0,no,,chiuso
+INT-CAS-0134,CAS-07,2026-04-11,2026-05-11,30.0,pulizia profonda,pulizia straordinaria,Carrozzeria Po,136829,68.0,si,NOL-CAS-00701,chiuso
+INT-CAS-0135,CAS-01,2026-11-06,2026-11-08,2.0,meccanica,guasto meccanico in noleggio,,79720,77.0,no,NOL-CAS-00803,chiuso
+INT-CAS-0136,CAS-03,2026-11-06,2026-11-09,3.0,tagliando,tagliando programmato,Autofficina Monferrato,56573,313.0,no,,chiuso
+INT-CAS-0137,CAS-07,2026-11-07,,,carrozzeria,deformazione importante,Carrozzeria,136966,606.6,no,NOL-CAS-00800,in corso
+INT-CAS-0138,CAS-05,2026-11-10,,,carrozzeria,rottura con perdita di liquidi,Carrozzeria Po,50810,3265.0,no,NOL-CAS-00805,in corso
+INT-STR-0001,EB-STR-003,2025-11-03,2025-11-10,7.0,bici,forcella e ruota da sostituire,Bike Service Lago,2593,576.0,si,NOL-STR-00001,chiuso
+INT-STR-0002,EB-STR-002,2025-11-05,2025-11-08,3.0,bici,cambio posteriore rotto,Ciclofficina Stresa,989,236.0,no,NOL-STR-00013,chiuso
+INT-STR-0003,STR-06,2025-11-06,2025-11-07,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,31222,91.0,,,chiuso
+INT-STR-0004,STR-01,2025-11-07,2025-11-08,1.0,cambio gomme invernali,cambio stagionale,Autofficina Lago Maggiore,50618,63.0,no,,chiuso
+INT-STR-0005,STR-06,2025-11-08,2025-11-12,4.0,assistenza,intervento dopo assistenza stradale,Carrozzeria,31371,617.0,no,NOL-STR-00021,chiuso
+INT-STR-0006,STR-03,2025-11-09,2025-11-10,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,65316,85.0,no,,chiuso
+INT-STR-0007,STR-02,2025-11-13,2025-11-14,1.0,cambio gomme invernali,cambio stagionale,Autofficina Lago Maggiore,38715,88.0,no,,chiuso
+INT-STR-0008,STR-04,2025-11-13,2025-11-14,1.0,cambio gomme invernali,cambio stagionale,Autofficina Lago Maggiore,30276,75.0,no,,chiuso
+INT-STR-0009,STR-07,2025-11-15,2025-11-16,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,120113,92.0,no,,chiuso
+INT-STR-0010,EB-STR-004,2025-11-16,2025-11-20,4.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Stresa,875,152.0,no,NOL-STR-00029,chiuso
+INT-STR-0011,STR-06,2025-11-19,2025-11-23,4.0,meccanica,guasto meccanico in noleggio,Carrozzeria Verbano,31643,555.0,no,NOL-STR-00030,chiuso
+INT-STR-0012,STR-02,2025-11-24,2025-11-28,4.0,vetri,graffio profondo fino alla lamiera,Autofficina Lago Maggiore,39004,401.0,si,NOL-STR-00005,chiuso
+INT-STR-0013,STR-05,2025-11-24,2025-11-25,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Verbano,61855,55.0,no,,chiuso
+INT-STR-0014,STR-07,2025-11-27,2025-11-29,2.0,carrozzeria,graffio superficiale,Carrozzeria Verbano,120234,112.0,si,NOL-STR-00040,chiuso
+INT-STR-0015,STR-02,2025-12-07,2025-12-08,1.0,assistenza,intervento dopo assistenza stradale,Autofficina Lago Maggiore,39611,389.0,no,NOL-STR-00053,chiuso
+INT-STR-0016,STR-03,2025-12-07,2025-12-09,2.0,tagliando,tagliando programmato,Autofficina Lago Maggiore,67134,270.0,no,,chiuso
+INT-STR-0017,STR-02,2025-12-14,2025-12-22,8.0,carrozzeria,graffio profondo fino alla lamier,Autofficina Lago Maggiore,40039,435.0,si,NOL-STR-00048,chiuso
+INT-STR-0018,STR-04,2025-12-31,2026-01-01,1.0,carrozzeria,striscso di vernice,Autofficina,33738,116.0,no,,chiuso
+INT-STR-0019,STR-02,2026-01-01,2026-01-05,4.0,carrozzeria,danno da urto 20-30 cm,Autofficina Lago Maggiore,40291,498.0,si,NOL-STR-00024,chiuso
+INT-STR-0020,EB-STR-004,2026-01-02,2026-01-08,6.0,bici,display rotto,Bike Service Lago,943,94.0,no,NOL-STR-00091,chiuso
+INT-STR-0021,EB-STR-002,2026-01-10,2026-01-17,7.0,bici,display rotto,Bike Service Lago,1369,113.0,,NOL-STR-00098,chiuso
+INT-STR-0022,STR-02,2026-01-12,2026-01-13,1.0,carrozzeria,striscio di vernice,,42060,98.0,no,NOL-STR-00072,chiuso
+INT-STR-0023,STR-04,2026-01-19,2026-01-20,1.0,tagliando,tagliando programmato,Carrozzeria Verbano,34285,349.0,,,chiuso
+INT-STR-0024,EB-STR-004,2026-01-22,2026-01-23,1.0,tagliando,tagliando programmato,Bike Service Lago,971,80.0,no,,chiuso
+INT-STR-0025,STR-02,2026-01-31,2026-02-03,3.0,tagliando,tagliando programmato,Carrozzeria Verbano,43666,169.0,no,,chiuso
+INT-STR-0026,STR-06,2026-06-02,2026-07-02,30.0,tagliando,tagliando programmmato,Autofficina Lago Maggiore,41768,321.0,no,,chiuso
+INT-STR-0027,EB-STR-002,2026-02-13,2026-02-14,1.0,bici,graffi sul telaio,Bike Service Lago,1426,59.0,si,NOL-STR-00143,chiuso
+INT-STR-0028,EB-STR-002,2026-02-13,2026-02-14,1.0,tagliando,,Ciclofficina Stresa,1426,61.0,no,,chiuso
+INT-STR-0029,EB-STR-003,2026-02-17,2026-03-07,18.0,bici,telaio incrinato,Bike,2731,466.0,no,NOL-STR-00089,chiuso
+INT-STR-0030,STR-04,2026-02-17,2026-03-16,27.0,carrozzeria,danni da sinistro stradale,Carrozzeria Verbano,37267,494.2,,NOL-STR-00112,chiuso
+INT-STR-0031,STR-07,2026-03-01,2026-03-07,6.0,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,125795,437.0,si,NOL-STR-00127,chiuso
+INT-STR-0032,EB-STR-001,2026-03-05,2026-03-06,1.0,tagliando,tagliando programmato,Bike Service Lago,2352,,,,chiuso
+INT-STR-0033,STR-05,2026-03-08,2026-03-10,2.0,carrozzeria,piccola scheggiatura,Autofficina Lago Maggiore,71781,94.0,si,NOL-STR-00192,chiuso
+INT-STR-0034,STR-05,2026-03-08,2026-03-10,2.0,gomme,sostituzione pneumatico,Carrozzeria Verbano,71781,600.0,,NOL-STR-00192,chiuso
+INT-STR-0035,EB-STR-003,2026-03-09,2026-03-10,1.0,tagliando,tagliando programmato,Bike Service Lago,2731,75.0,no,,chiuso
+INT-STR-0036,STR-01,2026-03-10,2026-03-14,4.0,meccanica,guasto meccanico in noleggio,Autofficina Lago Maggiore,62438,389.0,no,NOL-STR-00187,chiuso
+INT-STR-0037,STR-05,2026-03-17,2026-03-18,1.0,carrozzeria,segni di sfregamento,Carrozzeria Verbano,72256,111.0,no,NOL-STR-00202,chiuso
+INT-STR-0038,STR-06,2026-03-21,2026-03-28,7.0,carrozzeria,ammaccatura con vernice saltata,Carrozzeria Verbano,45553,483.0,si,NOL-STR-00223,chiuso
+INT-STR-0039,STR-03,2026-03-30,2026-04-08,9.0,meccanica,guasto meccanico in noleggio,Carrozzeria Verbano,77356,578.0,no,,chiuso
+INT-STR-0040,STR-01,2026-03-31,2026-04-03,3.0,tagliando,tagliando programmato,Autofficina Lago Maggiore,63752,,,,chiuso
+INT-STR-0041,EB-STR-002,2026-04-03,2026-04-04,1.0,meccanica,guasto meccanico in noleggio,Ciclofficina Stresa,1781,207.0,no,NOL-STR-00245,chiuso
+INT-STR-0042,STR-07,2026-04-03,2026-04-30,27.0,vetri,deformazione importante,Carrozzeria Verbano,128880,502.0,no,NOL-STR-00238,chiuso
+INT-STR-0043,STR-05,2026-04-04,2026-04-06,2.0,tagliando,tagliando programmato,Autofficina Lago Maggiore,75120,,no,,chiuso
+INT-STR-0044,EB-STR-004,2026-04-09,2026-04-13,4.0,bici,forcella piegata,Bike Service Lago,1428,346.0,no,NOL-STR-00276,chiuso
+INT-STR-0045,EB-STR-003,2026-04-10,2026-04-12,2.0,gomme,sostituzione pneumatico,Ciclofficina Stresa,3158,296.0,no,NOL-STR-00252,chiuso
+INT-STR-0046,STR-03,2026-04-10,2026-04-11,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Verbano,77632,23.0,si,NOL-STR-00279,chiuso
+INT-STR-0047,EB-STR-001,2026-04-10,2026-04-14,4.0,bici,forcella piegata,Bike Service Lago,2552,100.0,si,NOL-STR-00241,chiuso
+INT-STR-0048,STR-02,2026-04-13,2026-04-20,7.0,carrozzeria,danni da sinistro stradale,Carrozzeria Verbano,49265,612.2,no,,chiuso
+INT-STR-0049,EB-STR-003,2026-04-17,2026-04-18,1.0,tagliando,tagliando programmato,Bike Service Lago,3260,92.0,no,,chiuso
+INT-STR-0050,EB-STR-001,2026-04-17,2026-04-18,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Stresa,2596,63.0,si,NOL-STR-00236,chiuso
+INT-STR-0051,STR-03,2026-04-17,2026-04-19,2.0,cambio gomme estive,cambioo tagionale,Carrozzeria Verbano,78306,65.0,no,,chiuso
+INT-STR-0052,STR-06,2026-04-18,2026-04-19,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Verbano,48101,59.0,,,chiuso
+INT-STR-0053,EB-STR-004,2026-04-18,2026-04-20,2.0,tagliando,tagliaido programmato,Ciclofficina Stresa,1510,106.0,no,,chiuso
+INT-STR-0054,STR-01,2026-04-22,2026-04-24,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Verbano,65640,60.0,,,chiuso
+INT-STR-0055,EB-STR-002,2026-04-25,2026-04-26,1.0,pulizia profonda,pulizia straordinaria,Bike Service Lago,1979,30.0,si,NOL-STR-00277,chiuso
+INT-STR-0056,EB-STR-002,2026-04-25,2026-04-27,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,1979,77.0,no,,chiuso
+INT-STR-0057,EB-STR-003,2026-04-27,2026-04-29,2.0,bici,leva piegata ma funzionante,Bike Service Lago,3382,89.0,no,NOL-STR-00270,chiuso
+INT-STR-0058,STR-01,2026-04-28,2026-05-07,9.0,carrozzeria,crepa estesa,Carrozzeria Verbano,65942,393.0,si,NOL-STR-00327,chiuso
+INT-STR-0059,STR-02,2026-04-29,2026-05-01,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Verbano,50476,70.0,no,,chiuso
+INT-STR-0060,STR-07,2026-04-30,2026-05-01,1.0,cambio gomme estive,cambio stagionale,Autofficina Lago Maggiore,128880,78.0,,,chiuso
+INT-STR-0061,STR-04,2026-04-30,2026-05-02,2.0,cambio gomme estive,cambio stagionale,Autofficina Lago Maggiore,41268,86.0,no,,chiuso
+INT-STR-0062,STR-05,2026-05-01,2026-05-02,1.0,gomme,csmbo staagionale,Autofficina Lago Maggiore,77619,69.0,no,,chiuso
+INT-STR-0063,EB-STR-001,2026-05-02,2026-05-03,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,3114,49.0,no,,chiuso
+INT-STR-0064,EB-STR-002,2026-05-06,2026-05-09,3.0,bici,forcella piegata,Bike Service Lago,2079,151.0,si,NOL-STR-00353,chiuso
+INT-STR-0065,EB-STR-002,2026-05-06,2026-05-08,2.0,elettrico/batteria,guasto elettoico/batteria,Bike Service Lago,2079,618.0,no,NOL-STR-00353,chiuso
+INT-STR-0066,STR-02,2026-05-07,2026-05-10,3.0,carrozzeria,crepa estesa,Carrozzeria,,637.0,si,NOL-STR-00291,chiuso
+INT-STR-0067,STR-07,2026-05-09,2026-05-12,3.0,tagliando,tagliando programmato,Autofficina Lago Maggiore,129396,344.0,,,chiuso
+INT-STR-0068,STR-01,2026-05-11,2026-06-07,27.0,carrozzeria,urto forte con piu' elementi coinvolti,Carrozzeria Verbano,66147,1633.0,si,NOL-STR-00358,chiuso
+INT-STR-0069,EB-STR-001,2026-05-12,2026-05-14,2.0,gomme,sostituzione pneumatico,Ciclofficina Stresa,3272,163.0,no,NOL-STR-00366,chiuso
+INT-STR-0070,EB-STR-003,2026-05-15,2026-05-17,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,3991,,no,,chiuso
+INT-STR-0071,EB-STR-004,2026-05-17,2026-05-19,2.0,tagliando,tagliando programato,Ciclofficina Stresa,2076,,,,chiuso
+INT-STR-0072,STR-07,2026-05-18,2026-05-30,12.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Verbano,130259,598.0,,NOL-STR-00298,chiuso
+INT-STR-0073,STR-06,2026-05-21,2026-05-26,5.0,gomme,sostituzione pneumatico,Autofficina Lago Maggiore,51498,386.0,no,NOL-STR-00403,chiuso
+INT-STR-0074,EB-STR-004,2026-05-26,2026-06-15,20.0,bici,telaio incrinato,Bike Service Lago,2207,107.3,si,NOL-STR-00410,chiuso
+INT-STR-0075,STR-06,2026-05-27,2026-06-04,8.0,carrozzeria,danno da urto 20-30 cm,Autofficina,51576,964.0,no,NOL-STR-00432,chiuso
+INT-STR-0076,EB-STR-001,2026-05-28,2026-05-30,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,3750,103.0,no,,chiuso
+INT-STR-0077,EB-STR-003,2026-05-31,2026-06-02,2.0,bici,cerchio storto,Bike Service Lago,4389,244.0,si,,chiuso
+INT-STR-0078,EB-STR-002,2026-06-04,2026-06-06,2.0,bici,leva piegata ma funzionante,Ciclofficina Stresa,2517,51.0,si,NOL-STR-00467,chiuso
+INT-STR-0079,EB-STR-002,2026-06-05,2026-06-06,1.0,tagliando,tagliando programmato,Bike Service Lago,2517,97.0,,,chiuso
+INT-STR-0080,STR-07,2026-06-10,2026-06-11,1.0,pulizia profonda,pulizia straordinaria,Autofficina Lago Maggiore,131394,55.0,si,NOL-STR-00364,chiuso
+INT-STR-0081,STR-03,2026-06-10,2026-06-13,3.0,tagliando,tagliando proggrammato,Carrozzeria,82399,341.0,no,,chiuso
+INT-STR-0082,STR-01,2026-06-12,2026-06-13,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Verbano,66384,48.0,si,NOL-STR-00485,chiuso
+INT-STR-0083,STR-02,2026-06-16,2026-06-22,6.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Verbano,53909,133.0,no,NOL-STR-00476,chiuso
+INT-STR-0084,EB-STR-003,2026-06-17,2026-06-18,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,4512,43.0,no,,chiuso
+INT-STR-0085,EB-STR-002,2026-06-18,2026-06-19,1.0,meccanica,guasto meccanico in noleggio,Bike Service Lago,2723,614.0,,NOL-STR-00512,chiuso
+INT-STR-0086,EB-STR-001,2026-06-25,2026-06-27,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,4376,100.0,no,,chiuso
+INT-STR-0087,STR-07,2026-06-26,2026-06-27,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Verbano,,38.0,si,NOL-STR-00530,chiuso
+INT-STR-0088,STR-01,2026-06-28,2026-07-10,12.0,carrozzeria,danni da sinistro stradale,Carrozzeria Verbano,68555,4161.0,,NOL-STR-00499,chiuso
+INT-STR-0089,STR-03,2026-07-01,2026-07-03,2.0,carrozzeria,leggera ammaccatura,Carrozzeria Verbano,,192.0,no,NOL-STR-00427,chiuso
+INT-STR-0090,EB-STR-002,2026-07-02,2026-07-04,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Stresa,3036,602.0,,,chiuso
+INT-STR-0091,EB-STR-002,2026-07-03,2026-07-05,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,3036,80.0,,,chiuso
+INT-STR-0092,EB-STR-001,2026-07-03,2026-07-06,3.0,bici,sraffi sul telaio,Ciclofficina Stresa,4520,21.0,no,,chiuso
+INT-STR-0093,EB-STR-004,2026-07-05,2026-07-07,2.0,tagliando,tagliando programmato,Bike Service Lago,2582,65.0,no,,chiuso
+INT-STR-0094,EB-STR-001,2026-07-07,2026-07-12,5.0,bici,cambio posteriore rotto,Ciclofficina Stresa,4538,388.0,,NOL-STR-00578,chiuso
+INT-STR-0095,EB-STR-004,2026-07-11,2026-07-16,5.0,bici,display rotto,Ciclofficina Stresa,2687,172.0,si,NOL-STR-00577,chiuso
+INT-STR-0096,EB-STR-003,2026-07-14,2026-07-15,1.0,tagliando,tagliando programmato,,5055,70.0,no,,chiuso
+INT-STR-0097,EB-STR-004,2026-07-17,2026-07-23,6.0,bici,cerchio storto,Bike Service Lago,2736,188.0,si,NOL-STR-00582,chiuso
+INT-STR-0098,EB-STR-002,2026-07-17,2026-07-18,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Stresa,3172,27.0,si,NOL-STR-00604,chiuso
+INT-STR-0099,STR-07,2026-07-20,2026-08-11,22.0,carrozzeria,deformazione importante,Autofficina Lago Maggiore,134824,3950.0,si,NOL-STR-00551,chiuso
+INT-STR-0100,EB-STR-002,2026-07-21,2026-07-23,2.0,bici,manubrio leggermnte fuori asse,Bike Service Lago,3191,67.0,si,NOL-STR-00617,chiuso
+INT-STR-0101,EB-STR-002,2026-07-24,2026-07-25,1.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Stresa,3218,452.0,no,NOL-STR-00487,chiuso
+INT-STR-0102,STR-04,2026-07-27,2026-08-04,8.0,vetri,graffio profondo fino alla lamiera,Carrozzeria Verbano,48816,445.0,si,NOL-STR-00612,chiuso
+INT-STR-0103,EB-STR-002,2026-07-27,2026-07-29,2.0,bici,,Ciclofficina Stresa,3247,40.0,,NOL-STR-00630,chiuso
+INT-STR-0104,STR-02,2026-07-28,2026-07-29,1.0,tagliando,tagoiando programmato,Autofficina Lago Maggiore,58811,176.0,no,,chiuso
+INT-STR-0105,EB-STR-001,2026-07-30,2026-07-31,1.0,tagliando,tagliando programmato,Bike Service Lago,4993,64.0,no,,chiuso
+INT-STR-0106,STR-03,2026-07-31,2026-08-02,2.0,meccanica,guasto meccanico in noleggio,Carrozzeria Verbano,87569,496.0,no,NOL-STR-00639,chiuso
+INT-STR-0107,STR-06,2026-08-01,2026-08-02,1.0,gomme,piccola scheggiatura,Carrozzeria Verbano,57031,193.0,si,NOL-STR-00651,chiuso
+INT-STR-0108,STR-06,2026-08-01,2026-08-02,1.0,tagliando,tagliando programmato,Autofficina Lago Maggiore,57031,374.0,,,chiuso
+INT-STR-0109,EB-STR-003,2026-08-03,2026-08-08,5.0,bici,cambio posteriore rotto,Bike Service Lago,5545,184.0,si,NOL-STR-00647,chiuso
+INT-STR-0110,EB-STR-001,2026-08-06,2026-08-12,6.0,bici,display rotto,Bike Service Lago,5072,417.0,no,,chiuso
+INT-STR-0111,EB-STR-001,2026-08-06,2026-08-07,1.0,meccanica,guasto mmeccanico n noleggio,Ciclofficina Stresa,5072,489.0,,NOL-STR-00648,chiuso
+INT-STR-0112,EB-STR-003,2026-08-09,2026-08-10,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,5558,84.0,no,,chiuso
+INT-STR-0113,STR-06,2026-08-11,2026-08-16,5.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Verbano,57886,433.0,,,chiuso
+INT-STR-0114,STR-04,2026-08-12,2026-08-13,1.0,tagliando,tagliando programmato,Carrozzeria Verbano,49426,415.0,no,,chiuso
+INT-STR-0115,EB-STR-004,2026-08-13,2026-08-14,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,3087,59.0,no,,chiuso
+INT-STR-0116,EB-STR-002,2026-08-16,2026-08-17,1.0,bici,,Ciclofficina Stresa,3569,32.0,si,NOL-STR-00705,chiuso
+INT-STR-0117,STR-03,2026-08-16,2026-08-18,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Verbano,,61.0,si,NOL-STR-00519,chiuso
+INT-STR-0118,EB-STR-002,2026-08-16,2026-08-17,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,3569,43.0,,,chiuso
+INT-STR-0119,EB-STR-001,2026-08-21,2026-08-23,2.0,pulizia profonda,pulizia straordinaria,Ciclofficina Stresa,5251,66.0,si,,chiuso
+INT-STR-0120,STR-01,2026-08-23,2026-08-30,7.0,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,73790,1124.0,no,,chiuso
+INT-STR-0121,STR-06,2026-08-26,2026-08-27,1.0,assistenza,intervento dopo assistenza stradale,Autofficina Lago Maggiore,58380,226.0,no,NOL-STR-00740,chiuso
+INT-STR-0122,EB-STR-004,2026-08-29,2026-09-01,3.0,bici,forcella piegata,Bike Service Lago,3526,249.0,no,NOL-STR-00744,chiuso
+INT-STR-0123,STR-07,2026-08-31,2026-09-05,5.0,vetri,ammaccatura con vernice saltata,Carrozzeria Verbano,136078,826.0,,NOL-STR-00750,chiuso
+INT-STR-0124,STR-02,2026-09-01,2026-09-09,8.0,carrozzeria,graffio profondo fino alla lamiera,,60727,807.0,no,,chiuso
+INT-STR-0125,STR-05,2026-09-01,2026-09-04,3.0,tagliando,tagliando programmato,Carrozzeria Verbano,90769,,,,chiuso
+INT-STR-0126,EB-STR-002,2026-09-02,2026-09-03,1.0,bici,graffi sul telaio,Bike Service Lago,3904,30.0,no,,chiuso
+INT-STR-0127,EB-STR-001,2026-09-05,2026-09-06,1.0,tagliando,,Bike,5522,44.0,,,chiuso
+INT-STR-0128,STR-04,2026-09-08,2026-09-16,8.0,meccanica,guasto meccanico in noleggio,Autofficina Lago Maggiore,51761,,,NOL-STR-00761,chiuso
+INT-STR-0129,STR-05,2026-09-09,2026-09-10,1.0,gomme,sostituzione pneumatico,,90849,361.0,no,NOL-STR-00776,chiuso
+INT-STR-0130,EB-STR-002,2026-09-10,2026-09-12,2.0,tagliando,tagliando programmato,Ciclofficina Stresa,4277,75.0,no,,chiuso
+INT-STR-0131,EB-STR-003,2026-09-12,2026-09-13,1.0,tagliando,tagliando programmato,Bike Service Lago,6101,96.0,,,chiuso
+INT-STR-0132,EB-STR-004,2026-09-13,2026-09-14,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,3595,92.0,no,,chiuso
+INT-STR-0133,EB-STR-002,2026-09-14,2026-09-15,1.0,bici,manubrio leggermente fuori asse,Ciclofficina Stresa,4420,65.0,no,,chiuso
+INT-STR-0134,EB-STR-004,2026-09-15,2026-09-17,2.0,pulizia profonda,tulizia straodinaria,Ciclofficina Stresa,3623,25.0,si,NOL-STR-00791,chiuso
+INT-STR-0135,STR-07,2026-09-21,2026-10-05,14.0,carrozzeria,danni da sinistro stradale,,137307,738.4,,NOL-STR-00789,chiuso
+INT-STR-0136,EB-STR-001,2026-09-27,2026-09-29,2.0,meccanica,guasto meccanico in noleggio,Ciclofficina Stresa,6036,100.0,no,NOL-STR-00844,chiuso
+INT-STR-0137,STR-02,2026-09-28,2026-10-05,7.0,elettrico/batteria,,Carrozzeria Verbano,62946,100.0,no,NOL-STR-00819,chiuso
+INT-STR-0138,EB-STR-001,2026-09-28,2026-09-30,2.0,tagliando,tagliando programmato,Bike Service Lago,6036,51.0,no,,chiuso
+INT-STR-0139,STR-05,2026-09-29,2026-10-02,3.0,carrozzeria,striscio di vernicce,Carrozzeria Verbano,,250.0,no,NOL-STR-00825,chiuso
+INT-STR-0140,EB-STR-002,2026-10-01,2026-10-02,1.0,tagliando,tagliando programmato [incomprensibile],Ciclofficina Stresa,4806,74.0,no,,chiuso
+INT-STR-0141,STR-05,2026-10-03,2026-10-12,9.0,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Lago Maggiore,,373.0,si,NOL-STR-00850,chiuso
+INT-STR-0142,STR-01,2026-10-03,2026-10-24,21.0,carrozzeria,"elemento distrutto, da sostituire",Autofficina Lago Maggiore,77392,1536.0,no,NOL-STR-00822,chiuso
+INT-STR-0143,EB-STR-003,2026-10-03,2026-10-05,2.0,bici,graffi sul telaio,Bike Service Lago,6403,74.0,si,,chiuso
+INT-STR-0144,EB-STR-003,2026-10-06,2026-10-07,1.0,bici,manubrio leggermente fuori asse,Ciclofficina Stresa,6439,47.0,no,NOL-STR-00859,chiuso
+INT-STR-0145,EB-STR-003,2026-10-15,2026-10-17,2.0,bici,cerchio storto,Ciclofficina Stresa,6577,333.0,si,NOL-STR-00875,chiuso
+INT-STR-0146,EB-STR-003,2026-10-23,2026-10-24,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,6623,41.0,no,,chiuso
+INT-STR-0147,,2026-10-23,2026-10-24,1.0,tagliando,tagliando programmato,Ciclofficina Stresa,4119,41.0,no,,chiuso
+INT-STR-0148,EB-STR-001,2026-10-25,2026-10-26,1.0,bici,manubrio leggermente fuori asse,Ciclofficina Stresa,6313,88.0,no,NOL-STR-00903,chiuso
+INT-STR-0149,EB-STR-001,2026-10-27,2026-10-30,3.0,meccanica,guasto meccanico in noleggio,Bike Service Lago,6354,129.0,no,NOL-STR-00902,chiuso
+INT-STR-0150,EB-STR-003,2026-10-29,2026-11-02,4.0,bici,display rotto,Bike Service Lago,6664,372.0,si,NOL-STR-00804,chiuso
+INT-STR-0151,STR-03,2026-10-29,2026-11-01,3.0,meccanica,guasto meccanico in noleggio,Autofficina Lago Maggiore,97232,,no,NOL-STR-00899,chiuso
+INT-STR-0152,STR-03,2026-11-03,,,vetri,calotta rotta,Autofficina Lago Maggiore,97438,1191.0,no,NOL-STR-00813,in corso
+INT-STR-0153,STR-06,2026-11-05,2026-11-09,4.0,meccanica,guasto meccanico in noleggio,Carrozzeria Verbano,64169,680.0,no,NOL-STR-00882,chiuso
+INT-STR-0154,STR-04,2026-11-07,,,carrozzeria,,Autofficina Lago Maggiore,58649,2715.0,si,NOL-STR-00919,in corso
+INT-STR-0155,STR-01,2026-11-10,,,tagliando,tagliando programmato,Carrozzeria Verbano,80808,284.0,no,,in corso
+INT-STR-0156,EB-STR-001,2026-11-10,2026-11-12,2.0,meccanica,guasto meccanico in noleggio,Bike Service Lago,6482,251.0,no,NOL-STR-00921,chiuso
+INT-TOR-0001,TOR-17,2025-11-04,2025-11-06,2.0,carrozzeria,striscio di vernice,Carrozzeria Bruno,34666,90.0,si,NOL-TOR-00057,chiuso
+INT-TOR-0002,TOR-10,2025-11-05,2025-11-06,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Bruno,19747,79.0,no,,chiuso
+INT-TOR-0003,TOR-12,2025-11-06,2025-11-07,1.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,70769,80.0,no,,chiuso
+INT-TOR-0004,EB-TOR-005,2025-11-07,2025-11-09,2.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Torino,2089,217.0,,NOL-TOR-00007,chiuso
+INT-TOR-0005,EB-TOR-001,2025-11-09,2025-11-29,20.0,bici,forcella e ruota da sostituire,Bici Service Torino,1338,,si,NOL-TOR-00032,chiuso
+INT-TOR-0006,TOR-15,2025-11-09,2025-11-11,2.0,gomme,csmbio stagionale,Autofficina Piemonte Service,44304,83.0,no,,chiuso
+INT-TOR-0007,TOR-08,2025-11-10,2025-11-26,16.0,carrozzeria,"danno strutturale sospetto, non guidabile",Carrozzeria Bruno,66860,2336.0,si,NOL-TOR-00081,chiuso
+INT-TOR-0008,TOR-17,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,34917,64.0,,,chiuso
+INT-TOR-0009,TOR-02,2025-11-10,2025-11-11,1.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,48765,55.0,no,,chiuso
+INT-TOR-0010,TOR-04,2025-11-11,2025-11-13,2.0,gomme,cambio stagionale,Carrozzeria Bruno,23719,84.0,no,,chiuso
+INT-TOR-0011,TOR-06,2025-11-12,2025-11-13,1.0,cambio gomme invernali,,Autofficina Piemonte Service,,81.0,no,,chiuso
+INT-TOR-0012,TOR-16,2025-11-12,2025-11-14,2.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,73305,,,,chiuso
+INT-TOR-0013,TOR-13,2025-11-13,2025-11-14,1.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,34491,730.0,,,chiuso
+INT-TOR-0014,TOR-05,2025-11-14,2025-11-15,1.0,gomme,cambio stagionale,Autofficina Piemonte Service,34386,91.0,no,,chiuso
+INT-TOR-0015,TOR-14,2025-11-14,2025-11-16,2.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,84839,94.0,no,,chiuso
+INT-TOR-0016,TOR-01,2025-11-16,2025-11-17,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Bruno,78160,63.0,no,,chiuso
+INT-TOR-0017,TOR-03,2025-11-16,2025-11-18,2.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,42825,95.0,no,,chiuso
+INT-TOR-0018,TOR-17,2025-11-17,2025-11-23,6.0,carrozzeria,dannii da sinistro stradale,Autofficina Piemonte Service,35279,540.3,no,NOL-TOR-00102,chiuso
+INT-TOR-0019,TOR-07,2025-11-17,2025-11-18,1.0,cambio gomme invernali,cambio stagionale,Carrozzeria Bruno,116471,61.0,,,chiuso
+INT-TOR-0020,EB-TOR-005,2025-11-19,2025-11-20,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Lingotto,2162,53.0,si,NOL-TOR-00126,chiuso
+INT-TOR-0021,TOR-13,2025-11-20,2025-11-22,2.0,carrozzeria,,Autofficina Piemonte Service,34906,1680.0,no,NOL-TOR-00036,chiuso
+INT-TOR-0022,EB-TOR-002,2025-11-21,2025-12-03,12.0,bici,telaio incrinato,Bici Service Torino,2197,115.8,si,NOL-TOR-00130,chiuso
+INT-TOR-0023,EB-TOR-002,2025-11-21,2025-11-23,2.0,gomme,sostituziioe pneumatico,Bici Service Torino,2197,336.0,no,NOL-TOR-00130,chiuso
+INT-TOR-0024,TOR-05,2025-11-22,2025-11-24,2.0,meccanica,guasto meccanico in nleggio,Autofficina Piemonte Service,34686,,no,NOL-TOR-00135,chiuso
+INT-TOR-0025,TOR-11,2025-11-22,2025-11-23,1.0,gomme,cambio stagionale,Carrozzeria Bruno,24185,88.0,,,chiuso
+INT-TOR-0026,TOR-02,2025-11-22,2025-12-15,23.0,carrozzeria,,Carrozzeria Bruno,49219,2008.0,no,NOL-TOR-00031,chiuso
+INT-TOR-0027,TOR-07,2025-11-24,2025-11-26,2.0,assistenza,intervento dopo assistenza stradale,Autofficina,117043,154.0,no,NOL-TOR-00106,chiuso
+INT-TOR-0028,TOR-14,2025-11-24,2025-11-26,2.0,carrozzeria,,Carrozzeria Bruno,85295,141.0,no,NOL-TOR-00143,chiuso
+INT-TOR-0029,TOR-09,2025-11-24,2025-11-25,1.0,cambio gomme invernali,cambio stagionale,Autofficina Piemonte Service,48564,89.0,,,chiuso
+INT-TOR-0030,TOR-17,2025-11-26,2025-11-27,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,35461,53.0,si,NOL-TOR-00140,chiuso
+INT-TOR-0031,TOR-08,2025-11-26,2025-11-27,1.0,cambio gomme invernali,cambio stagonale,Autofficina Piemonte Service,66860,,,,chiuso
+INT-TOR-0032,TOR-15,2025-11-26,2025-12-22,26.0,carrozzeria,danni da sinistro stradale,Autofficina Piemonte Service,44909,499.1,,NOL-TOR-00149,chiuso
+INT-TOR-0033,EB-TOR-005,2025-11-27,2025-11-30,3.0,assistenza,intervento dopo assistenza stradale,Bici Service Torino,2393,324.0,,,chiuso
+INT-TOR-0034,EB-TOR-005,2025-11-29,2025-12-01,2.0,tagliando,tagliano programmato,,2393,75.0,no,,chiuso
+INT-TOR-0035,EB-TOR-003,2025-12-01,2025-12-02,1.0,bici,graffi sul telaio,Bici Service Torino,923,82.0,no,NOL-TOR-00021,chiuso
+INT-TOR-0036,TOR-05,2025-12-01,2025-12-03,2.0,carrozzeria,segni di snregamento,Carrozzeria Bruno,35104,130.0,si,,chiuso
+INT-TOR-0037,TOR-03,2025-12-02,2025-12-05,3.0,carrozzeria,graffio superficiale,Carrozzeria Bruno,43902,84.0,si,NOL-TOR-00125,chiuso
+INT-TOR-0038,TOR-10,2025-12-03,2025-12-08,5.0,carrozzeria,crepa estesa,Autofficina Piemonte Service,22570,453.0,,NOL-TOR-00181,chiuso
+INT-TOR-0039,TOR-16,2025-12-04,2025-12-05,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,,46.0,si,NOL-TOR-00173,chiuso
+INT-TOR-0040,TOR-04,2025-12-04,2025-12-24,20.0,carrozzeria,deformazione importante,Autofficina Piemonte Service,25194,3754.0,si,NOL-TOR-00105,chiuso
+INT-TOR-0041,TOR-03,2025-07-12,2025-08-12,31.0,carrozzeria,striscio di vernice,Carrozzeria Bruno,44312,,si,,chiuso
+INT-TOR-0042,TOR-16,2025-12-18,2026-01-03,16.0,carrozzeria,deformazione importante,Autofficina Piemonte Service,75412,4068.0,si,,chiuso
+INT-TOR-0043,TOR-14,2025-12-21,2025-12-26,5.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,87286,181.0,,,chiuso
+INT-TOR-0044,TOR-03,2025-12-22,2025-12-23,1.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,44997,42.0,si,NOL-TOR-00238,chiuso
+INT-TOR-0045,TOR-06,2025-12-22,2025-12-23,1.0,gomme,segni di sfregamento,Autofficina Piemonte Service,35594,112.0,,,chiuso
+INT-TOR-0046,EB-TOR-001,2025-12-23,2025-12-25,2.0,tagliando,tagliando programmato,Ciclofficina Lingotto,1486,64.0,,,chiuso
+INT-TOR-0047,TOR-08,2025-12-24,2025-12-28,4.0,vetri,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,68688,1097.0,si,NOL-TOR-00244,chiuso
+INT-TOR-0048,TOR-05,2026-01-05,2026-01-06,1.0,carrozzeria,piccola scheggiatura,Carrozzeria Bruno,38002,203.0,,NOL-TOR-00205,chiuso
+INT-TOR-0049,TOR-16,2026-01-06,2026-01-11,5.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,76046,236.0,,NOL-TOR-00275,chiuso
+INT-TOR-0050,TOR-09,2026-01-07,2026-02-05,29.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,51081,476.9,no,NOL-TOR-00292,chiuso
+INT-TOR-0051,TOR-07,2026-01-10,2026-01-12,2.0,carrozzeria,segni di sfregamento,Carrozzeria Bruno,119529,223.0,si,NOL-TOR-00297,chiuso
+INT-TOR-0052,TOR-05,2026-01-11,2026-01-13,2.0,carrozzeria,graffio superficiale,Autofficina Piemonte Service,38186,172.0,no,NOL-TOR-00306,chiuso
+INT-TOR-0053,TOR-12,2026-01-11,2026-01-13,2.0,tagliando,tagliando piogramato,Carrozzeria Bruno,75297,365.0,,,chiuso
+INT-TOR-0054,TOR-05,2026-01-15,2026-01-22,7.0,vetri,ammaccatura con vernice saltata,Carrozzeria Bruno,38222,929.0,si,NOL-TOR-00316,chiuso
+INT-TOR-0055,TOR-02,2026-01-15,2026-01-16,1.0,tagliando,tagliando programmato,Autofficina Piemonte Service,52203,400.0,no,,chiuso
+INT-TOR-0056,EB-TOR-002,2026-01-19,2026-01-22,3.0,bici,leva piegata ma funzionante,Ciclofficina Lingotto,2305,67.0,si,,chiuso
+INT-TOR-0057,TOR-10,2026-01-21,2026-01-28,7.0,carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Bruno,28050,1143.0,si,NOL-TOR-00279,chiuso
+INT-TOR-0058,TOR-15,2026-01-24,2026-01-25,1.0,tagliando,tagliando proggrammato,Carrozzeria Bruno,47203,351.0,no,,chiuso
+INT-TOR-0059,EB-TOR-002,2026-02-02,2026-02-03,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,2343,104.0,no,,chiuso
+INT-TOR-0060,TOR-06,2026-02-02,2026-02-05,3.0,tagliando,tagliando programmato,Carrozzeria,38206,230.0,,,chiuso
+INT-TOR-0061,TOR-10,2026-02-04,2026-02-07,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,28963,258.0,no,,chiuso
+INT-TOR-0062,TOR-10,2026-02-08,2026-02-14,6.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,29056,564.0,no,NOL-TOR-00417,chiuso
+INT-TOR-0063,TOR-05,2026-02-11,2026-02-13,2.0,pulizia profonda,pulizia straordinariaa,Carrozzeria Bruno,41609,48.0,si,NOL-TOR-00359,chiuso
+INT-TOR-0064,TOR-07,2026-02-12,2026-02-15,3.0,tagliando,tagliando programmato,Autofficina Piemonte Service,123251,353.0,no,,chiuso
+INT-TOR-0065,TOR-11,2026-02-16,2026-02-18,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,30834,26.0,si,,chiuso
+INT-TOR-0066,TOR-09,2026-02-17,2026-02-23,6.0,carrozzeria,crepa estesa,Autofficina Piemonte Service,,1045.0,no,NOL-TOR-00428,chiuso
+INT-TOR-0067,TOR-05,2026-02-24,2026-03-03,7.0,carrozzeria,danni da sinistro strradale,Carrozzeria Bruno,42305,447.6,no,NOL-TOR-00361,chiuso
+INT-TOR-0068,TOR-02,2026-02-25,2026-02-27,2.0,vetri,segni di sfregamento,Autofficina Piemonte Service,54315,227.0,si,NOL-TOR-00464,chiuso
+INT-TOR-0069,EB-TOR-004,2026-02-25,2026-02-26,1.0,tagliando,tagliando programmato,Bici Service Torino,1241,54.0,no,,chiuso
+INT-TOR-0070,TOR-15,2026-02-28,2026-03-07,7.0,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,48534,501.0,si,,chiuso
+INT-TOR-0071,EB-TOR-005,2026-02-28,2026-03-06,6.0,bici,forcella piegata,Bici Service Torino,2577,,no,NOL-TOR-00497,chiuso
+INT-TOR-0072,TOR-13,2026-03-01,2026-03-27,26.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,42635,3988.0,no,NOL-TOR-00436,chiuso
+INT-TOR-0073,TOR-05,2026-03-02,2026-03-05,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,42305,268.0,,,chiuso
+INT-TOR-0074,TOR-08,2026-03-03,2026-03-07,4.0,carrozzeria,crepa estesa,Autofficina,73692,,si,NOL-TOR-00398,chiuso
+INT-TOR-0075,TOR-08,2026-03-03,2026-03-09,6.0,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,73692,666.0,no,NOL-TOR-00398,chiuso
+INT-TOR-0076,TOR-08,2026-03-03,2026-03-05,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,73692,,si,NOL-TOR-00398,chiuso
+INT-TOR-0077,TOR-11,2026-03-04,2026-03-05,1.0,tagliando,tagliando progrommato,Autofficina Piemonte Service,32632,399.0,no,,chiuso
+INT-TOR-0078,TOR-10,2026-03-06,2026-03-08,2.0,vetri,graffit superficiale,,,,si,NOL-TOR-00501,chiuso
+INT-TOR-0079,TOR-11,2026-03-07,2026-03-10,3.0,carrozzeria,piccola scheggiatura,Autofficina Piemonte Service,32773,131.0,no,NOL-TOR-00540,chiuso
+INT-TOR-0080,TOR-09,2026-03-08,2026-03-15,7.0,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,52283,544.0,no,NOL-TOR-00360,chiuso
+INT-TOR-0081,TOR-15,2026-03-12,2026-03-13,1.0,gomme,sostituzione pneumatico,Autofficina Piemonte Service,49094,,no,NOL-TOR-00538,chiuso
+INT-TOR-0082,EB-TOR-001,2026-03-12,2026-03-14,2.0,pulizia profonda,pulizia straordinaria,Bici Service Torino,1596,27.0,si,NOL-TOR-00574,chiuso
+INT-TOR-0083,EB-TOR-003,2026-03-13,2026-03-16,3.0,gomme,sostituzione pneumatico,Bici Service Torino,1178,650.0,no,,chiuso
+INT-TOR-0084,TOR-03,2026-03-14,2026-03-17,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,51694,218.0,no,,chiuso
+INT-TOR-0085,TOR-16,2026-03-15,2026-03-16,1.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,79126,,si,NOL-TOR-00531,chiuso
+INT-TOR-0086,EB-TOR-003,2026-03-18,2026-03-19,1.0,pulizia profonda,pulizia straordinaria,Ciclofficina Lingotto,1195,62.0,si,NOL-TOR-00599,chiuso
+INT-TOR-0087,EB-TOR-003,2026-03-18,2026-03-19,1.0,tagliando,tagliando programmato,Bici Service Torino,1195,93.0,no,,chiuso
+INT-TOR-0088,TOR-04,2026-03-18,2026-03-21,3.0,tagliando,tagliando programmato,Autofficina Piemonte Service,32460,196.0,no,,chiuso
+INT-TOR-0089,TOR-11,2026-03-20,2026-03-26,6.0,vetri,graffio profondo fino alla lamiera,Carrozzeria Bruno,33039,738.0,no,NOL-TOR-00577,chiuso
+INT-TOR-0090,EB-TOR-002,2026-03-20,2026-03-21,1.0,bici,leva piegata ma funzionante,Bici Service Torino,2683,69.0,si,NOL-TOR-00613,chiuso
+INT-TOR-0091,TOR-02,2026-03-20,2026-03-27,7.0,carrozzeria,amraccatura con veeeice saltata,Autofficina Piemonte Service,56684,774.0,si,NOL-TOR-00618,chiuso
+INT-TOR-0092,EB-TOR-003,2026-03-26,2026-03-29,3.0,bici,cerchio storto,Bici Service Torino,1219,98.0,no,NOL-TOR-00425,chiuso
+INT-TOR-0093,TOR-09,2026-03-29,2026-03-31,2.0,gomme,graffio superficiale,Autofficina Piemonte Service,53331,166.0,no,NOL-TOR-00647,chiuso
+INT-TOR-0094,TOR-09,2026-03-29,2026-04-02,4.0,assistenza,intervento dopo aassistenza stradale,Carrozzeria Bruno,53331,159.0,no,,chiuso
+INT-TOR-0095,TOR-12,2026-03-31,2026-04-05,5.0,carrozzeria,ammccatura con ernice saltata,Carrozzeria Bruno,79992,843.0,,NOL-TOR-00560,chiuso
+INT-TOR-0096,TOR-13,2026-04-03,2026-04-16,13.0,carrozzeria,rottura con perdita di liquidi,Autofficina Piemonte Service,43647,,si,NOL-TOR-00445,chiuso
+INT-TOR-0097,EB-TOR-003,2026-04-03,2026-04-04,1.0,bici,leva piegata ma funzionante,Ciclofficina Lingotto,1322,46.0,no,NOL-TOR-00640,chiuso
+INT-TOR-0098,TOR-16,2026-04-03,2026-04-05,2.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,80255,24.0,si,NOL-TOR-00530,chiuso
+INT-TOR-0099,TOR-01,2026-04-03,2026-04-07,4.0,tagliando,tagliando proggramato,Autofficina Piemonte Service,87809,201.0,,,chiuso
+INT-TOR-0100,TOR-08,2026-04-04,2026-05-07,33.0,carrozzeria,"elemento distrutto, da sostituire",Carrozzeria Bruno,74784,679.1,si,NOL-TOR-00519,chiuso
+INT-TOR-0101,EB-TOR-003,2026-04-05,2026-04-25,20.0,bici,"urto forte, bici non utilizzabile",Bici Service Torino,1339,471.0,no,,chiuso
+INT-TOR-0102,TOR-09,2026-04-06,2026-04-11,5.0,carrozzeria,caotta rotta,Autofficina Piemonte Service,53503,994.0,si,NOL-TOR-00665,chiuso
+INT-TOR-0103,TOR-17,2026-04-08,2026-04-09,1.0,tagliando,tagliando programmato,Autofficina Piemonte Service,44420,213.0,no,,chiuso
+INT-TOR-0104,EB-TOR-005,2026-04-12,2026-04-13,1.0,meccanica,guasto meccanico in noleggio,Bici Service Torino,2882,545.0,no,NOL-TOR-00580,chiuso
+INT-TOR-0105,EB-TOR-001,2026-04-12,2026-04-13,1.0,tagliando,tagliando programmato,Bici Service Torino,2001,41.0,,,chiuso
+INT-TOR-0106,TOR-01,2026-04-14,2026-04-24,10.0,carrozzeria,danno da urto 20-30 cm,Autofficina Piemonte Service,88566,718.0,si,NOL-TOR-00661,chiuso
+INT-TOR-0107,EB-TOR-002,2026-04-14,2026-04-15,1.0,tagliando,tagliando programmato,Bici Service Torino,3095,88.0,no,,chiuso
+INT-TOR-0108,EB-TOR-005,2026-04-15,2026-04-16,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,2899,58.0,no,,chiuso
+INT-TOR-0109,TOR-04,2026-04-15,2026-04-18,3.0,gomme,,Autofficina Piemonte Service,33724,569.0,si,NOL-TOR-00697,chiuso
+INT-TOR-0110,EB-TOR-004,2026-04-16,2026-04-17,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,1765,51.0,,,chiuso
+INT-TOR-0111,TOR-09,2026-04-16,2026-04-19,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,53917,294.0,no,,chiuso
+INT-TOR-0112,TOR-03,2026-04-16,2026-04-18,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,53518,92.0,no,,chiuso
+INT-TOR-0113,TOR-06,2026-04-16,2026-04-18,2.0,carrozzeria,segni di sfregamento,Autofficina Piemonte Service,43447,234.0,si,NOL-TOR-00516,chiuso
+INT-TOR-0114,EB-TOR-001,2026-04-17,2026-04-20,3.0,bici,leva piegata ma funzionante,Ciclofficina Lingotto,2022,45.0,no,NOL-TOR-00532,chiuso
+INT-TOR-0115,TOR-04,2026-04-18,2026-04-19,1.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,33724,69.0,no,,chiuso
+INT-TOR-0116,TOR-12,2026-04-18,2026-04-20,2.0,carrozzeria,leggera ammaccatura,Carrozzeria Bruno,81472,149.0,si,NOL-TOR-00717,chiuso
+INT-TOR-0117,TOR-05,2026-04-19,2026-04-21,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,45151,66.0,no,,chiuso
+INT-TOR-0118,TOR-10,2026-04-19,2026-04-21,2.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,33298,63.0,,,chiuso
+INT-TOR-0119,TOR-17,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,45122,82.0,,,chiuso
+INT-TOR-0120,TOR-12,2026-04-20,2026-04-21,1.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,81472,95.0,,,chiuso
+INT-TOR-0121,TOR-13,2026-04-22,2026-04-25,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,44145,361.0,no,,chiuso
+INT-TOR-0122,TOR-14,2026-04-22,2026-04-23,1.0,cambio gomme estive,cabio stagionale,Carrozzeria Bruno,96321,61.0,no,,chiuso
+INT-TOR-0123,TOR-11,2026-04-22,2026-04-23,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,34324,73.0,no,,chiuso
+INT-TOR-0124,TOR-02,2026-04-23,2026-04-25,2.0,carrozzeria,legggera ammaccatura,Carrozzeria Bruno,59276,82.0,no,NOL-TOR-00694,chiuso
+INT-TOR-0125,TOR-07,2026-04-23,2026-04-25,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,128090,94.0,no,,chiuso
+INT-TOR-0126,TOR-09,2026-04-23,2026-04-25,2.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,54130,66.0,no,,chiuso
+INT-TOR-0127,TOR-15,2026-04-24,2026-04-25,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,52431,93.0,no,,chiuso
+INT-TOR-0128,TOR-12,2026-04-25,2026-05-12,17.0,carrozzeria,"danno strutturale sospetto, non guidabile",Autofficina Piemonte Service,81811,639.1,si,NOL-TOR-00772,chiuso
+INT-TOR-0129,EB-TOR-004,2026-04-25,2026-04-27,2.0,bici,display rotto,,1919,299.0,si,NOL-TOR-00714,chiuso
+INT-TOR-0130,TOR-13,2026-04-25,2026-04-26,1.0,cambio gomme estive,cambio stagionale,,44145,66.0,no,,chiuso
+INT-TOR-0131,TOR-16,2026-04-26,2026-05-19,23.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,81623,698.4,no,NOL-TOR-00770,chiuso
+INT-TOR-0132,TOR-02,2026-04-26,2026-04-27,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,59434,84.0,no,,chiuso
+INT-TOR-0133,TOR-01,2026-04-27,2026-04-28,1.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,89272,,no,,chiuso
+INT-TOR-0134,TOR-09,2026-04-30,2026-05-05,5.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,54422,562.0,no,NOL-TOR-00722,chiuso
+INT-TOR-0135,TOR-14,2026-04-30,2026-05-05,5.0,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,96734,150.0,no,NOL-TOR-00762,chiuso
+INT-TOR-0136,,2026-05-01,2026-05-14,13.0,carrozzeria,danni da sinistro stradale,,128605,696.1,,,chiuso
+INT-TOR-0137,TOR-06,2026-02-05,2026-03-05,28.0,cambio gomme estive,cambio stagionale,Carrozzeria Bruno,45397,,no,,chiuso
+INT-TOR-0138,TOR-04,2026-05-02,2026-05-04,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,34226,531.0,no,NOL-TOR-00766,chiuso
+INT-TOR-0139,EB-TOR-004,2026-05-03,2026-05-06,3.0,gomme,sostituzione pneumatico,Bici Service Torino,1992,392.0,no,NOL-TOR-00778,chiuso
+INT-TOR-0140,TOR-14,2026-05-04,2026-05-07,3.0,tagliando,tagliando programmato,Carrozzeria Bruno,96734,398.0,no,,chiuso
+INT-TOR-0141,EB-TOR-002,2026-05-05,2026-05-08,3.0,bici,forcella piegata,Ciclofficina Lingotto,3384,385.0,,NOL-TOR-00683,chiuso
+INT-TOR-0142,TOR-08,2026-05-06,2026-05-07,1.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,74784,77.0,,,chiuso
+INT-TOR-0143,EB-TOR-003,2026-05-07,2026-05-08,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,1758,49.0,no,,chiuso
+INT-TOR-0144,EB-TOR-004,2026-05-09,2026-05-10,1.0,pulizia profonda,pulizia straordinaria,Bici Service Torino,2123,36.0,si,NOL-TOR-00843,chiuso
+INT-TOR-0145,EB-TOR-001,2026-05-09,2026-05-11,2.0,elettrico/batteria,,Ciclofficina Lingotto,2374,208.0,no,NOL-TOR-00861,chiuso
+INT-TOR-0146,TOR-02,2026-05-09,2026-05-14,5.0,carrozzeria,calotta rotta,Carrozzeria Bruno,60013,1111.0,,NOL-TOR-00626,chiuso
+INT-TOR-0147,TOR-10,2026-05-11,2026-05-18,7.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,35122,635.0,no,NOL-TOR-00655,chiuso
+INT-TOR-0148,TOR-05,2026-05-12,2026-05-18,6.0,carrozzeria,crepa estesa,Carrozzeria Bruno,46970,1193.0,si,NOL-TOR-00831,chiuso
+INT-TOR-0149,TOR-04,2026-05-14,2026-05-18,4.0,carrozzeria,crepa estesa,Carrozzeria Bruno,35265,428.0,no,NOL-TOR-00720,chiuso
+INT-TOR-0150,EB-TOR-003,2026-05-15,2026-05-17,2.0,gomme,sostituzione pneumatico,Bici Service Torino,1835,84.0,no,NOL-TOR-00785,chiuso
+INT-TOR-0151,TOR-16,2026-05-18,2026-05-19,1.0,cambio gomme estive,cambio stagionale,Autofficina Piemonte Service,81623,85.0,no,,chiuso
+INT-TOR-0152,TOR-09,2026-05-19,2026-05-28,9.0,carrozzeria,ammaccatura con vernice saltata,Autofficina Piemonte Service,54957,898.0,no,NOL-TOR-00824,chiuso
+INT-TOR-0153,EB-TOR-004,2026-05-19,2026-05-20,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,2265,53.0,no,,chiuso
+INT-TOR-0154,TOR-13,2026-05-19,2026-05-23,4.0,carrozzeria,,Carrozzeria Bruno,45570,503.0,si,NOL-TOR-00826,chiuso
+INT-TOR-0155,TOR-10,2026-05-19,2026-05-28,9.0,vetri,danno da urto 20-30 cm,Autofficina Piemonte Service,35231,687.0,no,NOL-TOR-00886,chiuso
+INT-TOR-0156,EB-TOR-002,2026-05-20,2026-05-21,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,3597,90.0,no,,chiuso
+INT-TOR-0157,EB-TOR-005,2026-05-21,2026-05-22,1.0,tagliando,tagliando programmato,Bici Service Torino,3399,109.0,no,,chiuso
+INT-TOR-0158,EB-TOR-002,2026-05-21,2026-05-24,3.0,meccanica,guasto meccanico in noleggio,Ciclofficina Lingotto,3613,83.0,no,NOL-TOR-00891,chiuso
+INT-TOR-0159,EB-TOR-001,2026-05-21,2026-05-23,2.0,tagliando,tagiando programmato,Bici Service Torino,2648,60.0,no,,chiuso
+INT-TOR-0160,EB-TOR-003,2026-05-22,2026-05-25,3.0,meccanica,guasto meccanico in noleggio,Bici,1911,234.0,no,NOL-TOR-00934,chiuso
+INT-TOR-0161,TOR-14,2026-05-23,2026-06-03,11.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,98910,705.4,no,NOL-TOR-00933,chiuso
+INT-TOR-0162,TOR-08,2026-05-29,2026-06-01,3.0,tagliando,tagliando programmato,Autofficina Piemonte Service,76623,,,,chiuso
+INT-TOR-0163,EB-TOR-004,2026-05-29,2026-06-01,3.0,gomme,eostituzione pneumarico,Bici Service Torino,2319,435.0,,NOL-TOR-00853,chiuso
+INT-TOR-0164,TOR-12,2026-05-30,2026-06-17,18.0,gomme,"elemento distrutto, da sostituire",Carrozzeria Bruno,82670,154.4,no,NOL-TOR-00811,chiuso
+INT-TOR-0165,EB-TOR-001,2026-05-30,2026-06-04,5.0,bici,forcella piegata,Ciclofficina Lingotto,2724,258.0,si,,chiuso
+INT-TOR-0166,TOR-04,2026-06-01,2026-06-03,2.0,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,36540,147.0,no,NOL-TOR-00973,chiuso
+INT-TOR-0167,TOR-06,2026-06-02,2026-06-15,13.0,carrozzeria,deformazione importante,Autofficina Piemonte Service,47174,674.9,si,NOL-TOR-00975,chiuso
+INT-TOR-0168,EB-TOR-003,2026-06-02,2026-06-03,1.0,tagliando,tagliano prorammato,Bici Service Torino,2324,109.0,no,,chiuso
+INT-TOR-0169,TOR-13,2026-06-15,2026-07-16,31.0,carrozzeria,"elemento disstrutto, da sostituire",Carrozzeria Bruno,46903,571.6,si,NOL-TOR-01002,chiuso
+INT-TOR-0170,TOR-01,2026-06-16,2026-06-24,8.0,elettrico/batteria,guasto elettrico/batteria,,92568,228.0,no,NOL-TOR-00888,chiuso
+INT-TOR-0171,EB-TOR-002,2026-06-17,2026-06-19,2.0,pulizia profonda,pulizia straordinaria,Ciclofficina Lingotto,4050,29.0,si,NOL-TOR-01067,chiuso
+INT-TOR-0172,EB-TOR-001,2026-06-18,2026-06-19,1.0,bici,manubrio leggermente fuori asse,Bici Service Torino,3084,31.0,si,NOL-TOR-01050,chiuso
+INT-TOR-0173,TOR-16,2026-06-19,2026-06-22,3.0,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,83331,149.0,no,NOL-TOR-00960,chiuso
+INT-TOR-0174,EB-TOR-003,2026-06-20,2026-06-22,2.0,bici,forcella piegata,Bici Service Torino,2627,318.0,si,NOL-TOR-01068,chiuso
+INT-TOR-0175,EB-TOR-005,2026-06-20,2026-06-21,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,4024,107.0,no,,chiuso
+INT-TOR-0176,EB-TOR-001,2026-06-21,2026-06-28,7.0,bici,forcella piegata,Bici Service Torino,3203,249.0,si,NOL-TOR-01091,chiuso
+INT-TOR-0177,TOR-12,2026-06-21,2026-07-20,29.0,carrozzeria,urto forte con piu' elementi coinvolti,Autofficina Piemonte Service,,1576.0,si,NOL-TOR-01078,chiuso
+INT-TOR-0178,TOR-05,2026-06-21,2026-06-22,1.0,carrozzeria,segni di sfregamento,Autofficina,50643,248.0,,NOL-TOR-00908,chiuso
+INT-TOR-0179,EB-TOR-002,2026-06-23,2026-06-24,1.0,tagliando,tagliando programmato,Bici Service Torino,4101,96.0,no,,chiuso
+INT-TOR-0180,EB-TOR-004,2026-06-23,2026-06-25,2.0,tagliando,tagliando programmato,Ciclofficina Lingotto,2837,82.0,no,,chiuso
+INT-TOR-0181,TOR-05,2026-06-24,2026-06-25,1.0,carrozzeria,striscio di vernice,Autofficina Piemonte Service,50795,161.0,si,NOL-TOR-00856,chiuso
+INT-TOR-0182,TOR-04,2026-06-24,2026-06-25,1.0,vetri,piccola scheggiatura,Carrozzeria Bruno,37768,88.0,si,NOL-TOR-00945,chiuso
+INT-TOR-0183,TOR-06,2026-06-26,2026-06-27,1.0,carrozzeria,strisccio di vernice,Autofficina Piemonte Service,49215,100.0,no,,chiuso
+INT-TOR-0184,EB-TOR-001,2026-06-27,2026-06-29,2.0,tagliando,tagliando programmato,Bici Service Torino,3203,43.0,no,,chiuso
+INT-TOR-0185,TOR-03,2026-06-29,2026-07-17,18.0,vetri,"elemento distrutto, da sostituire",Autofficina Piemonte Service,59691,2075.0,,NOL-TOR-01055,chiuso
+INT-TOR-0186,EB-TOR-003,2026-06-30,2026-07-01,1.0,bici,graffi sul telaio,Bici Service Torino,2817,82.0,no,NOL-TOR-01130,chiuso
+INT-TOR-0187,EB-TOR-001,2026-06-30,2026-07-01,1.0,bici,graffi sul telaio,Ciclofficina Lingotto,3223,56.0,,NOL-TOR-01145,chiuso
+INT-TOR-0188,TOR-16,2026-07-01,2026-07-03,2.0,carrozzeria,piccola scheggiatura,Carrozzeria,84264,121.0,si,NOL-TOR-01148,chiuso
+INT-TOR-0189,EB-TOR-003,2026-07-02,2026-07-03,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,2835,107.0,no,,chiuso
+INT-TOR-0190,TOR-16,2026-07-02,2026-07-03,1.0,tagliando,tagliando programmato,Autofficina Piemonte Service,84264,177.0,no,,chiuso
+INT-TOR-0191,TOR-09,2026-07-09,2026-07-18,9.0,gomme,ammaccatura con vernice saltata,Autofficina Piemonte Service,57800,1073.0,no,NOL-TOR-01073,chiuso
+INT-TOR-0192,EB-TOR-002,2026-07-09,2026-07-11,2.0,bici,graffi sul telaio,Ciclofficina Lingotto,4364,27.0,no,NOL-TOR-01184,chiuso
+INT-TOR-0193,TOR-17,2026-07-11,2026-07-13,2.0,carrozzeria,leggera ammaccatura,Autofficina Piemonte Service,51170,214.0,no,NOL-TOR-01178,chiuso
+INT-TOR-0194,EB-TOR-005,2026-07-13,2026-07-14,1.0,bici,leva piegata ma funzionante,Bici Service Torino,4377,74.0,,NOL-TOR-01138,chiuso
+INT-TOR-0195,EB-TOR-004,2026-07-13,2026-07-15,2.0,assistenza,intervento dopo assistenza stradale,Ciclofficina Lingotto,3218,165.0,no,NOL-TOR-01141,chiuso
+INT-TOR-0196,EB-TOR-001,2026-07-14,2026-07-15,1.0,pulizia profonda,pulizia straordinaria,Bici Service Torino,3364,43.0,si,,chiuso
+INT-TOR-0197,EB-TOR-004,2026-07-17,2026-07-18,1.0,bici,,Bici Service Torino,3333,53.0,si,NOL-TOR-01221,chiuso
+INT-TOR-0198,EB-TOR-003,2026-07-19,2026-07-21,2.0,elettrico/batteria,guasto elettrico/batteria,Bici Service Torino,3325,253.0,no,NOL-TOR-01168,chiuso
+INT-TOR-0199,TOR-14,2026-07-21,2026-07-25,4.0,gomme,sostituzione pneumatico,Carrozzeria Bruno,102811,364.0,no,NOL-TOR-01209,chiuso
+INT-TOR-0200,EB-TOR-001,2026-07-22,2026-07-24,2.0,meccanica,guasto meccanico in noleggio,Ciclofficina Lingotto,3411,324.0,,,chiuso
+INT-TOR-0201,TOR-12,2026-07-22,2026-07-25,3.0,gomme,leggera ammaccatura,Autofficina Piemonte Service,83081,192.0,no,NOL-TOR-01183,chiuso
+INT-TOR-0202,EB-TOR-003,2026-07-24,2026-07-25,1.0,tagliando,tagliando programmato,Bici Service Torino,3375,53.0,no,,chiuso
+INT-TOR-0203,EB-TOR-004,2026-07-24,2026-07-25,1.0,tagliando,tagliando programmato,Bici Service Torino,3359,100.0,no,,chiuso
+INT-TOR-0204,TOR-11,2026-07-24,2026-07-25,1.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,41064,36.0,si,NOL-TOR-01219,chiuso
+INT-TOR-0205,TOR-05,2026-07-26,2026-07-28,2.0,gomme,,Carrozzeria Bruno,52683,103.0,no,NOL-TOR-01228,chiuso
+INT-TOR-0206,TOR-17,2026-07-26,2026-08-05,10.0,carrozzeria,crepa estesa,Carrozzeria Bruno,52463,528.0,no,NOL-TOR-01180,chiuso
+INT-TOR-0207,EB-TOR-005,2026-07-27,2026-07-28,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,4557,102.0,no,,chiuso
+INT-TOR-0208,TOR-12,2026-07-27,2026-07-28,1.0,carrozzeria,piccola scheggiatura,Carrozzeria Bruno,83176,92.0,no,NOL-TOR-01265,chiuso
+INT-TOR-0209,EB-TOR-005,2026-07-30,2026-08-01,2.0,bici,cerchio storto,Bici Service Torino,4574,310.0,no,NOL-TOR-01066,chiuso
+INT-TOR-0210,EB-TOR-002,2026-07-31,2026-09-08,39.0,bici,,Ciclofficina Lingotto,4609,122.3,si,NOL-TOR-01287,chiuso
+INT-TOR-0211,TOR-10,2026-08-01,2026-08-02,1.0,carrozzeria,striscio di vernice,Carrozzeria Bruno,38285,197.0,si,NOL-TOR-01278,chiuso
+INT-TOR-0212,TOR-10,2026-08-03,2026-08-05,2.0,carrozzeria,graffio superficiale,Autofficina Piemonte Service,38460,202.0,,NOL-TOR-01271,chiuso
+INT-TOR-0213,TOR-12,2026-05-08,2026-08-13,97.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,,429.0,no,NOL-TOR-01289,chiuso
+INT-TOR-0214,EB-TOR-002,2026-08-09,2026-08-10,1.0,tagliando,tagliando programmato,Bici Service Torino,4609,44.0,no,,chiuso
+INT-TOR-0215,TOR-13,2026-08-09,2026-08-16,7.0,carrozzeria,ammaccatura con vernice saltata,Autofficina Piemonte Service,48543,943.0,si,NOL-TOR-01233,chiuso
+INT-TOR-0216,TOR-17,2026-08-14,2026-08-15,1.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,52765,,si,NOL-TOR-01257,chiuso
+INT-TOR-0217,EB-TOR-003,2026-08-14,2026-09-03,20.0,bici,"urto forte, bici non utilizzabile",Ciclofficina Lingotto,3646,,no,NOL-TOR-01362,chiuso
+INT-TOR-0218,TOR-06,2026-08-15,2026-08-17,2.0,tagliando,tagliando programmato,Carrozzeria Bruno,53491,245.0,no,,chiuso
+INT-TOR-0219,TOR-09,2026-08-21,2026-08-25,4.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Bruno,60602,1124.0,si,NOL-TOR-01312,chiuso
+INT-TOR-0220,TOR-15,2026-08-22,2026-08-28,6.0,carrozzeria,danno da urto 20-30 cm,Carrozzeria Bruno,62584,735.0,no,NOL-TOR-01250,chiuso
+INT-TOR-0221,TOR-12,2026-08-24,2026-08-25,1.0,pulizia profonda,pulizia straordinaria,Autofficina Piemonte Service,84270,33.0,si,NOL-TOR-01349,chiuso
+INT-TOR-0222,TOR-06,2026-08-25,2026-09-08,14.0,carrozzeria,"elemennto distrutto, da sostituire",Carrozzeria Bruno,53704,458.3,no,NOL-TOR-01389,chiuso
+INT-TOR-0223,EB-TOR-001,2026-08-26,2026-09-02,7.0,bici,forcella piegata,Bici Service Torino,3684,,,NOL-TOR-01392,chiuso
+INT-TOR-0224,TOR-12,2026-08-27,2026-08-28,1.0,carrozzeria,segni di sfregamento,Autofficina Piemonte Service,84329,202.0,si,NOL-TOR-01409,chiuso
+INT-TOR-0225,TOR-02,2026-08-27,2026-08-29,2.0,tagliando,tagliando programmato,Carrozzeria Bruno,67506,222.0,no,,chiuso
+INT-TOR-0226,TOR-14,2026-08-30,2026-08-31,1.0,carrozzeria,striscio di vernice,Autofficina Piemonte Service,,208.0,,NOL-TOR-01357,chiuso
+INT-TOR-0227,TOR-02,2026-09-03,2026-09-10,7.0,carrozzeria,crepa estesa,Carrozzeria Bruno,67576,927.0,no,NOL-TOR-01432,chiuso
+INT-TOR-0228,TOR-04,2026-09-03,2026-09-04,1.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,41123,30.0,si,NOL-TOR-01412,chiuso
+INT-TOR-0229,EB-TOR-001,2026-09-03,2026-09-04,1.0,tagliando,tagliando programmato,Ciclofficina,3709,104.0,no,,chiuso
+INT-TOR-0230,TOR-03,2026-09-03,2026-09-08,5.0,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,,420.0,no,NOL-TOR-01383,chiuso
+INT-TOR-0231,TOR-08,2026-09-04,2026-09-05,1.0,vetri,striscio di vernice,Autofficina Piemonte Service,82232,106.0,no,NOL-TOR-01367,chiuso
+INT-TOR-0232,TOR-17,2026-09-05,2026-09-06,1.0,carrozzeria,striscio di vernice,Carrozzeria,53177,199.0,no,NOL-TOR-01410,chiuso
+INT-TOR-0233,TOR-05,2026-09-07,2026-09-08,1.0,vetri,graffio superficiale,Carrozzeria,56486,199.0,no,NOL-TOR-01447,chiuso
+INT-TOR-0234,TOR-15,2026-09-08,2026-09-17,9.0,carrozzeria,danno da urto 20-30 cm,,65610,429.0,no,NOL-TOR-01341,chiuso
+INT-TOR-0235,TOR-15,2026-09-08,2026-09-10,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,65610,437.0,no,NOL-TOR-01341,chiuso
+INT-TOR-0236,TOR-09,2026-09-08,2026-09-09,1.0,carrozzeria,grafio superficiale,Autofficina Piemonte Service,62052,220.0,no,NOL-TOR-01458,chiuso
+INT-TOR-0237,TOR-13,2026-09-08,2026-09-16,8.0,carrozzeria,cerchio scheggiato e ovalizzato,Autofficina Piemonte Service,50178,1010.0,si,NOL-TOR-01335,chiuso
+INT-TOR-0238,TOR-16,2026-09-09,2026-09-17,8.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,88904,586.0,no,NOL-TOR-01442,chiuso
+INT-TOR-0239,EB-TOR-004,2026-09-09,2026-09-11,2.0,tagliando,tagliando programmato,Bici Service Torino,3918,56.0,no,,chiuso
+INT-TOR-0240,TOR-12,2026-09-10,2026-09-17,7.0,meccanica,guasto meccanico in noleggio,Carrozzeria Bruno,85210,666.0,no,,chiuso
+INT-TOR-0241,EB-TOR-003,2026-09-10,2026-09-12,2.0,tagliando,tagliando programmato,Ciclofficina Lingotto,3952,46.0,no,,chiuso
+INT-TOR-0242,TOR-17,2026-09-12,2026-10-11,29.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,53849,663.8,,NOL-TOR-01440,chiuso
+INT-TOR-0243,TOR-02,2026-09-13,2026-09-21,8.0,carrozzeria,danni da sinistro stradale,Carrozzeria Bruno,67621,679.4,no,NOL-TOR-01477,chiuso
+INT-TOR-0244,EB-TOR-002,2026-09-13,2026-09-14,1.0,tagliando,tagliando programmate,Ciclofficina Lingotto,5110,102.0,,,chiuso
+INT-TOR-0245,EB-TOR-003,2026-09-16,2026-09-17,1.0,meccanica,guasto meccanico in noleggio,Ciclofficina Lingotto,3992,,no,NOL-TOR-01509,chiuso
+INT-TOR-0246,EB-TOR-001,2026-09-17,2026-09-20,3.0,meccanica,guasto meccanico in noleggio,,3817,208.0,no,NOL-TOR-01465,chiuso
+INT-TOR-0247,EB-TOR-003,2026-09-19,2026-09-21,2.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Lingotto,4055,49.0,no,NOL-TOR-01525,chiuso
+INT-TOR-0248,EB-TOR-005,2026-09-23,2026-09-24,1.0,tagliando,tagliando programmato,Bici Service Torino,5060,49.0,no,,chiuso
+INT-TOR-0249,TOR-03,2026-09-24,2026-09-27,3.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,64394,524.0,,NOL-TOR-01332,chiuso
+INT-TOR-0250,TOR-05,2026-09-25,2026-10-04,9.0,carrozzeria,,Autofficina Piemonte Service,57142,474.0,si,NOL-TOR-01523,chiuso
+INT-TOR-0251,TOR-02,2026-09-26,2026-09-28,2.0,carrozzeria,leggera ammaccatura,Carrozzeria Bruno,67959,163.0,,NOL-TOR-01443,chiuso
+INT-TOR-0252,TOR-02,2026-09-26,2026-10-02,6.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,67959,597.0,no,NOL-TOR-01443,chiuso
+INT-TOR-0253,EB-TOR-002,2026-09-27,2026-10-01,4.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Lingotto,5333,172.0,no,NOL-TOR-01563,chiuso
+INT-TOR-0254,TOR-10,2026-09-28,2026-10-03,5.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Bruno,41950,598.0,no,NOL-TOR-01541,chiuso
+INT-TOR-0255,TOR-12,2026-09-28,2026-10-13,15.0,carrozzeria,danni da sinistro stradale,Autofficina Piemonte Service,85667,,no,NOL-TOR-01521,chiuso
+INT-TOR-0256,EB-TOR-005,2026-09-28,2026-10-01,3.0,elettrico/batteria,guasto elettrico/batteria,Ciclofficina Lingotto,5085,316.0,,NOL-TOR-01583,chiuso
+INT-TOR-0257,TOR-11,2026-09-29,2026-10-03,4.0,assistenza,intervento dopo assistenza stradale,Carrozzeria Bruno,45774,553.0,no,NOL-TOR-01556,chiuso
+INT-TOR-0258,TOR-13,2026-10-02,2026-10-05,3.0,assistenza,intervento dopo assistenza stradale,Autofficina Piemonte Service,50775,509.0,no,,chiuso
+INT-TOR-0259,EB-TOR-001,2026-10-04,2026-10-10,6.0,bici,display rotto,Ciclofficina Lingotto,3967,255.0,si,NOL-TOR-01493,chiuso
+INT-TOR-0260,EB-TOR-002,2026-10-04,2026-10-09,5.0,bici,forcella piegata,Ciclofficina Lingotto,5367,404.0,si,,chiuso
+INT-TOR-0261,TOR-14,2026-10-04,2026-10-07,3.0,meccanica,guasto meccanico in oleggio,Carrozzeria Bruno,106582,227.0,no,NOL-TOR-01582,chiuso
+INT-TOR-0262,TOR-01,2026-10-05,2026-10-13,8.0,carrozzeria,,Autofficina Piemonte Service,102891,563.0,,NOL-TOR-01520,chiuso
+INT-TOR-0263,TOR-11,2026-10-05,2026-10-12,7.0,gomme,,Autofficina Piemonte Service,45865,570.0,no,NOL-TOR-01599,chiuso
+INT-TOR-0264,TOR-05,2026-10-05,2026-10-06,1.0,tagliando,tagliando programmato,Carrozzeria Bruno,57349,366.0,no,,chiuso
+INT-TOR-0265,TOR-07,2026-10-07,2026-10-10,3.0,tagliando,tagliando programmato,Autofficina Piemonte Service,138402,280.0,no,,chiuso
+INT-TOR-0266,TOR-10,2026-10-08,2026-11-04,27.0,carrozzeria,deformazione importante,Autofficina Piemonte Service,42174,471.6,no,NOL-TOR-01604,chiuso
+INT-TOR-0267,EB-TOR-003,2026-10-09,2026-10-10,1.0,tagliando,tagliando programmato,Bici Service Torino,,108.0,,,chiuso
+INT-TOR-0268,EB-TOR-004,2026-10-10,2026-10-11,1.0,tagliando,tagliando programmato,Ciclofficina Lingotto,4428,,no,,chiuso
+INT-TOR-0269,EB-TOR-002,2026-10-11,2026-10-15,4.0,bici,cambio posteriore rotto,Bici Service Torino,5408,351.0,,NOL-TOR-01635,chiuso
+INT-TOR-0270,TOR-01,2026-10-12,2026-10-14,2.0,tagliando,tagliando programmato,Autofficina Piemonte Service,102891,270.0,no,,chiuso
+INT-TOR-0271,TOR-02,2026-10-13,2026-10-19,6.0,gomme,graffio profondo fino alla lamiera,Autofficina Piemonte Service,,346.0,no,NOL-TOR-01616,chiuso
+INT-TOR-0272,TOR-11,2026-10-13,2026-10-15,2.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,45929,540.0,,NOL-TOR-01647,chiuso
+INT-TOR-0273,TOR-15,2026-10-14,2026-10-17,3.0,tagliando,tagliando programmato,Autofficina,67387,165.0,no,,chiuso
+INT-TOR-0274,EB-TOR-002,2026-10-17,2026-11-05,19.0,bici,telaio incrinato,Ciclofficina,5485,872.0,no,NOL-TOR-01666,chiuso
+INT-TOR-0275,TOR-08,2026-10-17,2026-10-19,2.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,85754,563.0,,NOL-TOR-01596,chiuso
+INT-TOR-0276,TOR-04,2026-10-20,2026-10-25,5.0,carrozzeria,cerchio scheggiato e ovalizzato,Carrozzeria Bruno,44630,413.0,no,NOL-TOR-01658,chiuso
+INT-TOR-0277,EB-TOR-001,2026-10-22,2026-10-23,1.0,tagliando,tagliando programmato,Bici Service Torino,4218,80.0,,,chiuso
+INT-TOR-0278,TOR-09,2026-10-23,2026-11-01,9.0,carrozzeria,ammaccatura con vernice saltata,Autofficina Piemonte Service,67816,932.0,no,,chiuso
+INT-TOR-0279,TOR-17,2026-10-23,2026-10-27,4.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,54954,,,NOL-TOR-01682,chiuso
+INT-TOR-0280,TOR-03,2026-10-25,2026-11-01,7.0,elettrico/batteria,guasto elettrico/batteria,Carrozzeria Bruno,66327,128.0,,NOL-TOR-01627,chiuso
+INT-TOR-0281,EB-TOR-004,2026-10-25,2026-11-01,7.0,bici,forcella piegata,,4537,158.0,,NOL-TOR-01487,chiuso
+INT-TOR-0282,TOR-16,2026-10-25,2026-10-26,1.0,carrozzeria,leggera ammacccatura,Autofficina Piemonte Service,91506,214.0,no,NOL-TOR-01548,chiuso
+INT-TOR-0283,TOR-16,2026-10-25,2026-10-27,2.0,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,91506,676.0,no,NOL-TOR-01548,chiuso
+INT-TOR-0284,TOR-06,2026-10-29,2026-10-31,2.0,elettrico/batteria,guasto elettrico/batteria,Autofficina,57770,61.0,no,NOL-TOR-01603,chiuso
+INT-TOR-0285,TOR-01,2026-10-29,2026-10-30,1.0,carrozzeria,piccola scheggiatura,Autofficina Piemonte Service,103750,,no,NOL-TOR-01701,chiuso
+INT-TOR-0286,TOR-14,2026-10-29,2026-10-31,2.0,assistenza,intervento dopoo assistenza stradale,Carrozzeria Bruno,108227,48.0,no,NOL-TOR-01679,chiuso
+INT-TOR-0287,TOR-07,2026-10-30,2026-11-03,4.0,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,139679,395.0,,,chiuso
+INT-TOR-0288,TOR-17,2026-10-31,2026-11-01,1.0,carrozzeria,leggera ammaccitura,Autofficina Piemonte Service,55220,114.0,no,NOL-TOR-01709,chiuso
+INT-TOR-0289,TOR-14,2026-10-31,2026-11-02,2.0,pulizia profonda,pulizia straordinaria,Carrozzeria Bruno,108343,26.0,si,NOL-TOR-01669,chiuso
+INT-TOR-0290,TOR-05,2026-11-04,,,elettrico/batteria,guasto elettrico/batteria,Autofficina Piemonte Service,60614,207.0,,NOL-TOR-01461,in corso
+INT-TOR-0291,EB-TOR-001,2026-11-04,2026-11-11,7.0,bici,"urto forte, bici non utilizzabile",Bici Service Torino,4339,100.1,si,NOL-TOR-01720,chiuso
+INT-TOR-0292,TOR-12,2026-11-04,2026-11-10,6.0,meccanica,,Autofficina Piemonte Service,88049,127.0,no,NOL-TOR-01723,chiuso
+INT-TOR-0293,TOR-07,2026-11-06,,,carrozzeria,urto forte con piu' elementi coinvolti,Autofficina Piemonte Service,139809,527.3,no,NOL-TOR-01724,in corso
+INT-TOR-0294,TOR-11,2026-11-08,2026-11-12,4.0,tagliando,tagliando programmato,Carrozzeria Bruno,47761,308.0,no,,chiuso
+INT-TOR-0295,TOR-03,2026-11-09,2026-11-11,2.0,tagliando,tagliando programmato,Carrozzeria Bruno,66750,276.0,no,,chiuso
+INT-TOR-0296,TOR-02,2026-11-11,,,vetri,danno da urto 20-30 cm,Autofficina Piemonte Service,70229,1003.0,si,,in corso
+INT-TOR-0297,TOR-16,2026-11-11,,,meccanica,guasto meccanico in noleggio,Autofficina Piemonte Service,92778,,no,NOL-TOR-01712,in corso

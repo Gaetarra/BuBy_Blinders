@@ -1,0 +1,383 @@
+id_comunicazione,id_noleggio_corretto,categoria,componente,gravita,sentiment,richiede_fermo,giorni_fermo_stimati,lingua
+COM-ALB-00001,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00002,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00003,NOL-ALB-00001,danno_carrozzeria,fanale posteriore,alta,neutro,si,34,it
+COM-ALB-00004,NOL-ALB-00007,foratura,pneumatico,media,negativo,si,6,it
+COM-ALB-00005,NOL-ALB-00035,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00006,NOL-ALB-00039,danno_carrozzeria,cerchio anteriore,media,neutro,si,7,it
+COM-ALB-00007,NOL-ALB-00004,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,3,it
+COM-ALB-00008,NOL-ALB-00053,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00009,NOL-ALB-00046,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00010,NOL-ALB-00049,assistenza_stradale,assistenza,bassa,neutro,si,1,en
+COM-ALB-00011,NOL-ALB-00049,assistenza_stradale,,bassa,neutro,si,1,it
+COM-ALB-00012,NOL-ALB-00038,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00013,NOL-ALB-00057,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00014,NOL-ALB-00014,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00015,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00016,NOL-ALB-00011,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00017,NOL-ALB-00056,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00018,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00019,NOL-ALB-00023,assistenza_stradale,assistenza,bassa,neutro,si,4,it
+COM-ALB-00020,NOL-ALB-00023,assistenza_stradale,,bassa,neutro,si,4,it
+COM-ALB-00021,NOL-ALB-00041,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-ALB-00022,NOL-ALB-00041,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-ALB-00023,NOL-ALB-00034,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00024,,richiesta_info,,bassa,neutro,no,,en
+COM-ALB-00025,NOL-ALB-00008,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00026,NOL-ALB-00062,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00027,NOL-ALB-00015,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00028,NOL-ALB-00091,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00029,NOL-ALB-00073,danno_carrozzeria,portellone posteriore,bassa,neutro,si,2,it
+COM-ALB-00030,NOL-ALB-00075,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00031,NOL-ALB-00069,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00032,NOL-ALB-00068,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00033,NOL-ALB-00105,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00034,NOL-ALB-00104,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00035,NOL-ALB-00107,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00036,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00037,NOL-ALB-00106,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00038,NOL-ALB-00111,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00039,NOL-ALB-00084,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00040,NOL-ALB-00109,guasto_meccanico,meccanica,bassa,neutro,si,5,it
+COM-ALB-00041,NOL-ALB-00109,guasto_meccanico,,bassa,neutro,si,5,it
+COM-ALB-00042,NOL-ALB-00116,danno_carrozzeria,lunotto,media,neutro,si,3,it
+COM-ALB-00043,NOL-ALB-00074,danno_carrozzeria,paraurti anteriore,bassa,neutro,no,0,it
+COM-ALB-00044,NOL-ALB-00128,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-ALB-00045,NOL-ALB-00126,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00046,NOL-ALB-00128,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-ALB-00047,NOL-ALB-00113,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00048,NOL-ALB-00134,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00049,NOL-ALB-00140,danno_carrozzeria,catena,bassa,neutro,no,0,it
+COM-ALB-00050,NOL-ALB-00140,danno_carrozzeria,catena,bassa,neutro,no,0,it
+COM-ALB-00051,NOL-ALB-00143,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00052,NOL-ALB-00133,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00053,NOL-ALB-00123,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00054,NOL-ALB-00159,assistenza_stradale,assistenza,bassa,negativo,si,1,it
+COM-ALB-00055,NOL-ALB-00159,assistenza_stradale,,bassa,neutro,si,1,it
+COM-ALB-00056,NOL-ALB-00136,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00057,NOL-ALB-00144,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00058,NOL-ALB-00165,incidente_sinistro,,media,negativo,si,8,it
+COM-ALB-00059,NOL-ALB-00157,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00060,NOL-ALB-00165,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-ALB-00061,NOL-ALB-00165,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-ALB-00062,NOL-ALB-00165,incidente_sinistro,portiera lato guida,media,neutro,si,8,it
+COM-ALB-00063,NOL-ALB-00149,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00064,NOL-ALB-00137,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00065,NOL-ALB-00169,incidente_sinistro,,alta,negativo,si,9,it
+COM-ALB-00066,NOL-ALB-00169,incidente_sinistro,fanale anteriore,alta,neutro,si,9,it
+COM-ALB-00067,NOL-ALB-00154,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,7,it
+COM-ALB-00068,NOL-ALB-00174,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00069,NOL-ALB-00154,guasto_elettrico_batteria,,media,neutro,si,7,it
+COM-ALB-00070,NOL-ALB-00179,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00071,NOL-ALB-00167,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00072,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00073,NOL-ALB-00147,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-ALB-00074,NOL-ALB-00197,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00075,NOL-ALB-00147,guasto_meccanico,,bassa,neutro,si,3,it
+COM-ALB-00076,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00077,NOL-ALB-00168,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00078,NOL-ALB-00202,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00079,NOL-ALB-00156,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,6,it
+COM-ALB-00080,NOL-ALB-00207,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00081,NOL-ALB-00156,guasto_elettrico_batteria,,media,neutro,si,6,it
+COM-ALB-00082,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00083,NOL-ALB-00177,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-ALB-00084,NOL-ALB-00177,guasto_meccanico,,bassa,neutro,si,3,it
+COM-ALB-00085,NOL-ALB-00210,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-ALB-00086,NOL-ALB-00218,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00087,NOL-ALB-00211,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00088,NOL-ALB-00219,danno_carrozzeria,parabrezza,bassa,neutro,si,1,it
+COM-ALB-00089,NOL-ALB-00151,danno_carrozzeria,sella,alta,neutro,si,14,it
+COM-ALB-00090,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00091,NOL-ALB-00228,guasto_meccanico,meccanica,bassa,neutro,si,1,it
+COM-ALB-00092,NOL-ALB-00228,guasto_meccanico,,bassa,neutro,si,1,it
+COM-ALB-00093,NOL-ALB-00174,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00094,NOL-ALB-00241,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00095,NOL-ALB-00243,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00096,NOL-ALB-00243,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00097,NOL-ALB-00247,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00098,NOL-ALB-00198,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00099,NOL-ALB-00254,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-ALB-00100,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00101,NOL-ALB-00254,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00102,NOL-ALB-00254,guasto_meccanico,,bassa,neutro,si,1,it
+COM-ALB-00103,NOL-ALB-00253,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00104,NOL-ALB-00186,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00105,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00106,NOL-ALB-00272,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00107,NOL-ALB-00284,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00108,NOL-ALB-00283,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00109,NOL-ALB-00291,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00110,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00111,NOL-ALB-00261,assistenza_stradale,assistenza,bassa,negativo,si,1,it
+COM-ALB-00112,NOL-ALB-00289,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00113,NOL-ALB-00281,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00114,NOL-ALB-00249,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00115,NOL-ALB-00261,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00116,NOL-ALB-00250,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,8,it
+COM-ALB-00117,NOL-ALB-00250,guasto_elettrico_batteria,,media,neutro,si,8,it
+COM-ALB-00118,NOL-ALB-00295,danno_carrozzeria,pedale,bassa,neutro,si,1,it
+COM-ALB-00119,NOL-ALB-00319,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00120,NOL-ALB-00293,incidente_sinistro,,alta,negativo,si,8,it
+COM-ALB-00121,NOL-ALB-00293,danno_carrozzeria,portiera lato passeggero,media,neutro,si,9,it
+COM-ALB-00122,NOL-ALB-00321,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00123,NOL-ALB-00279,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-ALB-00124,NOL-ALB-00293,danno_carrozzeria,portiera lato passeggero,media,neutro,si,9,it
+COM-ALB-00125,NOL-ALB-00311,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-ALB-00126,NOL-ALB-00293,incidente_sinistro,specchietto sinistro,alta,neutro,si,8,it
+COM-ALB-00127,NOL-ALB-00323,danno_carrozzeria,catena,media,neutro,si,2,it
+COM-ALB-00128,NOL-ALB-00293,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00129,NOL-ALB-00324,danno_carrozzeria,sella,bassa,neutro,si,2,it
+COM-ALB-00130,NOL-ALB-00323,danno_carrozzeria,catena,media,neutro,si,2,it
+COM-ALB-00131,NOL-ALB-00324,danno_carrozzeria,sella,bassa,neutro,si,2,it
+COM-ALB-00132,NOL-ALB-00309,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-ALB-00133,NOL-ALB-00306,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00134,NOL-ALB-00319,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00135,NOL-ALB-00325,danno_carrozzeria,paraurti anteriore,media,neutro,si,9,it
+COM-ALB-00136,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00137,NOL-ALB-00312,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00138,NOL-ALB-00331,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00139,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00140,NOL-ALB-00233,pulizia_igiene,sabbia,bassa,neutro,si,1,it
+COM-ALB-00141,NOL-ALB-00355,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00142,NOL-ALB-00274,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-ALB-00143,NOL-ALB-00346,danno_carrozzeria,sella,bassa,neutro,no,0,it
+COM-ALB-00144,NOL-ALB-00221,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00145,NOL-ALB-00320,guasto_elettrico_batteria,,alta,neutro,si,6,it
+COM-ALB-00146,NOL-ALB-00317,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00147,NOL-ALB-00349,guasto_elettrico_batteria,batteria,bassa,neutro,si,1,it
+COM-ALB-00148,NOL-ALB-00349,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00149,NOL-ALB-00361,richiesta_info,,bassa,neutro,no,,en
+COM-ALB-00150,NOL-ALB-00332,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00151,NOL-ALB-00352,guasto_elettrico_batteria,impianto elettrico,bassa,neutro,si,1,it
+COM-ALB-00152,NOL-ALB-00203,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00153,NOL-ALB-00337,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-ALB-00154,NOL-ALB-00337,danno_carrozzeria,cerchio posteriore,bassa,neutro,si,1,it
+COM-ALB-00155,NOL-ALB-00352,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-ALB-00156,NOL-ALB-00365,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00157,NOL-ALB-00371,danno_carrozzeria,pedale,bassa,neutro,si,1,it
+COM-ALB-00158,NOL-ALB-00368,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00159,NOL-ALB-00371,danno_carrozzeria,pedale,bassa,neutro,si,1,it
+COM-ALB-00160,NOL-ALB-00353,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00161,NOL-ALB-00365,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-ALB-00162,NOL-ALB-00385,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00163,NOL-ALB-00327,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00164,NOL-ALB-00376,danno_carrozzeria,paraurti anteriore,media,neutro,si,8,it
+COM-ALB-00165,NOL-ALB-00319,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00166,NOL-ALB-00158,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00167,NOL-ALB-00389,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00168,NOL-ALB-00380,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00169,NOL-ALB-00418,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00170,NOL-ALB-00216,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00171,NOL-ALB-00392,guasto_elettrico_batteria,batteria,bassa,negativo,si,1,it
+COM-ALB-00172,NOL-ALB-00386,danno_carrozzeria,sella,bassa,neutro,si,2,it
+COM-ALB-00173,NOL-ALB-00392,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-ALB-00174,NOL-ALB-00399,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00175,NOL-ALB-00409,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00176,NOL-ALB-00360,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00177,NOL-ALB-00292,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00178,NOL-ALB-00335,danno_carrozzeria,cerchio anteriore,media,neutro,si,3,it
+COM-ALB-00179,NOL-ALB-00335,danno_carrozzeria,cerchio anteriore,media,neutro,si,3,it
+COM-ALB-00180,NOL-ALB-00351,danno_carrozzeria,fianco sinistro,alta,neutro,si,35,it
+COM-ALB-00181,NOL-ALB-00420,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00182,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00183,NOL-ALB-00410,guasto_meccanico,meccanica,alta,neutro,si,8,it
+COM-ALB-00184,NOL-ALB-00351,danno_carrozzeria,fianco sinistro,alta,neutro,si,35,it
+COM-ALB-00185,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00186,NOL-ALB-00426,guasto_meccanico,meccanica,media,negativo,si,7,it
+COM-ALB-00187,NOL-ALB-00436,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00188,NOL-ALB-00425,danno_carrozzeria,fianco sinistro,bassa,neutro,si,2,it
+COM-ALB-00189,NOL-ALB-00426,guasto_meccanico,,media,neutro,si,7,it
+COM-ALB-00190,NOL-ALB-00405,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00191,NOL-ALB-00395,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00192,NOL-ALB-00441,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00193,NOL-ALB-00410,guasto_meccanico,,alta,neutro,si,8,it
+COM-ALB-00194,NOL-ALB-00426,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00195,NOL-ALB-00398,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00196,NOL-ALB-00436,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-ALB-00197,NOL-ALB-00411,feedback_positivo,,bassa,positivo,no,,en
+COM-ALB-00198,NOL-ALB-00442,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-ALB-00199,NOL-ALB-00452,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00200,NOL-ALB-00454,danno_carrozzeria,cavalletto,alta,neutro,si,7,it
+COM-ALB-00201,NOL-ALB-00454,danno_carrozzeria,cavalletto,alta,neutro,si,7,it
+COM-ALB-00202,NOL-ALB-00362,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,5,it
+COM-ALB-00203,NOL-ALB-00362,guasto_elettrico_batteria,,bassa,neutro,si,5,it
+COM-ALB-00204,NOL-ALB-00397,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00205,NOL-ALB-00450,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00206,NOL-ALB-00427,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00207,NOL-ALB-00307,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00208,NOL-ALB-00473,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00209,NOL-ALB-00468,danno_carrozzeria,parafango,bassa,neutro,no,0,it
+COM-ALB-00210,NOL-ALB-00471,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00211,NOL-ALB-00476,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00212,NOL-ALB-00394,assistenza_stradale,assistenza,bassa,negativo,si,2,it
+COM-ALB-00213,NOL-ALB-00401,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00214,NOL-ALB-00475,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00215,NOL-ALB-00487,danno_carrozzeria,specchietto destro,media,neutro,si,5,it
+COM-ALB-00216,NOL-ALB-00429,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00217,NOL-ALB-00464,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00218,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00219,NOL-ALB-00493,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,2,it
+COM-ALB-00220,NOL-ALB-00394,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00221,NOL-ALB-00423,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-ALB-00222,NOL-ALB-00484,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00223,NOL-ALB-00501,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00224,NOL-ALB-00471,danno_carrozzeria,lunotto,bassa,neutro,si,2,it
+COM-ALB-00225,NOL-ALB-00471,danno_carrozzeria,lunotto,bassa,neutro,si,2,it
+COM-ALB-00226,NOL-ALB-00515,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00227,NOL-ALB-00508,danno_carrozzeria,fanale anteriore,media,neutro,si,8,it
+COM-ALB-00228,NOL-ALB-00483,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00229,NOL-ALB-00499,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00230,NOL-ALB-00507,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00231,NOL-ALB-00509,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-ALB-00232,NOL-ALB-00449,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-ALB-00233,NOL-ALB-00503,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00234,NOL-ALB-00536,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-ALB-00235,NOL-ALB-00537,danno_carrozzeria,catena,media,neutro,si,5,it
+COM-ALB-00236,NOL-ALB-00541,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00237,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00238,NOL-ALB-00449,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00239,NOL-ALB-00538,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00240,NOL-ALB-00526,guasto_meccanico,meccanica,bassa,negativo,si,5,it
+COM-ALB-00241,NOL-ALB-00526,danno_carrozzeria,cofano,media,neutro,si,9,it
+COM-ALB-00242,NOL-ALB-00526,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-ALB-00243,NOL-ALB-00339,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00244,NOL-ALB-00535,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00245,NOL-ALB-00545,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-ALB-00246,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00247,NOL-ALB-00470,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00248,NOL-ALB-00518,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00249,NOL-ALB-00525,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00250,NOL-ALB-00544,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00251,NOL-ALB-00531,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00252,NOL-ALB-00530,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00253,NOL-ALB-00550,danno_carrozzeria,passaruota anteriore,alta,neutro,si,35,it
+COM-ALB-00254,NOL-ALB-00563,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00255,NOL-ALB-00560,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00256,NOL-ALB-00568,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-ALB-00257,NOL-ALB-00569,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00258,NOL-ALB-00581,incidente_sinistro,,media,negativo,si,21,it
+COM-ALB-00259,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00260,NOL-ALB-00581,incidente_sinistro,portellone posteriore,media,neutro,si,21,it
+COM-ALB-00261,NOL-ALB-00582,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00262,NOL-ALB-00568,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00263,NOL-ALB-00583,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-ALB-00264,NOL-ALB-00583,danno_carrozzeria,specchietto destro,bassa,neutro,si,2,it
+COM-ALB-00265,NOL-ALB-00474,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00266,NOL-ALB-00573,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00267,NOL-ALB-00554,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-ALB-00268,NOL-ALB-00593,incidente_sinistro,,alta,negativo,si,20,it
+COM-ALB-00269,NOL-ALB-00593,incidente_sinistro,portellone posteriore,alta,neutro,si,20,it
+COM-ALB-00270,NOL-ALB-00602,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00271,NOL-ALB-00600,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00272,NOL-ALB-00605,danno_carrozzeria,pedale,media,neutro,si,3,it
+COM-ALB-00273,NOL-ALB-00592,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00274,NOL-ALB-00613,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00275,NOL-ALB-00610,foratura,pneumatico,alta,neutro,si,6,it
+COM-ALB-00276,NOL-ALB-00610,danno_carrozzeria,fianco destro,alta,neutro,si,35,it
+COM-ALB-00277,NOL-ALB-00610,danno_carrozzeria,fianco destro,alta,neutro,si,35,it
+COM-ALB-00278,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00279,NOL-ALB-00553,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00280,NOL-ALB-00510,danno_carrozzeria,portellone,bassa,neutro,si,2,it
+COM-ALB-00281,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00282,NOL-ALB-00632,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00283,NOL-ALB-00586,feedback_positivo,,bassa,positivo,no,,en
+COM-ALB-00284,NOL-ALB-00617,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00285,NOL-ALB-00604,danno_carrozzeria,specchietto destro,bassa,neutro,no,0,it
+COM-ALB-00286,NOL-ALB-00614,incidente_sinistro,,media,negativo,si,29,it
+COM-ALB-00287,NOL-ALB-00608,danno_carrozzeria,specchietto destro,bassa,neutro,si,1,it
+COM-ALB-00288,NOL-ALB-00614,incidente_sinistro,portellone,media,neutro,si,29,it
+COM-ALB-00289,NOL-ALB-00613,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00290,NOL-ALB-00643,danno_carrozzeria,specchietto sinistro,bassa,neutro,no,0,it
+COM-ALB-00291,NOL-ALB-00629,pulizia_igiene,sabbia,bassa,neutro,si,1,it
+COM-ALB-00292,NOL-ALB-00657,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00293,NOL-ALB-00657,danno_carrozzeria,portellone posteriore,alta,neutro,si,31,it
+COM-ALB-00294,NOL-ALB-00674,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00295,NOL-ALB-00630,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00296,NOL-ALB-00690,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00297,NOL-ALB-00633,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00298,NOL-ALB-00659,guasto_elettrico_batteria,batteria,bassa,negativo,si,3,it
+COM-ALB-00299,NOL-ALB-00619,foratura,pneumatico,bassa,negativo,si,1,it
+COM-ALB-00300,NOL-ALB-00688,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00301,NOL-ALB-00619,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00302,NOL-ALB-00599,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00303,NOL-ALB-00571,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00304,NOL-ALB-00619,foratura,,bassa,neutro,si,1,it
+COM-ALB-00305,NOL-ALB-00658,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00306,NOL-ALB-00673,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00307,NOL-ALB-00515,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00308,NOL-ALB-00687,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00309,NOL-ALB-00649,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-ALB-00310,NOL-ALB-00670,foratura,pneumatico,bassa,neutro,si,1,it
+COM-ALB-00311,NOL-ALB-00670,foratura,,bassa,neutro,si,1,it
+COM-ALB-00312,NOL-ALB-00718,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00313,NOL-ALB-00678,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00314,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00315,NOL-ALB-00664,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-ALB-00316,NOL-ALB-00687,danno_carrozzeria,paraurti posteriore,media,neutro,si,9,it
+COM-ALB-00317,NOL-ALB-00718,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00318,NOL-ALB-00671,danno_carrozzeria,pedale,media,neutro,si,7,it
+COM-ALB-00319,NOL-ALB-00556,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00320,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00321,NOL-ALB-00696,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00322,NOL-ALB-00733,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00323,NOL-ALB-00723,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-ALB-00324,NOL-ALB-00713,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-ALB-00325,NOL-ALB-00745,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00326,NOL-ALB-00690,danno_carrozzeria,cavalletto,media,neutro,si,7,it
+COM-ALB-00327,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00328,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00329,NOL-ALB-00668,guasto_meccanico,meccanica,bassa,negativo,si,4,it
+COM-ALB-00330,NOL-ALB-00724,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00331,NOL-ALB-00741,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00332,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00333,NOL-ALB-00685,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00334,NOL-ALB-00756,danno_carrozzeria,fianco destro,media,neutro,si,4,it
+COM-ALB-00335,NOL-ALB-00777,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00336,NOL-ALB-00765,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00337,NOL-ALB-00778,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00338,NOL-ALB-00779,danno_carrozzeria,paraurti anteriore,bassa,neutro,si,2,it
+COM-ALB-00339,NOL-ALB-00763,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00340,NOL-ALB-00760,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-ALB-00341,NOL-ALB-00750,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00342,NOL-ALB-00796,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00343,NOL-ALB-00781,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00344,NOL-ALB-00506,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00345,NOL-ALB-00636,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-ALB-00346,NOL-ALB-00780,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00347,NOL-ALB-00768,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00348,NOL-ALB-00794,cancellazione,,bassa,neutro,no,,it
+COM-ALB-00349,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00350,NOL-ALB-00787,danno_carrozzeria,cerchio anteriore sinistro,media,neutro,si,7,it
+COM-ALB-00351,NOL-ALB-00749,assistenza_stradale,assistenza,bassa,negativo,si,2,it
+COM-ALB-00352,NOL-ALB-00749,assistenza_stradale,,bassa,neutro,si,2,it
+COM-ALB-00353,NOL-ALB-00751,danno_carrozzeria,specchietto destro,bassa,neutro,si,1,it
+COM-ALB-00354,NOL-ALB-00776,danno_carrozzeria,catena,media,neutro,si,7,it
+COM-ALB-00355,NOL-ALB-00772,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00356,NOL-ALB-00763,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00357,NOL-ALB-00814,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00358,NOL-ALB-00814,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-ALB-00359,NOL-ALB-00814,danno_carrozzeria,fianco destro,bassa,neutro,si,2,it
+COM-ALB-00360,NOL-ALB-00816,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00361,NOL-ALB-00813,modifica_prenotazione,,bassa,neutro,no,,it
+COM-ALB-00362,NOL-ALB-00819,foratura,pneumatico,bassa,negativo,si,2,it
+COM-ALB-00363,NOL-ALB-00819,foratura,,bassa,neutro,si,2,it
+COM-ALB-00364,,richiesta_info,,bassa,neutro,no,,it
+COM-ALB-00365,NOL-ALB-00799,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00366,NOL-ALB-00703,danno_carrozzeria,specchietto sinistro,media,neutro,si,9,it
+COM-ALB-00367,NOL-ALB-00819,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00368,NOL-ALB-00808,reclamo_addebito,,media,negativo,no,,it
+COM-ALB-00369,NOL-ALB-00804,foratura,pneumatico,media,negativo,si,6,it
+COM-ALB-00370,NOL-ALB-00804,foratura,,media,neutro,si,6,it
+COM-ALB-00371,NOL-ALB-00783,incidente_sinistro,,alta,negativo,si,18,it
+COM-ALB-00372,NOL-ALB-00827,foratura,,bassa,neutro,si,3,it
+COM-ALB-00373,NOL-ALB-00783,incidente_sinistro,parabrezza,alta,neutro,si,18,it
+COM-ALB-00374,NOL-ALB-00755,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-ALB-00375,NOL-ALB-00841,feedback_positivo,,bassa,positivo,no,,it
+COM-ALB-00376,NOL-ALB-00844,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,4,it
+COM-ALB-00377,NOL-ALB-00738,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-ALB-00378,NOL-ALB-00845,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-ALB-00379,NOL-ALB-00844,guasto_elettrico_batteria,,bassa,neutro,si,4,it
+COM-ALB-00380,NOL-ALB-00834,danno_carrozzeria,passaruota anteriore,bassa,neutro,no,0,en
+COM-ALB-00381,NOL-ALB-00836,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-ALB-00382,NOL-ALB-00846,oggetto_dimenticato,,bassa,neutro,no,,it

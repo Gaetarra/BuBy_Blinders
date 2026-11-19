@@ -1,0 +1,142 @@
+id_intervento,id_veicolo,data_ingresso,data_uscita,giorni_fermo,tipo_intervento,descrizione_breve,officina,km_veicolo,costo_eur,addebitato_cliente,id_noleggio_origine,stato_intervento
+INT-CAS-0001,CAS-05,6 nov 2025,7 nov 2025,1,cambio gomme invernali,cambin stagionale,,24486,86.00,NO,,chiuso ok
+INT-CAS-0002,CAS-01,07/11/2025,13/11/2025,6,Carrozzeria,danno da urto 20-30 cm,Autofficina Monferrato,52.336,632.00,si,NOL-CAS-00038,CHIUSO
+INT-CAS-0003,CAS-02,10/11/25,15/11/25,4,gomme,sostituzione pneumatico,Autofficina Monferrato,104751,"618,00 €",,NOL-CAS-00014,chiuso ok
+INT-CAS-0004,CAS-06,2025-11-11,2025-11-13,1,cambio gomme invernali,cambio stagionale,carrozzeria po,32125,,,,CHIUSO
+INT-CAS-0005,CAS-04,12/11/2025,13/11/2025,3,cambio gomme invernali,cambio stagionale,,24195,59.00,NO,,chiuso
+INT-CAS-0006,CAS-01,13 nov 2025,14 nov 2025,1,cambio gomme invernali,cambio stagionale,carrozzeria po,52336,"€ 94,00",NO,,chiuso ok
+INT-CAS-0007,CAS-2,14/11/2025,16/11/2025,1,cambio gomme invernali,camtio  stagioonale,Autofficina Monferrato,104751,80.00,,,chiuso ok
+INT-CAS-0008,cas-05,15 nov 2025,21 nov 2025,6,carrozzeria,crepa estesa,Autofficina Monferrato,25192,912.00,si,NOL-CAS-00052,chiuso ok
+INT-CAS-0009,CAS-03,15/11/2025,16/11/2025,1,cambio gomme,cambio stagionale,Autofficina Monferrato,35376,"92,00",no,,
+INT-CAS-0010,CAS-07,2025-11-15,2025-11-17,1,cambio gomme invernali,cambio  stagionale,Autofficina Monferrato,113440,"€ 60,00",NO,,CHIUSO
+INT-CAS-0011,CAS-06,2025-11-17,2025-11-19,1,pulizia profonda,ppulizia straordinaria,Autofficina Monferrato,32619 km,"€ 50,00",S,NOL-CAS-00043,chiuso
+INT-CAS-0012,CAS-04,20/11/2025,22/11/2025,2,tagliando,tagliando  programmato,Carrozzeria Po,25263,"170,00",N,,chiuso
+INT-CAS-0013,CAS-02,20/11/2025,23/11/2025,3,Meccanica,guasto meccanico in noleggio,Carrozzeria Po,104902,180.00,no,NOL-CAS-00048,chiuso
+INT-CAS-0014,CAS-03,20/11/2025,24/12/2025,34,CARROZZERIA,deformazione importante,Autofficina Monferrato,35515,5286,SI,NOL-CAS-00049,chiuso
+INT-CAS-0015,EB-CAS-002,23/11/2025,24/11/2025,,meccanica,guasto meccanico in noleggio,Ciclofficina Casale,719,"€ 470,00",NO,NOL-CAS-00001,chiuso
+INT-CAS-0016,cas-07,2025-11-29,2025-12-02,3,gomme,sostituzione pneumatico,Autofficina Monferrato,114549,"437,00 €",N,NOL-CAS-00071,CHIUSO
+INT-CAS-0017,CAS-06,2025-12-07,2025-12-16,9,carrozzeria,calotta rotta,CARROZZERIA PO,34922,"367,00",SI,NOL-CAS-00066,CHIUSO
+INT-CAS-0018,CAS-05 ,25/12/2025,02/01/2026,8,carrozzeria,graffio profondo fino alla lamiera,Autofficina Monferrato,27601,339.00,NO,NOL-CAS-00047,chiuso ok
+INT-CAS-0019,EB-CAS-003,26/12/25,27/12/25,1,elettrico/batteria,guasto elettrico/batteria,Bici Service Monferrato,1100,"670,00 €",NO,NOL-CAS-00080,chiuso
+INT-CAS-0020,CAS-04,27/12/25,18/01/26,21,cerchi/gomme,"elemento distrutto, da sostituire",Autofficina Monferrato,28101,3642.00,no,NOL-CAS-00111,chiuso
+INT-CAS-0021,CAS-01,28/12/2025,03/01/2026,4,gomme,SOSTITUZIONE PNEUMATICO,autofficina monferrato,56.967,495.00,N,NOL-CAS-00011,chiuso
+INT-CAS-0107,EBCAS003,23/08/2026,24/08/2026,,TAGLIANDO,tagliando programmato,CICLOFFICINA CASALE,4031,55.00,N,,CHIUSO
+INT-CAS-0023,CAS-07,2026-01-19,2026-01-26,7,elettrico/batteria,guasto elettrico/batteria,Autofficina Monferrato,117834,"59,00 €",,,chiuso ok
+INT-CAS-0024,eb-cas-001,2026-01-22,2026-01-25,3,meccanica,guasto meccanico in noleggio,BICI SERVICE MONFERRATO,1614,590.00,NO,NOL-CAS-00137,chiuso ok
+INT-CAS-0025,EB-CAS-003,29/01/26,01/02/26,3,assistenza,intervento dopo assistenza stradale,Ciclofficina Casale,1154,"84,00",N,NOL-CAS-00151,chiuso ok
+INT-CAS-0026,CAS-07,1 feb 2026,3 feb 2026,2,carrozzeria,piccola scheggiatura,Carrozzeria Po,118235,140.00,,NOL-CAS-00138,chiuso
+INT-CAS-0027,CAS-01,01-02-2026,02-02-2026,1,carrozzeria,SEGNI  DI  SFREGAMENTO,Autofficina Monferrato,58362,215.00,si,NOL-CAS-00144,
+INT-CAS-0028,CAS-06,01/02/2026,03/02/2026,4,Carrozzeria,leggera ammaccaatura,Autofficina Monferrato,39161,89.00,no,NOL-CAS-00146,chiuso ok
+INT-CAS-0029,CAS05,01/02/2026,07/02/2026,5,assistenza,intervento dopo assistenza stradale,Carrozzeria Po,30357,"€ 325,00",N,NOL-CAS-00154,chiuso
+INT-CAS-0030,CAS-02,06/02/2026,08/02/2026,2,manutenzione ordinaria,tagliando programmato,Autofficina Monferrato,111157,"331,00",N,,chiuso ok
+INT-CAS-0031,EB-CAS-003,06/02/26,07/02/26,1,tagliando,tagliando programmato,Bici Service Monferrato,1154,82.00,no,,
+INT-CAS-0032,cas-01,09/02/2026,12/02/2026,2,tagliando,tagliando programmatoo,,58742,363.00,no,,
+INT-CAS-0033,CAS-06,10/02/2026,12/02/2026,1,tagliando,tagliando  programmato,Carrozzeria Po,39896,"152,00",,,chiuso ok
+INT-CAS-0034,CAS-02,12/02/2026,14/02/2026,1,Pulizia Profonda,pulizia straordinaria,Carrozzeria Po,111395,40,S,NOL-CAS-00180,chiuso ok
+INT-CAS-0035,EB-CAS-001,13/02/2026,14/02/2026,1,TAGLIANDO,tagliando programmato,Ciclofficina Casale,1636,109.00,no,,chiuso
+INT-CAS-0036,CAS-05,15/02/2026,17/02/2026,2,vetri,piccola scheggiatura,Autofficina Monferrato,30965,"180,00",SI,NOL-CAS-00182,chiuso
+INT-CAS-0037,EBCAS002,18/02/2026,19/02/2026,1,Tagliando,tagliando programmato,Ciclofficina Casale,822,100.00,,,chiuso
+INT-CAS-0038,EB-CAS-001,22/02/2026,23/02/2026,1,meccanica,guasto meccanico in noleggio,Bici Service Monferrato,1674,419.00,NO,NOL-CAS-00198,
+INT-CAS-0039,EB-CAS-001,2026-02-22,2026-02-23,-1,Pulizia Profonda,pulizia straordinaria,Bici Service Monferrato,1674,62.00,S,NOL-CAS-00198,chiuso
+INT-CAS-0040,CAS-06,23-02-2026,28-02-2026,4,CARROZZERIA,danno da urto 20-30 cm,Carrozzeria Po,40187,"€ 750,00",,,
+INT-CAS-0041,GN872LP,2026-02-27,2026-03-01,2,Tagliando,tagliando programmato,Carrozzeria Po,41550,243.00,,,chiuso
+INT-CAS-0042,CAS-05,2026-02-27,2026-03-01,2,tagliando,tagliando  programmato,Carrozzeria Po,32100,397.00,no,,chiuso ok
+INT-CAS-0043,CAS-05,5 mar 2026,19 mar 2026,14,carrozzeria,urto forte con piu' elementi coinvolti,Autofficina Monferrato,32.335,"4823,00 €",N,NOL-CAS-00212,chiuso
+INT-CAS-0044,CAS-06,07/03/2026,10/03/2026,3,Carrozzeria,calotta rotta,Carrozzeria,40666,"439,00",NO,NOL-CAS-00194,chiuso
+INT-CAS-0045,CAS-04,12/03/26,21/03/26,9,carrozz.,crepa estesa,Carrozzeria Po,33174,"€ 888,00",S,NOL-CAS-00224,chiuso
+INT-CAS-0046,EB-CAS-001,15/03/2026,18/03/2026,3,bici,FORCELLA PIEGATA,Bici Service Monferrato,1825,204.00,,NOL-CAS-00239,chiuso ok
+INT-CAS-0047,CAS-07,15/03/2026,17/03/2026,2,carrozzeria,,Carrozzeria Po,124117,"234,00",si,NOL-CAS-00243,CHIUSO
+INT-CAS-0048,CAS-07,22/03/2026,24/03/2026,1,carrozzeria,striscio di vernice,Carrozzeria,124944,"€ 87,00",SI,NOL-CAS-00216,chiuso
+INT-CAS-0049,CAS-01,2026-03-26,2026-03-31,5,Assistenza,intervento dopo assistenza stradale,Autofficina Monferrato,62.203,513,NO,,CHIUSO
+INT-CAS-0050,CAS-07,28-03-2026,29-03-2026,1,pulizia profonda,pulizia stoaordinara,,125162,68,si,NOL-CAS-00256,chiuso
+INT-CAS-0051,CAS-01,2026-04-01,2026-04-09,8,vetri,calotta rotta,Carrozzeria Po,62387,1165.00,S,NOL-CAS-00247,chiuso
+INT-CAS-0052,eb-cas-003,2026-04-01,2026-04-03,1,tagliando,tagliando programmato,Ciclofficina Casale,1794,,no,,
+INT-CAS-0117,CAS-04,02/09/26,04/09/26,2,Carrozzeria,GRAFFIO SUPERFICIALE,Autofficina Monferrato,45466,230.00,si,,chiuso ok
+INT-CAS-0054,CAS-04,03/04/2026,04/04/2026,-1,carrozzeria,,,34413,231.00,no,NOL-CAS-00171,chiuso
+INT-CAS-0098,EB-CAS-001,15/07/26,16/07/26,1,tagliando,tagliando programmato,Bici Service Monferrato,3193,"68,00",NO,,chiuso
+INT-CAS-0056,CAS05,12/04/26,14/04/26,1,carrozz.,legger ammaccatura,Autofficina Monferrato,33961,249.00,N,NOL-CAS-00294,chiuso
+INT-CAS-0057,EB-CAS-001,13/04/2026,14/04/2026,1,tagliando,tagliando programmato,Bici Service Monferrato,2158,in garanzia,NO,,chiuso
+INT-CAS-0058,CAS-04,2026-04-15,2026-04-19,4,carrozzeria,cerchio  scheggiato  e ovalizzato,Carrozzeria Po,35286,753.00,si,NOL-CAS-00307,chiuso ok
+INT-CAS-0059,CAS-07,2026-04-16,2026-04-22,6,meccanica,guasto meccanico in noleggio,Carrozzeria Po,126274,"306,00",NO,NOL-CAS-00209,chiuso
+INT-CAS-0060,CAS-03,16/04/2026,17/04/2026,4,cambio gomme estive,cambio stagionale,Autofficina Monferrato,44431,69.00,,,chiuso
+INT-CAS-0061,CAS-05,18/04/2026,27/04/2026,8,carrozzeria,,Autofficina Monferrato,34481,"922,00",N,NOL-CAS-00323,chiuso
+INT-CAS-0062,EB-CAS-001,18-04-2026,25-04-2026,6,bici,display rotto,Bici Service Monferrato,2.263,95.00,SI,NOL-CAS-00328,chiuso
+INT-CAS-0063,CAS-06,19 apr 2026,20 apr 2026,,cambio gomme estive,cambio stagionale,Carrozzeria Po,43240,"61,00",N,,
+INT-CAS-0103,CAS07,08/08/2026,20/08/2026,12,carrozzeria,danni da sinistro stradale,CARROZZERIA PO,131428,"6.109,00",,NOL-CAS-00493,
+INT-CAS-0065,CAS-02,2026-04-22,2026-04-23,1,cambio gomme estive,cambio stagionale,,116.209,61.00,N,,
+INT-CAS-0066,CAS-01,23/04/2026,24/04/2026,1,gomme estive,cambio  stagionalee,CARROZZERIA PO,64472,92.00,NO,,
+INT-CAS-0067,EB-CAS-003,23/04/26,25/04/26,1,tagliando,tagliando programmato,Ciclofficina Casale,2400,"75,00",N,,chiuso ok
+INT-CAS-0068,cas-07,24/04/2026,25/04/2026,1,CAMBIO GOMME EST.,cambio stagionale,Carrozzeria Po,126.571,83.00,,,chiuso
+INT-CAS-0069,CAS03,24/04/2026,16/05/2026,21,CARROZZERIA,danni da sinistro stradale,Carrozzeria Po,44778,2449.00,NO,NOL-CAS-00231,chiuso
+INT-CAS-0070,EB-CAS-002,2026-04-26,2026-04-28,1,Tagliando,tagliando programmato,Ciclofficina Casale,1.326,"70,00",N,,chiuso ok
+INT-CAS-0071,CAS-05,2026-04-30,2026-05-07,7,Gomme,ssosstituzione pneumatico,Carrozzeria Po,34684,113.00,N,NOL-CAS-00341,
+INT-CAS-0072,CAS-04,30/04/26,10/05/26,,carrozzeria,calotta rotta,Carrozzeria Po,36103,"617,00",si,NOL-CAS-00348,CHIUSO
+INT-CAS-0073,EB-CAS-001,2026-05-02,2026-05-04,2,bici,manubrio leggermente fuori asse,Ciclofficina Casale,2320,"31,00 €",SI,NOL-CAS-00363,chiuso ok
+INT-CAS-0074,CAS-01,2026-05-05,2026-05-09,3,meccanico,guasto meccanico in noleggio,Autofficina Monferrato,65036,332.00,N,NOL-CAS-00334,CHIUSO
+INT-CAS-0075,CAS-05,07/05/2026,08/05/2026,1,cambio gomme estive,cambio stagionale,Carrozzeria Po,34684,"78,00 €",no,,chiuso
+INT-CAS-0076,EB-CAS-002,09/05/26,10/05/26,1,elettrico/batteria,,Ciclofficina Casale,1425,"660,00",NO,NOL-CAS-00375,chiuso
+INT-CAS-0077,EB-CAS-003,16/05/2026,18/05/2026,1,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,2813,33,S,NOL-CAS-00343,chiuso ok
+INT-CAS-0078,CAS-07,17/05/2026,18/06/2026,31,carrozz.,rottura con perdita di liquidi,Carrozzeria Po,128860,"2.696,00",,NOL-CAS-00393,chiuso
+INT-CAS-0079,EB-CAS-001,21/05/2026,22/05/2026,3,tagliando,tagliando programmato,Ciclofficina Casale,2680,"68,00",no,,chiuso ok
+INT-CAS-0080,EB-CAS-003,25/05/26,26/05/26,1,tagl.,tagliando programmato,Ciclofficina,,55.00,,,CHIUSO
+INT-CAS-0081,EB-CAS-002,06/06/2026,07/06/2026,,pulizia profonda,pulizia straordinaria,Bici,1839,"30,00",SI,NOL-CAS-00338,
+INT-CAS-0082,EB-CAS-002,06/06/2026,07/06/2026,1,tagliando,tagliando programmato,Ciclofficina Casale,1839,73.00,N,,chiuso
+INT-CAS-0083,EB-CAS-003,07-06-2026,08-06-2026,1,gomme,sosttituzione pneumatiro,Ciclofficina Casale,3.168,"225,00 €",no,NOL-CAS-00439,chiuso ok
+INT-CAS-0084,EB-CAS-002,14 giu 2026,15 giu 2026,1,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,1940,"63,00",S,NOL-CAS-00469,chiuso
+INT-CAS-0085,CAS-02,15/06/2026,24/06/2026,,soccorso,intervento dopo assistenza stradale,,121080,694.00,no,NOL-CAS-00440,chiuso ok
+INT-CAS-0086,CAS-04,16/06/2026,17/06/2026,1,pulizia profonda,pulizia straordinaria,Carrozzeria Po,39402,"32,00",SI,NOL-CAS-00465,chiuso ok
+INT-CAS-0087,EB-CAS-003,18/06/2026,19/06/2026,1,tagl.,tagliando programmato,Bici Service Monferrato,3.529,85.00,NO,,chiuso
+INT-CAS-0088,CAS04,19/06/2026,22/06/2026,2,cerchi/gomme,leggera ammaccatura,Autofficina,39688,in garanzia,NO,NOL-CAS-00477,chiuso
+INT-CAS-0089,EB-CAS-002,24/06/2026,01/07/2026,7,Bici,cambio posteriore rotto,bici service monferrato,2016,"230,00 €",S,NOL-CAS-00487,
+INT-CAS-0090,EB-CAS-003,02/07/2026,03/07/2026,1,Pulizia Profonda,pulizia straordinaria,Ciclofficina Casale,3630,"28,00",S,NOL-CAS-00510,chiuso
+INT-CAS-0091,CAS-04,2 lug 2026,5 lug 2026,3,tagliando,tagliando programmato,Autofficina Monferrato,40.408,,NO,,chiuso ok
+INT-CAS-0092,CAS-07,03/07/2026,05/07/2026,2,tagliando,tagliando programmato,Carrozzeria Po,131097,"€ 201,00",NO,,chiuso
+INT-CAS-0093,EBCAS001,4 lug 2026,5 lug 2026,1,pulizia profonda,pulizia straordinaria,Bici Service Monferrato,3.056,32.00,SI,,chiuso
+INT-CAS-0094,CAS-06,06/07/26,12/07/26,6,Carrozzeria,,Autofficina Monferrato,51151,"428,00 €",NO,NOL-CAS-00517,chiuso
+INT-CAS-0095,EB-CAS-002,07/07/26,10/07/26,2,elettrico/batteria,guasto  elettrico/batteria,Bici Service Monferrato,2095,"137,00 €",NO,NOL-CAS-00476,chiuso
+INT-CAS-0096,cas-07,10/07/2026,02/08/2026,,carrozz.,,Carrozzeria Po,131258,"7334,00 €",NO,NOL-CAS-00500,CHIUSO
+INT-CAS-0097,CAS-01,13-07-2026,01-08-2026,,cerchi/gomme,rottura con perdita di liquidi,Carrozzeria Po,,6335.00,NO,NOL-CAS-00483,chiuso ok
+INT-CAS-0055,cas-03,2026-04-07,2026-04-15,8,soccorso,intervento dopo asssistenza stradale,Autofficina Monferrato,44431,"333,00",N,NOL-CAS-00289,chiuso
+INT-CAS-0099,EB-CAS-003,20/07/2026,25/07/2026,5,ciclofficina,cambio posteriore rotto,Bici Service Monferrato,3 829,n.d.,N,NOL-CAS-00554,chiuso
+INT-CAS-0100,EB-CAS-001,07/28/2026,07/29/2026,1,Pulizia Profonda,pulizia straordinaria,Bici Service Monferrato,3406,40.00,S,NOL-CAS-00556,
+INT-CAS-0101,CAS-03,29/07/2026,05/08/2026,7,carrozzeria,crepa estesa,,49857,"€ 881,00",si,,CHIUSO
+INT-CAS-0102,EB-CAS-002,02/08/2026,03/08/2026,1,tagliando,tagliando programmato,Bici Service Monferrato,2343,94,NO,,chiuso
+INT-CAS-0064,cas-04,21/04/2026,22/04/2026,1,cambio gomme,cambio stagionalle,,35286,"€ 89,00",N,,chiuso
+INT-CAS-0104,CAS-05,10-08-2026,12-08-2026,2,batteria,guasto&nbsp;elettrico/batteria,Carrozzeria Po,44062,"682,00",,NOL-CAS-00582,chiuso
+INT-CAS-0105,EB-CAS-002,2026-08-11,2026-08-12,1,bici,leva piegata ma funzionante,Ciclofficina Casale,2489,"47,00",,NOL-CAS-00598,chiuso ok
+INT-CAS-0106,eb-cas-003,15/08/2026,17/08/2026,2,batteria,guasto elettaico/batteria,Bici Service Monferrato,3953,508,N,NOL-CAS-00581,chiuso
+INT-CAS-0022,CAS-01,2026-01-16,2026-01-24,8,carrozzeria,graffio profondo fino alla lamiera,Autofficina Monferrato,57.721,1096.00,,NOL-CAS-00094,chiuso
+INT-CAS-0108,CAS-02,23/08/2026,25/08/2026,2,tagliando,tagliando programmato,Autofficina Monferrato,126293,166.00,N,,chiuso
+INT-CAS-0109,GM081CF,25/08/2026,26/08/2026,1,carrozz.,striscio di vernice,Autofficina Monferrato,73783,"203,00",N,NOL-CAS-00628,
+INT-CAS-0110,CAS-01 ,25/08/2026,26/08/2026,1,tagliando,tagliando programmato,carrozzeria po,73783,"€ 184,00",no,,CHIUSO
+INT-CAS-0111,EB-CAS-001,26/08/2026,27/08/2026,1,pulizia profonda,pulizia  straordinaria,BICI SERVICE MONFERRATO,3.634,34.00,SI,NOL-CAS-00530,chiuso
+INT-CAS-0112,CAS-02,26/08/2026,01/09/2026,5,carrozzeria,ammaccatura con vernice saltata,Carrozzeria Po,126375,737.00,,NOL-CAS-00612,CHIUSO
+INT-CAS-0113,CAS-01,28/08/2026,30/08/2026,1,carrozz.,piccola scheggiatura,autofficina monferrato,73 848,241,no,NOL-CAS-00636,chiuso ok
+INT-CAS-0114,EB-CAS-001,1 set 2026,2 set 2026,1,tagl.,tagliando programmato,Bici Service Monferrato,3702,"103,00",no,,
+INT-CAS-0115,CAS-01,01/09/2026,02/09/2026,1,carrozzeria,piccola scheggiatura,Carrozzeria Po,74059,"131,00",si,NOL-CAS-00645,CHIUSO
+INT-CAS-0116,cas-06,01/09/2026,10/09/2026,9,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Po,54.613,1159.00,,NOL-CAS-00627,chiuso
+INT-CAS-0053,CAS-07,2026-04-02,2026-04-06,4,meccanica,guasto meccanico in noleggio,Autofficina Monferrato,125368,550.00,no,NOL-CAS-00272,chiuso ok
+INT-CAS-0118,CAS-03,13/09/2026,15/09/2026,1,cerchi/gomme,piccola&nbsp;scheggiatura,Autofficina Monferrato,52899,158.00,NO,NOL-CAS-00629,CHIUSO
+INT-CAS-0119,EB-CAS-003,2026-09-15,2026-10-04,18,bici,,Ciclofficina Casale,4.319,"804,00 €",S,NOL-CAS-00664,chiuso
+INT-CAS-0120,EB-CAS-002,16/09/2026,17/09/2026,1,bici,manuubrioo leggermente fuorri asne,Ciclofficina Casale,2775,"39,00",N,,chiuso
+INT-CAS-0121,CAS-07,19/09/2026,25/09/2026,6,carrozzeria,calotta rotta,Autofficina Monferrato,133585,"€ 865,00",,NOL-CAS-00684,
+INT-CAS-0122,EB-CAS-002,21/09/26,23/09/26,1,bici,leva piegata ma funzionante,Ciclofficina,2858,"38,00",SI,,chiuso
+INT-CAS-0123,EB-CAS-002,2026-09-22,2026-09-23,1,manutenzione ordinaria,tagliando programmato,Bici Service Monferrato,2858,77.00,no,,chiuso
+INT-CAS-0124,CAS-05,23/09/2026,25/09/2026,2,tagliando,taglianndo progrsmmato,Autofficina Monferrato,47385,"€ 242,00",NO,,chiuso
+INT-CAS-0125,CAS-03,03/10/26,10/10/26,7,carrozzeria,graffio profondo fino alla lamiera,Carrozzeria Po,54824,528.00,SI,NOL-CAS-00637,chiuso
+INT-CAS-0126,CAS-03,10-10-2026,12-10-2026,1,carrozz.,segni  di  sfregamento,Autofficina Monferrato,54922,160,,NOL-CAS-00750,chiuso
+INT-CAS-0127,EB-CAS-001,14/10/2026,15/10/2026,1,tagl.,TAGLIANDO PROGRAMMATO,Bici Service Monferrato,4211,75.00,,,chiuso
+INT-CAS-0128,CAS-06,2026-10-17,2026-10-20,,carrozz.,leggera ammaccatura,Carrozzeria Po,57028,130.00,no,NOL-CAS-00738,chiuso
+INT-CAS-0129,CAS-07,18/10/2026,22/10/2026,3,batteria,guasto elettrico/batteria,Carrozzeria Po,135549,"563,00",,NOL-CAS-00770,chiuso
+INT-CAS-0130,CAS-04,21-10-2026,08-11-2026,18,carrozzeria,danni da sinistro stradale,Autofficina Monferrato,48014,"3.947,00",NO,NOL-CAS-00723,chiuso
+INT-CAS-0131,EB-CAS-002,23/10/2026,24/10/2026,1,meccanica,guasto meccanico in noleggio,Bici Service Monferrato,3416,"188,00 €",NO,NOL-CAS-00769,chiuso
+INT-CAS-0132,eb-cas-003,23/10/2026,24/10/2026,1,tagliando,tagliando programmato,bici service monferrato,4.555,69,no,,chiuso
+INT-CAS-0133,EB-CAS-002,2026-10-23,2026-10-24,1,tagl.,tagliando  programmato,Bici Service Monferrato,3416,93.00,NO,,chiuso
+INT-CAS-0134,CAS07,11/04/2026,11/05/2026,1,pulizia straordinaria,pulizia straordinaria,CARROZZERIA PO,136829,68.00,si,NOL-CAS-00701,CHIUSO
+INT-CAS-0135,CAS01,2026-11-06,2026-11-08,2,Meccanica,guasto meccanico in noleggio,,79.720,"77,00 €",N,NOL-CAS-00803,chiuso ok
+INT-CAS-0136,CAS-03,2026-11-06,2026-11-09,,TAGLIANDO,tagliando programmato,Autofficina Monferrato,56.573,313.00,NO,,CHIUSO
+INT-CAS-0137,CAS-07,07/11/2026,,,carrozzeria,deformazione importante,Carrozzeria,136966,"€ 6066,00",N,NOL-CAS-00800,in corso
+INT-CAS-0138,CAS-05,2026-11-10,,,carrozzeria,rottura con perdita di liquidi,Carrozzeria Po,50 810,3265.00,NO,NOL-CAS-00805,in corso
+INT-CAS-0055,cas-03,2026-04-07,2026-04-15,8,soccorso,intervento dopo asssistenza stradale,Autofficina Monferrato,44431,"333,00",N,NOL-CAS-00289,chiuso
+INT-CAS-0103,CAS07,08/08/2026,20/08/2026,12,carrozzeria,danni da sinistro stradale,CARROZZERIA PO,131428,"6.109,00",,NOL-CAS-00493,
+INT-CAS-0138,CAS-05,10/11/2026,,,carrozzeria,rottura con perdita di liquidi,Carrozzeria Po,50810,3265.00,no,NOL-CAS-00805,in corso

@@ -1,0 +1,775 @@
+id_comunicazione,id_noleggio_corretto,categoria,componente,gravita,sentiment,richiede_fermo,giorni_fermo_stimati,lingua
+COM-TOR-00001,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00002,NOL-TOR-00008,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00003,NOL-TOR-00019,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00004,NOL-TOR-00061,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00005,NOL-TOR-00028,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00006,NOL-TOR-00050,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00007,NOL-TOR-00048,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00008,NOL-TOR-00026,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00009,NOL-TOR-00057,danno_carrozzeria,portiera lato guida,bassa,neutro,si,2,it
+COM-TOR-00010,NOL-TOR-00067,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00011,NOL-TOR-00043,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00012,NOL-TOR-00007,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-TOR-00013,NOL-TOR-00007,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-TOR-00014,NOL-TOR-00032,danno_carrozzeria,cavalletto,alta,neutro,si,20,it
+COM-TOR-00015,NOL-TOR-00006,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00016,NOL-TOR-00002,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00017,NOL-TOR-00032,danno_carrozzeria,cavalletto,alta,neutro,si,20,it
+COM-TOR-00018,NOL-TOR-00081,danno_carrozzeria,fianco sinistro,alta,neutro,si,16,it
+COM-TOR-00019,NOL-TOR-00081,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00020,NOL-TOR-00081,danno_carrozzeria,fianco sinistro,alta,neutro,si,16,it
+COM-TOR-00021,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00022,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00023,NOL-TOR-00109,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00024,NOL-TOR-00102,incidente_sinistro,,alta,negativo,si,6,it
+COM-TOR-00025,NOL-TOR-00102,incidente_sinistro,paraurti anteriore,alta,neutro,si,6,it
+COM-TOR-00026,NOL-TOR-00084,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00027,NOL-TOR-00109,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00028,NOL-TOR-00113,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00029,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00030,NOL-TOR-00126,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-TOR-00031,NOL-TOR-00036,danno_carrozzeria,portellone,bassa,neutro,si,2,it
+COM-TOR-00032,NOL-TOR-00135,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00033,NOL-TOR-00130,foratura,pneumatico,bassa,negativo,si,2,it
+COM-TOR-00034,NOL-TOR-00130,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00035,NOL-TOR-00129,danno_carrozzeria,paraurti anteriore,bassa,neutro,no,0,it
+COM-TOR-00036,NOL-TOR-00130,danno_carrozzeria,parafango,alta,neutro,si,12,it
+COM-TOR-00037,NOL-TOR-00135,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-TOR-00038,NOL-TOR-00138,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00039,NOL-TOR-00131,assistenza_stradale,assistenza,bassa,negativo,si,3,en
+COM-TOR-00040,NOL-TOR-00135,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00041,NOL-TOR-00031,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00042,NOL-TOR-00143,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-TOR-00043,NOL-TOR-00106,assistenza_stradale,assistenza,bassa,neutro,si,2,it
+COM-TOR-00044,NOL-TOR-00136,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00045,NOL-TOR-00143,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00046,NOL-TOR-00143,danno_carrozzeria,porta scorrevole,bassa,neutro,si,2,it
+COM-TOR-00047,NOL-TOR-00014,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00048,NOL-TOR-00083,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00049,NOL-TOR-00123,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00050,NOL-TOR-00150,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00051,NOL-TOR-00140,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-TOR-00052,NOL-TOR-00149,incidente_sinistro,,alta,negativo,si,25,it
+COM-TOR-00053,NOL-TOR-00149,incidente_sinistro,portellone posteriore,alta,neutro,si,25,it
+COM-TOR-00054,NOL-TOR-00131,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00055,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00056,NOL-TOR-00158,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00057,NOL-TOR-00021,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00058,NOL-TOR-00154,danno_carrozzeria,portiera lato guida,bassa,neutro,si,2,it
+COM-TOR-00059,NOL-TOR-00170,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00060,NOL-TOR-00125,danno_carrozzeria,fianco sinistro,bassa,neutro,si,2,it
+COM-TOR-00061,NOL-TOR-00181,danno_carrozzeria,fanale posteriore,media,neutro,si,5,it
+COM-TOR-00062,NOL-TOR-00173,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-TOR-00063,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00064,NOL-TOR-00098,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00065,NOL-TOR-00015,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00066,NOL-TOR-00105,danno_carrozzeria,portellone,alta,neutro,si,18,it
+COM-TOR-00067,NOL-TOR-00103,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00068,NOL-TOR-00194,danno_carrozzeria,specchietto destro,bassa,neutro,si,1,it
+COM-TOR-00069,NOL-TOR-00124,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00070,NOL-TOR-00041,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00071,NOL-TOR-00041,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00072,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00073,NOL-TOR-00228,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00074,NOL-TOR-00221,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00075,NOL-TOR-00151,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00076,NOL-TOR-00231,danno_carrozzeria,paraurti anteriore,alta,neutro,si,15,it
+COM-TOR-00077,NOL-TOR-00220,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00078,NOL-TOR-00231,danno_carrozzeria,paraurti anteriore,alta,neutro,si,15,it
+COM-TOR-00079,NOL-TOR-00213,guasto_meccanico,meccanica,bassa,negativo,si,5,it
+COM-TOR-00080,NOL-TOR-00121,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00081,NOL-TOR-00213,guasto_meccanico,,bassa,neutro,si,5,it
+COM-TOR-00082,NOL-TOR-00235,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00083,NOL-TOR-00238,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-TOR-00084,NOL-TOR-00039,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,1,it
+COM-TOR-00085,NOL-TOR-00197,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00086,NOL-TOR-00244,danno_carrozzeria,lunotto,media,neutro,si,4,it
+COM-TOR-00087,NOL-TOR-00203,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00088,NOL-TOR-00188,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00089,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00090,NOL-TOR-00163,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00091,NOL-TOR-00271,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00092,NOL-TOR-00276,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00093,NOL-TOR-00252,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00094,NOL-TOR-00232,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00095,NOL-TOR-00290,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00096,NOL-TOR-00291,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00097,NOL-TOR-00268,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00098,NOL-TOR-00192,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00099,NOL-TOR-00233,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00100,NOL-TOR-00205,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,1,it
+COM-TOR-00101,NOL-TOR-00205,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00102,NOL-TOR-00289,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00103,NOL-TOR-00292,incidente_sinistro,,media,negativo,si,28,it
+COM-TOR-00104,NOL-TOR-00301,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00105,NOL-TOR-00275,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00106,NOL-TOR-00265,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00107,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00108,NOL-TOR-00292,incidente_sinistro,portiera lato passeggero,media,neutro,si,28,it
+COM-TOR-00109,NOL-TOR-00087,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00110,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00111,NOL-TOR-00297,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,2,it
+COM-TOR-00112,NOL-TOR-00302,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00113,NOL-TOR-00306,danno_carrozzeria,fanale posteriore,bassa,neutro,si,2,it
+COM-TOR-00114,NOL-TOR-00306,danno_carrozzeria,fanale posteriore,bassa,neutro,si,2,it
+COM-TOR-00115,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00116,NOL-TOR-00283,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00117,NOL-TOR-00320,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00118,NOL-TOR-00316,danno_carrozzeria,parabrezza,media,neutro,si,7,it
+COM-TOR-00119,NOL-TOR-00316,danno_carrozzeria,parabrezza,media,neutro,si,7,it
+COM-TOR-00120,NOL-TOR-00281,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00121,NOL-TOR-00294,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00122,NOL-TOR-00324,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00123,NOL-TOR-00302,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00124,NOL-TOR-00122,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00125,NOL-TOR-00279,danno_carrozzeria,fianco destro,media,neutro,si,7,it
+COM-TOR-00126,NOL-TOR-00348,danno_carrozzeria,cambio posteriore,bassa,neutro,si,2,it
+COM-TOR-00127,NOL-TOR-00279,danno_carrozzeria,fianco destro,media,neutro,si,7,it
+COM-TOR-00128,NOL-TOR-00354,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00129,NOL-TOR-00313,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00130,NOL-TOR-00245,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00131,NOL-TOR-00378,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00132,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00133,NOL-TOR-00371,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00134,NOL-TOR-00181,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00135,NOL-TOR-00357,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00136,NOL-TOR-00371,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00137,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00138,NOL-TOR-00286,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00139,NOL-TOR-00338,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00140,NOL-TOR-00426,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00141,NOL-TOR-00383,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00142,NOL-TOR-00386,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-TOR-00143,NOL-TOR-00305,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00144,NOL-TOR-00406,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00145,NOL-TOR-00418,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00146,NOL-TOR-00420,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00147,NOL-TOR-00417,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,6,it
+COM-TOR-00148,NOL-TOR-00417,guasto_elettrico_batteria,,media,neutro,si,6,it
+COM-TOR-00149,NOL-TOR-00427,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00150,NOL-TOR-00359,pulizia_igiene,peli di animali,bassa,neutro,si,1,it
+COM-TOR-00151,NOL-TOR-00270,danno_carrozzeria,portellone posteriore,bassa,neutro,no,0,it
+COM-TOR-00152,NOL-TOR-00385,furto_smarrimento,,alta,negativo,no,,it
+COM-TOR-00153,NOL-TOR-00315,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00154,NOL-TOR-00396,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00155,NOL-TOR-00396,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-TOR-00156,NOL-TOR-00428,danno_carrozzeria,fianco sinistro,media,neutro,si,6,it
+COM-TOR-00157,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00158,NOL-TOR-00475,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00159,NOL-TOR-00444,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00160,NOL-TOR-00446,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00161,NOL-TOR-00426,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00162,NOL-TOR-00479,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00163,NOL-TOR-00416,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00164,NOL-TOR-00311,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00165,NOL-TOR-00479,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00166,NOL-TOR-00393,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00167,NOL-TOR-00437,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00168,NOL-TOR-00361,incidente_sinistro,,media,negativo,si,7,it
+COM-TOR-00169,NOL-TOR-00361,incidente_sinistro,passaruota anteriore,media,neutro,si,7,it
+COM-TOR-00170,NOL-TOR-00436,incidente_sinistro,,alta,negativo,si,26,it
+COM-TOR-00171,NOL-TOR-00453,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00172,NOL-TOR-00464,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00173,NOL-TOR-00384,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00174,NOL-TOR-00464,danno_carrozzeria,parabrezza,bassa,neutro,si,2,it
+COM-TOR-00175,NOL-TOR-00505,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00176,NOL-TOR-00508,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00177,NOL-TOR-00464,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00178,NOL-TOR-00498,danno_carrozzeria,specchietto destro,media,neutro,si,7,it
+COM-TOR-00179,NOL-TOR-00497,danno_carrozzeria,catena,media,neutro,si,6,it
+COM-TOR-00180,NOL-TOR-00436,incidente_sinistro,passaruota anteriore,alta,neutro,si,26,it
+COM-TOR-00181,NOL-TOR-00486,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00182,NOL-TOR-00512,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00183,NOL-TOR-00390,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00184,NOL-TOR-00398,assistenza_stradale,assistenza,media,negativo,si,6,it
+COM-TOR-00185,NOL-TOR-00331,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00186,NOL-TOR-00398,pulizia_igiene,peli di animali,bassa,neutro,si,1,it
+COM-TOR-00187,NOL-TOR-00506,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00188,NOL-TOR-00460,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00189,NOL-TOR-00565,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00190,NOL-TOR-00449,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00191,NOL-TOR-00501,feedback_positivo,,bassa,positivo,no,,en
+COM-TOR-00192,NOL-TOR-00501,danno_carrozzeria,parabrezza,bassa,neutro,si,2,it
+COM-TOR-00193,NOL-TOR-00540,danno_carrozzeria,cofano,bassa,neutro,si,2,it
+COM-TOR-00194,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00195,NOL-TOR-00360,guasto_meccanico,meccanica,media,neutro,si,7,it
+COM-TOR-00196,NOL-TOR-00538,foratura,pneumatico,bassa,neutro,si,1,en
+COM-TOR-00197,NOL-TOR-00360,guasto_meccanico,,media,neutro,si,7,it
+COM-TOR-00198,NOL-TOR-00225,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00199,NOL-TOR-00360,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00200,NOL-TOR-00538,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00201,NOL-TOR-00571,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00202,NOL-TOR-00399,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00203,NOL-TOR-00424,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00204,NOL-TOR-00574,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00205,NOL-TOR-00582,foratura,pneumatico,bassa,neutro,si,3,it
+COM-TOR-00206,NOL-TOR-00574,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-TOR-00207,NOL-TOR-00582,foratura,,bassa,neutro,si,3,it
+COM-TOR-00208,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00209,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00210,NOL-TOR-00584,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00211,NOL-TOR-00531,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00212,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00213,NOL-TOR-00581,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00214,NOL-TOR-00590,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00215,NOL-TOR-00382,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00216,NOL-TOR-00599,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-TOR-00217,NOL-TOR-00577,danno_carrozzeria,lunotto,media,neutro,si,6,it
+COM-TOR-00218,NOL-TOR-00577,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00219,NOL-TOR-00577,danno_carrozzeria,lunotto,media,neutro,si,6,it
+COM-TOR-00220,NOL-TOR-00586,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00221,NOL-TOR-00235,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00222,NOL-TOR-00537,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00223,NOL-TOR-00613,danno_carrozzeria,catena,bassa,neutro,si,1,it
+COM-TOR-00224,NOL-TOR-00585,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00225,NOL-TOR-00599,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00226,NOL-TOR-00615,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00227,NOL-TOR-00618,danno_carrozzeria,passaruota anteriore,media,neutro,si,6,it
+COM-TOR-00228,NOL-TOR-00554,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00229,NOL-TOR-00595,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00230,NOL-TOR-00646,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00231,NOL-TOR-00425,danno_carrozzeria,parafango,media,neutro,si,3,it
+COM-TOR-00232,NOL-TOR-00425,danno_carrozzeria,parafango,media,neutro,si,3,it
+COM-TOR-00233,NOL-TOR-00507,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00234,NOL-TOR-00633,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00235,NOL-TOR-00612,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00236,NOL-TOR-00653,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00237,NOL-TOR-00522,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00238,NOL-TOR-00647,assistenza_stradale,,bassa,neutro,si,4,it
+COM-TOR-00239,NOL-TOR-00647,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,si,2,it
+COM-TOR-00240,NOL-TOR-00651,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00241,NOL-TOR-00674,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00242,NOL-TOR-00647,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00243,NOL-TOR-00445,danno_carrozzeria,paraurti anteriore,alta,neutro,si,13,it
+COM-TOR-00244,NOL-TOR-00633,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00245,NOL-TOR-00560,danno_carrozzeria,paraurti anteriore,media,neutro,si,4,it
+COM-TOR-00246,NOL-TOR-00652,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00247,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00248,NOL-TOR-00371,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00249,NOL-TOR-00640,danno_carrozzeria,display,bassa,neutro,si,1,it
+COM-TOR-00250,NOL-TOR-00445,danno_carrozzeria,paraurti anteriore,alta,neutro,si,13,it
+COM-TOR-00251,NOL-TOR-00640,danno_carrozzeria,display,bassa,neutro,si,1,it
+COM-TOR-00252,NOL-TOR-00632,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00253,NOL-TOR-00530,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-TOR-00254,NOL-TOR-00519,danno_carrozzeria,paraurti anteriore,alta,neutro,si,32,it
+COM-TOR-00255,NOL-TOR-00588,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00256,NOL-TOR-00535,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00257,NOL-TOR-00598,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00258,NOL-TOR-00623,danno_carrozzeria,catena,alta,neutro,si,20,it
+COM-TOR-00259,NOL-TOR-00623,danno_carrozzeria,catena,alta,neutro,si,20,it
+COM-TOR-00260,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00261,NOL-TOR-00665,danno_carrozzeria,passaruota anteriore,media,neutro,si,5,it
+COM-TOR-00262,NOL-TOR-00689,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00263,NOL-TOR-00680,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00264,NOL-TOR-00718,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00265,NOL-TOR-00652,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00266,NOL-TOR-00650,danno_carrozzeria,parafango,bassa,neutro,no,0,it
+COM-TOR-00267,NOL-TOR-00650,danno_carrozzeria,parafango,bassa,neutro,no,0,it
+COM-TOR-00268,NOL-TOR-00608,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00269,NOL-TOR-00685,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00270,NOL-TOR-00251,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00271,NOL-TOR-00623,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00272,NOL-TOR-00698,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00273,NOL-TOR-00710,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00274,NOL-TOR-00708,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00275,NOL-TOR-00661,danno_carrozzeria,cofano,media,neutro,si,9,it
+COM-TOR-00276,NOL-TOR-00580,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-TOR-00277,NOL-TOR-00712,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00278,NOL-TOR-00580,guasto_meccanico,,bassa,neutro,si,1,it
+COM-TOR-00279,NOL-TOR-00704,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00280,NOL-TOR-00712,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00281,NOL-TOR-00721,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00282,NOL-TOR-00443,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00283,NOL-TOR-00702,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00284,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00285,NOL-TOR-00661,danno_carrozzeria,cofano,media,neutro,si,9,it
+COM-TOR-00286,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00287,NOL-TOR-00516,danno_carrozzeria,fanale posteriore,bassa,neutro,si,2,it
+COM-TOR-00288,NOL-TOR-00697,danno_carrozzeria,cerchio posteriore destro,media,neutro,si,3,it
+COM-TOR-00289,NOL-TOR-00516,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00290,NOL-TOR-00516,danno_carrozzeria,fanale posteriore,bassa,neutro,si,2,it
+COM-TOR-00291,NOL-TOR-00694,danno_carrozzeria,fanale anteriore,bassa,neutro,si,2,it
+COM-TOR-00292,NOL-TOR-00731,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00293,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00294,NOL-TOR-00504,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00295,NOL-TOR-00717,danno_carrozzeria,fanale anteriore,bassa,neutro,si,2,it
+COM-TOR-00296,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00297,NOL-TOR-00717,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00298,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00299,NOL-TOR-00738,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00300,NOL-TOR-00737,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00301,NOL-TOR-00694,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00302,NOL-TOR-00661,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00303,NOL-TOR-00784,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00304,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00305,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00306,NOL-TOR-00772,danno_carrozzeria,fianco sinistro,alta,neutro,si,17,it
+COM-TOR-00307,NOL-TOR-00714,danno_carrozzeria,parafango,media,neutro,si,2,it
+COM-TOR-00308,NOL-TOR-00770,incidente_sinistro,,alta,negativo,si,23,it
+COM-TOR-00309,NOL-TOR-00714,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00310,NOL-TOR-00714,danno_carrozzeria,parafango,media,neutro,si,2,it
+COM-TOR-00311,NOL-TOR-00820,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00312,NOL-TOR-00770,incidente_sinistro,paraurti posteriore,alta,neutro,si,23,it
+COM-TOR-00313,NOL-TOR-00801,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00314,NOL-TOR-00559,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00315,NOL-TOR-00684,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00316,NOL-TOR-00722,guasto_meccanico,meccanica,bassa,neutro,si,5,it
+COM-TOR-00317,NOL-TOR-00734,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00318,NOL-TOR-00775,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00319,NOL-TOR-00762,guasto_meccanico,meccanica,bassa,negativo,si,4,it
+COM-TOR-00320,NOL-TOR-00766,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00321,NOL-TOR-00722,guasto_meccanico,,bassa,neutro,si,5,it
+COM-TOR-00322,NOL-TOR-00786,incidente_sinistro,,alta,negativo,si,13,it
+COM-TOR-00323,NOL-TOR-00762,guasto_meccanico,,bassa,neutro,si,4,it
+COM-TOR-00324,NOL-TOR-00766,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-TOR-00325,NOL-TOR-00829,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00326,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00327,NOL-TOR-00786,incidente_sinistro,fianco sinistro,alta,neutro,si,13,it
+COM-TOR-00328,NOL-TOR-00709,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00329,NOL-TOR-00778,foratura,pneumatico,bassa,negativo,si,3,de
+COM-TOR-00330,NOL-TOR-00768,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00331,NOL-TOR-00778,foratura,,bassa,neutro,si,3,it
+COM-TOR-00332,NOL-TOR-00591,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00333,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00334,NOL-TOR-00749,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00335,NOL-TOR-00683,danno_carrozzeria,forcella,media,neutro,si,3,it
+COM-TOR-00336,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00337,NOL-TOR-00655,guasto_meccanico,meccanica,media,neutro,si,6,it
+COM-TOR-00338,NOL-TOR-00644,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00339,NOL-TOR-00839,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00340,NOL-TOR-00842,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00341,NOL-TOR-00856,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00342,NOL-TOR-00799,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00343,NOL-TOR-00843,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-TOR-00344,NOL-TOR-00875,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00345,NOL-TOR-00851,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00346,NOL-TOR-00861,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,de
+COM-TOR-00347,NOL-TOR-00841,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00348,NOL-TOR-00626,danno_carrozzeria,specchietto destro,media,neutro,si,4,it
+COM-TOR-00349,NOL-TOR-00861,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-TOR-00350,NOL-TOR-00863,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00351,NOL-TOR-00831,danno_carrozzeria,passaruota anteriore,media,neutro,si,6,it
+COM-TOR-00352,NOL-TOR-00639,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00353,NOL-TOR-00861,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00354,NOL-TOR-00812,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00355,NOL-TOR-00871,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00356,NOL-TOR-00887,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00357,NOL-TOR-00863,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00358,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00359,NOL-TOR-00879,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00360,NOL-TOR-00785,foratura,pneumatico,bassa,negativo,si,2,fr
+COM-TOR-00361,NOL-TOR-00865,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00362,NOL-TOR-00720,danno_carrozzeria,paraurti posteriore,media,neutro,si,3,it
+COM-TOR-00363,NOL-TOR-00785,foratura,,bassa,neutro,si,2,it
+COM-TOR-00364,NOL-TOR-00889,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00365,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00366,NOL-TOR-00628,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00367,NOL-TOR-00827,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00368,NOL-TOR-00554,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00369,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00370,NOL-TOR-00824,danno_carrozzeria,fianco destro,media,neutro,si,9,it
+COM-TOR-00371,NOL-TOR-00911,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00372,NOL-TOR-00826,danno_carrozzeria,paraurti posteriore,media,neutro,si,4,it
+COM-TOR-00373,NOL-TOR-00886,danno_carrozzeria,parabrezza,media,neutro,si,9,it
+COM-TOR-00374,NOL-TOR-00434,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00375,NOL-TOR-00886,danno_carrozzeria,parabrezza,media,neutro,si,9,it
+COM-TOR-00376,NOL-TOR-00890,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00377,NOL-TOR-00339,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00378,NOL-TOR-00934,guasto_meccanico,meccanica,bassa,negativo,si,3,en
+COM-TOR-00379,NOL-TOR-00934,guasto_meccanico,,bassa,neutro,si,3,it
+COM-TOR-00380,NOL-TOR-00933,incidente_sinistro,,media,negativo,si,11,it
+COM-TOR-00381,NOL-TOR-00855,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00382,NOL-TOR-00933,incidente_sinistro,parabrezza,media,neutro,si,11,it
+COM-TOR-00383,NOL-TOR-00701,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00384,NOL-TOR-00816,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00385,NOL-TOR-00891,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00386,NOL-TOR-00835,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00387,NOL-TOR-00930,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00388,NOL-TOR-00798,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00389,NOL-TOR-00953,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00390,NOL-TOR-00913,danno_carrozzeria,fanale anteriore,bassa,neutro,no,0,it
+COM-TOR-00391,NOL-TOR-00968,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00392,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00393,NOL-TOR-00875,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00394,NOL-TOR-00853,foratura,pneumatico,bassa,negativo,si,2,it
+COM-TOR-00395,NOL-TOR-00811,danno_carrozzeria,cerchio anteriore sinistro,alta,neutro,si,18,it
+COM-TOR-00396,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00397,NOL-TOR-00816,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00398,NOL-TOR-00928,danno_carrozzeria,cambio posteriore,media,neutro,si,4,it
+COM-TOR-00399,NOL-TOR-00973,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-TOR-00400,NOL-TOR-00928,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00401,NOL-TOR-00973,guasto_meccanico,,bassa,neutro,si,2,it
+COM-TOR-00402,NOL-TOR-00975,danno_carrozzeria,fanale anteriore,alta,neutro,si,13,it
+COM-TOR-00403,NOL-TOR-00905,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00404,NOL-TOR-00974,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00405,NOL-TOR-00754,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00406,NOL-TOR-00881,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00407,NOL-TOR-00967,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00408,NOL-TOR-00981,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00409,NOL-TOR-00941,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00410,NOL-TOR-00988,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00411,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00412,NOL-TOR-00465,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00413,NOL-TOR-01026,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00414,NOL-TOR-01014,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00415,NOL-TOR-00915,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00416,NOL-TOR-00956,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00417,NOL-TOR-01033,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00418,NOL-TOR-00803,danno_carrozzeria,display,bassa,neutro,no,0,it
+COM-TOR-00419,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00420,NOL-TOR-00599,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00421,NOL-TOR-01013,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00422,NOL-TOR-01031,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00423,NOL-TOR-01038,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,no,0,it
+COM-TOR-00424,NOL-TOR-00852,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00425,NOL-TOR-01050,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00426,NOL-TOR-01034,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-TOR-00427,NOL-TOR-01002,danno_carrozzeria,cofano,alta,neutro,si,31,it
+COM-TOR-00428,NOL-TOR-00888,guasto_elettrico_batteria,impianto elettrico,alta,negativo,si,8,it
+COM-TOR-00429,NOL-TOR-01002,danno_carrozzeria,cofano,alta,neutro,si,31,it
+COM-TOR-00430,NOL-TOR-00888,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00431,NOL-TOR-01070,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00432,NOL-TOR-00888,guasto_elettrico_batteria,,alta,neutro,si,8,it
+COM-TOR-00433,NOL-TOR-00932,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00434,NOL-TOR-01101,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00435,NOL-TOR-01072,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00436,NOL-TOR-01067,pulizia_igiene,fango,bassa,neutro,si,1,it
+COM-TOR-00437,NOL-TOR-01050,danno_carrozzeria,cambio posteriore,bassa,neutro,si,1,it
+COM-TOR-00438,NOL-TOR-00845,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00439,NOL-TOR-00960,assistenza_stradale,assistenza,bassa,negativo,si,3,it
+COM-TOR-00440,NOL-TOR-01102,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00441,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00442,NOL-TOR-01089,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00443,NOL-TOR-00906,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00444,NOL-TOR-00960,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00445,NOL-TOR-01068,danno_carrozzeria,cerchio anteriore,media,neutro,si,2,it
+COM-TOR-00446,NOL-TOR-01079,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00447,NOL-TOR-01091,danno_carrozzeria,manubrio,media,neutro,si,7,it
+COM-TOR-00448,NOL-TOR-01078,danno_carrozzeria,passaruota anteriore,alta,neutro,si,29,it
+COM-TOR-00449,NOL-TOR-01091,danno_carrozzeria,manubrio,media,neutro,si,7,it
+COM-TOR-00450,NOL-TOR-00908,danno_carrozzeria,portiera lato guida,bassa,neutro,si,1,it
+COM-TOR-00451,NOL-TOR-01086,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00452,NOL-TOR-00908,danno_carrozzeria,portiera lato guida,bassa,neutro,si,1,it
+COM-TOR-00453,NOL-TOR-00769,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00454,NOL-TOR-01105,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00455,NOL-TOR-01018,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00456,NOL-TOR-01107,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00457,NOL-TOR-00957,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00458,NOL-TOR-00945,danno_carrozzeria,lunotto,bassa,neutro,si,1,it
+COM-TOR-00459,NOL-TOR-00856,danno_carrozzeria,fanale posteriore,bassa,neutro,si,1,it
+COM-TOR-00460,NOL-TOR-01117,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00461,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00462,NOL-TOR-01119,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-TOR-00463,NOL-TOR-01076,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00464,NOL-TOR-01052,danno_carrozzeria,pedale,bassa,neutro,no,0,it
+COM-TOR-00465,NOL-TOR-01052,danno_carrozzeria,pedale,bassa,neutro,no,0,it
+COM-TOR-00466,NOL-TOR-01109,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00467,NOL-TOR-01055,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-TOR-00468,NOL-TOR-01055,danno_carrozzeria,lunotto,alta,neutro,si,18,it
+COM-TOR-00469,NOL-TOR-01091,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00470,NOL-TOR-01131,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00471,NOL-TOR-01130,danno_carrozzeria,parafango,bassa,neutro,si,1,it
+COM-TOR-00472,NOL-TOR-01145,danno_carrozzeria,forcella,bassa,neutro,si,1,it
+COM-TOR-00473,NOL-TOR-01063,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00474,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00475,NOL-TOR-01130,danno_carrozzeria,parafango,bassa,neutro,si,1,it
+COM-TOR-00476,NOL-TOR-01071,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00477,NOL-TOR-01140,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00478,NOL-TOR-01167,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00479,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00480,NOL-TOR-00937,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00481,NOL-TOR-00751,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00482,NOL-TOR-00941,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00483,NOL-TOR-01152,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00484,NOL-TOR-00846,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00485,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00486,NOL-TOR-01154,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00487,NOL-TOR-01162,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,no,0,it
+COM-TOR-00488,NOL-TOR-01025,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00489,NOL-TOR-01188,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00490,NOL-TOR-01184,danno_carrozzeria,cambio posteriore,bassa,neutro,si,1,it
+COM-TOR-00491,NOL-TOR-01084,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00492,NOL-TOR-01029,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00493,NOL-TOR-00838,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00494,NOL-TOR-01184,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00495,NOL-TOR-01141,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00496,NOL-TOR-01138,danno_carrozzeria,cavalletto,bassa,neutro,si,1,it
+COM-TOR-00497,NOL-TOR-00657,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00498,NOL-TOR-01205,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00499,NOL-TOR-01207,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00500,NOL-TOR-01204,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00501,NOL-TOR-01074,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00502,NOL-TOR-01223,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00503,NOL-TOR-00996,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00504,NOL-TOR-01221,danno_carrozzeria,catena,bassa,neutro,si,1,it
+COM-TOR-00505,NOL-TOR-01208,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00506,NOL-TOR-01168,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-TOR-00507,NOL-TOR-01168,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-TOR-00508,NOL-TOR-01238,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00509,NOL-TOR-01209,foratura,pneumatico,bassa,negativo,si,4,it
+COM-TOR-00510,NOL-TOR-01209,foratura,,bassa,neutro,si,4,it
+COM-TOR-00511,NOL-TOR-01235,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00512,NOL-TOR-01253,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-TOR-00513,NOL-TOR-01253,guasto_meccanico,,bassa,neutro,si,2,it
+COM-TOR-00514,NOL-TOR-01174,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00515,NOL-TOR-01238,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00516,NOL-TOR-01174,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00517,NOL-TOR-01183,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,si,2,it
+COM-TOR-00518,NOL-TOR-01209,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00519,NOL-TOR-01228,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,2,it
+COM-TOR-00520,NOL-TOR-01201,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00521,NOL-TOR-01219,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-TOR-00522,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00523,NOL-TOR-01261,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00524,NOL-TOR-01228,danno_carrozzeria,cerchio anteriore sinistro,bassa,neutro,si,2,it
+COM-TOR-00525,NOL-TOR-01265,danno_carrozzeria,paraurti posteriore,bassa,neutro,si,1,it
+COM-TOR-00526,NOL-TOR-01278,richiesta_info,,bassa,neutro,no,,fr
+COM-TOR-00527,NOL-TOR-01180,danno_carrozzeria,porta scorrevole,media,neutro,si,9,it
+COM-TOR-00528,NOL-TOR-01193,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00529,NOL-TOR-01265,danno_carrozzeria,paraurti posteriore,bassa,neutro,si,1,it
+COM-TOR-00530,NOL-TOR-01132,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00531,NOL-TOR-01265,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00532,NOL-TOR-01270,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00533,NOL-TOR-01066,danno_carrozzeria,forcella,media,neutro,si,2,it
+COM-TOR-00534,NOL-TOR-01259,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00535,NOL-TOR-01066,danno_carrozzeria,forcella,media,neutro,si,2,it
+COM-TOR-00536,NOL-TOR-01287,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00537,NOL-TOR-01287,danno_carrozzeria,catena,alta,neutro,si,9,it
+COM-TOR-00538,NOL-TOR-01314,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00539,NOL-TOR-01278,danno_carrozzeria,paraurti anteriore,bassa,neutro,si,1,it
+COM-TOR-00540,NOL-TOR-01286,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00541,NOL-TOR-01303,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00542,NOL-TOR-01271,danno_carrozzeria,specchietto sinistro,bassa,neutro,si,1,it
+COM-TOR-00543,NOL-TOR-01271,danno_carrozzeria,specchietto sinistro,bassa,neutro,si,1,it
+COM-TOR-00544,NOL-TOR-01306,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00545,NOL-TOR-01289,guasto_elettrico_batteria,impianto elettrico,alta,negativo,si,8,it
+COM-TOR-00546,NOL-TOR-01289,guasto_elettrico_batteria,,alta,neutro,si,8,it
+COM-TOR-00547,NOL-TOR-01315,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00548,NOL-TOR-01094,danno_carrozzeria,fianco sinistro,bassa,neutro,no,0,it
+COM-TOR-00549,NOL-TOR-01094,danno_carrozzeria,fianco sinistro,bassa,neutro,no,0,it
+COM-TOR-00550,NOL-TOR-01322,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00551,NOL-TOR-01237,danno_carrozzeria,fanale posteriore,bassa,neutro,no,0,it
+COM-TOR-00552,NOL-TOR-01327,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00553,NOL-TOR-01233,danno_carrozzeria,portiera lato passeggero,media,neutro,si,7,it
+COM-TOR-00554,NOL-TOR-01233,danno_carrozzeria,portiera lato passeggero,media,neutro,si,7,it
+COM-TOR-00555,NOL-TOR-01041,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00556,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00557,NOL-TOR-01328,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00558,NOL-TOR-01249,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00559,NOL-TOR-01216,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00560,NOL-TOR-01359,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00561,NOL-TOR-01257,pulizia_igiene,rifiuti nel bagagliaio,bassa,neutro,si,1,it
+COM-TOR-00562,NOL-TOR-01362,danno_carrozzeria,cerchio posteriore,alta,neutro,si,17,it
+COM-TOR-00563,NOL-TOR-01362,danno_carrozzeria,cerchio posteriore,alta,neutro,si,17,it
+COM-TOR-00564,NOL-TOR-00983,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00565,NOL-TOR-01328,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00566,NOL-TOR-01330,danno_carrozzeria,manubrio,bassa,neutro,no,0,it
+COM-TOR-00567,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00568,NOL-TOR-01381,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00569,NOL-TOR-01384,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00570,NOL-TOR-01222,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00571,NOL-TOR-01355,pulizia_igiene,odore di fumo,bassa,neutro,no,0,it
+COM-TOR-00572,NOL-TOR-01312,danno_carrozzeria,fianco destro,media,neutro,si,4,it
+COM-TOR-00573,NOL-TOR-01368,pulizia_igiene,sabbia,bassa,neutro,no,0,it
+COM-TOR-00574,NOL-TOR-01250,danno_carrozzeria,specchietto sinistro,media,neutro,si,5,it
+COM-TOR-00575,NOL-TOR-01349,pulizia_igiene,sabbia,bassa,neutro,si,1,it
+COM-TOR-00576,NOL-TOR-01396,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00577,NOL-TOR-01364,feedback_positivo,,bassa,positivo,no,,fr
+COM-TOR-00578,NOL-TOR-01402,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00579,NOL-TOR-01389,danno_carrozzeria,passaruota anteriore,alta,neutro,si,14,it
+COM-TOR-00580,NOL-TOR-01360,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00581,NOL-TOR-01389,danno_carrozzeria,passaruota anteriore,alta,neutro,si,14,it
+COM-TOR-00582,NOL-TOR-01392,danno_carrozzeria,cerchio posteriore,media,neutro,si,6,it
+COM-TOR-00583,NOL-TOR-01409,danno_carrozzeria,paraurti posteriore,bassa,neutro,si,1,it
+COM-TOR-00584,NOL-TOR-01392,danno_carrozzeria,cerchio posteriore,media,neutro,si,6,it
+COM-TOR-00585,NOL-TOR-01421,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00586,NOL-TOR-01197,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00587,NOL-TOR-01337,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00588,NOL-TOR-01379,danno_carrozzeria,cerchio posteriore,bassa,neutro,no,0,it
+COM-TOR-00589,NOL-TOR-01220,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00590,NOL-TOR-01390,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00591,NOL-TOR-01408,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00592,NOL-TOR-01367,danno_carrozzeria,lunotto,bassa,neutro,si,1,it
+COM-TOR-00593,NOL-TOR-01195,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00594,NOL-TOR-01357,danno_carrozzeria,specchietto destro,bassa,neutro,si,1,it
+COM-TOR-00595,NOL-TOR-01357,danno_carrozzeria,specchietto destro,bassa,neutro,si,1,it
+COM-TOR-00596,NOL-TOR-01400,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00597,NOL-TOR-01367,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00598,NOL-TOR-01325,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00599,NOL-TOR-00932,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00600,NOL-TOR-01042,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00601,NOL-TOR-01412,pulizia_igiene,macchie sui sedili,bassa,neutro,si,1,it
+COM-TOR-00602,NOL-TOR-01432,danno_carrozzeria,specchietto destro,media,neutro,si,7,it
+COM-TOR-00603,NOL-TOR-01410,danno_carrozzeria,specchietto sinistro,bassa,neutro,si,1,it
+COM-TOR-00604,NOL-TOR-01367,danno_carrozzeria,lunotto,bassa,neutro,si,1,it
+COM-TOR-00605,NOL-TOR-01410,danno_carrozzeria,specchietto sinistro,bassa,neutro,si,1,it
+COM-TOR-00606,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00607,NOL-TOR-01442,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,8,it
+COM-TOR-00608,NOL-TOR-01341,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,2,it
+COM-TOR-00609,NOL-TOR-01393,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00610,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00611,NOL-TOR-01458,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,1,it
+COM-TOR-00612,NOL-TOR-01447,danno_carrozzeria,parabrezza,bassa,neutro,si,1,it
+COM-TOR-00613,NOL-TOR-01458,danno_carrozzeria,portiera lato passeggero,bassa,neutro,si,1,it
+COM-TOR-00614,NOL-TOR-01335,danno_carrozzeria,fanale posteriore,media,neutro,si,7,it
+COM-TOR-00615,NOL-TOR-01321,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00616,NOL-TOR-01335,danno_carrozzeria,fanale posteriore,media,neutro,si,7,it
+COM-TOR-00617,NOL-TOR-01442,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00618,NOL-TOR-01367,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00619,NOL-TOR-01473,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00620,NOL-TOR-01310,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00621,NOL-TOR-01450,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00622,NOL-TOR-01486,guasto_meccanico,,media,neutro,si,7,it
+COM-TOR-00623,NOL-TOR-01478,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00624,NOL-TOR-01488,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00625,NOL-TOR-01440,incidente_sinistro,,media,negativo,si,29,it
+COM-TOR-00626,NOL-TOR-01462,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00627,NOL-TOR-01347,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00628,NOL-TOR-01440,incidente_sinistro,parabrezza,media,neutro,si,29,it
+COM-TOR-00629,NOL-TOR-01477,incidente_sinistro,,media,negativo,si,8,it
+COM-TOR-00630,NOL-TOR-01462,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00631,NOL-TOR-01398,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00632,NOL-TOR-01477,incidente_sinistro,paraurti posteriore,media,neutro,si,8,it
+COM-TOR-00633,NOL-TOR-01495,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00634,,richiesta_info,,bassa,neutro,no,,fr
+COM-TOR-00635,NOL-TOR-01374,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00636,NOL-TOR-01431,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00637,NOL-TOR-01406,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00638,NOL-TOR-01473,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00639,NOL-TOR-01509,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-TOR-00640,NOL-TOR-01522,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00641,NOL-TOR-01509,guasto_meccanico,,bassa,neutro,si,1,it
+COM-TOR-00642,NOL-TOR-01465,guasto_meccanico,meccanica,bassa,negativo,si,3,it
+COM-TOR-00643,NOL-TOR-01425,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,no,0,it
+COM-TOR-00644,NOL-TOR-01496,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00645,NOL-TOR-01470,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00646,NOL-TOR-01482,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00647,NOL-TOR-01467,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00648,NOL-TOR-01526,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00649,NOL-TOR-01546,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00650,NOL-TOR-01525,guasto_elettrico_batteria,batteria,bassa,neutro,si,1,it
+COM-TOR-00651,NOL-TOR-01525,guasto_elettrico_batteria,,bassa,neutro,si,1,it
+COM-TOR-00652,NOL-TOR-01519,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00653,NOL-TOR-01486,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00654,NOL-TOR-01443,guasto_elettrico_batteria,impianto elettrico,media,negativo,si,6,it
+COM-TOR-00655,NOL-TOR-01332,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,3,it
+COM-TOR-00656,NOL-TOR-01332,guasto_elettrico_batteria,,bassa,neutro,si,3,it
+COM-TOR-00657,NOL-TOR-01465,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00658,NOL-TOR-01545,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00659,NOL-TOR-01566,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00660,NOL-TOR-01523,danno_carrozzeria,portiera lato passeggero,media,neutro,si,8,it
+COM-TOR-00661,NOL-TOR-01541,assistenza_stradale,assistenza,bassa,neutro,si,5,it
+COM-TOR-00662,NOL-TOR-01522,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00663,NOL-TOR-01523,danno_carrozzeria,portiera lato passeggero,media,neutro,si,8,it
+COM-TOR-00664,NOL-TOR-01443,guasto_elettrico_batteria,,media,neutro,si,6,it
+COM-TOR-00665,NOL-TOR-01443,danno_carrozzeria,passaruota anteriore,bassa,neutro,si,2,it
+COM-TOR-00666,NOL-TOR-01552,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00667,NOL-TOR-01556,assistenza_stradale,assistenza,bassa,negativo,si,4,it
+COM-TOR-00668,NOL-TOR-01563,guasto_elettrico_batteria,batteria,bassa,negativo,si,3,it
+COM-TOR-00669,NOL-TOR-01395,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00670,NOL-TOR-01558,pulizia_igiene,macchie sui sedili,bassa,neutro,no,0,it
+COM-TOR-00671,NOL-TOR-01541,assistenza_stradale,,bassa,neutro,si,5,it
+COM-TOR-00672,NOL-TOR-01521,incidente_sinistro,,media,negativo,si,15,it
+COM-TOR-00673,NOL-TOR-01521,incidente_sinistro,fanale posteriore,media,neutro,si,15,it
+COM-TOR-00674,NOL-TOR-01583,guasto_elettrico_batteria,batteria,bassa,negativo,si,3,it
+COM-TOR-00675,NOL-TOR-01583,guasto_elettrico_batteria,,bassa,neutro,si,3,it
+COM-TOR-00676,NOL-TOR-01556,assistenza_stradale,,bassa,neutro,si,4,it
+COM-TOR-00677,NOL-TOR-01566,pulizia_igiene,peli di animali,bassa,neutro,no,0,it
+COM-TOR-00678,NOL-TOR-01520,danno_carrozzeria,fanale posteriore,media,neutro,si,8,it
+COM-TOR-00679,NOL-TOR-01585,assistenza_stradale,assistenza,bassa,negativo,si,3,it
+COM-TOR-00680,NOL-TOR-01531,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00681,NOL-TOR-01391,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00682,NOL-TOR-01493,danno_carrozzeria,sella,media,neutro,si,6,it
+COM-TOR-00683,NOL-TOR-01493,danno_carrozzeria,sella,media,neutro,si,6,it
+COM-TOR-00684,NOL-TOR-01582,guasto_meccanico,meccanica,bassa,neutro,si,2,de
+COM-TOR-00685,NOL-TOR-01599,foratura,pneumatico,media,negativo,si,7,it
+COM-TOR-00686,NOL-TOR-01582,guasto_meccanico,,bassa,neutro,si,2,it
+COM-TOR-00687,NOL-TOR-01599,foratura,,media,neutro,si,7,it
+COM-TOR-00688,NOL-TOR-01520,danno_carrozzeria,fanale posteriore,media,neutro,si,8,it
+COM-TOR-00689,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00690,NOL-TOR-01561,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00691,NOL-TOR-01602,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00692,NOL-TOR-01622,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00693,NOL-TOR-01604,danno_carrozzeria,fianco sinistro,alta,neutro,si,23,it
+COM-TOR-00694,NOL-TOR-01290,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00695,NOL-TOR-01596,guasto_meccanico,meccanica,bassa,negativo,si,1,it
+COM-TOR-00696,NOL-TOR-01653,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00697,NOL-TOR-01607,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00698,NOL-TOR-01631,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00699,NOL-TOR-01547,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00700,NOL-TOR-01635,danno_carrozzeria,display,media,neutro,si,4,it
+COM-TOR-00701,NOL-TOR-01634,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00702,NOL-TOR-01635,oggetto_dimenticato,,bassa,neutro,no,,it
+COM-TOR-00703,NOL-TOR-01527,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00704,NOL-TOR-01608,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00705,NOL-TOR-01623,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00706,NOL-TOR-01640,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00707,NOL-TOR-01603,guasto_elettrico_batteria,batteria,bassa,negativo,si,2,it
+COM-TOR-00708,NOL-TOR-01640,pulizia_igiene,fango,bassa,neutro,no,0,it
+COM-TOR-00709,NOL-TOR-01647,guasto_elettrico_batteria,impianto elettrico,bassa,negativo,si,2,it
+COM-TOR-00710,NOL-TOR-01616,danno_carrozzeria,cerchio anteriore sinistro,media,neutro,si,5,it
+COM-TOR-00711,NOL-TOR-01231,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00712,NOL-TOR-01647,guasto_elettrico_batteria,,bassa,neutro,si,2,it
+COM-TOR-00713,NOL-TOR-01616,danno_carrozzeria,cerchio anteriore sinistro,media,neutro,si,5,it
+COM-TOR-00714,NOL-TOR-01650,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00715,NOL-TOR-01646,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00716,NOL-TOR-01640,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00717,NOL-TOR-01612,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00718,NOL-TOR-01638,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00719,NOL-TOR-01673,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00720,NOL-TOR-01345,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00721,NOL-TOR-01666,danno_carrozzeria,display,alta,neutro,si,17,it
+COM-TOR-00722,NOL-TOR-01650,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00723,NOL-TOR-01506,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00724,NOL-TOR-01658,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00725,NOL-TOR-01452,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00726,NOL-TOR-01296,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00727,NOL-TOR-01658,danno_carrozzeria,portiera lato guida,media,neutro,si,5,it
+COM-TOR-00728,NOL-TOR-01674,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00729,NOL-TOR-01658,danno_carrozzeria,portiera lato guida,media,neutro,si,5,it
+COM-TOR-00730,,richiesta_info,,bassa,neutro,no,,it
+COM-TOR-00731,NOL-TOR-01655,danno_carrozzeria,cerchio posteriore destro,bassa,neutro,no,0,it
+COM-TOR-00732,NOL-TOR-01659,feedback_positivo,,bassa,positivo,no,,en
+COM-TOR-00733,NOL-TOR-01682,guasto_elettrico_batteria,batteria,bassa,neutro,si,4,it
+COM-TOR-00734,NOL-TOR-01689,danno_carrozzeria,paraurti posteriore,media,neutro,si,9,it
+COM-TOR-00735,NOL-TOR-01689,danno_carrozzeria,paraurti posteriore,media,neutro,si,9,it
+COM-TOR-00736,NOL-TOR-01656,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00737,NOL-TOR-01606,danno_carrozzeria,lunotto,bassa,neutro,no,0,it
+COM-TOR-00738,NOL-TOR-01682,guasto_elettrico_batteria,,bassa,neutro,si,4,it
+COM-TOR-00739,NOL-TOR-01627,guasto_elettrico_batteria,impianto elettrico,alta,negativo,si,7,it
+COM-TOR-00740,NOL-TOR-01548,guasto_meccanico,meccanica,bassa,negativo,si,2,it
+COM-TOR-00741,NOL-TOR-01649,modifica_prenotazione,,bassa,neutro,no,,it
+COM-TOR-00742,NOL-TOR-01662,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00743,NOL-TOR-01548,danno_carrozzeria,porta scorrevole,bassa,neutro,si,1,it
+COM-TOR-00744,NOL-TOR-01691,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00745,NOL-TOR-01487,danno_carrozzeria,forcella,media,neutro,si,7,it
+COM-TOR-00746,NOL-TOR-01518,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00747,NOL-TOR-01680,danno_carrozzeria,cofano,bassa,neutro,no,0,it
+COM-TOR-00748,NOL-TOR-01695,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00749,NOL-TOR-01698,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00750,NOL-TOR-01432,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00751,NOL-TOR-01691,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00752,NOL-TOR-01681,ritardo_riconsegna,,bassa,neutro,no,,it
+COM-TOR-00753,NOL-TOR-01551,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00754,NOL-TOR-01701,danno_carrozzeria,cofano,bassa,neutro,si,1,it
+COM-TOR-00755,NOL-TOR-01681,guasto_elettrico_batteria,,bassa,neutro,si,4,it
+COM-TOR-00756,NOL-TOR-01461,guasto_elettrico_batteria,batteria,media,negativo,si,8,it
+COM-TOR-00757,NOL-TOR-01709,danno_carrozzeria,portellone posteriore,bassa,neutro,si,1,it
+COM-TOR-00758,NOL-TOR-01684,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00759,NOL-TOR-01669,pulizia_igiene,odore di fumo,bassa,neutro,si,1,it
+COM-TOR-00760,NOL-TOR-01667,feedback_positivo,,bassa,positivo,no,,it
+COM-TOR-00761,NOL-TOR-01719,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00762,NOL-TOR-01706,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00763,NOL-TOR-01692,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00764,NOL-TOR-01723,guasto_meccanico,meccanica,bassa,neutro,si,5,it
+COM-TOR-00765,NOL-TOR-01722,cancellazione,,bassa,neutro,no,,it
+COM-TOR-00766,NOL-TOR-01700,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00767,NOL-TOR-01694,reclamo_addebito,,media,negativo,no,,it
+COM-TOR-00768,NOL-TOR-01712,guasto_meccanico,meccanica,bassa,negativo,si,5,it
+COM-TOR-00769,NOL-TOR-01544,danno_carrozzeria,parabrezza,bassa,neutro,no,0,it
+COM-TOR-00770,NOL-TOR-01649,danno_carrozzeria,passaruota anteriore,bassa,neutro,no,0,it
+COM-TOR-00771,NOL-TOR-01363,multa_ztl_pedaggio,,bassa,neutro,no,,it
+COM-TOR-00772,NOL-TOR-01692,danno_carrozzeria,portiera lato guida,bassa,neutro,no,0,it
+COM-TOR-00773,NOL-TOR-01712,guasto_meccanico,,bassa,neutro,si,5,it
+COM-TOR-00774,NOL-TOR-01678,danno_carrozzeria,lunotto,media,neutro,si,8,it

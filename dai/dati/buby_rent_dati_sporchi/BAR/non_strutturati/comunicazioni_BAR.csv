@@ -1,0 +1,549 @@
+id_comunicazione,id_noleggio,data_ora,canale,mittente_tipo,mittente,oggetto,testo
+COM-BAR-00001,NOL-BAR-00003,12/10/25 07:39,email,cliente,valentina.ghiglione@example.net,Cancellazione,"Salve,
+Purtroppo  non  posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Grazie e saluti
+Ghiglione Valentina
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00002,,26/10/25 18:44,telefonata_trascritta,cliente,3672516320,,Trascr. chiamata ore 8:47 (op. Luca) - cliente Marco Sacco: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-BAR-00003,NOL-BAR-00013,03/11/2025 03:33,sms,cliente,3530126215,,"incidente in Oulx con il mezzo (GH512LY): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?"
+COM-BAR-00004,NOL-BAR-00013,04/11/2025 01:58,nota_tecnico,tecnico,Gianni,,"BAR-02 - verbale polizia oocale in allegato, danni antteiori. fermo 12gg. Fabio"
+COM-BAR-00005,NOL-BAR-00016,11/10/2025 19:50,nota_tecnico,tecnico,L.G.,,BAR-07 rientrato. Danno fianco dx: leggera ammaccatura. nessun intervento urgente. Foto ok in cartella. Stima no fermo (Elena)
+COM-BAR-00006,,13/11/2025 10:28,modulo_web,cliente,luca.cavallo@example.org,Richiesta assistenza,"Nome:  Luca  | Email: luca.cavallo@example.org | Tel: 3723174565 | Messaggio: ottima asistenza quaando abbiamo avut oisogno, grazie davvero"
+COM-BAR-00007,NOL-BAR-00008,15-11-2025 01:05,email,cliente,info@barberotrasporti.example.it,info danno,"Volevo avvistrvi che sul mezzo (Skoda Kodiaq) c'e' un graffio su il fanale anteriore, non so see era gia' presente al ritiro. Se serve vi mando le foto
+Grazie
+Barbero
+Sent from my iPhone"
+COM-BAR-00008,NOL-BAR-00008,15-11-2025 16:17,nota_tecnico,tecnico,L.G.,,bar-05 rientrato. danno fanale ant.: ammaccatura con vernice saltata. preventivo richiesto. foto ok in cartella. stima fermo 4gg (m.)
+COM-BAR-00009,NOL-BAR-00026,19/11/2025,email,cliente,martinima21@example.com,annullo noleggio,.
+COM-BAR-00010,NOL-BAR-00018,2025-11-20 12:27,nota_tecnico,tecnico,L.G.,,"RRIT BAR-01: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Fabio"
+COM-BAR-00011,NOL-BAR-00014,2025-11-22 01:41,email,cliente,simone.ghiglione@example.com,Reclamo,"Ciao,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Graze
+Ghiglione Simone
+Inviato da iPhone"
+COM-BAR-00012,NOL-BAR-00017,23/11/2025 10:25,modulo_web,cliente,info@genreconsulenze.example.it,Richiesta assistenza,"Nomee: GENRE CeNSULENZE | Email: ito@genreconulenze.example.it | Tel: 3755194265 | Messaggio: otttma assistenza quando abbiamo avuto bisogno, grzie davvero"
+COM-BAR-00013,NOL-BAR-00044,26/11/2025 15:42,email,cliente,alessandro.chiesa@example.org,Segnalazione danno,"Buonriorno a titti,
+Sono caduto con la bici sul snotiero verso Cesana: la leva del freno si e' rooinato/a ma io sto bene. Mi dite come funziona con lla cuzione?
+Grazie e saluti
+Chiesa Alessandr"
+COM-BAR-00014,00044,26/11/2025 18:20,nota_tecnico,tecnico,L.G.,,EB-BAR-002:  leva  del freno -> leva piegata ma funzionante. nessun intervento urgente // fermo 1gg
+COM-BAR-00015,NOL-BAR-00041,30/11/25 14:11,nota_tecnico,tecnico,Tech1,,"BAR-06  -  spia motore, diagnosi in corso. fermo 8gg. Marco"
+COM-BAR-00016,NOL-BAR-00025,01/12/2025 18:39,sms,cliente,3571657419,,"Bonjour,&nbsp;j'ai raye le vehicule (Ford Transit) pres de Cesana. Que dois-je faire ?"
+COM-BAR-00017,00025,02/12/2025 10:13,nota_tecnico,tecnico,Marco,,"BAR-07: parabrezza -> elemento distrutto, da sostituire. carro attrezzi per officina // fermo 34gg [incomprensibile]"
+COM-BAR-00018,,04/12/25 21:37,email,cliente,vacchettoil7@example.it,Info noleggio,"Buonasera,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+In attesa di un vostro riscontro
+Ilaria Vacchetto
+Sent srom my iPhone"
+COM-BAR-00019,,06/12/2025 20:32,email,cliente,mario.mondino@example.net,Re: Info noleggio,"Esregi signori,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+Grazie e saluti
+Get Outlook ffor Android"
+COM-BAR-00020,NOL-BAR-00036,2025-12-09 14:34,sms,cliente,3333230113,,"sto arrivando ma ho strada chiusa x neve, tra 3 ore sono da voi"
+COM-BAR-00021,NOL-BAR-00046,10-12-2025 11:30,email,cliente,sactis@example.com,Cauzione non restituita,"Buonasera,
+Ho visto un addebito di 120 euro per km extra ma secondo me ho percorso molti meno km. thiedoo vveriffica dl contratto NOL-BR-00046
+In attesa di un vostro riscontro
+Sara
+Get Outlook sor Android"
+COM-BAR-00022,NOL-BAR-00051,10/12/2025 18:16,modulo_web,cliente,info@marchettiserramenti.example.it,Contatti,"Nome: Marchetti Serramenti | Email: info@marchettiserramenti.example.it | Tel: 3407565846 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-BAR-00023,NOL-BAR-00043,2025-12-10 19:41,email,cliente,giovanni.ravera@example.net,,"Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Distinti saluti
+Ravera Giovanni"
+COM-BAR-00024,NOL-BAR-00066,18/12/25,whatsapp,cliente,3234157740,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-BAR-00025,NOL-BAR-00060,21/12/2025 03:43,telefonata_trascritta,cliente,3893652181,,"Trascr. chiamata ore 17:59 (op. Luca) - cliente Francesca Moretti: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-BAR-00026,,21/12/2025 06:03,email,cliente,piccoloro56@example.org,Preventivo,"Vorrrei noleggiare auto da 13/01 a 27/01, avete disponibilita' e quanto costa?
+Distiti saluti
+Roberto Piccolo
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00027,NOL-BAR-00048,2025-12-21 14:27,email,cliente,sricci@example.com,Graffio sul mezzo,"Spett.le Buby Rent,
+Mentre facevo retromarcia a Oulx ho toccato un palo e si e' rovinato il cerchio posteriore destro. Nessun ferito. Cosa devo fare?
+Cordialmente"
+COM-BAR-00028,NOL-BAR-00048,21/12/2025 16:37,nota_tecnico,tecnico,M.,,RIT BAR-02 68856km - cerchio post. dx graffio superficiale. segnalato a fine mese per carrozzeria. no fermo. Andrea
+COM-BAR-00029,NOL-BAR-00067,22/12/2025 03:41,email,cliente,gactis@example.net,Grazie!,"Buongiorno,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Grazie mille
+Actis Giorgio
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00030,NOL-BAR-00082,23-12-2025 11:07,sms,cliente,3700517877,,"sto arrivando ma ho neve sul frejus, tra 1 ore sono da voi"
+COM-BAR-00031,NOL-BAR-00082,23/12/2025,nota_tecnico,tecnico,Sara,,"RIT BAR-02: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 30€ al cliente. L.G."
+COM-BAR-00032,NOL-BAR-00081,24-12-2025 12:26,whatsapp,cliente,3672516320,,"posso tenere il mezzo (Dacia Duster) fino a domani? strada chiusa per neve, non riesco ad arrivare"
+COM-BAR-00033,NOL-BAR-00081,2025-12-24 21:12,nota_tecnico,tecnico,Stefano,,RITT  BAR-01  85415km - cofano segni di sfregamento. da lucdare. o frmo. Sara
+COM-BAR-00034,NOL-BAR-00055,12/31/2025 09:56,email,cliente,ceruttisa99@example.net,Richiesta rimborso,"GENTILE  BUBY  RENT,
+LA CAUZIONE DI 800 EURO NON MI E' STATA ANCORA RESTITUITA DOPO 15 GIORNI DALLA RICONSEGNA. VORREI SAPERE QUANDO ARRIVA
+SALUTI
+GET OUTLOOK FOR ANDROID"
+COM-BAR-00035,NOL-BAR-00101,07/01/2026 16:15,nota_tecnico,tecnico,Sara,,RIT BAR-02 69784km - lunotto leggera ammaccatura. ritocco vernice. no fermo. Luca B.
+COM-BAR-00036,,08/01/2026 10:56,email,cliente,saccoma63@example.net,Info noleggio,"rgregi signori,
+Quanti k sono inclusi nella tariffa giornaliera e quanto costanno quelli extra?
+Grazie mille
+Marco Sacco
+iet Outlook for Android"
+COM-BAR-00037,00102,01/10/2026 13:25,sms,cliente,3360608039,,"posso tenere il mezzo (bar-06) fino a domani? code di rientro dalle piste, nsn riesco ad arriaaoo"
+COM-BAR-00038,NOL-BAR-00107,12-01-2026 14:18,nota_tecnico,tecnico,Gianni,,BAR-05 rientrato. Danno cerchio post. dx: cerchio scheggiato e ovalizzato. da mandare in carrozzeria. Foto ok in cartella. Stima fermo 3gg (Gianni)
+COM-BAR-00039,NOL-BAR-00080,2026-01-16 15:29,nota_operatore,operatore,Luca,,"ricevuto  verbale  del comune di Melezet per ZTL/eccesso di velocita', targa GK648DM. da addebitare al cliente + 60€ gestione pratica"
+COM-BAR-00040,NOL-BAR-00100,2026-01-17 13:26,email,cliente,maria.re@example.com,Cancellazione,"Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Maria Re
+Inviato da iPhone"
+COM-BAR-00041,,24/01/2026 02:29,whatsapp,cliente,3612742046,,"Everything was fine, clean car and quick check-in. Recommended."
+COM-BAR-00042,NOL-BAR-00088,24/01/2026 05:58,modulo_web,cliente,info@pastoretraslochi.example.it,,"nome:  pastore  traslochi | email: info@pastoretraslochi.example.it | tel: 3928412505 | messaggio: complimenti all'operatore di sede, molto disponibile. prezzo onesto"
+COM-BAR-00043,NOL-BAR-00112,25/01/2026 15:36,nota_tecnico,tecnico,Sara,,BAR-01 rientrato. Danno cerchio post. dx: leggera ammaccatura. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 1gg (Fabio)
+COM-BAR-00044,00136,27/01/2026 23:35,modulo_web,cliente,federico.bruno@example.net,Contatti,"Nome: Bruno Federico | Email: federico.bruno@example.net | Tel: 3829779789 | Messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-BAR-00045,,01/31/2026,sms,cliente,3763340467,,"posso tenere il mezzo (BAR-04) fino a domani? neve sul Frejus, non riesco ad arrivare"
+COM-BAR-00046,NOL-BAR-00142,31-01-2026 12:35,email,cliente,bbruno@example.com,Comunicazione incidente,"Gentile Buby Rent,
+Incidente in Oulx con il mezzo (BAR-06): ho tamponato un'auto davanti a me, danni al paraurti. Sono ok. Chiamo la polizia locale?
+Cordiali saluti
+Bruno Barbara"
+COM-BAR-00047,NOL-BAR-00142,01/02/2026 16:49,nota_tecnico,tecnico,Stefano,,"BAR-06&nbsp;- CAI ricevuto, controparte idntificata, in attesa perizia. fermo 20gg. Tech1"
+COM-BAR-00048,NOL-BAR-00136,2026-02-01 21:50,email,cliente,federico.bruno@example.net,Reclamo,"Gentile Buby Reent,
+Ho visto un addebito di 90 euro per km extra ma secondo me ho percorso molti meno km. Chiedo veifica del contratto NOL-BAR-00136
+In attesa di un vostro riscontro
+Federico Bruno"
+COM-BAR-00049,,04-02-2026 02:28,whatsapp,cliente,3463203541,,quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-BAR-00050,NOL-BAR-00140,2026-02-04 16:21,nota_tecnico,tecnico,Marco,,"controllo  in  riconsegna GH509LX: specchietto sx segni di sfregamento, nessun intervento urgente. cliente informato. fermo 1gg - Sara"
+COM-BAR-00051,,06-02-2026 13:22,modulo_web,cliente,info@gerbinologistica.example.it,,"Nome: Gerbino | Email: info@gerbinologistica.example.it | Tel: 3337544346 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-BAR-00052,NOL-BAR-00126,07-02-2026 11:11,whatsapp,cliente,3793546062,,"ritardo di 2h x lavori sulla strada, scusate. Mezzo BAR-01"
+COM-BAR-00053,00152,07/02/2026 17:25,modulo_web,cliente,raverapa24@example.org,Richiesta assistenza,"Nome: Paola Ravera | Email: raverapa24@example.org | Tel: 3412741402 | Messaggio: ho preso una buca e adesso il cerchio anteriore fa un rumore strano, secondo me e' storto/a. Bici (EB-BAR-002)"
+COM-BAR-00054,NOL-BAR-00152,07/02/2026 22:24,nota_tecnico,tecnico,Sara,,EB-BAR-002 rientrato. Danno cerchio ant.: cambio posteriore rootto. preventivo richiiesto. Foto ok in cartella. Stimma fermo 4gg (Sara)
+COM-BAR-00055,00126,2026-02-08 22:56,nota_tecnico,tecnico,L.G.,,"RIT BAR-01: interno molto sporco (sabbia), pulizia straordinaria, addebto 30€ al cliente. Paolo"
+COM-BAR-00256,NOL-BAR-00539,16/09/2026 16:50,nota_operatore,operatore,Simona,,"verbale GL128ZH - Melezet - violazione art.142, comunicazione dati conducente inviata. spese 60€"
+COM-BAR-00057,NOL-BAR-00095,12-02-2026 08:15,whatsapp,cliente,3330826210,,"hoo chiuso le chiavi dennro il mezzo a Melezet, potete aiutarmi?"
+COM-BAR-00058,NOL-BAR-00095,2026-02-13,nota_tecnico,tecnico,Marco,,"bar-03 - chiavi duplicate, mezzo ok. fermo 8gg. stefano"
+COM-BAR-00059,,2026-02-14 20:43,email,cliente,gactis@example.net,Preventivo,"Salve,
+Posso ritirare il mezzo fuori orario? Arrivo in treno la sera tardi
+In attesa di un vostro riscontro
+Giorgio Actis"
+COM-BAR-00060,NOL-BAR-00163,17/02/2026 12:25,email,cliente,info@rizzoeventi.example.it,annullo noleggio,"Salve,
+Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+In attesa di un vostro riscontro
+Rizzo"
+COM-BAR-00061,NOL-BAR-00139,2026-02-18 17:54,telefonata_trascritta,cliente,3999053168,,"Trascr. chiamata ore 14:19 (op. Luca) - cliente Chiaves Logistica: volevo avvisarvi che sul mezzo (Dacia Duster) c'e' un graffio su il cofano, non so se era gia' presente al ritiro. Se serve vi mando le foto"
+COM-BAR-00062,NOL-BAR-00089,19/02/2026 23:51,email,cliente,cbruno@example.net,Re: Cauzione non restituita,"Ho visto un addebito di 75 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-BAR-00089
+In attesa di un vostro riscontro
+Claudio"
+COM-BAR-00063,NOL-BAR-00139,20/02/26 09:17,nota_tecnico,tecnico,M.,,BAR-02 rientrato. Danno cofano: segni di sfregamento. da lucidare. Foto ok in cartella. Stima no fermo (Marco)
+COM-BAR-00064,NOL-BAR-00169,22/02/2026 15:47,email,cliente,allasiagi45@example.com,Annullamento prenotazione,"Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Giovanni
+Inviato da iPhone"
+COM-BAR-00065,NOL-BAR-00171,2026-02-22 22:12,email,cliente,silvia.allasia@example.net,I: disponibilita',"Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Grazie mille
+Allasia Silvia"
+COM-BAR-00066,NOL-BAR-00026,25/02/26 14:43,telefonata_trascritta,cliente,3201767018,,"Trascr. chiamata ore 9:53 (op. Simona) - cliente Silvia: durante il noleggio ho urtato il paraurti anteriore del mezzo (BAR-02) mentre parcheggiavo a Melezet. Mi sembra solo estetico, ho fatto qualche foto. Come devo procedere con la cauzione?"
+COM-BAR-00067,NOL-BAR-00170,25/02/2026 17:14,nota_tecnico,tecnico,Luca B.,,"contrrollo  in  riconsegna GH512LY: paraurti ant. leggera ammaccatura, da lucidare. cliente informato. no fermo - Luca B."
+COM-BAR-00068,NOL-BAR-00147,02/26/2026 16:47,sms,cliente,3780413996,,"sono bloccato per neve sul Frejus, arrivo con circa 3 ore di ritardo per la riconsegna (GN447SK)"
+COM-BAR-00069,NOL-BAR-00172,03/03/2026 12:19,whatsapp,cliente,3793546062,,"non parte, il motorino fa solo clic. Sono a Oulx"
+COM-BAR-00070,NOL-BAR-00172,2026-03-04 23:54,nota_tecnico,tecnico,Andrea,,BAR-02 - frizione da sostituire. fermo 3gg. Marco
+COM-BAR-00071,NOL-BAR-00173,03/06/2026 19:46,email,cliente,info@gerbinotraslochi.example.it,Oggetto dimenticato,"Ciao,
+Credo di aver lasciato un passeggino nel bagagliaio (BAR-07). Si puo' recuperare?
+Grazie mille
+GERBINO TRASLOCHI"
+COM-BAR-00072,NOL-BAR-00173,08/03/2026 08:40,whatsapp,cliente,3832635653,,"complimenti  all'operatore  di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00189,NOL-BAR-00461,18/07/26 16:51,sms,cliente,3270300490,,"posso tenere il mezzo (Thok E-K2) fino a domani? strada chiusa per neve, non riesco ad arrivare"
+COM-BAR-00074,,09/03/2026 15:29,modulo_web,cliente,info@perottitraslochi.example.it,Richiesta assistenza,Nome: Perotti Traslochi | Email: info@perottitraslochi.example.it | Tel: 3427006451 | Messaggio: avete auto 4x4 con gomme invernali per il weekend del 20/03?
+COM-BAR-00075,,11/03/2026 09:10,email,cliente,brunettial5@example.it,,"Salve,
+Avete auto 4x4 con gommn invernali per il weekend del 17/03?
+Saluti
+Alessiaa Brunetti"
+COM-BAR-00076,NOL-BAR-00179,2026-03-14 13:37,email,cliente,alessandro.ferrari@example.org,sinistro BAR-04,"buonasera,
+ho avuto un incidente a rochemolles, sono stato tamponato da un altro veicolo. nessun ferito, abbiamo compilato il cai. mezzo jeep compass. cosa devo fare?
+cordiali saluti
+alessandro ferrari"
+COM-BAR-00077,NOL-BAR-00198,14/03/2026,telefonata_trascritta,cliente,3571657419,,Trascr. chiamata ore 8:26 (op. Simona) - cliente Cottino: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-BAR-00078,NOL-BAR-00189,16/03/2026 23:23,sms,cliente,3779776502,,possn cambiare il mezzo con uno piu' grande? siamo in piu' persone del pvisto
+COM-BAR-00079,NOL-BAR-00150,17/03/2026 13:40,sms,cliente,3564481043,,"sto arrivando ma ho traffico, tra 3 ore sono da voi"
+COM-BAR-00080,NOL-BAR-00179,,nota_tecnico,tecnico,Gianni,,"BAR-04 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 7gg. Tech1"
+COM-BAR-00149,,21/06/2026 00:15,nota_tecnico,tecnico,Andrea,,EB-BAR-003 rientrato. Danno parafango: graffi sul telaio. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 2gg (Fabio)
+COM-BAR-00082,00187,31/03/2026 20:17,email,cliente,info@perottitraslochi.example.it,Cauzione non restituita,"Buongiorno,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale
+Cordiali saluti
+Perotti Traslochi"
+COM-BAR-00083,NOL-BAR-00217,01/04/2026 08:58,email,cliente,grecoen56@example.com,annullo noleggio,"buongiorno,
+il volo e' stato cancellato, devo annullare il noleggio. come funziona la penale?
+grazie mille
+enrico greco"
+COM-BAR-00084,NOL-BAR-00213,,nota_tecnico,tecnico,Davide,,RIT BAR-03 48685km - passaruota ant. ammaccatura con vernice saltata. da sostituire il pezzo. fermo 3gg. Andrea
+COM-BAR-00085,00225,03-04-2026 04:15,telefonata_trascritta,cliente,3595500805,,"Trascr. chiamata ore 11:31 (op. Simona) - cliente Elena Mondino: Hello, I would like to rent a car from 08/04 to 10/04. Do you have one available and what is the price? Thanks"
+COM-BAR-00086,,04/04/2026 03:38,telefonata_trascritta,cliente,3650352015,,"TRASCR. CHIAMATA ORE 14:12 (OP. SIMONA) - CLIENTE SIMONE RE: SONO USCITO DI STRADA A OULX PER COLPA DEL GHIACCIO, IL MEZZO (FORD TRANSIT) E' DANNEGGIATO MA IO STO BENE"
+COM-BAR-00087,NOL-BAR-00219,04/05/2026 00:00,nota_tecnico,tecnico,Fabio,,"BAR-07 - CAI RICEVUTO, CONTROPARTE IDENTIFICATA, IN ATTESA PERIZIA. FERMO 23GG. LUCA B."
+COM-BAR-00088,NOL-BAR-00201,2026-04-09 15:00,telefonata_trascritta,cliente,3517135027,,"trascr. chiamata ore 16:13 (op. simona) - cliente nicolò moretti: ho chiuso le chiavi dentro il mezzo a rochemolles, potete aiutarmi?"
+COM-BAR-00089,,2026-04-10,sms,cliente,3595500805,,"sto arrivando ma ho incidente in tangenziale, tra 2 ore sono da voi"
+COM-BAR-00090,,10/04/2026 13:43,nota_tecnico,tecnico,Stefano,,BAR-04: portiera lato guida -> leggera ammaccatura. ritocco vernice // no fermo
+COM-BAR-00091,,12/04/2026 11:26,whatsapp,cliente,3820064464,,"ritardo di 2h per ritardo del treno, scusate. Mezzo Dacia Duster"
+COM-BAR-00092,nol-bar-00215,2026-04-14 17:20,telefonata_trascritta,cliente,3275038750,,"Trascr. chiamata ore 15:21 (op. Luca) - cliente Elisa: ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale"
+COM-BAR-00093,NOL-BAR-00242,2026-04-14 22:48,email,cliente,alessia.bosio@example.net,Richiesta informazioni,"Gentile Buby Rent,
+E' possibile riconsegnare a Alba invece che da voi? c'e' un supplemento?
+Cordiali saluti
+Alessia Bosio"
+COM-BAR-00094,NOL-BAR-00229,04/16/2026 10:21,sms,cliente,3691634565,,"STO ARRIVANDO A HO TRAFFICO, TA 2 ORE SONO DA VOI"
+COM-BAR-00095,NOL-BAR-00229,16-04-2026,nota_tecnico,tecnico,Paolo,,RIT BAR-05 85538km - specchietto dx danno da urto 20-30 cm. da mandare in carrozzeria. nermo 5gg. Luca B.
+COM-BAR-00096,NOL-BAR-00243,17/04/26 08:32,whatsapp,cliente,3450742697,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-BAR-00156,NOL-BAR-00364,26/06/26 17:32,nota_tecnico,tecnico,Davide,,"BAR-02 - mezzo ripartito dopo reset, da monitorare. fermo 7gg. Fabio"
+COM-BAR-00098,NOL-BAR-00171,2026-04-22 11:59,whatsapp,cliente,3428674281,,"IL PREZZO PAGGATO E' DIVERSO DA QUELLO DEL PREVENTIVO RICEVUTO VIA EMAIL, C'E' UNA DIFFRENZA DI 48 EURO. NON ACCETTABILE"
+COM-BAR-00099,NOL-BAR-00202,22/04/26 17:42,nota_tecnico,tecnico,Paolo,,"EB-BAR-002 rientrata piena di fango, lavaggio completo. addebito pulizia 15€. M."
+COM-BAR-00100,NOL-BAR-00240,25/04/2026 23:57,email,cliente,simone.martini@example.com,Piccolo incidente di parcheggio,"salve,
+durante il noleggio ho urtato il fianco sinistro del mezzo (bar-03) mentre parcheggiavo a valle stretta. mi sembra solo estetico, ho fatto qualche foto. come devo procedere con la cauzione?
+distinti saluti
+simone martini"
+COM-BAR-00101,NOL-BAR-00235,26/04/2026 09:48,telefonata_trascritta,cliente,3300972989,,rascr. chiamata ore 10:47 (op. Simona) - cliente Anna Rioci: iei sera in un parcheggio a Cesana qualcun ha colpito il mezzo (Suzuri Ignis) e il cofano e' danneggiato. Non c'era nessun biglietto. He fatto donuncia
+COM-BAR-00102,NOL-BAR-00240,26/04/2026 13:13,nota_tecnico,tecnico,Davide,,RIT BAR-03 50242km - fianco sx segni di sfregamento. segnalato a fine mese per carrozzeria. fermo 1gg. Elena [incomprensibile]
+COM-BAR-00103,NOL-BAR-00259,29-04-2026 13:46,whatsapp,cliente,3575177874,,"ho  avuto  un incidente a Rochemolles, sono stato tamponato da un altro veicolo. Nessun ferito, abbiamo compilato il CAI. Mezzo Toyota RAV4. Cosa devo fare?"
+COM-BAR-00104,nol-bar-00259,29-04-2026,nota_tecnico,tecnico,Paolo,,"BAR-03 - CAI ricevuto, controparte identificata, in attesa perizia. fermo 12gg. Andrea"
+COM-BAR-00105,NOL-BAR-00238,01/05/2026 17:24,whatsapp,cliente,3763215668,,"uscendo da un posteggio stretto a Sauze d'Oulx ho strisciato il fanale anteriore. Mi spiace tanto, quanto dovro' pagare?"
+COM-BAR-00106,NOL-BAR-00238,03/05/2026 02:09,nota_tecnico,tecnico,Elena,,BAR-05 rientrato. Danno fanale ant.: leggera ammaccatura. nessun intervento urgente. Foto ok in cartella. Stima no fermo (L.G.)
+COM-BAR-00107,NOL-BAR-00205,2026-05-04 15:53,nota_tecnico,tecnico,Paolo,,"controllo in riconsegna gh512ly: specchietto dx graffio superficiale, nessun intervento urgente. cliente informato. fermo 2gg - elena"
+COM-BAR-00108,nol-bar-00267,2026-05-04 21:03,nota_tecnico,tecnico,Fabio,,"controllo in riconsegna EB-BAR-001: cavalletto manubrio leggermente fuori asse, da lucidare. cliente informato. fermo 1gg - Luca B."
+COM-BAR-00109,,2026-05-07,email,cliente,simone.fenoglio@example.net,Cancellazione,"Buongiorno a tutti,
+Annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo
+In attesa di un vostro riscontro
+Simone Fenoglio
+Get Outlook for Android"
+COM-BAR-00110,NOL-BAR-00204,2026-05-08 20:49,nota_tecnico,tecnico,Davide,,"rit bar-04: interno molto sporco (fango), pulizia straordinaria, addebito 50€ al cliente. elena"
+COM-BAR-00111,NOL-BAR-00258,05/10/2026 13:20,sms,cliente,3514763447,,"SONO BLOCCATO A COLLE DELLA SCALA, LA BICI (THOK E-K2) NON VA PIU', NON RIESCO A TORNARE. POTETE VENIRE A PRENDERMI?"
+COM-BAR-00112,NOL-BAR-00246,10/05/2026 20:46,modulo_web,cliente,mario.cerutti@example.it,Richiesta assistenza,"Nome: Cerutti Mario | Email: mario.cerutti@example.it | Tel: 3298370079 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00113,NOL-BAR-00262,2026-05-11 12:23,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GH512LY: paraurti ant. graffio profondo fino alla lamiera, da mandare in carrozzeria. cliente informato. fermo 7gg - Luca B."
+COM-BAR-00114,NOL-BAR-00258,2026-05-14 19:24,email,cliente,anna.tosco@example.net,Contestazione addebito,"Gentile Buby Rent,
+La cauzione di 200 euro non mi e' stata ancora restituita dopo 30 giorni dalla riconsegna. Vorrei sapere quando arriva
+Cordiali saluti"
+COM-BAR-00115,NOL-BAR-00272,16-05-2026 13:26,email,cliente,dellavallesa23@example.it,annullo noleggio,"Ciao,
+Purtroppo non posso piu' partire, cancello la prenotaziont. Mi restituite l'acconto?
+Cordiali saluti
+Sara Dellavalle
+Sent from my iPhone"
+COM-BAR-00116,NOL-BAR-00277,17/05/2026 12:13,modulo_web,cliente,elisa.rosso@example.com,Contatti,Nome: Elisa | Email: elisa.rosso@example.com | Tel: 3275038750 | Messaggio: la cauzione di 800 euro non mi e' stata ancora restituita dopo 20 giorni dalla riconsegna. Vorrei sapere quando arriva
+COM-BAR-00117,NOL-BAR-00296,19/05/26 08:47,email,cliente,ssacco@example.org,cambio data,"Buongiorno a tutti,
+Ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla
+Grazie
+Simone Sacco"
+COM-BAR-00118,NOL-BAR-00292,2026-05-22 04:10,email,cliente,aricci@example.org,Grazie!,"Complimenti all'operatore di sede, molto disponibile. Prezzo onesto
+Cordiali saluti
+Anna"
+COM-BAR-00119,NOL-BAR-00260,22/05/2026 05:01,whatsapp,cliente,3338027868,,"ritardo di 4h x problemi personali, scusate. Mezzo GP071EN"
+COM-BAR-00120,,2026-05-23 02:11,modulo_web,cliente,sara.perotti@example.it,Richiesta assistenza,Nome: Sara Perotti | Email: sara.perotti@example.it | Tel: 3921678813 | Messaggio: quanti km sono inclusi nella tariffa giornaliera e quanto costano quelli extra?
+COM-BAR-00121,NOL-BAR-00298,2026-05-24 04:21,email,cliente,mario.bonino@example.org,oggetto smarrito,"Ho dimenticato la giacca nel mezzo (Thok E-K2), potete controllare?
+Grazie e saluti
+Mario
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00122,NOL-BAR-00302,24/05/2026 12:32,nota_tecnico,tecnico,Marco,,"RIT BAR-07: interno molto sporco (pelii di anomali), pulizia straordinaria, addebito 40€ l rliente. SSara"
+COM-BAR-00123,NOL-BAR-00251,05/24/2026 14:35,nota_tecnico,tecnico,Paolo,,"RIT BAR-04: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 70€ al cliente. L.G."
+COM-BAR-00124,NOL-BAR-00284,2026-05-25,email,cliente,cgamba@example.it,riconsegna in ritardo,"Ciao,
+Sono bloccato per problemi personali, arrivo con circa 1 ore di ritardo per la riconsegna (Skoda Kodiaq)
+Grazie mille
+Gamba Chiara
+Get Outlook for Android"
+COM-BAR-00125,NOL-BAR-00275,25/05/2026 20:48,telefonata_trascritta,cliente,3595500805,,trascr. chiamata ore 16:50 (op. simona) - cliente elena: posso cambiare il mezzo con uno piu' grande? siamo in piu' persone del previsto
+COM-BAR-00126,NOL-BAR-00312,27/05/2026 15:32,telefonata_trascritta,cliente,3921678813,,Trascr. chiamata ore 15:18 (op. Simona) - cliente Sara: la catena continua a saltare e il cambio non scala piu' (EB-BAR-001)
+COM-BAR-00127,NOL-BAR-00312,28/05/2026 00:28,nota_tecnico,tecnico,Andrea,,"EB-BAR-001 - clima non funzionante, gas da ricaricare. fermo 3gg. Davide"
+COM-BAR-00128,00285,,nota_tecnico,tecnico,Gianni,,rit eb-bar-002 2603km - display forcella piegata. da sostituire il pezzo. fermo 7gn. elena
+COM-BAR-00129,NOL-BAR-00313,01-06-2026 13:47,nota_tecnico,tecnico,Gianni,,RIT BAR-01 97018km - lunotto leggera ammaccatura. da lucidare. fermo 2gg. Davide
+COM-BAR-00130,00297,01/06/2026 16:59,whatsapp,cliente,3680723600,,"ho sbagliato la data di ritiro nella prenotazione, vorrei correggerla"
+COM-BAR-00131,NOL-BAR-00276,03/06/2026 11:41,sms,cliente,3667127718,,"ssto arrivando ma ho strada chiusa x neve, tra 4 ore sono da voi"
+COM-BAR-00132,NOL-BAR-00248,03/06/2026 17:59,nota_tecnico,tecnico,Davide,,BAR-04 rientrato. Danno portellone: piccola scheggiatura. nessun intervento urgente. Foto ok in cartella. Stima fermo 2gg (Luca B.)
+COM-BAR-00133,NOL-BAR-00311,2026-06-03 18:20,nota_tecnico,tecnico,Sara,,"E-BAR-001 rieentrata poena di fango, lavaggio completo. addebito pulizia 15â¬. Davide"
+COM-BAR-00134,,05/06/2026 13:08,nota_tecnico,tecnico,Gianni,,"RIT  BAR-03:  interno molto sporco (peli di animali), pulizia straordinaria, addebito 30€ al cliente. Davide"
+COM-BAR-00135,NOL-BAR-00345,07/06/2026 05:02,sms,cliente,3723174565,,"vorrei prolungare di 3 giorni, il mezzo e' libero?"
+COM-BAR-00136,NOL-BAR-00264,07/06/2026 19:54,telefonata_trascritta,cliente,3466312124,,trascr.  chiamata  ore 18:14 (op. simona) - cliente francesco: all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. chiedo uno sconto
+COM-BAR-00243,NOL-BAR-00563,28/08/2026 10:51,telefonata_trascritta,cliente,3386949880,,"Trascr. chiamata ore 19:44 (op. Luca) - cliente Roberto: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-BAR-00138,,06/08/2026 00:14,telefonata_trascritta,cliente,3219567031,,"trascr. chiamata ore 8:48 (op. simona) - cliente federica actis: vorrei noleggiare e-bike da 08/07 a 08/07, avete disponibilita' e quanto costa?"
+COM-BAR-00139,00310,09/06/2026 09:28,whatsapp,cliente,3804055192,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-BAR-00140,NOL-BAR-00495,10/06/26 07:01,modulo_web,cliente,lombardima50@example.com,,"Nome: Matteo Lombardi | Email: lombardima50@example.com | Tel: 3954112334 | Messaggio: devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-BAR-00141,NOL-BAR-00352,06/10/2026 17:31,email,cliente,emondino@example.com,Piccolo incidente di parcheggio,"Gentile Buby Rent,
+Sono caduto con la bici sul sentiero verso Sauze d'Oulx: il cambio posteriore si e' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Grazie e saluti
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00142,NOL-BAR-00352,2026-06-10 21:40,nota_tecnico,tecnico,Gianni,,eb-bar-001 rientrato. danno cambio post.: graffi sul telaio. segnalato a fine mese per carrozzeria. foto ok in cartella. stima no fermo (sara)
+COM-BAR-00143,NOL-BAR-00314,11/06/2026 15:27,telefonata_trascritta,cliente,3299859615,,"trascr. chiamata ore 17:08 (op. luca) - cliente actis giorgio: posso tenere il mezzo (dacia dter) fino a domani? traffico, non iesco ad arrivare"
+COM-BAR-00144,NOL-BAR-00371,11/06/2026 16:13,email,cliente,dtosco@example.net,Re: Info noleggio,"Ciao,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Cordialmente
+Davide Tosco"
+COM-BAR-00145,NOL-BAR-00324,15/06/2026 17:01,telefonata_trascritta,cliente,3620640338,,"Trascr. chiamata ore 9:47 (op. Simona) - cliente Claudio: sto arrivando ma ho problemi personali, tra 4 ore sono da voi"
+COM-BAR-00146,NOL-BAR-00387,18/06/2026 17:41,email,cliente,enrico.martini@example.org,Annullamento prenotazione,"Ciao,
+Aneullate per favore la mia prenotazione, la nostra gita e' saltata aer il meteo
+Saluti"
+COM-BAR-00147,NOL-BAR-00376,20/06/2026 12:15,email,cliente,matteo.rosso@example.org,annullo noleggio,"Gentile Buby Rent,
+Purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?
+Distinti saluti
+Matteo Rosso
+Sent from my iPhone"
+COM-BAR-00148,NOL-BAR-00317,20/06/2026 14:35,whatsapp,cliente,3978798228,,"sto arrivando ma ho coda in autostrada, tra 2 ore sono da voi"
+COM-BAR-00081,,21/03/2026 12:56,email,cliente,genrecl17@example.it,Re: Preventivo,"Buonasera,
+E' possibile riconsegnare a Casale Monferrato invece che da voi? c'e' un supplemento?
+Grazie
+Claudio
+Inviato da iPhone"
+COM-BAR-00150,NOL-BAR-00366,21/06/2026 04:42,modulo_web,cliente,vialero5@example.com,,"Nome: Roberto | Email: vialero5@example.com | Tel: 3386949880 | Messaggioo: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00151,NOL-BAR-00364,22/06/2026 02:31,modulo_web,cliente,info@genreelettrica.example.it,Richiesta assistenza,"Nome: GENRE ELETTRICA | Email: info@genreelettrica.example.it | Tel: 3674142621 | Messaggio: sono fermo a Claviere, il mezzo (BAR-02) non riparte, mandate il carro attrezzi"
+COM-BAR-00152,NOL-BAR-00386,22/06/2026 19:50,nota_tecnico,tecnico,Andrea,,"EB-BAR-002 RIENTRATA PIENA DI FANGO, LAVAGGIO COMPLETO. ADDEEBITO PULIZIA 15€. SARRA"
+COM-BAR-00153,,24-06-2026,email,cliente,gastaldimo95@example.net,Danno Thok E-K2,"Buongiorno a tuti,
+Bonjour, j'ai raye le vehicule (EB-BAR-001) pres de Colle delsa Scala. Que dois-je faire ?
+Monica"
+COM-BAR-00154,NOL-BAR-00369,24/06/26 23:33,nota_tecnico,tecnico,Sara,,EB-BAR-001 rientrato. Danno forcella: manubrio leggermente fuori asse. nessun intervento urgente. Foto ok in cartella. Stima no fermo (Andrea)
+COM-BAR-00155,NOL-BAR-00357,26/06/2026 10:38,sms,cliente,3815658691,,"ritardo di 2h per neve sul Frejus, scusate. Mezzo Toyota RAV4"
+COM-BAR-00097,NOL-BAR-00196,21/04/2026 02:03,whatsapp,cliente,3820064464,,all'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+COM-BAR-00157,NOL-BAR-00357,2026-06-26 19:38,email,cliente,info@martinigiardinaggio.example.it,Feedback noleggio,"Salve,
+Ottima assistenza quando abbiamo avuto bisogno, grazie davvero
+Distinti saluti
+Martini Giardinaggio"
+COM-BAR-00158,NOL-BAR-00341,28/06/2026 05:00,telefonata_trascritta,cliente,3293160840,,"Trascr. chiamata ore 17:01 (op. Simona) - cliente Chiara Brunetti: sono rimasto senza carburante a Valle Stretta, cosa devo fare?"
+COM-BAR-00159,NOL-BAR-00391,28/06/2026 05:12,modulo_web,cliente,galloan46@example.net,,"Nome: Anna | Email: galloan46@example.net | Tel: 3271773200 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00160,NOL-BAR-00413,28/06/2026 21:55,email,cliente,rossiil23@example.com,Richiesta informazioni,"spett.le buby rent,
+vorrei noleggiare auto da 12/07 a 16/07, avete disponibilita' e quanto costa?"
+COM-BAR-00161,NOL-BAR-00383,29-06-2026 18:15,nota_tecnico,tecnico,Tech1,,"RIT BAR-06: interno molto sporco (peli di animali), pulizia straordinaria, addebito 30€ al cliente. Stefano"
+COM-BAR-00162,NOL-BAR-00321,06/30/2026 23:21,whatsapp,cliente,3355836677,,"la bici e' stata rubata a cesana meatre ero i negozio, aveva il lucchetto. cosa devo fare? ho gia' sporto denuncia."
+COM-BAR-00163,NOL-BAR-00377,02-07-2026 15:23,nota_tecnico,tecnico,Paolo,,"RIT BAR-07: interno molto sporco (macchie sui sedili), pulizia straordinaria, addebito 70€ al cliente. Gianni"
+COM-BAR-00218,,2026-08-06 12:58,whatsapp,cliente,3639065149,,"sono bloccato per coda al tunnel, arrivo con circa 2 ore di ritardo per la riconsegna (EB-BAR-002)"
+COM-BAR-00165,NOL-BAR-00394,03-07-2026 12:53,whatsapp,cliente,3942239066,,"sono bloccato per problemi personali, arrivo con circa 1 ore di ritardo per la riconsegna (GP071EN)"
+COM-BAR-00166,NOL-BAR-00399,2026-07-03 17:13,nota_tecnico,tecnico,Sara,,"EEB-BAR-003 rientrata pieena di fango, lavaggio completo. addebito pulizia 15€. Luca B."
+COM-BAR-00167,NOL-BAR-00402,07/04/2026 10:54,email,cliente,rallasia@example.org,riconsegna in ritardo,"Buonasera,
+Rtardo di 3h er ritardo del treno, scusate. Mozao EB-BAR-002
+In attesa di un vostro riconntro
+Roberrta
+Inviato da iPhone"
+COM-BAR-00168,NOL-BAR-00421,,modulo_web,cliente,info@rossigiardinaggio.example.it,,"Nome: Rossi | Email: info@rossigiardinaggio.example.it | Tel: 3427590997 | Messaggio: ottima assistenza quando abbbiamo avuto bisogno, grazie davvero"
+COM-BAR-00169,NOL-BAR-00409,06/07/2026 15:28,email,cliente,enrico.martini@example.org,Reclamo,"Buonasera,
+Mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 180 euro
+Cordiali saluti
+Get Outlook for Android"
+COM-BAR-00170,NOL-BAR-00426,06/07/26 18:24,whatsapp,cliente,3336314823,,"devo annullare la prenotazione x motivi di lavoro, posso avere il rimborso?"
+COM-BAR-00171,NOL-BAR-00430,06/07/2026 23:51,telefonata_trascritta,cliente,3839884415,,Trascr.&nbsp;chiamata ore 19:24 (op. Simona) - cliente Davide Olivero: gomma anteriore dx squarciata da una pietra a Beaulard
+COM-BAR-00172,NOL-BAR-00443,2026-07-07 04:44,email,cliente,rcottino@example.it,Richiesta informazioni,"Salve,
+Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+Grazie mille
+Roberto Cottino
+Inviato da iPhone"
+COM-BAR-00173,NOL-BAR-00430,2026-07-07,nota_tecnico,tecnico,Gianni,,BAR-03 - sostituito pneumatico. fermo 8gg. Tech1
+COM-BAR-00174,NOL-BAR-00407,07/07/2026 20:38,nota_tecnico,tecnico,Marco,,BAR-01 rientrato. Danno cofano: graffio superficiale. nessun intervento urggente. toto ok in cartella. Stima fermo 1gg (Sara)
+COM-BAR-00175,NOL-BAR-00422,07/07/2026,email,cliente,info@galloedilizia.example.it,annullo noleggio,"Buonasera,
+Il volo e' stato cancellato, deoo anullar el noleggio. Come funziona la penale?
+Cordiali saluti
+Gallo Ediliizia
+Sent from my iPhone"
+COM-BAR-00176,NOL-BAR-00434,08/07/26 13:50,telefonata_trascritta,cliente,3747488338,,"trascr. chiamata ore 9:40 (op. simona) - cliente ravera barbara: devo annullare la prenotazione per motivi di lavoro, posso avere il rimboro?"
+COM-BAR-00177,nol-bar-00407,07/10/2026 10:34,modulo_web,cliente,enrico.martini@example.org,Contatti,"Nome: Martini Enrico | Email: enrico.martini@example.org | Tel: 3270261357 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00178,00309,10/07/2026 15:17,sms,cliente,3996352912,,"posso tenere il mezzo (Cube Reaction) fino a domani? ritardo del treno, nn riesco d arrivare"
+COM-BAR-00179,NOL-BAR-00453,10/07/26 18:46,email,cliente,marco.fontana@example.it,Preventivo,"Spett.le Buby Rent,
+Accettate carte di debito per la cauzione o serve per forza la carna di credito?
+Grazie
+Get Outlook for Androi"
+COM-BAR-00180,NOL-BAR-00397,11/07/2026 12:51,email,cliente,actisma10@example.net,riconsegna in ritardo,"Ciao,
+Posso tenere il mezzo (Skoda Kodiaq) fino a domani? ritado del treno, non resco ad arrivare
+Saluti
+Actis Marcoo"
+COM-BAR-00181,NOL-BAR-00443,11/07/2026 13:18,sms,cliente,3561328955,,"SONO BLOCCATO PER CODA IN AUTOSTRADA, ARRIVO CON CIRCA 1 ORE DI RITARDO PER LA RICONSEGNA (CUBE REACTION)"
+COM-BAR-00182,NOL-BAR-00455,13/07/2026 18:59,whatsapp,cliente,3201767018,,"vorrei noleggiare e-bike da 17/07 a 17/07, avete disponibilita' e quanto costa?"
+COM-BAR-00183,NOL-BAR-00448,14/07/2026 18:36,nota_tecnico,tecnico,L.G.,,EB-BAR-002 rientrato. Danno catena: manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 2gg (Marco)
+COM-BAR-00184,NOL-BAR-00448,2026-07-14 20:29,nota_tecnico,tecnico,Tech1,,"EB-BAt-002  rientrata  piena di ango, lavaggio completo. addebito ulizia 15€. Stefano"
+COM-BAR-00185,nol-bar-00318,2026-07-15 00:58,whatsapp,cliente,3647269472,,ieri sera in un parcheggio a claviere qualcuno ha colpito il mezzo (dacia duster) e il cofano e' danneggiato. nn c'era nessun biglietto. ho fatto denuncia
+COM-BAR-00186,NOL-BAR-00318,15/07/2026 17:05,nota_tecnico,tecnico,Marco,,"controllo in riconsegna GH509LX: cofano crepa estesa, preventivo richiesto. cliente informato. fermo 4gg - Stefano"
+COM-BAR-00187,NOL-BAR-00449,15/07/26 20:00,nota_tecnico,tecnico,M.,,"EB-BAR-001  rientrata  piena di fango, lavaggio completo. addebito pulizia 15€. Andrea"
+COM-BAR-00188,NOL-BAR-00428,07/16/2026 12:31,sms,cliente,3987177299,,sono caduto con la bici sul sentiero verso sauze d'oulx: la leva del freno si e' rovinato/a ma io sto bene. mi diae come funziona con la cuzione?
+COM-BAR-00073,NOL-BAR-00153,2026-03-09 14:46,nota_tecnico,tecnico,Sara,,"BAR-07 - mezzo ripartito dopo reset, da monitorare. fermo 7gg. Dvide"
+COM-BAR-00190,,2026-07-19,modulo_web,cliente,sferrari@example.com,,"Nome: Silvia Ferrari | Email: sferrari@example.com | Tel: 3201767018 | Messaggio: ottima assistenza quando abbiamo avuto bisogno, grazie davvero"
+COM-BAR-00191,NOL-BAR-00335,2026-07-19 17:04,nota_tecnico,tecnico,Marco,,EB-BAR-002 rientrato. Danno cerchio ant.: manubrio leggermente fuori asse. nessun intervento urgente. Foto ok in cartella. Stima no fermo (Paolo)
+COM-BAR-00192,NOL-BAR-00335,20/07/2026 00:10,email,cliente,perotticr38@example.it,Ottimo servizio,"Buongiorno,
+Ttto ok, mezzo comodo e consumi bassi. Grazie!
+In attesa di un vostro riscontro"
+COM-BAR-00193,NOL-BAR-00437,07/20/2026,email,cliente,federico.rizzo@example.org,I: Danno Skoda Kodiaq,"Spett.le Buby Rent,
+Uscendo da un posteggio stretto a Valle Stretta ho strisciato il passaruota anteriore. Mi spiace tanto, quanto dovro' pagare?
+Grazie"
+COM-BAR-00194,NOL-BAR-00437,2026-07-20,nota_tecnico,tecnico,Fabio,,BAR-05: passaruota ant. -> striscio di vernice. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-BAR-00195,,20/07/2026 20:26,nota_tecnico,tecnico,Sara,,eb-bar-001: pedale -> cerchio storto. da mandare in carrozzeria // fermo 5gg
+COM-BAR-00196,NOL-BAR-00335,22-07-2026 02:16,email,cliente,perotticr38@example.it,Contestazione addebito,"Egregi signori,
+All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie
+Cristina"
+COM-BAR-00197,NOL-BAR-00432,2026-07-22 15:27,whatsapp,cliente,3913137297,,"esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-BAR-00198,,2026-07-22 17:40,email,cliente,mblandino@example.com,Piccolo incidente di parcheggio,"Sono caduto con la bici sul setiero verso Sestriere: il manubrio si ee' rovinato/a ma io sto bene. Mi dite come funziona con la cauzione?
+Marco"
+COM-BAR-00199,NOL-BAR-00472,22/07/2026 20:49,nota_tecnico,tecnico,Sara,,RIT EB-BAR-002 3370km - manubrio leva piegata ma funzionante. da lucidare. fermo 2gg. Tech1
+COM-BAR-00200,NOL-BAR-00439,23/07/2026,email,cliente,cavallofr18@example.com,Graffio sul mezzo,"Durante il nolegggio ho urtat il cercio posteriore desto dsl mezzo (GL128ZH) metre parcheggiavo a Sauze d'tulx. Mi sembra solo estetico, ho fatto iualche foto. Come deevo procedere con la cauzione?
+Saluti
+Francesca Cavallo"
+COM-BAR-00201,NOL-BAR-00439,2026-07-26 12:48,nota_tecnico,tecnico,Andrea,,ar-06 rientrato. danno cerchio post. dx: striscio di vernice. segnalato a finne mese per carrozzeria. foto ok in cartella. stima fermo 2gg (fabio)
+COM-BAR-00202,NOL-BAR-00331,27/07/2026 15:14,nota_tecnico,tecnico,Andrea,,BAR-03 rientrato. Danno paraurti ant.: piccola scheggiatura. ritocco vernice. Foto ok in cartella. Stima fermo 2gg (Gianni)
+COM-BAR-00276,NOL-BAR-00608,15/10/2026 17:57,nota_tecnico,tecnico,Andrea,,BAR-03 rientrato. Danno fianco dx: leggera ammaccatura. segnalato a fine mese per carrozzeria. Foto ok in cartella. Stima fermo 1gg (Elena)
+COM-BAR-00204,NOL-BAR-00475,27-07-2026 23:13,nota_tecnico,tecnico,L.G.,,"EB-BAR-002 - clima non funzionante, gas da ricaricare. fermo 1gg. Gianni"
+COM-BAR-00205,NOL-BAR-00482,2026-07-28 00:25,email,cliente,chiavesmo17@example.net,Annullamento prenotazione,"Salve,
+Devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?
+Sent from my iPhone"
+COM-BAR-00206,NOL-BAR-00488,2026-07-28 12:57,whatsapp,cliente,3201767018,,"il volo e' stato cancellato, devo annullare il noleggio. Come funziona la penale?"
+COM-BAR-00207,NOL-BAR-00398,28/07/26 13:46,nota_operatore,operatore,Luca,,"ricevuto verbale del comune di Beaulard per ZTL/eccesso di velocita', targa EB-BAR-002. da addebitare al cliente + 60€ gestione pratica"
+COM-BAR-00208,NOL-BAR-00450,29-07-2026 00:18,email,cliente,info@costatraslochi.example.it,Feedback noleggio,"Salve,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Distinti saluti
+COSTA TRASLOCHI
+Sent from my iPhone"
+COM-BAR-00209,NOL-BAR-00456,31/07/2026 02:43,telefonata_trascritta,cliente,3921142285,,Trascr. chiamata ore 15:11 (op. Luca) - cliente Claudio Genre: gomma anteriore dx squarciata da una pietra a Oulx
+COM-BAR-00210,NOL-BAR-00481,31/07/26 08:52,whatsapp,cliente,3258087206,,"devo annullare la preotazione per motivi di lavoro, posso avere ia rimborso?"
+COM-BAR-00211,NOL-BAR-00456,01/08/2026 21:55,nota_tecnico,tecnico,M.,,"BAR-03 - PNEUMATICO FIANCO DANNEGGIATO, NUOVO TRENO GOMME. FERMO 3GG. ANDREA"
+COM-BAR-00212,NOL-BAR-00504,02/08/2026 07:00,email,cliente,elisa.fontana@example.com,Richiesta informazioni,"Egregi signori,
+Posso ritirare il mezzo fuori orario? Arrivo n treno la sera tardi
+Grazie e saluti
+Elisa
+Inviato ds iPhone"
+COM-BAR-00213,NOL-BAR-00477,02/08/2026 16:43,nota_tecnico,tecnico,Fabio,,bar-07&nbsp;rientrato.&nbsp;danno&nbsp;fianco sx: piccola scheggiatura. segnalato a fine mese per carrozzeria. foto ok in cartella. stima no fermo (elena)
+COM-BAR-00214,NOL-BAR-00499,03/08/2026 19:53,nota_tecnico,tecnico,Elena,,"EB-BAR-003 rientrat piena di fango, lavaggiio completo. addebito pulizia 15€. M."
+COM-BAR-00215,NOL-BAR-00509,04/08/2026 22:45,modulo_web,cliente,martina.dellavalle@example.com,Contatti,"nome: dellavalle martina | email: martina.dellavalle@example.com | tel: 3474510187 | messaggio: tutto ok, mezzo comodo e consumi bassi. grazie!"
+COM-BAR-00216,,2026-08-05 00:37,email,cliente,emondino@example.com,disponibilita',"Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+Grazie e saluti"
+COM-BAR-00217,NOL-BAR-00486,05/08/2026,email,cliente,chiara.actis@example.com,I: Grazie!,"Salve,
+Tutto ok, mezzo comodo e consumi bassi. Grrazie!
+Grazie e saluti
+Chiara Actis
+Inviato da iPhone"
+COM-BAR-00164,nol-bar-00418,03/07/2026 10:32,modulo_web,cliente,rossian41@example.net,Contatti,"Nome: Rossi Andrea | Email: rossian41@example.nt | Tel: 3655801065 | Messaggio: purtroppo non posso piu' partire, cancello la prenotazione. Mi restituite l'acconto?"
+COM-BAR-00219,NOL-BAR-00493,06/08/26 14:49,email,cliente,reni14@example.org,riconsegna in ritardo,"gentile buby rent,
+posso tenere il mezzo (eb-bar-001) fino a domani? lavori sulla strada, non riesco ad arrivare
+saluti
+nicolò re
+sent from my iphone"
+COM-BAR-00220,NOL-BAR-00493,07/08/26 04:04,nota_tecnico,tecnico,Paolo,,EB-BAR-001 - camera d'aria sostituita. fermmo 3gg. M.
+COM-BAR-00221,NOL-BAR-00400,07/08/2026 19:39,nota_tecnico,tecnico,Davide,,EB-BAR-003 rientrato. Danno manubrio: display rotto. da sostituire il pezzo. Foto ok in cartella. Stima fermo 3gg (Elena)
+COM-BAR-00222,NOL-BAR-00444,2026-08-07,email,cliente,chiavesva39@example.it,Grazie!,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+Grazie mille
+Valentina
+Inviato da iPhone"
+COM-BAR-00223,NOL-BAR-00526,10/08/2026 14:26,nota_tecnico,tecnico,Gianni,,"EB-BAR-002: catena -> forcella piegata. foto in cartella, addebito da valutare // fermo 6gg"
+COM-BAR-00224,NOL-BAR-00529,11/08/26 17:50,email,cliente,elisa.ricci@example.org,Piccolo incidente di parcheggio,"Ciao,
+Bonjour, j'ai raye le vehicule (Cube Reaction) pres de Melezet. Que dois-je faire ?
+Saluti
+Elisa Ricci
+Sent from my iPhone"
+COM-BAR-00225,,11/08/2026 21:55,nota_tecnico,tecnico,Luca B.,,EB-BSR-003 RIENTRATO. DANN LEVA DEL FRENO: MANUBRI LEGGERMENTE FFUORI ASSE. RITOCCO VERNICE. FOEO OK IN ARTELLA. STIMA FERMO 1OG (L.G.)
+COM-BAR-00226,NOL-BAR-00469,12/08/2026 09:03,sms,cliente,3516095150,,"sono bloccato per problemi personali, arrivo con circa 1 ore di ritardo per la riconsegna (Thok E-K2)"
+COM-BAR-00227,NOL-BAR-00495,12-08-2026 15:01,email,cliente,econte@example.net,annullo noleggio,"SPETT.LE  BUBY  RENT,
+IL VOLO E' STATO CANCELLATO, DEVO ANNULLARE IL NOLEGGIO. COME FUNZIONA LA PENALE?
+GRAZIE MILLE
+CONTE ENRICO"
+COM-BAR-00228,NOL-BAR-00454,14/08/2026 01:52,whatsapp,cliente,3341082501,,gomma anteriore dx squarciata da una pietra a Colle della Scala
+COM-BAR-00229,NOL-BAR-00529,14/08/26,email,cliente,elisa.ricci@example.org,Feedback noleggio,"Spett.le Buby Rent,
+Tutto ok, mezzo comodo e consumi bassi. Grazie!
+In attesa di un vostro riscontro
+Elisa Ricci"
+COM-BAR-00230,,14/08/26 15:13,email,cliente,ebrunetti@example.com,Graffio sul mezzo,"Mentre facevo retromarcia a Beaulard ho toccato un palo e si e' rovinato il fanale posteriore. Nessun ferito. Cosa devo fare?
+Cordiali saluti"
+COM-BAR-00231,,16/08/2026 11:38,email,cliente,matteo.dellavalle@example.net,Richiesta informazioni,"Spett.le Buby Rent,
+Accettate carte di debito per la cauzione o serve per forza la carta di credito?
+Cordiali saluti
+Matteo Dellavalle"
+COM-BAR-00232,NOL-BAR-00507,2026-08-16 19:02,nota_tecnico,tecnico,Fabio,,BAR-01: fanale post. -> leggera ammaccatura. da lucidare // no fermo
+COM-BAR-00233,NOL-BAR-00454,19/08/26,nota_tecnico,tecnico,Davide,,"BAR-04 - pneumatico fianco danneggiato, nuovo treno gomme. fermo 3gg. Sara"
+COM-BAR-00234,,20/08/2026 21:52,sms,cliente,3718385523,,"devo spostare il noleggio di un giorno, e' possibile? (Thok E-K2)"
+COM-BAR-00235,NOL-BAR-00528,21/08/2026 10:32,telefonata_trascritta,cliente,3474510187,,"Trascr. chiamata ore 19:32 (op. Simona) - cliente Martina: sto arrivando ma ho coda in autostrada, tra 3 ore sono da voi"
+COM-BAR-00236,,2026-08-21 19:43,email,cliente,sferrari@example.com,Re: Graffio sul mezzo,"Spett.le Buby Rent,
+Volevo avvisarvi che la bici (EB-BAR-002) e' scivolata mentre era appoggiata a Beaulard, l cerhio posteriore ha un dannoo. Vi mando le foto
+Cordialmente
+Silvia Ferrari
+Get Outlook for Android"
+COM-BAR-00237,00492,21/08/2026,nota_tecnico,tecnico,Marco,,"controllo in riconsegna EB-BAR-002: cerchio post. manubrio leggermente fuori asse, segnalato a fine mese per carrozzeria. cliente informato. fermo 1gg - Davide"
+COM-BAR-00238,NOL-BAR-00511,22/08/2026 10:13,email,cliente,alessandro.ferrari@example.org,Cauzione non restituita,"Salve,
+Ho visto un addebito di 75 euro per km extra ma secondo me ho percorso molti meno km. Chiedo verifica del contratto NOL-BAR-00511
+Grazie e saluti
+Alessandro"
+COM-BAR-00239,NOL-BAR-00541,25/08/2026 13:54,modulo_web,cliente,info@cavalloeventi.example.it,Contatti,"Nome: CAVALLO EVENTI | Email: info@cavalloeventi.example.it | Tel: 3718385523 | Messaggio: posso tenere il mezzo (Thok E-K2) fino a domani? lavori sulla strada, non riesco ad arrivare"
+COM-BAR-00240,,26/08/2026 20:12,email,cliente,fferraris@example.net,Preventivo,"Egregi signori,
+Vorrei noleggiare auto da 09/09 a 23/09, avete disponibilita' e quanto costa?
+Grazie mille
+Francesco Ferraris"
+COM-BAR-00241,NOL-BAR-00425,2026-08-27 17:12,nota_operatore,operatore,Simona,,"verbale  eb-bar-001  - colle della scala - violazione art.142, comunicazione dati conducente inviata. spese 100â¬"
+COM-BAR-00242,NOL-BAR-00570,27/08/2026 17:46,whatsapp,cliente,3564481043,,"ritardo di 2h per incidente in tangenziale, scusate. Mezzo EB-BAR-001"
+COM-BAR-00137,NOL-BAR-00339,07/06/2026 21:59,nota_tecnico,tecnico,Gianni,,"controllo in riconsegna EB-BAR-003: cambio post. cerchio storto, preventivo richiesto. cliente informato. fermo 6gg - Luca B."
+COM-BAR-00244,NOL-BAR-00560,28/08/26 13:21,telefonata_trascritta,cliente,3300972989,,"Trascr. chiamata ore 10:33 (op. Luca) - cliente Anna Ricci: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-BAR-00245,NOL-BAR-00555,31/08/2026 09:16,whatsapp,cliente,3693529246,,"ho dimenticato gli occhiali da sole nel mezzo (Cube Reaction), potete controllare?"
+COM-BAR-00246,NOL-BAR-00580,09/02/2026,email,cliente,saccoma63@example.net,Modifica prenotazione,"Spett.le Buby Rent,
+Vorrei prolungare di 3 giorni, il mezzo e' libero?
+Grazie mille
+Marco Sacco"
+COM-BAR-00247,NOL-BAR-00530,03/09/26 19:09,email,cliente,info@raveraserramenti.example.it,I: Contestazione addebito,"Spett.le Buby Rent,
+Ho aspettato 40 minuti al ritiro perche' il personale non c'era. Servizio pessimo, vorrei un rimborso parziale
+Grazie mille
+RAVERA SERRAMENTI
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00248,nol-bar-00363,08-09-2026 13:50,nota_operatore,operatore,Luca,,"ricevuto verbale del comune di colle della scala per ztl/eccesso di velocita', targa eb-bar-001. da addebitare al cliente + 100€ gestione pratica"
+COM-BAR-00249,,08/09/26 14:37,whatsapp,cliente,3275038750,,"sto arrivando ma ho incidente in tangenziale, tra 2 ore sono da voi"
+COM-BAR-00250,NOL-BAR-00538,08/09/2026 18:16,modulo_web,cliente,rizzoba87@example.com,Richiesta assistenza,"Nome: Barbara Rizzo | Email: rizzoba87@example.com | Tel: 3793546062 | Messaggio: sono uscito di strada a Oulx per colpa del ghiaccio, il mezzo (BAR-02) e' danneggiato ma io sto bene"
+COM-BAR-00251,NOL-BAR-00463,2026-09-09 05:09,nota_tecnico,tecnico,Paolo,,bar-07 rientrato. danno fianco sx: cerchio scheggiato e ovalizzato. da sostituire il pezzo. foto ok in cartella. stima fermo 9gg (marco)
+COM-BAR-00252,NOL-BAR-00572,09/09/2026 21:14,nota_tecnico,tecnico,Stefano,,"RIT EB-BAR-003 2788km - sella forcella piegata. foto in cartella, addebito da valutare. fermo 4gg. Paolo"
+COM-BAR-00253,NOL-BAR-00585,10/09/2026 18:44,nota_tecnico,tecnico,Davide,,"RIT BAR-01: interno molto sporco (idore di fumo), pulizia straordinaria, addeito 30€ al cliente. Davide"
+COM-BAR-00254,NOL-BAR-00465,09/11/2026 19:50,email,cliente,fgamba@example.it,Cauzione non restituita,"All'arrivo il mezzo non era pulito e il carburante non era al pieno come promesso. Chiedo uno sconto
+Grazie
+Inviato dal mio Samsung Galaxy"
+COM-BAR-00255,NOL-BAR-00594,2026-09-14 13:51,modulo_web,cliente,morettial50@example.com,Contatti,v. foto
+COM-BAR-00056,NOL-BAR-00097,11/02/2026 15:18,nota_tecnico,tecnico,Davide,,BAR-04:  cerchio  ant. sx -> leggera ammaccatura. da lucidare // fero 1gg
+COM-BAR-00257,NOL-BAR-00564,20-09-2026 16:15,whatsapp,cliente,3815658691,,"ritardo di 3h x code di rientro dalle piste, scusate. Mezzo Thok E-K2"
+COM-BAR-00258,00593,2026-09-22 18:23,nota_tecnico,tecnico,Davide,,RIT EB-BAR-002 4274km - catena cerchio storto. preventivo richiesto. fermo 7gg. Stefano
+COM-BAR-00259,NOL-BAR-00564,2026-09-23 04:37,email,cliente,info@martinigiardinaggio.example.it,Re: Grazie!,"gentile buby rent,
+ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo
+cordialmente
+martini giardinaggio
+sent from my iphone"
+COM-BAR-00260,NOL-BAR-00577,23/09/2026 10:46,nota_tecnico,tecnico,L.G.,,"controllo in riconsegna GK648DM: parabrzza piccola scheggiatura, ritocco vernice. cliente informato. fermo 2g - Piolo [incomprensibile]"
+COM-BAR-00261,NOL-BAR-00574,2026-09-23 15:55,nota_tecnico,tecnico,Elena,,BAR-03 rientrato. Danno portiera lato passeggero: piccola scheggiatura. ritocco vernice. Foto ok in cartella. Stima fermo 2gg (Fabio)
+COM-BAR-00262,NOL-BAR-00523,2026-09-23 21:33,nota_tecnico,tecnico,Stefano,,RIT EB-BAR-003 2824km - manubrio manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. fermo 2gg. L.G.
+COM-BAR-00289,NOL-BAR-00648,31-10-2026 22:24,nota_tecnico,tecnico,M.,,EB-BAR-003: cerchio post. -> graffi sul telaio. segnalato a fine mese per carrozzeria // fermo 2gg
+COM-BAR-00264,,24/09/2026 18:41,email,cliente,info@blandinostudiotecnico.example.it,,"Vorrei noleggiare auto da 02/10 a 04/10, avete disponibilita' e quanto costa?
+In attesa di un vostro riscontro
+Inviato da iPhone"
+COM-BAR-00265,NOL-BAR-00619,2026-09-26 16:23,email,cliente,scerutti@example.com,riconsegna in ritardo,"Gentile Buby Rent,
+Ritardo di 4h per incidente in tangenziale, scusate. Mezzo E-BAR-003
+Distinti saluti
+Cerutti Simone"
+COM-BAR-00266,NOL-BAR-00057,2026-09-27 20:15,modulo_web,cliente,emondino@example.com,Contatti,"Nome: Mondino Elena | Email: emondino@example.com | Tel: 3595500805 | Messaggio: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-BAR-00267,NOL-BAR-00607,27/09/2026 21:43,telefonata_trascritta,cliente,3201767018,,TRASCR. CHIAMATA ORE 19:42 (OP. LUCA) - CLIENTE SILVIA FERRARI: MENTRE FACEVO RETROMARCIA A CESANA HO TOCCATO UN PALO E SI E' ROVINATO IL PARAURTI POSTERIORE. NESSUN FERITO. COSA DEVO FARE?
+COM-BAR-00268,nol-bar-00607,28/09/2026 17:56,nota_tecnico,tecnico,Luca B.,,RIT BAR-01 105450km - paraurti post. graffo superficiale. da lucidare. no fermo. Andrea
+COM-BAR-00269,NOL-BAR-00572,2026-09-29 02:07,email,cliente,matteo.ferrero@example.net,Problema Jeep Compass,"salve,
+si e' accesa la spia airbag e il mezzo (jeep compass) perde potenza, sono vicino a sestriere. cosa faccio?
+grazie
+matteo ferrero"
+COM-BAR-00270,NOL-BAR-00586,29/09/2026 19:52,nota_tecnico,tecnico,Marco,,"BAR-04 - freni da conrollare, pastiglie consumatee. fermo 2gg. Stefano"
+COM-BAR-00271,NOL-BAR-00628,30-09-2026 19:42,nota_tecnico,tecnico,Davide,,"EB-BAR-002 rientratta piena di fango, lavaggio completo. addebito pulizia 15€. Fabio"
+COM-BAR-00272,,30/09/2026 23:04,modulo_web,cliente,sferrari@example.com,,"nome: silvia ferrari | email: sferrari@example.com | tel: 3201767018 | messaggio: ottimo servizio, la e-bike era in ottimo stato e il percorso consigliato bellissimo"
+COM-BAR-00273,NOL-BAR-00637,03/10/26 22:59,email,cliente,info@riccistudiotecnico.example.it,Info noleggio,"Buonasera,
+Per un'azienda con partita IVA c'e' una tariffa agevolata per noleggi ripetuti?
+Ricci
+Sent from my iPhone"
+COM-BAR-00274,NOL-BAR-00627,09/10/2026,nota_tecnico,tecnico,M.,,"EB-BAR-002&nbsp;rientrata&nbsp;piena&nbsp;di fango, lavaggio completo. addebito pulizia 15€. Luca B."
+COM-BAR-00275,NOL-BAR-00643,14/10/2026 15:27,nota_tecnico,tecnico,L.G.,,"RIT BAR-04: interno molto sporco (odore di fumo), pulizia straordinaria, addebito 30€ al cliente. Tech1"
+COM-BAR-00203,NOL-BAR-00475,27/07/26,email,cliente,elisa.ricci@example.org,Problema Thok E-K2,"Salve,
+I freni non frenano bene in discesa, sono a Claviere, bici Thok E-K2
+Grazie
+Elisa Ricci
+Sent from my iPhone"
+COM-BAR-00277,NOL-BAR-00633,10/19/2026 15:08,email,cliente,martina.ravera@example.net,I: Ho dimenticato una cosa nel mezzo,"Gentile Buby Rent,
+Credo di aver lasciato il casco nel agagliaio (GM763JF). Si po' recuuperare?
+Cordiali saluti"
+COM-BAR-00278,NOL-BAR-00653,20/10/2026 04:10,modulo_web,cliente,econte@example.net,,"Nome: Enrico Conte | Email: econte@example.net | Tel: 3905218423 | Messaggio: ritardo di 3h per ritardo del treno, scusate. Mezzo BAR-04"
+COM-BAR-00279,NOL-BAR-00658,21-10-2026 22:41,email,cliente,emondino@example.com,info danno,"Salve,
+Sono caduto con la bici sul sentiero verso Oulx: la leva del freno si e' rovinato/a ma io sto bene. Mi dite ome funziona con la cauzion?
+Grizie mille"
+COM-BAR-00280,,22/10/2026 22:04,whatsapp,cliente,3839884415,,"ho  sbaoliato  la data di rritiro nella prenotazione, vorrei correggerla"
+COM-BAR-00281,NOL-BAR-00658,2026-10-22 22:21,nota_tecnico,tecnico,Davide,,RIT EB-BAR-002 4451km - leva del freno manubrio leggermente fuori asse. segnalato a fine mese per carrozzeria. fermo 1gg. Gianni
+COM-BAR-00282,,24/10/2026 19:34,email,cliente,info@costaagricola.example.it,disponibilita',"Buonasera,
+Siamo in 5 con bagagli e 2 bici, che mezzo ci consigliate per il fine settimana?
+Cordiali saluti
+COSTA AGRICOLA"
+COM-BAR-00283,NOL-BAR-00631,25-10-2026 06:26,telefonata_trascritta,cliente,3839884415,,"Trascr. chiamata ore 19:21 (op. Luca) - cliente Davide: posso tenere il mezzo (Jeep Compass) fino a domani? traffico, non riesco ad arrivare"
+COM-BAR-00284,NOL-BAR-00590,,whatsapp,cliente,3426778605,,"posso tenere il mezzo (Dacia Duster) fino a domani? incidente in tangenziale, non riesco ad arrivare"
+COM-BAR-00285,NOL-BAR-00668,29/10/2026 14:29,whatsapp,cliente,3797927165,,"devo annullare la prenotazione per motivi di lavoro, posso avere il rimborso?"
+COM-BAR-00286,NOL-BAR-00656,2026-10-30 11:03,telefonata_trascritta,cliente,3624027422,,"Trascr. chiamata ore 19:13 (op. Luca) - cliente Stefano Marchetti: mi avete addebitato un danno che non ho fatto, era gia' presente nelle foto al ritiro. Contesto l'importo di 60 euro"
+COM-BAR-00287,NOL-BAR-00654,30/10/2026 14:13,modulo_web,cliente,info@cottinotrasporti.example.it,Contatti,"Nome:&nbsp;Cottino&nbsp;|&nbsp;Email: info@cottinotrasporti.example.it | Tel: 3426778605 | Messaggio: complimenti all'operatore di sede, molto disponibile. Prezzo onesto"
+COM-BAR-00288,,2026-10-31 16:56,email,cliente,blandinofe9@example.net,info danno,"Buonasera,
+Ho preso una bucaa e adesso il ccerchio posteriore fa un rumore strano, secondo me e' otorto/a. Bici (Cube Reaction)
+Federica"
+COM-BAR-00263,NOL-BAR-00538,24/09/2026 10:12,nota_tecnico,tecnico,Sara,,"BAR-02  -  verbale polizia locale in allegato, daani anteriori. fermo 23gg. tavide"
+COM-BAR-00290,NOL-BAR-00672,03-11-2026 23:28,modulo_web,cliente,vacchettopa68@example.net,Richiesta assistenza,"Nome: Vacchetto Paolo | Emaiil: vacchettopa68@example.not | Tel: 3910126955 | Messiggio: esperienza ottima, ritiro e riconsegna rapidissimi. Consiglio"
+COM-BAR-00291,NOL-BAR-00609,04/11/2026 13:54,sms,cliente,3217411705,,"sto arrivando ma ho code di rientro dalle piste, tra 1 ore sono da voi"
+COM-BAR-00292,NOL-BAR-00528,06/11/2026 09:16,nota_operatore,operatore,Simona,,"ricevuto verbale del comune di Colle della Scala per ZTL/eccesso di velocita', targa EB-BAR-003. da addebitare al cliente + 80€ gestione pratica"
+COM-BAR-00293,,09/11/2026 01:40,email,cliente,roberto.rossi@example.it,I: Feedback noleggio,"buongiorno a tutti,
+complimenti all'operatore di sede, molto disponibile. prezzo onesto
+distinti saluti
+roberto rossi
+get outlook for android"
+COM-BAR-00086,,04/04/2026 03:38,telefonata_trascritta,cliente,3650352015,,"TRASCR. CHIAMATA ORE 14:12 (OP. SIMONA) - CLIENTE SIMONE RE: SONO USCITO DI STRADA A OULX PER COLPA DEL GHIACCIO, IL MEZZO (FORD TRANSIT) E' DANNEGGIATO MA IO STO BENE"
+COM-BAR-00244,NOL-BAR-00560,28/08/26 13:21,telefonata_trascritta,cliente,3300972989,,"Trascr. chiamata ore 10:33 (op. Luca) - cliente Anna Ricci: annullate per favore la mia prenotazione, la nostra gita e' saltata per il meteo"
+COM-BAR-00258,00593,2026-09-22 18:23,nota_tecnico,tecnico,Davide,,RIT EB-BAR-002 4274km - catena cerchio storto. preventivo richiesto. fermo 7gg. Stefano
+COM-BAR-00201,NOL-BAR-00439,2026-07-26 12:48,nota_tecnico,tecnico,Andrea,,ar-06 rientrato. danno cerchio post. dx: striscio di vernice. segnalato a finne mese per carrozzeria. foto ok in cartella. stima fermo 2gg (fabio)
+COM-BAR-00264,,24/09/2026 18:41,email,cliente,info@blandinostudiotecnico.example.it,,"Vorrei noleggiare auto da 02/10 a 04/10, avete disponibilita' e quanto costa?
+In attesa di un vostro riscontro
+Inviato da iPhone"
