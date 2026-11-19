@@ -16,6 +16,7 @@ from .models import (
     Manutenzione,
     Prenotazione,
     Segnalazione,
+    Sede,
     Trasferimento,
     Utente,
     Veicolo,
@@ -36,6 +37,7 @@ from .schemas import (
     TrasferimentoIn,
     TrasferimentoOut,
     OperatoreOut,
+    SedeOut,
 )
 
 router = APIRouter(tags=["operazioni"])
@@ -58,6 +60,14 @@ def elenco_operatori(
     return list(
         db.scalars(select(Utente).where(Utente.ruolo == "operatore").order_by(Utente.id))
     )
+
+
+@router.get("/dashboard/sedi", response_model=list[SedeOut])
+def elenco_sedi(
+    db: Session = Depends(get_db),
+    utente: Utente = Depends(richiedi_ruoli("admin", "ceo")),
+):
+    return list(db.scalars(select(Sede).order_by(Sede.id)))
 
 
 @router.get("/dashboard/comunicazioni", response_model=list[ComunicazioneInternaOut])

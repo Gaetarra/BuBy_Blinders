@@ -72,7 +72,8 @@ stateDiagram-v2
 
 - **Cliente** (privato o azienda): cerca, prenota, consulta i propri noleggi, segnala un problema.
 - **Operatore di sede**: gestisce flotta, check-in e check-out, manutenzioni e trasferimenti della propria sede.
-- **Admin**: vede tutte le sedi, gestisce utenti, tariffe e sedi.
+- **CEO**: vede dashboard e comunicazioni di tutte le sedi in sola lettura.
+- **Admin**: vede tutte le sedi, gestisce utenti, tariffe e sedi. Può consultare il database PostgreSQL in sola lettura tramite pgAdmin, senza permessi di scrittura.
 
 **Area cliente**
 
@@ -110,6 +111,8 @@ flowchart LR
 | `frontend` | React/TanStack (Nitro su Node.js) | 3000 | Login, dashboard e gestione flotta; area cliente da completare |
 | `api` | FastAPI | 8000 | Documentazione OpenAPI su `/docs` |
 | `db` | PostgreSQL 16 | 5432 (interna) | Dati su volume persistente `pgdata` |
+| `pgadmin` | pgAdmin 4 | 8080 | Console DB per l'admin, ruolo di sola lettura |
+| `db` (init) | script `db/init` | – | Crea il ruolo di sola lettura alla prima inizializzazione |
 | Modulo DAI | Python, dentro `api` o servizio separato | – | Previsioni e classificazione; i file di output del team DAI vengono importati |
 
 ## 5. Modello dati
@@ -222,6 +225,10 @@ sequenceDiagram
 | Creare una prenotazione | no | solo per sé | per qualsiasi cliente | per qualsiasi cliente |
 | Vedere le prenotazioni | no | solo le proprie | tutte | tutte |
 | Cambiare lo stato di un veicolo | no | no | solo della propria sede | tutti |
+| Vedere le comunicazioni interne | no | no | solo la propria sede e le note non smistate | tutte (anche CEO) |
+| Creare o assegnare comunicazioni | no | no | creano per la propria sede e prendono in carico | creano e assegnano |
+
+Il CEO è in sola lettura: vede dashboard e comunicazioni di tutte le sedi, ma non crea, assegna o modifica. L'admin consulta il database in sola lettura da pgAdmin, fuori dall'applicazione.
 
 **Nel codice**: `utente_corrente` (in `deps.py`) valida il token e restituisce l'utente; `richiedi_ruoli("operatore", "admin")` protegge un endpoint per ruolo. Esempio:
 
@@ -373,6 +380,11 @@ Regole:
 | POST | `/prenotazioni` | autenticato | Crea una prenotazione. Errori: `404` veicolo o cliente, `409` non noleggiabile o già prenotato, `422` date non valide |
 | GET | `/prenotazioni?cliente_id=` | autenticato | Il cliente vede le proprie, operatore e admin tutte. Dalla più recente |
 | GET | `/dashboard/flotta?sede_id=&stato_veicolo=&stato_prenotazione=` | operatore, admin | Riepilogo e lista flotta con filtri; l'operatore è limitato alla propria sede, l'admin deve indicare la sede |
+| GET | `/dashboard/comunicazioni` | operatore, admin, ceo | Coda delle comunicazioni interne; l'operatore vede la propria sede e le note non smistate |
+| POST | `/dashboard/comunicazioni` | operatore, admin | Crea una nota interna, collegabile a veicolo/sede e assegnabile a un operatore |
+| PATCH | `/dashboard/comunicazioni/{id}/assegnazione?assegnato_a_id=` | operatore, admin | Assegna la nota a un operatore; senza `assegnato_a_id` la riapre |
+| GET | `/dashboard/operatori` | admin, ceo | Elenco degli operatori per l'assegnazione |
+| GET | `/dashboard/sedi` | admin, ceo | Elenco delle sedi con gli ID effettivi del database, per i filtri della dashboard |
 | GET | `/clienti` | operatore, admin | Elenco degli ID cliente per creare prenotazioni per conto terzi; non restituisce nome o email |
 | POST | `/prenotazioni/{id}/checkin` | operatore, admin | Registra ispezione di ritiro (km, carburante/batteria, URL foto e note), avvia il noleggio |
 | POST | `/prenotazioni/{id}/checkout` | operatore, admin | Registra ispezione di riconsegna e chiude il noleggio; se `danni_rilevati` è true, crea una segnalazione e blocca il veicolo |
@@ -456,6 +468,7 @@ docker compose --env-file ../.env up --build
 - API: http://localhost:8000 (documentazione interattiva su `/docs`)
 - Frontend: http://localhost:3000
 - Health check API: http://localhost:8000/health
+- pgAdmin (sola lettura, per l'admin): http://localhost:8080
 
 All'avvio le tabelle vengono create e vengono caricati dati mock; il seed crea un
 operatore per ogni sede oltre agli account admin e CEO.
@@ -484,6 +497,7 @@ Per fermare i servizi: `docker compose down`. Per cancellare anche il database: 
 - Ricerca dei veicoli disponibili e creazione di prenotazioni con controllo delle sovrapposizioni
 - Ispezioni di ritiro/riconsegna, check-in/check-out, segnalazioni, manutenzioni e trasferimenti
 - Dashboard operativa React con conteggi, flotta e filtri per sede
+- Comunicazioni interne cifrate, con coda per sede e vista globale per admin e CEO
 - Autenticazione JWT: registrazione, login, profilo, ruoli cliente, operatore e admin, permessi per endpoint
 - Cambio di stato dei veicoli riservato a operatori e admin
 - Cifratura di nome ed email, con impronta HMAC per login e duplicati, e rotazione delle chiavi

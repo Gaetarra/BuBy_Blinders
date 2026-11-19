@@ -21,7 +21,7 @@ const stati = [
   "in_trasferimento",
   "disponibile",
 ];
-const flotta = [
+const flotta: [string, string, string][] = [
   ["auto", "Fiat 500", "TO"],
   ["auto", "Toyota Yaris", "TO"],
   ["furgone", "Fiat Ducato", "TO"],

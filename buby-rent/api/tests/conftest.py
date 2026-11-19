@@ -86,6 +86,11 @@ def client() -> Iterator[TestClient]:
                     ruolo="cliente",
                     cliente_id=1,
                 ),
+                Utente(
+                    email="ceo@example.test",
+                    password_hash=hash_password("ceo-test-password"),
+                    ruolo="ceo",
+                ),
             ]
         )
         db.commit()

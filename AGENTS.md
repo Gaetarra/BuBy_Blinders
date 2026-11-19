@@ -1,120 +1,135 @@
 # AGENTS.md – Buby Rent
 
-Istruzioni per gli agenti di codice che lavorano su questo repository. Leggi tutto il file prima di modificare il codice. Per i dettagli (diagrammi, API, GDPR, email) c'è `DOCUMENTAZIONE.md`.
+Istruzioni per gli agenti che lavorano su questo repository. Il progetto e la documentazione sono in italiano: mantenere nomi di dominio, stati e messaggi in italiano.
+
+Fonti di verità, in ordine: questo file per i vincoli operativi, il codice in `buby-rent/`, `DOCUMENTAZIONE.md` per dominio/API/GDPR, `buby-rent/INTEGRAZIONE-FRONTEND-BACKEND.md` per frontend/API/Supabase e `docs/features/` per le singole feature. `.github/copilot-instructions.md` è un riassunto secondario e può essere meno aggiornato.
 
 ## 1. Contesto
 
-- **Progetto**: applicazione web di Buby Rent, società di noleggio di auto, furgoni ed e-bike su più sedi. È il caso 3 del Laboratorio Integrato dell'ITS Academy ICT Piemonte (percorso Web Solutions Architect).
-- **Cosa fa**: i clienti cercano e prenotano veicoli e inviano segnalazioni; gli operatori gestiscono flotta, prenotazioni e segnalazioni della propria sede; l'admin vede tutto.
-- **Team dati (DAI)**: un altro team prepara i dati (CSV), la previsione della domanda e la classificazione delle segnalazioni. Noi ospitiamo i loro risultati; i campi `categoria`, `urgenza`, `sintesi`, `targa_estratta` delle segnalazioni sono loro.
-- **Dati**: sintetici (nessuna persona reale), ma l'app è costruita come se fossero reali: cifratura, diritti GDPR, permessi per ruolo.
-- **Scadenze**: il **20 novembre 2026** schema dati e contratto API vengono **congelati**; demo finale il 18 dicembre 2026.
+- Applicazione di noleggio auto, furgoni ed e-bike su più sedi (caso 3 del Laboratorio Integrato ITS Academy ICT Piemonte).
+- Ruoli: `cliente`, `operatore` (solo la propria sede), `ceo` (vista globale in sola lettura), `admin`.
+- I dati sono sintetici, ma l'app va trattata come se fossero reali: cifratura, GDPR e permessi per ruolo.
+- Il **20 novembre 2026** schema dati e contratto API vengono congelati; demo finale il 18 dicembre 2026. Dopo il congelamento solo modifiche additive, salvo richiesta esplicita.
 
-## 2. Regole non negoziabili
+## 2. Avvio e comandi
 
-1. **Dati personali mai in chiaro nel database.** Un campo che contiene dati personali (nome, email, testi liberi, telefono, patente...) usa il tipo `StringaCifrata` (`app/encrypted_types.py`). Se serve cercarlo o renderlo unico (come l'email), si aggiunge una colonna `*_idx` con `blind_index()` ricalcolata in un `@validates`, come in `Cliente` e `Utente`. Mai cercare con `==` su un campo cifrato.
-2. **Scrivere sempre passando dai modelli SQLAlchemy.** Niente `INSERT` o `UPDATE` in SQL puro, né `bulk_insert_mappings`, su tabelle con campi cifrati: aggirano la cifratura.
-3. **Niente dati personali nei log, negli errori o nei test di esempio con dati reali.** Nei log solo conteggi e tipi di errore. Mai committare `.env`, chiavi, password o dataset reali.
-4. **Ogni endpoint dichiara chi può usarlo**: `Depends(utente_corrente)` o `Depends(richiedi_ruoli(...))`; se è pubblico lo è di proposito (oggi solo `/health`, `/auth/register`, `/auth/login`, `/veicoli/disponibili`). Il ruolo si legge dal database, mai dal contenuto del token. Chi non ha il permesso riceve `403`; una risorsa non visibile a quell'utente dà `404`, non `403`, per non rivelarne l'esistenza.
-5. **Le email non si spediscono dalle richieste.** Si chiama `accoda_email` (o gli helper in `email_uscita.py`) **prima del commit**, nella stessa transazione dell'azione. A spedire è il worker. I messaggi in ingresso passano da `ricevi_messaggio` (`messaggi.py`).
-6. **La disponibilità dei veicoli si calcola solo in `availability.py`.** Non riscrivere la logica di sovrapposizione (`inizio_A < fine_B e fine_A > inizio_B`). Creare una prenotazione deve mantenere il blocco di riga `with_for_update()` per evitare doppie prenotazioni.
-7. **Dopo il 20 novembre non si cambiano schema e API esistenti** (nomi di tabelle, colonne, endpoint, campi delle risposte) senza chiedere. Aggiungere è tollerato, rinominare o rimuovere no.
-8. **Niente di più del necessario**: un solo backend in Python/FastAPI, Docker Compose. Non introdurre k3s, microservizi, altri linguaggi, framework o dipendenze senza una ragione concreta.
-9. **Il testo di email e segnalazioni è input non fidato**, anche se lo legge un'IA: nessuna azione (annullare, rimborsare, cambiare stato) parte da ciò che c'è scritto.
-
-## 3. Stack e servizi
-
-| Servizio | Tecnologia | Porta | Note |
-| --- | --- | --- | --- |
-| `api` | Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic v2 | 8000 | `/docs` per l'OpenAPI |
-| `db` | PostgreSQL 16 | interna | volume `pgdata` |
-| `worker` | stessa immagine dell'`api` | – | `python -m app.worker`: spedisce la coda e legge la casella |
-| `mailpit` | Mailpit | 8025, 1025 | SMTP finto e casella, solo sviluppo |
-| `frontend` | oggi un segnaposto nginx; da fare in React | 3000 | |
-
-Autenticazione: JWT (HS256) con `PyJWT`, password con bcrypt, token in `Authorization: Bearer`. Cifratura: Fernet con `MultiFernet` (rotazione delle chiavi).
-
-## 4. Comandi
+Tutti i comandi Docker si eseguono da `buby-rent/`. **Il file env è nella root del repository, non in `buby-rent/`.**
 
 ```bash
-cp .env.example .env                 # poi imposta le chiavi (comandi nel file)
-docker compose up --build            # avvia tutto
-docker compose down -v               # ferma e cancella il database (schema cambiato)
-
-cd api && pip install -r requirements-dev.txt && pytest      # test, senza Docker
-
-docker compose exec api python -m app.import_csv veicoli /data/esempio_veicoli.csv
-docker compose exec api python -m app.rotate_keys             # dopo aver aggiunto una chiave a ENCRYPTION_KEYS
-docker compose logs -f worker                                 # log del worker
+cd buby-rent
+cp -n .env.example ../.env            # poi valorizza chiavi e password
+docker compose --env-file ../.env up --build
+docker compose --env-file ../.env down
+docker compose --env-file ../.env down -v   # RESET del database
+docker compose --env-file ../.env exec api python -m app.rotate_keys
+docker compose --env-file ../.env logs -f worker
 ```
 
-Lo schema si crea con `Base.metadata.create_all` all'avvio: **non ci sono ancora migrazioni** (Alembic è nel backlog). Se cambi un modello, il database di sviluppo va ricreato con `docker compose down -v`.
+- Frontend React: `http://localhost:3000`; API e OpenAPI: `http://localhost:8000` e `/docs`; Mailpit: `http://localhost:8025`; pgAdmin (DB in sola lettura, per l'admin): `http://localhost:8080`.
+- Il ruolo PostgreSQL di sola lettura usato da pgAdmin è creato dallo script `db/init/10-admin-readonly.sh`, montato in `docker-entrypoint-initdb.d`: viene eseguito alla prima inizializzazione del volume `pgdata`. Le sue credenziali sono `PGADMIN_RO_USER`/`PGADMIN_RO_PASSWORD`; l'accesso alla console usa `PGADMIN_DEFAULT_EMAIL`/`PGADMIN_DEFAULT_PASSWORD`. Su un volume già inizializzato il ruolo non viene ricreato: per cambiare la password serve un reset del volume o un `ALTER ROLE` manuale.
+- Senza `--env-file ../.env`, Compose cerca `buby-rent/.env` (inesistente) e le variabili restano vuote.
+- Le immagini si possono ricostruire senza toccare il volume. `down -v` serve solo per cambi di schema/chiavi, reset o modifica dei seed.
+- Lo schema è creato da `Base.metadata.create_all()` all'avvio: **non ci sono migrazioni Alembic**. Dopo una modifica ai modelli ricreare il database.
+- Il seed non aggiorna righe esistenti: cambiare `ADMIN_PASSWORD`/`OPERATORE_PASSWORD`/`CEO_PASSWORD` in `.env` non cambia le password già create (serve un reset del database).
 
-## 5. Struttura
+## 3. Test e verifiche
 
-```
-api/app/
-  main.py            avvio, CORS, router, controllo delle chiavi
-  config.py          configurazione da variabili d'ambiente
-  database.py        engine e sessioni (hide_parameters attivo)
-  models.py          tabelle e costanti degli stati
-  schemas.py         modelli Pydantic di richiesta e risposta
-  security.py        bcrypt e JWT        deps.py   utente corrente e ruoli
-  crypto.py          Fernet e blind index    encrypted_types.py   StringaCifrata
-  availability.py    disponibilità dei veicoli
-  messaggi.py        ricevi_messaggio    casella.py   lettura casella    email_uscita.py   coda e SMTP
-  worker.py          ciclo del worker    import_csv.py   import da CSV    rotate_keys.py   rotazione chiavi
-  seed.py            dati mock e utenti di prova
-  routers/           auth, veicoli, prenotazioni, segnalazioni
-api/tests/           pytest (SQLite temporaneo)
-data/                CSV di esempio
+```bash
+# API: pytest con SQLite in memoria, senza PostgreSQL né Mailpit
+docker build -f api/Dockerfile.test -t buby-rent-api-tests ./api
+docker run --rm buby-rent-api-tests
+docker run --rm buby-rent-api-tests python -m pytest -q tests/test_api.py::test_booking_overlap_returns_conflict
+
+# In alternativa, senza Docker (dalla cartella api/)
+pip install -r requirements-dev.txt && pytest
 ```
 
-## 6. Convenzioni
+L'immagine `Dockerfile.test` copia il codice: ricostruiscila dopo ogni modifica, oppure usa pytest locale. I test Supabase sostituiscono JWKS e impostazioni con `monkeypatch` (fixture `supabase_identity` in `tests/conftest.py`): non devono chiamare la rete.
 
-- **Lingua**: il dominio è in italiano (tabelle, campi, stati, messaggi di errore e testi delle email); il codice di infrastruttura segue i nomi inglesi delle librerie.
-- **Stile**: type hint ovunque, righe fino a circa 100 caratteri, SQLAlchemy 2.0 (`Mapped`, `mapped_column`, `select`), Pydantic v2. Commenti solo per spiegare un perché, non un cosa.
-- **Codici HTTP**: `401` non autenticato, `403` ruolo insufficiente, `404` non trovato o non visibile, `409` conflitto (email già registrata, veicolo già prenotato, cancellazione con prenotazioni attive), `422` dati non validi.
-- **Stati** (veicolo, prenotazione, segnalazione, email): costanti in `models.py`; validare sempre contro quelle.
-- **Orari**: nel database sono datetime senza fuso, in UTC.
+```bash
+# Frontend (Bun + Node 22)
+cd frontend
+bun install --frozen-lockfile
+bun run dev           # sviluppo locale
+bun run test          # Vitest
+bunx tsc --noEmit
+bun run lint
+```
 
-## 7. Ricette
+Non coperti dai test: PostgreSQL reale, `SELECT ... FOR UPDATE` e concorrenza, Docker Compose, il worker con Mailpit reale, un progetto Supabase reale. Se tocchi queste parti, fai una prova manuale e dichiara nel resoconto cosa non hai verificato.
 
-**Aggiungere un campo con dati personali** a un modello: `StringaCifrata` (nullable se serve), niente ricerche SQL su di esso; se va cercato, aggiungi `*_idx`. Aggiungilo a `rotate_keys.CAMPI_CIFRATI`. Valuta export (`GET /auth/me/dati`) e cancellazione (`DELETE /auth/me`): se contiene dati dell'interessato, va incluso nell'export e anonimizzato o rimosso alla cancellazione. Aggiungi un test in `test_privacy.py` che controlla che nel database non ci sia testo in chiaro.
+## 4. Struttura
 
-**Aggiungere un endpoint**: schema Pydantic in `schemas.py`, router in `routers/`, dipendenza di autenticazione esplicita, filtro di visibilità per ruolo se restituisce dati di altri (vedi `_solo_visibili` in `routers/segnalazioni.py`), test per `401`, `403`, `404` e il caso felice. Aggiorna la tabella API in `DOCUMENTAZIONE.md`.
+```
+buby-rent/api/app/
+  main.py            bootstrap, CORS, logging richieste, router
+  models.py          tabelle e costanti di stati/ruoli
+  schemas.py         contratti Pydantic
+  availability.py    unica logica di disponibilità dei veicoli
+  operazioni.py      dashboard, comunicazioni, segnalazioni, manutenzioni, trasferimenti, check-in/out
+  routers/           auth, veicoli, prenotazioni (non esiste un router segnalazioni)
+  deps.py            autenticazione locale/Supabase e controllo ruoli
+  supabase_auth.py   verifica JWT Supabase via JWKS
+  crypto.py / encrypted_types.py / rotate_keys.py
+  email_uscita.py    coda email; worker.py la spedisce
+  import_csv.py      import da CSV; seed.py dati demo e utenti
+buby-rent/frontend/  React 19 + TanStack Start; rotte in src/routes, client API in src/lib/api.ts
+buby-rent/data/      CSV di esempio (veicoli, prenotazioni, segnalazioni)
+buby-rent/db/        init del ruolo DB di sola lettura e configurazione pgAdmin
+```
 
-**Aggiungere un'email in uscita**: una funzione `accoda_*` in `email_uscita.py` che usa `accoda_email`, richiamata prima del `db.commit()` dell'azione. Aggiungi un test che controlla la riga in `EmailDaInviare`.
+`frontend/src/routeTree.gen.ts` è generato: non modificarlo a mano. Le rotte sono file-based in `src/routes/`; non introdurre convenzioni Next.js/Remix.
 
-**Aggiungere un canale di ingresso**: un adattatore che raccoglie i messaggi e chiama `ricevi_messaggio`; non duplicare la logica di collegamento a cliente, prenotazione e sede.
+## 5. Regole non negoziabili
 
-**Aggiungere un CSV da importare**: una funzione in `import_csv.py` con lo schema di `_per_ogni_riga` (righe sbagliate scartate con motivo, rilanciabile senza duplicati), un file di esempio in `data/`, un test in `test_import.py`, e le colonne nella documentazione.
+1. **Dati personali cifrati a livello applicativo.** Usa `StringaCifrata` (`encrypted_types.py`). Se il campo va cercato o reso unico, aggiungi una colonna `*_idx` con `blind_index()` ricalcolata in un `@validates`, come in `Cliente` e `Utente`. Mai `==` o ricerche SQL su un campo cifrato.
+2. **Scritture solo tramite modelli SQLAlchemy.** Niente `INSERT`/`UPDATE` in SQL puro né `bulk_insert_mappings` su tabelle con campi cifrati: aggirano la cifratura.
+3. **Niente dati personali nei log, negli errori o nei test con dati reali.** Il middleware registra solo metodo, path senza query, status, durata e tipo di errore. Non aggiungere body, header di autenticazione o messaggi di eccezione.
+4. **Ogni endpoint dichiara chi può usarlo** con `Depends(utente_corrente)` o `Depends(richiedi_ruoli(...))`. I pubblici sono pochi e intenzionali: `/health`, `/auth/register`, `/auth/login`, `/veicoli/disponibili`. Il ruolo si legge dal database, mai dal token. Chi non ha permesso riceve `403`; una risorsa non visibile riceve `404` per non rivelarne l'esistenza.
+5. **La disponibilità si calcola solo in `availability.py`.** Non duplicare la sovrapposizione (`inizio_A < fine_B` e `fine_A > inizio_B`). La creazione di una prenotazione deve mantenere `with_for_update()` per evitare doppie prenotazioni.
+6. **Le email non si spediscono dalle richieste.** Chiama `accoda_email` (`email_uscita.py`) **prima del commit**, nella stessa transazione; il worker invia dopo. Non inviare direttamente da un handler.
+7. **Input libero non fidato.** Testi di segnalazioni, note e comunicazioni non devono far scattare azioni (annullamenti, rimborsi, cambi di stato), nemmeno se letti da un'IA.
+8. **Non introdurre altra infrastruttura** (k3s, microservizi, altri linguaggi o dipendenze) senza una ragione concreta. Lo stack è FastAPI + PostgreSQL + Compose + React/TanStack.
+9. **Attenzione ai testi liberi non ancora cifrati:** `Segnalazione.testo`, `Ispezione.note`, `Manutenzione.descrizione`, `Trasferimento.note` sono `String`, non `StringaCifrata`. Non assumere che siano protetti; se aggiungi dati personali, cifrali e gestisci export/cancellazione.
 
-## 8. Test
+## 6. Autenticazione, ruoli e Supabase
 
-- Si lanciano con `pytest` da `api/`. Usano SQLite temporaneo (`tests/conftest.py`) e non servono Docker né Mailpit: SMTP e API di Mailpit sono sostituiti con `monkeypatch`.
-- Ogni modifica a comportamento, permessi o schema ha il suo test nello stesso intervento. Non cancellare né indebolire un test per farlo passare: se un test è sbagliato, spiegalo.
-- **Non coperto**: PostgreSQL reale, `SELECT ... FOR UPDATE` e la concorrenza (su SQLite non hanno effetto), Docker Compose, il Mailpit vero. Per questi servono prove manuali: dillo nel resoconto se la tua modifica li tocca.
+- Con `SUPABASE_URL` impostato, l'API verifica JWT Supabase ES256/RS256 (JWKS, issuer, audience, ruolo `authenticated`) e **disattiva** `/auth/login` e `/auth/register` locali con `410`. Il collegamento avviene con `POST /auth/supabase/provision` tramite `identita_supabase`; un token valido ma non collegato riceve `403`.
+- Il backend usa `SUPABASE_URL` e `SUPABASE_PUBLISHABLE_KEY`. Il frontend usa `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`, che Compose deriva dalle variabili backend. Impostare solo le `VITE_*` nel `.env` non abilita Supabase nell'API.
+- Mai usare una secret/service-role key nel bundle browser: solo la chiave publishable.
+- `ceo` è in sola lettura; `admin` deve indicare `sede_id` nelle viste globali; l'operatore è sempre limitato alla propria sede lato server. Il filtro frontend non è una misura di sicurezza.
+- **L'admin accede al database solo in sola lettura**, tramite pgAdmin e il ruolo `PGADMIN_RO_USER` (solo `SELECT`). Non ha credenziali superuser, non scrive da SQL e le modifiche ai dati passano dalle API, che applicano cifratura e permessi. Non allargare questi permessi senza una richiesta esplicita.
+- **Comunicazioni interne:** operatori, admin e CEO vedono la scheda. L'operatore vede la propria sede e le note non smistate, crea note per la propria sede e prende in carico; l'admin crea e assegna a qualsiasi operatore; il CEO legge soltanto. Il filtro per sede va mantenuto lato API.
+- Il JWT del frontend resta in memoria (`src/lib/auth.ts`), non in `localStorage`. La sessione non sopravvive al reload.
+- In Compose il frontend viene compilato con gli `ARG` `VITE_*`: cambiare queste variabili richiede un rebuild.
 
-## 9. Stato e backlog
+## 7. Convenzioni
 
-**Fatto**: prenotazioni con controllo delle sovrapposizioni; autenticazione JWT con ruoli; cifratura di nome ed email e dei testi delle segnalazioni, con rotazione delle chiavi; diritti GDPR (export, rettifica, cancellazione con anonimizzazione); segnalazioni con filtri, note interne e assegnazione; import da CSV; coda email, worker e lettura della casella con Mailpit; test automatici.
+- Dominio, tabelle, campi, stati e messaggi in italiano; solo l'infrastruttura segue i nomi inglesi delle librerie.
+- Usa le costanti di `models.py` (`STATI_VEICOLO`, `STATI_PRENOTAZIONE`, `RUOLI`, ...) e validale negli schemi Pydantic.
+- Datetime senza fuso orario, in UTC.
+- Codici HTTP: `401` non autenticato, `403` ruolo insufficiente, `404` non trovato/non visibile, `409` conflitto, `422` dati non validi.
+- Aggiorna nello stesso intervento `DOCUMENTAZIONE.md` (tabella API, modello dati), `README.md` e `.env.example` quando cambiano setup o comportamento.
+- Per modifiche a schema, query o Supabase consulta prima `.agents/skills/supabase/SKILL.md` e `.agents/skills/supabase-postgres-best-practices/SKILL.md`.
+- Il frontend è collegato a Lovable: non riscrivere storia già pubblicata (force push, rebase/amend di commit pushati) e non modificare file generati o `supabase/migrations/`. Vedi `frontend/AGENTS.md`.
 
-**Backlog, in ordine di priorità**
+## 8. Trappole verificate
+
+- `rotate_keys.CAMPI_CIFRATI` copre oggi solo `Cliente` e `Utente`; `ComunicazioneInterna.testo` e i campi di `EmailDaInviare` sono cifrati ma non vengono ricifrati dalla rotazione. Aggiungi ogni nuovo campo cifrato a `CAMPI_CIFRATI`.
+- `README.md` dichiara ancora «2 sedi, 10 veicoli, 1 cliente, 2 utenti», ma `seed.py` crea 6 sedi, 48 veicoli, 12 clienti e più operatori/CEO. Fai fede al codice.
+- L'import CSV va eseguito nell'ordine `veicoli` → `prenotazioni` → `segnalazioni`, perché le righe successive cercano targhe ed email già presenti.
+- `logs/api.log` è gitignorato e montato in Compose; non committarlo e non usarlo per dati personali.
+- Il worker non crea i dati demo: il seed avviene all'avvio dell'API.
+
+## 9. Backlog (priorità)
 
 1. Gestione utenti da parte dell'admin (creare operatori, cambiare ruoli).
-2. Tabelle `Ispezione`, `Manutenzione`, `Trasferimento` e gli endpoint di check-in e check-out; manutenzioni e trasferimenti devono entrare nel calcolo della disponibilità (`availability.py`). **Ricorda il congelamento del 20 novembre.**
-3. Verifica dell'email alla registrazione (usa la coda), poi `COLLEGA_CLIENTI_IMPORTATI` può restare spento.
-4. Migrazioni con Alembic al posto di `create_all`.
-5. Frontend React: area cliente (ricerca, prenotazione, le mie prenotazioni, segnalazioni) e area operatore (flotta, segnalazioni, note); token in memoria, non in `localStorage`.
-6. Import di previsioni e KPI del team DAI secondo il contratto dati (`POST /import/previsioni`, `GET /previsioni/domanda`, `GET /kpi/utilizzo-flotta`).
-7. Notifiche per urgenze alte (Slack o Teams), risposta dell'operatore via email, allegati.
-8. Lettore IMAP o webhook di un provider al posto di Mailpit; log degli accessi ai dati personali; conservazione dei dati (retention).
+2. Includere manutenzioni e trasferimenti pianificati nel calcolo della disponibilità; upload/conservazione sicura delle foto.
+3. Import di previsioni/KPI del team DAI secondo il contratto dati; pseudonimizzazione dei dati consegnati.
+4. Migrazioni Alembic al posto di `create_all`; ampliare la copertura test.
+5. Completare l'area cliente e i flussi operatore nel frontend React.
+6. Retention, audit nominativo degli accessi, verifica email, lettore IMAP/provider al posto di Mailpit.
 
-## 10. Come lavorare
+## 10. Definition of done
 
-- Parti dalla richiesta, leggi i file coinvolti e `DOCUMENTAZIONE.md` prima di scrivere codice; fai modifiche piccole e verificabili.
-- Se qualcosa tocca privacy, permessi, schema congelato o il contratto con il team DAI e non è chiaro, **chiedi** invece di decidere.
-- Aggiorna nello stesso intervento test, `DOCUMENTAZIONE.md` (tabella API, modello dati, checklist) e `.env.example` se aggiungi variabili.
-- Non fare commit di `.env`, `*.db`, cartelle `__pycache__` o dataset reali.
-- **Definition of done**: i test passano; i nuovi endpoint hanno autenticazione e test di permesso; i nuovi campi personali sono cifrati e gestiti da export e cancellazione; nessun dato personale nei log; documentazione aggiornata; nel resoconto dichiari cosa hai verificato e cosa no (per esempio PostgreSQL o Docker).
+I test passano; ogni nuovo endpoint ha autenticazione e test di permesso; ogni nuovo campo personale è cifrato e incluso in export, cancellazione e rotazione; nessun dato personale nei log; documentazione aggiornata; nel resoconto dichiari cosa hai verificato e cosa no (PostgreSQL, Docker, Mailpit, Supabase reale).

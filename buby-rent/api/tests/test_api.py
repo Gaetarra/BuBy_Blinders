@@ -376,3 +376,81 @@ def test_checkin_checkout_updates_vehicle_and_records_damage(client: TestClient)
     })
     assert vehicle.status_code == 200
     assert all(item["id"] != 1 for item in vehicle.json())
+
+
+def test_internal_communications_roles_and_sede_scope(client: TestClient):
+    operator_token = login(
+        client, "operatore@example.test", "operator-test-password"
+    )
+    operator_headers = {"Authorization": f"Bearer {operator_token}"}
+
+    created = client.post(
+        "/dashboard/comunicazioni",
+        headers=operator_headers,
+        json={"testo": "Nota operatore", "veicolo_id": 1},
+    )
+    assert created.status_code == 201
+    assert created.json()["sede_id"] == 1
+
+    denied = client.post(
+        "/dashboard/comunicazioni",
+        headers=operator_headers,
+        json={"testo": "Veicolo di un'altra sede", "veicolo_id": 3},
+    )
+    assert denied.status_code == 403
+
+    admin_token = login(client, "admin@example.test", "admin-test-password")
+    admin_headers = {"Authorization": f"Bearer {admin_token}"}
+
+    other = client.post(
+        "/dashboard/comunicazioni",
+        headers=admin_headers,
+        json={"testo": "Nota altra sede", "veicolo_id": 3},
+    )
+    assert other.status_code == 201
+
+    unassigned = client.post(
+        "/dashboard/comunicazioni",
+        headers=admin_headers,
+        json={"testo": "Nota non smistata"},
+    )
+    assert unassigned.status_code == 201
+    assert unassigned.json()["sede_id"] is None
+
+    operator_listing = client.get(
+        "/dashboard/comunicazioni", headers=operator_headers
+    )
+    assert operator_listing.status_code == 200
+    testi = {item["testo"] for item in operator_listing.json()}
+    assert "Nota operatore" in testi
+    assert "Nota non smistata" in testi
+    assert "Nota altra sede" not in testi
+
+    denied_patch = client.patch(
+        f"/dashboard/comunicazioni/{other.json()['id']}/assegnazione",
+        headers=operator_headers,
+        params={"assegnato_a_id": 2},
+    )
+    assert denied_patch.status_code == 403
+
+    taken = client.patch(
+        f"/dashboard/comunicazioni/{created.json()['id']}/assegnazione",
+        headers=operator_headers,
+        params={"assegnato_a_id": 2},
+    )
+    assert taken.status_code == 200
+    assert taken.json()["assegnato_a_id"] == 2
+
+    ceo_token = login(client, "ceo@example.test", "ceo-test-password")
+    ceo_headers = {"Authorization": f"Bearer {ceo_token}"}
+    assert (
+        client.get("/dashboard/comunicazioni", headers=ceo_headers).status_code == 200
+    )
+    assert (
+        client.post(
+            "/dashboard/comunicazioni",
+            headers=ceo_headers,
+            json={"testo": "Nota del CEO"},
+        ).status_code
+        == 403
+    )

@@ -5,8 +5,11 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
+      PGADMIN_RO_USER: ${PGADMIN_RO_USER:-buby_admin_ro}
+      PGADMIN_RO_PASSWORD: ${PGADMIN_RO_PASSWORD:-cambia_questa_password_ro}
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 5s
@@ -49,7 +52,10 @@ services:
       db:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+      test:
+        - CMD-SHELL
+        - >-
+          python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"
       interval: 10s
       timeout: 3s
       retries: 5
@@ -60,6 +66,21 @@ services:
     ports:
       - "8025:8025"
       - "1025:1025"
+
+  pgadmin:
+    image: docker.io/dpage/pgadmin4:9.19.0
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-admin@buby.it}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-cambia_questa_password_pgadmin}
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./db/pgadmin/servers.json:/pgadmin4/servers.json:ro
+    ports:
+      - "8080:80"
+    depends_on:
+      db:
+        condition: service_healthy
 
   worker:
     build: ./api
@@ -100,3 +121,4 @@ services:
 
 volumes:
   pgdata:
+  pgadmin_data:

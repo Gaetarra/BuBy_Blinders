@@ -16,14 +16,15 @@ La dashboard offre una coda operativa per note interne:
 
 - `ComunicazioneInterna` usa `StringaCifrata` per il campo `testo`.
 - Gli endpoint sono in `operazioni.py`:
-  - `GET /dashboard/comunicazioni`;
-  - `POST /dashboard/comunicazioni`;
-  - `PATCH /dashboard/comunicazioni/{id}/assegnazione`;
-  - `GET /dashboard/operatori`.
+  - `GET /dashboard/comunicazioni` (operatore, admin, CEO);
+  - `POST /dashboard/comunicazioni` (operatore, admin);
+  - `PATCH /dashboard/comunicazioni/{id}/assegnazione` (operatore, admin);
+  - `GET /dashboard/operatori` (admin, CEO).
 - Il filtro per sede viene applicato lato API con la condizione sede propria o
-  sede nulla.
+  sede nulla; un operatore senza sede riceve `403`.
 - Il frontend implementa creazione, elenco e presa in carico nella sezione
-  `Comunicazioni interne` di `dashboard.tsx`.
+  `Comunicazioni interne` di `dashboard.tsx`. Il selettore di assegnazione è
+  visibile solo all'admin; il CEO vede la scheda in sola lettura.
 
 ## Branch
 

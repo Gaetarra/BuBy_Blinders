@@ -18,6 +18,7 @@ docker compose --env-file ../.env up --build
 - API: http://localhost:8000 (documentazione interattiva su /docs)
 - Health check: http://localhost:8000/health
 - Mailpit: http://localhost:8025
+- pgAdmin (PostgreSQL, sola lettura): http://localhost:8080
 
 Le conferme delle prenotazioni vengono accodate dal backend e spedite dal
 worker tramite Mailpit. Il worker è un servizio separato del compose e non
@@ -28,10 +29,9 @@ italiano leggibile `GG/MM/AAAA alle HH:MM`; le API continuano a usare ISO 8601.
 
 La dashboard include anche le comunicazioni interne: le note sono cifrate,
 non vengono esposte nell'area cliente e possono essere collegate a un veicolo,
-assegnate a un operatore e smistate per sede. Un operatore vede le note della
-propria sede e quelle ancora non smistate; admin e CEO possono consultare la
-vista globale, mentre solo admin e operatori possono creare o prendere in
-carico una comunicazione.
+assegnate a un operatore e smistate per sede. L'operatore vede le note della
+propria sede e quelle ancora non smistate, può crearne e prenderle in carico;
+l'admin crea, assegna e vede tutto; il CEO consulta in sola lettura.
 
 La documentazione separata delle feature è disponibile in
 [`../docs/features/`](../docs/features/README.md).
@@ -71,6 +71,29 @@ Utenti di prova (cambia le password in `.env`):
 | CEO (tutte le sedi, sola lettura) | buby@buby.it | buby12345 |
 
 I clienti si registrano con `POST /auth/register` (serve `accetta_privacy: true`).
+
+## Accesso al database con pgAdmin
+
+L'admin può consultare PostgreSQL dalla console web pgAdmin su
+http://localhost:8080, con le credenziali `PGADMIN_DEFAULT_EMAIL` /
+`PGADMIN_DEFAULT_PASSWORD` del file env. Il server è già configurato
+(`db/pgadmin/servers.json`): al primo collegamento pgAdmin chiede la password
+del ruolo, cioè `PGADMIN_RO_PASSWORD`.
+
+Il ruolo `PGADMIN_RO_USER` (default `buby_admin_ro`) ha solo `SELECT` su schema
+e tabelle, più i privilegi predefiniti per le tabelle future. Non può scrivere:
+le modifiche passano dalle API, che applicano cifratura e controllo ruoli.
+Lo script `db/init/10-admin-readonly.sh` viene eseguito dal container `db` alla
+prima inizializzazione del volume `pgdata`; su un volume già inizializzato il
+ruolo resta quello creato la prima volta, quindi per cambiare
+`PGADMIN_RO_PASSWORD` serve un `ALTER ROLE` manuale o un reset del volume.
+Restano validi i limiti dell'accesso diretto: i campi personali sono cifrati a
+livello applicativo, quindi in pgAdmin si vedono come testo cifrato, e i blind
+index non sono leggibili come email in chiaro.
+
+Se cambi `POSTGRES_DB` o `PGADMIN_RO_USER`, aggiorna anche
+`db/pgadmin/servers.json`. In produzione cambia le password di default e non
+esporre la porta 8080 pubblicamente.
 
 ## Collegamento frontend/API e Supabase Auth
 

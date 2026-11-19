@@ -65,6 +65,7 @@ export type ComunicazioneInterna = {
   creato_il: string;
 };
 export type Operatore = { id: number; email: string; sede_id: number | null };
+export type Sede = { id: number; nome: string; citta: string };
 
 export class ApiError extends Error {
   constructor(
@@ -166,6 +167,7 @@ export const getMe = () =>
 export const getComunicazioniInterne = () =>
   request<ComunicazioneInterna[]>("/dashboard/comunicazioni");
 export const getOperatori = () => request<Operatore[]>("/dashboard/operatori");
+export const getSedi = () => request<Sede[]>("/dashboard/sedi");
 export const creaComunicazioneInterna = (input: {
   testo: string;
   sede_id?: number;

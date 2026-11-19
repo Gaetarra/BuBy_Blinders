@@ -85,6 +85,8 @@ The architecture intentionally keeps business logic close to the domain model an
 - Keep API handlers thin: use `get_db`, `utente_corrente`, and `richiedi_ruoli` rather than re-implementing auth logic in each route.
 - Public vehicle search is unauthenticated; booking creation requires a logged-in user. Customers can reserve only for themselves; operators/admins may pass a `cliente_id` when allowed.
 - Operators are limited to vehicles in their own `sede_id`; admins may manage all vehicles.
+- The internal-communications tab is available to operators, admin and CEO. Operators only see their own `sede_id` plus unassigned notes, create notes for their own sede and can take one in charge; admin creates and assigns; CEO is read-only.
+- Admin database access is read-only and only through pgAdmin (Compose service `pgadmin` with the `PGADMIN_RO_USER` role, `SELECT`-only). Admin has no superuser credentials; data changes go through the API so application-level encryption and permissions still apply.
 - The operator dashboard is `GET /dashboard/flotta`; vehicle and reservation filters must preserve the operator's server-side sede scope.
 - Email fields should follow the existing encrypted-value + `email_idx` pattern (Fernet-encrypted value plus HMAC blind index).
 - Do not log plaintext personal data, credentials, tokens, or secrets.

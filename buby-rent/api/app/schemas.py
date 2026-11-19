@@ -17,6 +17,13 @@ class VeicoloOut(BaseModel):
     km: int
 
 
+class SedeOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
+    nome: str
+    citta: str
+
+
 class StatoIn(BaseModel):
     stato: str
 

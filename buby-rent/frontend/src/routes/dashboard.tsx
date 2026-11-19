@@ -1,4 +1,9 @@
-import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
+import {
+  createFileRoute,
+  redirect,
+  useLocation,
+  useNavigate,
+} from "@tanstack/react-router";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState, type FormEvent } from "react";
 import {
@@ -6,13 +11,13 @@ import {
   Bike,
   Car,
   CalendarClock,
-  Gauge,
   LogOut,
   Search,
   Truck,
   Wrench,
   AlertTriangle,
   LayoutDashboard,
+  MessageSquare,
 } from "lucide-react";
 import {
   Bar,
@@ -37,6 +42,7 @@ import {
   getClienti,
   getComunicazioniInterne,
   getOperatori,
+  getSedi,
   getFermi,
   getMe,
   getPrenotazioni,
@@ -70,7 +76,7 @@ export const Route = createFileRoute("/dashboard")({
   beforeLoad: () => {
     if (!getSession()) throw redirect({ to: "/login" });
   },
-  component: Dashboard,
+  component: () => <Dashboard />,
 });
 
 const STATI = [
@@ -112,9 +118,22 @@ type OperativitaSezione =
   | "manutenzioni"
   | "trasferimenti"
   | "comunicazioni";
+const isOperativitaSezione = (
+  value: string | undefined,
+): value is OperativitaSezione =>
+  value === "prenotazioni" ||
+  value === "fermi" ||
+  value === "manutenzioni" ||
+  value === "trasferimenti" ||
+  value === "comunicazioni";
 
-function Dashboard() {
+export function Dashboard({
+  pagina,
+}: {
+  pagina?: OperativitaSezione;
+}) {
   const session = useSession();
+  const location = useLocation();
   const navigate = useNavigate();
   const qc = useQueryClient();
   const me = useQuery({ queryKey: ["me"], queryFn: getMe });
@@ -122,19 +141,37 @@ function Dashboard() {
     me.data?.ruolo === "admin" ||
     me.data?.ruolo === "operatore" ||
     me.data?.ruolo === "ceo";
+  const sediQuery = useQuery({
+    queryKey: ["sedi"],
+    queryFn: getSedi,
+    enabled: me.data?.ruolo === "admin" || me.data?.ruolo === "ceo",
+  });
+  const sedi = sediQuery.data ?? SEDI;
   const canOperate =
     me.data?.ruolo === "admin" || me.data?.ruolo === "operatore";
-  const [sede, setSede] = useState<number>(1);
-  const [operativita, setOperativita] =
-    useState<OperativitaSezione>("prenotazioni");
+  const [sede, setSede] = useState<number>();
+  const paginaDaPercorso = location.pathname.startsWith("/dashboard/")
+    ? location.pathname.split("/")[2]
+    : undefined;
+  const paginaAttiva = pagina ?? (
+    isOperativitaSezione(paginaDaPercorso) ? paginaDaPercorso : undefined
+  );
+  const operativita = paginaAttiva ?? "prenotazioni";
   const sedeAttiva =
-    me.data?.ruolo === "operatore" && me.data.sede_id ? me.data.sede_id : sede;
+    me.data?.ruolo === "operatore" && me.data.sede_id
+      ? me.data.sede_id
+      : me.data?.ruolo === "admin"
+        ? (sede ?? sedi[0]?.id)
+        : sede;
   const ambitoDashboard =
     me.data?.ruolo === "ceo" ? undefined : sedeAttiva;
   const flotta = useQuery({
     queryKey: ["flotta", ambitoDashboard],
     queryFn: () => getDashboardFlotta(ambitoDashboard),
-    enabled: isStaff && (me.data?.ruolo === "ceo" || !!sedeAttiva),
+    enabled:
+      isStaff &&
+      (me.data?.ruolo === "ceo" || !!sedeAttiva) &&
+      (me.data?.ruolo !== "admin" || sediQuery.isSuccess),
   });
   const fermi = useQuery({
     queryKey: ["fermi", ambitoDashboard],
@@ -162,14 +199,15 @@ function Dashboard() {
     }
   }
 
+  function apriPagina(sezione: OperativitaSezione) {
+    navigate({ to: `/dashboard/${sezione}` });
+  }
+
   const v: Veicolo[] = flotta.data?.veicoli ?? [];
   const prenotazioni = isStaff
     ? (flotta.data?.prenotazioni ?? [])
     : (pren.data ?? []);
   const count = (s: string) => v.filter((x) => x.stato === s).length;
-  const utilizzo = v.length
-    ? Math.round(((count("noleggiato") + count("prenotato")) / v.length) * 100)
-    : 0;
   const fermo = count("in_manutenzione") + count("danneggiato");
   const perStato = STATI.map((s) => ({
     name: label(s),
@@ -203,9 +241,13 @@ function Dashboard() {
           Buby Rent
         </div>
         <nav className="mt-8 space-y-1 text-sm">
-          <span className="flex items-center gap-2 rounded-md bg-sidebar-accent px-3 py-2 font-medium">
+          <button
+            type="button"
+            onClick={() => navigate({ to: "/dashboard" })}
+            className="flex w-full items-center gap-2 rounded-md bg-sidebar-accent px-3 py-2 text-left font-medium"
+          >
             <LayoutDashboard className="h-4 w-4" /> Dashboard
-          </span>
+          </button>
           {isStaff && (
             <div className="ml-4 space-y-1 border-l border-sidebar-border pl-3 pt-1">
               {[
@@ -218,9 +260,7 @@ function Dashboard() {
                 <button
                   key={sezione}
                   type="button"
-                  onClick={() =>
-                    setOperativita(sezione as OperativitaSezione)
-                  }
+                  onClick={() => apriPagina(sezione as OperativitaSezione)}
                   className={`block w-full rounded-md px-3 py-2 text-left text-xs transition-colors hover:bg-sidebar-accent ${
                     operativita === sezione
                       ? "bg-sidebar-accent font-medium text-sidebar-primary"
@@ -239,7 +279,7 @@ function Dashboard() {
               Sedi
             </div>
             <div className="mt-2 space-y-1 text-sm">
-              {SEDI.map((s) => (
+              {sedi.map((s) => (
                 <button
                   key={s.id}
                   onClick={() => setSede(s.id)}
@@ -277,7 +317,7 @@ function Dashboard() {
             <h1 className="text-3xl font-bold">
               {me.data?.ruolo === "ceo"
                 ? "Tutte le sedi"
-                : SEDI.find((s) => s.id === sedeAttiva)?.nome ??
+                : sedi.find((s) => s.id === sedeAttiva)?.nome ??
                   `Sede ${sedeAttiva}`}
             </h1>
           </div>
@@ -288,7 +328,7 @@ function Dashboard() {
               disabled={me.data?.ruolo !== "admin"}
               onChange={(e) => setSede(Number(e.target.value))}
             >
-              {SEDI.map((s) => (
+              {sedi.map((s) => (
                 <option key={s.id} value={s.id}>
                   {s.nome}
                 </option>
@@ -306,17 +346,11 @@ function Dashboard() {
           </p>
         )}
 
-        <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        {!paginaAttiva && <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <Kpi
             icon={<Car className="h-5 w-5" />}
             label="Veicoli in sede"
             value={v.length}
-          />
-          <Kpi
-            icon={<Gauge className="h-5 w-5" />}
-            label="Utilizzo flotta"
-            value={`${utilizzo}%`}
-            highlight
           />
           <Kpi
             icon={<CalendarClock className="h-5 w-5" />}
@@ -329,9 +363,9 @@ function Dashboard() {
             value={fermo}
             warn={fermo > 0}
           />
-        </section>
+        </section>}
 
-        <section className="grid gap-4 lg:grid-cols-3">
+        {!paginaAttiva && <section className="grid gap-4 lg:grid-cols-3">
           <Card title="Stato della flotta">
             <div className="h-56">
               <ResponsiveContainer>
@@ -413,9 +447,9 @@ function Dashboard() {
               )}
             </ul>
           </Card>
-        </section>
+        </section>}
 
-        <Card title="Flotta">
+        {!paginaAttiva && <Card title="Flotta">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-left text-xs uppercase tracking-wider text-muted-foreground">
@@ -470,22 +504,21 @@ function Dashboard() {
               {cambia.error.message}
             </p>
           )}
-        </Card>
+        </Card>}
         {isStaff && (
           <>
             <OperativitaNav
               attiva={operativita}
-              onChange={setOperativita}
+              onChange={apriPagina}
               className="md:hidden"
             />
-            {operativita === "comunicazioni" ? (
+            {paginaAttiva === "comunicazioni" ? (
               <ComunicazioniInterne
-                canOperate={canOperate}
                 ruolo={me.data?.ruolo ?? ""}
                 userId={me.data?.id ?? 0}
                 veicoli={v}
               />
-            ) : operativita === "fermi" ? (
+            ) : paginaAttiva === "fermi" ? (
               <FermiOperations
                 fermi={fermi.data ?? []}
                 canOperate
@@ -494,11 +527,11 @@ function Dashboard() {
                   void fermi.refetch();
                 }}
               />
-            ) : canOperate && sedeAttiva ? (
+            ) : paginaAttiva && canOperate && sedeAttiva ? (
               <MvpOperations
-                sezione={operativita}
+                sezione={paginaAttiva}
                 sedeId={sedeAttiva}
-                sedi={SEDI}
+                sedi={sedi}
                 prenotazioni={prenotazioni}
                 onChanged={() => {
                   void flotta.refetch();
@@ -561,6 +594,12 @@ function OperativitaNav({
       titolo: "Trasferimenti",
       descrizione: "Sposta i mezzi tra le sedi",
       icona: <ArrowRightLeft className="h-4 w-4" />,
+    },
+    {
+      id: "comunicazioni",
+      titolo: "Comunicazioni interne",
+      descrizione: "Note cifrate della flotta",
+      icona: <MessageSquare className="h-4 w-4" />,
     },
   ];
 
@@ -690,16 +729,15 @@ function FermiOperations({
 }
 
 function ComunicazioniInterne({
-  canOperate,
   ruolo,
   userId,
   veicoli,
 }: {
-  canOperate: boolean;
   ruolo: string;
   userId: number;
   veicoli: Veicolo[];
 }) {
+  const puoGestire = ruolo === "admin" || ruolo === "operatore";
   const qc = useQueryClient();
   const comunicazioni = useQuery({
     queryKey: ["comunicazioni-interne"],
@@ -752,10 +790,10 @@ function ComunicazioniInterne({
       <div className="flex items-center gap-2">
         <h2 className="font-display text-xl font-bold">Comunicazioni interne</h2>
         <span className="rounded-full bg-accent/30 px-2 py-0.5 text-xs">
-          visibili solo alla flotta
+          visibili ad admin, CEO e operatori di sede
         </span>
       </div>
-      {canOperate && (
+      {puoGestire && (
         <Card title="Nuova nota interna">
           <form className="space-y-3" onSubmit={crea}>
             <textarea
@@ -786,11 +824,18 @@ function ComunicazioniInterne({
                   onChange={(event) => setAssegnatoA(event.target.value)}
                 >
                   <option value="">Da smistare</option>
-                  {(operatori.data ?? []).map((operatore) => (
-                    <option key={operatore.id} value={operatore.id}>
-                      Operatore #{operatore.id}
-                    </option>
-                  ))}
+                  {(operatori.data ?? [])
+                    .filter((operatore) => {
+                      const veicolo = veicoli.find(
+                        (x) => x.id === Number(veicoloId),
+                      );
+                      return !veicolo || operatore.sede_id === veicolo.sede_id;
+                    })
+                    .map((operatore) => (
+                      <option key={operatore.id} value={operatore.id}>
+                        Operatore #{operatore.id}
+                      </option>
+                    ))}
                 </select>
               )}
             </div>
@@ -829,7 +874,34 @@ function ComunicazioniInterne({
                     ? `Operatore #${comunicazione.assegnato_a_id}`
                     : "non smistata"}
                 </p>
-                {canOperate && !comunicazione.assegnato_a_id && (
+                {ruolo === "admin" && !comunicazione.assegnato_a_id && (
+                  <select
+                    className="mt-2 rounded-md border bg-card px-2 py-1 text-xs"
+                    value=""
+                    onChange={(event) => {
+                      const operatoreId = event.target.value;
+                      if (!operatoreId) return;
+                      assegna.mutate({
+                        id: comunicazione.id,
+                        operatoreId: Number(operatoreId),
+                      });
+                    }}
+                  >
+                    <option value="">Assegna a…</option>
+                    {(operatori.data ?? [])
+                      .filter(
+                        (operatore) =>
+                          comunicazione.sede_id === null ||
+                          operatore.sede_id === comunicazione.sede_id,
+                      )
+                      .map((operatore) => (
+                        <option key={operatore.id} value={operatore.id}>
+                          Operatore #{operatore.id}
+                        </option>
+                      ))}
+                  </select>
+                )}
+                {ruolo === "operatore" && !comunicazione.assegnato_a_id && (
                   <Button
                     className="mt-2"
                     size="sm"
@@ -899,7 +971,7 @@ function MvpOperations({
     try {
       await creaPrenotazione({
         veicolo_id: Number(veicoloId),
-        cliente_id: clienteId ? Number(clienteId) : undefined,
+        ...(clienteId ? { cliente_id: Number(clienteId) } : {}),
         inizio,
         fine,
       });
