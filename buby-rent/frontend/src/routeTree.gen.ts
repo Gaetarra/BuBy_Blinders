@@ -11,12 +11,6 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as DashboardRouteImport } from './routes/dashboard'
-import { Route as LoginRouteImport } from './routes/login'
-import { Route as DashboardComunicazioniRouteImport } from './routes/dashboard/comunicazioni'
-import { Route as DashboardFermiRouteImport } from './routes/dashboard/fermi'
-import { Route as DashboardManutenzioniRouteImport } from './routes/dashboard/manutenzioni'
-import { Route as DashboardPrenotazioniRouteImport } from './routes/dashboard/prenotazioni'
-import { Route as DashboardTrasferimentiRouteImport } from './routes/dashboard/trasferimenti'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,105 +22,31 @@ const DashboardRoute = DashboardRouteImport.update({
   path: '/dashboard',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LoginRoute = LoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DashboardComunicazioniRoute = DashboardComunicazioniRouteImport.update({
-  id: '/comunicazioni',
-  path: '/comunicazioni',
-  getParentRoute: () => DashboardRoute,
-} as any)
-const DashboardFermiRoute = DashboardFermiRouteImport.update({
-  id: '/fermi',
-  path: '/fermi',
-  getParentRoute: () => DashboardRoute,
-} as any)
-const DashboardManutenzioniRoute = DashboardManutenzioniRouteImport.update({
-  id: '/manutenzioni',
-  path: '/manutenzioni',
-  getParentRoute: () => DashboardRoute,
-} as any)
-const DashboardPrenotazioniRoute = DashboardPrenotazioniRouteImport.update({
-  id: '/prenotazioni',
-  path: '/prenotazioni',
-  getParentRoute: () => DashboardRoute,
-} as any)
-const DashboardTrasferimentiRoute = DashboardTrasferimentiRouteImport.update({
-  id: '/trasferimenti',
-  path: '/trasferimenti',
-  getParentRoute: () => DashboardRoute,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/dashboard': typeof DashboardRouteWithChildren
-  '/login': typeof LoginRoute
-  '/dashboard/comunicazioni': typeof DashboardComunicazioniRoute
-  '/dashboard/fermi': typeof DashboardFermiRoute
-  '/dashboard/manutenzioni': typeof DashboardManutenzioniRoute
-  '/dashboard/prenotazioni': typeof DashboardPrenotazioniRoute
-  '/dashboard/trasferimenti': typeof DashboardTrasferimentiRoute
+  '/dashboard': typeof DashboardRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/dashboard': typeof DashboardRouteWithChildren
-  '/login': typeof LoginRoute
-  '/dashboard/comunicazioni': typeof DashboardComunicazioniRoute
-  '/dashboard/fermi': typeof DashboardFermiRoute
-  '/dashboard/manutenzioni': typeof DashboardManutenzioniRoute
-  '/dashboard/prenotazioni': typeof DashboardPrenotazioniRoute
-  '/dashboard/trasferimenti': typeof DashboardTrasferimentiRoute
+  '/dashboard': typeof DashboardRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/dashboard': typeof DashboardRouteWithChildren
-  '/login': typeof LoginRoute
-  '/dashboard/comunicazioni': typeof DashboardComunicazioniRoute
-  '/dashboard/fermi': typeof DashboardFermiRoute
-  '/dashboard/manutenzioni': typeof DashboardManutenzioniRoute
-  '/dashboard/prenotazioni': typeof DashboardPrenotazioniRoute
-  '/dashboard/trasferimenti': typeof DashboardTrasferimentiRoute
+  '/dashboard': typeof DashboardRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/dashboard'
-    | '/login'
-    | '/dashboard/comunicazioni'
-    | '/dashboard/fermi'
-    | '/dashboard/manutenzioni'
-    | '/dashboard/prenotazioni'
-    | '/dashboard/trasferimenti'
+  fullPaths: '/' | '/dashboard'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    | '/'
-    | '/dashboard'
-    | '/login'
-    | '/dashboard/comunicazioni'
-    | '/dashboard/fermi'
-    | '/dashboard/manutenzioni'
-    | '/dashboard/prenotazioni'
-    | '/dashboard/trasferimenti'
-  id:
-    | '__root__'
-    | '/'
-    | '/dashboard'
-    | '/login'
-    | '/dashboard/comunicazioni'
-    | '/dashboard/fermi'
-    | '/dashboard/manutenzioni'
-    | '/dashboard/prenotazioni'
-    | '/dashboard/trasferimenti'
+  to: '/' | '/dashboard'
+  id: '__root__' | '/' | '/dashboard'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  DashboardRoute: typeof DashboardRouteWithChildren
-  LoginRoute: typeof LoginRoute
+  DashboardRoute: typeof DashboardRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -145,75 +65,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/dashboard/comunicazioni': {
-      id: '/dashboard/comunicazioni'
-      path: '/comunicazioni'
-      fullPath: '/dashboard/comunicazioni'
-      preLoaderRoute: typeof DashboardComunicazioniRouteImport
-      parentRoute: typeof DashboardRoute
-    }
-    '/dashboard/fermi': {
-      id: '/dashboard/fermi'
-      path: '/fermi'
-      fullPath: '/dashboard/fermi'
-      preLoaderRoute: typeof DashboardFermiRouteImport
-      parentRoute: typeof DashboardRoute
-    }
-    '/dashboard/manutenzioni': {
-      id: '/dashboard/manutenzioni'
-      path: '/manutenzioni'
-      fullPath: '/dashboard/manutenzioni'
-      preLoaderRoute: typeof DashboardManutenzioniRouteImport
-      parentRoute: typeof DashboardRoute
-    }
-    '/dashboard/prenotazioni': {
-      id: '/dashboard/prenotazioni'
-      path: '/prenotazioni'
-      fullPath: '/dashboard/prenotazioni'
-      preLoaderRoute: typeof DashboardPrenotazioniRouteImport
-      parentRoute: typeof DashboardRoute
-    }
-    '/dashboard/trasferimenti': {
-      id: '/dashboard/trasferimenti'
-      path: '/trasferimenti'
-      fullPath: '/dashboard/trasferimenti'
-      preLoaderRoute: typeof DashboardTrasferimentiRouteImport
-      parentRoute: typeof DashboardRoute
-    }
   }
 }
 
-interface DashboardRouteChildren {
-  DashboardComunicazioniRoute: typeof DashboardComunicazioniRoute
-  DashboardFermiRoute: typeof DashboardFermiRoute
-  DashboardManutenzioniRoute: typeof DashboardManutenzioniRoute
-  DashboardPrenotazioniRoute: typeof DashboardPrenotazioniRoute
-  DashboardTrasferimentiRoute: typeof DashboardTrasferimentiRoute
-}
-
-const DashboardRouteChildren: DashboardRouteChildren = {
-  DashboardComunicazioniRoute: DashboardComunicazioniRoute,
-  DashboardFermiRoute: DashboardFermiRoute,
-  DashboardManutenzioniRoute: DashboardManutenzioniRoute,
-  DashboardPrenotazioniRoute: DashboardPrenotazioniRoute,
-  DashboardTrasferimentiRoute: DashboardTrasferimentiRoute,
-}
-
-const DashboardRouteWithChildren = DashboardRoute._addFileChildren(
-  DashboardRouteChildren,
-)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  DashboardRoute: DashboardRouteWithChildren,
-  LoginRoute: LoginRoute,
+  DashboardRoute: DashboardRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
