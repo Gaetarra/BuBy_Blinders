@@ -60,3 +60,7 @@ Entità principali: `SEGNALAZIONE`, `CLASSIFICAZIONE`, `MANUTENZIONE`.
 Entità principali: `TRASFERIMENTO`, `COMUNICAZIONE_INTERNA`, `PREVISIONE_DOMANDA`.
 
 ![Diagramma 3 - Logistica e Previsioni](./diagramma_3.jpeg)
+
+### 4. Diagramma ERD completo e finale del progetto
+
+![Diagramma ERD Completo](./docs/diagramma_completo.jpeg)
