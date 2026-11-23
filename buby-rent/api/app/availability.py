@@ -1,18 +1,51 @@
 from datetime import datetime
 
-from sqlalchemy import exists, select
+from sqlalchemy import and_, exists, or_, select
 from sqlalchemy.orm import Session
 
-from .models import STATI_ATTIVI, STATI_NON_NOLEGGIABILI, Prenotazione, Veicolo
+from .models import (
+    STATI_ATTIVI,
+    STATI_NON_NOLEGGIABILI,
+    Manutenzione,
+    Prenotazione,
+    Trasferimento,
+    Veicolo,
+)
+
+STATI_MANUTENZIONE_ATTIVI = ("programmata", "in_corso")
+STATI_TRASFERIMENTO_ATTIVI = ("programmato", "in_corso")
+
+
+def _periodo_sovrapposto(col_inizio, col_fine, inizio: datetime, fine: datetime):
+    """True se [col_inizio, col_fine] (anche con estremi NULL) si sovrappone a [inizio, fine]."""
+    return and_(
+        or_(col_inizio.is_(None), col_inizio < fine),
+        or_(col_fine.is_(None), col_fine > inizio),
+    )
 
 
 def ha_sovrapposizioni(veicolo_id, inizio: datetime, fine: datetime):
-    """Due periodi si sovrappongono se inizio_A < fine_B e fine_A > inizio_B."""
-    return exists().where(
+    """True se il veicolo ha prenotazioni, manutenzioni o trasferimenti attivi nel periodo."""
+    sovrapposizione_prenotazione = exists().where(
         Prenotazione.veicolo_id == veicolo_id,
         Prenotazione.stato.in_(STATI_ATTIVI),
         Prenotazione.inizio < fine,
         Prenotazione.fine > inizio,
+    )
+    sovrapposizione_manutenzione = exists().where(
+        Manutenzione.veicolo_id == veicolo_id,
+        Manutenzione.stato.in_(STATI_MANUTENZIONE_ATTIVI),
+        _periodo_sovrapposto(Manutenzione.inizio, Manutenzione.fine, inizio, fine),
+    )
+    sovrapposizione_trasferimento = exists().where(
+        Trasferimento.veicolo_id == veicolo_id,
+        Trasferimento.stato.in_(STATI_TRASFERIMENTO_ATTIVI),
+        _periodo_sovrapposto(Trasferimento.inizio, Trasferimento.fine, inizio, fine),
+    )
+    return or_(
+        sovrapposizione_prenotazione,
+        sovrapposizione_manutenzione,
+        sovrapposizione_trasferimento,
     )
 
 

@@ -42,7 +42,7 @@ def crea(
     if veicolo.stato in STATI_NON_NOLEGGIABILI:
         raise HTTPException(409, "Veicolo non noleggiabile")
     if db.scalar(select(ha_sovrapposizioni(veicolo.id, dati.inizio, dati.fine))):
-        raise HTTPException(409, "Veicolo gia prenotato nel periodo richiesto")
+        raise HTTPException(409, "Veicolo non disponibile nel periodo richiesto")
 
     prenotazione = Prenotazione(
         veicolo_id=veicolo.id,
