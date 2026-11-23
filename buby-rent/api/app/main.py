@@ -15,7 +15,7 @@ from starlette.responses import Response
 from .config import DEV_BLIND_KEY, DEV_ENCRYPTION_KEY, DEV_SECRET, settings
 from .database import Base, SessionLocal, engine
 from .operazioni import router as operazioni_router
-from .routers import auth, prenotazioni, veicoli
+from .routers import admin, auth, prenotazioni, veicoli
 from .seed import carica_dati_mock
 
 log = logging.getLogger("uvicorn.error")
@@ -110,6 +110,7 @@ async def registra_chiamate_api(
 app.include_router(auth.router)
 app.include_router(veicoli.router)
 app.include_router(prenotazioni.router)
+app.include_router(admin.router)
 app.include_router(operazioni_router)
 
 

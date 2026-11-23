@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-from .models import FASE_ISPEZIONE, STATI_MANUTENZIONE, STATI_TRASFERIMENTO, STATI_VEICOLO
+from .models import FASE_ISPEZIONE, RUOLI, STATI_MANUTENZIONE, STATI_TRASFERIMENTO, STATI_VEICOLO
 
 EMAIL_PATTERN = r"^[^@\s]+@[^@\s]+\.[^@\s]+$"
 
@@ -265,3 +265,37 @@ class EsportazioneDati(BaseModel):
     privacy_accettata_il: datetime | None
     cliente: ClienteDati | None
     prenotazioni: list[PrenotazioneOut]
+
+class UtenteAdminIn(BaseModel):
+    email: str = Field(pattern=EMAIL_PATTERN, max_length=150)
+    password: str = Field(min_length=8, max_length=72)
+    ruolo: str = Field(default="operatore")
+    sede_id: int | None = None
+
+    @field_validator("ruolo")
+    @classmethod
+    def ruolo_valido(cls, v: str) -> str:
+        if v not in ("operatore", "ceo", "admin"):
+            raise ValueError("ruolo non valido, usa uno tra: operatore, ceo, admin")
+        return v
+
+    @model_validator(mode="after")
+    def controlla_sede_operatore(self):
+        if self.ruolo == "operatore" and self.sede_id is None:
+            raise ValueError("sede_id e obbligatoria per un operatore")
+        if self.ruolo in ("ceo", "admin"):
+            self.sede_id = None
+        return self
+
+
+class UtenteAdminAggiornaIn(BaseModel):
+    ruolo: str | None = None
+    sede_id: int | None = None
+    password: str | None = Field(default=None, min_length=8, max_length=72)
+
+    @field_validator("ruolo")
+    @classmethod
+    def ruolo_valido(cls, v: str | None) -> str | None:
+        if v is not None and v not in RUOLI:
+            raise ValueError(f"ruolo non valido, usa uno tra: {', '.join(RUOLI)}")
+        return v
