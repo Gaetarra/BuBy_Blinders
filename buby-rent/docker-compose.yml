@@ -28,6 +28,7 @@ services:
       BLIND_INDEX_KEY: ${BLIND_INDEX_KEY}
       ACCESS_TOKEN_MINUTES: ${ACCESS_TOKEN_MINUTES:-60}
       API_LOG_FILE: /code/logs/api.log
+      SEED_DATI_MOCK: ${SEED_DATI_MOCK:-true}
       SUPABASE_URL: ${SUPABASE_URL:-}
       SUPABASE_PUBLISHABLE_KEY: ${SUPABASE_PUBLISHABLE_KEY:-}
       ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@buby.it}
@@ -45,6 +46,7 @@ services:
     volumes:
       - ./api/app:/code/app
       - ./data:/data:ro
+      - ../dai/export_app:/dai:ro
       - ./logs:/code/logs
     ports:
       - "8000:8000"

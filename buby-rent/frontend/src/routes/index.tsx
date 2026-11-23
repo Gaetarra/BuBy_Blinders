@@ -63,10 +63,10 @@ function LoginPage() {
         <div className="relative max-w-lg">
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-primary">Area operativa</p>
           <h1 className="text-5xl font-semibold leading-[1.05]">La flotta giusta, nella sede giusta, al momento giusto.</h1>
-          <p className="mt-6 text-lg opacity-75">Auto, furgoni, moto ed e-bike: prenotazioni, fermi e manutenzioni di tutte le sedi in un'unica vista.</p>
+          <p className="mt-6 text-lg opacity-75">Auto, furgoni ed e-bike: prenotazioni, fermi e manutenzioni di tutte le sedi in un'unica vista.</p>
         </div>
         <div className="relative grid grid-cols-3 gap-6 border-t border-brand-deep-foreground/15 pt-8">
-          {[["3", "Sedi attive"], ["4", "Tipi di veicolo"], ["24/7", "Monitoraggio"]].map(([n, l]) => (
+          {[["5", "Sedi attive"], ["3", "Tipi di veicolo"], ["24/7", "Monitoraggio"]].map(([n, l]) => (
             <div key={l}>
               <div className="font-display text-3xl font-semibold">{n}</div>
               <div className="text-sm opacity-60">{l}</div>

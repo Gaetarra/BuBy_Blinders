@@ -151,6 +151,8 @@ def importa_prenotazioni(db, righe) -> Report:
         )
         if esistente:
             return False
+        if stato == "in_corso" and veicolo.stato == "disponibile":
+            veicolo.stato = "noleggiato"
         db.add(
             Prenotazione(
                 veicolo_id=veicolo.id,

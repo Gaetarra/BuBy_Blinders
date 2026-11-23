@@ -17,8 +17,8 @@ Il sistema distingue cliente, operatore, admin e CEO:
 - `richiedi_ruoli` protegge gli endpoint per ruolo.
 - I controlli server-side verificano sempre la sede del veicolo o della
   prenotazione; il filtro frontend non è considerato una misura di sicurezza.
-- Il seed crea gli account demo per Torino Centro, Porta Susa, Lingotto,
-  Moncalieri, Rivoli e Venaria Reale.
+- Il seed crea gli account demo per Torino Lingotto, Alba, Bardonecchia,
+  Stresa e Casale Monferrato (le sedi dei dati DAI).
 
 ## Branch
 

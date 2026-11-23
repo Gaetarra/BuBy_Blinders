@@ -34,6 +34,11 @@ class Settings:
 
     privacy_versione: str = "1.0"  # versione dell'informativa accettata alla registrazione
 
+    # dati demo: false se il database viene popolato con i CSV del team DAI
+    seed_dati_mock: bool = (
+        os.getenv("SEED_DATI_MOCK") or "true"
+    ).strip().lower() not in {"false", "0", "no"}
+
     admin_email: str = os.getenv("ADMIN_EMAIL") or "admin@buby.it"
     admin_password: str = os.getenv("ADMIN_PASSWORD") or "admin12345"
     operatore_password: str = os.getenv("OPERATORE_PASSWORD") or "operatore12345"

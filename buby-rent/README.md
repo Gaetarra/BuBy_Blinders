@@ -44,9 +44,98 @@ docker compose exec api python -m app.import_csv veicoli /data/esempio_veicoli.c
 docker compose exec api python -m app.import_csv prenotazioni /data/esempio_prenotazioni.csv
 docker compose exec api python -m app.import_csv segnalazioni /data/esempio_segnalazioni.csv
 ```
+
+### Dati del team DAI
+
+I dataset puliti del team DAI (`dai/export_app/`) coprono il periodo 01/11/2025 – 10/11/2026 sulle 5 sedi allineate:
+1. **Torino Lingotto** (Torino)
+2. **Alba** (Alba)
+3. **Bardonecchia** (Bardonecchia)
+4. **Stresa** (Stresa)
+5. **Casale Monferrato** (Casale Monferrato)
+
+I file sono montati in sola lettura in `/dai` nel container API.
+
+#### Procedura rapida (script automatico)
+
+È disponibile lo script `carica_dati_dai.sh` (eseguibile sia dalla root che da `buby-rent/`):
+
+```bash
+# Esecuzione dalla root del repository:
+./carica_dati_dai.sh
+
+# Oppure da buby-rent/:
+cd buby-rent
+./carica_dati_dai.sh
+
+# Per importare anche le segnalazioni (classificate provvisoriamente come guasto):
+./carica_dati_dai.sh --segnalazioni
+```
+
+Lo script si occupa di:
+1. Impostare `SEED_DATI_MOCK=false` in `../.env` (creando il file da `.env.example` se assente);
+2. Resettare il volume PostgreSQL con `down -v` (pulizia dati precedenti);
+3. Avviare i container con il seed pulito (le 5 sedi e gli account demo, senza flotta fittizia);
+4. Attendere che l'API sia pronta (`/health`);
+5. Eseguire l'importatore `python -m app.import_dai /dai`;
+6. Verificare e stampare a video i volumi effettivi caricati nel database.
+
+#### Procedura manuale passo-passo
+
+Se preferisci eseguire i comandi manualmente:
+
+```bash
+# 1. Nel file .env (nella root del repository) imposta:
+SEED_DATI_MOCK=false
+
+# 2. Da buby-rent/, ricrea il database cancellando i volumi attuali:
+docker compose --env-file ../.env down -v
+
+# 3. Avvia i servizi:
+docker compose --env-file ../.env up -d --build
+
+# 4. Importa veicoli e prenotazioni reali DAI:
+docker compose --env-file ../.env exec api python -m app.import_dai /dai
+```
+
+#### Risultati attesi e verifica dei volumi
+
+- **5 sedi**: Torino Lingotto (22 veicoli), Alba (11 veicoli), Stresa (11 veicoli), Bardonecchia (10 veicoli), Casale Monferrato (10 veicoli).
+- **64 veicoli** totali (36 auto, 18 e-bike, 10 furgoni).
+- **4.905 prenotazioni**:
+  - **4.460** concluse
+  - **424** annullate
+  - **21** in corso (attive nel periodo corrente di novembre 2026, con veicolo marcato `noleggiato`)
+- **1.442 clienti** unici con anagrafica cifrata (GDPR-compliant).
+- **0 conflitti di sovrapposizione** e 0 errori di data/targa.
+
+L'import è completamente idempotente e rilanciabile: le righe già presenti vengono saltate.
+
+Le segnalazioni sono escluse per impostazione predefinita finché la componente AI non ne compila la `categoria`; per importarle comunque, aggiungere il flag `--segnalazioni`.
+
+#### Verifica nella Dashboard (frontend React)
+
+Accedi a `http://localhost:3000`:
+- **Vista CEO** (`buby@buby.it` / `buby12345`):
+  - Selettore sede: visualizzazione globale "Tutte le sedi" oppure filtro per singola sede.
+  - KPI flotta: 64 veicoli totali, 21 prenotazioni attive.
+  - Grafico "Domanda prevista per sede" con le 5 sedi DAI.
+  - Tabella prenotazioni attive e tabella flotta con filtro di ricerca per targa, tipo o sede.
+- **Vista Operatore** (es. `operatore.lingotto@buby.it`, `operatore.alba@buby.it`, ecc.):
+  - Dashboard pre-filtrata e confinata esclusivamente alla propria sede (lato server).
+  - Torino Lingotto: 22 veicoli, 6 prenotazioni attive.
+  - Alba: 11 veicoli, 4 prenotazioni attive.
+  - Bardonecchia: 10 veicoli, 4 prenotazioni attive.
+  - Casale Monferrato: 10 veicoli, 4 prenotazioni attive.
+  - Stresa: 11 veicoli, 3 prenotazioni attive.
+- **Vista Admin** (`admin@buby.it` / `admin12345`):
+  - Può selezionare qualsiasi sede dal menu a tendina e gestire la flotta di ciascuna sede.
+
+Se usi Podman, `carica_dati_dai.sh` rileva automaticamente `podman compose` o `podman-compose`.
+
 - Log API: `buby-rent/logs/api.log` (rotazione automatica a 10 MB, conserva 5 file)
 
-All'avvio le tabelle vengono create e caricati dati mock (2 sedi, 10 veicoli, 1 cliente, 2 utenti).
+All'avvio le tabelle vengono create e caricano i dati demo sulle 5 sedi di Torino Lingotto, Alba, Bardonecchia, Stresa e Casale Monferrato (le stesse dei dati DAI). Con `SEED_DATI_MOCK=false` il seed crea solo sedi e utenti e i dati arrivano dall'import (vedi sotto).
 
 Genera una `SECRET_KEY` vera per firmare i token:
 
@@ -63,12 +152,12 @@ Utenti di prova (cambia le password in `.env`):
 | Ruolo | Email | Password |
 | --- | --- | --- |
 | admin | admin@buby.it | admin12345 |
-| operatore (sede 1) | operatore@buby.it | operatore12345 |
-| operatore Porta Susa | operatore.porta-susa@buby.it | operatore12345 |
-| operatore Lingotto | operatore.lingotto@buby.it | operatore12345 |
-| operatore Moncalieri | operatore.moncalieri@buby.it | operatore12345 |
-| operatore Rivoli | operatore.rivoli@buby.it | operatore12345 |
-| operatore Venaria Reale | operatore.venaria-reale@buby.it | operatore12345 |
+| operatore (sede 1, Torino Lingotto) | operatore@buby.it | operatore12345 |
+| operatore Torino Lingotto | operatore.lingotto@buby.it | operatore12345 |
+| operatore Alba | operatore.alba@buby.it | operatore12345 |
+| operatore Bardonecchia | operatore.bardonecchia@buby.it | operatore12345 |
+| operatore Stresa | operatore.stresa@buby.it | operatore12345 |
+| operatore Casale Monferrato | operatore.casale-monferrato@buby.it | operatore12345 |
 | CEO (tutte le sedi, sola lettura) | buby@buby.it | buby12345 |
 
 I clienti si registrano con `POST /auth/register` (serve `accetta_privacy: true`).

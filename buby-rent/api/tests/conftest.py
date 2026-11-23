@@ -52,8 +52,8 @@ def client() -> Iterator[TestClient]:
     with test_sessions() as db:
         db.add_all(
             [
-                Sede(id=1, nome="Torino Centro", citta="Torino"),
-                Sede(id=2, nome="Lago Maggiore", citta="Stresa"),
+                Sede(id=1, nome="Torino Lingotto", citta="Torino"),
+                Sede(id=2, nome="Stresa", citta="Stresa"),
             ]
         )
         db.flush()

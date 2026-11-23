@@ -57,16 +57,16 @@ async function sedeDashboard(t: string): Promise<number | undefined> {
   return sedi[0]?.id;
 }
 
-export async function getDashboardFlotta(t: string): Promise<DashboardFlotta> {
-  const sedeId = await sedeDashboard(t);
+export async function getDashboardFlotta(t: string, sedeIdParam?: number | null): Promise<DashboardFlotta> {
+  const sedeId = sedeIdParam !== undefined ? (sedeIdParam ?? undefined) : await sedeDashboard(t);
   return request<DashboardFlotta>(
     sedeId === undefined ? "/dashboard/flotta" : `/dashboard/flotta?sede_id=${sedeId}`,
     t,
   );
 }
 
-export async function getFermi(t: string): Promise<FermoVeicolo[]> {
-  const sedeId = await sedeDashboard(t);
+export async function getFermi(t: string, sedeIdParam?: number | null): Promise<FermoVeicolo[]> {
+  const sedeId = sedeIdParam !== undefined ? (sedeIdParam ?? undefined) : await sedeDashboard(t);
   return request<FermoVeicolo[]>(
     sedeId === undefined ? "/dashboard/fermi" : `/dashboard/fermi?sede_id=${sedeId}`,
     t,

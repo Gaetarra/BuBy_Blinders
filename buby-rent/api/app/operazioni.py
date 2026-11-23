@@ -65,9 +65,14 @@ def elenco_operatori(
 @router.get("/dashboard/sedi", response_model=list[SedeOut])
 def elenco_sedi(
     db: Session = Depends(get_db),
-    utente: Utente = Depends(richiedi_ruoli("admin", "ceo")),
+    utente: Utente = Depends(richiedi_ruoli("operatore", "admin", "ceo")),
 ):
-    return list(db.scalars(select(Sede).order_by(Sede.id)))
+    query = select(Sede).order_by(Sede.id)
+    if utente.ruolo == "operatore":
+        if utente.sede_id is None:
+            raise HTTPException(403, "Operatore senza sede assegnata")
+        query = query.where(Sede.id == utente.sede_id)
+    return list(db.scalars(query))
 
 
 @router.get("/dashboard/comunicazioni", response_model=list[ComunicazioneInternaOut])
@@ -283,12 +288,15 @@ def dashboard_flotta(
         .join(Veicolo, Veicolo.id == Prenotazione.veicolo_id)
         .where(
             true() if sede_id is None else Veicolo.sede_id == sede_id,
-            Prenotazione.stato.in_(STATI_ATTIVI),
         )
     )
     if stato_prenotazione:
         prenotazioni_query = prenotazioni_query.where(
             Prenotazione.stato == stato_prenotazione
+        )
+    else:
+        prenotazioni_query = prenotazioni_query.where(
+            Prenotazione.stato.in_(STATI_ATTIVI)
         )
 
     return DashboardFlottaOut(
@@ -297,7 +305,7 @@ def dashboard_flotta(
         veicoli_per_stato={stato: conteggi.get(stato, 0) for stato in STATI_VEICOLO},
         veicoli=list(db.scalars(veicoli_query.order_by(Veicolo.id))),
         prenotazioni=list(
-            db.scalars(prenotazioni_query.order_by(Prenotazione.inizio))
+            db.scalars(prenotazioni_query.order_by(Prenotazione.inizio.desc()))
         ),
     )
 

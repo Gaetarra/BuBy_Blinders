@@ -121,7 +121,7 @@ Verificati con l'importatore di WSA su un database di prova: tutte le righe impo
 
 1. Campi della segnalazione: `AGENTS.md` cita `categoria`, `urgenza`, `sintesi` e `targa_estratta`, ma il modello dell'app oggi salva solo `categoria`. Quali campi tenere, e con quali valori ammessi? L'app usa categorie generali (`danno`, `guasto`...), i nostri dati ne hanno 16: serve una tabella di corrispondenza.
 2. Quali messaggi diventano segnalazioni: solo danni e guasti, o tutti i messaggi dei clienti collegati a un veicolo? Le note di tecnici e operatori starebbero meglio nelle comunicazioni interne, che però non hanno un import.
-3. Sedi della demo: le 5 dei nostri dati o le 6 del seed di WSA (area di Torino)?
+3. Sedi della demo: confermate le 5 sedi dei dati DAI (Torino Lingotto, Alba, Bardonecchia, Stresa, Casale Monferrato), allineando anche il seed, i test e il frontend dell'app.
 4. Formato di previsioni e KPI per gli endpoint previsti da WSA (`POST /import/previsioni`, `GET /previsioni/domanda`, `GET /kpi/utilizzo-flotta`): granularità, orizzonte e colonne.
 5. Dati personali: i file per l'app contengono nomi ed email (fittizi), che l'app cifra. Nei dati che l'app passa a noi servono `cliente_id` al posto di nome ed email, e testi senza dati personali (`../DOCUMENTAZIONE.md`, sezione 8.4).
 

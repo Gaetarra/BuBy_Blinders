@@ -72,7 +72,7 @@ buby-rent/api/app/
   supabase_auth.py   verifica JWT Supabase via JWKS
   crypto.py / encrypted_types.py / rotate_keys.py
   email_uscita.py    coda email; worker.py la spedisce
-  import_csv.py      import da CSV; seed.py dati demo e utenti
+  import_csv.py      import da CSV; import_dai.py import dei CSV del team DAI; seed.py dati demo e utenti
 buby-rent/frontend/  React 19 + TanStack Start; rotte in src/routes, client API in src/lib/api.ts
 buby-rent/data/      CSV di esempio (veicoli, prenotazioni, segnalazioni)
 buby-rent/db/        init del ruolo DB di sola lettura e configurazione pgAdmin
@@ -118,7 +118,7 @@ buby-rent/db/        init del ruolo DB di sola lettura e configurazione pgAdmin
 ## 8. Trappole verificate
 
 - `rotate_keys.CAMPI_CIFRATI` copre oggi solo `Cliente` e `Utente`; `ComunicazioneInterna.testo` e i campi di `EmailDaInviare` sono cifrati ma non vengono ricifrati dalla rotazione. Aggiungi ogni nuovo campo cifrato a `CAMPI_CIFRATI`.
-- `README.md` dichiara ancora «2 sedi, 10 veicoli, 1 cliente, 2 utenti», ma `seed.py` crea 6 sedi, 48 veicoli, 12 clienti e più operatori/CEO. Fai fede al codice.
+- `seed.py` crea 5 sedi allineate al team DAI (Torino Lingotto, Alba, Bardonecchia, Stresa, Casale Monferrato), gli utenti demo e, se `SEED_DATI_MOCK` non è `false`, 40 veicoli mock. Con `SEED_DATI_MOCK=false` i dati arrivano da `python -m app.import_dai /dai` (64 veicoli, 4.905 prenotazioni).
 - L'import CSV va eseguito nell'ordine `veicoli` → `prenotazioni` → `segnalazioni`, perché le righe successive cercano targhe ed email già presenti.
 - `logs/api.log` è gitignorato e montato in Compose; non committarlo e non usarlo per dati personali.
 - Il worker non crea i dati demo: il seed avviene all'avvio dell'API.

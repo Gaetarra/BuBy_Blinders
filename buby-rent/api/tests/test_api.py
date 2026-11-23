@@ -310,6 +310,35 @@ def test_customer_cannot_access_dashboard_and_operator_is_sede_scoped(
     assert other_branch.status_code == 403
 
 
+def test_sedi_endpoint_returns_only_own_sede_to_operator(client: TestClient):
+    operator_token = login(
+        client, "operatore@example.test", "operator-test-password"
+    )
+    sedi_operatore = client.get(
+        "/dashboard/sedi",
+        headers={"Authorization": f"Bearer {operator_token}"},
+    )
+    assert sedi_operatore.status_code == 200
+    assert [sede["id"] for sede in sedi_operatore.json()] == [1]
+
+    ceo_token = login(client, "ceo@example.test", "ceo-test-password")
+    sedi_ceo = client.get(
+        "/dashboard/sedi",
+        headers={"Authorization": f"Bearer {ceo_token}"},
+    )
+    assert sedi_ceo.status_code == 200
+    assert [sede["id"] for sede in sedi_ceo.json()] == [1, 2]
+
+    customer_token = login(
+        client, "cliente@example.test", "customer-test-password"
+    )
+    negato = client.get(
+        "/dashboard/sedi",
+        headers={"Authorization": f"Bearer {customer_token}"},
+    )
+    assert negato.status_code == 403
+
+
 def test_checkin_checkout_updates_vehicle_and_records_damage(client: TestClient):
     token = login(client, "admin@example.test", "admin-test-password")
     headers = {"Authorization": f"Bearer {token}"}

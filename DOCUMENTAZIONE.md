@@ -377,15 +377,17 @@ Regole:
 | DELETE | `/auth/me` | cliente | Cancella l'account e anonimizza l'anagrafica (art. 17 GDPR). `409` con prenotazioni attive |
 | GET | `/veicoli/disponibili?sede_id=&da=&a=&tipo=` | pubblico | Veicoli liberi nel periodo. `da` e `a` in formato ISO 8601 |
 | PATCH | `/veicoli/{id}/stato` | operatore, admin | Cambia lo stato. L'operatore solo nella propria sede. `403`, `404`, `422` |
+| POST | `/veicoli/{id}/rientro-servizio` | operatore, admin | Riporta il veicolo a `disponibile` e chiude le manutenzioni aperte; l'operatore solo nella propria sede |
 | POST | `/prenotazioni` | autenticato | Crea una prenotazione. Errori: `404` veicolo o cliente, `409` non noleggiabile o già prenotato, `422` date non valide |
 | GET | `/prenotazioni?cliente_id=` | autenticato | Il cliente vede le proprie, operatore e admin tutte. Dalla più recente |
-| GET | `/dashboard/flotta?sede_id=&stato_veicolo=&stato_prenotazione=` | operatore, admin | Riepilogo e lista flotta con filtri; l'operatore è limitato alla propria sede, l'admin deve indicare la sede |
+| GET | `/dashboard/flotta?sede_id=&stato_veicolo=&stato_prenotazione=` | operatore, admin, ceo | Riepilogo e lista flotta con filtri; l'operatore è limitato alla propria sede, l'admin deve indicare la sede, il CEO vede tutto |
 | GET | `/dashboard/comunicazioni` | operatore, admin, ceo | Coda delle comunicazioni interne; l'operatore vede la propria sede e le note non smistate |
 | POST | `/dashboard/comunicazioni` | operatore, admin | Crea una nota interna, collegabile a veicolo/sede e assegnabile a un operatore |
 | PATCH | `/dashboard/comunicazioni/{id}/assegnazione?assegnato_a_id=` | operatore, admin | Assegna la nota a un operatore; senza `assegnato_a_id` la riapre |
 | GET | `/dashboard/operatori` | admin, ceo | Elenco degli operatori per l'assegnazione |
-| GET | `/dashboard/sedi` | admin, ceo | Elenco delle sedi con gli ID effettivi del database, per i filtri della dashboard |
-| GET | `/clienti` | operatore, admin | Elenco degli ID cliente per creare prenotazioni per conto terzi; non restituisce nome o email |
+| GET | `/dashboard/sedi` | operatore (solo la propria), admin, ceo | Elenco delle sedi con gli ID effettivi del database, per i filtri e i nomi in dashboard |
+| GET | `/dashboard/fermi` | operatore, admin, ceo | Veicoli in manutenzione o danneggiati con priorità e giorni di fermo; stesso filtro per sede di `/dashboard/flotta` |
+| GET | `/clienti` | operatore, admin, ceo | Elenco degli ID cliente per creare prenotazioni per conto terzi; non restituisce nome o email |
 | POST | `/prenotazioni/{id}/checkin` | operatore, admin | Registra ispezione di ritiro (km, carburante/batteria, URL foto e note), avvia il noleggio |
 | POST | `/prenotazioni/{id}/checkout` | operatore, admin | Registra ispezione di riconsegna e chiude il noleggio; se `danni_rilevati` è true, crea una segnalazione e blocca il veicolo |
 | GET | `/prenotazioni/{id}/ispezioni` | operatore, admin | Elenca le ispezioni; l'operatore deve appartenere alla sede del veicolo |
@@ -470,18 +472,17 @@ docker compose --env-file ../.env up --build
 - Health check API: http://localhost:8000/health
 - pgAdmin (sola lettura, per l'admin): http://localhost:8080
 
-All'avvio le tabelle vengono create e vengono caricati dati mock; il seed crea un
-operatore per ogni sede oltre agli account admin e CEO.
+All'avvio le tabelle vengono create e vengono caricate le 5 sedi (Torino Lingotto, Alba, Bardonecchia, Stresa, Casale Monferrato) con un operatore per sede, oltre agli account admin e CEO. Con `SEED_DATI_MOCK=false` non viene creata la flotta demo: i dati si importano dai CSV del team DAI con lo script `./carica_dati_dai.sh` oppure manualmente con `python -m app.import_dai /dai` (procedura in `buby-rent/README.md`).
 
 | Ruolo | Email | Password |
 | --- | --- | --- |
 | admin | `admin@buby.it` | `admin12345` |
-| operatore (sede 1) | `operatore@buby.it` | `operatore12345` |
-| operatore Porta Susa | `operatore.porta-susa@buby.it` | `operatore12345` |
-| operatore Lingotto | `operatore.lingotto@buby.it` | `operatore12345` |
-| operatore Moncalieri | `operatore.moncalieri@buby.it` | `operatore12345` |
-| operatore Rivoli | `operatore.rivoli@buby.it` | `operatore12345` |
-| operatore Venaria Reale | `operatore.venaria-reale@buby.it` | `operatore12345` |
+| operatore (sede 1, Torino Lingotto) | `operatore@buby.it` | `operatore12345` |
+| operatore Torino Lingotto | `operatore.lingotto@buby.it` | `operatore12345` |
+| operatore Alba | `operatore.alba@buby.it` | `operatore12345` |
+| operatore Bardonecchia | `operatore.bardonecchia@buby.it` | `operatore12345` |
+| operatore Stresa | `operatore.stresa@buby.it` | `operatore12345` |
+| operatore Casale Monferrato | `operatore.casale-monferrato@buby.it` | `operatore12345` |
 | CEO (tutte le sedi, sola lettura) | `buby@buby.it` | `buby12345` |
 
 Nel file `.env` imposta `POSTGRES_PASSWORD`, `SECRET_KEY`, `ENCRYPTION_KEYS`, `BLIND_INDEX_KEY` (comandi per generarle in `.env.example`) e cambia le password di prova. Non committare mai `.env`. Se `ENCRYPTION_KEYS` e `BLIND_INDEX_KEY` restano vuote l'API usa chiavi di sviluppo e lo segnala nei log. Se aggiorni da una versione precedente, ricrea il database con `docker compose down -v`. Su `/docs` il pulsante Authorize permette di provare gli endpoint protetti dopo il login.
@@ -502,7 +503,8 @@ Per fermare i servizi: `docker compose down`. Per cancellare anche il database: 
 - Cambio di stato dei veicoli riservato a operatori e admin
 - Cifratura di nome ed email, con impronta HMAC per login e duplicati, e rotazione delle chiavi
 - Diritti GDPR di accesso, portabilità, rettifica e cancellazione, e registrazione dell'accettazione dell'informativa
-- Dati mock
+- Dati demo e sedi allineate a quelle del team DAI (Torino Lingotto, Alba, Bardonecchia, Stresa, Casale Monferrato)
+- Import dei CSV del team DAI per veicoli e prenotazioni (`python -m app.import_dai /dai`); le segnalazioni restano escluse finché la classificazione non compila `categoria`
 
 **Da fare**
 
@@ -517,7 +519,7 @@ Per fermare i servizi: `docker compose down`. Per cancellare anche il database: 
 - [x] Login Supabase nel frontend React e collegamento iniziale al backend
 - [ ] Verifica temporale di manutenzioni e trasferimenti nella disponibilità
 - [ ] Upload e conservazione sicura delle foto delle ispezioni (ora si registra solo un URL)
-- [ ] Import dei dati del team DAI secondo il contratto dati
+- [x] Import dei dati del team DAI per veicoli e prenotazioni; le segnalazioni aspettano la classificazione
 - [ ] Migrazioni con Alembic (oggi le tabelle sono create all'avvio)
 - [x] Test automatici iniziali: auth, autorizzazioni, prenotazioni/sovrapposizioni, dashboard, check-in/check-out e privacy dei log
 - [ ] Ampliare la copertura automatica, in particolare sulla disponibilità

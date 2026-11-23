@@ -3,7 +3,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useMemo, useState } from "react";
 import { Area, AreaChart, CartesianGrid, Cell, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { AlertTriangle, CalendarClock, Car, LayoutDashboard, LogOut, Search, Truck, Wrench } from "lucide-react";
-import { getDashboardFlotta, getFermi, setStatoVeicolo, type DashboardFlotta, type FermoVeicolo } from "@/lib/api";
+import { getDashboardFlotta, getFermi, getSedi, setStatoVeicolo, type DashboardFlotta, type FermoVeicolo, type Sede } from "@/lib/api";
 import { clearSession, readSession, type Session } from "@/lib/session";
 import { demoDomanda, demoFermi, demoFlotta, SEDI } from "@/lib/demo";
 import { RUOLO, STATO_PREN, STATO_VEICOLO, TIPO } from "@/lib/labels";
@@ -25,13 +25,13 @@ export const Route = createFileRoute("/dashboard")({
 
 const CHART = ["var(--chart-1)", "var(--chart-2)", "var(--chart-3)", "var(--chart-4)", "var(--chart-5)", "var(--chart-6)"];
 const fmt = (d: string) => new Date(d).toLocaleString("it-IT", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
-const sede = (id: number | null) => (id == null ? "Tutte le sedi" : SEDI[id] ?? `Sede ${id}`);
 
 function Dashboard() {
   const navigate = useNavigate();
   const qc = useQueryClient();
   const [session, setSession] = useState<Session | null>(null);
   const [filtro, setFiltro] = useState("");
+  const [sedeSelezionata, setSedeSelezionata] = useState<number | null>(null);
 
   useEffect(() => {
     const s = readSession();
@@ -39,15 +39,39 @@ function Dashboard() {
     else setSession(s);
   }, [navigate]);
 
+  const sedi = useQuery<Sede[]>({
+    queryKey: ["sedi", session?.token],
+    enabled: !!session && !session.demo,
+    queryFn: () => getSedi(session!.token),
+  });
+
+  // Pre-imposta per admin la prima sede restituita dal server
+  useEffect(() => {
+    if (session?.user.ruolo === "admin" && sedi.data && sedi.data.length > 0 && sedeSelezionata === null) {
+      const prima = sedi.data[0];
+      if (prima) setSedeSelezionata(prima.id);
+    }
+  }, [session, sedi.data, sedeSelezionata]);
+
+  const sedeEffettiva = session?.user.ruolo === "operatore" ? session.user.sede_id : sedeSelezionata;
+
+  const nomiSedi = useMemo(() => {
+    const mappa = new Map<number, string>();
+    sedi.data?.forEach((s) => mappa.set(s.id, s.nome));
+    return mappa;
+  }, [sedi.data]);
+  const sede = (id: number | null) =>
+    id == null ? "Tutte le sedi" : nomiSedi.get(id) ?? SEDI[id] ?? `Sede ${id}`;
+
   const flotta = useQuery<DashboardFlotta>({
-    queryKey: ["flotta", session?.token],
+    queryKey: ["flotta", session?.token, sedeEffettiva],
     enabled: !!session,
-    queryFn: () => (session!.demo ? Promise.resolve(demoFlotta) : getDashboardFlotta(session!.token)),
+    queryFn: () => (session!.demo ? Promise.resolve(demoFlotta) : getDashboardFlotta(session!.token, sedeEffettiva)),
   });
   const fermi = useQuery<FermoVeicolo[]>({
-    queryKey: ["fermi", session?.token],
+    queryKey: ["fermi", session?.token, sedeEffettiva],
     enabled: !!session,
-    queryFn: () => (session!.demo ? Promise.resolve(demoFermi) : getFermi(session!.token)),
+    queryFn: () => (session!.demo ? Promise.resolve(demoFermi) : getFermi(session!.token, sedeEffettiva)),
   });
   const cambiaStato = useMutation({
     mutationFn: ({ id, stato }: { id: number; stato: string }) => {
@@ -111,6 +135,21 @@ function Dashboard() {
             <h1 className="text-3xl font-semibold">Panoramica flotta</h1>
           </div>
           <div className="flex items-center gap-3">
+            {sedi.data && sedi.data.length > 1 && (
+              <label className="flex items-center gap-2 text-sm">
+                <span className="text-muted-foreground">Sede:</span>
+                <select
+                  value={sedeSelezionata ?? ""}
+                  onChange={(e) => setSedeSelezionata(e.target.value === "" ? null : Number(e.target.value))}
+                  className="rounded-lg border bg-background px-3 py-1.5 text-sm font-medium"
+                >
+                  {session.user.ruolo === "ceo" && <option value="">Tutte le sedi</option>}
+                  {sedi.data.map((s) => (
+                    <option key={s.id} value={s.id}>{s.nome}</option>
+                  ))}
+                </select>
+              </label>
+            )}
             {session.demo && <span className="rounded-full bg-secondary/10 px-3 py-1 text-xs font-semibold text-secondary">Dati dimostrativi</span>}
             <button onClick={() => { clearSession(); navigate({ to: "/" }); }} className="rounded-lg border px-3 py-2 text-sm md:hidden">Esci</button>
           </div>
@@ -121,7 +160,7 @@ function Dashboard() {
         )}
 
         <section className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <Kpi icon={Car} label="Veicoli in flotta" value={tot} hint={`${Object.keys(SEDI).length} sedi`} />
+          <Kpi icon={Car} label="Veicoli in flotta" value={tot} hint={`${sedi.data?.length ?? Object.keys(SEDI).length} sedi`} />
           <Kpi icon={Wrench} label="Veicoli fermi" value={fermiCount} hint="Manutenzione o danno" />
           <Kpi icon={CalendarClock} label="Prenotazioni attive" value={data?.prenotazioni.filter((p) => ["confermata", "in_corso", "richiesta"].includes(p.stato)).length ?? 0} hint="Richieste, confermate, in corso" />
         </section>
@@ -132,9 +171,9 @@ function Dashboard() {
               <ResponsiveContainer>
                 <AreaChart data={demoDomanda} margin={{ left: -20, right: 8 }}>
                   <defs>
-                    {["torino", "milano", "stresa"].map((k, i) => (
+                    {["torino", "alba", "bardonecchia", "stresa", "casale"].map((k, i) => (
                       <linearGradient key={k} id={`g-${k}`} x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="0%" stopColor={CHART[i]} stopOpacity={0.35} /><stop offset="100%" stopColor={CHART[i]} stopOpacity={0} />
+                        <stop offset="0%" stopColor={CHART[i % CHART.length]} stopOpacity={0.35} /><stop offset="100%" stopColor={CHART[i % CHART.length]} stopOpacity={0} />
                       </linearGradient>
                     ))}
                   </defs>
@@ -142,9 +181,11 @@ function Dashboard() {
                   <XAxis dataKey="giorno" stroke="var(--muted-foreground)" fontSize={12} tickLine={false} axisLine={false} />
                   <YAxis stroke="var(--muted-foreground)" fontSize={12} tickLine={false} axisLine={false} />
                   <Tooltip contentStyle={{ borderRadius: 10, border: "1px solid var(--border)", background: "var(--card)" }} />
-                  <Area dataKey="torino" name="Torino" stroke={CHART[0]} fill="url(#g-torino)" strokeWidth={2} />
-                  <Area dataKey="milano" name="Milano" stroke={CHART[1]} fill="url(#g-milano)" strokeWidth={2} />
-                  <Area dataKey="stresa" name="Stresa" stroke={CHART[2]} fill="url(#g-stresa)" strokeWidth={2} />
+                  <Area dataKey="torino" name="Torino Lingotto" stroke={CHART[0]} fill="url(#g-torino)" strokeWidth={2} />
+                  <Area dataKey="alba" name="Alba" stroke={CHART[1]} fill="url(#g-alba)" strokeWidth={2} />
+                  <Area dataKey="bardonecchia" name="Bardonecchia" stroke={CHART[2]} fill="url(#g-bardonecchia)" strokeWidth={2} />
+                  <Area dataKey="stresa" name="Stresa" stroke={CHART[3]} fill="url(#g-stresa)" strokeWidth={2} />
+                  <Area dataKey="casale" name="Casale Monferrato" stroke={CHART[4]} fill="url(#g-casale)" strokeWidth={2} />
                 </AreaChart>
               </ResponsiveContainer>
             </div>

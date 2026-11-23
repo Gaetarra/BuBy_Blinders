@@ -1,0 +1,1 @@
+buby-rent/carica_dati_dai.sh
