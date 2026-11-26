@@ -1,1 +1,3 @@
 .ipynb_checkpoints/
+modelli/cache_*.jsonl
+

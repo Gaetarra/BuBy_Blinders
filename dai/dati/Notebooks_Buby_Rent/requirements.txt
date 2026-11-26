@@ -1,5 +1,8 @@
-# Dipendenze dei notebook di data cleaning (Buby Rent - Caso 3)
+# Dipendenze dei notebook di data cleaning e classificazione (Buby Rent - Caso 3)
 # Il parsing delle date e' stato reso indipendente dalla versione di pandas,
 # ma si consiglia di usare una versione recente e coerente.
 pandas>=2.0,<4.0
 numpy>=1.24,<3.0
+scikit-learn>=1.3,<2.0
+openai>=1.0
+

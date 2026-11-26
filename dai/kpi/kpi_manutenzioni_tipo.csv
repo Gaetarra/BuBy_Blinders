@@ -1,0 +1,56 @@
+id_sede,sede,tipo_intervento,interventi,giorni_fermo,fermo_medio_gg,costo_totale_eur,costo_medio_eur,pct_addebitato_cliente
+ALB,Alba,assistenza,6,12.0,2.0,2334.0,389.0,0.0
+ALB,Alba,bici,15,78.0,5.2,2438.3,162.55,53.33
+ALB,Alba,cambio gomme estive,6,6.0,1.0,443.0,73.83,0.0
+ALB,Alba,cambio gomme invernali,7,8.0,1.14,567.0,81.0,0.0
+ALB,Alba,carrozzeria,33,398.0,12.06,31696.5,1022.47,42.42
+ALB,Alba,elettrico/batteria,13,52.0,4.0,5539.0,426.08,0.0
+ALB,Alba,gomme,11,37.0,3.36,2528.0,252.8,9.09
+ALB,Alba,meccanica,13,50.0,3.85,4120.0,374.55,0.0
+ALB,Alba,pulizia profonda,13,15.0,1.15,575.0,44.23,100.0
+ALB,Alba,tagliando,35,53.0,1.51,5310.0,156.18,0.0
+ALB,Alba,vetri,3,7.0,2.33,319.0,159.5,33.33
+BAR,Bardonecchia,assistenza,6,34.0,5.67,2145.0,357.5,0.0
+BAR,Bardonecchia,bici,21,91.0,4.33,2988.9,157.31,23.81
+BAR,Bardonecchia,cambio gomme estive,7,7.0,1.0,495.0,70.71,0.0
+BAR,Bardonecchia,cambio gomme invernali,7,8.0,1.14,541.0,77.29,0.0
+BAR,Bardonecchia,carrozzeria,23,184.0,8.0,16754.0,797.81,30.43
+BAR,Bardonecchia,elettrico/batteria,2,9.0,4.5,530.0,265.0,0.0
+BAR,Bardonecchia,gomme,9,28.0,3.11,1780.0,254.29,11.11
+BAR,Bardonecchia,meccanica,5,21.0,4.2,2336.0,467.2,0.0
+BAR,Bardonecchia,pulizia profonda,6,6.0,1.0,259.0,43.17,100.0
+BAR,Bardonecchia,tagliando,26,43.0,1.65,4489.0,172.65,0.0
+BAR,Bardonecchia,vetri,3,43.0,14.33,851.3,283.77,0.0
+CAS,Casale Monferrato,assistenza,5,31.0,6.2,1949.0,389.8,0.0
+CAS,Casale Monferrato,bici,9,47.0,5.22,1488.0,186.0,55.56
+CAS,Casale Monferrato,cambio gomme estive,6,6.0,1.0,444.0,74.0,0.0
+CAS,Casale Monferrato,cambio gomme invernali,6,9.0,1.5,379.0,75.8,0.0
+CAS,Casale Monferrato,carrozzeria,39,296.0,8.0,29971.8,768.51,35.9
+CAS,Casale Monferrato,elettrico/batteria,7,20.0,2.86,3279.0,468.43,0.0
+CAS,Casale Monferrato,gomme,11,70.0,6.36,3224.7,322.47,0.0
+CAS,Casale Monferrato,meccanica,9,25.0,2.78,3112.0,345.78,0.0
+CAS,Casale Monferrato,pulizia profonda,13,45.0,3.46,580.0,44.62,100.0
+CAS,Casale Monferrato,tagliando,31,48.0,1.55,4113.0,146.89,0.0
+CAS,Casale Monferrato,vetri,2,10.0,5.0,1345.0,672.5,100.0
+STR,Stresa,assistenza,8,24.0,3.0,3004.0,375.5,0.0
+STR,Stresa,bici,30,129.0,4.3,5399.3,179.98,50.0
+STR,Stresa,cambio gomme estive,6,10.0,1.67,418.0,69.67,0.0
+STR,Stresa,cambio gomme invernali,7,7.0,1.0,549.0,78.43,0.0
+STR,Stresa,carrozzeria,25,211.0,8.79,22963.8,918.55,48.0
+STR,Stresa,elettrico/batteria,3,21.0,7.0,1316.0,438.67,0.0
+STR,Stresa,gomme,7,14.0,2.0,2068.0,295.43,14.29
+STR,Stresa,meccanica,13,44.0,3.38,4488.0,408.0,0.0
+STR,Stresa,pulizia profonda,10,13.0,1.3,436.0,43.6,100.0
+STR,Stresa,tagliando,41,91.0,2.28,4864.0,138.97,0.0
+STR,Stresa,vetri,5,44.0,11.0,3365.0,673.0,40.0
+TOR,Torino Lingotto,assistenza,11,39.0,3.55,3745.0,340.45,0.0
+TOR,Torino Lingotto,bici,31,212.0,6.84,5398.2,199.93,45.16
+TOR,Torino Lingotto,cambio gomme estive,17,49.0,2.88,1166.0,77.73,0.0
+TOR,Torino Lingotto,cambio gomme invernali,13,16.0,1.23,1491.0,135.55,0.0
+TOR,Torino Lingotto,carrozzeria,77,674.0,8.87,51118.8,709.98,41.56
+TOR,Torino Lingotto,elettrico/batteria,20,166.0,8.74,6442.0,339.05,0.0
+TOR,Torino Lingotto,gomme,20,75.0,3.75,5892.4,310.13,5.0
+TOR,Torino Lingotto,meccanica,20,71.0,3.74,6108.0,359.29,0.0
+TOR,Torino Lingotto,pulizia profonda,19,26.0,1.37,614.0,38.38,100.0
+TOR,Torino Lingotto,tagliando,57,99.0,1.74,9191.0,167.11,0.0
+TOR,Torino Lingotto,vetri,11,51.0,5.1,7149.0,714.9,54.55

@@ -1,0 +1,61 @@
+sede,tipo_veicolo,settimana_inizio,noleggi_previsti,modello_versione
+Alba,auto,2026-11-09,6.5,ridge_v1
+Alba,ebike,2026-11-09,5.9,ridge_v1
+Alba,furgone,2026-11-09,2.4,ridge_v1
+Bardonecchia,auto,2026-11-09,4.8,ridge_v1
+Bardonecchia,ebike,2026-11-09,2.7,ridge_v1
+Bardonecchia,furgone,2026-11-09,0.9,ridge_v1
+Casale Monferrato,auto,2026-11-09,5.6,ridge_v1
+Casale Monferrato,ebike,2026-11-09,5.6,ridge_v1
+Casale Monferrato,furgone,2026-11-09,3.1,ridge_v1
+Stresa,auto,2026-11-09,5.5,ridge_v1
+Stresa,ebike,2026-11-09,7.4,ridge_v1
+Stresa,furgone,2026-11-09,0.2,ridge_v1
+Torino Lingotto,auto,2026-11-09,14.1,ridge_v1
+Torino Lingotto,ebike,2026-11-09,8.8,ridge_v1
+Torino Lingotto,furgone,2026-11-09,5.4,ridge_v1
+Alba,auto,2026-11-16,6.0,ridge_v1
+Alba,ebike,2026-11-16,5.7,ridge_v1
+Alba,furgone,2026-11-16,1.9,ridge_v1
+Bardonecchia,auto,2026-11-16,4.7,ridge_v1
+Bardonecchia,ebike,2026-11-16,2.8,ridge_v1
+Bardonecchia,furgone,2026-11-16,0.6,ridge_v1
+Casale Monferrato,auto,2026-11-16,5.6,ridge_v1
+Casale Monferrato,ebike,2026-11-16,5.5,ridge_v1
+Casale Monferrato,furgone,2026-11-16,2.9,ridge_v1
+Stresa,auto,2026-11-16,5.9,ridge_v1
+Stresa,ebike,2026-11-16,7.6,ridge_v1
+Stresa,furgone,2026-11-16,0.0,ridge_v1
+Torino Lingotto,auto,2026-11-16,13.8,ridge_v1
+Torino Lingotto,ebike,2026-11-16,8.1,ridge_v1
+Torino Lingotto,furgone,2026-11-16,5.4,ridge_v1
+Alba,auto,2026-11-23,5.6,ridge_v1
+Alba,ebike,2026-11-23,4.8,ridge_v1
+Alba,furgone,2026-11-23,1.8,ridge_v1
+Bardonecchia,auto,2026-11-23,4.4,ridge_v1
+Bardonecchia,ebike,2026-11-23,2.2,ridge_v1
+Bardonecchia,furgone,2026-11-23,0.5,ridge_v1
+Casale Monferrato,auto,2026-11-23,5.2,ridge_v1
+Casale Monferrato,ebike,2026-11-23,5.1,ridge_v1
+Casale Monferrato,furgone,2026-11-23,2.8,ridge_v1
+Stresa,auto,2026-11-23,5.0,ridge_v1
+Stresa,ebike,2026-11-23,6.8,ridge_v1
+Stresa,furgone,2026-11-23,0.0,ridge_v1
+Torino Lingotto,auto,2026-11-23,13.4,ridge_v1
+Torino Lingotto,ebike,2026-11-23,7.4,ridge_v1
+Torino Lingotto,furgone,2026-11-23,4.9,ridge_v1
+Alba,auto,2026-11-30,5.6,ridge_v1
+Alba,ebike,2026-11-30,4.8,ridge_v1
+Alba,furgone,2026-11-30,1.6,ridge_v1
+Bardonecchia,auto,2026-11-30,4.3,ridge_v1
+Bardonecchia,ebike,2026-11-30,2.2,ridge_v1
+Bardonecchia,furgone,2026-11-30,0.3,ridge_v1
+Casale Monferrato,auto,2026-11-30,4.9,ridge_v1
+Casale Monferrato,ebike,2026-11-30,4.9,ridge_v1
+Casale Monferrato,furgone,2026-11-30,2.5,ridge_v1
+Stresa,auto,2026-11-30,4.7,ridge_v1
+Stresa,ebike,2026-11-30,6.5,ridge_v1
+Stresa,furgone,2026-11-30,0.0,ridge_v1
+Torino Lingotto,auto,2026-11-30,13.2,ridge_v1
+Torino Lingotto,ebike,2026-11-30,7.5,ridge_v1
+Torino Lingotto,furgone,2026-11-30,4.5,ridge_v1

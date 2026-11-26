@@ -1,0 +1,121 @@
+id_sede,tipo_veicolo,settimana_inizio,noleggi,roll_mean_4,sede,pred_1step,pred_4w_ricorsivo,modello_versione
+ALB,auto,2026-09-14,6,6.75,Alba,6.9,6.9,ridge_v1
+ALB,auto,2026-09-21,11,6.75,Alba,6.73,6.95,ridge_v1
+ALB,auto,2026-09-28,5,9.0,Alba,8.63,7.75,ridge_v1
+ALB,auto,2026-10-05,8,8.25,Alba,7.31,7.6,ridge_v1
+ALB,auto,2026-10-12,8,7.5,Alba,7.59,7.59,ridge_v1
+ALB,auto,2026-10-19,9,8.0,Alba,7.43,7.33,ridge_v1
+ALB,auto,2026-10-26,5,7.5,Alba,7.6,7.13,ridge_v1
+ALB,auto,2026-11-02,6,7.5,Alba,7.0,7.21,ridge_v1
+ALB,ebike,2026-09-14,6,8.75,Alba,8.0,8.0,ridge_v1
+ALB,ebike,2026-09-21,10,8.0,Alba,7.54,8.03,ridge_v1
+ALB,ebike,2026-09-28,8,9.25,Alba,8.58,8.38,ridge_v1
+ALB,ebike,2026-10-05,14,8.5,Alba,7.72,7.94,ridge_v1
+ALB,ebike,2026-10-12,6,9.5,Alba,9.26,9.26,ridge_v1
+ALB,ebike,2026-10-19,11,9.5,Alba,8.17,8.98,ridge_v1
+ALB,ebike,2026-10-26,6,9.75,Alba,9.3,9.25,ridge_v1
+ALB,ebike,2026-11-02,3,9.25,Alba,7.8,8.98,ridge_v1
+ALB,furgone,2026-09-14,1,2.25,Alba,1.9,1.9,ridge_v1
+ALB,furgone,2026-09-21,4,1.5,Alba,1.69,1.91,ridge_v1
+ALB,furgone,2026-09-28,1,2.0,Alba,2.12,1.73,ridge_v1
+ALB,furgone,2026-10-05,1,1.5,Alba,1.59,1.66,ridge_v1
+ALB,furgone,2026-10-12,7,1.75,Alba,1.84,1.84,ridge_v1
+ALB,furgone,2026-10-19,1,3.25,Alba,3.05,1.77,ridge_v1
+ALB,furgone,2026-10-26,3,2.5,Alba,2.02,1.49,ridge_v1
+ALB,furgone,2026-11-02,3,3.0,Alba,2.74,1.43,ridge_v1
+BAR,auto,2026-09-14,4,6.0,Bardonecchia,5.95,5.95,ridge_v1
+BAR,auto,2026-09-21,7,4.75,Bardonecchia,5.22,5.7,ridge_v1
+BAR,auto,2026-09-28,8,5.25,Bardonecchia,5.78,5.73,ridge_v1
+BAR,auto,2026-10-05,4,6.0,Bardonecchia,6.22,5.87,ridge_v1
+BAR,auto,2026-10-12,5,5.75,Bardonecchia,5.75,5.75,ridge_v1
+BAR,auto,2026-10-19,6,6.0,Bardonecchia,5.93,6.12,ridge_v1
+BAR,auto,2026-10-26,5,5.75,Bardonecchia,5.68,5.81,ridge_v1
+BAR,auto,2026-11-02,4,5.0,Bardonecchia,5.15,5.52,ridge_v1
+BAR,ebike,2026-09-14,4,9.5,Bardonecchia,8.57,8.57,ridge_v1
+BAR,ebike,2026-09-21,6,7.75,Bardonecchia,7.14,8.27,ridge_v1
+BAR,ebike,2026-09-28,6,6.0,Bardonecchia,6.32,7.53,ridge_v1
+BAR,ebike,2026-10-05,5,5.5,Bardonecchia,5.87,7.5,ridge_v1
+BAR,ebike,2026-10-12,1,5.25,Bardonecchia,5.67,5.67,ridge_v1
+BAR,ebike,2026-10-19,6,4.5,Bardonecchia,4.66,5.82,ridge_v1
+BAR,ebike,2026-10-26,3,4.5,Bardonecchia,5.03,5.65,ridge_v1
+BAR,ebike,2026-11-02,0,3.75,Bardonecchia,3.9,5.47,ridge_v1
+BAR,furgone,2026-09-14,1,1.25,Bardonecchia,1.14,1.14,ridge_v1
+BAR,furgone,2026-09-21,2,1.0,Bardonecchia,1.07,1.11,ridge_v1
+BAR,furgone,2026-09-28,0,1.0,Bardonecchia,1.12,0.92,ridge_v1
+BAR,furgone,2026-10-05,1,0.75,Bardonecchia,0.77,0.9,ridge_v1
+BAR,furgone,2026-10-12,2,1.0,Bardonecchia,1.03,1.03,ridge_v1
+BAR,furgone,2026-10-19,1,1.25,Bardonecchia,1.09,0.84,ridge_v1
+BAR,furgone,2026-10-26,1,1.0,Bardonecchia,0.91,0.73,ridge_v1
+BAR,furgone,2026-11-02,2,1.25,Bardonecchia,0.97,0.69,ridge_v1
+CAS,auto,2026-09-14,4,6.75,Casale Monferrato,6.54,6.54,ridge_v1
+CAS,auto,2026-09-21,4,6.25,Casale Monferrato,6.01,6.64,ridge_v1
+CAS,auto,2026-09-28,5,5.25,Casale Monferrato,5.4,6.42,ridge_v1
+CAS,auto,2026-10-05,5,4.75,Casale Monferrato,5.09,6.32,ridge_v1
+CAS,auto,2026-10-12,5,4.5,Casale Monferrato,4.89,4.89,ridge_v1
+CAS,auto,2026-10-19,7,4.75,Casale Monferrato,5.01,4.98,ridge_v1
+CAS,auto,2026-10-26,7,5.5,Casale Monferrato,5.58,5.07,ridge_v1
+CAS,auto,2026-11-02,6,6.0,Casale Monferrato,5.72,4.93,ridge_v1
+CAS,ebike,2026-09-14,7,8.25,Casale Monferrato,7.83,7.83,ridge_v1
+CAS,ebike,2026-09-21,7,8.25,Casale Monferrato,7.85,8.05,ridge_v1
+CAS,ebike,2026-09-28,6,8.5,Casale Monferrato,7.83,8.21,ridge_v1
+CAS,ebike,2026-10-05,11,7.25,Casale Monferrato,6.98,7.85,ridge_v1
+CAS,ebike,2026-10-12,9,7.75,Casale Monferrato,7.82,7.82,ridge_v1
+CAS,ebike,2026-10-19,5,8.25,Casale Monferrato,7.78,7.48,ridge_v1
+CAS,ebike,2026-10-26,8,7.75,Casale Monferrato,7.39,7.84,ridge_v1
+CAS,ebike,2026-11-02,4,8.25,Casale Monferrato,7.66,7.73,ridge_v1
+CAS,furgone,2026-09-14,5,2.25,Casale Monferrato,2.23,2.23,ridge_v1
+CAS,furgone,2026-09-21,4,3.0,Casale Monferrato,2.92,2.23,ridge_v1
+CAS,furgone,2026-09-28,3,3.25,Casale Monferrato,2.97,2.14,ridge_v1
+CAS,furgone,2026-10-05,5,3.5,Casale Monferrato,3.14,2.12,ridge_v1
+CAS,furgone,2026-10-12,3,4.25,Casale Monferrato,3.68,3.68,ridge_v1
+CAS,furgone,2026-10-19,3,3.75,Casale Monferrato,3.13,3.3,ridge_v1
+CAS,furgone,2026-10-26,4,3.5,Casale Monferrato,3.13,3.3,ridge_v1
+CAS,furgone,2026-11-02,5,3.75,Casale Monferrato,3.14,3.15,ridge_v1
+STR,auto,2026-09-14,3,7.0,Stresa,7.32,7.32,ridge_v1
+STR,auto,2026-09-21,6,6.25,Stresa,6.04,7.11,ridge_v1
+STR,auto,2026-09-28,7,5.75,Stresa,6.36,7.24,ridge_v1
+STR,auto,2026-10-05,4,6.25,Stresa,6.3,7.38,ridge_v1
+STR,auto,2026-10-12,4,5.0,Stresa,5.52,5.52,ridge_v1
+STR,auto,2026-10-19,9,5.25,Stresa,5.61,5.99,ridge_v1
+STR,auto,2026-10-26,9,6.0,Stresa,6.36,5.82,ridge_v1
+STR,auto,2026-11-02,2,6.5,Stresa,6.56,5.65,ridge_v1
+STR,ebike,2026-09-14,15,12.75,Stresa,11.6,11.6,ridge_v1
+STR,ebike,2026-09-21,19,12.5,Stresa,12.24,11.4,ridge_v1
+STR,ebike,2026-09-28,10,13.5,Stresa,12.83,10.46,ridge_v1
+STR,ebike,2026-10-05,10,12.75,Stresa,11.96,10.32,ridge_v1
+STR,ebike,2026-10-12,9,13.5,Stresa,12.48,12.48,ridge_v1
+STR,ebike,2026-10-19,9,12.0,Stresa,10.9,11.76,ridge_v1
+STR,ebike,2026-10-26,11,9.5,Stresa,9.59,10.76,ridge_v1
+STR,ebike,2026-11-02,3,9.75,Stresa,9.72,10.75,ridge_v1
+STR,furgone,2026-09-14,1,1.0,Stresa,1.15,1.15,ridge_v1
+STR,furgone,2026-09-21,0,1.25,Stresa,1.21,1.25,ridge_v1
+STR,furgone,2026-09-28,0,0.75,Stresa,0.84,1.17,ridge_v1
+STR,furgone,2026-10-05,2,0.5,Stresa,0.68,1.17,ridge_v1
+STR,furgone,2026-10-12,2,0.75,Stresa,0.92,0.92,ridge_v1
+STR,furgone,2026-10-19,0,1.0,Stresa,1.03,0.76,ridge_v1
+STR,furgone,2026-10-26,1,1.0,Stresa,0.91,0.94,ridge_v1
+STR,furgone,2026-11-02,0,1.25,Stresa,1.01,0.89,ridge_v1
+TOR,auto,2026-09-14,14,15.0,Torino Lingotto,14.37,14.37,ridge_v1
+TOR,auto,2026-09-21,16,12.75,Torino Lingotto,13.33,13.42,ridge_v1
+TOR,auto,2026-09-28,14,13.75,Torino Lingotto,14.05,13.46,ridge_v1
+TOR,auto,2026-10-05,14,14.25,Torino Lingotto,14.14,13.72,ridge_v1
+TOR,auto,2026-10-12,15,14.5,Torino Lingotto,14.35,14.35,ridge_v1
+TOR,auto,2026-10-19,16,14.75,Torino Lingotto,14.29,14.12,ridge_v1
+TOR,auto,2026-10-26,14,14.75,Torino Lingotto,14.46,13.9,ridge_v1
+TOR,auto,2026-11-02,14,14.75,Torino Lingotto,14.22,13.8,ridge_v1
+TOR,ebike,2026-09-14,16,7.75,Torino Lingotto,8.39,8.39,ridge_v1
+TOR,ebike,2026-09-21,16,10.75,Torino Lingotto,10.89,9.0,ridge_v1
+TOR,ebike,2026-09-28,14,13.25,Torino Lingotto,12.14,9.33,ridge_v1
+TOR,ebike,2026-10-05,12,14.0,Torino Lingotto,12.77,9.09,ridge_v1
+TOR,ebike,2026-10-12,14,14.5,Torino Lingotto,12.8,12.8,ridge_v1
+TOR,ebike,2026-10-19,12,14.0,Torino Lingotto,12.75,12.45,ridge_v1
+TOR,ebike,2026-10-26,7,13.0,Torino Lingotto,12.0,11.95,ridge_v1
+TOR,ebike,2026-11-02,5,11.25,Torino Lingotto,10.54,11.59,ridge_v1
+TOR,furgone,2026-09-14,4,4.5,Torino Lingotto,4.62,4.62,ridge_v1
+TOR,furgone,2026-09-21,5,5.0,Torino Lingotto,4.82,4.98,ridge_v1
+TOR,furgone,2026-09-28,6,5.0,Torino Lingotto,4.83,4.91,ridge_v1
+TOR,furgone,2026-10-05,6,5.0,Torino Lingotto,4.87,4.72,ridge_v1
+TOR,furgone,2026-10-12,5,5.25,Torino Lingotto,5.07,5.07,ridge_v1
+TOR,furgone,2026-10-19,7,5.5,Torino Lingotto,5.14,5.16,ridge_v1
+TOR,furgone,2026-10-26,8,6.0,Torino Lingotto,5.64,5.19,ridge_v1
+TOR,furgone,2026-11-02,5,6.5,Torino Lingotto,5.85,4.9,ridge_v1

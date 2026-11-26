@@ -1,0 +1,7 @@
+id_sede,sede,n_veicoli,noleggi_totali,noleggi_effettivi,tasso_utilizzo_%,giorni_fermo,fermo_flotta_%,ricavi_eur,ricavo_medio_eur,ricavo_per_veicolo_eur,costo_manut_eur,costo_manut_per_veicolo_eur,costo_manut_per_100km_eur,tasso_annullamento_%,tasso_no_show_%,saldo_one_way,valutazione_media
+ALB,Alba,11,857,792,56.2,716,17.4,129147.16,164.1,11740.65,55869.8,5079.07,21.52,7.6,0.8,10,4.28
+BAR,Bardonecchia,10,677,616,54.8,474,12.6,173381.81,283.3,17338.18,33169.2,3316.92,18.8,9.0,2.2,2,4.18
+CAS,Casale Monferrato,10,811,741,53.3,607,16.2,110257.94,149.6,11025.79,49885.5,4988.55,26.45,8.6,1.6,-4,4.2
+STR,Stresa,11,921,838,52.1,608,14.7,120138.3,143.88,10921.66,48871.1,4442.83,21.74,9.0,1.4,5,4.17
+TOR,Torino Lingotto,22,1731,1580,58.4,1478,17.9,302417.12,192.13,13746.23,98315.4,4468.88,24.23,8.7,1.8,-13,4.24
+TOTALE,Tutte le sedi,64,4997,4567,55.6,3897,16.2,835342.33,183.79,13052.22,286848.1,4482.0,22.85,8.6,1.6,0,4.22
